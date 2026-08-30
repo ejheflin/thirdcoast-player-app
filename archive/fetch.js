@@ -47,10 +47,16 @@ export async function runArchive(deps) {
     const html = await fetchStandingsHTML(program.id);
     await sleep(REQUEST_DELAY_MS);
     const rows = parseStandings(html, program.id);
+    // No timestamp field here, deliberately: a fresh `new Date()` on every
+    // run made every one of the ~416 standings files differ from disk even
+    // when the league's actual data hadn't moved, so `git diff --quiet`
+    // was always dirty and the workflow committed all of them twice a day
+    // forever -- exactly what the spec's "commits only if data changed"
+    // rule exists to prevent. Nothing in the site ever read it; git's own
+    // commit history is the record of when data last actually changed.
     await writeJSON(`docs/data/standings/${program.id}.json`, {
       programId: program.id,
       programName: program.name,
-      updatedAt: new Date().toISOString(),
       rows,
     });
 
@@ -68,6 +74,23 @@ export async function runArchive(deps) {
       const rosterHtml = await fetchRosterHTML(program.id, row.teamId);
       await sleep(REQUEST_DELAY_MS);
       const players = parseRoster(rosterHtml);
+
+      // The team -> people index. Without it nothing in the site can reach
+      // a player card at all: people/{userId}.json can only be looked up
+      // once you already know the userId, and no other file maps a team to
+      // its players. First names only, exactly like people/*.json -- this
+      // stores nothing people/*.json doesn't already hold.
+      await writeJSON(`docs/data/rosters/${program.id}-${row.teamId}.json`, {
+        programId: program.id,
+        teamId: row.teamId,
+        teamName: row.teamName,
+        players: players.map((p) => ({
+          userId: p.userId,
+          firstName: firstNameOf(p.fullName),
+          isCaptain: p.isCaptain,
+        })),
+      });
+
       for (const player of players) {
         const path = `docs/data/people/${player.userId}.json`;
         const existing = await readJSON(path);
@@ -104,8 +127,11 @@ export async function runArchive(deps) {
   await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);
 }
 
-const isMain = import.meta.url === `file://${process.argv[1]?.replace(/\\/g, '/')}`;
-if (isMain || process.argv[1]?.endsWith('fetch.js')) {
+// Node 20.11+ hands us the module's own path directly, already in the same
+// platform-native form as argv[1]. The previous file:// URL construction
+// never actually matched on Windows (wrong slash count after the scheme)
+// and only worked through an endsWith() fallback.
+if (import.meta.filename === process.argv[1]) {
   const deps = {
     fetchPrograms: leagueapps.fetchPrograms,
     fetchActivities: leagueapps.fetchActivities,

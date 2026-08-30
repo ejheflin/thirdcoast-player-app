@@ -44,4 +44,37 @@ test('runArchive writes standings for every program, activities+roster only for 
   const index = writes.get('docs/data/active-teams-index.json');
   assert.ok(index.some((t) => t.programId === 2 && t.teamId === 10));
   assert.equal(index.some((t) => t.programId === 1), false, 'completed programs must not appear in the search index');
+
+  // The team -> people index the site needs to reach a player card at all.
+  const roster = writes.get('docs/data/rosters/2-10.json');
+  assert.ok(roster, 'an active team gets a roster file');
+  assert.deepEqual(roster.players, [{ userId: 555, firstName: 'Real', isCaptain: true }]);
+  assert.equal(JSON.stringify(roster).includes('Real Name'), false, 'a roster file must never carry a full name');
+  assert.equal(writes.has('docs/data/rosters/1-10.json'), false, 'completed programs get no roster files');
+});
+
+// The archiver rewrites every standings file on every run; if any field in
+// them changed run-to-run without the league's data changing, `git diff
+// --quiet` in the workflow would never be clean and the Action would commit
+// ~416 files twice a day forever. A wall-clock `updatedAt` used to do
+// exactly that.
+test('runArchive writes byte-identical standings when nothing about the data changed', async () => {
+  const makeDeps = (writes) => ({
+    fetchPrograms: async () => [{ id: 1, name: 'Old League', state: 'COMPLETED' }],
+    fetchActivities: async () => [],
+    fetchStandingsHTML: async (id) => `<standings-for-${id}>`,
+    parseStandings: () => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+  const first = new Map();
+  const second = new Map();
+  await runArchive(makeDeps(first));
+  await runArchive(makeDeps(second));
+  assert.equal(
+    JSON.stringify(first.get('docs/data/standings/1.json')),
+    JSON.stringify(second.get('docs/data/standings/1.json')),
+  );
 });
