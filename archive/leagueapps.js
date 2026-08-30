@@ -36,7 +36,11 @@ export async function fetchStandingsHTML(programId) {
 }
 
 export async function fetchRosterHTML(programId, teamId) {
-  const url = `${SITE_BASE}/leagues/${programId}/teamRoster?teamId=${teamId}`;
+  // Same ngmp_2023_iframe_transition=1 requirement as the standings page —
+  // found only via a real live run (Task 14): without it, this endpoint
+  // serves the React SPA shell (no roster rows at all) instead of the
+  // legacy rendered page every real active team actually needs.
+  const url = `${SITE_BASE}/leagues/${programId}/teamRoster?teamId=${teamId}&ngmp_2023_iframe_transition=1`;
   const res = await fetch(url, { headers: { Accept: 'text/html' } });
   if (!res.ok) throw new Error(`fetchRosterHTML: program ${programId} team ${teamId} unexpected status ${res.status}`);
   return res.text();
@@ -64,12 +68,32 @@ function cellsOf(row) {
 const WANT_HEADERS = ['Team', 'GP', 'W', 'L', 'T', 'PS'];
 const TEAM_LINK_RE = /\/teams\/(\d+)/;
 
+// A real, sanctioned LeagueApps empty-state, seen on real completed
+// programs (long-past leagues whose standings were simply never posted)
+// and real not-yet-started upcoming programs (no games played yet). This
+// is "no data", not "the page shape changed" — parseRoster already draws
+// the same distinction (empty roster vs. malformed page), so standings
+// gets the same treatment here rather than crashing the whole archive run.
+// Matched structurally (the stable "mod empty-state" wrapper LeagueApps
+// renders on the standings page whenever there's nothing to show) rather
+// than by exact wording, since a real full-catalog run turned up multiple
+// real wordings for it ("the standings have not yet been posted.",
+// "this league's standings are not yet available.").
+const NOT_POSTED_RE = /class="mod empty-state"/i;
+
 // parseStandings ports leagueapps/standings.go's parseStandings.go 1:1:
 // same column assertions, same "a row with a team link must parse or the
 // whole call fails" rule, so a real team's seed can never silently shift.
+// One relaxation found only via a real full-catalog run (see Task 14):
+// some real historical standings tables carry a trailing "+/-" column
+// past the expected 6. Extra trailing columns are tolerated as long as
+// the first WANT_HEADERS.length columns match exactly, in order — the
+// "can never silently shift" guarantee is unaffected since the columns
+// this project actually reads are still asserted by name and position.
 export function parseStandings(doc, programId) {
   const tableMatch = /<table[^>]*class="[^"]*standings[^"]*"[^>]*>([\s\S]*?)<\/table>/.exec(doc);
   if (!tableMatch) {
+    if (NOT_POSTED_RE.test(doc)) return [];
     throw new Error(`program ${programId}: no standings table found (page may be the SPA shell)`);
   }
   if (tableMatch[1].includes('<table')) {
@@ -82,8 +106,8 @@ export function parseStandings(doc, programId) {
   if (rows.length === 0) throw new Error(`program ${programId}: standings table has no rows`);
 
   const header = cellsOf(rows[0]);
-  if (header.length !== WANT_HEADERS.length) {
-    throw new Error(`program ${programId}: standings header has ${header.length} columns, want ${WANT_HEADERS.length}`);
+  if (header.length < WANT_HEADERS.length) {
+    throw new Error(`program ${programId}: standings header has ${header.length} columns, want at least ${WANT_HEADERS.length}`);
   }
   for (let i = 0; i < WANT_HEADERS.length; i++) {
     if (header[i] !== WANT_HEADERS[i]) {
@@ -95,11 +119,11 @@ export function parseStandings(doc, programId) {
   for (const r of rows.slice(1)) {
     const hasTeamLink = TEAM_LINK_RE.test(r);
     const cells = cellsOf(r);
-    if (cells.length !== WANT_HEADERS.length) {
-      if (hasTeamLink) throw new Error(`program ${programId}: standings row with a team link has ${cells.length} columns, want ${WANT_HEADERS.length}`);
+    if (cells.length < WANT_HEADERS.length) {
+      if (hasTeamLink) throw new Error(`program ${programId}: standings row with a team link has ${cells.length} columns, want at least ${WANT_HEADERS.length}`);
       continue; // spacer/decorative row
     }
-    const nums = cells.slice(1).map(Number);
+    const nums = cells.slice(1, WANT_HEADERS.length).map(Number);
     if (nums.some((n) => Number.isNaN(n))) {
       if (hasTeamLink) throw new Error(`program ${programId}: standings row for team ${JSON.stringify(cells[0])} has a non-numeric stat cell`);
       continue;
