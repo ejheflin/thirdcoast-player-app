@@ -47,11 +47,21 @@ Promise.all([
   if (!standings || standings.rows.length === 0) return;
   document.getElementById('greet').textContent = standings.programName;
   const games = activities?.games ?? [];
-  const rated = standings.rows.map((r) => ({ ...r, rating: ratingFor(r, games) }));
-  const sorted = [...rated].sort((a, b) => b.rating - a.rating);
-  const cutoffRating = sorted[Math.min(CUTOFF, sorted.length) - 1].rating;
+  const rated = standings.rows.map((r) => ({ ...r, rating: r.gamesPlayed > 0 ? ratingFor(r, games) : null }));
+  const withGames = rated.filter((r) => r.rating !== null);
+  const sorted = [...withGames].sort((a, b) => b.rating - a.rating);
+  const cutoffTeam = rated.find((r) => r.position === CUTOFF);
+  const cutoffRating = cutoffTeam?.rating ?? sorted[Math.min(CUTOFF, sorted.length) - 1]?.rating ?? 0;
 
   document.getElementById('rows').innerHTML = rated.map((r) => {
+    if (r.rating === null) {
+      return `<div class="odds-row">
+      <div class="pos">${r.position}</div>
+      <div class="nm">${escapeHTML(r.teamName)}</div>
+      <div class="odds-track"><b style="width:0%"></b></div>
+      <div class="odds-pct">—</div>
+    </div>`;
+    }
     const gap = r.rating - cutoffRating;
     let pct = Math.round(50 + gap * 400);
     pct = r.position <= CUTOFF ? Math.max(pct, 50) : Math.min(pct, 50);
