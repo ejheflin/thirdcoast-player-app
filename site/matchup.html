@@ -61,6 +61,7 @@ Promise.all([
   const picker = document.getElementById('oppPicker');
   for (const r of standings.rows) {
     if (r.teamId === teamId) continue;
+    if (r.gamesPlayed === 0) continue;
     const opt = document.createElement('option');
     opt.value = r.teamId;
     opt.textContent = r.teamName;
@@ -75,9 +76,12 @@ Promise.all([
 
     const myRating = ratingFor(myRow, games);
     const oppRating = ratingFor(oppRow, games);
-    const pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
+    let pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
+    pctMe = Math.max(1, Math.min(99, pctMe));
     const pctOpp = 100 - pctMe;
-    const met = games.filter((g) => g.teams.some((t) => t.teamId === oppId));
+    const met = games.filter((g) =>
+      g.teams.some((t) => t.teamId === teamId) && g.teams.some((t) => t.teamId === oppId)
+    );
 
     resultEl.innerHTML = `
       <div class="card">
