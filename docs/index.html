@@ -6,27 +6,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="assets/app.css">
-<style>
-  .search-wrap{padding:60px 20px}
-  .search-wrap h1{font-family:"Archivo Black",Impact,sans-serif;font-size:26px;margin:0 0 6px}
-  .search-wrap p{color:var(--app-dim);font-size:14px;margin:0 0 20px}
-  #q{width:100%;padding:14px;border-radius:12px;border:1px solid var(--app-line);
-    background:var(--app-surface);color:var(--app-ink);font-size:16px;font-family:inherit}
-  .result{display:block;width:100%;text-align:left;padding:14px;margin-top:10px;border-radius:12px;
-    background:var(--app-surface);border:1px solid var(--app-line);color:var(--app-ink);cursor:pointer;font-size:14px}
-  .result b{display:block}
-  .result span{font-size:12px;color:var(--app-faint)}
-  .empty{color:var(--app-faint);font-size:13px;margin-top:16px}
-</style>
 </head>
 <body>
+<!-- The search head stays put; only the results list scrolls, so a long
+     match list can never be clipped off the bottom of a phone screen. -->
 <div class="screen">
-  <div class="search-wrap">
+  <div class="search-head">
     <h1>Find your team</h1>
     <p>Search this season's active leagues only.</p>
     <input id="q" type="text" placeholder="Team name…" autocomplete="off">
-    <div id="results"></div>
   </div>
+  <div class="body" id="results"></div>
 </div>
 <script src="assets/app.js"></script>
 <script>
@@ -72,7 +62,8 @@ document.getElementById('q').addEventListener('input', (e) => {
   performSearch(currentQuery);
 });
 
-// Returning player: skip the search entirely.
+// Returning player: skip the search entirely. team.html clears the saved
+// pointer if it turns out to be stale, so this can't bounce forever.
 const existing = getMyTeam();
 if (existing) location.href = `team.html?team=${encodeURIComponent(existing.teamId)}&program=${encodeURIComponent(existing.programId)}`;
 </script>

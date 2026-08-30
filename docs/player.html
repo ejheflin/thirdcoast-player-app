@@ -12,15 +12,18 @@
   <div class="topbar"><div><div class="greet">Player</div><div class="brand">Player <em style="color:var(--app-data)">Card</em></div></div></div>
   <div class="body" id="body"><p style="color:var(--app-faint);font-size:13px">Loading…</p></div>
   <div class="tabbar">
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
-    <div class="tab on"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
   </div>
 </div>
 <script src="assets/app.js"></script>
 <script>
 const userId = new URLSearchParams(location.search).get('person');
+// Ranks/Matchup fall back to the saved team, so a player card reached from
+// anywhere still gets you back into your own league in one tap.
+wireTabs({ active: 'players', personId: userId });
 
 fetchJSON(`data/people/${userId}.json`).then((person) => {
   const bodyEl = document.getElementById('body');
@@ -32,7 +35,7 @@ fetchJSON(`data/people/${userId}.json`).then((person) => {
   const captainCount = person.appearances.filter((a) => a.isCaptain).length;
   bodyEl.innerHTML = `
     <div class="dyn-hero">
-      <div class="av"><b>${escapeHTML(person.firstName).slice(0, 2).toUpperCase()}</b></div>
+      <div class="av"><b>${escapeHTML(person.firstName.slice(0, 2).toUpperCase())}</b></div>
       <h3>${escapeHTML(person.firstName)}</h3>
       <div class="sub">${seasons} season${seasons === 1 ? '' : 's'}</div>
       <div class="badge-row"><span class="badge"><svg class="icon"><use href="#i-star"/></svg> ${captainCount} team${captainCount === 1 ? '' : 's'} captained</span></div>

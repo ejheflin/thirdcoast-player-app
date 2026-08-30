@@ -1,0 +1,9 @@
+{
+  "programId": 9001,
+  "teamId": 501,
+  "teamName": "1. Testers United",
+  "players": [
+    {"userId":1,"firstName":"Sam","isCaptain":true},
+    {"userId":2,"firstName":"Robin","isCaptain":false}
+  ]
+}

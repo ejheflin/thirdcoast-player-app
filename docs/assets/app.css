@@ -1,16 +1,16 @@
-/* docs/assets/app.css — ported verbatim from the approved league-intel.html mockup's phone-app
-   design system (Third Coast broadcast board's own tokens/fonts, reused
-   so this reads as the same product's web-shaped sibling). Plus a real
-   page shell, since this is a real site now, not a phone-mockup gallery. */
+/* docs/assets/app.css — ported from the approved league-intel.html mockup's
+   phone-app design system (Third Coast broadcast board's own tokens/fonts,
+   reused so this reads as the same product's web-shaped sibling), plus a
+   real page shell, since this is a real site now, not a phone-mockup
+   gallery. Mockup-only components that no page here uses have been
+   dropped; what's left is only what the six pages actually render. */
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{background:#101A2C;display:flex;justify-content:center}
-.screen{max-width:480px;width:100%;min-height:100vh;border-radius:0}
 
-.screen{width:100%;height:100%;overflow:hidden;background:var(--app-bg);position:relative;
-  display:flex;flex-direction:column}
-
-/* app-internal design system: NOT its own palette -- these are the exact
+/* The page shell every page shares: a fixed-height column (topbar, one
+   scrolling body, tab bar) capped at phone width and centred on desktop.
+   app-internal design system: NOT its own palette -- these are the exact
    tokens and fonts gamenight.html/board.html/playoff.html already use for
    the real broadcast board (verified against gamenight.html directly, not
    approximated), reused so this reads as the same product's phone-shaped
@@ -27,6 +27,8 @@ body{background:#101A2C;display:flex;justify-content:center}
    muted eliminated-grey, not an alarm color), while a player's own W/L/T
    game log needs one that reads clearly at a glance. */
 .screen{
+  max-width:480px;width:100%;height:100%;overflow:hidden;position:relative;
+  display:flex;flex-direction:column;background:var(--app-bg);
   --app-bg:#101A2C; --app-surface:#1A263C; --app-raised:#24334E; --app-line:#2B3A54;
   --app-ink:#FFFFFF; --app-dim:#8E99AB; --app-faint:#5A6478;
   --app-accent:#FFC400; --app-data:#2E9BFF; --app-live:#FF00A0; --app-on-fill:#06070A;
@@ -42,10 +44,6 @@ body{background:#101A2C;display:flex;justify-content:center}
 .topbar .greet{font-size:13px;color:var(--app-dim)}
 .topbar .brand{font-family:"Archivo Black",Impact,sans-serif;font-size:19px;letter-spacing:.01em}
 .topbar .brand em{font-style:normal;color:var(--app-accent)}
-.chips{flex:none;display:flex;gap:8px;padding:6px 18px 14px;overflow-x:auto}
-.chip{flex:none;font-size:12.5px;font-weight:700;padding:7px 13px;border-radius:999px;background:var(--app-surface);
-  color:var(--app-dim);border:1px solid var(--app-line);white-space:nowrap}
-.chip.on{background:var(--app-win);color:var(--app-on-fill);border-color:var(--app-win)}
 .body{flex:1;min-height:0;overflow-y:auto;padding:0 18px 22px}
 .body::-webkit-scrollbar{display:none}
 .card{background:var(--app-surface);border:1px solid var(--app-line);border-radius:16px;padding:16px;margin-bottom:12px}
@@ -53,52 +51,16 @@ body{background:#101A2C;display:flex;justify-content:center}
   margin:18px 2px 9px}
 .sec-lbl:first-child{margin-top:2px}
 
-/* feed items (home) */
-.feed-item{display:flex;gap:11px;align-items:flex-start}
-.feed-item .ico{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:16px}
-.feed-item .ico .icon{width:18px;height:18px;vertical-align:-4px}
-.feed-item .ico.streak{background:rgba(140,198,63,.16);color:var(--app-win)}
-.feed-item .ico.upset{background:rgba(229,72,77,.16);color:var(--app-loss)}
-.feed-item .ico.trend{background:rgba(46,155,255,.16);color:var(--app-data)}
-.feed-item .ico.live{background:rgba(255,0,160,.16);color:var(--app-live)}
-.feed-item .ico.legacy{background:rgba(255,196,0,.16);color:var(--app-accent)}
-.feed-item h5{font-size:14.5px;font-weight:700;margin:0 0 2px}
-.feed-item p{font-size:12.5px;color:var(--app-dim);margin:0}
-.feed-item + .feed-item{margin-top:14px;padding-top:14px;border-top:1px solid var(--app-line)}
-
 /* power rankings rows */
 .rank-row{display:flex;align-items:center;gap:11px;padding:11px 4px}
-.rank-row + .rank-row{border-top:1px solid var(--app-line)}
+.rank-row + .rank-row,.row-link + .row-link .rank-row{border-top:1px solid var(--app-line)}
 .rank-row .pos{font-family:"Archivo Black",Impact,sans-serif;font-size:20px;color:var(--app-faint);width:22px}
 .rank-row .nm{flex:1;min-width:0}
 .rank-row .nm b{display:block;font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.rank-row .nm span{font-size:11.5px;color:var(--app-faint)}
 .rank-row .rec{font-size:13px;font-weight:700;text-align:right;width:48px}
-.rank-row .diff{font-size:11px;font-weight:700;width:40px;text-align:right}
-.rank-row .diff.pos{color:var(--app-win)} .rank-row .diff.neg{color:var(--app-loss)}
 .form-dots{display:flex;gap:2px;margin-top:3px}
 .form-dots i{width:6px;height:6px;border-radius:50%;display:block}
 .form-dots i.W{background:var(--app-win)} .form-dots i.L{background:var(--app-loss)} .form-dots i.D{background:var(--app-tie);opacity:.75}
-
-/* filter button + sheet */
-.filter-btn{position:absolute;right:18px;top:44px;z-index:6;background:var(--app-surface);border:1px solid var(--app-line);
-  color:var(--app-ink);font-size:12px;font-weight:700;padding:7px 12px;border-radius:999px;display:flex;gap:5px;
-  align-items:center;cursor:pointer}
-.sheet-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.5);z-index:20;opacity:0;pointer-events:none;
-  transition:opacity 220ms ease;border-radius:32px}
-.sheet-backdrop.on{opacity:1;pointer-events:auto}
-.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--app-raised);border-radius:22px 22px 0 0;
-  padding:8px 18px 22px;transform:translateY(100%);transition:transform 260ms cubic-bezier(.2,.9,.3,1);z-index:21}
-.sheet.on{transform:translateY(0)}
-.sheet .grip{width:36px;height:4px;border-radius:2px;background:var(--app-line);margin:6px auto 14px}
-.sheet h5{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--app-faint);margin:14px 0 8px}
-.sheet h5:first-of-type{margin-top:0}
-.sheet .row{display:flex;flex-wrap:wrap;gap:8px}
-.sheet .opt{font-size:13px;font-weight:600;padding:8px 13px;border-radius:10px;background:var(--app-surface);
-  border:1px solid var(--app-line);color:var(--app-dim)}
-.sheet .opt.on{background:var(--app-win);color:var(--app-on-fill);border-color:var(--app-win)}
-.sheet .apply{margin-top:18px;width:100%;background:var(--app-win);color:var(--app-on-fill);border:0;border-radius:12px;
-  padding:13px;font-size:14.5px;font-weight:700;font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.03em}
 
 /* team detail -- the avatar is a flat slab, like a court number, not a
    gradient chip: gradients aren't part of the broadcast board's own
@@ -119,7 +81,6 @@ body{background:#101A2C;display:flex;justify-content:center}
 .gamelog-row .opp{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--app-ink)}
 .gamelog-row .sc{font-weight:700;color:var(--app-faint)}
 .gamelog-row + .gamelog-row{border-top:1px solid var(--app-line)}
-.spark{display:block;margin:2px 0 4px}
 
 /* h2h */
 .vsrow{display:flex;align-items:center;gap:10px;margin:6px 0 16px}
@@ -149,13 +110,8 @@ body{background:#101A2C;display:flex;justify-content:center}
 .badge-row{display:flex;justify-content:center;gap:8px;margin-top:12px;flex-wrap:wrap}
 .badge{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;background:var(--app-surface);
   border:1px solid var(--app-line);color:var(--app-dim)}
-.timeline{display:flex;align-items:flex-end;gap:6px;height:70px;padding:0 2px;margin-top:6px}
-.timeline .bar{flex:1;border-radius:5px 5px 2px 2px;background:var(--app-data);position:relative}
-.timeline .bar span{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);font-size:9.5px;
-  color:var(--app-faint);white-space:nowrap}
 .partner-row{display:flex;justify-content:space-between;align-items:center;padding:9px 2px;font-size:13px}
 .partner-row + .partner-row{border-top:1px solid var(--app-line)}
-.partner-row .pw{font-weight:700;color:var(--app-win)}
 .partner-row .icon,.badge .icon{width:12px;height:12px;vertical-align:-1px;margin-right:2px;color:var(--app-faint)}
 .badge .icon{color:var(--app-accent)}
 
@@ -173,3 +129,33 @@ body{background:#101A2C;display:flex;justify-content:center}
 .tab .dot{width:20px;height:20px;border-radius:7px;margin:0 auto 4px;display:grid;place-items:center;font-size:12px}
 .tab .dot .icon{width:13px;height:13px;vertical-align:-2px}
 .tab.on .dot{background:rgba(140,198,63,.16)}
+/* a tab whose destination doesn't exist in this context (no team saved
+   yet, a team with no roster) is visibly inert rather than silently dead */
+.tab.off{opacity:.32}
+.tab:not(.on):not(.off){cursor:pointer}
+
+/* drill-down rows: rankings -> team page, roster -> player card */
+.row-link{display:block;width:100%;text-align:left;background:none;border:0;padding:0;
+  color:inherit;font:inherit;cursor:pointer}
+.row-link:focus-visible{outline:2px solid var(--app-data);outline-offset:-2px;border-radius:10px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.sec-head .sec-lbl{flex:1}
+.textlink{font-size:12px;font-weight:700;color:var(--app-data);text-decoration:none;white-space:nowrap}
+.roster-row{display:flex;align-items:center;gap:10px;padding:10px 2px;font-size:13px}
+.roster-row + .roster-row,.row-link + .row-link .roster-row{border-top:1px solid var(--app-line)}
+.roster-row .ini{flex:none;width:26px;height:26px;border-radius:8px;background:var(--app-raised);
+  display:grid;place-items:center;font-size:11px;font-weight:800;color:var(--app-ink)}
+.roster-row .who{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.roster-row .cap{font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--app-accent)}
+
+/* entry-point search (index.html) */
+.search-head{flex:none;padding:52px 18px 6px}
+.search-head h1{font-family:"Archivo Black",Impact,sans-serif;font-size:26px;margin:0 0 6px}
+.search-head p{color:var(--app-dim);font-size:14px;margin:0 0 16px}
+#q{width:100%;padding:14px;border-radius:12px;border:1px solid var(--app-line);
+  background:var(--app-surface);color:var(--app-ink);font-size:16px;font-family:inherit}
+.result{display:block;width:100%;text-align:left;padding:14px;margin-top:10px;border-radius:12px;
+  background:var(--app-surface);border:1px solid var(--app-line);color:var(--app-ink);cursor:pointer;font-size:14px}
+.result b{display:block}
+.result span{font-size:12px;color:var(--app-faint)}
+.empty{color:var(--app-faint);font-size:13px;margin-top:16px}

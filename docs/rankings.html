@@ -13,19 +13,27 @@
     <div><div class="greet" id="greet"></div><div class="brand">Power <em>Rankings</em></div></div>
   </div>
   <div class="body">
-    <div class="sec-lbl">Regular season</div>
+    <div class="sec-head">
+      <div class="sec-lbl">Regular season</div>
+      <a class="textlink" id="oddsLink" href="#">Playoff odds →</a>
+    </div>
     <div class="card" id="rows"></div>
   </div>
   <div class="tabbar">
-    <div class="tab on" onclick="location.href='index.html'"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
-    <div class="tab" onclick="location.href=location.href"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
-    <div class="tab" onclick="location.href='matchup.html?program='+new URLSearchParams(location.search).get('program')"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
   </div>
 </div>
 <script src="assets/app.js"></script>
 <script>
 const programId = new URLSearchParams(location.search).get('program');
+// Matchup needs BOTH params; without team= the predictor has no "you" to
+// predict for. The saved team supplies it when this page only knows a
+// program, which is every way this page is normally reached.
+wireTabs({ active: 'ranks', programId });
+document.getElementById('oddsLink').href = `odds.html?program=${encodeURIComponent(programId)}`;
 
 fetchJSON(`data/standings/${programId}.json`).then((data) => {
   const rowsEl = document.getElementById('rows');
@@ -34,12 +42,16 @@ fetchJSON(`data/standings/${programId}.json`).then((data) => {
     return;
   }
   document.getElementById('greet').textContent = data.programName;
+  // Every row drills down to its Team Page, the navigation model the spec
+  // describes ("Team Page reached from Rankings").
   rowsEl.innerHTML = data.rows.map((r) => `
-    <div class="rank-row">
-      <div class="pos">${r.position}</div>
-      <div class="nm"><b>${escapeHTML(r.teamName)}</b></div>
-      <div class="rec">${r.wins}-${r.losses}-${r.ties}</div>
-    </div>`).join('');
+    <a class="row-link" href="team.html?team=${encodeURIComponent(r.teamId)}&program=${encodeURIComponent(programId)}">
+      <div class="rank-row">
+        <div class="pos">${r.position}</div>
+        <div class="nm"><b>${escapeHTML(r.teamName)}</b></div>
+        <div class="rec">${r.wins}-${r.losses}-${r.ties}</div>
+      </div>
+    </a>`).join('');
 });
 </script>
 </body>

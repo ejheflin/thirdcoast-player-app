@@ -14,10 +14,10 @@
     <p style="color:var(--app-faint);font-size:13px">Loading…</p>
   </div>
   <div class="tabbar">
-    <div class="tab" onclick="location.href='index.html'"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
-    <div class="tab" id="ranksTab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
-    <div class="tab" id="matchupTab"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
   </div>
 </div>
 <script src="assets/app.js"></script>
@@ -25,20 +25,35 @@
 const params = new URLSearchParams(location.search);
 const programId = params.get('program');
 const teamId = Number(params.get('team'));
-document.getElementById('ranksTab').addEventListener('click', () => location.href = `rankings.html?program=${programId}`);
-document.getElementById('matchupTab').addEventListener('click', () => location.href = `matchup.html?program=${programId}&team=${teamId}`);
+// This IS the saved team's home feed, so Home is the tab you're on.
+wireTabs({ active: 'home', programId, teamId });
 
 Promise.all([
   fetchJSON(`data/standings/${programId}.json`),
   fetchJSON(`data/activities/${programId}.json`),
-]).then(([standings, activities]) => {
+  fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(teamId)}.json`),
+]).then(([standings, activities, roster]) => {
   const bodyEl = document.getElementById('body');
   const row = standings?.rows.find((r) => r.teamId === teamId);
   if (!standings || !row) {
+    // The saved pointer is stale (a season rolled over, or the program was
+    // pulled). Drop it, or index.html would forward straight back here on
+    // the next visit and the "search again" link below could never be
+    // reached -- an inescapable bounce with no way out but clearing site
+    // data by hand. Only clear it when it's THIS team that's missing, so
+    // browsing to some other dead team's URL doesn't wipe a good pointer.
+    const saved = getMyTeam();
+    if (saved && String(saved.programId) === String(programId) && String(saved.teamId) === String(teamId)) {
+      clearMyTeam();
+    }
     bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We can\'t find this team anymore — <a href="index.html" style="color:var(--app-data)">search again</a>.</p>';
     return;
   }
   document.getElementById('greet').textContent = standings.programName;
+
+  const rosterPlayers = roster?.players ?? [];
+  const captain = rosterPlayers.find((p) => p.isCaptain) ?? rosterPlayers[0];
+  if (captain) wireTabs({ active: 'home', programId, teamId, personId: captain.userId });
 
   const games = (activities?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
   const setDiff = games.reduce((sum, g) => {
@@ -62,6 +77,17 @@ Promise.all([
       <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>`;
   }).join('');
 
+  // First names only, straight out of the roster file -- the same data
+  // player.html itself shows. Each row drills down to that player's card.
+  const rosterRows = rosterPlayers.map((p) => `
+    <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
+      <div class="roster-row">
+        <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
+        <div class="who">${escapeHTML(p.firstName)}</div>
+        ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+      </div>
+    </a>`).join('');
+
   bodyEl.innerHTML = `
     <div class="team-hero">
       <div class="avatar">${escapeHTML(row.teamName.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase())}</div>
@@ -72,10 +98,15 @@ Promise.all([
       <div class="box"><b>${setDiff >= 0 ? '+' : ''}${setDiff}</b><span>Set diff</span></div>
       <div class="box"><b>#${row.position}</b><span>Power rank</span></div>
     </div>
-    <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
+    <div class="sec-head">
+      <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
+      <a class="textlink" href="odds.html?program=${encodeURIComponent(programId)}">Playoff odds →</a>
+    </div>
     <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
     <div class="sec-lbl">Game log</div>
     <div class="card">${gameLog || '<p style="color:var(--app-faint);font-size:13px;margin:2px 0">No games yet this season.</p>'}</div>
+    <div class="sec-lbl">Roster</div>
+    <div class="card" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
   `;
 });
 </script>

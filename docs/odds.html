@@ -11,20 +11,27 @@
 <div class="screen">
   <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Playoff <em style="color:var(--app-live)">Odds</em></div></div></div>
   <div class="body">
-    <div class="sec-lbl">Top 4 make the bracket</div>
+    <div class="sec-head">
+      <div class="sec-lbl">Top 4 make the bracket</div>
+      <a class="textlink" id="ranksLink" href="#">← Power rankings</a>
+    </div>
     <div class="card" id="rows" style="padding:6px 12px"></div>
   </div>
   <div class="tabbar">
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
-    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
   </div>
 </div>
 <script src="assets/app.js"></script>
 <script>
 const programId = new URLSearchParams(location.search).get('program');
 const CUTOFF = 4;
+// Playoff Odds is a drill-down from Rankings, not a tab of its own (per
+// the spec's navigation model), so Ranks stays lit while you're here.
+wireTabs({ active: 'ranks', programId });
+document.getElementById('ranksLink').href = `rankings.html?program=${encodeURIComponent(programId)}`;
 
 function setDiffFor(teamId, games) {
   return games.reduce((sum, g) => {
