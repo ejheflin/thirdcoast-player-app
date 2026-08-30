@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Team Page — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Team <em style="color:var(--app-win)">Page</em></div></div></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" onclick="location.href='index.html'"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" id="ranksTab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" id="matchupTab"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const params = new URLSearchParams(location.search);
+const programId = params.get('program');
+const teamId = Number(params.get('team'));
+document.getElementById('ranksTab').addEventListener('click', () => location.href = `rankings.html?program=${programId}`);
+document.getElementById('matchupTab').addEventListener('click', () => location.href = `matchup.html?program=${programId}&team=${teamId}`);
+
+Promise.all([
+  fetchJSON(`data/standings/${programId}.json`),
+  fetchJSON(`data/activities/${programId}.json`),
+]).then(([standings, activities]) => {
+  const bodyEl = document.getElementById('body');
+  const row = standings?.rows.find((r) => r.teamId === teamId);
+  if (!standings || !row) {
+    bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We can\'t find this team anymore — <a href="index.html" style="color:var(--app-data)">search again</a>.</p>';
+    return;
+  }
+  document.getElementById('greet').textContent = standings.programName;
+
+  const games = (activities?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
+  const setDiff = games.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    return sum + ((me?.score ?? 0) - (opp?.score ?? 0));
+  }, 0);
+
+  const formDots = games.slice(-12).map((g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+    return `<i class="${letter}"></i>`;
+  }).join('');
+
+  const gameLog = games.slice(-12).reverse().map((g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+    return `<div class="gamelog-row"><div class="r ${letter}">${letter}</div>
+      <div class="opp">${escapeHTML(opp?.teamName ?? 'Unknown')}</div>
+      <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>`;
+  }).join('');
+
+  bodyEl.innerHTML = `
+    <div class="team-hero">
+      <div class="avatar">${escapeHTML(row.teamName.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase())}</div>
+      <div><h3>${escapeHTML(row.teamName)}</h3><div class="sub">${escapeHTML(standings.programName)}</div></div>
+    </div>
+    <div class="stat-grid">
+      <div class="box"><b>${row.wins}-${row.losses}-${row.ties}</b><span>Record</span></div>
+      <div class="box"><b>${setDiff >= 0 ? '+' : ''}${setDiff}</b><span>Set diff</span></div>
+      <div class="box"><b>#${row.position}</b><span>Power rank</span></div>
+    </div>
+    <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
+    <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
+    <div class="sec-lbl">Game log</div>
+    <div class="card">${gameLog || '<p style="color:var(--app-faint);font-size:13px;margin:2px 0">No games yet this season.</p>'}</div>
+  `;
+});
+</script>
+</body>
+</html>
