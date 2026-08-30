@@ -1,0 +1,127 @@
+{
+  "programId": 1734343,
+  "programName": "Thursday Coed 2s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:40:16.420Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3260806,
+      "teamName": "10 - Michelle C. & Josman R.",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 1,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 3279007,
+      "teamName": "1 - Jessica B. & Ben H.",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 2,
+      "ties": 3,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 3260800,
+      "teamName": "5 - Marah F. & Isa T.",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 2,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 3258760,
+      "teamName": "7 - Julie V. & Thien N.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 1,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 3278956,
+      "teamName": "3 - Taylor B. & Stefan W.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 3,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 3258649,
+      "teamName": "4 - Dani D. & Luis L.",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 3,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 3260686,
+      "teamName": "8 - Susan P. & Matt G.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 7,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 3266356,
+      "teamName": "11 - Annie N. & Alex L.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 8,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 3275764,
+      "teamName": "6 - Tina O. & Mark S.",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 8,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 3246793,
+      "teamName": "2 - Tiffany S. & Will T.",
+      "gamesPlayed": 12,
+      "wins": 3,
+      "losses": 7,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 11,
+      "teamId": 3277018,
+      "teamName": "12 - Vanessa L. & Robert D.",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 7,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 12,
+      "teamId": 3276394,
+      "teamName": "9 - Alyson L. & David D.",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 7,
+      "ties": 6,
+      "points": 6
+    }
+  ]
+}

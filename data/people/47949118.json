@@ -1,0 +1,18 @@
+{
+  "userId": 47949118,
+  "firstName": "Zachary",
+  "appearances": [
+    {
+      "programId": 5056669,
+      "teamId": 8023884,
+      "teamName": "1. Carolina Beach Bumpers (Ashton)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8005861,
+      "teamName": "9. Nathan G. and Zach B.",
+      "isCaptain": false
+    }
+  ]
+}

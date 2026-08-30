@@ -1,0 +1,18 @@
+{
+  "userId": 56429116,
+  "firstName": "Joe",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8016616,
+      "teamName": "5. Sarah U. and Joe M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5056669,
+      "teamId": 8024708,
+      "teamName": "2. Score Check (Julianna T.)",
+      "isCaptain": false
+    }
+  ]
+}

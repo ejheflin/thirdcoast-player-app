@@ -1,0 +1,87 @@
+{
+  "programId": 1217698,
+  "programName": "Wednesday Womens 2s BB",
+  "updatedAt": "2026-08-30T18:42:38.495Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2535532,
+      "teamName": "7 - Victoria Q. & Giselle L.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 2534692,
+      "teamName": "5 - Fran R. & Beth B.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 2534656,
+      "teamName": "4 - Megan E. & Diana F.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 2532025,
+      "teamName": "3 - Rebecca B. & Khoun T.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 7,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 2528656,
+      "teamName": "1 - Rachael G. & Erika J.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 2535205,
+      "teamName": "6 - Coco G. & Sarah K.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 2528758,
+      "teamName": "2 - Starr K. & Tallie A.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 2537104,
+      "teamName": "8 - Emily M. & Kearby B.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 11,
+      "ties": 3,
+      "points": 7
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 4589133,
+  "programName": "Monday Coed 3s B",
+  "updatedAt": "2026-08-30T18:39:22.710Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7345154,
+      "teamName": "7. Bumpin Uglies (Luke S.)",
+      "gamesPlayed": 14,
+      "wins": 13,
+      "losses": 0,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7335383,
+      "teamName": "1. May the Spike be with You (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 7340734,
+      "teamName": "5. Key Bumps (Harley G.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 3,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7330712,
+      "teamName": "2. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 4,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 7338147,
+      "teamName": "4. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 6,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 7337981,
+      "teamName": "3. Big Dig Energy (Juliana T.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 7,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 7347267,
+      "teamName": "8. Sandy Cheeks (David N.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 12,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 8,
+      "teamId": 7343701,
+      "teamName": "6. The Thurmanators (David Z.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 13,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 14672281,
+  "firstName": "Brian",
+  "appearances": [
+    {
+      "programId": 5053299,
+      "teamId": 8007548,
+      "teamName": "1. May the Spike Be With You (Ash C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5056676,
+      "teamId": 8022079,
+      "teamName": "7. Volley Llamas (Daphne D.)",
+      "isCaptain": false
+    }
+  ]
+}

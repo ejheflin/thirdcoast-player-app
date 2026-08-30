@@ -1,0 +1,18 @@
+{
+  "userId": 21231646,
+  "firstName": "Ash",
+  "appearances": [
+    {
+      "programId": 5053299,
+      "teamId": 8007548,
+      "teamName": "1. May the Spike Be With You (Ash C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5056676,
+      "teamId": 8016718,
+      "teamName": "6. The Empire Spikes Back (Ash C.)",
+      "isCaptain": true
+    }
+  ]
+}

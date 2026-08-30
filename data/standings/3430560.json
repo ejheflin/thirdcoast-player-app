@@ -1,0 +1,87 @@
+{
+  "programId": 3430560,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:26.816Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5716842,
+      "teamName": "8. Hard Digs (Katelyn M.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 5717445,
+      "teamName": "5. I dink I love you (Diem P.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 2,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 5716275,
+      "teamName": "4. 3 OG's & Bae",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 5720418,
+      "teamName": "7. Soft Serve (Zach P.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 2,
+      "ties": 8,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 5718321,
+      "teamName": "6. Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 4,
+      "ties": 10,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 5715153,
+      "teamName": "3. Gabby & The Boys (Marshall C.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 5709882,
+      "teamName": "2. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 5,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 5723328,
+      "teamName": "1. Tiff and the 3 musketeers (Adrian M.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 2,
+      "ties": 10,
+      "points": 12
+    }
+  ]
+}

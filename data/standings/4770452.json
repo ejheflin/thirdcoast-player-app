@@ -1,0 +1,107 @@
+{
+  "programId": 4770452,
+  "programName": "Monday Coed 2s B/BB Pop Up",
+  "updatedAt": "2026-08-30T18:38:44.361Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7607307,
+      "teamName": "5. Doria O. and Roy T.",
+      "gamesPlayed": 16,
+      "wins": 14,
+      "losses": 0,
+      "ties": 2,
+      "points": 30
+    },
+    {
+      "position": 2,
+      "teamId": 7602565,
+      "teamName": "2. Kyndal G. and Jason O.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 7608573,
+      "teamName": "6. Maddie M. and Jacob J.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 4,
+      "teamId": 7609019,
+      "teamName": "4. Julia W. and Adrian M.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 7608887,
+      "teamName": "8. Hannah S. and Francisco S.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 7608721,
+      "teamName": "10. Maggie H. and Travis T.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 6,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 7606210,
+      "teamName": "7. Kassidy D. and Hector T.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7583155,
+      "teamName": "3. Denise H. and Sam E.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 7610167,
+      "teamName": "9. Sam T. and Josh B.",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 11,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 10,
+      "teamId": 7603040,
+      "teamName": "1. Lucie A. and Christopher M.",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 13,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 4590320,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:03.093Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7332837,
+      "teamName": "1. Chocolate and Cream Coalition (Ryan T.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 7349046,
+      "teamName": "6. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7350776,
+      "teamName": "5. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7350645,
+      "teamName": "3. Beach ballers (Megan C.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7349764,
+      "teamName": "7. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 7340908,
+      "teamName": "4. Not Good At Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 6,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 7339870,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 6,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7347639,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

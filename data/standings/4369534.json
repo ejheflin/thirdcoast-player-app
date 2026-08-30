@@ -1,0 +1,87 @@
+{
+  "programId": 4369534,
+  "programName": "Monday Coed 2s B/BB Pop Up",
+  "updatedAt": "2026-08-30T18:38:44.825Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7027756,
+      "teamName": "4. Sarah U. and Matt G.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7029080,
+      "teamName": "5. Megan C. and Gordon P.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 5,
+      "ties": 1,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7035021,
+      "teamName": "8. Danielle F. and Richard A.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 5,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7035506,
+      "teamName": "2. Tara C. and Aatir A.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 7027761,
+      "teamName": "1. Pam C. and Hugo N.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 7033256,
+      "teamName": "7. Jodie N. and Nathaniel C.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 7026690,
+      "teamName": "6. Denise H. and Stu M.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 7027866,
+      "teamName": "3. Destiny H. and Cody C.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 12,
+      "ties": 1,
+      "points": 7
+    }
+  ]
+}

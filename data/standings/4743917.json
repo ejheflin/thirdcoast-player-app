@@ -1,0 +1,127 @@
+{
+  "programId": 4743917,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:42:00.915Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7588949,
+      "teamName": "4. Erin F. and Kaegan W.",
+      "gamesPlayed": 15,
+      "wins": 10,
+      "losses": 1,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 7574543,
+      "teamName": "12. Molly J. and Nicole B.",
+      "gamesPlayed": 14,
+      "wins": 10,
+      "losses": 2,
+      "ties": 2,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 7574382,
+      "teamName": "8. Paige D. and Jo P.",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 2,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7568164,
+      "teamName": "7. Olivia J. and Danielle F.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 7574661,
+      "teamName": "5. Yanni S. and Becca W.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 3,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 7585255,
+      "teamName": "10. Christine M. & Erika P.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 7574529,
+      "teamName": "3. Juliana T. and Lauren W.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 8,
+      "teamId": 7578529,
+      "teamName": "9. Melissa B. and Lindsay K.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 9,
+      "teamId": 7571877,
+      "teamName": "1. Beth B. and Susan P.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 4,
+      "ties": 9,
+      "points": 15
+    },
+    {
+      "position": 10,
+      "teamId": 7562494,
+      "teamName": "2. Ivy C. and Julia V.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 7562811,
+      "teamName": "6. Lisa B. and Tina O.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 12,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 12,
+      "teamId": 7585260,
+      "teamName": "11. Liz C. and Madison P.",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 11,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

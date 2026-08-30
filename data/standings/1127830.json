@@ -1,0 +1,87 @@
+{
+  "programId": 1127830,
+  "programName": "Monday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:32.159Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2370367,
+      "teamName": "6 - Sets on the Beach (Starr K.)",
+      "gamesPlayed": 15,
+      "wins": 13,
+      "losses": 1,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 2369968,
+      "teamName": "3 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 2377810,
+      "teamName": "5 - Sand Slingers (James N.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 2,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 2382238,
+      "teamName": "2 - Raindrop, Drop Top (Mark R.)",
+      "gamesPlayed": 11,
+      "wins": 4,
+      "losses": 2,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 2369962,
+      "teamName": "8 - SofaKingGood Gooners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 2372170,
+      "teamName": "7 - Served Hot (Joy R.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 7,
+      "teamId": 2380171,
+      "teamName": "4 - Net Flicks and Chill (Grace L.)",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 5,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 2373826,
+      "teamName": "1 - Spaceballs (Paul V.)",
+      "gamesPlayed": 12,
+      "wins": 1,
+      "losses": 7,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

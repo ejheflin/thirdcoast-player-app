@@ -1,0 +1,12 @@
+{
+  "userId": 42581307,
+  "firstName": "Connor",
+  "appearances": [
+    {
+      "programId": 5062084,
+      "teamId": 8022462,
+      "teamName": "5. Notorious DIG (Connor D.)",
+      "isCaptain": true
+    }
+  ]
+}

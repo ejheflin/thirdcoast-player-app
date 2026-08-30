@@ -1,0 +1,107 @@
+{
+  "programId": 2609349,
+  "programName": "Tuesday Coed 4s Intermediate #2",
+  "updatedAt": "2026-08-30T18:41:19.585Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4434792,
+      "teamName": "5 - Volley Llamas (Joshua M.)",
+      "gamesPlayed": 13,
+      "wins": 9,
+      "losses": 2,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 4426200,
+      "teamName": "1 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 1,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 4429470,
+      "teamName": "2 - Jump Set Or Bust (Gary C.)",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 3,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 4,
+      "teamId": 4439643,
+      "teamName": "10 - The Beta-Blockers (Simon M.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 3,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 5,
+      "teamId": 4438788,
+      "teamName": "8 - Hustle Gang (Calvin D.)",
+      "gamesPlayed": 8,
+      "wins": 3,
+      "losses": 2,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 6,
+      "teamId": 4438608,
+      "teamName": "7 - Sandy Cheeks (Will T.)",
+      "gamesPlayed": 7,
+      "wins": 2,
+      "losses": 3,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 4438488,
+      "teamName": "6 - IT'S THE SWEET ONE! (Quentin B.)",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 8,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 8,
+      "teamId": 4424271,
+      "teamName": "3 - VicTORIous Secret (Branden B.)",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 1,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 9,
+      "teamId": 4437147,
+      "teamName": "4 - Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 10,
+      "teamId": 4439217,
+      "teamName": "9 - Diggin and Swinging (Ivan M.)",
+      "gamesPlayed": 7,
+      "wins": 0,
+      "losses": 5,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

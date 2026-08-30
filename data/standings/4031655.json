@@ -1,0 +1,87 @@
+{
+  "programId": 4031655,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:44.481Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6552929,
+      "teamName": "8. las tóxicas (Nicole P.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 6549625,
+      "teamName": "5. Kiss my Ace (Jessica C.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 4,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 3,
+      "teamId": 6549509,
+      "teamName": "2. 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 4,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 6549758,
+      "teamName": "6. Flat Balls (Abby T.)",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 3,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 6549020,
+      "teamName": "4. Swag in a bag (Phil A.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 6540371,
+      "teamName": "1. Toodles (Michael L.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 5,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 6549942,
+      "teamName": "7. Practice Safe Sets (John O.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 4,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 6549011,
+      "teamName": "3. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 8,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

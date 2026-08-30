@@ -1,0 +1,87 @@
+{
+  "programId": 4362247,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:44.000Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7017452,
+      "teamName": "6. Team Jacob (Mark J.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 0,
+      "ties": 4,
+      "points": 28
+    },
+    {
+      "position": 2,
+      "teamId": 7022802,
+      "teamName": "7. Las Tóxicas (Nicole P.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 7029474,
+      "teamName": "5. Holy Blockamole (Devin S.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7029516,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 7027096,
+      "teamName": "1. 3 OGs and Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 5,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 7026664,
+      "teamName": "4. Fam Bam (Abby N.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 5,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 7024154,
+      "teamName": "2. Calm Yo Tips (Megan C.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 7012424,
+      "teamName": "8. Net Ninjas (Nathan W.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 9,
+      "ties": 5,
+      "points": 9
+    }
+  ]
+}

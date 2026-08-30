@@ -1,0 +1,107 @@
+{
+  "programId": 1729603,
+  "programName": "Monday Coed 2s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:09.305Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3244972,
+      "teamName": "1 - Olivia J. & Josman R.",
+      "gamesPlayed": 14,
+      "wins": 12,
+      "losses": 0,
+      "ties": 2,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 3255190,
+      "teamName": "2 - Julia L. & Adolph T.",
+      "gamesPlayed": 14,
+      "wins": 11,
+      "losses": 1,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 3255550,
+      "teamName": "4 - Liz C. & Van P.",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 3,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 3255559,
+      "teamName": "5 - Megan E. & Rudy D.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 3,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 3263434,
+      "teamName": "8 - Alyson L. & Jon N.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 3259483,
+      "teamName": "10 - Tiffany J. & Walid E.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 3263311,
+      "teamName": "6 - Maria H. & Mehmet N.",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 6,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 3253795,
+      "teamName": "9 - Silvana C. & Payton P.",
+      "gamesPlayed": 12,
+      "wins": 1,
+      "losses": 5,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 9,
+      "teamId": 3250945,
+      "teamName": "7 - Lynn K. & Andrew D.",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 7,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 10,
+      "teamId": 3261712,
+      "teamName": "3 - Beth B. & Brennan R.",
+      "gamesPlayed": 12,
+      "wins": 0,
+      "losses": 11,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

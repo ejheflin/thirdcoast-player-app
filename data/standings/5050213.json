@@ -1,0 +1,127 @@
+{
+  "programId": 5050213,
+  "programName": "Wednesday Mens 2s AA",
+  "updatedAt": "2026-08-30T18:42:25.999Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 8015132,
+      "teamName": "4. Blake C. and Leo Y.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 8003295,
+      "teamName": "1. Eric W. and Dan M.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 8000161,
+      "teamName": "5. Michael G. and Daniel A.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 0,
+      "ties": 13,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 8017957,
+      "teamName": "7. Riley W. and Jacob W.",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 1,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 8010968,
+      "teamName": "12. Zach P. and Ben L.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 2,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 8008255,
+      "teamName": "2. Gordon P. and Harley G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 8020291,
+      "teamName": "6. Ruslan A. and Ryan S.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 3,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 8,
+      "teamId": 8019966,
+      "teamName": "11. Vince R. and Alfredo E.",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 3,
+      "ties": 7,
+      "points": 22
+    },
+    {
+      "position": 9,
+      "teamId": 8000497,
+      "teamName": "8. Jason O. and Dominick W.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 5,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 10,
+      "teamId": 8018499,
+      "teamName": "10. Scott S. and Chris H.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 5,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 11,
+      "teamId": 8017041,
+      "teamName": "3. Jacob J. and Jake S.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 5,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 12,
+      "teamId": 8005861,
+      "teamName": "9. Nathan G. and Zach B.",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 6,
+      "ties": 7,
+      "points": 9
+    }
+  ]
+}

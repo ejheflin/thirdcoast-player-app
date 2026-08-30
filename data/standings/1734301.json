@@ -1,0 +1,77 @@
+{
+  "programId": 1734301,
+  "programName": "Tuesday Coed 4s Intermediate #2",
+  "updatedAt": "2026-08-30T18:41:23.650Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3258202,
+      "teamName": "2 - Nice Ace (Jaimie G.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 0,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 3268150,
+      "teamName": "7 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 13,
+      "wins": 7,
+      "losses": 1,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 3261277,
+      "teamName": "3 - Ooh... A Piece Of Candy! (Terry V.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 1,
+      "ties": 9,
+      "points": 15
+    },
+    {
+      "position": 4,
+      "teamId": 3258253,
+      "teamName": "5 - Who Netted (Evan R.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 4,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 3256327,
+      "teamName": "1 - How I Set Your Mother (Brock H.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 7,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 6,
+      "teamId": 3255478,
+      "teamName": "6 - How I Set Your Mother (Jeffrey S.)",
+      "gamesPlayed": 9,
+      "wins": 0,
+      "losses": 5,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 7,
+      "teamId": 3261682,
+      "teamName": "4 - Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 10,
+      "wins": 0,
+      "losses": 6,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

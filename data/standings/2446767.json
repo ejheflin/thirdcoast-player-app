@@ -1,0 +1,107 @@
+{
+  "programId": 2446767,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:47.790Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4187937,
+      "teamName": "9 - Rancho Carne Toros (Lyndon Z.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 4191807,
+      "teamName": "7 - Spike It Harder (Brad O.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 4204467,
+      "teamName": "10 - Thrown Together (Omar S.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 0,
+      "ties": 11,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 4198188,
+      "teamName": "6 - Sets on the Beach (Annie L.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 4187898,
+      "teamName": "1 - Booze Cruise (Jack S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 4206204,
+      "teamName": "3 - North American Volleyball Syndicate (Steve C.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 4192626,
+      "teamName": "5 - Getting it in (Jose B.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 9,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 4200084,
+      "teamName": "4 - Empire Spikes Back (Benet G.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 6,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 4182417,
+      "teamName": "2 - Make-up Sets (Naomi L.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 7,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 4201107,
+      "teamName": "8 - Stankaitis Season 2 (Evan L.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 11,
+      "ties": 3,
+      "points": 3
+    }
+  ]
+}

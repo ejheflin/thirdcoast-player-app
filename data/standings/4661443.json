@@ -1,0 +1,87 @@
+{
+  "programId": 4661443,
+  "programName": "Monday Coed 2s BB",
+  "updatedAt": "2026-08-30T18:38:51.544Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7445236,
+      "teamName": "3. Kaegan W. and Jon N.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 0,
+      "ties": 4,
+      "points": 28
+    },
+    {
+      "position": 2,
+      "teamId": 7442401,
+      "teamName": "1. Nicole B. and Mark J.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 7456071,
+      "teamName": "6. Liz C. and Josman R.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 7467664,
+      "teamName": "8. Syd Z. and Manny A.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 3,
+      "ties": 9,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 7455718,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 7449030,
+      "teamName": "4. Beth B. and Kumar R.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 7455833,
+      "teamName": "7. Emily R. and Son T.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 7466092,
+      "teamName": "2. Helen L. and George C.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 10,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

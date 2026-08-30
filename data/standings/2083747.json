@@ -1,0 +1,107 @@
+{
+  "programId": 2083747,
+  "programName": "Monday Coed 3s Intermediate",
+  "updatedAt": "2026-08-30T18:39:25.457Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3625471,
+      "teamName": "3 - Blueberries (Mason R.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 3625999,
+      "teamName": "1 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 3628435,
+      "teamName": "2 - Goon Squad (Colleen P.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 3625468,
+      "teamName": "4 - Ninos Locos (Jeanne B.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 3,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 3625474,
+      "teamName": "5 - Threesomes (Luis H.)",
+      "gamesPlayed": 11,
+      "wins": 5,
+      "losses": 0,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 3724216,
+      "teamName": "10 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 3664237,
+      "teamName": "8 - Court Jesters (Matt O.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 3636301,
+      "teamName": "7 - Third Wheel (Phil M.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 8,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 9,
+      "teamId": 3650989,
+      "teamName": "6 - That's What She Set (Mark J.)",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 8,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 10,
+      "teamId": 3718705,
+      "teamName": "9 - MJL (Michael W.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 12,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

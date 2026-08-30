@@ -1,0 +1,107 @@
+{
+  "programId": 4031662,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:41.839Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6554439,
+      "teamName": "10. Net Ninjas (Nate W.)",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 1,
+      "ties": 2,
+      "points": 28
+    },
+    {
+      "position": 2,
+      "teamId": 6544902,
+      "teamName": "3. Sandy Cheeks (Dani D.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 3,
+      "teamId": 6553478,
+      "teamName": "9. Blue Balls (Alex L.)",
+      "gamesPlayed": 15,
+      "wins": 10,
+      "losses": 2,
+      "ties": 3,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 6549240,
+      "teamName": "8. The Vacationers (Philip M.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 6544459,
+      "teamName": "2. North American Volleyball Syndicate (Steve C.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 6,
+      "teamId": 6549019,
+      "teamName": "6. Hakuna Matata (Aatir A.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 8,
+      "ties": 1,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 6548152,
+      "teamName": "5. Kibbles n Hits (Doug T.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 11,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 6550639,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 12,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 9,
+      "teamId": 6548945,
+      "teamName": "7. Taking Back Tuesday (Lyndon Z.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 9,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 10,
+      "teamId": 6544179,
+      "teamName": "1. Just 4 Fun (Naomi L.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 8,
+      "ties": 5,
+      "points": 5
+    }
+  ]
+}

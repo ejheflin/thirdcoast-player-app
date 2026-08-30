@@ -1,0 +1,87 @@
+{
+  "programId": 3957842,
+  "programName": "Monday Coed 2s B",
+  "updatedAt": "2026-08-30T18:38:40.715Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6450028,
+      "teamName": "7. Ivy C. & Tyler J.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 6444438,
+      "teamName": "1. Macey C. & Branden B.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 2,
+      "ties": 8,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 6449176,
+      "teamName": "5. Megan E. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 6444296,
+      "teamName": "2. Fran R. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 6444085,
+      "teamName": "3. Andrea M. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 6444833,
+      "teamName": "4. Kim S. & Mike O.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 6456460,
+      "teamName": "6. Heather F. & Rob B.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 6459366,
+      "teamName": "8. Loren T. & Jacob W.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

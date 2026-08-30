@@ -1,0 +1,107 @@
+{
+  "programId": 4976996,
+  "programName": "Thursday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:30.078Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7913915,
+      "teamName": "6. Ay mi madre (Daniel D.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 1,
+      "ties": 4,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 7914593,
+      "teamName": "7. Patty 4 the People (Doug B.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 3,
+      "ties": 1,
+      "points": 25
+    },
+    {
+      "position": 3,
+      "teamId": 7916502,
+      "teamName": "1. Nothing But Tape!! (Joe R.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 7903162,
+      "teamName": "2. Blake’s Beaches (Collin W.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 5,
+      "teamId": 7909535,
+      "teamName": "3. Charlie’s Angels (Jason O.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 7920065,
+      "teamName": "8. Sandy Patch Kids (Curtis J.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 7912116,
+      "teamName": "5. HIT FACED (Clark P.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7928996,
+      "teamName": "10. Spike Wazowski (Sarah F.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 7928883,
+      "teamName": "9. Hits Don’t Lie (Shayan E.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 9,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 7907830,
+      "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

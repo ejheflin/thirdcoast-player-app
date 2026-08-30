@@ -1,0 +1,87 @@
+{
+  "programId": 3715962,
+  "programName": "Monday Coed 2s B",
+  "updatedAt": "2026-08-30T18:38:32.719Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6127719,
+      "teamName": "5. Lauren H. & Kumar R.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 6126822,
+      "teamName": "8. Taylor B. & Matt C.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 6127158,
+      "teamName": "1. Emily R. & Bryan M.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6126768,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 6126732,
+      "teamName": "4. Jess C. & Adrian M.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 6126804,
+      "teamName": "6. Kim S. & Mike O.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 9,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 6126795,
+      "teamName": "7. Lauren K. & Arturo R.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 6126744,
+      "teamName": "2. Megan L. & Brian C.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 9,
+      "ties": 5,
+      "points": 9
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 14657086,
+  "firstName": "Liz",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8011095,
+      "teamName": "6. Liz C. and Josman R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8015276,
+      "teamName": "1. Liz C. and Madison P.",
+      "isCaptain": true
+    }
+  ]
+}

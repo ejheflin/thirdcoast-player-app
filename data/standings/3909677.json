@@ -1,0 +1,127 @@
+{
+  "programId": 3909677,
+  "programName": "Thursday Coed 2s A",
+  "updatedAt": "2026-08-30T18:39:40.107Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6378547,
+      "teamName": "12. Jo P. & Kumar R.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 6393359,
+      "teamName": "5. Lisa B. & Ryan S.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 4,
+      "ties": 2,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 6388704,
+      "teamName": "10. Michelle C. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 6393030,
+      "teamName": "9. Emily F. & Matt G.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 6394062,
+      "teamName": "6. Tina O. & John S.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6381025,
+      "teamName": "4. Ashlee S. & Adolph T.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 6377856,
+      "teamName": "2. Marisela G. & Isa T.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 6,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 8,
+      "teamId": 6379520,
+      "teamName": "7. Taylor B. & Erik H.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 5,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 6392942,
+      "teamName": "8. Alyssa M. & Joe M.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 10,
+      "teamId": 6394045,
+      "teamName": "11. Cat D. & Jon N.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 6377362,
+      "teamName": "1. Julia L. & Son T.",
+      "gamesPlayed": 12,
+      "wins": 3,
+      "losses": 5,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 12,
+      "teamId": 6394591,
+      "teamName": "3. Odette M. & Jann D.",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 14,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

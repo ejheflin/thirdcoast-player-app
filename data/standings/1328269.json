@@ -1,0 +1,87 @@
+{
+  "programId": 1328269,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:50.087Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2708107,
+      "teamName": "7 - Raindrop, Drop Top (Mark R.)",
+      "gamesPlayed": 16,
+      "wins": 14,
+      "losses": 1,
+      "ties": 1,
+      "points": 29
+    },
+    {
+      "position": 2,
+      "teamId": 2705533,
+      "teamName": "3 - Big Digs and Tiff (Mike B.)",
+      "gamesPlayed": 16,
+      "wins": 14,
+      "losses": 2,
+      "ties": 0,
+      "points": 28
+    },
+    {
+      "position": 3,
+      "teamId": 2712214,
+      "teamName": "6 - Not Good At Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 14
+    },
+    {
+      "position": 4,
+      "teamId": 2703640,
+      "teamName": "1 - Safe Sets (Jeanne B.)",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 5,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 2711911,
+      "teamName": "5 - Anal Sets (Alyson L.)",
+      "gamesPlayed": 9,
+      "wins": 1,
+      "losses": 7,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 6,
+      "teamId": 2707573,
+      "teamName": "4 - We Always Get It uP (Jeremy K.)",
+      "gamesPlayed": 9,
+      "wins": 0,
+      "losses": 6,
+      "ties": 3,
+      "points": 3
+    },
+    {
+      "position": 7,
+      "teamId": 2705251,
+      "teamName": "2 - Sand in Your Face (Victor M.)",
+      "gamesPlayed": 9,
+      "wins": 0,
+      "losses": 6,
+      "ties": 3,
+      "points": 3
+    },
+    {
+      "position": 8,
+      "teamId": 2712271,
+      "teamName": "8 - Just Hit the Ball (Ron T.)",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 7,
+      "ties": 0,
+      "points": 2
+    }
+  ]
+}

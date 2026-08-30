@@ -1,0 +1,87 @@
+{
+  "programId": 4139252,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:38.193Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6709732,
+      "teamName": "8. Fam Bam (Abby T.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 6693372,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 6726104,
+      "teamName": "3. Swag in a Bag (Phil A.)",
+      "gamesPlayed": 12,
+      "wins": 9,
+      "losses": 1,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6689785,
+      "teamName": "5. Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 6691415,
+      "teamName": "1. 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 7,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 6723045,
+      "teamName": "7. Kiss My Ace (Jessica C.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 9,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 7,
+      "teamId": 6710658,
+      "teamName": "2. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 10,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 6722901,
+      "teamName": "6. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 10,
+      "ties": 5,
+      "points": 5
+    }
+  ]
+}

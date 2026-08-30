@@ -1,0 +1,87 @@
+{
+  "programId": 4105682,
+  "programName": "Wednesday Coed 4s",
+  "updatedAt": "2026-08-30T18:42:09.088Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6649015,
+      "teamName": "6. Wednesday Winter Warriors Will Win (Curtis J.)",
+      "gamesPlayed": 10,
+      "wins": 6,
+      "losses": 0,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 2,
+      "teamId": 6657165,
+      "teamName": "2. HAVOC (Lola H.)",
+      "gamesPlayed": 10,
+      "wins": 6,
+      "losses": 1,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 3,
+      "teamId": 6658719,
+      "teamName": "3. Setting Ducks (Glenn S.)",
+      "gamesPlayed": 10,
+      "wins": 7,
+      "losses": 2,
+      "ties": 1,
+      "points": 13
+    },
+    {
+      "position": 4,
+      "teamId": 6657815,
+      "teamName": "5. Team (Mark J.)",
+      "gamesPlayed": 10,
+      "wins": 6,
+      "losses": 2,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 5,
+      "teamId": 6646856,
+      "teamName": "1. Bang Ít (Denise H.)",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 5,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 6,
+      "teamId": 6654874,
+      "teamName": "4. si papi si (Omair S.)",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 4,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 7,
+      "teamId": 6654335,
+      "teamName": "7. Will Work for Sets (Austin D.)",
+      "gamesPlayed": 7,
+      "wins": 0,
+      "losses": 6,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 8,
+      "teamId": 6663284,
+      "teamName": "8. 2Legit2Hit (Thanh N.)",
+      "gamesPlayed": 7,
+      "wins": 0,
+      "losses": 7,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

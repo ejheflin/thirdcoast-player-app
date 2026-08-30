@@ -1,0 +1,18 @@
+{
+  "userId": 57653048,
+  "firstName": "Carson",
+  "appearances": [
+    {
+      "programId": 5053349,
+      "teamId": 8033568,
+      "teamName": "6. Taylor P. and Carson S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050344,
+      "teamId": 8024296,
+      "teamName": "10. Tiffany S. and Carson S.",
+      "isCaptain": false
+    }
+  ]
+}

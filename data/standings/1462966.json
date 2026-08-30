@@ -1,0 +1,67 @@
+{
+  "programId": 1462966,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:29.081Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2896933,
+      "teamName": "2 - No Fly Zone (Kumar R.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 0,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 2,
+      "teamId": 2896438,
+      "teamName": "5 - Three OG's and Bae (Johnny W.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 1,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 3,
+      "teamId": 2897554,
+      "teamName": "3 - SofaKingGoodGunners (Luis H.)",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 1,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 4,
+      "teamId": 2898325,
+      "teamName": "1 - E League Champs (Christopher B.)",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 5,
+      "teamId": 3193642,
+      "teamName": "4 - Soft Serve (Erika P.)",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 6,
+      "teamId": 2894821,
+      "teamName": "6 - Toodles (Michael L.)",
+      "gamesPlayed": 3,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

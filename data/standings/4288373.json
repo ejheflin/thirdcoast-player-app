@@ -1,0 +1,107 @@
+{
+  "programId": 4288373,
+  "programName": "Tuesday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:56.574Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6914377,
+      "teamName": "4. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 6911245,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 6924583,
+      "teamName": "7. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 6908894,
+      "teamName": "1. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 6908116,
+      "teamName": "10. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 6918106,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 6909394,
+      "teamName": "3. Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 6,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 6907726,
+      "teamName": "2. Here for the Beer (Annie L.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 5,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 9,
+      "teamId": 6920187,
+      "teamName": "9. Ginger & the Giants (Allan K.)",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 7,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 10,
+      "teamId": 6913095,
+      "teamName": "5. The Vacationers (Phil M.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 7,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

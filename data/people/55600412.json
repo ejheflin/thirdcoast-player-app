@@ -1,0 +1,18 @@
+{
+  "userId": 55600412,
+  "firstName": "Robert",
+  "appearances": [
+    {
+      "programId": 5080936,
+      "teamId": 8037121,
+      "teamName": "4. Kathleen B. and Robert T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062084,
+      "teamId": 8015523,
+      "teamName": "7. Sets Pistols (Christina Z.)",
+      "isCaptain": false
+    }
+  ]
+}

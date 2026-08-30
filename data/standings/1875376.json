@@ -1,0 +1,127 @@
+{
+  "programId": 1875376,
+  "programName": "Thursday Coed 2s Competitive",
+  "updatedAt": "2026-08-30T18:40:11.862Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3432997,
+      "teamName": "10 - Keelie A. & Matt B.",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 1,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 3419143,
+      "teamName": "6 - Holland F. & Jon N.",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 3437332,
+      "teamName": "12 - Christine M. & Hollis S.",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 3418798,
+      "teamName": "8 - Elaine L. & Brent M.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 3419971,
+      "teamName": "2 - Ashlee S. & Johnny W.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 2,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 3422782,
+      "teamName": "7 - Jo P. & Trung H.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 3426727,
+      "teamName": "3 - Millie V. & Brian T.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 5,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 3417751,
+      "teamName": "11 - Molly J. & Adolph T.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 9,
+      "teamId": 3428464,
+      "teamName": "9 - Sarah H. & Steven H.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 5,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 3419152,
+      "teamName": "4 - Jessica B. & Ben H.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 5,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 3418540,
+      "teamName": "5 - Lisa B. and Matt Y.",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 7,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 12,
+      "teamId": 3436351,
+      "teamName": "1 - Khoun T. & Riley F.",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 6,
+      "ties": 8,
+      "points": 8
+    }
+  ]
+}

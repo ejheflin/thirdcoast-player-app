@@ -1,0 +1,107 @@
+{
+  "programId": 1462975,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:41:52.396Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2892046,
+      "teamName": "9 - Tay D. & Jo P.",
+      "gamesPlayed": 8,
+      "wins": 5,
+      "losses": 0,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 2,
+      "teamId": 2892175,
+      "teamName": "4 - Melissa B. & Jen A.",
+      "gamesPlayed": 9,
+      "wins": 3,
+      "losses": 2,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 3,
+      "teamId": 2897755,
+      "teamName": "7 - Sarah S. & Hannah S.",
+      "gamesPlayed": 7,
+      "wins": 2,
+      "losses": 1,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 4,
+      "teamId": 2977849,
+      "teamName": "10 - Khoun T. & Marisela G.",
+      "gamesPlayed": 5,
+      "wins": 2,
+      "losses": 1,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 5,
+      "teamId": 2892277,
+      "teamName": "5 - Lisa B. & Tina O.",
+      "gamesPlayed": 7,
+      "wins": 2,
+      "losses": 3,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 6,
+      "teamId": 2947150,
+      "teamName": "11 - Tiffany S. & Tiare A.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 7,
+      "teamId": 2892043,
+      "teamName": "8 - Taeko G. & Christine M.",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 1,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 8,
+      "teamId": 2898244,
+      "teamName": "1 - Alyssa D. & Milly V.",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 2,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 9,
+      "teamId": 3170368,
+      "teamName": "Rebecca B. & Dani D.",
+      "gamesPlayed": 5,
+      "wins": 0,
+      "losses": 4,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 10,
+      "teamId": 3194827,
+      "teamName": "Elaine L. & Keelie A.",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

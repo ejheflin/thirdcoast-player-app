@@ -1,0 +1,87 @@
+{
+  "programId": 1734334,
+  "programName": "Wednesday Mens 2s A",
+  "updatedAt": "2026-08-30T18:42:14.812Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3259138,
+      "teamName": "5 - Zach P. & Brian G.",
+      "gamesPlayed": 14,
+      "wins": 11,
+      "losses": 1,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 3258433,
+      "teamName": "3 - Ryan R. & Nic C.",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 3,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 3256375,
+      "teamName": "2 - David Dry. & Ed F.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 3259513,
+      "teamName": "4 - Matt Y. & Will S.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 3,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 3278812,
+      "teamName": "6 - Jaimie G. & Leo C.",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 6,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 3255532,
+      "teamName": "1 - Mike B. & Aaron K.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 3282760,
+      "teamName": "7 - Ryan C. & Rudy D.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 3284599,
+      "teamName": "8 - Dan L. & Gary M.",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 12,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

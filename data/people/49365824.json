@@ -1,0 +1,18 @@
+{
+  "userId": 49365824,
+  "firstName": "Jolene",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8000961,
+      "teamName": "7. Jo P. and Leo Y.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8018306,
+      "teamName": "2. Sarah S. and Jo P.",
+      "isCaptain": true
+    }
+  ]
+}

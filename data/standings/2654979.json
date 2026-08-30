@@ -1,0 +1,87 @@
+{
+  "programId": 2654979,
+  "programName": "Monday Coed 3s Intermediate",
+  "updatedAt": "2026-08-30T18:39:24.097Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4494276,
+      "teamName": "2 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 14,
+      "wins": 12,
+      "losses": 0,
+      "ties": 2,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 4499259,
+      "teamName": "8 - Sandy Start (Tiffany S.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 3,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 4496439,
+      "teamName": "5 - Vomitive Triumvirate (John K.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 4495659,
+      "teamName": "4 - The Volley Llamas (Jonathan P.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 5,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 4491027,
+      "teamName": "3 - The Spike Awakens (Ash B.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 4498491,
+      "teamName": "7 - Arepas (Luis H.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 4,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 4498155,
+      "teamName": "6 - Court Jesters (Matt O.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 5,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 4491186,
+      "teamName": "1 - New Tricks (Doug T.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 16,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

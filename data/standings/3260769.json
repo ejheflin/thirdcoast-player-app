@@ -1,0 +1,87 @@
+{
+  "programId": 3260769,
+  "programName": "Friday Coed 2s B/BB",
+  "updatedAt": "2026-08-30T18:38:25.985Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5454909,
+      "teamName": "1. Jenny C. & Christian A.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 5463129,
+      "teamName": "3. Ivy C. & Dreco S.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 5467039,
+      "teamName": "4. Stephanie T. & Salah T.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 5470651,
+      "teamName": "6. Yanni S. & Daniel L.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 5467648,
+      "teamName": "2. Tasha W. & Tommy S.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 3,
+      "ties": 9,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 5468821,
+      "teamName": "5. Lauren K. & Arturo R.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 7,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 5473864,
+      "teamName": "7. Shannon T. & Owen T.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 4,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 5476426,
+      "teamName": "8. Audrey C. & Parker O.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 9,
+      "ties": 7,
+      "points": 7
+    }
+  ]
+}

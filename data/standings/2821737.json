@@ -1,0 +1,87 @@
+{
+  "programId": 2821737,
+  "programName": "Tuesday Coed 4s Intermediate #1",
+  "updatedAt": "2026-08-30T18:41:12.270Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4809099,
+      "teamName": "7 - Diggin and Swinging (Ivan M.)",
+      "gamesPlayed": 15,
+      "wins": 9,
+      "losses": 1,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 4732119,
+      "teamName": "1 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 4732296,
+      "teamName": "4 - We Dig You (Lauren M.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 4,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 4795455,
+      "teamName": "8 - The Hard Digs (Daniel L.)",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 1,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 4728027,
+      "teamName": "2 - Makeup Sets (Matt K.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 4727013,
+      "teamName": "3 - Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 5,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 4811112,
+      "teamName": "6 - FourPlay (Benjamin T.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 4735407,
+      "teamName": "5 - Volley Llamas (Joshua M.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 7,
+      "ties": 7,
+      "points": 9
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 25389682,
+  "firstName": "Joe",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8017688,
+      "teamName": "4. Nothing But Tape!! (Joe R.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5056676,
+      "teamId": 8033259,
+      "teamName": "8. The Replacements (Joe R.)",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 1128934,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:49.636Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2394268,
+      "teamName": "6 - I Dink I Love You (John B.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 2400100,
+      "teamName": "7 - Dream Team (Julia L.)",
+      "gamesPlayed": 15,
+      "wins": 9,
+      "losses": 1,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 2400205,
+      "teamName": "8 - Net Results (Andrew L.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 2379493,
+      "teamName": "2 - Big Tippers (Ivan M.)",
+      "gamesPlayed": 6,
+      "wins": 2,
+      "losses": 3,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 5,
+      "teamId": 2373163,
+      "teamName": "4 - Notorious D.I.G. (Jeanne B.)",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 7,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 6,
+      "teamId": 2380222,
+      "teamName": "3 - Sets In The Sand (Alyson L.)",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 4,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 7,
+      "teamId": 2390290,
+      "teamName": "5 - We Always Get It uP (Jeremy K.)",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 4,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 8,
+      "teamId": 2390284,
+      "teamName": "1 - Nettermind (Rosella G.)",
+      "gamesPlayed": 9,
+      "wins": 0,
+      "losses": 8,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

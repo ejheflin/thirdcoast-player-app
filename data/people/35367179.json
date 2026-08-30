@@ -1,0 +1,18 @@
+{
+  "userId": 35367179,
+  "firstName": "Jacob",
+  "appearances": [
+    {
+      "programId": 5050344,
+      "teamId": 8018869,
+      "teamName": "5. Kylee G. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8017957,
+      "teamName": "7. Riley W. and Jacob W.",
+      "isCaptain": false
+    }
+  ]
+}

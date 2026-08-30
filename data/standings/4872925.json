@@ -1,0 +1,87 @@
+{
+  "programId": 4872925,
+  "programName": "Monday Coed 3s B",
+  "updatedAt": "2026-08-30T18:39:19.911Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7761982,
+      "teamName": "4. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 7762097,
+      "teamName": "2. May the spike be with you (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 0,
+      "ties": 9,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 7763524,
+      "teamName": "3. Respect Your Elders (Heather B.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7792977,
+      "teamName": "8. Tri-Angels (Johnny P.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7762219,
+      "teamName": "1. Blakes Beaches (Collin W.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 5,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 7779567,
+      "teamName": "6. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 7,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 7788770,
+      "teamName": "7. Spikeopathic Tendencies (Jeremy M.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 11,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 7778432,
+      "teamName": "5. Sandy Cheeks (David N.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 10,
+      "ties": 2,
+      "points": 4
+    }
+  ]
+}

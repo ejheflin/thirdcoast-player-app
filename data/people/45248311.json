@@ -1,0 +1,18 @@
+{
+  "userId": 45248311,
+  "firstName": "Holli",
+  "appearances": [
+    {
+      "programId": 5053349,
+      "teamId": 8020386,
+      "teamName": "2. Holli D. and Dan L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050382,
+      "teamId": 8002322,
+      "teamName": "5. Holli D. and Tyler J.",
+      "isCaptain": true
+    }
+  ]
+}

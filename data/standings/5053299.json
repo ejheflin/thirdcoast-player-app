@@ -1,0 +1,87 @@
+{
+  "programId": 5053299,
+  "programName": "Monday Coed 3s B",
+  "updatedAt": "2026-08-30T18:39:13.061Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 8007548,
+      "teamName": "1. May the Spike Be With You (Ash C.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 2,
+      "ties": 3,
+      "points": 17
+    },
+    {
+      "position": 2,
+      "teamId": 8028220,
+      "teamName": "6. Tito-Rico's (Eliza P.)",
+      "gamesPlayed": 11,
+      "wins": 8,
+      "losses": 2,
+      "ties": 1,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 8011316,
+      "teamName": "2. Respect Your Elders (Heather B.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 3,
+      "ties": 2,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 8019272,
+      "teamName": "4. Tri-Angels (Johnny P.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 1,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 8012052,
+      "teamName": "5. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 12,
+      "wins": 6,
+      "losses": 3,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 8022958,
+      "teamName": "3. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 7,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 8030637,
+      "teamName": "7. Sandy Cheeks (Shayan E.)",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 8,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 8032894,
+      "teamName": "8. Sandy Shorts (Gilberto Z.)",
+      "gamesPlayed": 11,
+      "wins": 0,
+      "losses": 10,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

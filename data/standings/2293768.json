@@ -1,0 +1,107 @@
+{
+  "programId": 2293768,
+  "programName": "Monday Coed 2s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:08.842Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3953131,
+      "teamName": "2 - Liz C. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 3953887,
+      "teamName": "4 - Mia T. & Adolph T.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 3953503,
+      "teamName": "8 - Taylor B. & Andrew D.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 3959626,
+      "teamName": "1 - Jess L. & Edwin F.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 1,
+      "ties": 10,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 3976204,
+      "teamName": "10 - Sage H. & Jon N.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 3966193,
+      "teamName": "6 - Megan E. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 3960712,
+      "teamName": "7 - Mckenzie F. & Travis B.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 8,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 3961360,
+      "teamName": "3 - Beth B. & Alex D.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 7,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 9,
+      "teamId": 3950320,
+      "teamName": "5 - Julia L. & Kevin N.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 7,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 3967786,
+      "teamName": "9 - Lynn K. & Jaimie G.",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 13,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

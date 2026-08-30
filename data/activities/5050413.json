@@ -1,0 +1,1319 @@
+{
+  "programId": 5050413,
+  "games": [
+    {
+      "activityId": 13291615,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291616,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291617,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291618,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291619,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291620,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291621,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291622,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291623,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291624,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291625,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291626,
+      "date": "2026-07-09",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291627,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291628,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291629,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291630,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291631,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291632,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291633,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291634,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291635,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291636,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291637,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291638,
+      "date": "2026-07-16",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291651,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291652,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291653,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291654,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291655,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291656,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291657,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291658,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291659,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291660,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291661,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291662,
+      "date": "2026-07-30",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291663,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291664,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291665,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291666,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291667,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291668,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291669,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291670,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291671,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291672,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291673,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291674,
+      "date": "2026-08-06",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291676,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291678,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291681,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291682,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291683,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291684,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291685,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291686,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291687,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291688,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291689,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291690,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291692,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291693,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291695,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291696,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291698,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291699,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291700,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291701,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13291702,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291703,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291704,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291705,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291707,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

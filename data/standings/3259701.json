@@ -1,0 +1,107 @@
+{
+  "programId": 3259701,
+  "programName": "Thursday Coed 2s A",
+  "updatedAt": "2026-08-30T18:39:39.208Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5461974,
+      "teamName": "1. Jackie S. & Adolph T.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 5463913,
+      "teamName": "9. Julia D. & Emiliano T.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 5458659,
+      "teamName": "5. Michelle C. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 5460822,
+      "teamName": "6. Sarah H. & Stefan W.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 5458689,
+      "teamName": "2. Hannah S. & Matt G.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 5463300,
+      "teamName": "8. Taylor B. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 5450901,
+      "teamName": "4. Liz C. & Devin S.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 5461554,
+      "teamName": "3. Nicole P. & Isa T.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 9,
+      "teamId": 5466286,
+      "teamName": "10. Julia L. & Son T.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 6,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 10,
+      "teamId": 5461146,
+      "teamName": "7. Marisela R. & Mike O.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 6,
+      "ties": 9,
+      "points": 11
+    }
+  ]
+}

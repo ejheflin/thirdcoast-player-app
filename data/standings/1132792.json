@@ -1,0 +1,87 @@
+{
+  "programId": 1132792,
+  "programName": "Wednesday Mens 2s A",
+  "updatedAt": "2026-08-30T18:42:12.104Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2398570,
+      "teamName": "4 - David D. & Brandon B.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 3,
+      "ties": 3,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 2399668,
+      "teamName": "5 - Eric W. & Edwin F.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 2396653,
+      "teamName": "7 - Brent M. & Ryan B.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 2382337,
+      "teamName": "1 - Iann P. & Rod M.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 5,
+      "teamId": 2400535,
+      "teamName": "8 - David D. & Kelly C.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 2393959,
+      "teamName": "6 - Matt Fa. & Mike K.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 8,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 2399662,
+      "teamName": "2 - Jon N. & Christian A.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 10,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 2399659,
+      "teamName": "3 - Stu M. & Will T.",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 14,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

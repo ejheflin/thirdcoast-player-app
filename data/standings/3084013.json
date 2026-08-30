@@ -1,0 +1,87 @@
+{
+  "programId": 3084013,
+  "programName": "Wednesday Mens 2s A (Comp)",
+  "updatedAt": "2026-08-30T18:42:16.641Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5201176,
+      "teamName": "6 - Zach P. & Brandon B.",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 0,
+      "ties": 3,
+      "points": 29
+    },
+    {
+      "position": 2,
+      "teamId": 5168695,
+      "teamName": "1 - Johnny W. & Michael G.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 4,
+      "ties": 3,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 5178866,
+      "teamName": "5 - Ryan C. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 5204371,
+      "teamName": "8 - Marshall C. & Alex J.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 5183715,
+      "teamName": "4 - Jaimie G. & Joe M.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 5172200,
+      "teamName": "3 - Albert F. & Jeff M.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 5170369,
+      "teamName": "2 - James N. & Son T.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 5205454,
+      "teamName": "7 - Ian B. & Kyle P.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 14,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

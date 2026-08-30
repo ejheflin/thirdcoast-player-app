@@ -1,0 +1,107 @@
+{
+  "programId": 1126087,
+  "programName": "Friday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:38:28.635Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2374441,
+      "teamName": "5 - Giselle L. & Tommy S.",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 1,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 2366584,
+      "teamName": "6 - Jess L. & Thien N.",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 1,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 2369326,
+      "teamName": "4 - Jo P. & Ryan B.",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 2,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 2373997,
+      "teamName": "1 - Suzanne H. & Josman R.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 1,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 2366233,
+      "teamName": "7 - Melissa L. & Christian A.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 2367640,
+      "teamName": "2 - Julie V. & Leo Y.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 2367421,
+      "teamName": "10 - Tasha W. & Christopher C.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 6,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 2366239,
+      "teamName": "3 - Sophia D. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 2366644,
+      "teamName": "9 - Alena M. & Rob S.",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 7,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 2373007,
+      "teamName": "8 - Debbie W. & Marty W.",
+      "gamesPlayed": 11,
+      "wins": 0,
+      "losses": 8,
+      "ties": 3,
+      "points": 3
+    }
+  ]
+}

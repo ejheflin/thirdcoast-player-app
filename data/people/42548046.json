@@ -1,0 +1,12 @@
+{
+  "userId": 42548046,
+  "firstName": "Andy",
+  "appearances": [
+    {
+      "programId": 5056669,
+      "teamId": 8032502,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": false
+    }
+  ]
+}

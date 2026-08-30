@@ -1,0 +1,87 @@
+{
+  "programId": 3101694,
+  "programName": "Friday Coed 2s B/BB",
+  "updatedAt": "2026-08-30T18:38:25.534Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5203231,
+      "teamName": "4 - Stephanie T. & Salah T.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 5189821,
+      "teamName": "2 - Melissa L. & Christian A.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 5205085,
+      "teamName": "6 - Tasha W. & Tommy S.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 5200780,
+      "teamName": "1 - Ivy C. & Dreco S.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 4,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 5222296,
+      "teamName": "3 - Trina L. & Kumar R.",
+      "gamesPlayed": 11,
+      "wins": 3,
+      "losses": 3,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 6,
+      "teamId": 5217976,
+      "teamName": "7 - Lauren K. & Arturo R.",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 3,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 7,
+      "teamId": 5229727,
+      "teamName": "8 - Lori G. & Daniel L.",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 7,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 5225371,
+      "teamName": "5 - Nina L. & Gary C.",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 7,
+      "ties": 3,
+      "points": 5
+    }
+  ]
+}

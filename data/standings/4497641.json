@@ -1,0 +1,87 @@
+{
+  "programId": 4497641,
+  "programName": "Monday Coed 3s B",
+  "updatedAt": "2026-08-30T18:39:22.247Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7199899,
+      "teamName": "1. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 16,
+      "losses": 0,
+      "ties": 0,
+      "points": 32
+    },
+    {
+      "position": 2,
+      "teamId": 7196703,
+      "teamName": "5. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 7197149,
+      "teamName": "4. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7198850,
+      "teamName": "2. May the Spike be with You (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 7201467,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 7232528,
+      "teamName": "8. Big Dig Energy (Juliana T.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 7228119,
+      "teamName": "7. Bag of digs (Christopher M.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 11,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 7196730,
+      "teamName": "3. Sandy Cheeks (David N.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 12,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

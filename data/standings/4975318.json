@@ -1,0 +1,87 @@
+{
+  "programId": 4975318,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:44.935Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7924578,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7924382,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 7900353,
+      "teamName": "7. Team Jacob (Mark J.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 7909649,
+      "teamName": "2. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7932796,
+      "teamName": "1. Bombaclat (Aatir A.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 6,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 7923924,
+      "teamName": "6. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 7932339,
+      "teamName": "5. Vacationers (Phil M.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7934436,
+      "teamName": "8. Back Door Bumpers (Taylor L.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 13,
+      "ties": 2,
+      "points": 4
+    }
+  ]
+}

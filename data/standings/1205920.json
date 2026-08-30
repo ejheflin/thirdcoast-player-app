@@ -1,0 +1,127 @@
+{
+  "programId": 1205920,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:42:05.531Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2516221,
+      "teamName": "4 - Melissa B. & Lindsay H.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 2516056,
+      "teamName": "2 - Justyna B. & Keelie A.",
+      "gamesPlayed": 15,
+      "wins": 10,
+      "losses": 3,
+      "ties": 2,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 2512636,
+      "teamName": "7 - Jo P. & Tay D.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 2513002,
+      "teamName": "1 - Mili V. & Alyssa D.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 5,
+      "ties": 1,
+      "points": 21
+    },
+    {
+      "position": 5,
+      "teamId": 2512858,
+      "teamName": "3 - Susan L. & Helen E.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 5,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 6,
+      "teamId": 2516344,
+      "teamName": "6 - Michelle C. & Olivia J.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 7,
+      "teamId": 2513098,
+      "teamName": "10 - Sarah S. & Heysi B.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 6,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 2519854,
+      "teamName": "9 - Lina F. & Ashlee S.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 5,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 2517838,
+      "teamName": "5 - Lisa B. & Tina O.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 9,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 2516314,
+      "teamName": "12 - Tiffany S. & Tiare A.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 8,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 11,
+      "teamId": 2523064,
+      "teamName": "11 - Rachael G. & Ashley S.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 11,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 12,
+      "teamId": 2521363,
+      "teamName": "8 - Emily M. & Haley J.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 12,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

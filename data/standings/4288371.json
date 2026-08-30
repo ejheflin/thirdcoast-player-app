@@ -1,0 +1,87 @@
+{
+  "programId": 4288371,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:39.085Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6914443,
+      "teamName": "3. Las Tóxicas (Nicole P.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 6911644,
+      "teamName": "2. Holy Blockamole (Devin S.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 6920618,
+      "teamName": "8. 3 OG’s and Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 3,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 6912501,
+      "teamName": "4. Milk & Cookies (Sam E.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 6920774,
+      "teamName": "7. Fam Bam (Abby N.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 4,
+      "ties": 9,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 6912844,
+      "teamName": "1. Calm Yo Tips (Adolph T.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 4,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 6919420,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 6913439,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 4,
+      "ties": 11,
+      "points": 13
+    }
+  ]
+}

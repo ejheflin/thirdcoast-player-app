@@ -1,0 +1,18 @@
+{
+  "userId": 49869006,
+  "firstName": "Helen",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8010920,
+      "teamName": "2. Helen L. and George C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062084,
+      "teamId": 8031288,
+      "teamName": "10. Offense Only (Zhen Y.)",
+      "isCaptain": false
+    }
+  ]
+}

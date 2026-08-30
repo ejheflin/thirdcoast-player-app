@@ -1,0 +1,127 @@
+{
+  "programId": 2821731,
+  "programName": "Monday Coed 2s BB (Upper Intermediate)",
+  "updatedAt": "2026-08-30T18:39:03.242Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4753497,
+      "teamName": "7 - Jess L. & Edwin F.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 4728117,
+      "teamName": "10 - Taylor B. & Alfredo E.",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 2,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 4735464,
+      "teamName": "4 - Julia L. & Leo Y.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 4729686,
+      "teamName": "6 - Liz C. & Josman R.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 4727256,
+      "teamName": "8 - Nicole P. & Mark J.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 1,
+      "ties": 11,
+      "points": 19
+    },
+    {
+      "position": 6,
+      "teamId": 4728231,
+      "teamName": "2 - Megan E. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 4730802,
+      "teamName": "11 - Nicole B. & Kyle P.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 4,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 8,
+      "teamId": 4800069,
+      "teamName": "1 - Gabriela C. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 4732134,
+      "teamName": "5 - Fran R. & Mike O.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 4732344,
+      "teamName": "3 - Sundara C. & Jon N.",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 3,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 11,
+      "teamId": 4728846,
+      "teamName": "9 - Starr K. & Travis B.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 8,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 12,
+      "teamId": 4804926,
+      "teamName": "12 - Lynn K. & Trung H.",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 11,
+      "ties": 2,
+      "points": 4
+    }
+  ]
+}

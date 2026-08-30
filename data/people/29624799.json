@@ -1,0 +1,18 @@
+{
+  "userId": 29624799,
+  "firstName": "Philip",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8015584,
+      "teamName": "9. Molly J. and Phil A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5056669,
+      "teamId": 8032502,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": false
+    }
+  ]
+}

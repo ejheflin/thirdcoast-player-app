@@ -1,0 +1,24 @@
+{
+  "userId": 54426683,
+  "firstName": "Jacob",
+  "appearances": [
+    {
+      "programId": 5053349,
+      "teamId": 8007625,
+      "teamName": "8. Jodie N. and Jacob J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062075,
+      "teamId": 8024851,
+      "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8017041,
+      "teamName": "3. Jacob J. and Jake S.",
+      "isCaptain": true
+    }
+  ]
+}

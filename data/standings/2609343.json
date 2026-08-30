@@ -1,0 +1,87 @@
+{
+  "programId": 2609343,
+  "programName": "Tuesday Coed 4s Intermediate #1",
+  "updatedAt": "2026-08-30T18:41:17.772Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4431339,
+      "teamName": "1 - Makeup Sets (Matt K.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 4432119,
+      "teamName": "4 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 4432746,
+      "teamName": "6 - We Dig You (Lauren M.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 4430898,
+      "teamName": "3 - Who Netted (Casey B.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 4432314,
+      "teamName": "5 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 4437033,
+      "teamName": "8 - PandaPeople (Jaimie G.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 5,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 4434807,
+      "teamName": "7 - Fourplay (Benjamin T.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 4422849,
+      "teamName": "2 - Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    }
+  ]
+}

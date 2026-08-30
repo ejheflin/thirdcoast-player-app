@@ -1,0 +1,107 @@
+{
+  "programId": 4497646,
+  "programName": "Thursday Coed 2s AA",
+  "updatedAt": "2026-08-30T18:40:04.925Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7197943,
+      "teamName": "9. Savannah W. and Phil A.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 0,
+      "ties": 4,
+      "points": 28
+    },
+    {
+      "position": 2,
+      "teamId": 7196696,
+      "teamName": "5. Kendall G. and Alfonso L.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 7196694,
+      "teamName": "7. Cabrina B. and Matt B.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7196686,
+      "teamName": "8. Molly J. and Josh K.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7196885,
+      "teamName": "2. Jo P. and Austin J.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 7196689,
+      "teamName": "3. Elaine L. and Tyler J.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 3,
+      "ties": 11,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 7196691,
+      "teamName": "10. Julia D. and Emiliano T.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 4,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 7196690,
+      "teamName": "4. Shelby L. and Michael A.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 6,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 7196702,
+      "teamName": "1. Lauren H. and Jake S.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 7196625,
+      "teamName": "6. Olivia J. and Eric W.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 10,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

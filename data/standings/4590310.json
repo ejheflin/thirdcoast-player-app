@@ -1,0 +1,87 @@
+{
+  "programId": 4590310,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:46.385Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7350092,
+      "teamName": "6. Holy Blockamole 4.0 (Bryan M.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 2,
+      "ties": 2,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 7337305,
+      "teamName": "1. Team Jacob (Mark J.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7350093,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7332401,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 7335075,
+      "teamName": "2. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 7350526,
+      "teamName": "8. Twin Peaks (Traci D.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 7,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 7350085,
+      "teamName": "4. Hit Men (Cristofer G.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 7,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7344910,
+      "teamName": "7. 3 OGs and Bae (Johnny W.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 12,
+      "ties": 2,
+      "points": 4
+    }
+  ]
+}

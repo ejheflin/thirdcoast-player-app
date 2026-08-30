@@ -1,0 +1,127 @@
+{
+  "programId": 4592485,
+  "programName": "Thursday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:28.320Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7360114,
+      "teamName": "9. The Habibiz (Roy T.)",
+      "gamesPlayed": 15,
+      "wins": 14,
+      "losses": 0,
+      "ties": 1,
+      "points": 29
+    },
+    {
+      "position": 2,
+      "teamId": 7347922,
+      "teamName": "1. Just The Tip? (Doug B.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 7356069,
+      "teamName": "7. Volley Vibes (Liz P.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 30
+    },
+    {
+      "position": 4,
+      "teamId": 7352034,
+      "teamName": "3. Ay mi madre (Daniel D.)",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 3,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 7357860,
+      "teamName": "6. Eat a Whole Bag o’ Digs (Jason O.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 6,
+      "teamId": 7340418,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 4,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 7,
+      "teamId": 7348050,
+      "teamName": "12. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 7353416,
+      "teamName": "8. Sandy Patch Kids (Curtis J.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 8,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 7337265,
+      "teamName": "2. Bumpin Uglies (Clark P.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 7350355,
+      "teamName": "5. Bump...Set...Bump!! (Joe R.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 8,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 11,
+      "teamId": 7353419,
+      "teamName": "10. Bump, Set… Dammit! (Nathan G.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 10,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 12,
+      "teamId": 7360113,
+      "teamName": "11. Soju My Soul (Johnny P.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 10,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

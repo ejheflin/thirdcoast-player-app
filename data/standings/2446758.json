@@ -1,0 +1,87 @@
+{
+  "programId": 2446758,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:29.982Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4197222,
+      "teamName": "4 - Boizz nite (Kumar R.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 2,
+      "ties": 3,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 4193982,
+      "teamName": "1 - 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 4184256,
+      "teamName": "7 - Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 4198860,
+      "teamName": "6 - Soft Serve (Erika P.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 4197885,
+      "teamName": "3 - Tiff's Big Diggs (Mike B.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 6,
+      "teamId": 4200504,
+      "teamName": "2 - Big Cat Ballers (Megan W.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 7,
+      "teamId": 4200564,
+      "teamName": "5 - Karma's a Beach (Liz C.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 8,
+      "teamId": 4191975,
+      "teamName": "8 - Can't Keep Score (Joy R.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 11,
+      "ties": 5,
+      "points": 5
+    }
+  ]
+}

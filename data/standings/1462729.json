@@ -1,0 +1,87 @@
+{
+  "programId": 1462729,
+  "programName": "Monday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:39:06.043Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2930932,
+      "teamName": "9 - Jordan M. & Travis B.",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 2,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 2,
+      "teamId": 2897095,
+      "teamName": "4 - Starr K. & Emiliano T.",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 1,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 3,
+      "teamId": 2899033,
+      "teamName": "1 - Megan L. & Brad F.",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 2,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 4,
+      "teamId": 2896312,
+      "teamName": "2 - Kait L. & Chris C.",
+      "gamesPlayed": 5,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 5,
+      "teamId": 2957923,
+      "teamName": "7 - Maria H. & Shak M.",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 6,
+      "teamId": 2896393,
+      "teamName": "8 - Silvana C. & Payton P.",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 1,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 7,
+      "teamId": 2983525,
+      "teamName": "3 - Victoria Q. & Brandon B.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 4,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 8,
+      "teamId": 2894089,
+      "teamName": "10 - Erin V. & Grant W.",
+      "gamesPlayed": 5,
+      "wins": 0,
+      "losses": 3,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

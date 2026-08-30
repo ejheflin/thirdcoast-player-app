@@ -1,0 +1,127 @@
+{
+  "programId": 4319078,
+  "programName": "Thursday Coed 2s A",
+  "updatedAt": "2026-08-30T18:39:42.926Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6953924,
+      "teamName": "7. Lauren H. and Andrew B.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 6953521,
+      "teamName": "9. Shelby L. and Jon N.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 6952834,
+      "teamName": "10. Taylor B. and Marty Z.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6956027,
+      "teamName": "2. Hayden S. and Adolph T.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 3,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 6946061,
+      "teamName": "3. Kyndra K. and Jaimie G.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 3,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6954422,
+      "teamName": "8. Olivia E. and Isa T.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 4,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 6945595,
+      "teamName": "6. Lisa B. and Brent B.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 6,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 6948342,
+      "teamName": "5. Tina O. and John S.",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 2,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 6958970,
+      "teamName": "1. Jasmin C. and Colby H.",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 5,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 6945822,
+      "teamName": "12. Michelle C. and Josman R.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 11,
+      "teamId": 6952921,
+      "teamName": "4. Sarah U. and Matt G.",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 7,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 12,
+      "teamId": 6958875,
+      "teamName": "11. Savannah W. and Jeff S.",
+      "gamesPlayed": 9,
+      "wins": 1,
+      "losses": 3,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

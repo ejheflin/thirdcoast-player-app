@@ -1,0 +1,67 @@
+{
+  "programId": 1734298,
+  "programName": "Tuesday Coed 4s Intermediate #1",
+  "updatedAt": "2026-08-30T18:41:15.932Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3255766,
+      "teamName": "5 - Makeup Sets (Matt K.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 2,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 2,
+      "teamId": 3258367,
+      "teamName": "3 - Fourplay (Benjamin T.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 2,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 3261451,
+      "teamName": "4 - We Dig You (Lauren M.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 3,
+      "ties": 4,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 3259516,
+      "teamName": "2 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 3,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 3259996,
+      "teamName": "1 - Ball Whisperers (Matthew G.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 8,
+      "ties": 1,
+      "points": 9
+    },
+    {
+      "position": 6,
+      "teamId": 3285640,
+      "teamName": "6 - Kiss My Ace (Sepi M.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 13,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 45440198,
+  "firstName": "Harley",
+  "appearances": [
+    {
+      "programId": 5062075,
+      "teamId": 8030206,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8008255,
+      "teamName": "2. Gordon P. and Harley G.",
+      "isCaptain": false
+    }
+  ]
+}

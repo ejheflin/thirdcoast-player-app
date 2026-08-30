@@ -1,0 +1,107 @@
+{
+  "programId": 4319089,
+  "programName": "Thursday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:26.835Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6949898,
+      "teamName": "7. Just The Tip? (Doug B.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 0,
+      "ties": 4,
+      "points": 28
+    },
+    {
+      "position": 2,
+      "teamId": 6953282,
+      "teamName": "4. Ay mi madre (Daniel D.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 6945189,
+      "teamName": "1. Volley Vibes (Liz P.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 6951252,
+      "teamName": "9. Trust Me, It Was Out! (Curtis J.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 5,
+      "teamId": 6949442,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 6,
+      "teamId": 6945299,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 3,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 6952170,
+      "teamName": "3. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 6952127,
+      "teamName": "8. Sandstorm (Leah V.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 10,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 9,
+      "teamId": 6954675,
+      "teamName": "5. Bump, Set... Dammit (Nathan G.)",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 11,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 10,
+      "teamId": 6956157,
+      "teamName": "10. The Comebacks! (Joe R.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 10,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

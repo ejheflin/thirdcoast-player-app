@@ -1,0 +1,127 @@
+{
+  "programId": 2464920,
+  "programName": "Monday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:39:05.132Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4235706,
+      "teamName": "10 - Colleen P. & Ian B.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 1,
+      "ties": 4,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 4240761,
+      "teamName": "6 - Nicole B. & Kyle P.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 4211634,
+      "teamName": "4 - Elise B. & Brian C.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 1,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 4210755,
+      "teamName": "2 - Michelle E. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 4238403,
+      "teamName": "5 - Alena M. & Nhat N.",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 2,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 4230978,
+      "teamName": "3 - Gabriela C. & Jason R.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 4225044,
+      "teamName": "12 - Fran R. & Brad F.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 4,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 4238364,
+      "teamName": "11 - Tasha W. & Christopher C.",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 6,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 4233024,
+      "teamName": "8 - Jess C. & Brent B.",
+      "gamesPlayed": 11,
+      "wins": 3,
+      "losses": 3,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 4238571,
+      "teamName": "7 - Megan G. & Garth R.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 11,
+      "teamId": 4234197,
+      "teamName": "9 - Emily R. & Chad H.",
+      "gamesPlayed": 9,
+      "wins": 1,
+      "losses": 1,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 12,
+      "teamId": 4217352,
+      "teamName": "1 - Naomi L. & Richard L.",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 13,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

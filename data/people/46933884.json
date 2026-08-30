@@ -1,0 +1,18 @@
+{
+  "userId": 46933884,
+  "firstName": "Johnny",
+  "appearances": [
+    {
+      "programId": 5053299,
+      "teamId": 8019272,
+      "teamName": "4. Tri-Angels (Johnny P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062084,
+      "teamId": 8024490,
+      "teamName": "2. Beach Please (Annie L.)",
+      "isCaptain": false
+    }
+  ]
+}

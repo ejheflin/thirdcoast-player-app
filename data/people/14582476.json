@@ -1,0 +1,18 @@
+{
+  "userId": 14582476,
+  "firstName": "Albert",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8008195,
+      "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5056676,
+      "teamId": 8033259,
+      "teamName": "8. The Replacements (Joe R.)",
+      "isCaptain": false
+    }
+  ]
+}

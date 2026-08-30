@@ -1,0 +1,87 @@
+{
+  "programId": 1339234,
+  "programName": "Wednesday Mens 2s AA",
+  "updatedAt": "2026-08-30T18:42:34.969Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2723068,
+      "teamName": "5 - Eric W. & Jeff M.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 4,
+      "ties": 3,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 2723014,
+      "teamName": "2 - Walid E. & Luis C.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 2723092,
+      "teamName": "7 - Michael G. & Daniel A.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 2722711,
+      "teamName": "1 - Roger M. & Adam H.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 2723038,
+      "teamName": "3 - Ruslan A. & Iann P.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 2723089,
+      "teamName": "4 - Trung H. & Jamie O.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 6,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 2723095,
+      "teamName": "8 - Scott S. & Chris H.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 2722927,
+      "teamName": "6 - Jon N. & Brandon L.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 7,
+      "ties": 7,
+      "points": 9
+    }
+  ]
+}

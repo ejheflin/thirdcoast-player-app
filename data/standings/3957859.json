@@ -1,0 +1,87 @@
+{
+  "programId": 3957859,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:02.182Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6451225,
+      "teamName": "4. Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 6453512,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 6451260,
+      "teamName": "1. Milk & Cookies (Sam E.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 6450856,
+      "teamName": "5. We Dig You (Stephen J.)",
+      "gamesPlayed": 13,
+      "wins": 6,
+      "losses": 3,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 6443623,
+      "teamName": "7. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 4,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 6456202,
+      "teamName": "8. Pedialyte (Calvin D.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 6445396,
+      "teamName": "2. Makeup Sets (Matt K.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 9,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 6450857,
+      "teamName": "3. Welcome to the Sonderdome (Son T.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 9,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 1317250,
+  "programName": "Monday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:39:35.298Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2692030,
+      "teamName": "8 - To Be Determined (Andy T.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 0,
+      "ties": 4,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 2683285,
+      "teamName": "4 - Notorious D.I.G. (Jamie D.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 4,
+      "ties": 2,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 2687062,
+      "teamName": "1 - Bumpin Uglies (Matt O.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 3,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 4,
+      "teamId": 2683711,
+      "teamName": "3 - Just the Tip (Will B.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 2687278,
+      "teamName": "5 - Sets on Fire (Callie P.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 5,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 6,
+      "teamId": 2685310,
+      "teamName": "7 - Any4s (Naomi L.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 2691913,
+      "teamName": "2 - Squadwerd (Jordan R.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 8,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 8,
+      "teamId": 2691760,
+      "teamName": "6 - Those Guys (Kelly S.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 9,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

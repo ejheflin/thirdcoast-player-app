@@ -1,0 +1,87 @@
+{
+  "programId": 2590044,
+  "programName": "Wednesday Mens 2s A",
+  "updatedAt": "2026-08-30T18:42:12.539Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4416408,
+      "teamName": "3 - David D. & Alfonso L.",
+      "gamesPlayed": 16,
+      "wins": 16,
+      "losses": 0,
+      "ties": 0,
+      "points": 32
+    },
+    {
+      "position": 2,
+      "teamId": 4411173,
+      "teamName": "7 - Zach P. & Brian T.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 4396335,
+      "teamName": "8 - Mike B. & Stefan W.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 6,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 4,
+      "teamId": 4415451,
+      "teamName": "1 - Jaimie G. & Fredo E.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 4406589,
+      "teamName": "2 - David D. & Hollis S.",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 6,
+      "teamId": 4391661,
+      "teamName": "4 - Riley F. & Emiliano T.",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 5,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 4397772,
+      "teamName": "5 - James N. & Son T.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 4406877,
+      "teamName": "6 - Ryan C. & Rudy D.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 7,
+      "ties": 6,
+      "points": 10
+    }
+  ]
+}

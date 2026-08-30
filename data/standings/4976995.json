@@ -1,0 +1,107 @@
+{
+  "programId": 4976995,
+  "programName": "Thursday Coed 2s AA",
+  "updatedAt": "2026-08-30T18:40:02.549Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7928140,
+      "teamName": "10. Giselle T. and Phil A.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 7922044,
+      "teamName": "4. Molly J. and Alex J.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 7914505,
+      "teamName": "6. Shelby L. and Michael A.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7906117,
+      "teamName": "2. Holli D. and Tyler J.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 2,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7906530,
+      "teamName": "3. Jo P. and Leo Y.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 7924284,
+      "teamName": "8. Lauren H. and Matt B.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 7927506,
+      "teamName": "9. Ali M. and Andrew B.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 7901392,
+      "teamName": "5. Olivia J. and Eric W.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 4,
+      "ties": 9,
+      "points": 13
+    },
+    {
+      "position": 9,
+      "teamId": 7914380,
+      "teamName": "1. Elaine L. and Jon N.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 6,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 7923522,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    }
+  ]
+}

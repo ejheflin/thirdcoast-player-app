@@ -1,0 +1,18 @@
+{
+  "userId": 49754764,
+  "firstName": "Lauren",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8021699,
+      "teamName": "6. I Dunno (Matt G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8028157,
+      "teamName": "9. Juli T. and Lauren W.",
+      "isCaptain": false
+    }
+  ]
+}

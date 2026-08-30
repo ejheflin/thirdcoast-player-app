@@ -1,0 +1,127 @@
+{
+  "programId": 4319084,
+  "programName": "Thursday Coed 2s AA",
+  "updatedAt": "2026-08-30T18:40:03.975Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6952645,
+      "teamName": "6. Kendall G. and Alfonso L.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6954538,
+      "teamName": "11. Cabrina B. and Philip A.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 6953182,
+      "teamName": "10. Olivia J. and Eric W.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 6947279,
+      "teamName": "3. Elaine L. and Tyler J.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 6952655,
+      "teamName": "12. Jo P. and Austin J.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6952371,
+      "teamName": "8. Molly J. and Josh K.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 6951555,
+      "teamName": "4. Emily F. and Ryan S.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 8,
+      "teamId": 6953133,
+      "teamName": "5. Julia D. and Matt B.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 3,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 9,
+      "teamId": 6954499,
+      "teamName": "9. Jackie J. and Alex J.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 10,
+      "teamId": 6954101,
+      "teamName": "7. Sarah H. and Martin S.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 6953632,
+      "teamName": "2. Christine M. and Matt B.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 12,
+      "teamId": 6952675,
+      "teamName": "1. Paige D. and Michael A.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    }
+  ]
+}

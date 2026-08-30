@@ -1,0 +1,12 @@
+{
+  "userId": 42592644,
+  "firstName": "Tyler",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8002322,
+      "teamName": "5. Holli D. and Tyler J.",
+      "isCaptain": false
+    }
+  ]
+}

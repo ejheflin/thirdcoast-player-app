@@ -1,0 +1,87 @@
+{
+  "programId": 3903865,
+  "programName": "Monday Coed 2s BB",
+  "updatedAt": "2026-08-30T18:38:53.905Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6370183,
+      "teamName": "4. Liz C. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 0,
+      "ties": 9,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 6373259,
+      "teamName": "3. Jess L. & Edwin F.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 6376497,
+      "teamName": "8. Diana F. & Jon N.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 0,
+      "ties": 12,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6370408,
+      "teamName": "6. Caroline J. & Mark J.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 2,
+      "ties": 11,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 6373155,
+      "teamName": "2. Lauren H. & Kumar R.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6373526,
+      "teamName": "5. Taylor B. & Matt C.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 6370250,
+      "teamName": "7. Kim M. & Travis B.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 10,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 6374083,
+      "teamName": "1. Gabriela C. & Erik H.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

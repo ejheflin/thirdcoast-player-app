@@ -1,0 +1,87 @@
+{
+  "programId": 4360609,
+  "programName": "Monday Coed 2s BB",
+  "updatedAt": "2026-08-30T18:39:01.853Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7019505,
+      "teamName": "6. Nicole B. and Mark J.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 7029366,
+      "teamName": "3. Shelby G. and Jon N.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 0,
+      "ties": 11,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7019508,
+      "teamName": "4. Liz C. and Josman R.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7024465,
+      "teamName": "8. Taylor B. and Matt C.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 7032093,
+      "teamName": "2. Jess L. and Leo Y.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 7023115,
+      "teamName": "1. Abbie G. and Noman Z.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 7020601,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7027854,
+      "teamName": "7. Olivia E. and Dom W.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 33061706,
+  "firstName": "Sarah",
+  "appearances": [
+    {
+      "programId": 5050344,
+      "teamId": 8007160,
+      "teamName": "4. Sarah D. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5056669,
+      "teamId": 8032502,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": false
+    }
+  ]
+}

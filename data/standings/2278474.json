@@ -1,0 +1,87 @@
+{
+  "programId": 2278474,
+  "programName": "Wednesday Mens 2s AA",
+  "updatedAt": "2026-08-30T18:42:19.974Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3933853,
+      "teamName": "2 - Edwin F. & Eric W.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 3950932,
+      "teamName": "1 - Blake C. & Ryan B.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 3958051,
+      "teamName": "8 - Chris H. & Charlie B.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 4,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 3952927,
+      "teamName": "5 - Zach P. & Brian G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 3950800,
+      "teamName": "3 - Michael G. & Daniel A.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 3962347,
+      "teamName": "4 - Ruslan A. & Eric B.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 3955870,
+      "teamName": "6 - Riley F. & Matthew S.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 3957790,
+      "teamName": "7 - David D. & Blake D.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 10,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 45906751,
+  "firstName": "Sarah",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8016616,
+      "teamName": "5. Sarah U. and Joe M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050382,
+      "teamId": 8016609,
+      "teamName": "10. Sarah U. and Kumar R.",
+      "isCaptain": true
+    }
+  ]
+}

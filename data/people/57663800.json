@@ -1,0 +1,24 @@
+{
+  "userId": 57663800,
+  "firstName": "Gilberto",
+  "appearances": [
+    {
+      "programId": 5053299,
+      "teamId": 8032894,
+      "teamName": "8. Sandy Shorts (Gilberto Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050413,
+      "teamId": 8016844,
+      "teamName": "11. Spike Wizowski (Sarah F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5056676,
+      "teamId": 8024049,
+      "teamName": "10. Big Dig Energy (Chad S.)",
+      "isCaptain": false
+    }
+  ]
+}

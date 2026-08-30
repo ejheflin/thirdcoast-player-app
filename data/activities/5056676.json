@@ -1,0 +1,1049 @@
+{
+  "programId": 5056676,
+  "games": [
+    {
+      "activityId": 13352025,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352026,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352027,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352028,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352029,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352030,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352031,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352032,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352033,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352034,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352036,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352037,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352038,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352039,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352040,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352041,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352042,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352043,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352044,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352045,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352046,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352047,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352048,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352049,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352050,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352051,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352052,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352053,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352054,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352055,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352056,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352057,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352058,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352059,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352060,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352061,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352062,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352063,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352064,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352065,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352066,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352067,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352068,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352069,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352070,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352071,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352072,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352073,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352074,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352075,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352077,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352078,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352079,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352080,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352081,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352082,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352083,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352084,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

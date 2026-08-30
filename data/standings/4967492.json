@@ -1,0 +1,87 @@
+{
+  "programId": 4967492,
+  "programName": "Monday Coed 2s B",
+  "updatedAt": "2026-08-30T18:38:31.820Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7894354,
+      "teamName": "6. Abbie G. and Jason O.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7890108,
+      "teamName": "7. Kim M. and Travis B.",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 4,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 7891785,
+      "teamName": "1. Holli D. and Dan L.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 7896738,
+      "teamName": "4. Joann L. and Jacob W.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 5,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 7905533,
+      "teamName": "2. Ellie B. and Matt G.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 7904839,
+      "teamName": "5. Kim S. and Eli F.",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 8,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 7,
+      "teamId": 7897190,
+      "teamName": "3. Jenny S. and Nate G.",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 4,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 7916250,
+      "teamName": "8. Helen L. and George C.",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 7,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

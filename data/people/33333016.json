@@ -1,0 +1,18 @@
+{
+  "userId": 33333016,
+  "firstName": "Mark",
+  "appearances": [
+    {
+      "programId": 5053299,
+      "teamId": 8028220,
+      "teamName": "6. Tito-Rico's (Eliza P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062075,
+      "teamId": 8015924,
+      "teamName": "1. Bongos (Bradley E.)",
+      "isCaptain": false
+    }
+  ]
+}

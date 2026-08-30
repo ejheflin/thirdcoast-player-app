@@ -1,0 +1,107 @@
+{
+  "programId": 3904462,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:42:07.348Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6381456,
+      "teamName": "6. Olivia J. & Emily F.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 6380546,
+      "teamName": "8. Molly J. & Cabrina B.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 6377863,
+      "teamName": "7. Sundara C. & Yanni S.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 6378546,
+      "teamName": "2. Jo P. & Giselle T.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 6380862,
+      "teamName": "9. Tiffany S. & Brittney G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6371273,
+      "teamName": "5. Melissa B. & Lindsay K.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 6383003,
+      "teamName": "10. Beth B. & Susan P.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 6372593,
+      "teamName": "1. Lisa B. & Tina O.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 6380119,
+      "teamName": "4. Christine M. & Erika P.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 6374318,
+      "teamName": "3. Liz C. & Sage H.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 12,
+      "ties": 3,
+      "points": 5
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 2278312,
+  "programName": "Tuesday Coed 4s Intermediate #1",
+  "updatedAt": "2026-08-30T18:41:14.557Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3949834,
+      "teamName": "5 - Two Claw Minimum (Jaimie G.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 0,
+      "ties": 7,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 3944353,
+      "teamName": "1 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 3947803,
+      "teamName": "4 - Size Matters (Matt K.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 3,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 3945019,
+      "teamName": "3 - FourPlay (Benjamin T.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 3947608,
+      "teamName": "8 - Can't Keep Score (Joy R.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 3950542,
+      "teamName": "6 - Who Netted (Evan R.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 3929008,
+      "teamName": "2 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 5,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 3953704,
+      "teamName": "7 - Bumpin' Uglies (Jeffrey S.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 11,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 14595709,
+  "firstName": "Elaine",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8007433,
+      "teamName": "4. Elaine L. and Eric W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8019399,
+      "teamName": "6. Elaine L. and Tina O.",
+      "isCaptain": false
+    }
+  ]
+}

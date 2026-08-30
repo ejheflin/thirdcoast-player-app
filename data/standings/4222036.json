@@ -1,0 +1,107 @@
+{
+  "programId": 4222036,
+  "programName": "Tuesday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:49.607Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6813378,
+      "teamName": "6. Team Jacob (Mark J.)",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 2,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 6823695,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 3,
+      "teamId": 6816186,
+      "teamName": "4. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 6823900,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 3,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 6817950,
+      "teamName": "3. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 6822995,
+      "teamName": "5. Ginger & the Giants (Allan K.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 6820109,
+      "teamName": "2. Here for the Beer (Annie L.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 6,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 6823787,
+      "teamName": "7. That's What She Set (Albert F.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 9,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 9,
+      "teamId": 6823003,
+      "teamName": "9. The Vacationers (Phil M.)",
+      "gamesPlayed": 12,
+      "wins": 1,
+      "losses": 8,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 10,
+      "teamId": 6819520,
+      "teamName": "10. Rolling Thunder (Alex M.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 14,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

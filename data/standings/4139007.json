@@ -1,0 +1,87 @@
+{
+  "programId": 4139007,
+  "programName": "Monday Coed 3s B",
+  "updatedAt": "2026-08-30T18:39:19.433Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6689360,
+      "teamName": "3. May the Spike Be With You (Ash C.)",
+      "gamesPlayed": 15,
+      "wins": 11,
+      "losses": 1,
+      "ties": 3,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6689165,
+      "teamName": "5. Sets on the Beach (Kerry C.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 4,
+      "ties": 2,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 6692001,
+      "teamName": "6. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 4,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6715115,
+      "teamName": "8. Prosthesiotape (John K.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 3,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 6689142,
+      "teamName": "7. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 8,
+      "ties": 0,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 6689277,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 9,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 6690270,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 5,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 6694955,
+      "teamName": "4. Sandy Cheeks (David N.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 13,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

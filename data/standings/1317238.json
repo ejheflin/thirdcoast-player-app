@@ -1,0 +1,107 @@
+{
+  "programId": 1317238,
+  "programName": "Monday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:39:04.199Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2685424,
+      "teamName": "2 - Liz C. & Van P.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 2686108,
+      "teamName": "9 - Kait L. & Chris C.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 2684947,
+      "teamName": "6 - Starr K. & Etienne B.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 2688922,
+      "teamName": "5 - Silvana C. & Kevin G.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 2685814,
+      "teamName": "1 - Erin V. & Grant W.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 6,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 6,
+      "teamId": 2684902,
+      "teamName": "4 - Megan L. & Brad F.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 6,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 2682274,
+      "teamName": "7 - Tallie A. & Payton P.",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 3,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 2687767,
+      "teamName": "3 - Maria H. & Shak M.",
+      "gamesPlayed": 9,
+      "wins": 2,
+      "losses": 3,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 9,
+      "teamId": 2686192,
+      "teamName": "8 - Erin K. & Travis B.",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 1,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 10,
+      "teamId": 2693095,
+      "teamName": "10 - Lindsay S. & Tommy S.",
+      "gamesPlayed": 10,
+      "wins": 0,
+      "losses": 6,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

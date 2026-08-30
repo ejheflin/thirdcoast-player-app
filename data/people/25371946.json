@@ -1,0 +1,18 @@
+{
+  "userId": 25371946,
+  "firstName": "Dreco",
+  "appearances": [
+    {
+      "programId": 5080936,
+      "teamId": 8036844,
+      "teamName": "2. Denise H. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050344,
+      "teamId": 8000417,
+      "teamName": "2. Ivy C. and Dreco S.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 51263976,
+  "firstName": "Collin",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8000431,
+      "teamName": "1. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5056669,
+      "teamId": 8026787,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "programId": 2654973,
+  "programName": "Monday Coed 2s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:10.254Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4487181,
+      "teamName": "8 - Megan E. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 0,
+      "ties": 8,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 4487337,
+      "teamName": "3 - Liz C. & Josman R.",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 1,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 4495605,
+      "teamName": "12 - Julia L. & Leo Y.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 1,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 4496016,
+      "teamName": "2 - Jess L. & Edwin F.",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 1,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 4491045,
+      "teamName": "5 - Sage H. & Jon N.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 4488585,
+      "teamName": "7 - Nicole B. & Kyle P.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 4496139,
+      "teamName": "11 - Taylor B. & Alfredo E.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 8,
+      "teamId": 4487307,
+      "teamName": "9 - Kim S. & Mike O.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 8,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 9,
+      "teamId": 4487085,
+      "teamName": "1 - Caroline M. & Mark J.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 10,
+      "teamId": 4494501,
+      "teamName": "10 - Victoria Q. & Payton P.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 4489236,
+      "teamName": "4 - Lynn K. & Leo C.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 9,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 12,
+      "teamId": 4488003,
+      "teamName": "6 - Beth B. & Alex D.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 9,
+      "ties": 3,
+      "points": 9
+    }
+  ]
+}

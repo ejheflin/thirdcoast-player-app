@@ -1,0 +1,107 @@
+{
+  "programId": 1462717,
+  "programName": "Friday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:38:26.822Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2893264,
+      "teamName": "3 - Melissa L. & Christian A.",
+      "gamesPlayed": 11,
+      "wins": 4,
+      "losses": 1,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 2,
+      "teamId": 2891797,
+      "teamName": "6 - Julie V. & Leo Y.",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 0,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 3,
+      "teamId": 2894902,
+      "teamName": "8 - Jo P. & Jake S.",
+      "gamesPlayed": 9,
+      "wins": 2,
+      "losses": 3,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 4,
+      "teamId": 2966422,
+      "teamName": "7 - Megan E. & Tommy S.",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 3,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 5,
+      "teamId": 2896951,
+      "teamName": "4 - Giselle L. & Emiliano T.",
+      "gamesPlayed": 5,
+      "wins": 2,
+      "losses": 1,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 6,
+      "teamId": 2895922,
+      "teamName": "10 - Tiffany S. & Marty W.",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 0,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 7,
+      "teamId": 2894707,
+      "teamName": "1 - Sophia D. & Dan L.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 3,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 2892664,
+      "teamName": "2 - Debbie W. & Sukumar R.",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 1,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 9,
+      "teamId": 2892478,
+      "teamName": "5 - Hunter & Josman R.",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "points": 2
+    },
+    {
+      "position": 10,
+      "teamId": 2899072,
+      "teamName": "9 - Tasha W. & Christopher C.",
+      "gamesPlayed": 3,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

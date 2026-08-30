@@ -1,0 +1,87 @@
+{
+  "programId": 1205917,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:46.399Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2515387,
+      "teamName": "1 - Sets In The Sand (Alyson L.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 46
+    },
+    {
+      "position": 2,
+      "teamId": 2514685,
+      "teamName": "5 - Net Results (Andrew L.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 2,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 2515636,
+      "teamName": "3 - Ooh... A Piece Of Candy! (Terry V.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 40
+    },
+    {
+      "position": 4,
+      "teamId": 2515105,
+      "teamName": "4 - Safe Sets (Jeanne B.)",
+      "gamesPlayed": 13,
+      "wins": 7,
+      "losses": 4,
+      "ties": 2,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 2513824,
+      "teamName": "2 - Big Tippers (Ivan M.)",
+      "gamesPlayed": 6,
+      "wins": 2,
+      "losses": 2,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 6,
+      "teamId": 2523028,
+      "teamName": "6 - We Always Get It uP (Jeremy K.)",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 3,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 2524246,
+      "teamName": "7 - Sandalots (Victor M.)",
+      "gamesPlayed": 8,
+      "wins": 0,
+      "losses": 6,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 8,
+      "teamId": 2524372,
+      "teamName": "8 - Just Hit the Ball (Ron T.)",
+      "gamesPlayed": 9,
+      "wins": 0,
+      "losses": 8,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

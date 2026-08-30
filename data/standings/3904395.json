@@ -1,0 +1,87 @@
+{
+  "programId": 3904395,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:10.872Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6380810,
+      "teamName": "4. Indoor Ballers Turned Beach Junkies (Michael R.)",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 1,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 6382692,
+      "teamName": "5. Flat Balls (Abby T.)",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 3,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 6384400,
+      "teamName": "8. Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6382593,
+      "teamName": "7. We Dig You (Stephen J.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 4,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 6372245,
+      "teamName": "2. Size Matters (Matt K.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 6383289,
+      "teamName": "6. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 4,
+      "ties": 10,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 6380152,
+      "teamName": "3. Arsenal Gunners (David T.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 6371251,
+      "teamName": "1. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    }
+  ]
+}

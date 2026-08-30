@@ -1,0 +1,18 @@
+{
+  "userId": 18869206,
+  "firstName": "Lauren",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8019254,
+      "teamName": "8. Lauren H. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8020590,
+      "teamName": "4. Emily F. and Lauren H.",
+      "isCaptain": false
+    }
+  ]
+}

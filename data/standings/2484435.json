@@ -1,0 +1,87 @@
+{
+  "programId": 2484435,
+  "programName": "Monday Coed Snake Draft",
+  "updatedAt": "2026-08-30T18:39:36.658Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4236534,
+      "teamName": "1 - Kat S.",
+      "gamesPlayed": 8,
+      "wins": 5,
+      "losses": 1,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 2,
+      "teamId": 4236537,
+      "teamName": "2 - Tori H.",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 1,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 3,
+      "teamId": 4236540,
+      "teamName": "3 - Tiffany J.",
+      "gamesPlayed": 8,
+      "wins": 3,
+      "losses": 3,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 4,
+      "teamId": 4236552,
+      "teamName": "7 - Abby T.",
+      "gamesPlayed": 8,
+      "wins": 3,
+      "losses": 4,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 5,
+      "teamId": 4236558,
+      "teamName": "8 - Joann L.",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 2,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 6,
+      "teamId": 4236549,
+      "teamName": "6 - Megan W.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 7,
+      "teamId": 4236543,
+      "teamName": "4 - Megan L.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 8,
+      "teamId": 4236546,
+      "teamName": "5 - Shanna H.",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 3,
+      "ties": 3,
+      "points": 3
+    }
+  ]
+}

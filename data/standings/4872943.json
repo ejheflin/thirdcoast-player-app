@@ -1,0 +1,87 @@
+{
+  "programId": 4872943,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:45.924Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7792661,
+      "teamName": "6. Holy Blockamole Infinity (Bryan M.)",
+      "gamesPlayed": 16,
+      "wins": 15,
+      "losses": 0,
+      "ties": 1,
+      "points": 31
+    },
+    {
+      "position": 2,
+      "teamId": 7758960,
+      "teamName": "4. Team Jacob (Mark J.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 7799328,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 7797999,
+      "teamName": "7. Beach ballers (Megan C.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7757979,
+      "teamName": "2. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 7,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 7758516,
+      "teamName": "1. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 7792329,
+      "teamName": "5. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 7757984,
+      "teamName": "8. Clutch City (Ryan T.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

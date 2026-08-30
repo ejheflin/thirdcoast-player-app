@@ -1,0 +1,127 @@
+{
+  "programId": 4045363,
+  "programName": "Thursday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:16.901Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6568062,
+      "teamName": "8. Blue Balls (Alex L.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 6568333,
+      "teamName": "10. Ay mi madre (Daniel D.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 6560107,
+      "teamName": "3. Just The Tip (Doug B.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 5,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6570074,
+      "teamName": "5. Over and Out (Annie L.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 1,
+      "ties": 10,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 6559238,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 6562221,
+      "teamName": "6. Trust Me, It Was In (Curtis J.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 6,
+      "ties": 3,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 6563462,
+      "teamName": "12. Team Tika (Rob B.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 8,
+      "teamId": 6568630,
+      "teamName": "11. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 6561667,
+      "teamName": "4. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 6562344,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 11,
+      "teamId": 6568198,
+      "teamName": "9. The Misfits (Joe R.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 12,
+      "teamId": 6566769,
+      "teamName": "7. Super Sandy Battle Axes (Andrea M.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 11,
+      "ties": 2,
+      "points": 8
+    }
+  ]
+}

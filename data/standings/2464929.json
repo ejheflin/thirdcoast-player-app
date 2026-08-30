@@ -1,0 +1,87 @@
+{
+  "programId": 2464929,
+  "programName": "Monday Coed 3s Intermediate",
+  "updatedAt": "2026-08-30T18:39:24.986Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4232238,
+      "teamName": "4 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 4232724,
+      "teamName": "6 - The Volley Llamas (Jonathan P.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 4228542,
+      "teamName": "3 - Digletts Dig (John K.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 4,
+      "teamId": 4234188,
+      "teamName": "8 - The Threesome (Luis H.)",
+      "gamesPlayed": 11,
+      "wins": 6,
+      "losses": 2,
+      "ties": 3,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 4230231,
+      "teamName": "2 - Court Jesters (Matt O.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 5,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 6,
+      "teamId": 4233738,
+      "teamName": "7 - Notorious D.I.G. (Karli K.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 6,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 4232460,
+      "teamName": "5 - The Spike Awakens (Benet G.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 6,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 4222842,
+      "teamName": "1 - New Tricks (Doug T.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 14,
+      "ties": 1,
+      "points": 3
+    }
+  ]
+}

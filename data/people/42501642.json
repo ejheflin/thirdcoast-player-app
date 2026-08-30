@@ -1,0 +1,12 @@
+{
+  "userId": 42501642,
+  "firstName": "Rachel",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8015360,
+      "teamName": "8. Patty 4 the People (Doug B.)",
+      "isCaptain": false
+    }
+  ]
+}

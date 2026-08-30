@@ -1,0 +1,18 @@
+{
+  "userId": 18976366,
+  "firstName": "Taylor",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8012160,
+      "teamName": "8. Taylor B. and Matt C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050344,
+      "teamId": 8006788,
+      "teamName": "7. Taylor B. and Luigi H.",
+      "isCaptain": true
+    }
+  ]
+}

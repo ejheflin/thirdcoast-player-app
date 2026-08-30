@@ -1,0 +1,87 @@
+{
+  "programId": 4872967,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:01.733Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7758023,
+      "teamName": "3. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 7758605,
+      "teamName": "5. Arsenal Gunners (David T.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 7757965,
+      "teamName": "2. Bongos (Bradley E.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 7792238,
+      "teamName": "4. Bombaclat (Aatir A.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 4,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 7774995,
+      "teamName": "1. Net Ninjas (Katelyn M.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 7784592,
+      "teamName": "6. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 7799335,
+      "teamName": "8. Vacacioners (Phil M.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 5,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 7802928,
+      "teamName": "7. Twin Peaks (Traci D.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 5,
+      "ties": 9,
+      "points": 11
+    }
+  ]
+}

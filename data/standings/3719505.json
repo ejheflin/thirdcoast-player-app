@@ -1,0 +1,87 @@
+{
+  "programId": 3719505,
+  "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+  "updatedAt": "2026-08-30T18:41:11.355Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6156249,
+      "teamName": "1. Practice Safe Sets (Gary C.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6159372,
+      "teamName": "8. Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 3,
+      "ties": 3,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 6140196,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 6130299,
+      "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 7,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 6138315,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 6128973,
+      "teamName": "3. We Dig You (Lauren M.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 6133749,
+      "teamName": "7. River Oaks VC (Tom K.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 6131601,
+      "teamName": "6. Makeup Sets (Matt K.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 10,
+      "ties": 3,
+      "points": 9
+    }
+  ]
+}

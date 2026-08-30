@@ -1,0 +1,97 @@
+{
+  "programId": 2278477,
+  "programName": "Friday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:38:29.082Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3981822,
+      "teamName": "7 - Giselle L. & Emiliano T.",
+      "gamesPlayed": 15,
+      "wins": 14,
+      "losses": 0,
+      "ties": 1,
+      "points": 29
+    },
+    {
+      "position": 2,
+      "teamId": 3949864,
+      "teamName": "3 - Nicole P. & Jaimie G.",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 3,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 3938197,
+      "teamName": "2 - Melissa L. & Christian A.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 3981849,
+      "teamName": "8 - Margo P. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 3944797,
+      "teamName": "1 - Kim S. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 6,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 6,
+      "teamId": 3975283,
+      "teamName": "5 - Myah P. & James N.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 3948499,
+      "teamName": "4 - Taylor B. & Jack S.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 3980967,
+      "teamName": "6 - Tasha W. & Tommy S.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 10,
+      "ties": 6,
+      "points": 6
+    },
+    {
+      "position": 9,
+      "teamId": 4071360,
+      "teamName": "test team",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

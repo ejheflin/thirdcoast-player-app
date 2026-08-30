@@ -1,0 +1,87 @@
+{
+  "programId": 1462978,
+  "programName": "Wednesday Mens 2s A",
+  "updatedAt": "2026-08-30T18:42:10.794Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3023002,
+      "teamName": "8 - Matt F. & Jackson K.",
+      "gamesPlayed": 9,
+      "wins": 6,
+      "losses": 0,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 2,
+      "teamId": 2941963,
+      "teamName": "10 - Travis B. & Blake D.",
+      "gamesPlayed": 9,
+      "wins": 4,
+      "losses": 2,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 3,
+      "teamId": 2927278,
+      "teamName": "7 - David Dry. & Bill K.",
+      "gamesPlayed": 9,
+      "wins": 3,
+      "losses": 2,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 4,
+      "teamId": 2896672,
+      "teamName": "6 - Zach P. & Brian G.",
+      "gamesPlayed": 9,
+      "wins": 3,
+      "losses": 2,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 5,
+      "teamId": 2895868,
+      "teamName": "3 - Mike B. & Aaron K.",
+      "gamesPlayed": 9,
+      "wins": 1,
+      "losses": 4,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 6,
+      "teamId": 2942080,
+      "teamName": "9 - Emiliano T. & Leo Y.",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 3,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 7,
+      "teamId": 2899348,
+      "teamName": "2 - Matt F. & Mike K.",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 2,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 2892076,
+      "teamName": "5 - Ryan R. & Nicholas C.",
+      "gamesPlayed": 5,
+      "wins": 0,
+      "losses": 4,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

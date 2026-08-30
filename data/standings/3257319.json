@@ -1,0 +1,87 @@
+{
+  "programId": 3257319,
+  "programName": "Tuesday Coed 4s Intermediate #1",
+  "updatedAt": "2026-08-30T18:41:15.003Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5457729,
+      "teamName": "1 - Diggin and Swinging (Ivan M.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 5455962,
+      "teamName": "8 - Gabby & The Boys (Marshall C.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 5459076,
+      "teamName": "3 - I Dink I Love You (Diem P.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 5451171,
+      "teamName": "5 - Size Matters (Matt K.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 5455761,
+      "teamName": "6 - Practice Safe Sets (Gary C.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 5448855,
+      "teamName": "2 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 5453103,
+      "teamName": "4 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 11,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 5453028,
+      "teamName": "7 - We Dig You (Lauren M.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 12,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 2083774,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:41.377Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3626899,
+      "teamName": "1 - A Team (Brandon B.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 3710554,
+      "teamName": "8 - SKG Arsenal (David T.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 3,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 3708832,
+      "teamName": "7 - Serves You Right (Michael I.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 4,
+      "teamId": 3633604,
+      "teamName": "3 - Booze Crew (Jack S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 3691234,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 3665539,
+      "teamName": "5 - Make-up Sets (Naomi L.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 5,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 3626953,
+      "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 10,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 8,
+      "teamId": 3626278,
+      "teamName": "4 - Getting It In (Ralph T.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 10,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

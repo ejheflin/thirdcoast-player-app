@@ -1,0 +1,87 @@
+{
+  "programId": 5056669,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:39.548Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 8023884,
+      "teamName": "1. Carolina Beach Bumpers (Ashton)",
+      "gamesPlayed": 12,
+      "wins": 9,
+      "losses": 0,
+      "ties": 3,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 8032502,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "gamesPlayed": 12,
+      "wins": 6,
+      "losses": 1,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 8017573,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "gamesPlayed": 12,
+      "wins": 3,
+      "losses": 3,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 4,
+      "teamId": 8023200,
+      "teamName": "5. Toodles (Michael L.)",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 3,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 5,
+      "teamId": 8037047,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 8,
+      "wins": 2,
+      "losses": 3,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 6,
+      "teamId": 8036801,
+      "teamName": "6. Bombaclat (Aatir A.)",
+      "gamesPlayed": 9,
+      "wins": 2,
+      "losses": 5,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 8026787,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "gamesPlayed": 9,
+      "wins": 2,
+      "losses": 5,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 8,
+      "teamId": 8024708,
+      "teamName": "2. Score Check (Julianna T.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 8,
+      "ties": 2,
+      "points": 6
+    }
+  ]
+}

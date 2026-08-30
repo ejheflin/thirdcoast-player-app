@@ -1,0 +1,18 @@
+{
+  "userId": 39297390,
+  "firstName": "Nathan",
+  "appearances": [
+    {
+      "programId": 5053349,
+      "teamId": 8013412,
+      "teamName": "3. Jenny S. and Nathan G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8005861,
+      "teamName": "9. Nathan G. and Zach B.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "userId": 45443780,
+  "firstName": "Michael",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8006967,
+      "teamName": "1. Shelby L. and Michael A.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "programId": 1462948,
+  "programName": "Thursday Coed 4s Intermediate",
+  "updatedAt": "2026-08-30T18:40:34.508Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2897110,
+      "teamName": "8 - Slay la Vie (Starr K.)",
+      "gamesPlayed": 7,
+      "wins": 4,
+      "losses": 1,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 2,
+      "teamId": 2898784,
+      "teamName": "9 - Stranger Dinks (Mike B.)",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 0,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 3,
+      "teamId": 2899039,
+      "teamName": "11 - Zombies (Brad F.)",
+      "gamesPlayed": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 4,
+      "teamId": 2892091,
+      "teamName": "4 - Life's a Beach (Clark P.)",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 5,
+      "teamId": 2930278,
+      "teamName": "6 - TSG (Calvin D.)",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 1,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 6,
+      "teamId": 2895619,
+      "teamName": "7 - SERVEZAS (Emily C.)",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points": 2
+    },
+    {
+      "position": 7,
+      "teamId": 2892133,
+      "teamName": "12 - Volleyholics (Letty B.)",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 8,
+      "teamId": 2893477,
+      "teamName": "1 - 3C Whiskey Social Club (Jaimie G.)",
+      "gamesPlayed": 4,
+      "wins": 0,
+      "losses": 2,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 9,
+      "teamId": 2892814,
+      "teamName": "2 - Fly Ballers Shot Callers (Albert F.)",
+      "gamesPlayed": 4,
+      "wins": 0,
+      "losses": 3,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 10,
+      "teamId": 3170548,
+      "teamName": "(Lily P.)",
+      "gamesPlayed": 1,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 4222041,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:05.868Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6820519,
+      "teamName": "7. Calm Yo Tips (Adolph T.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 0,
+      "ties": 7,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6824994,
+      "teamName": "8. Kiss my Ace (Jessica C.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 6823765,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 6824805,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 2,
+      "ties": 12,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 6816519,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 6813698,
+      "teamName": "4. Not Good At Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 4,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 6814160,
+      "teamName": "1. Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 6816636,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    }
+  ]
+}

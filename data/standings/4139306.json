@@ -1,0 +1,87 @@
+{
+  "programId": 4139306,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:00.772Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6690007,
+      "teamName": "7. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 0,
+      "ties": 9,
+      "points": 23
+    },
+    {
+      "position": 2,
+      "teamId": 6726738,
+      "teamName": "1. BomDubz (Dominick W.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 6691456,
+      "teamName": "8. Practice Safe Sets (John O.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 1,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6722110,
+      "teamName": "3. Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 4,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 6706028,
+      "teamName": "4. Hit It from the Side (Mark M.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 6711251,
+      "teamName": "6. Not Good At Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 6690556,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 6689393,
+      "teamName": "2. Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 7,
+      "ties": 8,
+      "points": 10
+    }
+  ]
+}

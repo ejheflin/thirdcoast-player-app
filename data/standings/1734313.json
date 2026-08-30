@@ -1,0 +1,87 @@
+{
+  "programId": 1734313,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:27.739Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3258061,
+      "teamName": "6 - Big Digs (Mike B.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 0,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 3260197,
+      "teamName": "1 - 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 13,
+      "wins": 7,
+      "losses": 1,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 3258901,
+      "teamName": "4 - Soft Serve (Erika J.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 3254392,
+      "teamName": "2 - No Fly Zone (Kumar R.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 5,
+      "teamId": 3259768,
+      "teamName": "5 - Toodles (Michael L.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 5,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 6,
+      "teamId": 3266035,
+      "teamName": "7 - E League Champs (Chris B.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 3,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 3260494,
+      "teamName": "8 - Karmas a Beach (Liz C.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 6,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 3262699,
+      "teamName": "3 - SofaKingGoodGunners (Luis H.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 7,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

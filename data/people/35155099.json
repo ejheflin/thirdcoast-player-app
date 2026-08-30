@@ -1,0 +1,18 @@
+{
+  "userId": 35155099,
+  "firstName": "Molly",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8015584,
+      "teamName": "9. Molly J. and Phil A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8036049,
+      "teamName": "10. Molly J. and Nicole B.",
+      "isCaptain": true
+    }
+  ]
+}

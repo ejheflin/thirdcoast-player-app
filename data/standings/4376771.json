@@ -1,0 +1,127 @@
+{
+  "programId": 4376771,
+  "programName": "Wednesday Mens 2s AA",
+  "updatedAt": "2026-08-30T18:42:21.411Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7047972,
+      "teamName": "11. Ryan S. and Beau B.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 7050400,
+      "teamName": "8. Mikhail B. and Zac B.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7051506,
+      "teamName": "6. Matt B. and Alex J.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7049461,
+      "teamName": "1. Blake C. and Leo Y.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 1,
+      "ties": 10,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 7033475,
+      "teamName": "4. Michael G. and Daniel A.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 1,
+      "ties": 10,
+      "points": 20
+    },
+    {
+      "position": 6,
+      "teamId": 7033751,
+      "teamName": "10. Scott S. and Chris H.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 7,
+      "teamId": 7040609,
+      "teamName": "3. Eric W. and Dan M.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 8,
+      "teamId": 7050792,
+      "teamName": "5. Luis L. and Jeff S.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 6,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 9,
+      "teamId": 7054133,
+      "teamName": "12. Imran G. and Danylo V.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 7,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 7033287,
+      "teamName": "2. Dreco S. and Benjamin L.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 10,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 11,
+      "teamId": 7049754,
+      "teamName": "7. Riley W. and Jacob W.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 8,
+      "ties": 8,
+      "points": 8
+    },
+    {
+      "position": 12,
+      "teamId": 7042612,
+      "teamName": "9. Rudy D. and Zach P.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 11,
+      "ties": 2,
+      "points": 6
+    }
+  ]
+}

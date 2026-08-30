@@ -1,0 +1,107 @@
+{
+  "programId": 4976992,
+  "programName": "Thursday Coed 2s A",
+  "updatedAt": "2026-08-30T18:39:46.302Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7928518,
+      "teamName": "10. Sarah D. and Matt B.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 7914581,
+      "teamName": "3. Ivy C. and Dreco S.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7900732,
+      "teamName": "1. Michelle C. and Josman R.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 1,
+      "ties": 8,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7900552,
+      "teamName": "6. Lisa B. and Rudy D.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 3,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 7914440,
+      "teamName": "4. Milica V. and Isa T.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 3,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 7911545,
+      "teamName": "8. Sarah U. and Kumar R.",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 4,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 7909233,
+      "teamName": "5. Tina O. and John S.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 5,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 7917562,
+      "teamName": "2. Ashlee S. and Matt G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 8,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 9,
+      "teamId": 7899563,
+      "teamName": "7. Taylor B. and Colby H.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 7926422,
+      "teamName": "9. Jacob W. and Kylee G.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 9,
+      "ties": 5,
+      "points": 7
+    }
+  ]
+}

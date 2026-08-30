@@ -1,0 +1,18 @@
+{
+  "userId": 46867934,
+  "firstName": "Sydney",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8011799,
+      "teamName": "7. Sydney Z. and Manny A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050344,
+      "teamId": 8002189,
+      "teamName": "6. Sydney Z. and Josman R.",
+      "isCaptain": false
+    }
+  ]
+}

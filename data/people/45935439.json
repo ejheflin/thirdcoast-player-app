@@ -1,0 +1,24 @@
+{
+  "userId": 45935439,
+  "firstName": "Jason",
+  "appearances": [
+    {
+      "programId": 5053349,
+      "teamId": 8007540,
+      "teamName": "1. Abbie G. and Jason O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050413,
+      "teamId": 8003695,
+      "teamName": "3. Charlie’s Angels (Jason O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8000497,
+      "teamName": "8. Jason O. and Dominick W.",
+      "isCaptain": true
+    }
+  ]
+}

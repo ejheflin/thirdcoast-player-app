@@ -1,0 +1,87 @@
+{
+  "programId": 1734328,
+  "programName": "Tuesday Coed 4s Upper Recreational",
+  "updatedAt": "2026-08-30T18:41:43.722Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3264601,
+      "teamName": "4 - It's the Sweet One! (Quentin B.)",
+      "gamesPlayed": 14,
+      "wins": 11,
+      "losses": 1,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 3246259,
+      "teamName": "1 - Can't Close (Heather B.)",
+      "gamesPlayed": 13,
+      "wins": 11,
+      "losses": 1,
+      "ties": 1,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 3263737,
+      "teamName": "5 - Hits Don't Lie (Dawn M.)",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 1,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 3275572,
+      "teamName": "7 - All Sets are Off (Naomi L.)",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 5,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 3287932,
+      "teamName": "8 - Volley Fire (Benet G.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 7,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 6,
+      "teamId": 3261073,
+      "teamName": "3 - Now Serving (Emma P.)",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 7,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 3256264,
+      "teamName": "2 - Sonova Beach (Evan G.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 10,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 8,
+      "teamId": 3274843,
+      "teamName": "6 - MojoFoShoYo (Arrowson P.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 12,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

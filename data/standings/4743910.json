@@ -1,0 +1,87 @@
+{
+  "programId": 4743910,
+  "programName": "Tuesday Coed 4s BB",
+  "updatedAt": "2026-08-30T18:41:02.645Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7572629,
+      "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 7582397,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7574318,
+      "teamName": "3. Bongos (Bradley E.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 7573040,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7585723,
+      "teamName": "8. Twin Peaks (Traci D.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 5,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 7575606,
+      "teamName": "7. Not Good At Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 7581940,
+      "teamName": "4. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 7572866,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

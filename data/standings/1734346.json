@@ -1,0 +1,97 @@
+{
+  "programId": 1734346,
+  "programName": "Thursday Coed 4s Intermediate",
+  "updatedAt": "2026-08-30T18:40:32.751Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3258217,
+      "teamName": "1 - 3C Whiskey Social Club (Jaimie G.)",
+      "gamesPlayed": 14,
+      "wins": 12,
+      "losses": 0,
+      "ties": 2,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 3270766,
+      "teamName": "7 - Block Market (Sean M.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 3,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 3,
+      "teamId": 3260635,
+      "teamName": "3 - Hustle Gang (Calvin D.)",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 2,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 4,
+      "teamId": 3260629,
+      "teamName": "5 - Zombies (Brad F.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 2,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 3277882,
+      "teamName": "8 - Island of Misfit Players (Tim S.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 3,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 3275209,
+      "teamName": "6 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 5,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 3255091,
+      "teamName": "4 - Life's a Beach (Clark P.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 3,
+      "ties": 10,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 3261361,
+      "teamName": "2 - Flyballers Shotcallers (Albert F.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 5,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 3286846,
+      "teamName": "9 - The Rhodeys (Dylan H.)",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 9,
+      "ties": 5,
+      "points": 5
+    }
+  ]
+}

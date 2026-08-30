@@ -1,0 +1,87 @@
+{
+  "programId": 3903855,
+  "programName": "Monday Coed 2s B",
+  "updatedAt": "2026-08-30T18:38:34.113Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6370118,
+      "teamName": "1. Emily R. & Jake S.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 0,
+      "ties": 7,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6370145,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 6374081,
+      "teamName": "7. Megan E. & Rudy D.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6370177,
+      "teamName": "5. Macey C. & Branden B.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 6372477,
+      "teamName": "6. Megan L. & Brian C.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 7,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 6374049,
+      "teamName": "4. Kim S. & Mike O.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 6377956,
+      "teamName": "8. Ivy C. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
+      "ties": 7,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 6373051,
+      "teamName": "2. Jess C. & Adrian M.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 12,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

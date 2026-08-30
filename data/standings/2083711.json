@@ -1,0 +1,107 @@
+{
+  "programId": 2083711,
+  "programName": "Friday Coed 2s Intermediate",
+  "updatedAt": "2026-08-30T18:38:27.731Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3625681,
+      "teamName": "1 - Hunter & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 1,
+      "ties": 4,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 3628039,
+      "teamName": "5 - Giselle L. & Emiliano T.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 3625477,
+      "teamName": "4 - Taylor B. & Brian T.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 3626611,
+      "teamName": "3 - Melissa L. & Christian A.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 3627493,
+      "teamName": "8 - Tasha W. & Christopher C.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 3626158,
+      "teamName": "6 - Myah P. & James N.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 3658075,
+      "teamName": "9 - Mary F. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 3633556,
+      "teamName": "7 - Margo P. & Mike B.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 3625645,
+      "teamName": "2 - Sophia D. & Dan L.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 8,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 10,
+      "teamId": 3667333,
+      "teamName": "10 - Claire B. & Tommy S.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 9,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

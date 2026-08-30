@@ -1,0 +1,107 @@
+{
+  "programId": 1204255,
+  "programName": "Monday Coed 2s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:10.722Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2512594,
+      "teamName": "10 - Olivia J. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 2511409,
+      "teamName": "1 - Jen A. & Jon N.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 2,
+      "ties": 5,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 2511025,
+      "teamName": "7 - Hannah S. & Walid E.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 2511076,
+      "teamName": "5 - Beth B. & Edwin F.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 2510857,
+      "teamName": "3 - Fran R. & Doug L.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 2514493,
+      "teamName": "6 - Megan E. & Rudy D.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 6,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 2509975,
+      "teamName": "9 - Claire B. & Adolph T.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 8,
+      "teamId": 2519998,
+      "teamName": "2 - Lindsay S. & Isa T.",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 2510800,
+      "teamName": "4 - Julie V. & Brandon L.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 8,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 10,
+      "teamId": 2514241,
+      "teamName": "8 - Kait L. & Chris C.",
+      "gamesPlayed": 12,
+      "wins": 1,
+      "losses": 7,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

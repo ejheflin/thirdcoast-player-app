@@ -1,0 +1,107 @@
+{
+  "programId": 2083789,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:42:03.191Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3673813,
+      "teamName": "10 - Yanni S. & Kendall C.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 3626272,
+      "teamName": "2 - Giselle L. & Jo P.",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 1,
+      "ties": 6,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 3626113,
+      "teamName": "4 - Sarah H. & Ashlee S.",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 0,
+      "ties": 11,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 3625693,
+      "teamName": "6 - Michelle C. & Olivia J.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 5,
+      "teamId": 3626077,
+      "teamName": "3 - Millie V. & Alyssa D.",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 3,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 3662284,
+      "teamName": "7 - Tiffany S. & Molly J.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 6,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 3664060,
+      "teamName": "5 - Melissa B. & Lindsay K.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 8,
+      "teamId": 3664249,
+      "teamName": "9 - Christine M. & Jessica B.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 6,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 9,
+      "teamId": 3626920,
+      "teamName": "1 - Lisa B. & Tina O.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 12,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 10,
+      "teamId": 3628279,
+      "teamName": "8 - Victoria Q. & Melanie T.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 14,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

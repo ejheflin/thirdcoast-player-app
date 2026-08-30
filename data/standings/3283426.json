@@ -1,0 +1,87 @@
+{
+  "programId": 3283426,
+  "programName": "Monday Coed 3s Intermediate",
+  "updatedAt": "2026-08-30T18:39:26.834Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5502521,
+      "teamName": "4. Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 2,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 5492233,
+      "teamName": "2. Third Coast Ball (Hector T.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 3,
+      "ties": 3,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 5486332,
+      "teamName": "1. Settin pretty (Elizabeth A.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 4,
+      "teamId": 5506667,
+      "teamName": "8. Sandy Start (Tiffany S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 5492929,
+      "teamName": "3. Volley Llamas (Jonathan P.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 8,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 5504051,
+      "teamName": "7. All Sets are Off (Omar S.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 5500850,
+      "teamName": "6. Scrappy Doo (Matt O.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 8,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 5500961,
+      "teamName": "5. Rickys Tricks (John K.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 10,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

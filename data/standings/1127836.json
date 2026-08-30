@@ -1,0 +1,87 @@
+{
+  "programId": 1127836,
+  "programName": "Monday Coed 4s Intermediate",
+  "updatedAt": "2026-08-30T18:39:29.074Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2374021,
+      "teamName": "4 - Secret Signs - (Aziz J.)",
+      "gamesPlayed": 15,
+      "wins": 11,
+      "losses": 2,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 2373577,
+      "teamName": "5 - Fly Ballers Shot Callers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 4,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 2376598,
+      "teamName": "1 - Snack Pack (Sinohe R.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 0,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 2369947,
+      "teamName": "6 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 2377894,
+      "teamName": "3 - Volleyholics (Leticia B.)",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 1,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 2381197,
+      "teamName": "2 - Can't Spike Won't Spike (Kyle T.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 6,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 2366110,
+      "teamName": "7 - ANY4S (Naomi L.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 12,
+      "ties": 3,
+      "points": 5
+    },
+    {
+      "position": 8,
+      "teamId": 2398126,
+      "teamName": "8 - Das Gunners (David T.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 10,
+      "ties": 3,
+      "points": 5
+    }
+  ]
+}

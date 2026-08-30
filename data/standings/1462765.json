@@ -1,0 +1,97 @@
+{
+  "programId": 1462765,
+  "programName": "Monday Coed 4s Intermediate",
+  "updatedAt": "2026-08-30T18:39:29.534Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2894323,
+      "teamName": "7 - Sofa King Sandy (Stephen R.)",
+      "gamesPlayed": 8,
+      "wins": 7,
+      "losses": 0,
+      "ties": 1,
+      "points": 15
+    },
+    {
+      "position": 2,
+      "teamId": 2973976,
+      "teamName": "9 - To Be Determined (Andy T.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 0,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 3,
+      "teamId": 2896960,
+      "teamName": "6 - Can't Close (Heather B.)",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 2,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 4,
+      "teamId": 2896000,
+      "teamName": "4 - Rancho Carne Toros (Lauren M.)",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 2,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 5,
+      "teamId": 2896006,
+      "teamName": "2 - Bumpin' Uglies (Matt O.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 4,
+      "ties": 0,
+      "points": 6
+    },
+    {
+      "position": 6,
+      "teamId": 2898655,
+      "teamName": "1 - Any4s (Naomi L.)",
+      "gamesPlayed": 7,
+      "wins": 0,
+      "losses": 5,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 7,
+      "teamId": 3002152,
+      "teamName": "8 - Can't Spike Won't Spike (Kyle T.)",
+      "gamesPlayed": 4,
+      "wins": 0,
+      "losses": 3,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 8,
+      "teamId": 2895046,
+      "teamName": "3 - Just the Tip (Will B.)",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 5,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 9,
+      "teamId": 2897284,
+      "teamName": "10 - Setsy Time (Rick G.)",
+      "gamesPlayed": 5,
+      "wins": 0,
+      "losses": 5,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

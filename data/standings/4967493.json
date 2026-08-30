@@ -1,0 +1,87 @@
+{
+  "programId": 4967493,
+  "programName": "Monday Coed 2s BB",
+  "updatedAt": "2026-08-30T18:38:56.231Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7909287,
+      "teamName": "4. Kaegan W. and Jon N.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 7908995,
+      "teamName": "7. Sydney Z. and Manny A.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 7890983,
+      "teamName": "2. Taylor B. and Matt C.",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 3,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 7900028,
+      "teamName": "5. Liz C. and Josman R.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 7900778,
+      "teamName": "1. Emily R. and Edwin F.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 3,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 7899708,
+      "teamName": "8. Sarah U. and Brent B.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 5,
+      "ties": 8,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 7889959,
+      "teamName": "6. Caroline J. and Mark J.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 7892522,
+      "teamName": "3. Jodie N. and Colby H.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

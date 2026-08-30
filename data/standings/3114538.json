@@ -1,0 +1,87 @@
+{
+  "programId": 3114538,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:29.530Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5221255,
+      "teamName": "1 - 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 0,
+      "ties": 7,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 5232436,
+      "teamName": "8 - Tiff's Big Digs (Tiffany J.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 2,
+      "ties": 8,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 5220220,
+      "teamName": "6 - Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 5222470,
+      "teamName": "5 - Soft Serve (Erika P.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 5226643,
+      "teamName": "7 - Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 5224582,
+      "teamName": "4 - Hard Digs (Katelyn M.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 7,
+      "teamId": 5222830,
+      "teamName": "2 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 8,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 8,
+      "teamId": 5232211,
+      "teamName": "3 - Diggin and Swinging (Ivan M.)",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 7,
+      "ties": 8,
+      "points": 8
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "programId": 4872957,
+  "programName": "Tuesday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:59.859Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7758658,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 0,
+      "ties": 5,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7759042,
+      "teamName": "2. 3 OGs and Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 7757964,
+      "teamName": "4. The Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 7758050,
+      "teamName": "9. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 5,
+      "teamId": 7772312,
+      "teamName": "6. Carpe Dig Em (Eric H.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 6,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 7795339,
+      "teamName": "8. Big Dig Energy (Chad S.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 7759689,
+      "teamName": "1. Here for the Beer (Annie L.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 8,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 7797201,
+      "teamName": "10. Ginger and the Giants (Allan K.)",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 5,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 9,
+      "teamId": 7759606,
+      "teamName": "3. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 9,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 10,
+      "teamId": 7772680,
+      "teamName": "5. Bump. set, dammit! (Michael G.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 10,
+      "ties": 6,
+      "points": 6
+    }
+  ]
+}

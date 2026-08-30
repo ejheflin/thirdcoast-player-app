@@ -1,0 +1,107 @@
+{
+  "programId": 3719520,
+  "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+  "updatedAt": "2026-08-30T18:41:00.308Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6158997,
+      "teamName": "10. Disney Princesses + Mikey (Nicole P.)",
+      "gamesPlayed": 16,
+      "wins": 15,
+      "losses": 0,
+      "ties": 1,
+      "points": 31
+    },
+    {
+      "position": 2,
+      "teamId": 6126780,
+      "teamName": "4. Flat Balls (Abby T.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 6130416,
+      "teamName": "2. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 4,
+      "teamId": 6131094,
+      "teamName": "3. Sandy Cheeks (Lauren K.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 6143511,
+      "teamName": "7. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 6157710,
+      "teamName": "9. Ginger & the Giants (Allan K.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 6144612,
+      "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 8,
+      "teamId": 6127749,
+      "teamName": "1. Empire Spikes Back (Ash B.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 9,
+      "teamId": 6141897,
+      "teamName": "5. Bumpin Uglies (Annie L.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 6128070,
+      "teamName": "8. Freakin' Tapes (Aatir A.)",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 7,
+      "ties": 9,
+      "points": 9
+    }
+  ]
+}

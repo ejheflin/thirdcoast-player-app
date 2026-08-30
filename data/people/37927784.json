@@ -1,0 +1,18 @@
+{
+  "userId": 37927784,
+  "firstName": "Matt",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8018011,
+      "teamName": "3. Ellie B. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050413,
+      "teamId": 8021699,
+      "teamName": "6. I Dunno (Matt G.)",
+      "isCaptain": true
+    }
+  ]
+}

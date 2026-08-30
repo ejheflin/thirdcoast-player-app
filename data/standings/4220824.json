@@ -1,0 +1,87 @@
+{
+  "programId": 4220824,
+  "programName": "Monday Coed 2s BB",
+  "updatedAt": "2026-08-30T18:38:56.682Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6809544,
+      "teamName": "2. Nicole B. & Mark J.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 6809654,
+      "teamName": "1. Liz C. & Josman R.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 6810519,
+      "teamName": "7. Taylor B. & Matt C.",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 2,
+      "ties": 10,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 6812670,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 5,
+      "teamId": 6812616,
+      "teamName": "6. Sydney Z. & Kumar R.",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 3,
+      "ties": 10,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 6815392,
+      "teamName": "5. Cici A. & Leo Y.",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 3,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 7,
+      "teamId": 6813523,
+      "teamName": "4. Emily R. & Joe M.",
+      "gamesPlayed": 15,
+      "wins": 0,
+      "losses": 5,
+      "ties": 10,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 6811702,
+      "teamName": "8. Macey C. & Branden B.",
+      "gamesPlayed": 16,
+      "wins": 0,
+      "losses": 8,
+      "ties": 8,
+      "points": 8
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 14709559,
+  "firstName": "Leo",
+  "appearances": [
+    {
+      "programId": 5050382,
+      "teamId": 8000961,
+      "teamName": "7. Jo P. and Leo Y.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8015132,
+      "teamName": "4. Blake C. and Leo Y.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "programId": 2821740,
+  "programName": "Tuesday Coed 4s Intermediate #2",
+  "updatedAt": "2026-08-30T18:41:20.495Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4727307,
+      "teamName": "4 - Practice Safe Sets (Gary C.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 3,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 4810392,
+      "teamName": "8 - Hustle Gang (Calvin D.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 1,
+      "ties": 7,
+      "points": 23
+    },
+    {
+      "position": 3,
+      "teamId": 4735335,
+      "teamName": "1 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 16,
+      "wins": 9,
+      "losses": 3,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 4814151,
+      "teamName": "7 - Prime Time (Tom K.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 4732335,
+      "teamName": "10 - Sandy Cheeks (William T.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 4,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 6,
+      "teamId": 4772634,
+      "teamName": "3 - FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 14,
+      "wins": 4,
+      "losses": 6,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 4731147,
+      "teamName": "2 - Big Digs (Annie L.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 7,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 4827753,
+      "teamName": "9 - TBD (Mark R.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 6,
+      "ties": 4,
+      "points": 31
+    },
+    {
+      "position": 9,
+      "teamId": 4803318,
+      "teamName": "6 - IT'S THE SWEET ONE! (Quentin B.)",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 6,
+      "ties": 4,
+      "points": 26
+    },
+    {
+      "position": 10,
+      "teamId": 4831206,
+      "teamName": "5 - Rusteze (Brian C.)",
+      "gamesPlayed": 12,
+      "wins": 0,
+      "losses": 11,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

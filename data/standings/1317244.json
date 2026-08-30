@@ -1,0 +1,87 @@
+{
+  "programId": 1317244,
+  "programName": "Monday Coed 4s Intermediate",
+  "updatedAt": "2026-08-30T18:39:28.238Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2690944,
+      "teamName": "8 - Double Diggers (Tiffany D.)",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 2,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 2684941,
+      "teamName": "1 - Kickin Assets (Joseph N.)",
+      "gamesPlayed": 10,
+      "wins": 9,
+      "losses": 0,
+      "ties": 1,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 2686549,
+      "teamName": "5 - DAS Gunners (David T.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 3,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 2684506,
+      "teamName": "4 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 5,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 5,
+      "teamId": 2686336,
+      "teamName": "2 - Can't Close (Heather B.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 6,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 6,
+      "teamId": 2687773,
+      "teamName": "7 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 2685304,
+      "teamName": "3 - Dinking & Diving (Stephen R.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 7,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 2686351,
+      "teamName": "6 - Flyballer Shotcaller (Albert F.)",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 10,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

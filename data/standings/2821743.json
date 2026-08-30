@@ -1,0 +1,87 @@
+{
+  "programId": 2821743,
+  "programName": "Tuesday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:41:28.648Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4735695,
+      "teamName": "3 - Tiff's Big Digs (Tiffany J.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 4800093,
+      "teamName": "2 - Soft Serve (Erika P.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 4728057,
+      "teamName": "1 - 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 2,
+      "ties": 10,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 4810860,
+      "teamName": "5 - Boizz Night (Kumar R.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 4730931,
+      "teamName": "7 - Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 7,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 4809486,
+      "teamName": "8 - Twin Peaks (Tracie D.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 6,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 7,
+      "teamId": 4727694,
+      "teamName": "6 - Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 4777323,
+      "teamName": "4 - Panda People (Jaimie G.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 11,
+      "ties": 4,
+      "points": 6
+    }
+  ]
+}

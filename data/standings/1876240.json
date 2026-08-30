@@ -1,0 +1,87 @@
+{
+  "programId": 1876240,
+  "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+  "updatedAt": "2026-08-30T18:39:33.531Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3446323,
+      "teamName": "3 - Can't Keep Score (Joy R.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 2,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 3457372,
+      "teamName": "5 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 3,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 3,
+      "teamId": 3432148,
+      "teamName": "2 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 3429019,
+      "teamName": "4 - Practice Safe Sets (Jason B.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 5,
+      "ties": 2,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 3448135,
+      "teamName": "1 - Buns & Bazookas (Stefan W.)",
+      "gamesPlayed": 9,
+      "wins": 6,
+      "losses": 0,
+      "ties": 3,
+      "points": 15
+    },
+    {
+      "position": 6,
+      "teamId": 3455935,
+      "teamName": "7 - That's What She Sets (Brandon B.)",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 8,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 7,
+      "teamId": 3469582,
+      "teamName": "8 - To Be Determined (JJ C.)",
+      "gamesPlayed": 13,
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 3457135,
+      "teamName": "6 - Bumpin Uglies (Matt O.)",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 8,
+      "ties": 2,
+      "points": 4
+    }
+  ]
+}

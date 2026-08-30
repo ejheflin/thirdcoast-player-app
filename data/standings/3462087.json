@@ -1,0 +1,107 @@
+{
+  "programId": 3462087,
+  "programName": "Monday Coed 3s Intermediate",
+  "updatedAt": "2026-08-30T18:39:27.298Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 5754834,
+      "teamName": "1. Five Pokemon in the Party (Omar S.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 0,
+      "ties": 8,
+      "points": 24
+    },
+    {
+      "position": 2,
+      "teamId": 5766192,
+      "teamName": "8. Third Coast Ball (Hector T.)",
+      "gamesPlayed": 15,
+      "wins": 9,
+      "losses": 1,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
+      "teamId": 5758845,
+      "teamName": "3. Settin pretty (Elizabeth A.)",
+      "gamesPlayed": 15,
+      "wins": 8,
+      "losses": 1,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 5758314,
+      "teamName": "4. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 2,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 5,
+      "teamId": 5760672,
+      "teamName": "5. Rickys Tricks (John K.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 6,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 5758299,
+      "teamName": "2. Sandy Start (Tiffany S.)",
+      "gamesPlayed": 11,
+      "wins": 4,
+      "losses": 3,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 5763411,
+      "teamName": "6. Sets on the Beach (Kerry C.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 8,
+      "teamId": 5766975,
+      "teamName": "7. Scrappy Doo (Matt O.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 7,
+      "ties": 3,
+      "points": 9
+    },
+    {
+      "position": 9,
+      "teamId": 5770917,
+      "teamName": "10. Let's Play (Naomi L.)",
+      "gamesPlayed": 14,
+      "wins": 1,
+      "losses": 9,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 10,
+      "teamId": 5765466,
+      "teamName": "9. Sonova Beach (Zaman J.)",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 14,
+      "ties": 1,
+      "points": 1
+    }
+  ]
+}

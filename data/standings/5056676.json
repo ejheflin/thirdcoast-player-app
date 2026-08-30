@@ -1,0 +1,107 @@
+{
+  "programId": 5056676,
+  "programName": "Tuesday Coed 4s B",
+  "updatedAt": "2026-08-30T18:40:50.498Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 8034410,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 12,
+      "wins": 9,
+      "losses": 1,
+      "ties": 2,
+      "points": 20
+    },
+    {
+      "position": 2,
+      "teamId": 8022079,
+      "teamName": "7. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 1,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 8027833,
+      "teamName": "4. Milk (Sean M.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 2,
+      "ties": 3,
+      "points": 17
+    },
+    {
+      "position": 4,
+      "teamId": 8018572,
+      "teamName": "1. Bad Hombres (Jaimie M.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 4,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 8016718,
+      "teamName": "6. The Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 4,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 6,
+      "teamId": 8024203,
+      "teamName": "2. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 5,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 8024049,
+      "teamName": "10. Big Dig Energy (Chad S.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 5,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 8023885,
+      "teamName": "3. Gold Diggerz (JT N.)",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 6,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 9,
+      "teamId": 8036768,
+      "teamName": "9. Carpe Digem (Eric H.)",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 6,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 10,
+      "teamId": 8033259,
+      "teamName": "8. The Replacements (Joe R.)",
+      "gamesPlayed": 10,
+      "wins": 0,
+      "losses": 10,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

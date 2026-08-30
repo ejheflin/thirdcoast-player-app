@@ -1,0 +1,18 @@
+{
+  "userId": 14798164,
+  "firstName": "Zach",
+  "appearances": [
+    {
+      "programId": 5062075,
+      "teamId": 8025029,
+      "teamName": "2. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5050213,
+      "teamId": 8010968,
+      "teamName": "12. Zach P. and Ben L.",
+      "isCaptain": true
+    }
+  ]
+}

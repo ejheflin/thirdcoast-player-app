@@ -1,0 +1,127 @@
+{
+  "programId": 4362287,
+  "programName": "Tuesday Womens 2s A",
+  "updatedAt": "2026-08-30T18:42:01.833Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7021055,
+      "teamName": "1. Cabrina B. and Molly J.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6,
+      "points": 26
+    },
+    {
+      "position": 2,
+      "teamId": 7013655,
+      "teamName": "7. Olivia J. and Emily F.",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 3,
+      "ties": 2,
+      "points": 24
+    },
+    {
+      "position": 3,
+      "teamId": 7019376,
+      "teamName": "8. Paige D. and Jo P.",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 2,
+      "ties": 4,
+      "points": 24
+    },
+    {
+      "position": 4,
+      "teamId": 7011161,
+      "teamName": "3. Lauren H. and Nicole B.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 0,
+      "ties": 8,
+      "points": 24
+    },
+    {
+      "position": 5,
+      "teamId": 7017976,
+      "teamName": "6. Liz C. and Brittney G.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 6,
+      "teamId": 7014468,
+      "teamName": "5. Beth B. and Susan P.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 5,
+      "ties": 3,
+      "points": 19
+    },
+    {
+      "position": 7,
+      "teamId": 7024541,
+      "teamName": "12. Melissa B. and Lindsay K.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 5,
+      "ties": 7,
+      "points": 15
+    },
+    {
+      "position": 8,
+      "teamId": 7023018,
+      "teamName": "2. Dani D. and Shelby G.",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 7027300,
+      "teamName": "11. Christine M. and Erika P.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 7013996,
+      "teamName": "10. Yanni S. and Sarah R.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 9,
+      "ties": 5,
+      "points": 7
+    },
+    {
+      "position": 11,
+      "teamId": 7014664,
+      "teamName": "9. Savannah W. and Ali M.",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 9,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 12,
+      "teamId": 7019636,
+      "teamName": "4. Lisa B. and Tina O.",
+      "gamesPlayed": 14,
+      "wins": 0,
+      "losses": 14,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

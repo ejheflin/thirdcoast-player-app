@@ -1,0 +1,87 @@
+{
+  "programId": 2613084,
+  "programName": "Monday Coed 3s Snake Draft",
+  "updatedAt": "2026-08-30T18:39:27.777Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 4479510,
+      "teamName": "1 - Tori J.",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 1,
+      "ties": 4,
+      "points": 22
+    },
+    {
+      "position": 2,
+      "teamId": 4479525,
+      "teamName": "6 - Sundara C.",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 3,
+      "teamId": 4479528,
+      "teamName": "7 - Kim M.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 4,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 4,
+      "teamId": 4479513,
+      "teamName": "2 - Giselle L.",
+      "gamesPlayed": 11,
+      "wins": 4,
+      "losses": 2,
+      "ties": 5,
+      "points": 13
+    },
+    {
+      "position": 5,
+      "teamId": 4479522,
+      "teamName": "5 - Nicole P.",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 4,
+      "ties": 4,
+      "points": 8
+    },
+    {
+      "position": 6,
+      "teamId": 4479531,
+      "teamName": "8 - Gonya L.",
+      "gamesPlayed": 10,
+      "wins": 1,
+      "losses": 5,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 7,
+      "teamId": 4479519,
+      "teamName": "4 - Abby T.",
+      "gamesPlayed": 10,
+      "wins": 0,
+      "losses": 6,
+      "ties": 4,
+      "points": 4
+    },
+    {
+      "position": 8,
+      "teamId": 4479516,
+      "teamName": "3 - Megan L.",
+      "gamesPlayed": 7,
+      "wins": 0,
+      "losses": 3,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

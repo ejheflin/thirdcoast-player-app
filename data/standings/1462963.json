@@ -1,0 +1,87 @@
+{
+  "programId": 1462963,
+  "programName": "Tuesday Coed 4s Intermediate #2",
+  "updatedAt": "2026-08-30T18:41:21.361Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2895430,
+      "teamName": "4 - Big Digs (Mike B.)",
+      "gamesPlayed": 8,
+      "wins": 5,
+      "losses": 0,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 2,
+      "teamId": 2929531,
+      "teamName": "6 - ROVB (Tom K.)",
+      "gamesPlayed": 7,
+      "wins": 5,
+      "losses": 0,
+      "ties": 2,
+      "points": 35
+    },
+    {
+      "position": 3,
+      "teamId": 2928715,
+      "teamName": "1 - Arsenal Gunners (David T.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 2,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 4,
+      "teamId": 2962528,
+      "teamName": "10 - Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 2,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 5,
+      "teamId": 2910436,
+      "teamName": "8 - Ooh... A Piece Of Candy! (Terry V.)",
+      "gamesPlayed": 8,
+      "wins": 2,
+      "losses": 5,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 6,
+      "teamId": 2964988,
+      "teamName": "9 - Big Tipper$ (Ivan M.)",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 3,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 7,
+      "teamId": 3194644,
+      "teamName": "Sets on the Beach (Evan R.)",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 1,
+      "points": 24
+    },
+    {
+      "position": 8,
+      "teamId": 2893510,
+      "teamName": "3 - Nice Ace (Jaimie G.)",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 6,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}

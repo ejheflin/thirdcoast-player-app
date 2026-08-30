@@ -1,0 +1,24 @@
+{
+  "userId": 14915290,
+  "firstName": "Jon",
+  "appearances": [
+    {
+      "programId": 5053351,
+      "teamId": 8020518,
+      "teamName": "4. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5050382,
+      "teamId": 8021454,
+      "teamName": "6. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062075,
+      "teamId": 8032447,
+      "teamName": "7. The Vacacioners (Phil M.)",
+      "isCaptain": false
+    }
+  ]
+}

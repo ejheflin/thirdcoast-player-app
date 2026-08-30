@@ -1,0 +1,18 @@
+{
+  "userId": 14611279,
+  "firstName": "Tina",
+  "appearances": [
+    {
+      "programId": 5050344,
+      "teamId": 8002328,
+      "teamName": "8. Tina O. and Dane R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062087,
+      "teamId": 8019399,
+      "teamName": "6. Elaine L. and Tina O.",
+      "isCaptain": true
+    }
+  ]
+}

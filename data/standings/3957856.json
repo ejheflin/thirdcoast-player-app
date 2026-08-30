@@ -1,0 +1,87 @@
+{
+  "programId": 3957856,
+  "programName": "Tuesday Coed 4s A",
+  "updatedAt": "2026-08-30T18:40:46.846Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6450755,
+      "teamName": "6. Here for the exercise (Jessica C.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 1,
+      "ties": 9,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 6450858,
+      "teamName": "4. Toodles (Michael L.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 2,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 6454293,
+      "teamName": "3. 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6454569,
+      "teamName": "7. Indoor Ballerz Turned Sand Junkies (Michael R.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 5,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 6447843,
+      "teamName": "1. Jeff's Team (Jeff S.)",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 1,
+      "ties": 9,
+      "points": 11
+    },
+    {
+      "position": 6,
+      "teamId": 6452815,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 6,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 7,
+      "teamId": 6454965,
+      "teamName": "8. Practice Safe Sets (Gary C.)",
+      "gamesPlayed": 14,
+      "wins": 2,
+      "losses": 7,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
+      "teamId": 6451602,
+      "teamName": "2. Flat Balls (Abby T.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 6,
+      "ties": 6,
+      "points": 8
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "programId": 1204246,
+  "programName": "Monday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:33.085Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 2512066,
+      "teamName": "5 - Sets on the Beach (Starr K.)",
+      "gamesPlayed": 16,
+      "wins": 10,
+      "losses": 1,
+      "ties": 5,
+      "points": 25
+    },
+    {
+      "position": 2,
+      "teamId": 2516317,
+      "teamName": "4 - Snack Pack (Sinohe R.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 1,
+      "ties": 8,
+      "points": 22
+    },
+    {
+      "position": 3,
+      "teamId": 2512957,
+      "teamName": "2 - Raindrop, Drop Top (Mark R.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
+      "teamId": 2513647,
+      "teamName": "6 - Sand Slingers (James N.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 3,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 5,
+      "teamId": 2509798,
+      "teamName": "7 - Sun Sets (Damon K.)",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 6,
+      "teamId": 2512633,
+      "teamName": "3 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 12,
+      "wins": 3,
+      "losses": 3,
+      "ties": 6,
+      "points": 12
+    },
+    {
+      "position": 7,
+      "teamId": 2521567,
+      "teamName": "8 - Secret Signs (Aziz J.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 8,
+      "ties": 4,
+      "points": 6
+    },
+    {
+      "position": 8,
+      "teamId": 2513809,
+      "teamName": "1 - Spaceballs (Paul V.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 11,
+      "ties": 2,
+      "points": 2
+    }
+  ]
+}

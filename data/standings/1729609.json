@@ -1,0 +1,67 @@
+{
+  "programId": 1729609,
+  "programName": "Monday Coed 4s Upper Intermediate",
+  "updatedAt": "2026-08-30T18:39:31.691Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 3245827,
+      "teamName": "1 - Buns & Bazookas (Stefan W.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 0,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 2,
+      "teamId": 3258355,
+      "teamName": "5 - Ninja Turtles (Andrew B.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 3,
+      "teamId": 3250159,
+      "teamName": "2 - Can You Dig It? (Marc S.)",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 2,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 4,
+      "teamId": 3253021,
+      "teamName": "6 - To Be Determined (Andy T.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 5,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 5,
+      "teamId": 3254851,
+      "teamName": "3 - Can't Keep Score (Joy R.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 7,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 6,
+      "teamId": 3260023,
+      "teamName": "4 - Flyballers Shotcallers (Albert F.)",
+      "gamesPlayed": 11,
+      "wins": 0,
+      "losses": 7,
+      "ties": 4,
+      "points": 4
+    }
+  ]
+}

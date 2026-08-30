@@ -1,0 +1,87 @@
+{
+  "programId": 3719532,
+  "programName": "Tuesday Coed 4s A (formerly Upper Intermediate)",
+  "updatedAt": "2026-08-30T18:40:48.187Z",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 6126786,
+      "teamName": "1. Gabby & The Boyz (Marshall C.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 2,
+      "ties": 7,
+      "points": 21
+    },
+    {
+      "position": 2,
+      "teamId": 6134067,
+      "teamName": "4. Toodles (Michael L.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 3,
+      "teamId": 6155916,
+      "teamName": "6. Soft Serve (Zach P.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 2,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 4,
+      "teamId": 6145263,
+      "teamName": "2. 3 OG's & Bae (Johnny W.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 3,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 6158907,
+      "teamName": "8. The Hard Digs (Alfredo E.)",
+      "gamesPlayed": 16,
+      "wins": 5,
+      "losses": 4,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 6,
+      "teamId": 6155346,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 15,
+      "wins": 3,
+      "losses": 7,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 7,
+      "teamId": 6144195,
+      "teamName": "3. How I Set Your Mother (Ivan M.)",
+      "gamesPlayed": 15,
+      "wins": 2,
+      "losses": 7,
+      "ties": 6,
+      "points": 10
+    },
+    {
+      "position": 8,
+      "teamId": 6160668,
+      "teamName": "7. Will be back on top! (Adrian M.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 8,
+      "ties": 6,
+      "points": 10
+    }
+  ]
+}

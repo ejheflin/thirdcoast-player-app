@@ -1,0 +1,18 @@
+{
+  "userId": 53615950,
+  "firstName": "Sarah",
+  "appearances": [
+    {
+      "programId": 5050413,
+      "teamId": 8016844,
+      "teamName": "11. Spike Wizowski (Sarah F.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 5062084,
+      "teamId": 8016830,
+      "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+      "isCaptain": true
+    }
+  ]
+}
