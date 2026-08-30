@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matchup Predictor — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+  #oppPicker{width:100%;padding:12px;border-radius:10px;border:1px solid var(--app-line);
+    background:var(--app-surface);color:var(--app-ink);font-family:inherit;font-size:14px;margin-bottom:14px}
+</style>
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Matchup <em style="color:var(--app-live)">Predictor</em></div></div></div>
+  <div class="body" id="body">
+    <select id="oppPicker"><option value="">Pick an opponent…</option></select>
+    <div id="result"></div>
+  </div>
+  <div class="tabbar">
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab on"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const params = new URLSearchParams(location.search);
+const programId = params.get('program');
+const teamId = Number(params.get('team'));
+
+function setDiffFor(teamId, games) {
+  return games.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    if (!me || !opp) return sum;
+    return sum + (me.score - opp.score);
+  }, 0);
+}
+
+// Rating = win rate (ties count half) plus a small set-differential-per-
+// game bonus. A "disclosed formula," per the design principle -- not a
+// black box. See docs/superpowers/specs/2026-08-30-player-stats-app-design.md.
+function ratingFor(row, games) {
+  const winRate = (row.wins + 0.5 * row.ties) / row.gamesPlayed;
+  const setDiffPerGame = setDiffFor(row.teamId, games) / row.gamesPlayed;
+  return winRate + setDiffPerGame * 0.05;
+}
+
+Promise.all([
+  fetchJSON(`data/standings/${programId}.json`),
+  fetchJSON(`data/activities/${programId}.json`),
+]).then(([standings, activities]) => {
+  if (!standings) return;
+  document.getElementById('greet').textContent = standings.programName;
+  const myRow = standings.rows.find((r) => r.teamId === teamId);
+  const games = activities?.games ?? [];
+
+  const picker = document.getElementById('oppPicker');
+  for (const r of standings.rows) {
+    if (r.teamId === teamId) continue;
+    const opt = document.createElement('option');
+    opt.value = r.teamId;
+    opt.textContent = r.teamName;
+    picker.appendChild(opt);
+  }
+
+  picker.addEventListener('change', () => {
+    const oppId = Number(picker.value);
+    const oppRow = standings.rows.find((r) => r.teamId === oppId);
+    const resultEl = document.getElementById('result');
+    if (!oppRow || !myRow) { resultEl.innerHTML = ''; return; }
+
+    const myRating = ratingFor(myRow, games);
+    const oppRating = ratingFor(oppRow, games);
+    const pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
+    const pctOpp = 100 - pctMe;
+    const met = games.filter((g) => g.teams.some((t) => t.teamId === oppId));
+
+    resultEl.innerHTML = `
+      <div class="card">
+        <div class="vsrow">
+          <div class="vsteam"><div class="av a">${escapeHTML(myRow.teamName.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase())}</div><b>${escapeHTML(myRow.teamName)}</b><span>${myRow.wins}-${myRow.losses}-${myRow.ties}</span></div>
+          <div class="vsmid">VS</div>
+          <div class="vsteam"><div class="av b">${escapeHTML(oppRow.teamName.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase())}</div><b>${escapeHTML(oppRow.teamName)}</b><span>${oppRow.wins}-${oppRow.losses}-${oppRow.ties}</span></div>
+        </div>
+        <div class="probbar"><div class="a" style="flex:${pctMe}">${pctMe}%</div><div class="b" style="flex:${pctOpp}">${pctOpp}%</div></div>
+        <div class="h2h-meta">Model: season win-rate + set differential per game. ${met.length ? met.length + ' meeting(s) this season.' : 'Not yet met this season.'}</div>
+      </div>`;
+  });
+});
+</script>
+</body>
+</html>
