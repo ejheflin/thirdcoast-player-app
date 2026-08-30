@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8037121,
+  "teamName": "4. Kathleen B. and Robert T.",
+  "players": [
+    {
+      "userId": 48184723,
+      "firstName": "Kathleen",
+      "isCaptain": true
+    },
+    {
+      "userId": 55600412,
+      "firstName": "Robert",
+      "isCaptain": false
+    }
+  ]
+}

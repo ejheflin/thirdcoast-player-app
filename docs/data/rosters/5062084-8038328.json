@@ -1,0 +1,37 @@
+{
+  "programId": 5062084,
+  "teamId": 8038328,
+  "teamName": "9. What Court Are We On? (Bear S.)",
+  "players": [
+    {
+      "userId": 57810251,
+      "firstName": "Nathaniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 57807407,
+      "firstName": "Joe",
+      "isCaptain": false
+    },
+    {
+      "userId": 53966997,
+      "firstName": "Maddison",
+      "isCaptain": false
+    },
+    {
+      "userId": 51852223,
+      "firstName": "Bear",
+      "isCaptain": true
+    },
+    {
+      "userId": 17226019,
+      "firstName": "Raph",
+      "isCaptain": false
+    },
+    {
+      "userId": 49305252,
+      "firstName": "Brittany",
+      "isCaptain": false
+    }
+  ]
+}

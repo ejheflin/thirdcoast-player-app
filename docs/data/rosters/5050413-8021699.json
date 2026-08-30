@@ -1,0 +1,27 @@
+{
+  "programId": 5050413,
+  "teamId": 8021699,
+  "teamName": "6. I Dunno (Matt G.)",
+  "players": [
+    {
+      "userId": 57706385,
+      "firstName": "Joe",
+      "isCaptain": false
+    },
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 49754764,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 14635723,
+      "firstName": "ashlee",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 5062084,
+  "teamId": 8024490,
+  "teamName": "2. Beach Please (Annie L.)",
+  "players": [
+    {
+      "userId": 56689950,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 27941982,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 56719587,
+      "firstName": "Will",
+      "isCaptain": false
+    },
+    {
+      "userId": 46933884,
+      "firstName": "Johnny",
+      "isCaptain": false
+    },
+    {
+      "userId": 45168284,
+      "firstName": "Faith",
+      "isCaptain": false
+    }
+  ]
+}

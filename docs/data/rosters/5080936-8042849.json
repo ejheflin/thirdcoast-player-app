@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8042849,
+  "teamName": "8. Sammy L. and Joseph V.",
+  "players": [
+    {
+      "userId": 57827696,
+      "firstName": "Samantha",
+      "isCaptain": true
+    },
+    {
+      "userId": 57827874,
+      "firstName": "Joseph",
+      "isCaptain": false
+    }
+  ]
+}

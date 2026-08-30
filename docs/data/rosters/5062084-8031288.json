@@ -1,0 +1,27 @@
+{
+  "programId": 5062084,
+  "teamId": 8031288,
+  "teamName": "10. Offense Only (Zhen Y.)",
+  "players": [
+    {
+      "userId": 49869006,
+      "firstName": "Helen",
+      "isCaptain": false
+    },
+    {
+      "userId": 57723966,
+      "firstName": "Allyson",
+      "isCaptain": false
+    },
+    {
+      "userId": 57727430,
+      "firstName": "Jacob",
+      "isCaptain": false
+    },
+    {
+      "userId": 57527563,
+      "firstName": "Zhen",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 5062075,
+  "teamId": 8021976,
+  "teamName": "4. Twin Peaks (Dan F.)",
+  "players": [
+    {
+      "userId": 14670136,
+      "firstName": "Traci",
+      "isCaptain": false
+    },
+    {
+      "userId": 44346374,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 14672407,
+      "firstName": "Daniel",
+      "isCaptain": true
+    },
+    {
+      "userId": 23106514,
+      "firstName": "Adrian",
+      "isCaptain": false
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    }
+  ]
+}

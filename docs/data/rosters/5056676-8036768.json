@@ -1,0 +1,27 @@
+{
+  "programId": 5056676,
+  "teamId": 8036768,
+  "teamName": "9. Carpe Digem (Eric H.)",
+  "players": [
+    {
+      "userId": 47047060,
+      "firstName": "Bethany",
+      "isCaptain": false
+    },
+    {
+      "userId": 46969143,
+      "firstName": "Eric",
+      "isCaptain": true
+    },
+    {
+      "userId": 46969102,
+      "firstName": "Miguel",
+      "isCaptain": false
+    },
+    {
+      "userId": 46966327,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5050213,
+  "teamId": 8019966,
+  "teamName": "11. Vince R. and Alfredo E.",
+  "players": [
+    {
+      "userId": 19697446,
+      "firstName": "Alfredo",
+      "isCaptain": false
+    },
+    {
+      "userId": 52227974,
+      "firstName": "Vicente",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 5062084,
+  "teamId": 8037317,
+  "teamName": "11. BLT (Sean B.)",
+  "players": [
+    {
+      "userId": 57782235,
+      "firstName": "Amanda",
+      "isCaptain": false
+    },
+    {
+      "userId": 57782077,
+      "firstName": "Sean",
+      "isCaptain": true
+    },
+    {
+      "userId": 18892564,
+      "firstName": "Nicholas",
+      "isCaptain": false
+    },
+    {
+      "userId": 57871149,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 57802860,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

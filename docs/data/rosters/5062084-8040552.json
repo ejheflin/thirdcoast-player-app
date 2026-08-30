@@ -1,0 +1,27 @@
+{
+  "programId": 5062084,
+  "teamId": 8040552,
+  "teamName": "12. The Volleybeaners (Emanuel N.)",
+  "players": [
+    {
+      "userId": 57812899,
+      "firstName": "TJ",
+      "isCaptain": false
+    },
+    {
+      "userId": 57812964,
+      "firstName": "Oscar",
+      "isCaptain": false
+    },
+    {
+      "userId": 44414241,
+      "firstName": "Odette",
+      "isCaptain": false
+    },
+    {
+      "userId": 53530217,
+      "firstName": "Emanuel",
+      "isCaptain": true
+    }
+  ]
+}

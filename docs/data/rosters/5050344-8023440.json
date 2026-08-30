@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8023440,
+  "teamName": "9. Viktoriya I. and John S.",
+  "players": [
+    {
+      "userId": 56762555,
+      "firstName": "Viktoriya",
+      "isCaptain": false
+    },
+    {
+      "userId": 42926049,
+      "firstName": "John",
+      "isCaptain": true
+    }
+  ]
+}

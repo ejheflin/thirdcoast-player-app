@@ -1,0 +1,17 @@
+{
+  "programId": 5053349,
+  "teamId": 8007625,
+  "teamName": "8. Jodie N. and Jacob J.",
+  "players": [
+    {
+      "userId": 54426683,
+      "firstName": "Jacob",
+      "isCaptain": false
+    },
+    {
+      "userId": 49879219,
+      "firstName": "Jodie",
+      "isCaptain": true
+    }
+  ]
+}

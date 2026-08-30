@@ -1,0 +1,17 @@
+{
+  "programId": 5053349,
+  "teamId": 8033568,
+  "teamName": "6. Taylor P. and Carson S.",
+  "players": [
+    {
+      "userId": 57749870,
+      "firstName": "Taylor",
+      "isCaptain": false
+    },
+    {
+      "userId": 57653048,
+      "firstName": "Carson",
+      "isCaptain": true
+    }
+  ]
+}

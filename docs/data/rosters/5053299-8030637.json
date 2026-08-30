@@ -1,0 +1,22 @@
+{
+  "programId": 5053299,
+  "teamId": 8030637,
+  "teamName": "7. Sandy Cheeks (Shayan E.)",
+  "players": [
+    {
+      "userId": 42533328,
+      "firstName": "Shayan",
+      "isCaptain": true
+    },
+    {
+      "userId": 39325206,
+      "firstName": "Mica",
+      "isCaptain": false
+    },
+    {
+      "userId": 57715378,
+      "firstName": "Eddie",
+      "isCaptain": false
+    }
+  ]
+}

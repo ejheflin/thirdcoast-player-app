@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8002189,
+  "teamName": "6. Sydney Z. and Josman R.",
+  "players": [
+    {
+      "userId": 14681206,
+      "firstName": "Josman",
+      "isCaptain": true
+    },
+    {
+      "userId": 46867934,
+      "firstName": "Sydney",
+      "isCaptain": false
+    }
+  ]
+}

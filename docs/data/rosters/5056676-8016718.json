@@ -1,0 +1,27 @@
+{
+  "programId": 5056676,
+  "teamId": 8016718,
+  "teamName": "6. The Empire Spikes Back (Ash C.)",
+  "players": [
+    {
+      "userId": 38194146,
+      "firstName": "Brett",
+      "isCaptain": false
+    },
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": true
+    },
+    {
+      "userId": 29586969,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 31727040,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

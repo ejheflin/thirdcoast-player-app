@@ -1,0 +1,42 @@
+{
+  "programId": 5050413,
+  "teamId": 8016844,
+  "teamName": "11. Spike Wizowski (Sarah F.)",
+  "players": [
+    {
+      "userId": 56640797,
+      "firstName": "Isha",
+      "isCaptain": false
+    },
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": true
+    },
+    {
+      "userId": 56677110,
+      "firstName": "Danny",
+      "isCaptain": false
+    },
+    {
+      "userId": 57676004,
+      "firstName": "Spencer",
+      "isCaptain": false
+    },
+    {
+      "userId": 55716045,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 56640764,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 57663800,
+      "firstName": "Gilberto",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 5050413,
+  "teamId": 8000431,
+  "teamName": "1. Blake’s Beaches (Collin W.)",
+  "players": [
+    {
+      "userId": 51762192,
+      "firstName": "Caleb",
+      "isCaptain": false
+    },
+    {
+      "userId": 51435336,
+      "firstName": "Blake",
+      "isCaptain": false
+    },
+    {
+      "userId": 53573868,
+      "firstName": "Kennedy",
+      "isCaptain": false
+    },
+    {
+      "userId": 51263976,
+      "firstName": "Collin",
+      "isCaptain": true
+    }
+  ]
+}

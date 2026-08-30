@@ -1,0 +1,22 @@
+{
+  "programId": 5062075,
+  "teamId": 8025029,
+  "teamName": "2. Net Ninjas (Katelyn M.)",
+  "players": [
+    {
+      "userId": 14658568,
+      "firstName": "Katelyn",
+      "isCaptain": true
+    },
+    {
+      "userId": 42557619,
+      "firstName": "Evan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    }
+  ]
+}

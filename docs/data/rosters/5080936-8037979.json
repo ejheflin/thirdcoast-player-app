@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8037979,
+  "teamName": "3. Sue L. and David N.",
+  "players": [
+    {
+      "userId": 42478986,
+      "firstName": "Sue-Lynn",
+      "isCaptain": false
+    },
+    {
+      "userId": 42323817,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

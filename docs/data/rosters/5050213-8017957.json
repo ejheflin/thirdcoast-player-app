@@ -1,0 +1,17 @@
+{
+  "programId": 5050213,
+  "teamId": 8017957,
+  "teamName": "7. Riley W. and Jacob W.",
+  "players": [
+    {
+      "userId": 35367179,
+      "firstName": "Jacob",
+      "isCaptain": false
+    },
+    {
+      "userId": 17291476,
+      "firstName": "Riley",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 5050413,
+  "teamId": 8023891,
+  "teamName": "12. Bag of digs (Christopher M.)",
+  "players": [
+    {
+      "userId": 57666898,
+      "firstName": "Audrey",
+      "isCaptain": false
+    },
+    {
+      "userId": 57665982,
+      "firstName": "Will",
+      "isCaptain": false
+    },
+    {
+      "userId": 48592102,
+      "firstName": "Christopher",
+      "isCaptain": true
+    },
+    {
+      "userId": 57665523,
+      "firstName": "Crystal",
+      "isCaptain": false
+    }
+  ]
+}

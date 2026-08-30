@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8041292,
+  "teamName": "6. Julie V. and Brandon W.",
+  "players": [
+    {
+      "userId": 14631430,
+      "firstName": "Julie",
+      "isCaptain": false
+    },
+    {
+      "userId": 57815430,
+      "firstName": "Brandon",
+      "isCaptain": true
+    }
+  ]
+}

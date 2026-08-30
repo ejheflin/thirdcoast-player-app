@@ -1,0 +1,22 @@
+{
+  "programId": 5053299,
+  "teamId": 8011316,
+  "teamName": "2. Respect Your Elders (Heather B.)",
+  "players": [
+    {
+      "userId": 14684353,
+      "firstName": "Heather",
+      "isCaptain": true
+    },
+    {
+      "userId": 14703736,
+      "firstName": "Jesse",
+      "isCaptain": false
+    },
+    {
+      "userId": 53529639,
+      "firstName": "Phil",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 5050413,
+  "teamId": 8015360,
+  "teamName": "8. Patty 4 the People (Doug B.)",
+  "players": [
+    {
+      "userId": 18441880,
+      "firstName": "Doug",
+      "isCaptain": true
+    },
+    {
+      "userId": 39777216,
+      "firstName": "Yaya",
+      "isCaptain": false
+    },
+    {
+      "userId": 42501969,
+      "firstName": "Sakina",
+      "isCaptain": false
+    },
+    {
+      "userId": 42501642,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 39384516,
+      "firstName": "Emmanuel",
+      "isCaptain": false
+    }
+  ]
+}

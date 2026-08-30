@@ -1,0 +1,17 @@
+{
+  "programId": 5053351,
+  "teamId": 8020518,
+  "teamName": "4. Kaegan W. and Jon N.",
+  "players": [
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    },
+    {
+      "userId": 53277253,
+      "firstName": "Kaegan",
+      "isCaptain": false
+    }
+  ]
+}

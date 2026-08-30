@@ -1,0 +1,17 @@
+{
+  "programId": 5062087,
+  "teamId": 8019399,
+  "teamName": "6. Elaine L. and Tina O.",
+  "players": [
+    {
+      "userId": 14595709,
+      "firstName": "Elaine",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611279,
+      "firstName": "Tina",
+      "isCaptain": true
+    }
+  ]
+}

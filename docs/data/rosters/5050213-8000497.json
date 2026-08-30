@@ -1,0 +1,17 @@
+{
+  "programId": 5050213,
+  "teamId": 8000497,
+  "teamName": "8. Jason O. and Dominick W.",
+  "players": [
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": true
+    },
+    {
+      "userId": 38366792,
+      "firstName": "Dominick",
+      "isCaptain": false
+    }
+  ]
+}

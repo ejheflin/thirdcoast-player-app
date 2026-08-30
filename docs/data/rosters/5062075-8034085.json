@@ -1,0 +1,27 @@
+{
+  "programId": 5062075,
+  "teamId": 8034085,
+  "teamName": "3. Chocolate City (Samanda H.)",
+  "players": [
+    {
+      "userId": 42600069,
+      "firstName": "Samanda",
+      "isCaptain": true
+    },
+    {
+      "userId": 57791434,
+      "firstName": "Nevin",
+      "isCaptain": false
+    },
+    {
+      "userId": 46570187,
+      "firstName": "Mike",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887630,
+      "firstName": "Ryan",
+      "isCaptain": false
+    }
+  ]
+}

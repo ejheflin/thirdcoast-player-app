@@ -1,0 +1,27 @@
+{
+  "programId": 5053299,
+  "teamId": 8032894,
+  "teamName": "8. Sandy Shorts (Gilberto Z.)",
+  "players": [
+    {
+      "userId": 57740047,
+      "firstName": "Krista",
+      "isCaptain": false
+    },
+    {
+      "userId": 57741599,
+      "firstName": "Nicholas",
+      "isCaptain": true
+    },
+    {
+      "userId": 57663800,
+      "firstName": "Gilberto",
+      "isCaptain": false
+    },
+    {
+      "userId": 49859817,
+      "firstName": "David",
+      "isCaptain": false
+    }
+  ]
+}

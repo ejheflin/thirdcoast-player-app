@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8002328,
+  "teamName": "8. Tina O. and Dane R.",
+  "players": [
+    {
+      "userId": 14611279,
+      "firstName": "Tina",
+      "isCaptain": true
+    },
+    {
+      "userId": 53603935,
+      "firstName": "Dane",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8024296,
+  "teamName": "10. Tiffany S. and Carson S.",
+  "players": [
+    {
+      "userId": 57653048,
+      "firstName": "Carson",
+      "isCaptain": false
+    },
+    {
+      "userId": 14760175,
+      "firstName": "Tiffany",
+      "isCaptain": true
+    }
+  ]
+}

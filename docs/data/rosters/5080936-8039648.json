@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8039648,
+  "teamName": "7. Lauren V. and Naz A.",
+  "players": [
+    {
+      "userId": 57799840,
+      "firstName": "Naz",
+      "isCaptain": false
+    },
+    {
+      "userId": 57799613,
+      "firstName": "lauren",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 5062084,
+  "teamId": 8015523,
+  "teamName": "7. Sets Pistols (Christina Z.)",
+  "players": [
+    {
+      "userId": 55558468,
+      "firstName": "Thanh",
+      "isCaptain": false
+    },
+    {
+      "userId": 54260372,
+      "firstName": "Nick",
+      "isCaptain": false
+    },
+    {
+      "userId": 55600412,
+      "firstName": "Robert",
+      "isCaptain": false
+    },
+    {
+      "userId": 57705359,
+      "firstName": "Amanda",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887623,
+      "firstName": "Christina",
+      "isCaptain": true
+    }
+  ]
+}

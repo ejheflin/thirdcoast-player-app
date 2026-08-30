@@ -1,0 +1,32 @@
+{
+  "programId": 5056676,
+  "teamId": 8024203,
+  "teamName": "2. Can You Dig It? (Marc S.)",
+  "players": [
+    {
+      "userId": 38361803,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 35077900,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
+      "userId": 14645212,
+      "firstName": "Marc",
+      "isCaptain": true
+    },
+    {
+      "userId": 14645653,
+      "firstName": "Theresa",
+      "isCaptain": false
+    },
+    {
+      "userId": 55675120,
+      "firstName": "Isabel",
+      "isCaptain": false
+    }
+  ]
+}

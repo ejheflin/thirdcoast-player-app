@@ -1,0 +1,17 @@
+{
+  "programId": 5053351,
+  "teamId": 8017043,
+  "teamName": "1. Emily R. and Riley F.",
+  "players": [
+    {
+      "userId": 22184167,
+      "firstName": "Riley",
+      "isCaptain": false
+    },
+    {
+      "userId": 17299171,
+      "firstName": "Emily",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8042907,
+  "teamName": "9. Brooke F. and Travis T.",
+  "players": [
+    {
+      "userId": 52703379,
+      "firstName": "Brooke",
+      "isCaptain": true
+    },
+    {
+      "userId": 54447949,
+      "firstName": "Travis",
+      "isCaptain": false
+    }
+  ]
+}

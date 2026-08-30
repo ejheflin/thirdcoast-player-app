@@ -1,0 +1,27 @@
+{
+  "programId": 5050413,
+  "teamId": 8017688,
+  "teamName": "4. Nothing But Tape!! (Joe R.)",
+  "players": [
+    {
+      "userId": 54298363,
+      "firstName": "Grace",
+      "isCaptain": false
+    },
+    {
+      "userId": 49426556,
+      "firstName": "Bethani",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    },
+    {
+      "userId": 14567347,
+      "firstName": "Johnny",
+      "isCaptain": false
+    }
+  ]
+}

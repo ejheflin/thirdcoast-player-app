@@ -1,0 +1,22 @@
+{
+  "programId": 5053299,
+  "teamId": 8028220,
+  "teamName": "6. Tito-Rico's (Eliza P.)",
+  "players": [
+    {
+      "userId": 52392326,
+      "firstName": "Joseph",
+      "isCaptain": false
+    },
+    {
+      "userId": 52168777,
+      "firstName": "Eliza",
+      "isCaptain": true
+    },
+    {
+      "userId": 33333016,
+      "firstName": "Mark",
+      "isCaptain": false
+    }
+  ]
+}

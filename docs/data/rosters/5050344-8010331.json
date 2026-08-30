@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8010331,
+  "teamName": "3. Olivia E. and Isa T.",
+  "players": [
+    {
+      "userId": 45979100,
+      "firstName": "Olivia",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

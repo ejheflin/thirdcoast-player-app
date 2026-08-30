@@ -1,0 +1,27 @@
+{
+  "programId": 5056669,
+  "teamId": 8032502,
+  "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 33061706,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 42548046,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": true
+    }
+  ]
+}

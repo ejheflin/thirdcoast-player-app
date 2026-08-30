@@ -1,0 +1,32 @@
+{
+  "programId": 5062084,
+  "teamId": 8037222,
+  "teamName": "1. Unprotected Sets (Chase P.)",
+  "players": [
+    {
+      "userId": 54268790,
+      "firstName": "Hannah",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267814,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 54222067,
+      "firstName": "Catalina",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267817,
+      "firstName": "Samuel",
+      "isCaptain": false
+    },
+    {
+      "userId": 54319317,
+      "firstName": "chase",
+      "isCaptain": true
+    }
+  ]
+}

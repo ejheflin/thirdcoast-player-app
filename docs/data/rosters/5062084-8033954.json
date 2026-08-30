@@ -1,0 +1,27 @@
+{
+  "programId": 5062084,
+  "teamId": 8033954,
+  "teamName": "4. The Thurmanators (David Z.)",
+  "players": [
+    {
+      "userId": 49862118,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 52234319,
+      "firstName": "Brittany",
+      "isCaptain": false
+    },
+    {
+      "userId": 49867620,
+      "firstName": "Henry",
+      "isCaptain": false
+    },
+    {
+      "userId": 49859817,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5050344,
+  "teamId": 8007160,
+  "teamName": "4. Sarah D. and Matt B.",
+  "players": [
+    {
+      "userId": 14645944,
+      "firstName": "Mathieu",
+      "isCaptain": true
+    },
+    {
+      "userId": 33061706,
+      "firstName": "Sarah",
+      "isCaptain": false
+    }
+  ]
+}

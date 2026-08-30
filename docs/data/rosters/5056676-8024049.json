@@ -1,0 +1,27 @@
+{
+  "programId": 5056676,
+  "teamId": 8024049,
+  "teamName": "10. Big Dig Energy (Chad S.)",
+  "players": [
+    {
+      "userId": 52192931,
+      "firstName": "SEAN",
+      "isCaptain": false
+    },
+    {
+      "userId": 46623269,
+      "firstName": "Lola",
+      "isCaptain": false
+    },
+    {
+      "userId": 23944489,
+      "firstName": "Chad",
+      "isCaptain": true
+    },
+    {
+      "userId": 57663800,
+      "firstName": "Gilberto",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5050382,
+  "teamId": 8014943,
+  "teamName": "3. Danielle F. and Jeff S.",
+  "players": [
+    {
+      "userId": 45964525,
+      "firstName": "Danielle",
+      "isCaptain": true
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    }
+  ]
+}

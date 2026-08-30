@@ -1,0 +1,17 @@
+{
+  "programId": 5053351,
+  "teamId": 8011799,
+  "teamName": "7. Sydney Z. and Manny A.",
+  "players": [
+    {
+      "userId": 29603115,
+      "firstName": "Manny",
+      "isCaptain": false
+    },
+    {
+      "userId": 46867934,
+      "firstName": "Sydney",
+      "isCaptain": true
+    }
+  ]
+}

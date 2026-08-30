@@ -1,0 +1,17 @@
+{
+  "programId": 5053349,
+  "teamId": 8007540,
+  "teamName": "1. Abbie G. and Jason O.",
+  "players": [
+    {
+      "userId": 48964709,
+      "firstName": "Abbie",
+      "isCaptain": true
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": false
+    }
+  ]
+}

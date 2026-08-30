@@ -1,0 +1,17 @@
+{
+  "programId": 5080936,
+  "teamId": 8036844,
+  "teamName": "2. Denise H. and Dreco S.",
+  "players": [
+    {
+      "userId": 46566898,
+      "firstName": "Denise",
+      "isCaptain": true
+    },
+    {
+      "userId": 25371946,
+      "firstName": "Dreco",
+      "isCaptain": false
+    }
+  ]
+}

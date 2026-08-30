@@ -1,0 +1,32 @@
+{
+  "programId": 5050413,
+  "teamId": 8003695,
+  "teamName": "3. Charlie’s Angels (Jason O.)",
+  "players": [
+    {
+      "userId": 53727774,
+      "firstName": "Mary",
+      "isCaptain": false
+    },
+    {
+      "userId": 22232572,
+      "firstName": "Avery",
+      "isCaptain": false
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": true
+    },
+    {
+      "userId": 52225898,
+      "firstName": "Roy",
+      "isCaptain": false
+    },
+    {
+      "userId": 45942289,
+      "firstName": "Charles",
+      "isCaptain": false
+    }
+  ]
+}
