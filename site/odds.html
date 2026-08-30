@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playoff Odds — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Playoff <em style="color:var(--app-live)">Odds</em></div></div></div>
+  <div class="body">
+    <div class="sec-lbl">Top 4 make the bracket</div>
+    <div class="card" id="rows" style="padding:6px 12px"></div>
+  </div>
+  <div class="tabbar">
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const programId = new URLSearchParams(location.search).get('program');
+const CUTOFF = 4;
+
+function setDiffFor(teamId, games) {
+  return games.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    return me && opp ? sum + (me.score - opp.score) : sum;
+  }, 0);
+}
+
+function ratingFor(row, games) {
+  const winRate = (row.wins + 0.5 * row.ties) / row.gamesPlayed;
+  const setDiffPerGame = setDiffFor(row.teamId, games) / row.gamesPlayed;
+  return winRate + setDiffPerGame * 0.05;
+}
+
+Promise.all([
+  fetchJSON(`data/standings/${programId}.json`),
+  fetchJSON(`data/activities/${programId}.json`),
+]).then(([standings, activities]) => {
+  if (!standings || standings.rows.length === 0) return;
+  document.getElementById('greet').textContent = standings.programName;
+  const games = activities?.games ?? [];
+  const rated = standings.rows.map((r) => ({ ...r, rating: ratingFor(r, games) }));
+  const sorted = [...rated].sort((a, b) => b.rating - a.rating);
+  const cutoffRating = sorted[Math.min(CUTOFF, sorted.length) - 1].rating;
+
+  document.getElementById('rows').innerHTML = rated.map((r) => {
+    const gap = r.rating - cutoffRating;
+    let pct = Math.round(50 + gap * 400);
+    pct = r.position <= CUTOFF ? Math.max(pct, 50) : Math.min(pct, 50);
+    pct = Math.max(1, Math.min(100, pct));
+    return `<div class="odds-row">
+      <div class="pos">${r.position}</div>
+      <div class="nm">${escapeHTML(r.teamName)}</div>
+      <div class="odds-track"><b style="width:${pct}%"></b></div>
+      <div class="odds-pct">${pct}%</div>
+    </div>`;
+  }).join('');
+});
+</script>
+</body>
+</html>
