@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Power Rankings — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar">
+    <div><div class="greet" id="greet"></div><div class="brand">Power <em>Rankings</em></div></div>
+  </div>
+  <div class="body">
+    <div class="sec-lbl">Regular season</div>
+    <div class="card" id="rows"></div>
+  </div>
+  <div class="tabbar">
+    <div class="tab on" onclick="location.href='index.html'"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" onclick="location.href=location.href"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" onclick="location.href='matchup.html?program='+new URLSearchParams(location.search).get('program')"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const programId = new URLSearchParams(location.search).get('program');
+
+fetchJSON(`data/standings/${programId}.json`).then((data) => {
+  const rowsEl = document.getElementById('rows');
+  if (!data || data.rows.length === 0) {
+    rowsEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">No standings yet.</p>';
+    return;
+  }
+  document.getElementById('greet').textContent = data.programName;
+  rowsEl.innerHTML = data.rows.map((r) => `
+    <div class="rank-row">
+      <div class="pos">${r.position}</div>
+      <div class="nm"><b>${escapeHTML(r.teamName)}</b></div>
+      <div class="rec">${r.wins}-${r.losses}-${r.ties}</div>
+    </div>`).join('');
+});
+</script>
+</body>
+</html>
