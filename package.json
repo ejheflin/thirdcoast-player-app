@@ -8,5 +8,10 @@
     "archive": "node archive/fetch.js",
     "test": "node --test archive/*.test.js"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
 }
