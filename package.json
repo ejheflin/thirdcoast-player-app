@@ -1,0 +1,12 @@
+{
+  "name": "thirdcoast-player-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Player-facing companion stats site for Third Coast Volleyball, backed by a GitHub Actions archiver over LeagueApps' public data.",
+  "scripts": {
+    "archive": "node archive/fetch.js",
+    "test": "node --test archive/*.test.js"
+  },
+  "engines": { "node": ">=20" }
+}
