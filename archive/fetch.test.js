@@ -14,7 +14,7 @@ test('runArchive writes standings for every program, activities+roster only for 
     fetchActivities: async (ids) => {
       assert.deepEqual(ids, [2], 'only the LIVE/UPCOMING program should be asked for activities');
       return [{
-        id: 900, state: 'played_regular_time', start: { date: '2026-08-30' },
+        id: 900, programId: 2, state: 'played_regular_time', start: { date: '2026-08-30' },
         teams: [
           { teamId: 10, teamName: 'Team A', result: 'win', score: 2 },
           { teamId: 11, teamName: 'Team B', result: 'loss', score: 0 },
@@ -35,6 +35,9 @@ test('runArchive writes standings for every program, activities+roster only for 
   assert.ok(writes.has('data/standings/2.json'));
   assert.ok(writes.has('data/activities/2.json'), 'only the active program gets an activities file');
   assert.equal(writes.has('data/activities/1.json'), false);
+  const activities2 = writes.get('data/activities/2.json');
+  assert.equal(activities2.games.length, 1, 'the played game should be grouped under program 2, not dropped');
+  assert.equal(activities2.games[0].activityId, 900);
   assert.ok(writes.has('data/people/555.json'));
   assert.equal(writes.get('data/people/555.json').firstName, 'Real Name'.split(' ')[0]);
   assert.equal(JSON.stringify(writes.get('data/people/555.json')).includes('Real Name'), false);
