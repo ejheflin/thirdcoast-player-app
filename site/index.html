@@ -31,13 +31,19 @@
 <script src="assets/app.js"></script>
 <script>
 let index = [];
-fetchJSON('data/active-teams-index.json').then((data) => { index = data ?? []; });
+let indexLoaded = false;
+let currentQuery = '';
 
-document.getElementById('q').addEventListener('input', (e) => {
-  const q = e.target.value.trim().toLowerCase();
+function performSearch(q) {
   const results = document.getElementById('results');
   results.innerHTML = '';
   if (!q) return;
+
+  if (!indexLoaded) {
+    results.innerHTML = '<p class="empty">Loading…</p>';
+    return;
+  }
+
   const matches = index.filter((t) => t.teamName.toLowerCase().includes(q)).slice(0, 15);
   if (matches.length === 0) {
     results.innerHTML = '<p class="empty">Not found yet — if your league just started, check back after the archiver\'s next run.</p>';
@@ -46,18 +52,29 @@ document.getElementById('q').addEventListener('input', (e) => {
   for (const m of matches) {
     const btn = document.createElement('button');
     btn.className = 'result';
-    btn.innerHTML = `<b>${m.teamName}</b><span>${m.programName}</span>`;
+    btn.innerHTML = `<b>${escapeHTML(m.teamName)}</b><span>${escapeHTML(m.programName)}</span>`;
     btn.addEventListener('click', () => {
       setMyTeam(m);
-      location.href = `team.html?team=${m.teamId}&program=${m.programId}`;
+      location.href = `team.html?team=${encodeURIComponent(m.teamId)}&program=${encodeURIComponent(m.programId)}`;
     });
     results.appendChild(btn);
   }
+}
+
+fetchJSON('data/active-teams-index.json').then((data) => {
+  index = data ?? [];
+  indexLoaded = true;
+  if (currentQuery) performSearch(currentQuery);
+});
+
+document.getElementById('q').addEventListener('input', (e) => {
+  currentQuery = e.target.value.trim().toLowerCase();
+  performSearch(currentQuery);
 });
 
 // Returning player: skip the search entirely.
 const existing = getMyTeam();
-if (existing) location.href = `team.html?team=${existing.teamId}&program=${existing.programId}`;
+if (existing) location.href = `team.html?team=${encodeURIComponent(existing.teamId)}&program=${encodeURIComponent(existing.programId)}`;
 </script>
 </body>
 </html>

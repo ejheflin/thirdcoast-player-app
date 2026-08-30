@@ -38,4 +38,13 @@ async function fetchJSON(path) {
   return res.json();
 }
 
+// Escape user-controlled strings before inserting into innerHTML to prevent XSS.
+// Team and program names come from LeagueApps and are not sanitized, so they must
+// be escaped whenever inserted into the DOM via innerHTML.
+function escapeHTML(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
 document.addEventListener('DOMContentLoaded', injectIcons);
