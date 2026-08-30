@@ -1,0 +1,175 @@
+/* Ported verbatim from the approved league-intel.html mockup's phone-app
+   design system (Third Coast broadcast board's own tokens/fonts, reused
+   so this reads as the same product's web-shaped sibling). Plus a real
+   page shell, since this is a real site now, not a phone-mockup gallery. */
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:#101A2C;display:flex;justify-content:center}
+.screen{max-width:480px;width:100%;min-height:100vh;border-radius:0}
+
+.screen{width:100%;height:100%;overflow:hidden;background:var(--app-bg);position:relative;
+  display:flex;flex-direction:column}
+
+/* app-internal design system: NOT its own palette -- these are the exact
+   tokens and fonts gamenight.html/board.html/playoff.html already use for
+   the real broadcast board (verified against gamenight.html directly, not
+   approximated), reused so this reads as the same product's phone-shaped
+   sibling, not a different app that happens to show the same data.
+     --app-accent  = --time  (real doc: "clock, slot pills, progress" --
+                     already a general wayfinding/accent role there, not
+                     just literal clocks, so reusing it for CTAs/active
+                     chips here is the SAME job, not a new one)
+     --app-data    = --pend  ("upcoming, league tags" -- secondary info)
+     --app-win     = --won   (brand lime, settled/positive)
+     --app-live    = --live  (hot pink, "being played this minute")
+   --app-loss is the one genuinely new color: the broadcast board never
+   needed to dwell on "lost" as its own state (--out exists but is a
+   muted eliminated-grey, not an alarm color), while a player's own W/L/T
+   game log needs one that reads clearly at a glance. */
+.screen{
+  --app-bg:#101A2C; --app-surface:#1A263C; --app-raised:#24334E; --app-line:#2B3A54;
+  --app-ink:#FFFFFF; --app-dim:#8E99AB; --app-faint:#5A6478;
+  --app-accent:#FFC400; --app-data:#2E9BFF; --app-live:#FF00A0; --app-on-fill:#06070A;
+  --app-win:#8CC63F; --app-loss:#E5484D; --app-tie:#FFC400;
+  font-family:"Barlow Condensed","Arial Narrow",sans-serif; color:var(--app-ink); font-variant-numeric:tabular-nums;
+}
+/* icon glyphs: flat single-color SVG marks, not color emoji -- reads as
+   part of the same bold/geometric visual language as the broadcast board
+   instead of borrowed phone-keyboard art. */
+.icon{width:16px;height:16px;display:inline-block;vertical-align:-3px;fill:currentColor}
+.icon-stroke{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.topbar{flex:none;padding:46px 18px 10px;display:flex;align-items:center;justify-content:space-between}
+.topbar .greet{font-size:13px;color:var(--app-dim)}
+.topbar .brand{font-family:"Archivo Black",Impact,sans-serif;font-size:19px;letter-spacing:.01em}
+.topbar .brand em{font-style:normal;color:var(--app-accent)}
+.chips{flex:none;display:flex;gap:8px;padding:6px 18px 14px;overflow-x:auto}
+.chip{flex:none;font-size:12.5px;font-weight:700;padding:7px 13px;border-radius:999px;background:var(--app-surface);
+  color:var(--app-dim);border:1px solid var(--app-line);white-space:nowrap}
+.chip.on{background:var(--app-win);color:var(--app-on-fill);border-color:var(--app-win)}
+.body{flex:1;min-height:0;overflow-y:auto;padding:0 18px 22px}
+.body::-webkit-scrollbar{display:none}
+.card{background:var(--app-surface);border:1px solid var(--app-line);border-radius:16px;padding:16px;margin-bottom:12px}
+.sec-lbl{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--app-faint);
+  margin:18px 2px 9px}
+.sec-lbl:first-child{margin-top:2px}
+
+/* feed items (home) */
+.feed-item{display:flex;gap:11px;align-items:flex-start}
+.feed-item .ico{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:16px}
+.feed-item .ico .icon{width:18px;height:18px;vertical-align:-4px}
+.feed-item .ico.streak{background:rgba(140,198,63,.16);color:var(--app-win)}
+.feed-item .ico.upset{background:rgba(229,72,77,.16);color:var(--app-loss)}
+.feed-item .ico.trend{background:rgba(46,155,255,.16);color:var(--app-data)}
+.feed-item .ico.live{background:rgba(255,0,160,.16);color:var(--app-live)}
+.feed-item .ico.legacy{background:rgba(255,196,0,.16);color:var(--app-accent)}
+.feed-item h5{font-size:14.5px;font-weight:700;margin:0 0 2px}
+.feed-item p{font-size:12.5px;color:var(--app-dim);margin:0}
+.feed-item + .feed-item{margin-top:14px;padding-top:14px;border-top:1px solid var(--app-line)}
+
+/* power rankings rows */
+.rank-row{display:flex;align-items:center;gap:11px;padding:11px 4px}
+.rank-row + .rank-row{border-top:1px solid var(--app-line)}
+.rank-row .pos{font-family:"Archivo Black",Impact,sans-serif;font-size:20px;color:var(--app-faint);width:22px}
+.rank-row .nm{flex:1;min-width:0}
+.rank-row .nm b{display:block;font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rank-row .nm span{font-size:11.5px;color:var(--app-faint)}
+.rank-row .rec{font-size:13px;font-weight:700;text-align:right;width:48px}
+.rank-row .diff{font-size:11px;font-weight:700;width:40px;text-align:right}
+.rank-row .diff.pos{color:var(--app-win)} .rank-row .diff.neg{color:var(--app-loss)}
+.form-dots{display:flex;gap:2px;margin-top:3px}
+.form-dots i{width:6px;height:6px;border-radius:50%;display:block}
+.form-dots i.W{background:var(--app-win)} .form-dots i.L{background:var(--app-loss)} .form-dots i.D{background:var(--app-tie);opacity:.75}
+
+/* filter button + sheet */
+.filter-btn{position:absolute;right:18px;top:44px;z-index:6;background:var(--app-surface);border:1px solid var(--app-line);
+  color:var(--app-ink);font-size:12px;font-weight:700;padding:7px 12px;border-radius:999px;display:flex;gap:5px;
+  align-items:center;cursor:pointer}
+.sheet-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.5);z-index:20;opacity:0;pointer-events:none;
+  transition:opacity 220ms ease;border-radius:32px}
+.sheet-backdrop.on{opacity:1;pointer-events:auto}
+.sheet{position:absolute;left:0;right:0;bottom:0;background:var(--app-raised);border-radius:22px 22px 0 0;
+  padding:8px 18px 22px;transform:translateY(100%);transition:transform 260ms cubic-bezier(.2,.9,.3,1);z-index:21}
+.sheet.on{transform:translateY(0)}
+.sheet .grip{width:36px;height:4px;border-radius:2px;background:var(--app-line);margin:6px auto 14px}
+.sheet h5{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--app-faint);margin:14px 0 8px}
+.sheet h5:first-of-type{margin-top:0}
+.sheet .row{display:flex;flex-wrap:wrap;gap:8px}
+.sheet .opt{font-size:13px;font-weight:600;padding:8px 13px;border-radius:10px;background:var(--app-surface);
+  border:1px solid var(--app-line);color:var(--app-dim)}
+.sheet .opt.on{background:var(--app-win);color:var(--app-on-fill);border-color:var(--app-win)}
+.sheet .apply{margin-top:18px;width:100%;background:var(--app-win);color:var(--app-on-fill);border:0;border-radius:12px;
+  padding:13px;font-size:14.5px;font-weight:700;font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.03em}
+
+/* team detail -- the avatar is a flat slab, like a court number, not a
+   gradient chip: gradients aren't part of the broadcast board's own
+   visual language, flat court-style fills are. */
+.team-hero{display:flex;align-items:center;gap:13px;padding:4px 2px 14px}
+.team-hero .avatar{width:52px;height:52px;border-radius:14px;background:var(--app-win);
+  display:grid;place-items:center;font-family:"Archivo Black",Impact,sans-serif;font-size:22px;color:var(--app-on-fill);flex:none}
+.team-hero h3{font-size:19px;font-weight:700;margin:0}
+.team-hero .sub{font-size:12.5px;color:var(--app-dim)}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.stat-grid .box{background:var(--app-surface);border:1px solid var(--app-line);border-radius:12px;padding:11px 8px;text-align:center}
+.stat-grid .box b{display:block;font-family:"Archivo Black",Impact,sans-serif;font-size:22px}
+.stat-grid .box span{font-size:10.5px;color:var(--app-faint);text-transform:uppercase;letter-spacing:.06em}
+.gamelog-row{display:flex;align-items:center;gap:10px;padding:9px 2px;font-size:13px}
+.gamelog-row .r{flex:none;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:11px;font-weight:800}
+.gamelog-row .r.W{background:rgba(140,198,63,.16);color:var(--app-win)} .gamelog-row .r.L{background:rgba(229,72,77,.16);color:var(--app-loss)}
+.gamelog-row .r.D{background:rgba(255,196,0,.16);color:var(--app-tie)}
+.gamelog-row .opp{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--app-ink)}
+.gamelog-row .sc{font-weight:700;color:var(--app-faint)}
+.gamelog-row + .gamelog-row{border-top:1px solid var(--app-line)}
+.spark{display:block;margin:2px 0 4px}
+
+/* h2h */
+.vsrow{display:flex;align-items:center;gap:10px;margin:6px 0 16px}
+.vsteam{flex:1;text-align:center}
+.vsteam .av{width:56px;height:56px;border-radius:16px;margin:0 auto 8px;display:grid;place-items:center;
+  font-family:"Archivo Black",Impact,sans-serif;font-size:24px;color:var(--app-on-fill)}
+.vsteam .av.a{background:var(--app-live)}
+.vsteam .av.b{background:var(--app-data)}
+.vsteam b{display:block;font-size:13px}
+.vsteam span{font-size:11px;color:var(--app-faint)}
+.vsmid{font-family:"Archivo Black",Impact,sans-serif;font-size:15px;color:var(--app-faint);flex:none}
+.probbar{height:30px;border-radius:9px;overflow:hidden;display:flex;font-family:"Archivo Black",Impact,sans-serif;
+  font-size:14px;margin-top:6px}
+.probbar div{display:flex;align-items:center;justify-content:center;color:var(--app-on-fill)}
+.probbar .a{background:var(--app-live)}
+.probbar .b{background:var(--app-data)}
+.h2h-meta{font-size:12px;color:var(--app-dim);text-align:center;margin-top:8px}
+
+/* dynasty card */
+.dyn-hero{text-align:center;padding:6px 0 10px}
+.dyn-hero .av{width:74px;height:74px;border-radius:50%;margin:0 auto 12px;
+  background:conic-gradient(from 200deg,var(--app-win),var(--app-data),var(--app-win));display:grid;place-items:center}
+.dyn-hero .av b{width:64px;height:64px;border-radius:50%;background:var(--app-bg);display:grid;place-items:center;
+  font-family:"Archivo Black",Impact,sans-serif;font-size:24px}
+.dyn-hero h3{font-size:21px}
+.dyn-hero .sub{font-size:12.5px;color:var(--app-dim);margin-top:2px}
+.badge-row{display:flex;justify-content:center;gap:8px;margin-top:12px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;background:var(--app-surface);
+  border:1px solid var(--app-line);color:var(--app-dim)}
+.timeline{display:flex;align-items:flex-end;gap:6px;height:70px;padding:0 2px;margin-top:6px}
+.timeline .bar{flex:1;border-radius:5px 5px 2px 2px;background:var(--app-data);position:relative}
+.timeline .bar span{position:absolute;bottom:calc(100% + 4px);left:50%;transform:translateX(-50%);font-size:9.5px;
+  color:var(--app-faint);white-space:nowrap}
+.partner-row{display:flex;justify-content:space-between;align-items:center;padding:9px 2px;font-size:13px}
+.partner-row + .partner-row{border-top:1px solid var(--app-line)}
+.partner-row .pw{font-weight:700;color:var(--app-win)}
+.partner-row .icon,.badge .icon{width:12px;height:12px;vertical-align:-1px;margin-right:2px;color:var(--app-faint)}
+.badge .icon{color:var(--app-accent)}
+
+/* playoff odds */
+.odds-row{display:flex;align-items:center;gap:10px;padding:10px 2px}
+.odds-row .pos{font-family:"Archivo Black",Impact,sans-serif;font-size:17px;color:var(--app-faint);width:18px}
+.odds-row .nm{flex:1;font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.odds-track{flex:1;height:8px;border-radius:5px;background:var(--app-line);position:relative;overflow:hidden;min-width:60px}
+.odds-track b{position:absolute;inset:0;border-radius:5px;background:var(--app-win)}
+.odds-pct{width:38px;text-align:right;font-size:12.5px;font-weight:700;font-family:"Archivo Black",Impact,sans-serif}
+.odds-row + .odds-row{border-top:1px solid var(--app-line)}
+.tabbar{flex:none;display:flex;border-top:1px solid var(--app-line);padding:10px 8px 22px;background:var(--app-surface)}
+.tab{flex:1;text-align:center;font-size:10px;color:var(--app-faint);font-weight:700}
+.tab.on{color:var(--app-win)}
+.tab .dot{width:20px;height:20px;border-radius:7px;margin:0 auto 4px;display:grid;place-items:center;font-size:12px}
+.tab .dot .icon{width:13px;height:13px;vertical-align:-2px}
+.tab.on .dot{background:rgba(140,198,63,.16)}
