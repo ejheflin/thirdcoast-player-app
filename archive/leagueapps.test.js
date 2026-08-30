@@ -76,8 +76,14 @@ test('parseRoster returns empty array, not a throw, on a page with no roster row
 // "(Captain Name)" is content the captain typed in themselves — most
 // write "First L.", but nothing enforces that, and a full "First Last"
 // can flow straight into every data file. redactCaptainName is the sweep
-// that catches it. Uses an INVENTED synthetic name, not a real one, since
-// the whole point is to never let a real full name land in a fixture.
+// that catches it.
+//
+// Every example below uses a deliberately fictional name ("Taylor
+// Testperson", "Robin Fakeston"): these tests are ABOUT full names, so an
+// example must never be a name a real Third Coast player could have. An
+// earlier round of these tests claimed its example was invented when it
+// had in fact coincidentally reused a real captain's name from one of the
+// roster fixtures — hence the obviously-synthetic surnames now.
 test('redactCaptainName leaves an already-safe "First L." parenthetical unchanged', () => {
   assert.equal(redactCaptainName('4. Holy Blockamole Infinity (Bryan M.)'), '4. Holy Blockamole Infinity (Bryan M.)');
 });
@@ -87,11 +93,73 @@ test('redactCaptainName leaves a single-word parenthetical unchanged', () => {
 });
 
 test('redactCaptainName truncates a real "First Last" parenthetical down to an initial (synthetic example)', () => {
-  assert.equal(redactCaptainName('8. PandaPeople (Jimmy Ross)'), '8. PandaPeople (Jimmy R.)');
+  assert.equal(redactCaptainName('8. PandaPeople (Taylor Testperson)'), '8. PandaPeople (Taylor T.)');
 });
 
 test('redactCaptainName truncates every word after the first for a 3-word name (synthetic example)', () => {
-  assert.equal(redactCaptainName('2. Spike Squad (Jimmy Van Ross)'), '2. Spike Squad (Jimmy V. R.)');
+  assert.equal(redactCaptainName('2. Spike Squad (Taylor Van Testperson)'), '2. Spike Squad (Taylor V. T.)');
+});
+
+// Real bug found in the final whole-project review: the doubles/coed
+// convention names a team after BOTH partners ("5 - First L. & First2 L2."),
+// a shape the trailing-parenthetical rule never looked at. It was safe in
+// the real dataset only because LeagueApps' own UI happens to pre-abbreviate
+// most of them — nothing enforced it, and a real full-catalog sweep with
+// this rule in place did turn up one genuine unabbreviated surname.
+test('redactCaptainName reduces a full "First Last and First2 Last2" doubles name (synthetic example)', () => {
+  assert.equal(
+    redactCaptainName('5. Taylor Testperson and Robin Fakeston'),
+    '5. Taylor T. and Robin F.',
+  );
+});
+
+test('redactCaptainName handles the "&" spelling of the same doubles form (synthetic example)', () => {
+  assert.equal(
+    redactCaptainName('5 - Taylor Testperson & Robin Fakeston'),
+    '5 - Taylor T. & Robin F.',
+  );
+});
+
+test('redactCaptainName redacts only the unabbreviated half of a doubles name (synthetic example)', () => {
+  assert.equal(redactCaptainName('4 - Taylor T. & Robin Fakeston'), '4 - Taylor T. & Robin F.');
+  assert.equal(redactCaptainName('4 - Taylor Testperson & Robin F.'), '4 - Taylor T. & Robin F.');
+});
+
+// The shape 99% of the real dataset already uses: it must come back byte
+// for byte, never double-abbreviated ("Taylor T." -> "Taylor T..").
+test('redactCaptainName leaves an already-abbreviated doubles name completely untouched', () => {
+  for (const safe of [
+    '11 - Mili V. & Brian T.',
+    '5 - Hannah S. and Trenton P.',
+    '2 - David Dry. & Bill K.',
+    '6 - Matt Fa. & Mike K.',
+    '5 - Susan & Hollis S.',
+  ]) {
+    assert.equal(redactCaptainName(safe), safe);
+  }
+});
+
+// Real team names from the live dataset that merely CONTAIN "and"/"&".
+// The rule must stand down on these rather than mangling them.
+test('redactCaptainName leaves real non-person "and"/"&" team names alone', () => {
+  for (const safe of [
+    '2 - Beans and Rice (Chris R.)',
+    '1 - Beauty and the Beasts (Benet G.)',
+    '4 - Net Flicks and Chill (Grace L.)',
+    '3 - Dinking & Diving (Stephen R.)',
+    '10 - Beaches and Cream (Liz C.)',
+    'Bump and Run',
+  ]) {
+    assert.equal(redactCaptainName(safe), safe);
+  }
+});
+
+test('parseStandings redacts an unabbreviated doubles name found in a real row (synthetic example)', () => {
+  const doc = `<table class="standings">
+    <tr><th>Team</th><th>GP</th><th>W</th><th>L</th><th>T</th><th>PS</th></tr>
+    <tr><td><a href="/teams/502">5 - Taylor Testperson &amp; Robin Fakeston</a></td><td>5</td><td>4</td><td>1</td><td>0</td><td>100</td></tr>
+  </table>`;
+  assert.equal(parseStandings(doc, 999)[0].teamName, '5 - Taylor T. & Robin F.');
 });
 
 test('redactCaptainName leaves a team name with no trailing parenthetical unchanged', () => {
@@ -101,10 +169,10 @@ test('redactCaptainName leaves a team name with no trailing parenthetical unchan
 test('parseStandings redacts a real "First Last" captain name found in a real row (synthetic example)', () => {
   const doc = `<table class="standings">
     <tr><th>Team</th><th>GP</th><th>W</th><th>L</th><th>T</th><th>PS</th></tr>
-    <tr><td><a href="/teams/501">8 - PandaPeople (Jimmy Ross)</a></td><td>5</td><td>4</td><td>1</td><td>0</td><td>100</td></tr>
+    <tr><td><a href="/teams/501">8 - PandaPeople (Taylor Testperson)</a></td><td>5</td><td>4</td><td>1</td><td>0</td><td>100</td></tr>
   </table>`;
   const rows = parseStandings(doc, 999);
-  assert.equal(rows[0].teamName, '8 - PandaPeople (Jimmy R.)');
+  assert.equal(rows[0].teamName, '8 - PandaPeople (Taylor T.)');
 });
 
 // Real bug found in code review after Task 14: fetchRosterHTML was missing

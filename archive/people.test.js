@@ -4,7 +4,7 @@ import { firstNameOf, mergePersonRecord } from './people.js';
 
 test('firstNameOf takes the first token only', () => {
   assert.equal(firstNameOf('Daphne Dow'), 'Daphne');
-  assert.equal(firstNameOf('Jimmy Ross'), 'Jimmy');
+  assert.equal(firstNameOf('Taylor Testperson'), 'Taylor');
   assert.equal(firstNameOf('Cher'), 'Cher');
 });
 

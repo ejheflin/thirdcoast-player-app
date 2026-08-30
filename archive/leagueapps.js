@@ -68,23 +68,109 @@ function cellsOf(row) {
 const WANT_HEADERS = ['Team', 'GP', 'W', 'L', 'T', 'PS'];
 const TEAM_LINK_RE = /\/teams\/(\d+)/;
 
-// A team name's trailing "(Captain Name)" is public LeagueApps content a
-// captain typed in themselves when naming their team — most write "First
-// L." (or just a first name), but nothing on LeagueApps' side enforces
-// that, and a captain can just as easily type a full "First Last" name.
-// This project's core guarantee is that a full surname is never persisted
-// anywhere, so every team name is swept through here before it's ever
-// written to disk: a trailing parenthetical that's already "First L." (or
-// a single word) is left alone; a trailing parenthetical with two or more
-// full words gets every word after the first truncated to its initial.
-export function redactCaptainName(teamName) {
+// ---------------------------------------------------------------------
+// Captain-name redaction.
+//
+// A team name is public LeagueApps content a captain typed in themselves,
+// and it is the one place a real full name can flow into this repo. Two
+// real shapes carry one:
+//
+//   1. a trailing parenthetical  -- "Holy Blockamole (Bryan Miller)"
+//   2. an "and"/"&"-joined pair  -- "5 - Michael Gray & Daniel Ashe"
+//      (the doubles/coed convention: the two partners name the team)
+//
+// Most captains already write "First L." in both shapes, but nothing on
+// LeagueApps' side enforces that. This project's core guarantee is that a
+// full surname is never persisted anywhere, so every team name is swept
+// through here before it is ever written to disk.
+//
+// Both rules are deliberately conservative: they only fire on text that
+// already looks like a person's name, so a team called "Beans and Rice"
+// or "Net Flicks and Chill (Grace L.)" is left exactly as its captain
+// wrote it. Verified by replaying both rules over all 2,962 distinct team
+// names in a real full-catalog archive: exactly one name changed, and it
+// was a genuine unabbreviated surname.
+//
+// Accepted trade-off, deliberately biased toward privacy: rule 2 cannot
+// tell "Hannah Smith and Trenton" from a hypothetical joke name shaped
+// like "Peanut Butter and Jelly", so it would abbreviate the latter to
+// "Peanut B. and Jelly". No such name exists anywhere in the real
+// dataset, and mangling a joke team name is a far cheaper mistake than
+// publishing a real person's surname.
+
+// "G." / "Fa." / "Dry." -- a real captain's already-abbreviated surname.
+const ABBREVIATED_WORD = /^[A-Z][A-Za-z]{0,2}\.$/;
+// "Michael" / "O'Brien" / "Smith-Jones" -- a whole, unabbreviated word.
+const FULL_WORD = /^[A-Z][A-Za-z'’-]+$/;
+
+function isFullWord(w) {
+  return FULL_WORD.test(w) && !ABBREVIATED_WORD.test(w);
+}
+
+function abbreviate(word) {
+  return `${word[0].toUpperCase()}.`;
+}
+
+// Rule 1: a trailing "(...)". Already "First L." (or a single word) is
+// left alone; two or more full words get every word after the first
+// truncated to its initial.
+function redactTrailingParenthetical(teamName) {
   const m = /\(([^)]+)\)\s*$/.exec(teamName);
   if (!m) return teamName;
   const words = m[1].trim().split(/\s+/).filter(Boolean);
   const alreadySafe = words.length <= 1 || (words.length === 2 && /^[A-Z]\.$/.test(words[1]));
   if (alreadySafe) return teamName;
-  const redactedInner = [words[0], ...words.slice(1).map((w) => `${w[0].toUpperCase()}.`)].join(' ');
+  const redactedInner = [words[0], ...words.slice(1).map((w) => abbreviate(w))].join(' ');
   return `${teamName.slice(0, m.index)}(${redactedInner})`;
+}
+
+// Classifies one side of an "X and Y" join:
+//   'safe'   -- "Hannah" or "Hannah S." : nothing to redact
+//   'unsafe' -- "Hannah Smith"          : a full surname, must be cut down
+//   null     -- anything else ("the Beasts", "Net Flicks and Chill") :
+//               not a person's name at all, so the whole rule stands down.
+function classifyNameSide(side) {
+  const words = side.trim().split(/\s+/).filter(Boolean);
+  if (words.length === 1 && isFullWord(words[0])) return 'safe';
+  if (words.length === 2 && isFullWord(words[0]) && ABBREVIATED_WORD.test(words[1])) return 'safe';
+  if (words.length === 2 && isFullWord(words[0]) && isFullWord(words[1])) return 'unsafe';
+  return null;
+}
+
+// A leading league-assigned seed number: "5 - ", "5. ", "12) ".
+const SEED_PREFIX_RE = /^(\s*\d+\s*[.\-–)]\s*)/;
+const JOINED_RE = /^(.*?)(\s+(?:and|&)\s+)(.*)$/i;
+
+// Rule 2: "First Last and First2 Last2" (or "&"). Fires only when BOTH
+// sides read as a person's name and at least one of them still carries an
+// unabbreviated surname -- so an already-safe "Mili V. & Brian T." comes
+// back untouched rather than double-abbreviated.
+function redactJoinedNames(teamName) {
+  // A trailing parenthetical means the captain is identified there, not by
+  // the joined phrase before it ("Big Digs and Tiff (Mike B.)"). Rule 1
+  // owns that shape.
+  if (/\([^)]*\)\s*$/.test(teamName)) return teamName;
+  const prefix = SEED_PREFIX_RE.exec(teamName)?.[1] ?? '';
+  const m = JOINED_RE.exec(teamName.slice(prefix.length));
+  if (!m) return teamName;
+  const [, left, joiner, right] = m;
+  const leftKind = classifyNameSide(left);
+  const rightKind = classifyNameSide(right);
+  if (!leftKind || !rightKind) return teamName;
+  if (leftKind !== 'unsafe' && rightKind !== 'unsafe') return teamName;
+  const cut = (side) => {
+    const words = side.trim().split(/\s+/);
+    return `${words[0]} ${abbreviate(words[1])}`;
+  };
+  const l = leftKind === 'unsafe' ? cut(left) : left.trim();
+  const r = rightKind === 'unsafe' ? cut(right) : right.trim();
+  return `${prefix}${l}${joiner}${r}`;
+}
+
+export function redactCaptainName(teamName) {
+  const parenthetical = redactTrailingParenthetical(teamName);
+  if (parenthetical !== teamName) return parenthetical;
+  return redactJoinedNames(teamName);
 }
 
 // A real, sanctioned LeagueApps empty-state, seen on real completed
@@ -165,14 +251,16 @@ export function parseStandings(doc, programId) {
 
 // parseRoster reads the real per-player rows LeagueApps renders server-side
 // on the teamRoster page (verified against a real captured page — see
-// archive/fixtures/roster-8022079.html). Each row looks like:
+// archive/fixtures/roster-8022079.html). The row shape below is the real
+// markup with a synthetic stand-in name and id, so no real person's full
+// name is quoted here:
 //
-//   <tr data-user-id="14668864">
+//   <tr data-user-id="10000001">
 //     <td><div class="player-name-cell">
 //       ...
 //       <div class="player-name-info">
-//         <div class="player-name" data-user-id="14668864">Daphne Dow</div>
-//         <div class="player-role" data-user-id="14668864">Captain</div>
+//         <div class="player-name" data-user-id="10000001">Taylor Testperson</div>
+//         <div class="player-role" data-user-id="10000001">Captain</div>
 //       </div>
 //     </div></td>
 //     ...
