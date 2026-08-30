@@ -1,6 +1,8 @@
-// site/tests/run.js — dev-time only. Serves site/ with tests/fixtures/data
-// substituted for the real data/ folder, then drives it with Puppeteer.
-// Run with: node site/tests/run.js
+// docs/tests/run.js — dev-time only. Serves docs/ (the directory GitHub
+// Pages publishes) with tests/fixtures/data substituted for the real
+// docs/data/ folder, so the pages need zero test-awareness -- their plain
+// relative fetch('data/...') calls resolve to the fixtures instead.
+// Run with: node docs/tests/run.js
 
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
@@ -9,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import puppeteer from 'puppeteer-core';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SITE_ROOT = join(__dirname, '..');
+const DOCS_ROOT = join(__dirname, '..'); // docs/
 const FIXTURE_DATA = join(__dirname, 'fixtures', 'data');
 
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
@@ -17,7 +19,7 @@ const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
   let filePath = url.pathname === '/' ? '/index.html' : url.pathname;
-  const root = filePath.startsWith('/data/') ? FIXTURE_DATA : SITE_ROOT;
+  const root = filePath.startsWith('/data/') ? FIXTURE_DATA : DOCS_ROOT;
   const rel = filePath.startsWith('/data/') ? filePath.slice('/data'.length) : filePath;
   const full = join(root, rel);
   try {

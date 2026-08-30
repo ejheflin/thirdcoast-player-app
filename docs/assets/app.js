@@ -1,4 +1,4 @@
-// site/assets/app.js — shared across every page. No framework, no build
+// docs/assets/app.js — shared across every page. No framework, no build
 // step: every page loads this with a plain <script src="assets/app.js">.
 
 async function injectIcons() {

@@ -31,17 +31,17 @@ test('runArchive writes standings for every program, activities+roster only for 
 
   await runArchive(deps);
 
-  assert.ok(writes.has('data/standings/1.json'), 'completed program still gets standings written');
-  assert.ok(writes.has('data/standings/2.json'));
-  assert.ok(writes.has('data/activities/2.json'), 'only the active program gets an activities file');
-  assert.equal(writes.has('data/activities/1.json'), false);
-  const activities2 = writes.get('data/activities/2.json');
+  assert.ok(writes.has('docs/data/standings/1.json'), 'completed program still gets standings written');
+  assert.ok(writes.has('docs/data/standings/2.json'));
+  assert.ok(writes.has('docs/data/activities/2.json'), 'only the active program gets an activities file');
+  assert.equal(writes.has('docs/data/activities/1.json'), false);
+  const activities2 = writes.get('docs/data/activities/2.json');
   assert.equal(activities2.games.length, 1, 'the played game should be grouped under program 2, not dropped');
   assert.equal(activities2.games[0].activityId, 900);
-  assert.ok(writes.has('data/people/555.json'));
-  assert.equal(writes.get('data/people/555.json').firstName, 'Real Name'.split(' ')[0]);
-  assert.equal(JSON.stringify(writes.get('data/people/555.json')).includes('Real Name'), false);
-  const index = writes.get('data/active-teams-index.json');
+  assert.ok(writes.has('docs/data/people/555.json'));
+  assert.equal(writes.get('docs/data/people/555.json').firstName, 'Real Name'.split(' ')[0]);
+  assert.equal(JSON.stringify(writes.get('docs/data/people/555.json')).includes('Real Name'), false);
+  const index = writes.get('docs/data/active-teams-index.json');
   assert.ok(index.some((t) => t.programId === 2 && t.teamId === 10));
   assert.equal(index.some((t) => t.programId === 1), false, 'completed programs must not appear in the search index');
 });

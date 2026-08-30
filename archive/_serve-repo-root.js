@@ -1,17 +1,27 @@
-// archive/_serve-repo-root.js — serves the whole repo root so relative
-// site/ and data/ paths resolve exactly as they will on GitHub Pages.
+// archive/_serve-repo-root.js — dev-time only. Serves docs/ at / , which is
+// exactly what GitHub Pages does when its source is set to "/docs on the
+// default branch": docs/ is self-contained (pages + data), and archive/
+// (including archive/fixtures/, which holds real captured LeagueApps pages)
+// stays outside it and is never web-reachable.
+//
+// Run from the repo root with: node archive/_serve-repo-root.js
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, dirname, normalize } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = process.cwd();
+const DOCS_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
 
 createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
-  let p = url.pathname === '/' ? '/site/index.html' : `/site${url.pathname}`;
-  if (url.pathname.startsWith('/data/')) p = url.pathname;
-  const full = join(ROOT, p);
+  const rel = url.pathname === '/' ? '/index.html' : url.pathname;
+  const full = normalize(join(DOCS_ROOT, rel));
+  if (!full.startsWith(DOCS_ROOT)) {
+    res.writeHead(403);
+    res.end('forbidden');
+    return;
+  }
   try {
     await stat(full);
     const ext = full.slice(full.lastIndexOf('.'));
@@ -21,4 +31,4 @@ createServer(async (req, res) => {
     res.writeHead(404);
     res.end('not found');
   }
-}).listen(8124, () => console.log('serving repo root on :8124 (site/ at /, data/ at /data/)'));
+}).listen(8124, () => console.log('serving docs/ on http://localhost:8124/ (same layout GitHub Pages serves)'));

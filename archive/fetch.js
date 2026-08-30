@@ -47,7 +47,7 @@ export async function runArchive(deps) {
     const html = await fetchStandingsHTML(program.id);
     await sleep(REQUEST_DELAY_MS);
     const rows = parseStandings(html, program.id);
-    await writeJSON(`data/standings/${program.id}.json`, {
+    await writeJSON(`docs/data/standings/${program.id}.json`, {
       programId: program.id,
       programName: program.name,
       updatedAt: new Date().toISOString(),
@@ -69,7 +69,7 @@ export async function runArchive(deps) {
       await sleep(REQUEST_DELAY_MS);
       const players = parseRoster(rosterHtml);
       for (const player of players) {
-        const path = `data/people/${player.userId}.json`;
+        const path = `docs/data/people/${player.userId}.json`;
         const existing = await readJSON(path);
         const record = mergePersonRecord(existing, {
           userId: player.userId,
@@ -94,14 +94,14 @@ export async function runArchive(deps) {
       byProgram.get(activity.programId).push(game);
     }
     for (const program of activePrograms) {
-      const path = `data/activities/${program.id}.json`;
+      const path = `docs/data/activities/${program.id}.json`;
       const existing = await readJSON(path);
       const merged = appendGames(existing?.games ?? [], byProgram.get(program.id) ?? []);
       await writeJSON(path, { programId: program.id, games: merged });
     }
   }
 
-  await writeJSON('data/active-teams-index.json', activeTeamsIndex);
+  await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);
 }
 
 const isMain = import.meta.url === `file://${process.argv[1]?.replace(/\\/g, '/')}`;
