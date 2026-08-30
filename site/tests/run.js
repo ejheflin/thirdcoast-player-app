@@ -39,13 +39,22 @@ const browser = await puppeteer.launch({
   headless: 'new',
 });
 const page = await browser.newPage();
-page.on('pageerror', (err) => console.error('PAGE ERROR:', err.message));
+let pageErrors = 0;
+page.on('pageerror', (err) => {
+  pageErrors++;
+  console.error('PAGE ERROR:', err.message);
+});
 
 let failures = 0;
 function check(label, cond) {
   console.log(cond ? `PASS ${label}` : `FAIL ${label}`);
   if (!cond) failures++;
 }
+
+await page.goto('http://localhost:8123/index.html', { waitUntil: 'networkidle0' });
+await page.type('#q', 'test', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+check('index search finds Testers United for query "test"', (await page.content()).includes('Testers United'));
 
 await page.goto('http://localhost:8123/rankings.html?program=9001', { waitUntil: 'networkidle0' });
 check('rankings shows Testers United', (await page.content()).includes('Testers United'));
@@ -59,10 +68,27 @@ await new Promise((r) => setTimeout(r, 200));
 check('matchup shows a probability bar', (await page.content()).includes('probbar'));
 
 await page.goto('http://localhost:8123/player.html?person=1', { waitUntil: 'networkidle0' });
-check('player card shows first name only, never a last name', (await page.content()).includes('Sam') && !(await page.content()).includes('Samson'));
+{
+  const content = await page.content();
+  check(
+    'player card shows the first name but never renders fields outside its schema (e.g. an internal-only note)',
+    content.includes('Sam') && !content.includes('internal-only'),
+  );
+}
 
 await page.goto('http://localhost:8123/odds.html?program=9001', { waitUntil: 'networkidle0' });
-check('odds page shows a percentage', /\d+%/.test(await page.content()));
+{
+  const content = await page.content();
+  // Hand-computed from fixtures/data/standings/9001.json + activities/9001.json:
+  // team 501 (8-1-1, +2 set diff over 1 game) rates 0.86; team 502 (6-3-1, -2 set diff) rates 0.64.
+  // Both are within the top-CUTOFF(4) in this 2-team league, so both floor at >=50%; the cutoff
+  // rating is the lowest-rated team's own rating (0.64), giving team 501 a gap of +0.22 -> 50+88=138,
+  // clamped to 100%, and team 502 a gap of 0 -> exactly 50%.
+  check('odds page shows the correct playoff percentage for the leader (100%)', content.includes('100%'));
+  check('odds page shows the correct playoff percentage for the trailing team (50%)', content.includes('50%'));
+}
+
+check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 
 await browser.close();
 server.close();
