@@ -68,6 +68,25 @@ function cellsOf(row) {
 const WANT_HEADERS = ['Team', 'GP', 'W', 'L', 'T', 'PS'];
 const TEAM_LINK_RE = /\/teams\/(\d+)/;
 
+// A team name's trailing "(Captain Name)" is public LeagueApps content a
+// captain typed in themselves when naming their team — most write "First
+// L." (or just a first name), but nothing on LeagueApps' side enforces
+// that, and a captain can just as easily type a full "First Last" name.
+// This project's core guarantee is that a full surname is never persisted
+// anywhere, so every team name is swept through here before it's ever
+// written to disk: a trailing parenthetical that's already "First L." (or
+// a single word) is left alone; a trailing parenthetical with two or more
+// full words gets every word after the first truncated to its initial.
+export function redactCaptainName(teamName) {
+  const m = /\(([^)]+)\)\s*$/.exec(teamName);
+  if (!m) return teamName;
+  const words = m[1].trim().split(/\s+/).filter(Boolean);
+  const alreadySafe = words.length <= 1 || (words.length === 2 && /^[A-Z]\.$/.test(words[1]));
+  if (alreadySafe) return teamName;
+  const redactedInner = [words[0], ...words.slice(1).map((w) => `${w[0].toUpperCase()}.`)].join(' ');
+  return `${teamName.slice(0, m.index)}(${redactedInner})`;
+}
+
 // A real, sanctioned LeagueApps empty-state, seen on real completed
 // programs (long-past leagues whose standings were simply never posted)
 // and real not-yet-started upcoming programs (no games played yet). This
@@ -132,7 +151,7 @@ export function parseStandings(doc, programId) {
     out.push({
       position: out.length + 1,
       teamId: tm ? Number(tm[1]) : 0,
-      teamName: cells[0],
+      teamName: redactCaptainName(cells[0]),
       gamesPlayed: nums[0],
       wins: nums[1],
       losses: nums[2],

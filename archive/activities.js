@@ -3,6 +3,8 @@
 // season completes. Only activities with a real recorded result count —
 // a scheduled-but-unplayed activity has no result/score at all.
 
+import { redactCaptainName } from './leagueapps.js';
+
 export function extractGame(activity) {
   if (activity.state !== 'played_regular_time') return null;
   if (!Array.isArray(activity.teams) || activity.teams.length === 0) return null;
@@ -11,7 +13,7 @@ export function extractGame(activity) {
     date: activity.start?.date ?? null,
     teams: activity.teams.map((t) => ({
       teamId: t.teamId,
-      teamName: t.teamName,
+      teamName: redactCaptainName(t.teamName),
       result: t.result,
       score: t.score,
     })),

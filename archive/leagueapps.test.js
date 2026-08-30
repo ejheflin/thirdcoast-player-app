@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { parseStandings, parseRoster } from './leagueapps.js';
+import { parseStandings, parseRoster, redactCaptainName, fetchRosterHTML } from './leagueapps.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fixture = (name) => readFileSync(join(__dirname, 'fixtures', name), 'utf8');
@@ -71,3 +71,59 @@ test('parseRoster reads the Beach Bunnies roster too (a different program)', () 
 test('parseRoster returns empty array, not a throw, on a page with no roster rows', () => {
   assert.deepEqual(parseRoster('<html><body>nothing here</body></html>'), []);
 });
+
+// Real bug found in code review after Task 14: a team name's trailing
+// "(Captain Name)" is content the captain typed in themselves — most
+// write "First L.", but nothing enforces that, and a full "First Last"
+// can flow straight into every data file. redactCaptainName is the sweep
+// that catches it. Uses an INVENTED synthetic name, not a real one, since
+// the whole point is to never let a real full name land in a fixture.
+test('redactCaptainName leaves an already-safe "First L." parenthetical unchanged', () => {
+  assert.equal(redactCaptainName('4. Holy Blockamole Infinity (Bryan M.)'), '4. Holy Blockamole Infinity (Bryan M.)');
+});
+
+test('redactCaptainName leaves a single-word parenthetical unchanged', () => {
+  assert.equal(redactCaptainName('1. Carolina Beach Bumpers (Ashton)'), '1. Carolina Beach Bumpers (Ashton)');
+});
+
+test('redactCaptainName truncates a real "First Last" parenthetical down to an initial (synthetic example)', () => {
+  assert.equal(redactCaptainName('8. PandaPeople (Jimmy Ross)'), '8. PandaPeople (Jimmy R.)');
+});
+
+test('redactCaptainName truncates every word after the first for a 3-word name (synthetic example)', () => {
+  assert.equal(redactCaptainName('2. Spike Squad (Jimmy Van Ross)'), '2. Spike Squad (Jimmy V. R.)');
+});
+
+test('redactCaptainName leaves a team name with no trailing parenthetical unchanged', () => {
+  assert.equal(redactCaptainName('3. No Captain Suffix'), '3. No Captain Suffix');
+});
+
+test('parseStandings redacts a real "First Last" captain name found in a real row (synthetic example)', () => {
+  const doc = `<table class="standings">
+    <tr><th>Team</th><th>GP</th><th>W</th><th>L</th><th>T</th><th>PS</th></tr>
+    <tr><td><a href="/teams/501">8 - PandaPeople (Jimmy Ross)</a></td><td>5</td><td>4</td><td>1</td><td>0</td><td>100</td></tr>
+  </table>`;
+  const rows = parseStandings(doc, 999);
+  assert.equal(rows[0].teamName, '8 - PandaPeople (Jimmy R.)');
+});
+
+// Real bug found in code review after Task 14: fetchRosterHTML was missing
+// the same ngmp_2023_iframe_transition=1 query param fetchStandingsHTML
+// already required, so it served the React SPA shell (0 real players) for
+// every real active team. Verified live at the time, now pinned by a test.
+test('fetchRosterHTML requests the URL with ngmp_2023_iframe_transition=1', async () => {
+  const realFetch = globalThis.fetch;
+  let requestedUrl;
+  globalThis.fetch = async (url) => {
+    requestedUrl = url;
+    return { ok: true, text: async () => '<html></html>' };
+  };
+  try {
+    await fetchRosterHTML(12345, 678);
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+  assert.match(requestedUrl, /teamRoster\?teamId=678/);
+  assert.match(requestedUrl, /ngmp_2023_iframe_transition=1/);
+});
+
