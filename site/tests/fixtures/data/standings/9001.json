@@ -1,0 +1,9 @@
+{
+  "programId": 9001,
+  "programName": "Test Tuesday League",
+  "updatedAt": "2026-08-30T00:00:00.000Z",
+  "rows": [
+    {"position":1,"teamId":501,"teamName":"1. Testers United","gamesPlayed":10,"wins":8,"losses":1,"ties":1,"points":17},
+    {"position":2,"teamId":502,"teamName":"2. Fixture FC","gamesPlayed":10,"wins":6,"losses":3,"ties":1,"points":13}
+  ]
+}

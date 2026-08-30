@@ -1,0 +1,6 @@
+{
+  "programId": 9001,
+  "games": [
+    {"activityId":1,"date":"2026-08-01","teams":[{"teamId":501,"teamName":"1. Testers United","result":"win","score":2},{"teamId":502,"teamName":"2. Fixture FC","result":"loss","score":0}]}
+  ]
+}
