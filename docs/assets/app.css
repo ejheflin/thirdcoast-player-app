@@ -332,6 +332,33 @@ body{background:#101A2C;display:flex;justify-content:center}
 .mgame .mform .fdots i.D{background:var(--app-tie);opacity:.75}
 .mgame .mform .empty{font-size:12px;color:var(--app-faint)}
 
+/* team.html's own head-to-head section -- same dot look as the match
+   card's .mgame .mform .fdots/.empty, but this page has no .mgame
+   ancestor to scope under, and bare .fdots/.empty would collide with
+   other existing classes (.empty is already search.html's "no results"
+   message, at a different font-size) -- so these get their own names
+   instead of trying to force a shared selector across unrelated pages. */
+.h2h-dots{display:flex;align-items:center;gap:5px;overflow:hidden}
+.h2h-dots i{flex:none;display:block;width:9px;height:9px;border-radius:50%}
+.h2h-dots i.W{background:var(--app-win)}
+.h2h-dots i.L{background:var(--app-loss)}
+.h2h-dots i.D{background:var(--app-tie);opacity:.75}
+.h2h-empty{font-size:13px;color:var(--app-faint)}
+
+/* team.html's roster, upgraded to the same 2-column grid + larger font
+   the match card's roster uses (.mgame .mroster .rgrid/.roster-row),
+   generalized onto this page's own .teamroster wrapper instead of
+   .mgame .mroster -- this page has no .mgame ancestor either, and its
+   roster section is much wider than the match card's ~294px column, so
+   these are independently-set values, not copy-pasted ones; verify by
+   rendering rather than assuming the card's numbers carry over. */
+.teamroster .rgrid{display:grid;grid-template-columns:1fr 1fr;column-gap:16px;row-gap:14px;margin-top:2px}
+.teamroster .row-link + .row-link .roster-row{border-top:none}
+.teamroster .roster-row{gap:10px;padding:0;font-size:18px}
+.teamroster .roster-row .ini{width:32px;height:32px;border-radius:9px;font-size:13px}
+.teamroster .rmeta{display:flex;flex-direction:column;min-width:0;gap:2px}
+.teamroster .roster-row .cap{font-size:11px}
+
 /* attached to the card above it: same background, divided by a line
    rather than a gap, inside the same pair of corner cuts. */
 .mgame .modds{border-top:1px solid var(--app-line);padding:10px 11px 11px}

@@ -145,6 +145,56 @@ await go('team.html?program=9001&team=501');
 check('team page shows record 8-1-1', (await page.content()).includes('8-1-1'));
 check('team page lists its roster by first name', (await page.content()).includes('Sam'));
 
+{
+  // Same fixture, same hand-computed numbers as the retired odds.html
+  // page test used (94/50/-/50/1 for 501/502/503/507/506) -- team.html
+  // now shows just ONE team's row per page instead of the whole table.
+  const cases = [
+    [501, '94%'], [502, '50%'], [507, '50%'], [506, '1%'],
+  ];
+  for (const [teamId, expected] of cases) {
+    await go(`team.html?program=9001&team=${teamId}`);
+    const pct = await page.$eval('.odds-pct', (el) => el.textContent.trim());
+    check(`team ${teamId} page shows playoff odds ${expected}, got ${pct}`, pct === expected);
+  }
+  await go('team.html?program=9001&team=503');
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('team page for a 0-game team shows no odds percentage and no NaN',
+    !rendered.includes('NaN') && !(await page.$('.odds-pct')));
+}
+
+{
+  // Own team (501) -- no head-to-head section, nothing to compare
+  // against.
+  await page.evaluate(() => localStorage.setItem(
+    'thirdcoast-my-team',
+    JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+  ));
+  await go('team.html?program=9001&team=501');
+  check('team page for YOUR OWN team has no head-to-head section',
+    (await page.$$('.h2h-dots, .h2h-empty')).length === 0);
+
+  // Someone else's team, real prior meeting (501 beat 502 once, same
+  // fixture the match-card head-to-head tests already use).
+  await go('team.html?program=9001&team=502');
+  const dots502 = await page.$$eval('.h2h-dots i', (els) => els.map((el) => el.className));
+  check(`team page for 502 shows exactly one W dot vs. your saved team, got ${JSON.stringify(dots502)}`,
+    dots502.length === 1 && dots502[0] === 'W');
+
+  // Someone else's team, no prior meeting at all (501 vs 506 never
+  // played in this fixture).
+  await go('team.html?program=9001&team=506');
+  const empty506 = await page.$eval('.h2h-empty', (el) => el.textContent.trim()).catch(() => null);
+  check(`team page for 506 shows the "not yet met" fallback, got ${JSON.stringify(empty506)}`,
+    empty506 === 'Not yet met this season.');
+}
+
+{
+  await go('team.html?program=9001&team=501');
+  const gridCols = await page.$eval('.teamroster .rgrid', (el) => getComputedStyle(el).gridTemplateColumns.split(' ').length).catch(() => 0);
+  check('team page roster renders as a 2-column grid', gridCols === 2);
+}
+
 await go('matchup.html?program=9001&team=501');
 await page.select('#oppPicker', '502');
 await new Promise((r) => setTimeout(r, 200));

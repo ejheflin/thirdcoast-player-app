@@ -56,6 +56,82 @@ Promise.all([
   }
   document.getElementById('greet').textContent = standings.programName;
 
+  // Playoff odds -- ported from the retired odds.html's per-team math.
+  // Needs the FULL, un-filtered season game list across every team to rank
+  // everyone and find the position-4 cutoff team's rating -- NOT the
+  // `games` variable below (already filtered to just this team's own
+  // games, correct for form-dots/game-log/head-to-head, wrong here: ranking
+  // a team against only its own games would make every team look
+  // identical).
+  const allGames = activities?.games ?? [];
+  const ODDS_CUTOFF = 4;
+
+  function setDiffForAny(id, gamesList) {
+    return gamesList.reduce((sum, g) => {
+      const me = g.teams.find((t) => t.teamId === id);
+      const opp = g.teams.find((t) => t.teamId !== id);
+      return me && opp ? sum + (me.score - opp.score) : sum;
+    }, 0);
+  }
+  function ratingForAny(r, gamesList) {
+    const winRate = (r.wins + 0.5 * r.ties) / r.gamesPlayed;
+    const setDiffPerGame = setDiffForAny(r.teamId, gamesList) / r.gamesPlayed;
+    return winRate + setDiffPerGame * 0.05;
+  }
+
+  const oddsRated = standings.rows.map((r) => ({ ...r, rating: r.gamesPlayed > 0 ? ratingForAny(r, allGames) : null }));
+  const oddsWithGames = oddsRated.filter((r) => r.rating !== null);
+  const oddsSorted = [...oddsWithGames].sort((a, b) => b.rating - a.rating);
+  const oddsCutoffTeam = oddsRated.find((r) => r.position === ODDS_CUTOFF);
+  const oddsCutoffRating = oddsCutoffTeam?.rating ?? oddsSorted[Math.min(ODDS_CUTOFF, oddsSorted.length) - 1]?.rating ?? 0;
+  const myOddsRow = oddsRated.find((r) => r.teamId === teamId);
+
+  let oddsHtml;
+  if (myOddsRow && myOddsRow.rating !== null) {
+    const gap = myOddsRow.rating - oddsCutoffRating;
+    let pct = Math.round(50 + gap * 400);
+    pct = myOddsRow.position <= ODDS_CUTOFF ? Math.max(pct, 50) : Math.min(pct, 50);
+    pct = Math.max(1, Math.min(100, pct));
+    oddsHtml = `
+      <div class="sec-lbl">Playoff odds</div>
+      <div class="card" style="display:flex;align-items:center;gap:10px;padding:12px">
+        <div class="odds-track"><b style="width:${pct}%"></b></div>
+        <div class="odds-pct">${pct}%</div>
+      </div>
+      <div class="h2h-meta" style="margin:6px 2px 0">Top ${ODDS_CUTOFF} make the bracket.</div>`;
+  } else {
+    oddsHtml = `
+      <div class="sec-lbl">Playoff odds</div>
+      <p style="color:var(--app-faint);font-size:13px;margin:2px 0 0">No games played yet — check back once there's a result.</p>`;
+  }
+
+  // Head-to-head vs. your saved team -- only when viewing a DIFFERENT
+  // team's page. Same "met"/"not yet met" logic as gamenight.html's
+  // headToHeadHTML(), ported rather than imported (no shared-module
+  // convention in this codebase -- see gamenight.html's own note on this).
+  // Assumes the saved team and this page's program are the same program,
+  // which is true on every real navigation path today (Ranks is always
+  // reached for your own program; nothing currently links across
+  // programs) -- if that ever changes, this needs a program check too.
+  const savedTeam = getMyTeam();
+  const isOwnTeam = savedTeam && String(savedTeam.teamId) === String(teamId);
+  let h2hHtml = '';
+  if (savedTeam && !isOwnTeam) {
+    const savedTeamId = Number(savedTeam.teamId);
+    const met = allGames.filter((g) =>
+      g.teams.some((t) => t.teamId === savedTeamId) && g.teams.some((t) => t.teamId === teamId));
+    const h2hInner = met.length === 0
+      ? '<span class="h2h-empty">Not yet met this season.</span>'
+      : `<span class="h2h-dots">${met.slice(-12).map((g) => {
+          const me = g.teams.find((t) => t.teamId === savedTeamId);
+          const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+          return `<i class="${letter}"></i>`;
+        }).join('')}</span>`;
+    h2hHtml = `
+      <div class="sec-lbl">Previous matches</div>
+      <div class="card">${h2hInner}</div>`;
+  }
+
   const rosterPlayers = roster?.players ?? [];
   const captain = rosterPlayers.find((p) => p.isCaptain) ?? rosterPlayers[0];
   if (captain) wireTabs({ active: null, programId, teamId, personId: captain.userId });
@@ -84,34 +160,35 @@ Promise.all([
 
   // First names only, straight out of the roster file -- the same data
   // player.html itself shows. Each row drills down to that player's card.
-  const rosterRows = rosterPlayers.map((p) => `
+  const rosterRows = rosterPlayers.length === 0 ? '' : `<div class="rgrid">${rosterPlayers.map((p) => `
     <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
       <div class="roster-row">
         <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
-        <div class="who">${escapeHTML(p.firstName)}</div>
-        ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        <div class="rmeta">
+          <div class="who">${escapeHTML(p.firstName)}</div>
+          ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        </div>
       </div>
-    </a>`).join('');
+    </a>`).join('')}</div>`;
 
   bodyEl.innerHTML = `
     <div class="team-hero">
-      <div class="avatar">${escapeHTML(row.teamName.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase())}</div>
-      <div><h3>${escapeHTML(row.teamName)}</h3><div class="sub">${escapeHTML(standings.programName)}</div></div>
+      <div class="avatar">${escapeHTML(displayTeamName(row.teamName, { stripCaptain: true }).slice(0, 2).toUpperCase())}</div>
+      <div><h3>${escapeHTML(displayTeamName(row.teamName, { stripCaptain: true }))}</h3><div class="sub">${escapeHTML(standings.programName)}</div></div>
     </div>
     <div class="stat-grid">
       <div class="box"><b>${row.wins}-${row.losses}-${row.ties}</b><span>Record</span></div>
       <div class="box"><b>${setDiff >= 0 ? '+' : ''}${setDiff}</b><span>Set diff</span></div>
       <div class="box"><b>#${row.position}</b><span>Power rank</span></div>
     </div>
-    <div class="sec-head">
-      <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
-      <a class="textlink" href="odds.html?program=${encodeURIComponent(programId)}">Playoff odds →</a>
-    </div>
+    ${oddsHtml}
+    ${h2hHtml}
+    <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
     <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
     <div class="sec-lbl">Game log</div>
     <div class="card">${gameLog || '<p style="color:var(--app-faint);font-size:13px;margin:2px 0">No games yet this season.</p>'}</div>
     <div class="sec-lbl">Roster</div>
-    <div class="card" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
+    <div class="card teamroster" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
   `;
 });
 </script>
