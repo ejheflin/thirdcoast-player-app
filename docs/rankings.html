@@ -13,10 +13,7 @@
     <div><div class="greet" id="greet"></div><div class="brand">Power <em>Rankings</em></div></div>
   </div>
   <div class="body">
-    <div class="sec-head">
-      <div class="sec-lbl">Regular season</div>
-      <a class="textlink" id="oddsLink" href="#">Playoff odds →</a>
-    </div>
+    <div class="sec-lbl">Regular season</div>
     <div class="card" id="rows"></div>
   </div>
   <div class="tabbar">
@@ -28,11 +25,7 @@
 <script src="assets/app.js"></script>
 <script>
 const programId = new URLSearchParams(location.search).get('program');
-// Matchup needs BOTH params; without team= the predictor has no "you" to
-// predict for. The saved team supplies it when this page only knows a
-// program, which is every way this page is normally reached.
 wireTabs({ active: 'ranks', programId });
-document.getElementById('oddsLink').href = `odds.html?program=${encodeURIComponent(programId)}`;
 
 fetchJSON(`data/standings/${programId}.json`).then((data) => {
   const rowsEl = document.getElementById('rows');

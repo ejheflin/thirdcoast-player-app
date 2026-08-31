@@ -20,6 +20,16 @@
         {"teamId": 506, "teamName": "4. Net Prophets"},
         {"teamId": 501, "teamName": "1. Testers United"}
       ]
+    },
+    {
+      "activityId": 9001508,
+      "date": "2026-09-17",
+      "time": "19:00",
+      "courtName": "Court 6",
+      "teams": [
+        {"teamId": 508, "teamName": "6. Understrength Squad"},
+        {"teamId": 502, "teamName": "2. Fixture FC"}
+      ]
     }
   ],
   "tournaments": []

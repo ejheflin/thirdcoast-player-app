@@ -195,21 +195,34 @@ check('team page lists its roster by first name', (await page.content()).include
   check('team page roster renders as a 2-column grid', gridCols === 2);
 }
 
-await go('matchup.html?program=9001&team=501');
-await page.select('#oppPicker', '502');
-await new Promise((r) => setTimeout(r, 200));
-check('matchup shows a probability bar', (await page.content()).includes('probbar'));
-
 // A team that has not played yet has no rating to divide by: the page must
 // say so rather than rendering "NaN%".
-await go('matchup.html?program=9001&team=503');
-await page.select('#oppPicker', '501');
-await new Promise((r) => setTimeout(r, 200));
 {
-  // Rendered text, not page HTML: the page's own source comments mention NaN.
-  const rendered = await page.$eval('#result', (el) => el.innerText);
-  check('matchup never renders NaN for a 0-game team', !rendered.includes('NaN'));
-  check('matchup explains why there is no prediction for a 0-game team', rendered.includes('played a game yet'));
+  // Ported from the retired matchup.html's own "0-game team never
+  // renders NaN" test -- same underlying splitPct guard, now exercised
+  // through gamenight.html (the only page left that does a two-team
+  // rating comparison) instead. Deliberately does NOT reuse team 503 (the
+  // existing 0-game team) for this: 503 is load-bearing for the SEPARATE
+  // "no upcoming game -> falls back to last result" coverage below, which
+  // depends on 503 having NO entry in schedule/9001.json at all. Giving 503
+  // a schedule entry here would silently break that other check instead
+  // (confirmed by actually running the suite with that version -- "Home
+  // falls back to the team's last played result" failed). So this uses a
+  // brand-new synthetic 0-game team, 508, added to both
+  // fixtures/data/standings/9001.json (position 6, gamesPlayed 0 -- clear
+  // of the position-4 ODDS_CUTOFF the team.html odds tests depend on) and
+  // fixtures/data/schedule/9001.json (one game vs. 502, dated LATER than
+  // 501's existing games so it can't affect any test that counts cards on
+  // 501's earliest date, or change 502's own next-game date elsewhere).
+  await page.evaluate(() => localStorage.setItem(
+    'thirdcoast-my-team',
+    JSON.stringify({ programId: 9001, teamId: 508, teamName: '6. Understrength Squad', programName: 'Test Tuesday League' }),
+  ));
+  await goHome();
+  const rendered0Game = await page.$eval('#body', (el) => el.innerText);
+  check('Home never renders NaN for a 0-game team\'s own match card', !rendered0Game.includes('NaN'));
+  check('Home explains why there is no prediction for a 0-game team',
+    rendered0Game.includes('Not enough games played yet'));
 }
 
 await go('player.html?person=1');
@@ -219,42 +232,6 @@ await go('player.html?person=1');
     'player card shows the first name but never renders fields outside its schema (e.g. an internal-only note)',
     content.includes('Sam') && !content.includes('internal-only'),
   );
-}
-
-await go('odds.html?program=9001');
-{
-  // Hand-computed from fixtures/data/standings/9001.json + activities/9001.json:
-  //   501 (8-1-1, +2 set diff over 1 game)  -> 0.85 + 0.2x0.05  = 0.86
-  //   502 (6-3-1, -2 over 1)                -> 0.65 - 0.01      = 0.64
-  //   503 (0 games)                         -> no rating at all
-  //   507 "Bubble FC" (7-2-1, 0 games in the
-  //     activities fixture, so 0 set diff)  -> 0.75 + 0         = 0.75
-  //   506 (3-6-1, -2 over 1)                -> 0.35 - 0.01      = 0.34
-  // Team 507 holds position 4, so it IS the cutoff team and its own 0.75 is
-  // the cutoff rating. (506 held position 4 until Fix 5: with no team
-  // rated BETWEEN the leader and the runner-up, both 501's and 502's gaps
-  // from 506's 0.34 clamped to the same 100%, so this check could no
-  // longer tell a real ordering bug from a correct one. 507 is a synthetic
-  // team that exists only to sit between them, restoring that. 506 itself
-  // is untouched -- same record, same 0.34 rating the match-card tests
-  // below still depend on for card 2's 72%/28% split -- just moved to
-  // position 5 so it's no longer the cutoff.) Gaps from 0.75:
-  //   501: +0.11 -> 50+44 = 94, position<=CUTOFF floors nothing (94>=50)
-  //   502: -0.11 -> 50-44 =  6, floored to 50 (position<=CUTOFF)
-  //   507:  0.00 -> exactly 50%, the cutoff team's own row
-  //   506: -0.41 -> 50-164 = -114, capped to 50 then clamped to 1
-  //     (position 5 > CUTOFF, so it's capped from above, not floored)
-  // Asserted per row, in table order, rather than as a substring search of
-  // the whole page: a bare includes('50%') could be satisfied by the
-  // wrong team's number, and (this is the bug Fix 5 restores coverage
-  // for) 501 and 502 must land on DIFFERENT percentages, not both 100%.
-  const pcts = await page.$$eval('#rows .odds-pct', (els) => els.map((el) => el.textContent.trim()));
-  check(
-    `odds page shows the right, DISTINCT percentage for leader vs. runner-up (94/50/—/50/1), got ${pcts.join('/')}`,
-    pcts.join('/') === '94%/50%/—/50%/1%',
-  );
-  const renderedOdds = await page.$eval('#rows', (el) => el.innerText);
-  check('odds page shows no percentage for a 0-game team', !renderedOdds.includes('NaN') && renderedOdds.includes('—'));
 }
 
 // ---- gamenight.html: the "next game" Home screen -------------------------
@@ -546,16 +523,6 @@ check(
   );
 }
 
-await go('matchup.html?program=9002&team=504');
-await page.select('#oppPicker', '505');
-await new Promise((r) => setTimeout(r, 200));
-{
-  const cells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
-  check('matchup favors the better of two winless teams too (same 94% / 6%)', cells[0] === '94%' && cells[1] === '6%');
-  const renderedWinless = await page.$eval('#result', (el) => el.innerText);
-  check('matchup never renders NaN for two negative ratings', !renderedWinless.includes('NaN'));
-}
-
 await page.evaluate(() => localStorage.clear());
 
 // ---- navigation: every page reachable using only in-app links -----------
@@ -596,22 +563,10 @@ await go('team.html?program=9001&team=501');
   check('team page Schedule tab is a live link once a program is in context', scheduleHref === 'has-onclick');
 }
 // Restore the page the surrounding flow-test sequence expects to be on:
-// the very next existing line in the file is `await clickThrough('#oddsLink')`,
-// which requires being back on rankings.html -- this inserted block must
-// not leave the walk stranded on team.html.
+// the schedule-tab check above navigated to team.html, and the next step
+// (clicking a rankings row) needs to be back on rankings.html.
 await go('rankings.html?program=9001');
 
-await clickThrough('#oddsLink');
-check('rankings -> playoff odds', path() === '/odds.html?program=9001');
-
-// Odds keeps the Ranks tab lit while you're here (it's a drill-down from
-// Rankings, not a destination of its own), so the tab itself has no
-// onclick; get back to Rankings the way a real player would, via the
-// in-page "Power rankings" link. Deleting the Matchup-tab step above
-// removed the only click in this flow that used to land on a page where
-// Ranks was NOT the active tab, which is what previously made clicking
-// the Ranks tab itself work here.
-await clickThrough('#ranksLink');
 await clickThrough('.row-link');
 check('rankings row -> team page (the drill-down the spec describes)', path().startsWith('/team.html'));
 

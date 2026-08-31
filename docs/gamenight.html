@@ -55,9 +55,10 @@ const COURT = {
   12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
 };
 
-// setDiffFor/ratingFor copied verbatim from matchup.html (also duplicated
-// in odds.html) -- this project's established convention, since there's
-// no build step to share a module across pages.
+// setDiffFor/ratingFor copied verbatim from the now-retired matchup.html
+// (also duplicated in the now-retired odds.html) -- this project's
+// established convention, since there's no build step to share a module
+// across pages.
 function setDiffFor(teamId, games) {
   return games.reduce((sum, g) => {
     const me = g.teams.find((t) => t.teamId === teamId);
@@ -83,7 +84,7 @@ function ratingFor(row, games) {
 // ratings up by the same constant until neither is negative fixes it
 // without touching the gap between them -- the relative ordering and the
 // size of the difference, which are what should drive the split, are
-// preserved exactly. Kept identical to matchup.html's copy.
+// preserved exactly. Kept identical to the now-retired matchup.html's copy.
 function splitPct(ratingA, ratingB) {
   const minRating = Math.min(ratingA, ratingB);
   const shift = minRating <= 0 ? -minRating + 0.01 : 0;
@@ -163,8 +164,9 @@ function rosterRowsHTML(roster) {
 // not each team's separate overall season form (that was the wrong read of
 // the ask; Eric wants "for A vs B matches, one row of history", i.e. only
 // games these two exact teams have played against EACH OTHER). Same filter
-// matchup.html already uses to find previous meetings (docs/matchup.html
-// ~line 115: both team ids present on the same game), reused verbatim,
+// the now-retired matchup.html used to find previous meetings (it was
+// ~line 115 there: both team ids present on the same game), reused
+// verbatim,
 // but here it also needs the actual result sequence rather than just
 // met.length. Rendered from `teamId`'s (my team's) perspective, same
 // result field/letter mapping as team.html's own formDots and the same
@@ -261,8 +263,9 @@ async function main(saved) {
   const programId = saved.programId;
   const teamId = Number(saved.teamId);
   // Own home feed, so Home is the tab you're on. No personId yet -- like
-  // matchup.html/rankings.html/odds.html, wireTabs resolves the captain
-  // of the team in context (this team) on its own once the roster loads.
+  // rankings.html (and the retired matchup.html/odds.html before it),
+  // wireTabs resolves the captain of the team in context (this team) on
+  // its own once the roster loads.
   wireTabs({ active: 'home', programId, teamId });
 
   const bodyEl = document.getElementById('body');
