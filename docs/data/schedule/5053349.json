@@ -1,0 +1,261 @@
+{
+  "programId": 5053349,
+  "games": [
+    {
+      "activityId": 13317081,
+      "date": "2026-08-31",
+      "time": "18:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8020386,
+          "teamName": "2. Holli D. and Dan L."
+        },
+        {
+          "teamId": 8008011,
+          "teamName": "4. Joann L. and Jacob W."
+        }
+      ]
+    },
+    {
+      "activityId": 13317082,
+      "date": "2026-08-31",
+      "time": "18:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8033568,
+          "teamName": "6. Taylor P. and Carson S."
+        },
+        {
+          "teamId": 8007625,
+          "teamName": "8. Jodie N. and Jacob J."
+        }
+      ]
+    },
+    {
+      "activityId": 13317083,
+      "date": "2026-08-31",
+      "time": "19:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8020386,
+          "teamName": "2. Holli D. and Dan L."
+        },
+        {
+          "teamId": 8033568,
+          "teamName": "6. Taylor P. and Carson S."
+        }
+      ]
+    },
+    {
+      "activityId": 13317084,
+      "date": "2026-08-31",
+      "time": "19:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8008011,
+          "teamName": "4. Joann L. and Jacob W."
+        },
+        {
+          "teamId": 8007625,
+          "teamName": "8. Jodie N. and Jacob J."
+        }
+      ]
+    },
+    {
+      "activityId": 13317085,
+      "date": "2026-08-31",
+      "time": "20:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8007542,
+          "teamName": "5. Kim M. and Travis B."
+        },
+        {
+          "teamId": 8017657,
+          "teamName": "7. Caroline J. and Mark J."
+        }
+      ]
+    },
+    {
+      "activityId": 13317086,
+      "date": "2026-08-31",
+      "time": "20:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8007540,
+          "teamName": "1. Abbie G. and Jason O."
+        },
+        {
+          "teamId": 8013412,
+          "teamName": "3. Jenny S. and Nathan G."
+        }
+      ]
+    },
+    {
+      "activityId": 13317087,
+      "date": "2026-08-31",
+      "time": "21:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8007540,
+          "teamName": "1. Abbie G. and Jason O."
+        },
+        {
+          "teamId": 8007542,
+          "teamName": "5. Kim M. and Travis B."
+        }
+      ]
+    },
+    {
+      "activityId": 13317088,
+      "date": "2026-08-31",
+      "time": "21:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8013412,
+          "teamName": "3. Jenny S. and Nathan G."
+        },
+        {
+          "teamId": 8017657,
+          "teamName": "7. Caroline J. and Mark J."
+        }
+      ]
+    },
+    {
+      "activityId": 13319395,
+      "date": "2026-09-14",
+      "time": "18:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8007540,
+          "teamName": "1. Abbie G. and Jason O."
+        },
+        {
+          "teamId": 8013412,
+          "teamName": "3. Jenny S. and Nathan G."
+        }
+      ]
+    },
+    {
+      "activityId": 13319396,
+      "date": "2026-09-14",
+      "time": "18:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8007542,
+          "teamName": "5. Kim M. and Travis B."
+        },
+        {
+          "teamId": 8017657,
+          "teamName": "7. Caroline J. and Mark J."
+        }
+      ]
+    },
+    {
+      "activityId": 13319397,
+      "date": "2026-09-14",
+      "time": "19:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8013412,
+          "teamName": "3. Jenny S. and Nathan G."
+        },
+        {
+          "teamId": 8017657,
+          "teamName": "7. Caroline J. and Mark J."
+        }
+      ]
+    },
+    {
+      "activityId": 13319398,
+      "date": "2026-09-14",
+      "time": "19:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8007540,
+          "teamName": "1. Abbie G. and Jason O."
+        },
+        {
+          "teamId": 8007542,
+          "teamName": "5. Kim M. and Travis B."
+        }
+      ]
+    },
+    {
+      "activityId": 13319399,
+      "date": "2026-09-14",
+      "time": "20:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8020386,
+          "teamName": "2. Holli D. and Dan L."
+        },
+        {
+          "teamId": 8008011,
+          "teamName": "4. Joann L. and Jacob W."
+        }
+      ]
+    },
+    {
+      "activityId": 13319400,
+      "date": "2026-09-14",
+      "time": "20:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8033568,
+          "teamName": "6. Taylor P. and Carson S."
+        },
+        {
+          "teamId": 8007625,
+          "teamName": "8. Jodie N. and Jacob J."
+        }
+      ]
+    },
+    {
+      "activityId": 13319401,
+      "date": "2026-09-14",
+      "time": "21:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8008011,
+          "teamName": "4. Joann L. and Jacob W."
+        },
+        {
+          "teamId": 8007625,
+          "teamName": "8. Jodie N. and Jacob J."
+        }
+      ]
+    },
+    {
+      "activityId": 13319402,
+      "date": "2026-09-14",
+      "time": "21:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8020386,
+          "teamName": "2. Holli D. and Dan L."
+        },
+        {
+          "teamId": 8033568,
+          "teamName": "6. Taylor P. and Carson S."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "programId": 5056676,
+  "games": [
+    {
+      "activityId": 13352085,
+      "date": "2026-09-01",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)"
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352086,
+      "date": "2026-09-01",
+      "time": "18:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352087,
+      "date": "2026-09-01",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)"
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352088,
+      "date": "2026-09-01",
+      "time": "19:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)"
+        },
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352089,
+      "date": "2026-09-01",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)"
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352090,
+      "date": "2026-09-01",
+      "time": "20:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)"
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352091,
+      "date": "2026-09-01",
+      "time": "20:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)"
+        },
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352092,
+      "date": "2026-09-01",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)"
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352093,
+      "date": "2026-09-01",
+      "time": "21:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)"
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352094,
+      "date": "2026-09-01",
+      "time": "21:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352095,
+      "date": "2026-09-08",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352096,
+      "date": "2026-09-08",
+      "time": "18:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)"
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352097,
+      "date": "2026-09-08",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)"
+        },
+        {
+          "teamId": 8024049,
+          "teamName": "10. Big Dig Energy (Chad S.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352098,
+      "date": "2026-09-08",
+      "time": "19:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352099,
+      "date": "2026-09-08",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)"
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352100,
+      "date": "2026-09-08",
+      "time": "20:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)"
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352101,
+      "date": "2026-09-08",
+      "time": "20:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)"
+        },
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352102,
+      "date": "2026-09-08",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8023885,
+          "teamName": "3. Gold Diggerz (JT N.)"
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352103,
+      "date": "2026-09-08",
+      "time": "21:30",
+      "courtName": "Court 9",
+      "teams": [
+        {
+          "teamId": 8018572,
+          "teamName": "1. Bad Hombres (Jaimie M.)"
+        },
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)"
+        }
+      ]
+    },
+    {
+      "activityId": 13352104,
+      "date": "2026-09-08",
+      "time": "21:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8027833,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8033259,
+          "teamName": "8. The Replacements (Joe R.)"
+        }
+      ]
+    }
+  ]
+}

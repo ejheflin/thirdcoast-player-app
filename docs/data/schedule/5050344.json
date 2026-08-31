@@ -1,0 +1,165 @@
+{
+  "programId": 5050344,
+  "games": [
+    {
+      "activityId": 13392687,
+      "date": "2026-09-03",
+      "time": "18:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8007160,
+          "teamName": "4. Sarah D. and Matt B."
+        },
+        {
+          "teamId": 8018869,
+          "teamName": "5. Kylee G. and Jacob W."
+        }
+      ]
+    },
+    {
+      "activityId": 13392688,
+      "date": "2026-09-03",
+      "time": "18:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8010331,
+          "teamName": "3. Olivia E. and Isa T."
+        },
+        {
+          "teamId": 8002189,
+          "teamName": "6. Sydney Z. and Josman R."
+        }
+      ]
+    },
+    {
+      "activityId": 13392689,
+      "date": "2026-09-03",
+      "time": "19:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8018869,
+          "teamName": "5. Kylee G. and Jacob W."
+        },
+        {
+          "teamId": 8002189,
+          "teamName": "6. Sydney Z. and Josman R."
+        }
+      ]
+    },
+    {
+      "activityId": 13392690,
+      "date": "2026-09-03",
+      "time": "19:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8010331,
+          "teamName": "3. Olivia E. and Isa T."
+        },
+        {
+          "teamId": 8007160,
+          "teamName": "4. Sarah D. and Matt B."
+        }
+      ]
+    },
+    {
+      "activityId": 13392691,
+      "date": "2026-09-03",
+      "time": "20:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8006788,
+          "teamName": "7. Taylor B. and Luigi H."
+        },
+        {
+          "teamId": 8002328,
+          "teamName": "8. Tina O. and Dane R."
+        }
+      ]
+    },
+    {
+      "activityId": 13392692,
+      "date": "2026-09-03",
+      "time": "20:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8000417,
+          "teamName": "2. Ivy C. and Dreco S."
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S."
+        }
+      ]
+    },
+    {
+      "activityId": 13392693,
+      "date": "2026-09-03",
+      "time": "20:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8002313,
+          "teamName": "1. Vanessa S. and Rudy D."
+        },
+        {
+          "teamId": 8023440,
+          "teamName": "9. Viktoriya I. and John S."
+        }
+      ]
+    },
+    {
+      "activityId": 13392694,
+      "date": "2026-09-03",
+      "time": "21:30",
+      "courtName": "Court 2",
+      "teams": [
+        {
+          "teamId": 8002313,
+          "teamName": "1. Vanessa S. and Rudy D."
+        },
+        {
+          "teamId": 8000417,
+          "teamName": "2. Ivy C. and Dreco S."
+        }
+      ]
+    },
+    {
+      "activityId": 13392695,
+      "date": "2026-09-03",
+      "time": "21:30",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 8006788,
+          "teamName": "7. Taylor B. and Luigi H."
+        },
+        {
+          "teamId": 8023440,
+          "teamName": "9. Viktoriya I. and John S."
+        }
+      ]
+    },
+    {
+      "activityId": 13392696,
+      "date": "2026-09-03",
+      "time": "21:30",
+      "courtName": "Court 1",
+      "teams": [
+        {
+          "teamId": 8002328,
+          "teamName": "8. Tina O. and Dane R."
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S."
+        }
+      ]
+    }
+  ]
+}

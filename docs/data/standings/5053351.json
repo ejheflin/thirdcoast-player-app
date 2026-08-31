@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8020518,
+      "teamName": "4. Kaegan W. and Jon N.",
+      "gamesPlayed": 12,
+      "wins": 6,
+      "losses": 2,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 3,
       "teamId": 8011799,
       "teamName": "7. Sydney Z. and Manny A.",
       "gamesPlayed": 12,
@@ -23,7 +33,7 @@
       "points": 15
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8017043,
       "teamName": "1. Emily R. and Riley F.",
       "gamesPlayed": 12,
@@ -31,16 +41,6 @@
       "losses": 1,
       "ties": 7,
       "points": 15
-    },
-    {
-      "position": 4,
-      "teamId": 8020518,
-      "teamName": "4. Kaegan W. and Jon N.",
-      "gamesPlayed": 11,
-      "wins": 5,
-      "losses": 2,
-      "ties": 4,
-      "points": 14
     },
     {
       "position": 5,
@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8012160,
       "teamName": "8. Taylor B. and Matt C.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 3,
-      "losses": 5,
+      "losses": 6,
       "ties": 3,
       "points": 9
     },
