@@ -187,6 +187,15 @@ await go('index.html');
   check('Home with no upcoming game says so plainly', content.includes('No game scheduled right now'));
   check('Home falls back to the team\'s last played result', content.includes('Last result') && content.includes('Bye Week Rivals'));
   check('Home still shows the team\'s current record in the fallback state', content.includes('0-0-0'));
+  // This is the exact case the stale-pointer fix (above) was worried about
+  // breaking: team 503 has a real standings row AND a real activities
+  // history, so simply having no upcoming game must NOT be treated as
+  // stale. The pointer has to survive this render untouched.
+  const savedAfterFallback = await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'));
+  check(
+    'Home does NOT clear the saved pointer for a valid team that just has no game scheduled right now',
+    savedAfterFallback !== null && JSON.parse(savedAfterFallback).teamId === 503,
+  );
 }
 
 // (d) Two winless teams, both with NEGATIVE ratings. Program 9002's
@@ -313,14 +322,21 @@ await page.evaluate(() => localStorage.setItem(
 let staleClicks = 0;
 const staleClick = async (selector) => { staleClicks++; await clickThrough(selector); };
 await go('');
-check('a stale saved team is handled on the Home screen itself', (await page.content()).includes('find this team'));
+// Rendered text, not page.content(): the raw HTML includes index.html's own
+// inline <script> source, so a plain string.includes() against it can pass
+// purely because the source code MENTIONS these words, whether or not the
+// branch that renders them into #body ever actually ran.
+{
+  const renderedStale = await page.$eval('#body', (el) => el.innerText);
+  check('a stale saved team is handled on the Home screen itself', renderedStale.includes('find this team'));
+  check(
+    'the Home screen offers the way out, not a "check back after the next archive run" dead end',
+    !renderedStale.includes('check back after the next archive run'),
+  );
+}
 check(
   'index.html clears the stale pointer itself, without a trip through team.html',
   (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null,
-);
-check(
-  'the Home screen offers the way out, not a "check back after the next archive run" dead end',
-  !(await page.content()).includes('check back after the next archive run'),
 );
 await staleClick('a[href="search.html"]');
 check('search is reachable from the stale-team message', path() === '/search.html');

@@ -234,3 +234,14 @@ test('decodeEntities undoes the entities LeagueApps actually emits', () => {
   assert.equal(decodeEntities('Barrio&amp;#39;s Best'), "Barrio's Best");
   assert.equal(decodeEntities('Plain Name'), 'Plain Name');
 });
+
+// A malformed activity (no teamName field at all) must fail loudly, not get
+// archived forever as a team literally named "null" -- the same guard
+// parseStandings applies elsewhere rather than guessing on bad data.
+test('decodeEntities throws on a null team name instead of returning the string "null"', () => {
+  assert.throws(() => decodeEntities(null), /decodeEntities/);
+});
+
+test('decodeEntities throws on an undefined team name instead of returning the string "undefined"', () => {
+  assert.throws(() => decodeEntities(undefined), /decodeEntities/);
+});

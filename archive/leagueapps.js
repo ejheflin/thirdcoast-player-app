@@ -72,6 +72,15 @@ export async function fetchRosterHTML(programId, teamId) {
 // arrive entity-encoded, so they'd otherwise render as "&amp;#39;" once
 // escapeHTML() re-escapes them in the browser.
 export function decodeEntities(s) {
+  // A null/undefined team name means a malformed activity -- e.g. the JSON
+  // API handed back a team entry with no teamName field at all. String(s)
+  // would silently coerce that to the literal text "null"/"undefined" and
+  // archive it as a real team name forever. This project's rule, same as
+  // parseStandings below, is to fail loudly on malformed data rather than
+  // guess: a missing field is a bug worth seeing, not a team called "null".
+  if (s === null || s === undefined) {
+    throw new Error(`decodeEntities: expected a string, got ${s === null ? 'null' : 'undefined'}`);
+  }
   return String(s)
     .replace(/&amp;/g, '&')
     .replace(/&nbsp;/g, ' ')
