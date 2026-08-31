@@ -262,10 +262,7 @@ function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roste
 async function main(saved) {
   const programId = saved.programId;
   const teamId = Number(saved.teamId);
-  // Own home feed, so Home is the tab you're on. No personId yet -- like
-  // rankings.html (and the retired matchup.html/odds.html before it),
-  // wireTabs resolves the captain of the team in context (this team) on
-  // its own once the roster loads.
+  // Own home feed, so Home is the tab you're on -- no other tab applies here.
   wireTabs({ active: 'home', programId, teamId });
 
   const bodyEl = document.getElementById('body');
@@ -379,7 +376,7 @@ async function main(saved) {
       <div class="sec-lbl">Last result</div>
       <div class="card">
         <div class="gamelog-row"><div class="r ${letter}">${letter}</div>
-          <div class="opp">${escapeHTML(opp?.teamName ?? 'Unknown')}</div>
+          <div class="opp">${escapeHTML(displayTeamName(opp?.teamName ?? 'Unknown'))}</div>
           <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>
       </div>`;
   }

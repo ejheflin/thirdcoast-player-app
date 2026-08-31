@@ -20,9 +20,10 @@
 <script src="assets/app.js"></script>
 <script>
 const userId = new URLSearchParams(location.search).get('person');
-// Ranks/Matchup fall back to the saved team, so a player card reached from
-// anywhere still gets you back into your own league in one tap.
-wireTabs({ active: 'players', personId: userId });
+// Ranks and Schedule fall back to the saved team, so a player card reached
+// from anywhere still gets you back into your own league in one tap. No tab
+// is "active" here -- there's no Players tab any more.
+wireTabs({ active: null, personId: userId });
 
 fetchJSON(`data/people/${userId}.json`).then((person) => {
   const bodyEl = document.getElementById('body');
@@ -41,7 +42,7 @@ fetchJSON(`data/people/${userId}.json`).then((person) => {
     </div>
     <div class="sec-lbl">Teams, every season</div>
     <div class="card" style="padding:4px 12px">
-      ${person.appearances.map((a) => `<div class="partner-row"><span>${escapeHTML(a.teamName)}</span><span>${a.isCaptain ? 'Captain' : ''}</span></div>`).join('')}
+      ${person.appearances.map((a) => `<div class="partner-row"><span>${escapeHTML(displayTeamName(a.teamName))}</span><span>${a.isCaptain ? 'Captain' : ''}</span></div>`).join('')}
     </div>
   `;
 });

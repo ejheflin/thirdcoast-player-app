@@ -133,8 +133,6 @@ Promise.all([
   }
 
   const rosterPlayers = roster?.players ?? [];
-  const captain = rosterPlayers.find((p) => p.isCaptain) ?? rosterPlayers[0];
-  if (captain) wireTabs({ active: null, programId, teamId, personId: captain.userId });
 
   const games = (activities?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
   const setDiff = games.reduce((sum, g) => {
@@ -154,7 +152,7 @@ Promise.all([
     const opp = g.teams.find((t) => t.teamId !== teamId);
     const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
     return `<div class="gamelog-row"><div class="r ${letter}">${letter}</div>
-      <div class="opp">${escapeHTML(opp?.teamName ?? 'Unknown')}</div>
+      <div class="opp">${escapeHTML(displayTeamName(opp?.teamName ?? 'Unknown'))}</div>
       <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>`;
   }).join('');
 
