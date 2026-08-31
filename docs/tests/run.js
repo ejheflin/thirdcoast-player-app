@@ -150,9 +150,24 @@ await go('index.html');
   const content = await page.content();
   check('Home shows the real upcoming opponent', content.includes('Fixture FC'));
   check('Home shows the real game date', content.includes('Sep 10'));
-  check('Home shows a probability bar for the upcoming game', content.includes('probbar'));
+  // The real court name out of schedule/9001.json, not a hardcoded "TBD".
+  check('Home shows the real court name from the schedule fixture', content.includes('Court 2'));
+  // Not just the CSS class: the actual split. Hand-computed from the same
+  // fixtures odds.html's block works from -- team 501 rates 0.86 (0.85 win
+  // rate + 0.2 set diff/game x 0.05), team 502 rates 0.64 (0.65 - 0.01);
+  // 0.86 / 1.50 = 57.33 -> 57%, so the opponent gets 43%.
+  const probCells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
+  check('Home renders the correct probability split (57% / 43%), not just a probbar element',
+    probCells[0] === '57%' && probCells[1] === '43%');
+  // The opponent's own roster, from the new rosters/9001-502.json fixture.
+  check('Home lists the opponent roster by first name',
+    content.includes('Opponent roster') && content.includes('Priya') && content.includes('Deshawn'));
   const rendered = await page.$eval('#body', (el) => el.innerText);
   check('Home never renders NaN in the probability split', !rendered.includes('NaN'));
+  // Fix 2: search.html used to be reachable ONLY via the no-saved-team
+  // redirect, leaving a player whose team changed with no route to it.
+  check('Home offers a way back to search for a different team',
+    await page.$eval('#searchAgain', (el) => el.getAttribute('href') === 'search.html'));
   check('Home links to Season stats for this team/program', await page.$eval(
     'a.textlink',
     (el) => el.getAttribute('href') === 'team.html?team=501&program=9001',
@@ -174,6 +189,34 @@ await go('index.html');
   check('Home still shows the team\'s current record in the fallback state', content.includes('0-0-0'));
 }
 
+// (d) Two winless teams, both with NEGATIVE ratings. Program 9002's
+// fixture is built for exactly this: team 504 rates -0.05 (0 wins, -2 set
+// diff over 2 games -> 0 + (-1 x 0.05)) and team 505 rates -0.20 (0 wins,
+// -8 over 2 -> 0 + (-4 x 0.05)). The old ratingA/(ratingA+ratingB) split
+// divided by a NEGATIVE sum (-0.25) and handed the clearly-better team 504
+// just 20% -- the favorite inverted. Shifting both up by -min+0.01 = 0.21
+// first gives 0.16 / 0.17 = 94.1% -> 94% to team 504 and 6% to team 505.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9002, teamId: 504, teamName: '1. Sandbar Sitters', programName: 'Winless Wednesday League' }),
+));
+await go('index.html');
+{
+  const cells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
+  check('Home favors the better of two winless teams (94% / 6%), not the worse one', cells[0] === '94%' && cells[1] === '6%');
+  check('Home no longer shows the inverted 20% the old negative-rating formula gave team 504', cells[0] !== '20%');
+}
+
+await go('matchup.html?program=9002&team=504');
+await page.select('#oppPicker', '505');
+await new Promise((r) => setTimeout(r, 200));
+{
+  const cells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
+  check('matchup favors the better of two winless teams too (same 94% / 6%)', cells[0] === '94%' && cells[1] === '6%');
+  const renderedWinless = await page.$eval('#result', (el) => el.innerText);
+  check('matchup never renders NaN for two negative ratings', !renderedWinless.includes('NaN'));
+}
+
 await page.evaluate(() => localStorage.clear());
 
 // ---- navigation: every page reachable using only in-app links -----------
@@ -185,6 +228,22 @@ await page.type('#q', 'testers', { delay: 20 });
 await new Promise((r) => setTimeout(r, 300));
 await clickThrough('.result');
 check('search result -> team page', path().startsWith('/team.html') && path().includes('team=501'));
+
+// team.html is NOT Home any more -- Home is index.html, the next-game feed.
+// It used to pass active:'home' to wireTabs, which renders Home as the tab
+// you're already on and (by wireTabs' own rule) gives the active tab a null
+// onclick: a navigation dead end with no way back to Home at all.
+check(
+  'team page Home tab is a live link, not rendered as the active/disabled tab',
+  await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')),
+);
+await clickThrough('.tab[data-tab="home"]');
+check('team page Home tab -> the Home (next-game) screen', path() === '/index.html');
+
+// ...and back to the team page the way a player gets there now: the Home
+// screen's own "Season stats" link.
+await clickThrough('a.textlink');
+check('Home Season stats link -> team page', path().startsWith('/team.html') && path().includes('team=501'));
 
 await clickThrough('.tab[data-tab="ranks"]');
 check('team page Ranks tab -> rankings', path() === '/rankings.html?program=9001');
@@ -210,6 +269,12 @@ check('team roster row -> player card', path() === '/player.html?person=1');
 await clickThrough('.tab[data-tab="home"]');
 check('player card Home tab -> the Home (next-game) screen', path() === '/index.html');
 
+// The rare-use escape hatch: a player whose team situation changed can get
+// back to search without clearing site data by hand.
+await clickThrough('#searchAgain');
+check('Home "Not your team? Search again" -> search.html', path() === '/search.html');
+check('the search-again link lands on a working search box', (await page.$('#q')) !== null);
+
 // The Players tab resolves the team's captain from the roster file.
 await go('rankings.html?program=9001');
 await new Promise((r) => setTimeout(r, 300));
@@ -221,22 +286,49 @@ await clickThrough('.tab[data-tab="players"]');
 check('rankings Players tab -> the team captain card', path() === '/player.html?person=1');
 
 // ---- a stale saved team must recover, not bounce forever ----------------
-// team.html's own stale-pointer cleanup is unchanged; what's new is the
-// chain it now hands off into: index.html no longer blindly forwards a
-// saved team to team.html, so "search again" must pass back through
-// index.html's own redirect-to-search.html logic once the pointer is gone.
-await go('team.html?team=8888&program=9999');
+// Entered the way a real returning player hits it, per this suite's rule
+// that nothing types a URL. This block used to start with
+// go('team.html?team=8888&program=9999') -- a deep link no player could
+// type -- and that is precisely why it missed the regression: index.html
+// stopped forwarding a saved team to team.html, so team.html's cleanup was
+// no longer anywhere on the path a real player walks. index.html has to
+// recover the pointer itself now, and this proves it does.
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await go('search.html');
+await page.type('#q', 'testers', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+await clickThrough('.result'); // a real save, made by a real click
+
+// The device state a returning player actually shows up with months later:
+// the pointer they saved, to a program that has since gone away. Only the
+// stored value is faked here -- no navigation, no typed URL.
 await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9999, teamId: 8888, teamName: 'Gone Team', programName: 'Dead League' }),
 ));
-await go('team.html?team=8888&program=9999');
-check('a stale saved team lands on the cannot-find-this-team message', (await page.content()).includes('find this team'));
-check('the stale pointer is cleared', (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null);
-await page.click('a[href="index.html"]');
-await page.waitForFunction(() => location.pathname === '/search.html', { timeout: 5000 });
-check('search again passes through index.html and lands on search.html now that no team is saved', path() === '/search.html');
-check('search again now reaches the search box instead of getting stuck', (await page.$('#q')) !== null);
+
+// Their browser opens the app root on its own (bookmark / home-screen
+// icon). Every step from there is a real click, and they are counted.
+let staleClicks = 0;
+const staleClick = async (selector) => { staleClicks++; await clickThrough(selector); };
+await go('');
+check('a stale saved team is handled on the Home screen itself', (await page.content()).includes('find this team'));
+check(
+  'index.html clears the stale pointer itself, without a trip through team.html',
+  (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null,
+);
+check(
+  'the Home screen offers the way out, not a "check back after the next archive run" dead end',
+  !(await page.content()).includes('check back after the next archive run'),
+);
+await staleClick('a[href="search.html"]');
+check('search is reachable from the stale-team message', path() === '/search.html');
+check('and that search page actually works', (await page.$('#q')) !== null);
+check(
+  `stale-team recovery costs ${staleClicks} real click(s) from app open, not the old 4 hops`,
+  staleClicks <= 1,
+);
 
 check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 

@@ -1,0 +1,15 @@
+{
+  "programId": 9002,
+  "games": [
+    {
+      "activityId": 9002005,
+      "date": "2026-09-12",
+      "time": "20:00",
+      "courtName": "Court 4",
+      "teams": [
+        {"teamId": 504, "teamName": "1. Sandbar Sitters"},
+        {"teamId": 505, "teamName": "2. Rally Killers"}
+      ]
+    }
+  ]
+}

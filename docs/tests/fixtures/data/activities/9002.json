@@ -1,0 +1,9 @@
+{
+  "programId": 9002,
+  "games": [
+    {"activityId":9002001,"date":"2026-08-05","teams":[{"teamId":504,"teamName":"1. Sandbar Sitters","result":"loss","score":0},{"teamId":599,"teamName":"Visiting Side","result":"win","score":1}]},
+    {"activityId":9002002,"date":"2026-08-12","teams":[{"teamId":504,"teamName":"1. Sandbar Sitters","result":"loss","score":1},{"teamId":599,"teamName":"Visiting Side","result":"win","score":2}]},
+    {"activityId":9002003,"date":"2026-08-05","teams":[{"teamId":505,"teamName":"2. Rally Killers","result":"loss","score":0},{"teamId":599,"teamName":"Visiting Side","result":"win","score":4}]},
+    {"activityId":9002004,"date":"2026-08-12","teams":[{"teamId":505,"teamName":"2. Rally Killers","result":"loss","score":0},{"teamId":599,"teamName":"Visiting Side","result":"win","score":4}]}
+  ]
+}

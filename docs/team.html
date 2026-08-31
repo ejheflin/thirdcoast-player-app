@@ -25,8 +25,13 @@
 const params = new URLSearchParams(location.search);
 const programId = params.get('program');
 const teamId = Number(params.get('team'));
-// This IS the saved team's home feed, so Home is the tab you're on.
-wireTabs({ active: 'home', programId, teamId });
+// Home means index.html (the next-game feed), which is a DIFFERENT page
+// from this one -- this is the season-stats page you reach from there or
+// from a rankings drill-down. So no tab is "active" here: passing
+// active:'home' would render Home as the current tab and (by wireTabs'
+// own rule that the active tab gets a null onclick) leave this page with
+// no way back to Home at all.
+wireTabs({ active: null, programId, teamId });
 
 Promise.all([
   fetchJSON(`data/standings/${programId}.json`),
@@ -54,7 +59,7 @@ Promise.all([
 
   const rosterPlayers = roster?.players ?? [];
   const captain = rosterPlayers.find((p) => p.isCaptain) ?? rosterPlayers[0];
-  if (captain) wireTabs({ active: 'home', programId, teamId, personId: captain.userId });
+  if (captain) wireTabs({ active: null, programId, teamId, personId: captain.userId });
 
   const games = (activities?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
   const setDiff = games.reduce((sum, g) => {

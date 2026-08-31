@@ -52,6 +52,25 @@ function ratingFor(row, games) {
   return winRate + setDiffPerGame * 0.05;
 }
 
+// Splits 100% between two ratings. A rating can legitimately be negative
+// (a winless team with a negative average set differential), and a plain
+// ratingA/(ratingA+ratingB) breaks on that: dividing by a negative sum
+// INVERTS which team reads as the favorite, and a sum of exactly zero
+// yields NaN that Math.max/Math.min can't clamp away. Shifting both
+// ratings up by the same constant until neither is negative fixes it
+// without touching the gap between them -- the relative ordering and the
+// size of the difference, which are what should drive the split, are
+// preserved exactly. Kept identical to index.html's copy.
+function splitPct(ratingA, ratingB) {
+  const minRating = Math.min(ratingA, ratingB);
+  const shift = minRating <= 0 ? -minRating + 0.01 : 0;
+  const a = ratingA + shift;
+  const b = ratingB + shift;
+  let pctA = Math.round((a / (a + b)) * 100);
+  pctA = Math.max(1, Math.min(99, pctA));
+  return { pctA, pctB: 100 - pctA };
+}
+
 function avatarFor(name) {
   return escapeHTML(name.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase());
 }
@@ -92,9 +111,7 @@ Promise.all([
       const who = myRating === null ? 'Your team hasn\'t' : 'They haven\'t';
       verdict = `<div class="h2h-meta">${who} played a game yet — no prediction until there's a result to go on.</div>`;
     } else {
-      let pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
-      pctMe = Math.max(1, Math.min(99, pctMe));
-      const pctOpp = 100 - pctMe;
+      const { pctA: pctMe, pctB: pctOpp } = splitPct(myRating, oppRating);
       const met = games.filter((g) =>
         g.teams.some((t) => t.teamId === teamId) && g.teams.some((t) => t.teamId === oppId)
       );

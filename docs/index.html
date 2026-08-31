@@ -52,6 +52,25 @@ function ratingFor(row, games) {
   return winRate + setDiffPerGame * 0.05;
 }
 
+// Splits 100% between two ratings. A rating can legitimately be negative
+// (a winless team with a negative average set differential), and a plain
+// ratingA/(ratingA+ratingB) breaks on that: dividing by a negative sum
+// INVERTS which team reads as the favorite, and a sum of exactly zero
+// yields NaN that Math.max/Math.min can't clamp away. Shifting both
+// ratings up by the same constant until neither is negative fixes it
+// without touching the gap between them -- the relative ordering and the
+// size of the difference, which are what should drive the split, are
+// preserved exactly. Kept identical to matchup.html's copy.
+function splitPct(ratingA, ratingB) {
+  const minRating = Math.min(ratingA, ratingB);
+  const shift = minRating <= 0 ? -minRating + 0.01 : 0;
+  const a = ratingA + shift;
+  const b = ratingB + shift;
+  let pctA = Math.round((a / (a + b)) * 100);
+  pctA = Math.max(1, Math.min(99, pctA));
+  return { pctA, pctB: 100 - pctA };
+}
+
 function avatarFor(name) {
   return escapeHTML(name.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase());
 }
@@ -96,6 +115,16 @@ async function main(saved) {
   const seasonStatsLink =
     `<p style="margin-top:18px"><a class="textlink" href="team.html?team=${encodeURIComponent(teamId)}&program=${encodeURIComponent(programId)}">Season stats →</a></p>`;
 
+  // Deliberately minor: search.html is otherwise only reachable via the
+  // no-saved-team redirect, so a player whose team situation changed (new
+  // season, switched leagues) had no route back to it at all. Rare-use
+  // escape hatch, styled to stay well behind the next-game content --
+  // faint, small, and last on the page.
+  const searchAgainLink =
+    '<p style="margin:14px 0 4px"><a id="searchAgain" href="search.html" ' +
+    'style="color:var(--app-faint);font-size:11.5px;text-decoration:underline">' +
+    'Not your team? Search again</a></p>';
+
   // The array's own natural ascending date/time order already makes the
   // first match here the next one chronologically -- no re-sorting needed.
   const nextGame = (schedule?.games ?? []).find((g) => g.teams.some((t) => t.teamId === teamId));
@@ -122,9 +151,7 @@ async function main(saved) {
     if (myRating === null || oppRating === null) {
       verdict = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
     } else {
-      let pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
-      pctMe = Math.max(1, Math.min(99, pctMe));
-      const pctOpp = 100 - pctMe;
+      const { pctA: pctMe, pctB: pctOpp } = splitPct(myRating, oppRating);
       verdict = `
         <div class="probbar"><div class="a" style="flex:${pctMe}">${pctMe}%</div><div class="b" style="flex:${pctOpp}">${pctOpp}%</div></div>
         <div class="h2h-meta">Model: season win-rate + set differential per game.</div>`;
@@ -159,6 +186,7 @@ async function main(saved) {
       <div class="card" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
       ` : ''}
       ${seasonStatsLink}
+      ${searchAgainLink}
     `;
     return;
   }
@@ -174,11 +202,19 @@ async function main(saved) {
   }, 0);
 
   if (!myRow && !lastGame) {
-    // Brand new team, nothing archived for it at all yet.
+    // No standings row AND no archived game: the saved pointer is dead, not
+    // merely early-season. (search.html only ever offers teams that HAVE a
+    // standings row, so a team the player could have saved always had one.)
+    // Same treatment team.html already gives this exact situation: drop the
+    // pointer here rather than leaving the player to discover it four hops
+    // away behind "Season stats", and offer the way out on this screen.
+    const stillSaved = getMyTeam();
+    if (stillSaved && String(stillSaved.programId) === String(programId) && String(stillSaved.teamId) === String(teamId)) {
+      clearMyTeam();
+    }
     bodyEl.innerHTML = `
-      <p style="color:var(--app-faint);font-size:13px;margin:2px 0 16px">No data yet for your team — check back after the next archive run.</p>
-      ${seasonStatsLink}
-    `;
+      <p style="color:var(--app-faint);font-size:13px">We can't find this team anymore —
+      <a href="search.html" style="color:var(--app-data)">search again</a>.</p>`;
     return;
   }
 
@@ -211,6 +247,7 @@ async function main(saved) {
     ${statGridHtml}
     ${lastGameHtml}
     ${seasonStatsLink}
+    ${searchAgainLink}
   `;
 }
 </script>

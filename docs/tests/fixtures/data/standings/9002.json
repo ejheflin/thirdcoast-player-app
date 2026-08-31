@@ -1,0 +1,8 @@
+{
+  "programId": 9002,
+  "programName": "Winless Wednesday League",
+  "rows": [
+    {"position":1,"teamId":504,"teamName":"1. Sandbar Sitters","gamesPlayed":2,"wins":0,"losses":2,"ties":0,"points":0},
+    {"position":2,"teamId":505,"teamName":"2. Rally Killers","gamesPlayed":2,"wins":0,"losses":2,"ties":0,"points":0}
+  ]
+}
