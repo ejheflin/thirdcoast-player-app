@@ -115,24 +115,34 @@ await go('player.html?person=1');
 await go('odds.html?program=9001');
 {
   // Hand-computed from fixtures/data/standings/9001.json + activities/9001.json:
-  //   501 (8-1-1, +2 set diff over 1 game) -> 0.85 + 0.2x0.05 = 0.86
-  //   502 (6-3-1, -2 over 1)               -> 0.65 - 0.01     = 0.64
-  //   503 (0 games)                        -> no rating at all
-  //   506 (3-6-1, -2 over 1)               -> 0.35 - 0.01     = 0.34
-  // Team 506 holds position 4, so it IS the cutoff team and its own 0.34 is
-  // the cutoff rating (this used to fall back to the lowest-rated team,
-  // because the fixture had only three rows before 506 was added to prove
-  // the Home screen's second same-night match). Gaps from 0.34:
-  //   501: +0.52 -> 50+208 = 258, clamped to 100%
-  //   502: +0.30 -> 50+120 = 170, clamped to 100%
-  //   506:  0.00 -> exactly 50%, and position<=CUTOFF floors it there
+  //   501 (8-1-1, +2 set diff over 1 game)  -> 0.85 + 0.2x0.05  = 0.86
+  //   502 (6-3-1, -2 over 1)                -> 0.65 - 0.01      = 0.64
+  //   503 (0 games)                         -> no rating at all
+  //   507 "Bubble FC" (7-2-1, 0 games in the
+  //     activities fixture, so 0 set diff)  -> 0.75 + 0         = 0.75
+  //   506 (3-6-1, -2 over 1)                -> 0.35 - 0.01      = 0.34
+  // Team 507 holds position 4, so it IS the cutoff team and its own 0.75 is
+  // the cutoff rating. (506 held position 4 until Fix 5: with no team
+  // rated BETWEEN the leader and the runner-up, both 501's and 502's gaps
+  // from 506's 0.34 clamped to the same 100%, so this check could no
+  // longer tell a real ordering bug from a correct one. 507 is a synthetic
+  // team that exists only to sit between them, restoring that. 506 itself
+  // is untouched -- same record, same 0.34 rating the match-card tests
+  // below still depend on for card 2's 72%/28% split -- just moved to
+  // position 5 so it's no longer the cutoff.) Gaps from 0.75:
+  //   501: +0.11 -> 50+44 = 94, position<=CUTOFF floors nothing (94>=50)
+  //   502: -0.11 -> 50-44 =  6, floored to 50 (position<=CUTOFF)
+  //   507:  0.00 -> exactly 50%, the cutoff team's own row
+  //   506: -0.41 -> 50-164 = -114, capped to 50 then clamped to 1
+  //     (position 5 > CUTOFF, so it's capped from above, not floored)
   // Asserted per row, in table order, rather than as a substring search of
-  // the whole page: with four rows a bare includes('50%') could be satisfied
-  // by the wrong team's number.
+  // the whole page: a bare includes('50%') could be satisfied by the
+  // wrong team's number, and (this is the bug Fix 5 restores coverage
+  // for) 501 and 502 must land on DIFFERENT percentages, not both 100%.
   const pcts = await page.$$eval('#rows .odds-pct', (els) => els.map((el) => el.textContent.trim()));
   check(
-    `odds page shows the right percentage for every row (100/100/—/50), got ${pcts.join('/')}`,
-    pcts.join('/') === '100%/100%/—/50%',
+    `odds page shows the right, DISTINCT percentage for leader vs. runner-up (94/50/—/50/1), got ${pcts.join('/')}`,
+    pcts.join('/') === '94%/50%/—/50%/1%',
   );
   const renderedOdds = await page.$eval('#rows', (el) => el.innerText);
   check('odds page shows no percentage for a 0-game team', !renderedOdds.includes('NaN') && renderedOdds.includes('—'));

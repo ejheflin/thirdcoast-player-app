@@ -158,7 +158,7 @@ function rosterRowsHTML(roster) {
 // slot. schedule.json's `teams` array carries no home/away flag at all
 // (see archive/schedule.js), and a player wants to see themselves first
 // regardless -- so the array's own order is not used for anything here.
-function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roster, programName }) {
+function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roster }) {
   const opponent = game.teams.find((t) => t.teamId !== teamId);
   const oppRow = opponent ? standings?.rows?.find((r) => r.teamId === opponent.teamId) : null;
   const oppName = opponent?.teamName ?? 'TBD';
@@ -193,13 +193,12 @@ function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roste
         <div class="slab"><span class="cnum">${escapeHTML(slabText)}</span></div>
         <div class="mbody">
           <div class="tophat">
-            <span class="lgtag">${escapeHTML(programName)}</span>
             <span class="ctname">${escapeHTML(paintName)}</span>
           </div>
           <div class="teams">
-            <div class="side"><span class="tname">${escapeHTML(myName)}</span>${myRecord ? `<span class="capn">${myRecord}</span>` : ''}</div>
+            <div class="side a"><span class="tname">${escapeHTML(myName)}</span>${myRecord ? `<span class="capn">${myRecord}</span>` : ''}</div>
             <div class="rule"><span class="vs">vs</span></div>
-            <div class="side"><span class="tname">${escapeHTML(oppName)}</span>${oppRecord ? `<span class="capn">${oppRecord}</span>` : ''}</div>
+            <div class="side b"><span class="tname">${escapeHTML(oppName)}</span>${oppRecord ? `<span class="capn">${oppRecord}</span>` : ''}</div>
           </div>
         </div>
         <span class="statetag">${escapeHTML(whenBadge(game.date, game.time))}</span>
@@ -277,7 +276,7 @@ async function main(saved) {
     bodyEl.innerHTML = `
       <div class="sec-lbl" style="margin-top:2px">${label}</div>
       ${nextGames.map((game, i) => gameGroupHTML({
-        game, teamId, myName, myRecord, standings, games, roster: rosters[i], programName,
+        game, teamId, myName, myRecord, standings, games, roster: rosters[i],
       })).join('')}
       ${seasonStatsLink}
       ${searchAgainLink}
