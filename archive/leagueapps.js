@@ -65,13 +65,22 @@ export async function fetchRosterHTML(programId, teamId) {
   return res.text();
 }
 
-function cellText(s) {
-  return s
-    .replace(/<[^>]+>/g, '')
+// The HTML entities LeagueApps actually emits, in the order they have to
+// be undone (&amp; first, so a double-encoded "&amp;#39;" resolves all the
+// way to an apostrophe). Exported because the JSON API paths need it too:
+// activities/schedule team names come back from a JSON endpoint but still
+// arrive entity-encoded, so they'd otherwise render as "&amp;#39;" once
+// escapeHTML() re-escapes them in the browser.
+export function decodeEntities(s) {
+  return String(s)
     .replace(/&amp;/g, '&')
     .replace(/&nbsp;/g, ' ')
     .replace(/&#39;/g, "'")
-    .replace(/&quot;/g, '"')
+    .replace(/&quot;/g, '"');
+}
+
+function cellText(s) {
+  return decodeEntities(s.replace(/<[^>]+>/g, ''))
     .replace(/\s+/g, ' ')
     .trim();
 }

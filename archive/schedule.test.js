@@ -104,3 +104,41 @@ test('extractUpcomingGame returns null, not a throw, for a scheduled activity wi
   };
   assert.equal(extractUpcomingGame(activity, '2026-08-31', courtNameFn), null);
 });
+
+// Same JSON-API entity bug as activities.js: the schedule feed's teamName
+// can arrive entity-encoded. Invented name, per the project's rule against
+// reusing real captured team names as test examples.
+test('extractUpcomingGame decodes HTML entities in a team name from the JSON API', () => {
+  const activity = {
+    id: 1240,
+    state: 'scheduled',
+    type: 'game_season',
+    start: { date: '2026-09-10', time: '19:00' },
+    subLocationId: 70291,
+    teams: [
+      { teamId: 10, teamName: '6. Barrio&#39;s Best' },
+      { teamId: 11, teamName: 'Nets &amp; Chill' },
+    ],
+  };
+  const game = extractUpcomingGame(activity, '2026-08-31', courtNameFn);
+  assert.deepEqual(game.teams, [
+    { teamId: 10, teamName: "6. Barrio's Best" },
+    { teamId: 11, teamName: 'Nets & Chill' },
+  ]);
+});
+
+test('extractUpcomingGame decodes before redacting, so a redacted name is never left entity-encoded', () => {
+  const activity = {
+    id: 1241,
+    state: 'scheduled',
+    type: 'game_season',
+    start: { date: '2026-09-10', time: '19:00' },
+    subLocationId: 70291,
+    teams: [
+      { teamId: 10, teamName: 'Dune Kicker&#39;s (Jordan Fakename)' },
+      { teamId: 11, teamName: 'Team B' },
+    ],
+  };
+  const game = extractUpcomingGame(activity, '2026-08-31', courtNameFn);
+  assert.equal(game.teams[0].teamName, "Dune Kicker's (Jordan F.)");
+});

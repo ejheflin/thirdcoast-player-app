@@ -34,3 +34,36 @@ test('appendGames deduplicates by activityId and never drops existing entries', 
   assert.ok(merged.some((g) => g.activityId === 1));
   assert.ok(merged.some((g) => g.activityId === 2));
 });
+
+// Real bug, found in committed data: the JSON activities feed can hand back
+// a team name with a literal HTML entity in it, which then double-escapes
+// into "&amp;#39;" once the browser re-escapes it on render. Invented name
+// (project rule: never reuse a real captured team name as a test example).
+test('extractGame decodes HTML entities in a team name from the JSON API', () => {
+  const activity = {
+    id: 4242,
+    state: 'played_regular_time',
+    start: { date: '2026-08-01' },
+    teams: [
+      { teamId: 10, teamName: '6. Barrio&#39;s Best', result: 'win', score: 2 },
+      { teamId: 11, teamName: 'Nets &amp; Chill', result: 'loss', score: 0 },
+    ],
+  };
+  const game = extractGame(activity);
+  assert.equal(game.teams[0].teamName, "6. Barrio's Best");
+  assert.equal(game.teams[1].teamName, 'Nets & Chill');
+});
+
+test('extractGame decodes before redacting, so a redacted name is never left entity-encoded', () => {
+  const activity = {
+    id: 4243,
+    state: 'played_regular_time',
+    start: { date: '2026-08-01' },
+    teams: [
+      { teamId: 12, teamName: 'Dune Kicker&#39;s (Jordan Fakename)', result: 'win', score: 2 },
+      { teamId: 13, teamName: 'Team B', result: 'loss', score: 0 },
+    ],
+  };
+  const game = extractGame(activity);
+  assert.equal(game.teams[0].teamName, "Dune Kicker's (Jordan F.)");
+});

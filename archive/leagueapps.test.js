@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { parseStandings, parseRoster, redactCaptainName, fetchRosterHTML, courtName } from './leagueapps.js';
+import { parseStandings, parseRoster, redactCaptainName, fetchRosterHTML, courtName, decodeEntities } from './leagueapps.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fixture = (name) => readFileSync(join(__dirname, 'fixtures', name), 'utf8');
@@ -220,4 +220,17 @@ test('courtName returns null for a missing/null subLocationId (court not yet ass
 
 test('courtName returns null, not a throw, for an id that does not exist in the data', () => {
   assert.equal(courtName(REAL_LOCATIONS_FIXTURE, 999999), null);
+});
+
+// decodeEntities is the same unescaping cellText has always applied to
+// scraped HTML, now exported so the JSON API paths (activities/schedule)
+// can share it instead of passing entity-encoded names straight through.
+test('decodeEntities undoes the entities LeagueApps actually emits', () => {
+  assert.equal(decodeEntities('Barrio&#39;s Best'), "Barrio's Best");
+  assert.equal(decodeEntities('Nets &amp; Chill'), 'Nets & Chill');
+  assert.equal(decodeEntities('The&nbsp;Blockers'), 'The Blockers');
+  assert.equal(decodeEntities('&quot;Spike&quot; Squad'), '"Spike" Squad');
+  // &amp; is undone first, so a double-encoded apostrophe resolves fully.
+  assert.equal(decodeEntities('Barrio&amp;#39;s Best'), "Barrio's Best");
+  assert.equal(decodeEntities('Plain Name'), 'Plain Name');
 });

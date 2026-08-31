@@ -8,7 +8,7 @@
 // too. `todayISO` (a "YYYY-MM-DD" string) is passed in rather than
 // computed internally so this stays testable without mocking the clock.
 
-import { redactCaptainName } from './leagueapps.js';
+import { redactCaptainName, decodeEntities } from './leagueapps.js';
 
 export function extractUpcomingGame(activity, todayISO, courtNameFn) {
   if (activity.state !== 'scheduled') return null;
@@ -21,6 +21,12 @@ export function extractUpcomingGame(activity, todayISO, courtNameFn) {
     date,
     time: activity.start?.time ?? null,
     courtName: courtNameFn(activity.subLocationId),
-    teams: activity.teams.map((t) => ({ teamId: t.teamId, teamName: redactCaptainName(t.teamName) })),
+    // Decode BEFORE redacting -- same reason as activities.js: the JSON
+    // API's teamName can arrive entity-encoded, and redactCaptainName
+    // assumes clean text.
+    teams: activity.teams.map((t) => ({
+      teamId: t.teamId,
+      teamName: redactCaptainName(decodeEntities(t.teamName)),
+    })),
   };
 }

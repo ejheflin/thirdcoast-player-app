@@ -3,7 +3,7 @@
 // season completes. Only activities with a real recorded result count —
 // a scheduled-but-unplayed activity has no result/score at all.
 
-import { redactCaptainName } from './leagueapps.js';
+import { redactCaptainName, decodeEntities } from './leagueapps.js';
 
 export function extractGame(activity) {
   if (activity.state !== 'played_regular_time') return null;
@@ -13,7 +13,11 @@ export function extractGame(activity) {
     date: activity.start?.date ?? null,
     teams: activity.teams.map((t) => ({
       teamId: t.teamId,
-      teamName: redactCaptainName(t.teamName),
+      // Decode BEFORE redacting: the JSON API hands back entity-encoded
+      // team names (a real "Barrio&#39;s" arrives literally like that), and
+      // redactCaptainName's word/initial logic assumes clean text. Without
+      // this the browser's escapeHTML() would re-escape it into "&amp;#39;".
+      teamName: redactCaptainName(decodeEntities(t.teamName)),
       result: t.result,
       score: t.score,
     })),
