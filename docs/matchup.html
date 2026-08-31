@@ -60,7 +60,7 @@ function ratingFor(row, games) {
 // ratings up by the same constant until neither is negative fixes it
 // without touching the gap between them -- the relative ordering and the
 // size of the difference, which are what should drive the split, are
-// preserved exactly. Kept identical to index.html's copy.
+// preserved exactly. Kept identical to gamenight.html's copy.
 function splitPct(ratingA, ratingB) {
   const minRating = Math.min(ratingA, ratingB);
   const shift = minRating <= 0 ? -minRating + 0.01 : 0;

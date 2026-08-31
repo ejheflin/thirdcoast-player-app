@@ -25,8 +25,8 @@
 const params = new URLSearchParams(location.search);
 const programId = params.get('program');
 const teamId = Number(params.get('team'));
-// Home means index.html (the next-game feed), which is a DIFFERENT page
-// from this one -- this is the season-stats page you reach from there or
+// Home means index.html (the router, which lands on the next-game feed),
+// which is a DIFFERENT page from this one -- this is the season-stats page you reach from there or
 // from a rankings drill-down. So no tab is "active" here: passing
 // active:'home' would render Home as the current tab and (by wireTabs'
 // own rule that the active tab gets a null onclick) leave this page with
@@ -42,8 +42,8 @@ Promise.all([
   const row = standings?.rows.find((r) => r.teamId === teamId);
   if (!standings || !row) {
     // The saved pointer is stale (a season rolled over, or the program was
-    // pulled). Drop it, or index.html (the Home screen) would keep trying
-    // to build a home feed for this dead team forever, and the "search
+    // pulled). Drop it, or the Home screen would keep trying to build a
+    // home feed for this dead team forever, and the "search
     // again" link below would be the only way out -- an inescapable stuck
     // state with no way out but clearing site data by hand. Only clear it
     // when it's THIS team that's missing, so browsing to some other dead

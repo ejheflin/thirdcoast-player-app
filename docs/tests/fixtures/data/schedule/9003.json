@@ -1,0 +1,23 @@
+{
+  "programId": 9003,
+  "games": [
+    {
+      "activityId": 9003001,
+      "date": "2027-03-11",
+      "time": "19:00",
+      "courtName": "Court 3",
+      "teams": [
+        {"teamId": 601, "teamName": "1. Bracket Bound"},
+        {"teamId": 602, "teamName": "2. Seeded Second"}
+      ]
+    }
+  ],
+  "tournaments": [
+    {
+      "activityId": 9003900,
+      "date": "2027-03-11",
+      "time": "18:30",
+      "title": "PLAYOFFS"
+    }
+  ]
+}

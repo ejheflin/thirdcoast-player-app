@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Playoff Night — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Playoff <em style="color:var(--app-live)">Night</em></div></div></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+// playoffs.html is a deliberate STUB, and it says so out loud rather than
+// implying data it doesn't have.
+//
+// A real playoff night at this venue is run off the brackets repo's
+// broadcast board on the TV above the courts: seeding, court assignments
+// and results all move minute-to-minute there, and none of it reaches
+// LeagueApps' public JSON at all -- which is the only thing this site's
+// archiver can read. Live playoff data here would need the venue's kiosk
+// box pushing board state to a hosted realtime backend, which is a
+// separate, much bigger, deliberately deferred project. Until that
+// exists, the honest thing to show is "the board has it, this doesn't",
+// plus the one real fact the archive DOES carry: the date and start time
+// of the playoff event itself.
+//
+// The one thing this page must never be is a dead end. Every state below
+// -- real marker, no marker, unreadable data -- ends with a live route
+// somewhere: the tab bar's Home tab back through index.html (which
+// re-routes, so a player who opens this the morning after playoffs lands
+// on their next game night), plus in-page links to the season stats and
+// power rankings, which are real, archived, and genuinely useful tonight.
+
+const params = new URLSearchParams(location.search);
+const programId = params.get('program');
+const teamId = Number(params.get('team'));
+
+// active:null, the same call team.html makes and for the same reason:
+// Home is index.html, a different page, and marking Home active here
+// would give it a null onclick and leave this screen with no way back.
+wireTabs({ active: null, programId, teamId });
+
+// "YYYY-MM-DD" split into local calendar fields rather than handed to
+// new Date(str), which parses it as UTC midnight and can print the wrong
+// weekday for a viewer west of Greenwich. Same rule gamenight.html's
+// whenBadge follows.
+function longDate(dateISO) {
+  const [y, m, d] = String(dateISO).split('-').map(Number);
+  if (!Number.isFinite(y) || !Number.isFinite(m) || !Number.isFinite(d)) return '';
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, {
+    weekday: 'long', month: 'long', day: 'numeric',
+  });
+}
+
+// "18:30" (24-hour, as archive/schedule.js writes it) -> "6:30 PM".
+function longTime(time) {
+  const [hh, mm] = String(time).split(':').map(Number);
+  if (!Number.isFinite(hh) || !Number.isFinite(mm)) return '';
+  const suffix = hh >= 12 ? 'PM' : 'AM';
+  const h12 = ((hh + 11) % 12) + 1;
+  return `${h12}:${String(mm).padStart(2, '0')} ${suffix}`;
+}
+
+function todayISO() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+Promise.all([
+  fetchJSON(`data/schedule/${programId}.json`),
+  fetchJSON(`data/standings/${programId}.json`),
+]).then(([schedule, standings]) => {
+  const bodyEl = document.getElementById('body');
+  const saved = getMyTeam();
+  // standings carries the full program name; a program with no standings
+  // file yet still has whatever name search.html saved with the pointer.
+  document.getElementById('greet').textContent =
+    standings?.programName ?? saved?.programName ?? '';
+
+  const today = todayISO();
+  const upcoming = (schedule?.tournaments ?? [])
+    .filter((t) => t.date >= today)
+    .sort((a, b) => a.date.localeCompare(b.date) || String(a.time ?? '').localeCompare(String(b.time ?? '')));
+  const next = upcoming[0] ?? null;
+
+  const links = `
+    <p style="margin-top:20px"><a class="textlink" href="team.html?team=${encodeURIComponent(teamId)}&program=${encodeURIComponent(programId)}">Season stats →</a></p>
+    <p style="margin-top:10px"><a class="textlink" href="rankings.html?program=${encodeURIComponent(programId)}">Power rankings →</a></p>`;
+
+  if (!next) {
+    // Reached without a marker to show: a stale link, a deep link, or an
+    // archive run that happened after the playoff date passed. Say so and
+    // point back at the router, which knows where this player belongs.
+    bodyEl.innerHTML = `
+      <div class="sec-lbl" style="margin-top:2px">Playoffs</div>
+      <div class="card">
+        <p style="margin:0;font-size:13px;color:var(--app-dim)">No playoff date is on this
+        league's schedule right now.</p>
+      </div>
+      <p style="margin-top:18px"><a class="textlink" href="index.html">← Back to my next game</a></p>
+      ${links}`;
+    return;
+  }
+
+  const title = next.title ? String(next.title) : 'Playoffs';
+  const when = longDate(next.date);
+  const at = next.time ? longTime(next.time) : '';
+
+  bodyEl.innerHTML = `
+    <div class="sec-lbl" style="margin-top:2px">${escapeHTML(title)}</div>
+    <div class="card" style="border-color:var(--app-live)">
+      <div id="playoffWhen" style="font-family:'Archivo Black',Impact,sans-serif;font-size:22px;line-height:1.15">
+        ${escapeHTML(when)}
+      </div>
+      <div id="playoffTime" style="font-size:15px;font-weight:700;color:var(--app-live);margin-top:4px">
+        ${escapeHTML(at || 'Start time TBD')}
+      </div>
+      <p style="margin:14px 0 0;font-size:13px;color:var(--app-dim);line-height:1.45">
+        Live bracket and court assignments are on the venue's TV board — this app doesn't
+        have live playoff data yet. Check the board when you get there.
+      </p>
+    </div>
+    <p style="margin:14px 2px 0;font-size:12px;color:var(--app-faint);line-height:1.45">
+      Everything below is regular-season data, archived from the league site. It won't
+      update during the bracket.
+    </p>
+    ${links}`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<!-- index.html is a ROUTER, not a screen. It owns one decision -- which
+     home screen this player should be looking at right now -- and then
+     hands off. Nothing here is meant to be read: the markup below is a
+     one-frame loading state that only shows if the schedule fetch is
+     slow, styled with the same shell as every other page so that frame
+     doesn't flash as a bare white document. -->
+<div class="screen">
+  <div class="body" style="display:grid;place-items:center">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+// The three destinations:
+//
+//   no saved team          -> search.html   (unchanged: search.html owns
+//                             the opposite direction and no longer
+//                             redirects a returning player away)
+//   playoff night next     -> playoffs.html
+//   anything else          -> gamenight.html
+//
+// "Anything else" deliberately includes "nothing scheduled at all":
+// gamenight.html already has its own fallback content for that (last
+// result + current record, or the stale-pointer recovery when the saved
+// team has gone away entirely), so this router must NOT try to
+// re-decide that here. Duplicating it would put the stale-pointer
+// cleanup in two places, and only one of them would ever be fixed.
+
+// location.replace, not location.href: a router in the history stack is
+// a back-button trap -- back from gamenight.html lands on index.html,
+// which immediately routes forward to gamenight.html again.
+const saved = getMyTeam();
+if (!saved) {
+  location.replace('search.html');
+} else {
+  route(saved);
+}
+
+// Local calendar date, not new Date().toISOString(): that is UTC, and for
+// a player on Central time between 7pm and midnight it reads as tomorrow
+// -- which would drop tonight's playoff marker off the "upcoming" list on
+// the exact evening it matters most.
+function todayISO() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+// A tournament marker (archive/schedule.js's extractTournamentMarker,
+// written into schedule/{programId}.json as `tournaments`) is
+// program-wide, not per-team: the real ones carry `teams: []` and a title
+// of "PLAYOFFS", and they apply to everyone in the league. So the games
+// it is compared against are the program's games, not one team's.
+//
+// Both lists are re-filtered against today here rather than trusted as
+// archived. The archiver only writes future-dated entries, but "future"
+// was true at its last run, which can be up to half a day ago -- so a
+// game night that has since passed would otherwise still count as the
+// next thing on the calendar.
+function isPlayoffNight(schedule, today) {
+  const tournaments = (schedule?.tournaments ?? []).filter((t) => t.date >= today);
+  if (tournaments.length === 0) return false;
+  const games = (schedule?.games ?? []).filter((g) => g.date >= today);
+  // A marker with no remaining games is unambiguous: the season's
+  // regular schedule is done and playoffs are what's left.
+  if (games.length === 0) return true;
+  const earliest = (list) => list.reduce((min, x) => (x.date < min ? x.date : min), list[0].date);
+  // On or before, not strictly before: a real league puts the playoff
+  // marker and that night's own games on the SAME date, and on that date
+  // it is playoff night.
+  return earliest(tournaments) <= earliest(games);
+}
+
+async function route(saved) {
+  const q = encodeURIComponent;
+  const programId = saved.programId;
+  const teamId = saved.teamId;
+  const to = (page) => `${page}.html?program=${q(programId)}&team=${q(teamId)}`;
+
+  // A schedule fetch that fails outright must not strand the player on a
+  // permanent "Loading…" -- gamenight.html is the safe default, and it
+  // has its own no-data and dead-pointer states.
+  let schedule = null;
+  try {
+    schedule = await fetchJSON(`data/schedule/${programId}.json`);
+  } catch (err) {
+    console.error('router: schedule fetch failed, defaulting to game night', err);
+  }
+
+  location.replace(isPlayoffNight(schedule, todayISO()) ? to('playoffs') : to('gamenight'));
+}
+</script>
+</body>
+</html>

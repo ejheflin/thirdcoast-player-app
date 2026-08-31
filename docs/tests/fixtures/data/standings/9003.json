@@ -1,0 +1,8 @@
+{
+  "programId": 9003,
+  "programName": "Playoff Thursday League",
+  "rows": [
+    {"position":1,"teamId":601,"teamName":"1. Bracket Bound","gamesPlayed":4,"wins":4,"losses":0,"ties":0,"points":8},
+    {"position":2,"teamId":602,"teamName":"2. Seeded Second","gamesPlayed":4,"wins":2,"losses":2,"ties":0,"points":4}
+  ]
+}

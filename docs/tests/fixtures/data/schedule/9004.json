@@ -1,0 +1,23 @@
+{
+  "programId": 9004,
+  "games": [
+    {
+      "activityId": 9004001,
+      "date": "2027-03-11",
+      "time": "19:00",
+      "courtName": "Court 6",
+      "teams": [
+        {"teamId": 701, "teamName": "1. Still Playing"},
+        {"teamId": 702, "teamName": "2. Mid Season"}
+      ]
+    }
+  ],
+  "tournaments": [
+    {
+      "activityId": 9004900,
+      "date": "2027-04-08",
+      "time": "18:30",
+      "title": "PLAYOFFS"
+    }
+  ]
+}

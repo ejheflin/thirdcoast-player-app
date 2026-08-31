@@ -48,7 +48,7 @@ function escapeHTML(str) {
 }
 
 // ---------------------------------------------------------------------
-// Bottom-bar navigation, shared by all six pages.
+// Bottom-bar navigation, shared by every page.
 //
 // Every page's tab bar marks each tab with data-tab="home|ranks|matchup|
 // players"; this is the single place that decides where each one goes, so
@@ -57,8 +57,12 @@ function escapeHTML(str) {
 // back to the saved team, and a tab with no reachable destination is
 // visibly disabled rather than silently doing nothing.
 //
-//   Home     -> index.html, the next-game feed for a returning player's
-//               saved team, or straight to search.html for everyone else.
+//   Home     -> index.html, which is a ROUTER, not a screen: it sends a
+//               returning player on to gamenight.html (the next-game
+//               feed) or playoffs.html depending on what their program's
+//               schedule says is next, and everyone with no saved team
+//               straight to search.html. Every Home tab points here and
+//               lets the router decide -- no page hardcodes a screen.
 //   Ranks    -> rankings.html for the program in context.
 //   Matchup  -> matchup.html for the team in context.
 //   Players  -> the player card for the team in context's captain (there

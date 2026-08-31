@@ -59,6 +59,29 @@ const path = () => new URL(page.url()).pathname + new URL(page.url()).search;
 const clickThrough = (selector) =>
   Promise.all([page.waitForNavigation({ waitUntil: 'networkidle0' }), page.click(selector)]);
 
+// index.html is a ROUTER now, not a screen: it reads the program's
+// schedule and only THEN navigates -- to gamenight.html, playoffs.html or
+// search.html. For a saved team that decision comes after a fetch, so
+// page.goto/waitForNavigation can resolve while the router is still
+// mid-hop. Every entry through index.html therefore waits for it to
+// actually land on one of its three destinations before anything is
+// asserted about the page.
+const ROUTED = ['/gamenight.html', '/playoffs.html', '/search.html'];
+const settleRouter = async () => {
+  for (let i = 0; i < 60; i++) {
+    const here = await page.evaluate(() => location.pathname).catch(() => null);
+    if (here && ROUTED.includes(here)) break;
+    await new Promise((r) => setTimeout(r, 50));
+  }
+  await page.waitForNetworkIdle({ idleTime: 250, timeout: 5000 }).catch(() => {});
+};
+// Opening the app the way a real returning player does -- the bare app
+// root -- and waiting for the router to finish.
+const goHome = async () => {
+  await go('index.html').catch(() => {});
+  await settleRouter();
+};
+
 // Every check below starts from a clean device: no saved team.
 await go('search.html');
 await page.evaluate(() => localStorage.clear());
@@ -148,11 +171,14 @@ await go('odds.html?program=9001');
   check('odds page shows no percentage for a 0-game team', !renderedOdds.includes('NaN') && renderedOdds.includes('—'));
 }
 
-// ---- index.html: the "next game" Home screen -----------------------------
+// ---- gamenight.html: the "next game" Home screen -------------------------
+// Reached only through index.html below, never by typing its URL: the
+// router is the real entry point and this suite's rule is to walk the
+// path a player walks.
 await page.evaluate(() => localStorage.clear());
 
 // (c) No saved team -> straight to search, not a blank/broken state.
-await go('index.html');
+await goHome();
 check('index.html with no saved team redirects to search.html', path() === '/search.html');
 check('search.html (via the redirect) shows the search box', (await page.$('#q')) !== null);
 
@@ -166,7 +192,11 @@ await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
 ));
-await go('index.html');
+await goHome();
+check(
+  `index.html routes a program with no playoff marker to gamenight.html, got ${path()}`,
+  path() === '/gamenight.html?program=9001&team=501',
+);
 {
   const content = await page.content();
   check('Home renders one match card per game on the next scheduled date (2)',
@@ -253,7 +283,9 @@ await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9001, teamId: 503, teamName: '3. Brand New Squad', programName: 'Test Tuesday League' }),
 ));
-await go('index.html');
+await goHome();
+check('a team with no upcoming game of its own still routes to gamenight.html, which owns that fallback',
+  path() === '/gamenight.html?program=9001&team=503');
 {
   const content = await page.content();
   check('Home with no upcoming game says so plainly', content.includes('No game scheduled right now'));
@@ -281,11 +313,120 @@ await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9002, teamId: 504, teamName: '1. Sandbar Sitters', programName: 'Winless Wednesday League' }),
 ));
-await go('index.html');
+await goHome();
 {
   const cells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
   check('Home favors the better of two winless teams (94% / 6%), not the worse one', cells[0] === '94%' && cells[1] === '6%');
   check('Home no longer shows the inverted 20% the old negative-rating formula gave team 504', cells[0] !== '20%');
+}
+
+// ---- index.html as a ROUTER, and playoffs.html ---------------------------
+// index.html used to BE the game-night screen. It is now a thin router
+// over the `tournaments` markers archive/schedule.js captures, and the
+// four blocks below are its whole decision table. (a) above already
+// covers "no marker at all -> game night"; these cover the rest.
+
+// (e) A real playoff marker dated the SAME DAY as the program's next
+// game: playoff night wins. Program 9003's fixture is exactly that shape
+// -- the real one at this venue, where the final league night and the
+// bracket share a date -- so this is what proves the router compares "on
+// or before" rather than "strictly before".
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9003, teamId: 601, teamName: '1. Bracket Bound', programName: 'Playoff Thursday League' }),
+));
+await goHome();
+check(
+  `index.html routes a program whose playoff marker is next to playoffs.html, got ${path()}`,
+  path() === '/playoffs.html?program=9003&team=601',
+);
+{
+  // Rendered text, not page.content(): the page's own source comments and
+  // date-formatting code mention these words, so a substring search of the
+  // raw HTML could pass without the branch ever having run.
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check(
+    `playoffs.html renders the real tournament date from the data (Thursday, March 11), got ${JSON.stringify(rendered.slice(0, 60))}`,
+    rendered.includes('Thursday, March 11'),
+  );
+  check('playoffs.html renders the real tournament start time (18:30 -> 6:30 PM)', rendered.includes('6:30 PM'));
+  check('playoffs.html carries the marker\'s own title from the data', rendered.includes('PLAYOFFS'));
+  check(
+    'playoffs.html is honest about having no live playoff data, and names where the real bracket is',
+    rendered.includes("venue's TV board") && rendered.includes("doesn't have live playoff data yet"),
+  );
+  check(
+    'playoffs.html names the program in its topbar',
+    (await page.$eval('#greet', (el) => el.textContent.trim())) === 'Playoff Thursday League',
+  );
+  // The dead-end mistake this project already made once: a screen whose
+  // Home tab is rendered as the active tab has a null onclick and no way
+  // back at all. playoffs.html is a stub, which makes a way OUT of it the
+  // single most important thing on the page.
+  check(
+    'playoffs.html Home tab is a live link, not the active/disabled tab',
+    await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')),
+  );
+  check(
+    'playoffs.html offers in-page routes to real archived data too',
+    (await page.$$eval('a.textlink', (els) => els.map((el) => el.getAttribute('href')))).join(' ')
+      === 'team.html?team=601&program=9003 rankings.html?program=9003',
+  );
+}
+
+// ...and the Home tab goes back THROUGH index.html, which re-decides --
+// so the same tab lands on game night once playoffs are over, with no
+// change to this page. Every main-frame navigation is recorded, rather
+// than asserting on an intermediate URL, because the router's forward hop
+// can outrun a waitForNavigation.
+{
+  const visited = [];
+  const record = (frame) => { if (frame === page.mainFrame()) visited.push(new URL(frame.url()).pathname); };
+  page.on('framenavigated', record);
+  await clickThrough('.tab[data-tab="home"]');
+  await settleRouter();
+  page.off('framenavigated', record);
+  check(`playoffs.html Home tab routes back through index.html, the router (visited ${visited.join(' -> ')})`,
+    visited.includes('/index.html'));
+  check('...and the router puts this player back on playoff night', path() === '/playoffs.html?program=9003&team=601');
+}
+
+// (f) A real playoff marker that is still WEEKS out, behind the next game
+// night. A marker existing must not be enough on its own: program 9004
+// has one dated 2027-04-08 and a game on 2027-03-11, and game night wins.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9004, teamId: 701, teamName: '1. Still Playing', programName: 'Mid Season League' }),
+));
+await goHome();
+check(
+  `a playoff marker dated after the next game night must not hijack game night, got ${path()}`,
+  path() === '/gamenight.html?program=9004&team=701',
+);
+check('and that game night screen really rendered its match card', (await page.$$('.mgame')).length === 1);
+
+// (g) A marker and NO remaining games at all -- the real live shape of a
+// program whose league nights have run out (verified against the live
+// site: Wednesday Mens 2s AA, playoffs 2026-09-02, zero games left).
+// 9005 also has no standings file, so this doubles as the check that
+// playoffs.html degrades to the saved program name instead of erroring.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9005, teamId: 801, teamName: '1. Season Over', programName: 'Bracketless Wednesday League' }),
+));
+await goHome();
+check(
+  `a playoff marker with no games left routes to playoffs.html, got ${path()}`,
+  path() === '/playoffs.html?program=9005&team=801',
+);
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('playoffs.html renders its real date even for a program with no standings file', rendered.includes('Thursday, March 18'));
+  check('playoffs.html renders a noon start as 12:00 PM, not 0:00 PM', rendered.includes('12:00 PM'));
+  check(
+    'playoffs.html falls back to the saved program name when there is no standings file',
+    (await page.$eval('#greet', (el) => el.textContent.trim())) === 'Bracketless Wednesday League',
+  );
 }
 
 await go('matchup.html?program=9002&team=504');
@@ -310,7 +451,8 @@ await new Promise((r) => setTimeout(r, 300));
 await clickThrough('.result');
 check('search result -> team page', path().startsWith('/team.html') && path().includes('team=501'));
 
-// team.html is NOT Home any more -- Home is index.html, the next-game feed.
+// team.html is NOT Home any more -- Home is index.html, the router, which
+// lands a regular-season player on gamenight.html, the next-game feed.
 // It used to pass active:'home' to wireTabs, which renders Home as the tab
 // you're already on and (by wireTabs' own rule) gives the active tab a null
 // onclick: a navigation dead end with no way back to Home at all.
@@ -319,7 +461,9 @@ check(
   await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')),
 );
 await clickThrough('.tab[data-tab="home"]');
-check('team page Home tab -> the Home (next-game) screen', path() === '/index.html');
+await settleRouter();
+check('team page Home tab -> index.html, which routes on to the game-night screen',
+  path() === '/gamenight.html?program=9001&team=501');
 
 // ...and back to the team page the way a player gets there now: the Home
 // screen's own "Season stats" link.
@@ -345,10 +489,11 @@ check('rankings row -> team page (the drill-down the spec describes)', path().st
 await clickThrough('.card .row-link');
 check('team roster row -> player card', path() === '/player.html?person=1');
 
-// Home now lands on the next-game feed itself (index.html), not a forward
-// straight to team.html -- that forwarding behavior moved off this page.
+// Home now lands on the next-game feed itself, not a forward straight to
+// team.html -- that forwarding behavior moved off this page.
 await clickThrough('.tab[data-tab="home"]');
-check('player card Home tab -> the Home (next-game) screen', path() === '/index.html');
+await settleRouter();
+check('player card Home tab -> the Home (next-game) screen', path() === '/gamenight.html?program=9001&team=501');
 
 // The rare-use escape hatch: a player whose team situation changed can get
 // back to search without clearing site data by hand.
@@ -370,10 +515,12 @@ check('rankings Players tab -> the team captain card', path() === '/player.html?
 // Entered the way a real returning player hits it, per this suite's rule
 // that nothing types a URL. This block used to start with
 // go('team.html?team=8888&program=9999') -- a deep link no player could
-// type -- and that is precisely why it missed the regression: index.html
-// stopped forwarding a saved team to team.html, so team.html's cleanup was
-// no longer anywhere on the path a real player walks. index.html has to
-// recover the pointer itself now, and this proves it does.
+// type -- and that is precisely why it missed the regression: the Home
+// screen stopped forwarding a saved team to team.html, so team.html's
+// cleanup was no longer anywhere on the path a real player walks. The
+// Home screen has to recover the pointer itself now, and this proves it
+// does -- entered through index.html, the router, exactly as a player
+// hits it.
 await go('search.html');
 await page.evaluate(() => localStorage.clear());
 await go('search.html');
@@ -394,7 +541,10 @@ await page.evaluate(() => localStorage.setItem(
 let staleClicks = 0;
 const staleClick = async (selector) => { staleClicks++; await clickThrough(selector); };
 await go('');
-// Rendered text, not page.content(): the raw HTML includes index.html's own
+await settleRouter();
+check('a dead program with no schedule file still routes somewhere real, not a stuck router',
+  path() === '/gamenight.html?program=9999&team=8888');
+// Rendered text, not page.content(): the raw HTML includes gamenight.html's own
 // inline <script> source, so a plain string.includes() against it can pass
 // purely because the source code MENTIONS these words, whether or not the
 // branch that renders them into #body ever actually ran.
@@ -407,7 +557,7 @@ await go('');
   );
 }
 check(
-  'index.html clears the stale pointer itself, without a trip through team.html',
+  'the Home screen clears the stale pointer itself, without a trip through team.html',
   (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null,
 );
 await staleClick('a[href="search.html"]');
