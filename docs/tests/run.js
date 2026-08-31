@@ -133,6 +133,13 @@ check(
 
 await go('rankings.html?program=9001');
 check('rankings shows Testers United', (await page.content()).includes('Testers United'));
+check('rankings strips the leading seed number from the displayed name',
+  !(await page.content()).includes('1. Testers United') && !(await page.content()).includes('1 - Testers United'));
+{
+  const underlined = await page.$$eval('.rank-row', (rows) =>
+    rows.some((r) => getComputedStyle(r.closest('a') ?? r).textDecorationLine !== 'none'));
+  check('rankings rows have no underline', !underlined);
+}
 
 await go('team.html?program=9001&team=501');
 check('team page shows record 8-1-1', (await page.content()).includes('8-1-1'));

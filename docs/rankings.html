@@ -47,7 +47,7 @@ fetchJSON(`data/standings/${programId}.json`).then((data) => {
     <a class="row-link" href="team.html?team=${encodeURIComponent(r.teamId)}&program=${encodeURIComponent(programId)}">
       <div class="rank-row">
         <div class="pos">${r.position}</div>
-        <div class="nm"><b>${escapeHTML(r.teamName)}</b></div>
+        <div class="nm"><b>${escapeHTML(displayTeamName(r.teamName))}</b></div>
         <div class="rec">${r.wins}-${r.losses}-${r.ties}</div>
       </div>
     </a>`).join('');
