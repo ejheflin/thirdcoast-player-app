@@ -133,6 +133,29 @@ function whenBadge(dateISO, time) {
   return t ? `${day} ${t}` : day;
 }
 
+// Display-only: strips a trailing "(First L.)" captain-name parenthetical
+// from a team name before it renders on the match card -- the full
+// roster right below in .mroster already shows and flags the captain,
+// so the parenthetical up here is redundant. Same shape as
+// archive/leagueapps.js's redactTrailingParenthetical (same trailing-
+// paren regex), but REMOVING the group instead of abbreviating it, and
+// display-only: docs/data/*.json itself is untouched, and
+// archive/leagueapps.js's own redaction (a privacy control with its own
+// careful history) is untouched too -- this is cosmetic, not privacy.
+// Common, not an edge case: 1647 of 3758 real team names (44%) carry
+// this suffix. Guarded against a real teamName that IS just a
+// parenthetical ("(Lily P.)", seen in real data) -- stripping
+// unconditionally would leave an empty string, worse than the
+// "redundant" original, so the strip only applies when non-whitespace
+// content survives before it.
+function displayTeamName(teamName) {
+  const name = String(teamName ?? '');
+  const m = /\(([^)]+)\)\s*$/.exec(name);
+  if (!m) return name;
+  const before = name.slice(0, m.index).trim();
+  return before ? before : name;
+}
+
 // One roster row, the same markup team.html uses for the player's own
 // roster -- first names only, captain flagged, each row a drill-down.
 function rosterRowsHTML(roster) {
@@ -190,15 +213,12 @@ function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roste
   return `
     <div class="mgame" style="--ct:${ct};--ct-ink:${ctInk}">
       <div class="mcard${paint?.faint ? ' faint' : ''}">
-        <div class="slab"><span class="cnum">${escapeHTML(slabText)}</span></div>
+        <div class="slab" data-paint="${escapeHTML(paintName)}"><span class="cnum">${escapeHTML(slabText)}</span></div>
         <div class="mbody">
-          <div class="tophat">
-            <span class="ctname">${escapeHTML(paintName)}</span>
-          </div>
           <div class="teams">
-            <div class="side a"><span class="tname">${escapeHTML(myName)}</span>${myRecord ? `<span class="capn">${myRecord}</span>` : ''}</div>
+            <div class="side a"><span class="tname">${escapeHTML(displayTeamName(myName))}</span>${myRecord ? `<span class="capn">${myRecord}</span>` : ''}</div>
             <div class="rule"><span class="vs">vs</span></div>
-            <div class="side b"><span class="tname">${escapeHTML(oppName)}</span>${oppRecord ? `<span class="capn">${oppRecord}</span>` : ''}</div>
+            <div class="side b"><span class="tname">${escapeHTML(displayTeamName(oppName))}</span>${oppRecord ? `<span class="capn">${oppRecord}</span>` : ''}</div>
           </div>
         </div>
         <span class="statetag">${escapeHTML(whenBadge(game.date, game.time))}</span>

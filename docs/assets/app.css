@@ -162,32 +162,48 @@ body{background:#101A2C;display:flex;justify-content:center}
 
 /* ── the match card ──────────────────────────────────────────────────
    A real port of the broadcast board's own court card, not a new
-   component: the rules below are the ones in the brackets repo's
-   prototype/gamenight.html (.card/.slab/.cnum/.tophat/.ctname/.teams/
-   .side/.tname/.capn/.rule/.vs/.statetag), with the same structure -- a
-   full-height painted slab carrying the court number, a court tophat,
-   and the two teams stacked either side of a "vs" rule with a corner
-   state tag. (.lgtag, the board's league-name tag, was ported at first
-   but removed by Fix 2: it truncated a real long program name to a
-   meaningless fragment, and the page's own topbar already shows the
-   full program name, so it was redundant duplication as well as broken.)
+   component: the rules below descend from the ones in the brackets
+   repo's prototype/gamenight.html (.card/.slab/.cnum/.teams/.side/
+   .tname/.capn/.rule/.vs/.statetag), with the same structure -- a
+   full-height painted slab carrying the court number, and the two teams
+   stacked either side of a "vs" rule with a corner state tag. (.lgtag,
+   the board's league-name tag, was ported at first but removed by
+   Fix 2: it truncated a real long program name to a meaningless
+   fragment, and the page's own topbar already shows the full program
+   name, so it was redundant duplication as well as broken. .tophat/
+   .ctname -- the court's paint name spelled out as text, e.g. "purple",
+   "pink" -- was removed the same way on user review: the slab's own
+   paint colour already says which court this is, so the word was
+   redundant too. The name isn't gone from the DOM, just from the
+   render -- .slab carries it as data-paint, which is what the
+   court-identity regression test in docs/tests/run.js reads now.)
 
-   Scaled, not redrawn -- but not by one flat factor. The board is read
-   across a room off a 1920x1080 TV; this is read at arm's length on a
-   ~390px phone. Large geometric elements come down to about 39%, and
-   every proportion and every token relationship among THEM stays exactly
-   as it is on the board:
+   Scaled, not redrawn -- but not by one flat factor, and not by a
+   single small-text floor either any more. The board is read across a
+   room off a 1920x1080 TV; this is read at arm's length on a ~390px
+   phone, and the two classes of element have taken different paths
+   getting there:
+
+   Large geometric elements (the slab, the court number, the corner cut)
+   stayed at the original ~39% board-to-phone scale-down, and every
+   proportion among THEM still matches the board:
        slab width   96px -> 38px        court number  54px -> 21px
-       team name    31px -> 12.5px      corner cut    16px ->  7px
+                                         corner cut    16px ->  7px
                                          vs rule        2px ->  1px
-   Small text (.ctname, .vs, .statetag, .capn, and .lgtag before it was
-   removed) is deliberately NOT held to that same 39%: at that ratio
-   several of these would round under 6px and disappear on a real phone
-   screen. They're scaled less aggressively instead, roughly 56-67%, only
-   down as far as a ~9px legibility floor -- e.g.:
-       captain/meta 16px ->  9px (56%)
-   That's the right call. Don't "fix" these back to a literal 39% -- that
-   makes them unreadably tiny, it doesn't make them more correct.
+   Team names, the corner date/time tag, the odds strip and the opponent
+   roster used to be scaled down with everything else too (down to a
+   ~9px "legibility floor" for the smallest of them), but user review
+   called that floor out directly: team names in particular read as
+   "very, very small" rather than merely compact. Those elements are now
+   sized against this app's OWN "comfortable primary text" scale instead
+   of the board's ratios -- e.g. .team-hero h3 (19px), .rank-row .nm b
+   (14px) -- not shrunk to fit a proportion:
+       .tname   12.5px -> 20px      .statetag   9.5px -> 13px
+       .capn       9px -> 13px      .modds .probbar   20px height, 15px text
+   .tname keeps its overflow:hidden/ellipsis -- a long real team name
+   still clips rather than breaking the card's height or width, which is
+   an accepted tradeoff (most real names fit at this size; a handful of
+   long outliers lose their last few characters), not a bug.
    Colours are the same colours under this project's own names, which is
    the whole point of app.css's token block:
        --pend -> --app-data     --won  -> --app-win     --live -> --app-live
@@ -228,20 +244,25 @@ body{background:#101A2C;display:flex;justify-content:center}
    rather than the board's 2px -- same ring at phone scale. */
 .mgame .mcard.faint .slab{box-shadow:inset 0 0 0 1px rgba(217,201,163,.45)}
 .mgame .cnum{font-family:"Archivo Black",Impact,sans-serif;font-size:21px;line-height:1;color:var(--ct-ink)}
-.mgame .mbody{position:relative;z-index:1;flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
-/* padding-right reserves the corner tag's own column: on the TV the card
-   is wide enough that the tag never reaches the tophat, on a phone it
-   would sit on top of it. */
-.mgame .tophat{display:flex;gap:6px;align-items:center;min-width:0;padding-right:92px}
-/* Fix 2: .lgtag (the league/program tag) is gone -- it truncated a real
-   49-character program name to a meaningless fragment, and the topbar
-   already shows the full program name above every card on this page.
-   .ctname was the only tophat element left, so it gets the row instead
-   of being squeezed to a fixed width alongside .lgtag: flex:1 so it can
-   use the freed space, and a font-size at the small-text floor rather
-   than .lgtag's old sub-floor 8.5px (see the header comment above). */
-.mgame .ctname{flex:1;min-width:0;font-size:9px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--app-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* padding-top pushes ALL content below the corner badge instead of
+   reserving horizontal space from just the top team row. The badge
+   (.statetag, position:absolute, top:0 relative to .mcard) measures
+   25px tall via getBoundingClientRect() -- constant regardless of its
+   text length, since height comes from font-size/line-height/padding,
+   not content width. .mcard's own 8px top padding already accounts
+   for 8 of those 25px before .mbody even starts, so .mbody needs
+   25px of its own padding-top to clear the remaining 17px plus an
+   8px visual gap (131 -> 156 in real rendered coordinates, vs. the
+   badge's own bottom edge at 148). This replaces the old approach of
+   reserving horizontal space on .side.a alone (the top team row): that
+   made the TOP row (always the PLAYER'S OWN team) meaningfully
+   narrower than the bottom row, every card, every load -- a real
+   systematic bias against exactly the name a player most wants to
+   read clearly. Pushing both rows below the badge instead costs the
+   card some extra height (roughly a badge's worth) but gives BOTH
+   rows the card's full ~294px content width, equally -- the badge now
+   occupies the same empty top band the old .tophat row used to. */
+.mgame .mbody{position:relative;z-index:1;flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;padding-top:25px}
 .mgame .teams{position:relative}
 .mgame .side{display:flex;align-items:baseline;gap:5px;min-width:0;padding:1px 0}
 /* Fix 1: the odds strip below colours "my team" pink (.probbar .a) and
@@ -258,9 +279,9 @@ body{background:#101A2C;display:flex;justify-content:center}
 /* min-width:0 is the one addition the board's rule doesn't need: a
    flex item won't shrink below its content without it, so a long real
    team name would push out of the card instead of ellipsing. */
-.mgame .tname{min-width:0;text-transform:uppercase;font-weight:700;font-size:12.5px;letter-spacing:.015em;
-  line-height:1.12;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.mgame .capn{flex:none;font-size:9px;letter-spacing:.06em;text-transform:uppercase;
+.mgame .tname{min-width:0;text-transform:uppercase;font-weight:700;font-size:20px;letter-spacing:.005em;
+  line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mgame .capn{flex:none;font-size:13px;letter-spacing:.04em;text-transform:uppercase;
   color:var(--app-dim);white-space:nowrap}
 .mgame .rule{position:relative;height:1px;margin:3px 0;background:var(--app-line)}
 /* --app-dim, not a darker grey: the board's note here is that #5B6577
@@ -275,21 +296,24 @@ body{background:#101A2C;display:flex;justify-content:center}
    upcoming-game blue here (see the note above). */
 .mgame .statetag{position:absolute;right:var(--mc-cut);top:0;z-index:3;
   background:var(--app-data);color:var(--app-on-fill);
-  font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px 3px}
+  font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px 5px}
 
 /* attached to the card above it: same background, divided by a line
    rather than a gap, inside the same pair of corner cuts. */
-.mgame .modds{border-top:1px solid var(--app-line);padding:9px 11px 10px}
-.mgame .modds .probbar{height:20px;border-radius:0;font-size:11px;margin-top:0}
-.mgame .modds .h2h-meta{font-size:10px;margin-top:6px}
-.mgame .mroster{border-top:1px solid var(--app-line);padding:2px 11px 7px}
-.mgame .mroster .rlbl{font-size:9.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--app-faint);padding:8px 2px 0}
+.mgame .modds{border-top:1px solid var(--app-line);padding:10px 11px 11px}
+.mgame .modds .probbar{height:28px;border-radius:0;font-size:15px;margin-top:0}
+.mgame .modds .h2h-meta{font-size:12.5px;margin-top:7px}
+.mgame .mroster{border-top:1px solid var(--app-line);padding:2px 11px 8px}
+.mgame .mroster .rlbl{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--app-faint);padding:9px 2px 0}
 /* Fix 3: rosterRowsHTML() reuses team.html's .roster-row markup verbatim
    (there's no build step to fork a component, this project's established
-   convention), but team.html's own row is sized for a full 200-470px
-   roster section, not a ~74px-tall match card. Scoped to .mgame .mroster
-   only -- team.html's own roster keeps its full-size row untouched. */
-.mgame .mroster .roster-row{gap:7px;padding:6px 2px;font-size:11px}
-.mgame .mroster .roster-row .ini{width:18px;height:18px;border-radius:6px;font-size:9px}
-.mgame .mroster .roster-row .cap{font-size:8.5px}
+   convention). It used to be scaled down well below team.html's own row
+   to fit a compact card; user review asked for it larger and easier to
+   read instead, so it's now sized AT (.ini/.cap) or above (gap/padding/
+   font-size) team.html's own full-size row -- not shrunk. Scoped to
+   .mgame .mroster only -- team.html's own roster is untouched either
+   way. */
+.mgame .mroster .roster-row{gap:10px;padding:9px 2px;font-size:14px}
+.mgame .mroster .roster-row .ini{width:26px;height:26px;border-radius:8px;font-size:11px}
+.mgame .mroster .roster-row .cap{font-size:10.5px}

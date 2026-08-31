@@ -222,7 +222,12 @@ check(
   // ring the board gives them -- the .faint class).
   const courts = await page.$$eval('.mgame', (cards) => cards.map((c) => ({
     num: c.querySelector('.cnum').textContent.trim(),
-    paint: c.querySelector('.ctname').textContent.trim(),
+    // The paint name is no longer rendered as visible text (Eric: "purple"
+    // and "pink" spelled out on the card are redundant with the slab's own
+    // colour) but it stays recoverable in the DOM via data-paint on the
+    // slab itself, so this coverage -- that the RIGHT court attached to
+    // the RIGHT card -- survives unweakened.
+    paint: c.querySelector('.slab').getAttribute('data-paint'),
     faint: c.querySelector('.mcard').classList.contains('faint'),
     fill: c.style.getPropertyValue('--ct').trim(),
   })));
