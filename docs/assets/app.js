@@ -57,8 +57,8 @@ function escapeHTML(str) {
 // back to the saved team, and a tab with no reachable destination is
 // visibly disabled rather than silently doing nothing.
 //
-//   Home     -> index.html, which forwards a returning player straight to
-//               their saved team's page and shows search to everyone else.
+//   Home     -> index.html, the next-game feed for a returning player's
+//               saved team, or straight to search.html for everyone else.
 //   Ranks    -> rankings.html for the program in context.
 //   Matchup  -> matchup.html for the team in context.
 //   Players  -> the player card for the team in context's captain (there

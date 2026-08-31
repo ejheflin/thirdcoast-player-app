@@ -61,11 +61,6 @@ document.getElementById('q').addEventListener('input', (e) => {
   currentQuery = e.target.value.trim().toLowerCase();
   performSearch(currentQuery);
 });
-
-// Returning player: skip the search entirely. team.html clears the saved
-// pointer if it turns out to be stale, so this can't bounce forever.
-const existing = getMyTeam();
-if (existing) location.href = `team.html?team=${encodeURIComponent(existing.teamId)}&program=${encodeURIComponent(existing.programId)}`;
 </script>
 </body>
 </html>

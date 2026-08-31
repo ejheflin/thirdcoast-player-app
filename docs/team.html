@@ -37,11 +37,12 @@ Promise.all([
   const row = standings?.rows.find((r) => r.teamId === teamId);
   if (!standings || !row) {
     // The saved pointer is stale (a season rolled over, or the program was
-    // pulled). Drop it, or index.html would forward straight back here on
-    // the next visit and the "search again" link below could never be
-    // reached -- an inescapable bounce with no way out but clearing site
-    // data by hand. Only clear it when it's THIS team that's missing, so
-    // browsing to some other dead team's URL doesn't wipe a good pointer.
+    // pulled). Drop it, or index.html (the Home screen) would keep trying
+    // to build a home feed for this dead team forever, and the "search
+    // again" link below would be the only way out -- an inescapable stuck
+    // state with no way out but clearing site data by hand. Only clear it
+    // when it's THIS team that's missing, so browsing to some other dead
+    // team's URL doesn't wipe a good pointer.
     const saved = getMyTeam();
     if (saved && String(saved.programId) === String(programId) && String(saved.teamId) === String(teamId)) {
       clearMyTeam();
