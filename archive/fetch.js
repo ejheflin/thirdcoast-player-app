@@ -10,7 +10,7 @@ import { dirname } from 'node:path';
 import * as leagueapps from './leagueapps.js';
 import { firstNameOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
-import { extractUpcomingGame } from './schedule.js';
+import { extractUpcomingGame, extractTournamentMarker } from './schedule.js';
 
 async function realReadJSON(path) {
   try {
@@ -130,22 +130,38 @@ export async function runArchive(deps) {
     }
 
     // Same already-fetched `activities` array, reused rather than fetched
-    // again -- upcoming games for the "next game" home screen.
+    // again -- upcoming games for the "next game" home screen, and the
+    // program-wide playoff markers the site's router needs to tell a
+    // playoff night from a regular one. One pass, two collectors: the
+    // markers live in the SAME schedule file as the games because they
+    // are the same thing (this program's upcoming calendar), and the
+    // router reads both together to decide which is next.
     const todayISO = new Date().toISOString().slice(0, 10);
     const upcomingByProgram = new Map();
+    const tournamentsByProgram = new Map();
+    const pushTo = (map, programId, value) => {
+      if (!map.has(programId)) map.set(programId, []);
+      map.get(programId).push(value);
+    };
     for (const activity of activities) {
       const game = extractUpcomingGame(activity, todayISO, courtName);
-      if (!game) continue;
-      if (!upcomingByProgram.has(activity.programId)) upcomingByProgram.set(activity.programId, []);
-      upcomingByProgram.get(activity.programId).push(game);
+      if (game) pushTo(upcomingByProgram, activity.programId, game);
+      const tournament = extractTournamentMarker(activity, todayISO);
+      if (tournament) pushTo(tournamentsByProgram, activity.programId, tournament);
     }
+    const byDateThenTime = (a, b) => {
+      const dateCmp = a.date.localeCompare(b.date);
+      if (dateCmp !== 0) return dateCmp;
+      return (a.time ?? '').localeCompare(b.time ?? '');
+    };
     for (const program of activePrograms) {
-      const games = (upcomingByProgram.get(program.id) ?? []).sort((a, b) => {
-        const dateCmp = a.date.localeCompare(b.date);
-        if (dateCmp !== 0) return dateCmp;
-        return (a.time ?? '').localeCompare(b.time ?? '');
+      const games = (upcomingByProgram.get(program.id) ?? []).sort(byDateThenTime);
+      const tournaments = (tournamentsByProgram.get(program.id) ?? []).sort(byDateThenTime);
+      await writeJSON(`docs/data/schedule/${program.id}.json`, {
+        programId: program.id,
+        games,
+        tournaments,
       });
-      await writeJSON(`docs/data/schedule/${program.id}.json`, { programId: program.id, games });
     }
   }
 

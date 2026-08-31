@@ -29,6 +29,30 @@ test('runArchive writes standings for every program, activities+roster only for 
             { teamId: 11, teamName: 'Team B' },
           ],
         },
+        // The real live shape of a playoff marker: program-wide, no teams.
+        // Dated AFTER game 901 so the ordering assertion below is real.
+        {
+          id: 902, programId: 2, state: 'scheduled', type: 'event_tournament',
+          title: 'PLAYOFFS', start: { date: '2099-02-20', time: '18:30' },
+          end: { date: '2099-02-20', time: '23:55' }, teams: [],
+        },
+        // A second marker, EARLIER than 902, so "tournaments come out
+        // sorted" can't pass just because the input happened to be sorted.
+        {
+          id: 903, programId: 2, state: 'scheduled', type: 'event_tournament',
+          title: 'PLAYOFFS', start: { date: '2099-02-13', time: '12:00' }, teams: [],
+        },
+        // Must be dropped: a past marker and a rescheduled one. Without
+        // the gating these would send a player to the playoffs screen on
+        // an ordinary league night.
+        {
+          id: 904, programId: 2, state: 'scheduled', type: 'event_tournament',
+          title: 'PLAYOFFS', start: { date: '2001-01-01', time: '18:30' }, teams: [],
+        },
+        {
+          id: 905, programId: 2, state: 'rescheduled', type: 'event_tournament',
+          title: 'PLAYOFFS', start: { date: '2099-03-01', time: '18:30' }, teams: [],
+        },
       ];
     },
     fetchStandingsHTML: async (id) => `<standings-for-${id}>`,
@@ -82,6 +106,53 @@ test('runArchive writes standings for every program, activities+roster only for 
   assert.equal(schedule2.games[0].date, '2099-01-15');
   assert.equal(schedule2.games[0].courtName, 'Court 2', 'the real venue subLocationId should resolve to its court name');
   assert.equal(writes.has('docs/data/schedule/1.json'), false, 'a completed program gets no schedule file');
+
+  // The program-wide playoff markers, in the SAME schedule file as the
+  // games (not a file of their own) -- the site's router reads both
+  // together to decide whether tonight is playoff night or game night,
+  // so splitting them would mean two fetches to answer one question.
+  assert.deepEqual(schedule2.tournaments, [
+    { activityId: 903, date: '2099-02-13', time: '12:00', title: 'PLAYOFFS' },
+    { activityId: 902, date: '2099-02-20', time: '18:30', title: 'PLAYOFFS' },
+  ], 'only the two future, scheduled markers, sorted by date then time');
+  assert.equal(
+    schedule2.tournaments.some((t) => t.activityId === 904 || t.activityId === 905),
+    false,
+    'a past marker and a rescheduled marker must never reach the site',
+  );
+  // Markers are not games and games are not markers: neither collector
+  // may pick up the other's activities.
+  assert.equal(schedule2.games.some((g) => g.activityId === 902), false);
+  assert.equal(schedule2.tournaments.some((t) => t.activityId === 901), false);
+});
+
+// A program with no playoff marker at all must still get the key, as an
+// empty array. The router does `schedule?.tournaments ?? []`, so a missing
+// key would not crash -- but every consumer would then have to know that
+// "absent" and "empty" mean the same thing, and the shape of this file
+// would silently differ program to program.
+test('runArchive writes an empty tournaments array for an active program with no playoff marker', async () => {
+  const writes = new Map();
+  await runArchive({
+    fetchPrograms: async () => [{ id: 7, name: 'Live League', state: 'LIVE' }],
+    fetchActivities: async () => [
+      {
+        id: 910, programId: 7, state: 'scheduled', type: 'game_season',
+        start: { date: '2099-01-15', time: '19:00' }, subLocationId: 70291,
+        teams: [{ teamId: 10, teamName: 'Team A' }, { teamId: 11, teamName: 'Team B' }],
+      },
+    ],
+    fetchStandingsHTML: async () => '<standings>',
+    parseStandings: () => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    fetchLocations: async () => [{ id: 107614, name: 'V', subLocations: [{ id: 70291, name: 'Court 2' }] }],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+  const schedule = writes.get('docs/data/schedule/7.json');
+  assert.deepEqual(schedule.tournaments, []);
+  assert.equal(schedule.games.length, 1, 'the regular game is untouched by the tournament capture');
 });
 
 // The archiver rewrites every standings file on every run; if any field in
