@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Schedule — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Full <em style="color:var(--app-win)">Schedule</em></div></div></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="schedule"><div class="dot"><svg class="icon"><use href="#i-calendar"/></svg></div>Schedule</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+const programId = new URLSearchParams(location.search).get('program');
+const saved = getMyTeam();
+const teamId = saved ? Number(saved.teamId) : null;
+wireTabs({ active: 'schedule', programId });
+
+// Same "HH:MM" -> "7p"/"7:30p" convention gamenight.html established --
+// duplicated here, not shared, per this project's own no-shared-module
+// convention (see gamenight.html's own header comment on the same point).
+function shortTime(time) {
+  const [hh, mm] = String(time).split(':').map(Number);
+  if (!Number.isFinite(hh) || !Number.isFinite(mm)) return '';
+  const suffix = hh >= 12 ? 'p' : 'a';
+  const h12 = ((hh + 11) % 12) + 1;
+  return mm === 0 ? `${h12}${suffix}` : `${h12}:${String(mm).padStart(2, '0')}${suffix}`;
+}
+
+// Day-only label for a SECTION HEADER (one per date, not per row --
+// gamenight.html's whenBadge() combines day+time into one per-row corner
+// tag, which is the wrong shape here since several games can share one
+// date). 'long' weekday/month, not gamenight's compact 'short' form --
+// this is a full page with room to spare, not a 294px card.
+function dayLabel(dateISO) {
+  const [y, m, d] = String(dateISO).split('-').map(Number);
+  const game = new Date(y, m - 1, d);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.round((game - today) / 86400000);
+  if (days === 0) return 'Today';
+  if (days > 0 && days < 7) return game.toLocaleDateString(undefined, { weekday: 'long' });
+  return game.toLocaleDateString(undefined, { month: 'long', day: 'numeric' });
+}
+
+async function main() {
+  const bodyEl = document.getElementById('body');
+  if (!saved || programId == null) {
+    bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We can\'t find a saved team — <a href="search.html" style="color:var(--app-data)">search again</a>.</p>';
+    return;
+  }
+
+  const [schedule, standings] = await Promise.all([
+    fetchJSON(`data/schedule/${programId}.json`),
+    fetchJSON(`data/standings/${programId}.json`),
+  ]);
+
+  document.getElementById('greet').textContent = standings?.programName ?? saved.programName ?? '';
+
+  const myGames = (schedule?.games ?? [])
+    .filter((g) => g.teams.some((t) => t.teamId === teamId))
+    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+
+  if (myGames.length === 0) {
+    bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">No games left on the schedule.</p>';
+    return;
+  }
+
+  const byDate = [];
+  for (const g of myGames) {
+    let group = byDate.find((x) => x.date === g.date);
+    if (!group) { group = { date: g.date, games: [] }; byDate.push(group); }
+    group.games.push(g);
+  }
+
+  const rowsHtml = byDate.map((group) => `
+    <div class="sec-lbl">${escapeHTML(dayLabel(group.date))}</div>
+    <div class="card" style="padding:2px 8px">
+      ${group.games.map((g) => {
+        const opp = g.teams.find((t) => t.teamId !== teamId);
+        const oppRow = opp ? standings?.rows?.find((r) => r.teamId === opp.teamId) : null;
+        const oppName = opp ? displayTeamName(opp.teamName) : 'TBD';
+        const oppRecord = oppRow ? `${oppRow.wins}-${oppRow.losses}-${oppRow.ties}` : '';
+        return `
+          <a class="row-link" href="team.html?team=${encodeURIComponent(opp?.teamId ?? '')}&program=${encodeURIComponent(programId)}">
+            <div class="sched-row">
+              <div class="sched-when">${escapeHTML(shortTime(g.time))}<span class="sched-court">${escapeHTML(g.courtName ?? '')}</span></div>
+              <div class="sched-opp">${escapeHTML(oppName)}</div>
+              <div class="sched-rec">${escapeHTML(oppRecord)}</div>
+            </div>
+          </a>`;
+      }).join('')}
+    </div>`).join('');
+
+  const marker = (schedule?.tournaments ?? [])[0];
+  const markerHtml = marker
+    ? `<div class="sec-lbl">${escapeHTML(dayLabel(marker.date))}</div>
+       <div class="card" style="padding:14px 12px;text-align:center">
+         <b style="font-family:'Archivo Black',Impact,sans-serif;font-size:16px;letter-spacing:.04em">${escapeHTML(marker.title)}</b>
+       </div>`
+    : '';
+
+  bodyEl.innerHTML = rowsHtml + markerHtml;
+}
+
+main();
+</script>
+</body>
+</html>

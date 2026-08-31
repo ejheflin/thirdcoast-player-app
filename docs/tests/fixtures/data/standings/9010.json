@@ -1,0 +1,10 @@
+{
+  "programId": 9010,
+  "programName": "Schedule Test League",
+  "rows": [
+    {"position":1,"teamId":701,"teamName":"1. Spike Force","gamesPlayed":8,"wins":6,"losses":2,"ties":0,"points":12},
+    {"position":2,"teamId":702,"teamName":"2. Net Ninjas","gamesPlayed":8,"wins":6,"losses":2,"ties":0,"points":12},
+    {"position":3,"teamId":703,"teamName":"3. Ace Ventura","gamesPlayed":8,"wins":4,"losses":4,"ties":0,"points":8},
+    {"position":4,"teamId":704,"teamName":"4. Block Party","gamesPlayed":8,"wins":2,"losses":6,"ties":0,"points":4}
+  ]
+}

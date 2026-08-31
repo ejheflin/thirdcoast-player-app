@@ -1,0 +1,38 @@
+{
+  "programId": 9010,
+  "games": [
+    {
+      "activityId": 9010001,
+      "date": "2026-09-14",
+      "time": "19:00",
+      "courtName": "Court 3",
+      "teams": [
+        {"teamId": 701, "teamName": "1. Spike Force"},
+        {"teamId": 702, "teamName": "2. Net Ninjas"}
+      ]
+    },
+    {
+      "activityId": 9010002,
+      "date": "2026-09-21",
+      "time": "19:00",
+      "courtName": "Court 1",
+      "teams": [
+        {"teamId": 701, "teamName": "1. Spike Force"},
+        {"teamId": 703, "teamName": "3. Ace Ventura"}
+      ]
+    },
+    {
+      "activityId": 9010003,
+      "date": "2026-09-21",
+      "time": "20:00",
+      "courtName": "Court 4",
+      "teams": [
+        {"teamId": 701, "teamName": "1. Spike Force"},
+        {"teamId": 704, "teamName": "4. Block Party"}
+      ]
+    }
+  ],
+  "tournaments": [
+    {"activityId": 9010900, "date": "2026-09-28", "time": "18:00", "title": "PLAYOFFS"}
+  ]
+}

@@ -637,6 +637,34 @@ check(
   staleClicks <= 1,
 );
 
+// ---- schedule.html --------------------------------------------------------
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9010, teamId: 701, teamName: '1. Spike Force', programName: 'Schedule Test League' }),
+));
+await go('schedule.html?program=9010');
+{
+  const dateHeaders = await page.$$eval('.sec-lbl', (els) => els.map((el) => el.textContent.trim()));
+  check(`schedule groups games under a header per date, got ${JSON.stringify(dateHeaders)}`,
+    dateHeaders.length === 2 || dateHeaders.length === 3);
+
+  const rows = await page.$$eval('.sched-row', (els) => els.map((el) => ({
+    opp: el.querySelector('.sched-opp')?.textContent.trim() ?? '',
+    rec: el.querySelector('.sched-rec')?.textContent.trim() ?? '',
+  })));
+  check(`schedule lists all 3 remaining games, got ${rows.length}`, rows.length === 3);
+  check('schedule shows the opponent name without the leading seed number',
+    rows.some((r) => r.opp === 'Net Ninjas') && rows.some((r) => r.opp === 'Ace Ventura') && rows.some((r) => r.opp === 'Block Party'));
+  check('schedule shows each opponent\'s real record',
+    rows.some((r) => r.rec === '6-2-0') && rows.some((r) => r.rec === '4-4-0') && rows.some((r) => r.rec === '2-6-0'));
+
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('schedule includes the season playoff marker', rendered.includes('PLAYOFFS'));
+}
+
+await clickThrough('.sched-row a, a.row-link');
+check('schedule row -> that opponent\'s team page', path().startsWith('/team.html') && path().includes('program=9010'));
+
 check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 
 await browser.close();
