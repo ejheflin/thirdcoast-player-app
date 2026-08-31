@@ -1,6 +1,7 @@
 {
   "programId": 9001,
   "games": [
-    {"activityId":1,"date":"2026-08-01","teams":[{"teamId":501,"teamName":"1. Testers United","result":"win","score":2},{"teamId":502,"teamName":"2. Fixture FC","result":"loss","score":0}]}
+    {"activityId":1,"date":"2026-08-01","teams":[{"teamId":501,"teamName":"1. Testers United","result":"win","score":2},{"teamId":502,"teamName":"2. Fixture FC","result":"loss","score":0}]},
+    {"activityId":2,"date":"2026-07-15","teams":[{"teamId":503,"teamName":"3. Brand New Squad","result":"loss","score":1},{"teamId":999,"teamName":"Bye Week Rivals","result":"win","score":2}]}
   ]
 }

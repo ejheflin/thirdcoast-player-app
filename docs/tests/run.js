@@ -60,22 +60,22 @@ const clickThrough = (selector) =>
   Promise.all([page.waitForNavigation({ waitUntil: 'networkidle0' }), page.click(selector)]);
 
 // Every check below starts from a clean device: no saved team.
-await go('index.html');
+await go('search.html');
 await page.evaluate(() => localStorage.clear());
 
 // ---- page content -------------------------------------------------------
-await go('index.html');
+await go('search.html');
 await page.type('#q', 'test', { delay: 20 });
 await new Promise((r) => setTimeout(r, 300));
-check('index search finds Testers United for query "test"', (await page.content()).includes('Testers United'));
+check('search finds Testers United for query "test"', (await page.content()).includes('Testers United'));
 check(
-  'index search excludes teams that do not match the query',
+  'search excludes teams that do not match the query',
   !(await page.content()).includes('Fixture FC'),
 );
 // The entry point must be able to scroll its results: 15 matches at ~72px
 // each overflow any phone screen, and this page used to have no scroller.
 check(
-  'index results live in the scrollable .body pane',
+  'search results live in the scrollable .body pane',
   await page.$eval('#results', (el) => el.classList.contains('body') && getComputedStyle(el).overflowY === 'auto'),
 );
 
@@ -120,18 +120,67 @@ await go('odds.html?program=9001');
   // Both are within the top-CUTOFF(4) here, so both floor at >=50%; no team holds position 4, so
   // the cutoff rating falls back to the lowest-rated team's own rating (0.64), giving team 501 a
   // gap of +0.22 -> 50+88=138, clamped to 100%, and team 502 a gap of 0 -> exactly 50%. Team 503
-  // has played nothing and gets no percentage at all.
+  // has played nothing and gets no percentage at all. (Team 503's separate, unrelated activity
+  // fixture entry vs. teamId 999 -- used only by the Home-screen checks below -- never touches
+  // team 501 or 502, so it can't perturb this hand-computed math.)
   check('odds page shows the correct playoff percentage for the leader (100%)', content.includes('100%'));
   check('odds page shows the correct playoff percentage for the trailing team (50%)', content.includes('50%'));
   const renderedOdds = await page.$eval('#rows', (el) => el.innerText);
   check('odds page shows no percentage for a 0-game team', !renderedOdds.includes('NaN') && renderedOdds.includes('—'));
 }
 
+// ---- index.html: the "next game" Home screen -----------------------------
+await page.evaluate(() => localStorage.clear());
+
+// (c) No saved team -> straight to search, not a blank/broken state.
+await go('index.html');
+check('index.html with no saved team redirects to search.html', path() === '/search.html');
+check('search.html (via the redirect) shows the search box', (await page.$('#q')) !== null);
+
+// (a) A saved team with a real upcoming game: opponent, date, and a
+// probability split with no NaN. Team 501 vs. 502 comes from the new
+// tests/fixtures/data/schedule/9001.json fixture; both teams have played
+// games in standings/9001.json, so the model has something to rate.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+));
+await go('index.html');
+{
+  const content = await page.content();
+  check('Home shows the real upcoming opponent', content.includes('Fixture FC'));
+  check('Home shows the real game date', content.includes('Sep 10'));
+  check('Home shows a probability bar for the upcoming game', content.includes('probbar'));
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('Home never renders NaN in the probability split', !rendered.includes('NaN'));
+  check('Home links to Season stats for this team/program', await page.$eval(
+    'a.textlink',
+    (el) => el.getAttribute('href') === 'team.html?team=501&program=9001',
+  ));
+}
+
+// (b) A saved team with an empty/no-matching schedule falls back to
+// last-result content, not a blank page. Team 503 has no entry in
+// schedule/9001.json but does have a real played game in activities/9001.json.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 503, teamName: '3. Brand New Squad', programName: 'Test Tuesday League' }),
+));
+await go('index.html');
+{
+  const content = await page.content();
+  check('Home with no upcoming game says so plainly', content.includes('No game scheduled right now'));
+  check('Home falls back to the team\'s last played result', content.includes('Last result') && content.includes('Bye Week Rivals'));
+  check('Home still shows the team\'s current record in the fallback state', content.includes('0-0-0'));
+}
+
+await page.evaluate(() => localStorage.clear());
+
 // ---- navigation: every page reachable using only in-app links -----------
 // Nothing below types a URL; each step clicks what a real player would.
-await go('index.html');
+await go('search.html');
 await page.evaluate(() => localStorage.clear());
-await go('index.html');
+await go('search.html');
 await page.type('#q', 'testers', { delay: 20 });
 await new Promise((r) => setTimeout(r, 300));
 await clickThrough('.result');
@@ -156,8 +205,10 @@ check('rankings row -> team page (the drill-down the spec describes)', path().st
 await clickThrough('.card .row-link');
 check('team roster row -> player card', path() === '/player.html?person=1');
 
+// Home now lands on the next-game feed itself (index.html), not a forward
+// straight to team.html -- that forwarding behavior moved off this page.
 await clickThrough('.tab[data-tab="home"]');
-check('player card Home tab -> back to the saved team', path().startsWith('/team.html'));
+check('player card Home tab -> the Home (next-game) screen', path() === '/index.html');
 
 // The Players tab resolves the team's captain from the roster file.
 await go('rankings.html?program=9001');
@@ -170,16 +221,22 @@ await clickThrough('.tab[data-tab="players"]');
 check('rankings Players tab -> the team captain card', path() === '/player.html?person=1');
 
 // ---- a stale saved team must recover, not bounce forever ----------------
-await go('index.html');
+// team.html's own stale-pointer cleanup is unchanged; what's new is the
+// chain it now hands off into: index.html no longer blindly forwards a
+// saved team to team.html, so "search again" must pass back through
+// index.html's own redirect-to-search.html logic once the pointer is gone.
+await go('team.html?team=8888&program=9999');
 await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9999, teamId: 8888, teamName: 'Gone Team', programName: 'Dead League' }),
 ));
-await go('index.html');
+await go('team.html?team=8888&program=9999');
 check('a stale saved team lands on the cannot-find-this-team message', (await page.content()).includes('find this team'));
 check('the stale pointer is cleared', (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null);
-await clickThrough('a[href="index.html"]');
-check('search again now reaches the search box instead of redirecting back', (await page.$('#q')) !== null);
+await page.click('a[href="index.html"]');
+await page.waitForFunction(() => location.pathname === '/search.html', { timeout: 5000 });
+check('search again passes through index.html and lands on search.html now that no team is saved', path() === '/search.html');
+check('search again now reaches the search box instead of getting stuck', (await page.$('#q')) !== null);
 
 check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 

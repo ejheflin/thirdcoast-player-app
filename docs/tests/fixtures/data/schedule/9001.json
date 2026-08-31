@@ -1,0 +1,15 @@
+{
+  "programId": 9001,
+  "games": [
+    {
+      "activityId": 9001501,
+      "date": "2026-09-10",
+      "time": "19:00",
+      "courtName": "Court 2",
+      "teams": [
+        {"teamId": 501, "teamName": "1. Testers United"},
+        {"teamId": 502, "teamName": "2. Fixture FC"}
+      ]
+    }
+  ]
+}

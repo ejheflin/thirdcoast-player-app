@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home — Third Coast Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Next <em style="color:var(--app-win)">Game</em></div></div></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="matchup"><div class="dot"><svg class="icon"><use href="#i-matchup"/></svg></div>Matchup</div>
+    <div class="tab" data-tab="players"><div class="dot"><svg class="icon"><use href="#i-person"/></svg></div>Players</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+// Returning player only: index.html is the "next game" home feed, so
+// there's nothing to show without a saved team. search.html owns the
+// opposite direction (it no longer redirects a returning player away).
+const saved = getMyTeam();
+if (!saved) {
+  location.href = 'search.html';
+} else {
+  main(saved);
+}
+
+// setDiffFor/ratingFor copied verbatim from matchup.html (also duplicated
+// in odds.html) -- this project's established convention, since there's
+// no build step to share a module across pages.
+function setDiffFor(teamId, games) {
+  return games.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    if (!me || !opp) return sum;
+    return sum + (me.score - opp.score);
+  }, 0);
+}
+
+// Only ever called for a team that has actually played: with gamesPlayed
+// 0 both terms divide by zero and every number downstream becomes NaN.
+function ratingFor(row, games) {
+  const winRate = (row.wins + 0.5 * row.ties) / row.gamesPlayed;
+  const setDiffPerGame = setDiffFor(row.teamId, games) / row.gamesPlayed;
+  return winRate + setDiffPerGame * 0.05;
+}
+
+function avatarFor(name) {
+  return escapeHTML(name.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase());
+}
+
+// "YYYY-MM-DD" parsed as local calendar fields, not handed to `new
+// Date(str)` directly -- that parses as UTC midnight and can print the
+// wrong weekday/day depending on the viewer's timezone.
+function formatDate(dateISO) {
+  const [y, m, d] = dateISO.split('-').map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+// "HH:MM" 24-hour, as archive/schedule.js writes it.
+function formatTime(time) {
+  const [hh, mm] = time.split(':').map(Number);
+  const period = hh >= 12 ? 'PM' : 'AM';
+  const h12 = ((hh + 11) % 12) + 1;
+  return `${h12}:${String(mm).padStart(2, '0')} ${period}`;
+}
+
+async function main(saved) {
+  const programId = saved.programId;
+  const teamId = Number(saved.teamId);
+  // Own home feed, so Home is the tab you're on. No personId yet -- like
+  // matchup.html/rankings.html/odds.html, wireTabs resolves the captain
+  // of the team in context (this team) on its own once the roster loads.
+  wireTabs({ active: 'home', programId, teamId });
+
+  const bodyEl = document.getElementById('body');
+  const [schedule, standings, activities] = await Promise.all([
+    fetchJSON(`data/schedule/${programId}.json`),
+    fetchJSON(`data/standings/${programId}.json`),
+    fetchJSON(`data/activities/${programId}.json`),
+  ]);
+
+  document.getElementById('greet').textContent = standings?.programName ?? saved.programName ?? '';
+
+  const myRow = standings?.rows?.find((r) => r.teamId === teamId);
+  const games = activities?.games ?? [];
+  const myGames = games.filter((g) => g.teams.some((t) => t.teamId === teamId));
+
+  const seasonStatsLink =
+    `<p style="margin-top:18px"><a class="textlink" href="team.html?team=${encodeURIComponent(teamId)}&program=${encodeURIComponent(programId)}">Season stats →</a></p>`;
+
+  // The array's own natural ascending date/time order already makes the
+  // first match here the next one chronologically -- no re-sorting needed.
+  const nextGame = (schedule?.games ?? []).find((g) => g.teams.some((t) => t.teamId === teamId));
+
+  if (nextGame) {
+    const opponent = nextGame.teams.find((t) => t.teamId !== teamId);
+    const oppRow = opponent ? standings?.rows?.find((r) => r.teamId === opponent.teamId) : null;
+    const roster = opponent
+      ? await fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(opponent.teamId)}.json`)
+      : null;
+
+    const myName = myRow?.teamName ?? saved.teamName ?? 'Your team';
+    const myRecord = myRow ? `${myRow.wins}-${myRow.losses}-${myRow.ties}` : '';
+    const oppName = opponent?.teamName ?? 'TBD';
+    const oppRecord = oppRow ? `${oppRow.wins}-${oppRow.losses}-${oppRow.ties}` : '';
+
+    const dateTimeStr = nextGame.time ? `${formatDate(nextGame.date)} · ${formatTime(nextGame.time)}` : formatDate(nextGame.date);
+    const courtLabel = nextGame.courtName ? nextGame.courtName : 'court TBD';
+
+    const myRating = myRow && myRow.gamesPlayed > 0 ? ratingFor(myRow, games) : null;
+    const oppRating = oppRow && oppRow.gamesPlayed > 0 ? ratingFor(oppRow, games) : null;
+
+    let verdict;
+    if (myRating === null || oppRating === null) {
+      verdict = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
+    } else {
+      let pctMe = Math.round((myRating / (myRating + oppRating)) * 100);
+      pctMe = Math.max(1, Math.min(99, pctMe));
+      const pctOpp = 100 - pctMe;
+      verdict = `
+        <div class="probbar"><div class="a" style="flex:${pctMe}">${pctMe}%</div><div class="b" style="flex:${pctOpp}">${pctOpp}%</div></div>
+        <div class="h2h-meta">Model: season win-rate + set differential per game.</div>`;
+    }
+
+    const rosterPlayers = roster?.players ?? [];
+    // Same roster-row markup team.html uses for the player's own roster --
+    // first names only, captain flagged.
+    const rosterRows = rosterPlayers.map((p) => `
+      <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
+        <div class="roster-row">
+          <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
+          <div class="who">${escapeHTML(p.firstName)}</div>
+          ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        </div>
+      </a>`).join('');
+
+    bodyEl.innerHTML = `
+      <div class="card">
+        <div class="sec-lbl" style="margin-top:0">Next game</div>
+        <div style="font-family:'Archivo Black',Impact,sans-serif;font-size:16px;margin-bottom:2px">${escapeHTML(dateTimeStr)}</div>
+        <div style="font-size:12.5px;color:var(--app-dim);margin-bottom:14px">${escapeHTML(courtLabel)}</div>
+        <div class="vsrow">
+          <div class="vsteam"><div class="av a">${avatarFor(myName)}</div><b>${escapeHTML(myName)}</b><span>${myRecord}</span></div>
+          <div class="vsmid">VS</div>
+          <div class="vsteam"><div class="av b">${avatarFor(oppName)}</div><b>${escapeHTML(oppName)}</b><span>${oppRecord}</span></div>
+        </div>
+        ${verdict}
+      </div>
+      ${roster ? `
+      <div class="sec-lbl">Opponent roster</div>
+      <div class="card" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
+      ` : ''}
+      ${seasonStatsLink}
+    `;
+    return;
+  }
+
+  // No upcoming game found for this team -- fall back to the most recent
+  // PLAYED game (team.html's own game-log logic, reused) plus the current
+  // record/rank, rather than leaving the page blank.
+  const lastGame = myGames.at(-1);
+  const setDiff = myGames.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    return sum + ((me?.score ?? 0) - (opp?.score ?? 0));
+  }, 0);
+
+  if (!myRow && !lastGame) {
+    // Brand new team, nothing archived for it at all yet.
+    bodyEl.innerHTML = `
+      <p style="color:var(--app-faint);font-size:13px;margin:2px 0 16px">No data yet for your team — check back after the next archive run.</p>
+      ${seasonStatsLink}
+    `;
+    return;
+  }
+
+  let statGridHtml = '';
+  if (myRow) {
+    statGridHtml = `
+      <div class="stat-grid">
+        <div class="box"><b>${myRow.wins}-${myRow.losses}-${myRow.ties}</b><span>Record</span></div>
+        <div class="box"><b>${setDiff >= 0 ? '+' : ''}${setDiff}</b><span>Set diff</span></div>
+        <div class="box"><b>#${myRow.position}</b><span>Power rank</span></div>
+      </div>`;
+  }
+
+  let lastGameHtml = '';
+  if (lastGame) {
+    const me = lastGame.teams.find((t) => t.teamId === teamId);
+    const opp = lastGame.teams.find((t) => t.teamId !== teamId);
+    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+    lastGameHtml = `
+      <div class="sec-lbl">Last result</div>
+      <div class="card">
+        <div class="gamelog-row"><div class="r ${letter}">${letter}</div>
+          <div class="opp">${escapeHTML(opp?.teamName ?? 'Unknown')}</div>
+          <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>
+      </div>`;
+  }
+
+  bodyEl.innerHTML = `
+    <p style="color:var(--app-faint);font-size:13px;margin:2px 0 16px">No game scheduled right now.</p>
+    ${statGridHtml}
+    ${lastGameHtml}
+    ${seasonStatsLink}
+  `;
+}
+</script>
+</body>
+</html>
