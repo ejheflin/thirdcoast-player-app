@@ -1,4 +1,12 @@
 {
   "programId": 5050213,
-  "games": []
+  "games": [],
+  "tournaments": [
+    {
+      "activityId": 13275054,
+      "date": "2026-09-02",
+      "time": "18:30",
+      "title": "PLAYOFFS"
+    }
+  ]
 }

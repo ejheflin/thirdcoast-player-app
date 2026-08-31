@@ -193,5 +193,13 @@
         }
       ]
     }
+  ],
+  "tournaments": [
+    {
+      "activityId": 13292004,
+      "date": "2026-09-10",
+      "time": "18:30",
+      "title": "PLAYOFFS"
+    }
   ]
 }
