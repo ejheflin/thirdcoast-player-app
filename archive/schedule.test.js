@@ -74,6 +74,25 @@ test('extractUpcomingGame excludes a scheduled activity whose date is before tod
   assert.equal(extractUpcomingGame(activity, '2026-08-31', courtNameFn), null);
 });
 
+test('extractUpcomingGame redacts an unabbreviated doubles team name to "First L." shape', () => {
+  const activity = {
+    id: 1239,
+    state: 'scheduled',
+    type: 'game_season',
+    start: { date: '2026-09-10', time: '19:00' },
+    subLocationId: 70291,
+    teams: [
+      { teamId: 10, teamName: 'Jordan Fakename and Casey Madeupname' },
+      { teamId: 11, teamName: 'Team B' },
+    ],
+  };
+  const game = extractUpcomingGame(activity, '2026-08-31', courtNameFn);
+  assert.deepEqual(game.teams, [
+    { teamId: 10, teamName: 'Jordan F. and Casey M.' },
+    { teamId: 11, teamName: 'Team B' },
+  ]);
+});
+
 test('extractUpcomingGame returns null, not a throw, for a scheduled activity with no teams', () => {
   const activity = {
     id: 1238,
