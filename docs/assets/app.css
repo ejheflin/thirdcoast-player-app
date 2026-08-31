@@ -329,14 +329,39 @@ body{background:#101A2C;display:flex;justify-content:center}
 .mgame .mroster{border-top:1px solid var(--app-line);padding:2px 11px 8px}
 .mgame .mroster .rlbl{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
   color:var(--app-faint);padding:9px 2px 0}
-/* Fix 3: rosterRowsHTML() reuses team.html's .roster-row markup verbatim
-   (there's no build step to fork a component, this project's established
-   convention). It used to be scaled down well below team.html's own row
-   to fit a compact card; user review asked for it larger and easier to
-   read instead, so it's now sized AT (.ini/.cap) or above (gap/padding/
-   font-size) team.html's own full-size row -- not shrunk. Scoped to
-   .mgame .mroster only -- team.html's own roster is untouched either
-   way. */
-.mgame .mroster .roster-row{gap:10px;padding:9px 2px;font-size:14px}
-.mgame .mroster .roster-row .ini{width:26px;height:26px;border-radius:8px;font-size:11px}
-.mgame .mroster .roster-row .cap{font-size:10.5px}
+/* Fix 3: rosterRowsHTML() reuses team.html's .roster-row/.ini/.who/.cap
+   classes (there's no build step to fork a component, this project's
+   established convention), but its OWN markup now wraps players in a
+   .rgrid and adds a .rmeta column -- see rosterRowsHTML()'s own comment.
+   Scoped to .mgame .mroster only -- team.html's own single-column roster
+   (a different, separately-generated block of markup that happens to
+   share these class names) is untouched either way.
+   Two columns, not a stack: real archived rosters run 2-7 players
+   (median 2, p75 4, max 7 -- checked against docs/data/rosters/*.json),
+   so 2 columns means the common 2-player team fills one tidy row instead
+   of two lonely stacked rows, and a 4-player team fills exactly two full
+   rows. An odd count (5, 7) leaves one cell alone in the last row --
+   rendered review confirmed that reads fine as "an odd team size" rather
+   than broken, so it is left alone rather than spanned full-width.
+   Font sized up per Eric's ask (.who 14px -> 17px, one step past even the
+   prior "make it bigger" pass) -- rendered review confirmed 17px still
+   leaves comfortable room to ellipsis a long real first name inside a
+   single ~145px column at this card's real width, not just the short
+   fixture names.
+   The row-divider line the stacked layout used (.row-link + .row-link
+   .roster-row's border-top, defined once above for team.html) assumes
+   vertically-adjacent DOM siblings are vertically-adjacent on screen.
+   In a 2-column grid the second sibling sits to the RIGHT of the first,
+   not below it, so that rule would draw a top border on nearly every
+   cell regardless of which visual row it is in -- overridden off here,
+   under the same higher-specificity .mgame .mroster scope, in favor of
+   the grid's own row-gap as the only row separator. Rendered review
+   confirmed that gap alone reads as clearly separated rows without a
+   line; adding one back on top of it looked busier, not clearer, at
+   this compact a scale. */
+.mgame .mroster .rgrid{display:grid;grid-template-columns:1fr 1fr;column-gap:14px;row-gap:12px;margin-top:2px}
+.mgame .mroster .row-link + .row-link .roster-row{border-top:none}
+.mgame .mroster .roster-row{gap:9px;padding:0;font-size:17px}
+.mgame .mroster .roster-row .ini{width:28px;height:28px;border-radius:8px;font-size:12px}
+.mgame .mroster .rmeta{display:flex;flex-direction:column;min-width:0;gap:2px}
+.mgame .mroster .roster-row .cap{font-size:10px}

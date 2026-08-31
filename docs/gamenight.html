@@ -156,21 +156,31 @@ function displayTeamName(teamName) {
   return before ? before : name;
 }
 
-// One roster row, the same markup team.html uses for the player's own
-// roster -- first names only, captain flagged, each row a drill-down.
+// One roster row, close kin to team.html's own markup (first names only,
+// captain flagged, each row a drill-down) but laid out as a 2-column grid
+// (Eric: "make the roster font larger and split it into 2 columns") rather
+// than team.html's single stacked column -- this function is only ever
+// called from THIS file's match card, so restructuring its markup can't
+// touch team.html's own, separately-generated roster rows at all.
+// The name+captain-tag pair is wrapped in its own .rmeta column: at half
+// this card's width, "avatar + name + CAPTAIN badge" no longer fits on
+// one line the way it did full-width, so the badge now sits on its own
+// line under the name instead of clipping or wrapping mid-badge.
 function rosterRowsHTML(roster) {
   const players = roster?.players ?? [];
   if (players.length === 0) {
     return '<p style="color:var(--app-faint);font-size:12px;margin:8px 2px">No roster archived for this team yet.</p>';
   }
-  return players.map((p) => `
+  return `<div class="rgrid">${players.map((p) => `
     <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
       <div class="roster-row">
         <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
-        <div class="who">${escapeHTML(p.firstName)}</div>
-        ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        <div class="rmeta">
+          <div class="who">${escapeHTML(p.firstName)}</div>
+          ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        </div>
       </div>
-    </a>`).join('');
+    </a>`).join('')}</div>`;
 }
 
 // Head-to-head history between THIS team and THIS opponent specifically --
