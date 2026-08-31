@@ -114,17 +114,26 @@ await go('player.html?person=1');
 
 await go('odds.html?program=9001');
 {
-  const content = await page.content();
   // Hand-computed from fixtures/data/standings/9001.json + activities/9001.json:
-  // team 501 (8-1-1, +2 set diff over 1 game) rates 0.86; team 502 (6-3-1, -2 set diff) rates 0.64.
-  // Both are within the top-CUTOFF(4) here, so both floor at >=50%; no team holds position 4, so
-  // the cutoff rating falls back to the lowest-rated team's own rating (0.64), giving team 501 a
-  // gap of +0.22 -> 50+88=138, clamped to 100%, and team 502 a gap of 0 -> exactly 50%. Team 503
-  // has played nothing and gets no percentage at all. (Team 503's separate, unrelated activity
-  // fixture entry vs. teamId 999 -- used only by the Home-screen checks below -- never touches
-  // team 501 or 502, so it can't perturb this hand-computed math.)
-  check('odds page shows the correct playoff percentage for the leader (100%)', content.includes('100%'));
-  check('odds page shows the correct playoff percentage for the trailing team (50%)', content.includes('50%'));
+  //   501 (8-1-1, +2 set diff over 1 game) -> 0.85 + 0.2x0.05 = 0.86
+  //   502 (6-3-1, -2 over 1)               -> 0.65 - 0.01     = 0.64
+  //   503 (0 games)                        -> no rating at all
+  //   506 (3-6-1, -2 over 1)               -> 0.35 - 0.01     = 0.34
+  // Team 506 holds position 4, so it IS the cutoff team and its own 0.34 is
+  // the cutoff rating (this used to fall back to the lowest-rated team,
+  // because the fixture had only three rows before 506 was added to prove
+  // the Home screen's second same-night match). Gaps from 0.34:
+  //   501: +0.52 -> 50+208 = 258, clamped to 100%
+  //   502: +0.30 -> 50+120 = 170, clamped to 100%
+  //   506:  0.00 -> exactly 50%, and position<=CUTOFF floors it there
+  // Asserted per row, in table order, rather than as a substring search of
+  // the whole page: with four rows a bare includes('50%') could be satisfied
+  // by the wrong team's number.
+  const pcts = await page.$$eval('#rows .odds-pct', (els) => els.map((el) => el.textContent.trim()));
+  check(
+    `odds page shows the right percentage for every row (100/100/—/50), got ${pcts.join('/')}`,
+    pcts.join('/') === '100%/100%/—/50%',
+  );
   const renderedOdds = await page.$eval('#rows', (el) => el.innerText);
   check('odds page shows no percentage for a 0-game team', !renderedOdds.includes('NaN') && renderedOdds.includes('—'));
 }
@@ -137,10 +146,12 @@ await go('index.html');
 check('index.html with no saved team redirects to search.html', path() === '/search.html');
 check('search.html (via the redirect) shows the search box', (await page.$('#q')) !== null);
 
-// (a) A saved team with a real upcoming game: opponent, date, and a
-// probability split with no NaN. Team 501 vs. 502 comes from the new
-// tests/fixtures/data/schedule/9001.json fixture; both teams have played
-// games in standings/9001.json, so the model has something to rate.
+// (a) A saved team with real upcoming games. Team 501 plays TWICE on
+// 2026-09-10 in tests/fixtures/data/schedule/9001.json -- 7pm on Court 2
+// vs. 502, then 8pm on Court 5 vs. 506 -- which is what a real league
+// night looks like, and the whole reason Home groups by date instead of
+// taking the first match it finds. Every rated team has played games in
+// standings/9001.json, so the model has something to work from.
 await page.evaluate(() => localStorage.setItem(
   'thirdcoast-my-team',
   JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
@@ -148,20 +159,71 @@ await page.evaluate(() => localStorage.setItem(
 await go('index.html');
 {
   const content = await page.content();
-  check('Home shows the real upcoming opponent', content.includes('Fixture FC'));
-  check('Home shows the real game date', content.includes('Sep 10'));
-  // The real court name out of schedule/9001.json, not a hardcoded "TBD".
-  check('Home shows the real court name from the schedule fixture', content.includes('Court 2'));
-  // Not just the CSS class: the actual split. Hand-computed from the same
-  // fixtures odds.html's block works from -- team 501 rates 0.86 (0.85 win
-  // rate + 0.2 set diff/game x 0.05), team 502 rates 0.64 (0.65 - 0.01);
-  // 0.86 / 1.50 = 57.33 -> 57%, so the opponent gets 43%.
-  const probCells = await page.$$eval('.probbar > div', (els) => els.map((el) => el.textContent.trim()));
-  check('Home renders the correct probability split (57% / 43%), not just a probbar element',
-    probCells[0] === '57%' && probCells[1] === '43%');
-  // The opponent's own roster, from the new rosters/9001-502.json fixture.
-  check('Home lists the opponent roster by first name',
-    content.includes('Opponent roster') && content.includes('Priya') && content.includes('Deshawn'));
+  check('Home renders one match card per game on the next scheduled date (2)',
+    (await page.$$('.mgame')).length === 2);
+  check('Home says how many matches that night', content.includes('2 matches'));
+
+  // Both real opponents, in start-time order, and the player's own team in
+  // the TOP slot of both cards. The second fixture game deliberately lists
+  // team 506 FIRST in its raw `teams` array, so this fails if the page ever
+  // falls back to array order instead of matching the saved team's id.
+  const sides = await page.$$eval('.mgame', (cards) => cards.map(
+    (c) => [...c.querySelectorAll('.side .tname')].map((el) => el.textContent.trim()),
+  ));
+  check('Home puts the player\'s own team on top of card 1, opponent below',
+    sides[0][0] === '1. Testers United' && sides[0][1] === '2. Fixture FC');
+  check('Home puts the player\'s own team on top of card 2 too, even though the raw data lists it second',
+    sides[1][0] === '1. Testers United' && sides[1][1] === '4. Net Prophets');
+
+  // The court slab carries the real court number and the venue's real
+  // paint name for it, straight off the broadcast board's COURT table:
+  // Court 2 is orange, Court 5 is dark green (and dark green is one of the
+  // three courts under 3:1 against this ground, so its slab gets the sand
+  // ring the board gives them -- the .faint class).
+  const courts = await page.$$eval('.mgame', (cards) => cards.map((c) => ({
+    num: c.querySelector('.cnum').textContent.trim(),
+    paint: c.querySelector('.ctname').textContent.trim(),
+    faint: c.querySelector('.mcard').classList.contains('faint'),
+    fill: c.style.getPropertyValue('--ct').trim(),
+  })));
+  check('Home paints card 1 as Court 2 / orange (#F2872F), not faint',
+    courts[0].num === '2' && courts[0].paint === 'orange' && courts[0].fill === '#F2872F' && !courts[0].faint);
+  check('Home paints card 2 as Court 5 / dark green (#1F6B3A) with the sand ring',
+    courts[1].num === '5' && courts[1].paint === 'dark green' && courts[1].fill === '#1F6B3A' && courts[1].faint);
+
+  // The corner tag carries the real start time out of the schedule. The
+  // day half is relative to today by design ("Today" / "Thu" / "Sep 10"),
+  // so it is asserted by shape rather than as a fixed string that would
+  // rot as the clock moves past the fixture date.
+  const badges = await page.$$eval('.mgame .statetag', (els) => els.map((el) => el.textContent.trim()));
+  check(`Home corner tags carry the real start times (7p, 8p), got ${badges.join(' | ')}`,
+    badges[0].endsWith(' 7p') && badges[1].endsWith(' 8p'));
+  check('Home corner tags name the day in one of the three real forms',
+    badges.every((b) => /^(Today|Mon|Tue|Wed|Thu|Fri|Sat|Sun|[A-Z][a-z]{2} \d{1,2}) /.test(b)));
+
+  // Each card gets its OWN odds strip, with the real number in it -- not
+  // just a probbar element. Hand-computed from the same fixtures odds.html's
+  // block works from: 501 rates 0.86, 502 rates 0.64, 506 rates 0.34.
+  //   card 1: 0.86 / (0.86 + 0.64) = 57.33 -> 57% / 43%
+  //   card 2: 0.86 / (0.86 + 0.34) = 71.67 -> 72% / 28%
+  // Two DIFFERENT splits, so this can't pass by rendering one card twice.
+  const splits = await page.$$eval('.mgame', (cards) => cards.map(
+    (c) => [...c.querySelectorAll('.modds .probbar > div')].map((el) => el.textContent.trim()).join('/'),
+  ));
+  check(`Home gives card 1 its own split of 57%/43%, got ${splits[0]}`, splits[0] === '57%/43%');
+  check(`Home gives card 2 its own split of 72%/28%, got ${splits[1]}`, splits[1] === '72%/28%');
+
+  // ...and each card gets its own opponent roster, from that game's own
+  // rosters/9001-{opponent}.json file.
+  const rosters = await page.$$eval('.mgame', (cards) => cards.map((c) => ({
+    label: c.querySelector('.mroster .rlbl')?.textContent.trim() ?? '',
+    names: [...c.querySelectorAll('.mroster .roster-row .who')].map((el) => el.textContent.trim()).join(','),
+  })));
+  check('Home lists card 1\'s opponent roster by first name (9001-502.json)',
+    rosters[0].label === 'Opponent roster' && rosters[0].names === 'Priya,Deshawn');
+  check('Home lists card 2\'s own, different opponent roster (9001-506.json)',
+    rosters[1].label === 'Opponent roster' && rosters[1].names === 'Marisol,Tobias');
+
   const rendered = await page.$eval('#body', (el) => el.innerText);
   check('Home never renders NaN in the probability split', !rendered.includes('NaN'));
   // Fix 2: search.html used to be reachable ONLY via the no-saved-team

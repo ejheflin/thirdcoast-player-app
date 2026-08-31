@@ -32,6 +32,30 @@ if (!saved) {
   main(saved);
 }
 
+// The venue's real painted courts, copied verbatim from the broadcast
+// board's own paint table (the brackets repo's prototype/board-data.js).
+// "The pink court" is what players actually say out loud, which is the
+// whole argument for colour-coding -- and the whole reason the match card
+// carries the paint and not just a number. `faint` marks the three under
+// 3:1 against this ground -- black, maroon, dark green -- which get a
+// sand ring rather than reading as a notch cut out of the card. Do not
+// edit these by eye: the board's prototype/check-contrast.mjs is what
+// asserts the flags, so these values have to stay identical to it.
+const COURT = {
+  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
+  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
+  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
+  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
+  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
+  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
+  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
+  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
+  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
+  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
+  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
+  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
+};
+
 // setDiffFor/ratingFor copied verbatim from matchup.html (also duplicated
 // in odds.html) -- this project's established convention, since there's
 // no build step to share a module across pages.
@@ -71,24 +95,121 @@ function splitPct(ratingA, ratingB) {
   return { pctA, pctB: 100 - pctA };
 }
 
-function avatarFor(name) {
-  return escapeHTML(name.replace(/^\d+\.\s*/, '').slice(0, 2).toUpperCase());
+// The court number the paint table is keyed by, out of the schedule's
+// human court name ("Court 12"). Returns null for anything unnumbered so
+// the caller can fall back rather than paint a card off COURT[NaN].
+function courtNumberOf(courtName) {
+  const m = /(\d+)/.exec(String(courtName ?? ''));
+  return m ? Number(m[1]) : null;
 }
 
-// "YYYY-MM-DD" parsed as local calendar fields, not handed to `new
-// Date(str)` directly -- that parses as UTC midnight and can print the
-// wrong weekday/day depending on the viewer's timezone.
-function formatDate(dateISO) {
-  const [y, m, d] = dateISO.split('-').map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
-}
-
-// "HH:MM" 24-hour, as archive/schedule.js writes it.
-function formatTime(time) {
-  const [hh, mm] = time.split(':').map(Number);
-  const period = hh >= 12 ? 'PM' : 'AM';
+// "HH:MM" 24-hour, as archive/schedule.js writes it, cut down to what
+// fits in the card's corner tag: "6:30p", and "7p" on the hour.
+function shortTime(time) {
+  const [hh, mm] = String(time).split(':').map(Number);
+  if (!Number.isFinite(hh) || !Number.isFinite(mm)) return '';
+  const suffix = hh >= 12 ? 'p' : 'a';
   const h12 = ((hh + 11) % 12) + 1;
-  return `${h12}:${String(mm).padStart(2, '0')} ${period}`;
+  return mm === 0 ? `${h12}${suffix}` : `${h12}:${String(mm).padStart(2, '0')}${suffix}`;
+}
+
+// The corner tag's text. The board's own tag already showed a bare start
+// time for an upcoming game; this extends it with the day, because a
+// player looking at their phone on Sunday needs to tell Tuesday from
+// tonight. "YYYY-MM-DD" is parsed as local calendar fields, not handed to
+// `new Date(str)` -- that parses as UTC midnight and can print the wrong
+// weekday/day depending on the viewer's timezone.
+function whenBadge(dateISO, time) {
+  const [y, m, d] = String(dateISO).split('-').map(Number);
+  const game = new Date(y, m - 1, d);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.round((game - today) / 86400000);
+  let day;
+  if (days === 0) day = 'Today';
+  else if (days > 0 && days < 7) day = game.toLocaleDateString(undefined, { weekday: 'short' });
+  else day = game.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  const t = time ? shortTime(time) : '';
+  return t ? `${day} ${t}` : day;
+}
+
+// One roster row, the same markup team.html uses for the player's own
+// roster -- first names only, captain flagged, each row a drill-down.
+function rosterRowsHTML(roster) {
+  const players = roster?.players ?? [];
+  if (players.length === 0) {
+    return '<p style="color:var(--app-faint);font-size:12px;margin:8px 2px">No roster archived for this team yet.</p>';
+  }
+  return players.map((p) => `
+    <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
+      <div class="roster-row">
+        <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
+        <div class="who">${escapeHTML(p.firstName)}</div>
+        ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+      </div>
+    </a>`).join('');
+}
+
+// One game: the ported broadcast match card, its own odds strip, and its
+// own opponent roster, as a single attached group.
+//
+// The one deliberate reinterpretation of the board's card: the board
+// shows true home/away, this always puts the PLAYER'S OWN team in the top
+// slot. schedule.json's `teams` array carries no home/away flag at all
+// (see archive/schedule.js), and a player wants to see themselves first
+// regardless -- so the array's own order is not used for anything here.
+function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roster, programName }) {
+  const opponent = game.teams.find((t) => t.teamId !== teamId);
+  const oppRow = opponent ? standings?.rows?.find((r) => r.teamId === opponent.teamId) : null;
+  const oppName = opponent?.teamName ?? 'TBD';
+  const oppRecord = oppRow ? `${oppRow.wins}-${oppRow.losses}-${oppRow.ties}` : '';
+
+  const courtNum = courtNumberOf(game.courtName);
+  const paint = courtNum === null ? null : COURT[courtNum];
+  // A court the paint table doesn't know still gets a card: an unpainted
+  // slab is a far smaller failure than dropping the game off the page.
+  const ct = paint ? paint.hex : 'var(--app-raised)';
+  const ctInk = paint ? paint.ink : 'var(--app-ink)';
+  const slabText = courtNum === null ? '—' : String(courtNum);
+  const paintName = paint ? paint.name : (game.courtName ? String(game.courtName) : 'court TBD');
+
+  const myRow = standings?.rows?.find((r) => r.teamId === teamId);
+  const myRating = myRow && myRow.gamesPlayed > 0 ? ratingFor(myRow, games) : null;
+  const oppRating = oppRow && oppRow.gamesPlayed > 0 ? ratingFor(oppRow, games) : null;
+
+  let odds;
+  if (myRating === null || oppRating === null) {
+    odds = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
+  } else {
+    const { pctA: pctMe, pctB: pctOpp } = splitPct(myRating, oppRating);
+    odds = `
+      <div class="probbar"><div class="a" style="flex:${pctMe}">${pctMe}%</div><div class="b" style="flex:${pctOpp}">${pctOpp}%</div></div>
+      <div class="h2h-meta">Model: season win-rate + set differential per game.</div>`;
+  }
+
+  return `
+    <div class="mgame" style="--ct:${ct};--ct-ink:${ctInk}">
+      <div class="mcard${paint?.faint ? ' faint' : ''}">
+        <div class="slab"><span class="cnum">${escapeHTML(slabText)}</span></div>
+        <div class="mbody">
+          <div class="tophat">
+            <span class="lgtag">${escapeHTML(programName)}</span>
+            <span class="ctname">${escapeHTML(paintName)}</span>
+          </div>
+          <div class="teams">
+            <div class="side"><span class="tname">${escapeHTML(myName)}</span>${myRecord ? `<span class="capn">${myRecord}</span>` : ''}</div>
+            <div class="rule"><span class="vs">vs</span></div>
+            <div class="side"><span class="tname">${escapeHTML(oppName)}</span>${oppRecord ? `<span class="capn">${oppRecord}</span>` : ''}</div>
+          </div>
+        </div>
+        <span class="statetag">${escapeHTML(whenBadge(game.date, game.time))}</span>
+      </div>
+      <div class="modds">${odds}</div>
+      <div class="mroster">
+        <div class="rlbl">Opponent roster</div>
+        ${rosterRowsHTML(roster)}
+      </div>
+    </div>`;
 }
 
 async function main(saved) {
@@ -106,7 +227,8 @@ async function main(saved) {
     fetchJSON(`data/activities/${programId}.json`),
   ]);
 
-  document.getElementById('greet').textContent = standings?.programName ?? saved.programName ?? '';
+  const programName = standings?.programName ?? saved.programName ?? '';
+  document.getElementById('greet').textContent = programName;
 
   const myRow = standings?.rows?.find((r) => r.teamId === teamId);
   const games = activities?.games ?? [];
@@ -125,66 +247,38 @@ async function main(saved) {
     'style="color:var(--app-faint);font-size:11.5px;text-decoration:underline">' +
     'Not your team? Search again</a></p>';
 
-  // The array's own natural ascending date/time order already makes the
-  // first match here the next one chronologically -- no re-sorting needed.
-  const nextGame = (schedule?.games ?? []).find((g) => g.teams.some((t) => t.teamId === teamId));
+  // A real league night can put one team on court more than once, so this
+  // finds the earliest DATE the team appears on and then takes EVERY game
+  // it plays on that date -- however many are real, not a hardcoded two.
+  // (The array's own natural ascending order already makes the first
+  // matching date the earliest, but min-by-date says so explicitly and
+  // survives a schedule that ever arrives unsorted.)
+  const myUpcoming = (schedule?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
+  const nextDate = myUpcoming.reduce((earliest, g) => (earliest === null || g.date < earliest ? g.date : earliest), null);
+  const nextGames = nextDate === null
+    ? []
+    : myUpcoming.filter((g) => g.date === nextDate)
+      .sort((a, b) => String(a.time ?? '').localeCompare(String(b.time ?? '')));
 
-  if (nextGame) {
-    const opponent = nextGame.teams.find((t) => t.teamId !== teamId);
-    const oppRow = opponent ? standings?.rows?.find((r) => r.teamId === opponent.teamId) : null;
-    const roster = opponent
-      ? await fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(opponent.teamId)}.json`)
-      : null;
+  if (nextGames.length > 0) {
+    // One fetch per game: two games on the same night are normally against
+    // two different opponents, so the roster is per-game, not per-page.
+    const rosters = await Promise.all(nextGames.map((g) => {
+      const opp = g.teams.find((t) => t.teamId !== teamId);
+      return opp
+        ? fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(opp.teamId)}.json`)
+        : Promise.resolve(null);
+    }));
 
     const myName = myRow?.teamName ?? saved.teamName ?? 'Your team';
     const myRecord = myRow ? `${myRow.wins}-${myRow.losses}-${myRow.ties}` : '';
-    const oppName = opponent?.teamName ?? 'TBD';
-    const oppRecord = oppRow ? `${oppRow.wins}-${oppRow.losses}-${oppRow.ties}` : '';
 
-    const dateTimeStr = nextGame.time ? `${formatDate(nextGame.date)} · ${formatTime(nextGame.time)}` : formatDate(nextGame.date);
-    const courtLabel = nextGame.courtName ? nextGame.courtName : 'court TBD';
-
-    const myRating = myRow && myRow.gamesPlayed > 0 ? ratingFor(myRow, games) : null;
-    const oppRating = oppRow && oppRow.gamesPlayed > 0 ? ratingFor(oppRow, games) : null;
-
-    let verdict;
-    if (myRating === null || oppRating === null) {
-      verdict = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
-    } else {
-      const { pctA: pctMe, pctB: pctOpp } = splitPct(myRating, oppRating);
-      verdict = `
-        <div class="probbar"><div class="a" style="flex:${pctMe}">${pctMe}%</div><div class="b" style="flex:${pctOpp}">${pctOpp}%</div></div>
-        <div class="h2h-meta">Model: season win-rate + set differential per game.</div>`;
-    }
-
-    const rosterPlayers = roster?.players ?? [];
-    // Same roster-row markup team.html uses for the player's own roster --
-    // first names only, captain flagged.
-    const rosterRows = rosterPlayers.map((p) => `
-      <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
-        <div class="roster-row">
-          <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
-          <div class="who">${escapeHTML(p.firstName)}</div>
-          ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
-        </div>
-      </a>`).join('');
-
+    const label = nextGames.length > 1 ? `Next game night · ${nextGames.length} matches` : 'Next game';
     bodyEl.innerHTML = `
-      <div class="card">
-        <div class="sec-lbl" style="margin-top:0">Next game</div>
-        <div style="font-family:'Archivo Black',Impact,sans-serif;font-size:16px;margin-bottom:2px">${escapeHTML(dateTimeStr)}</div>
-        <div style="font-size:12.5px;color:var(--app-dim);margin-bottom:14px">${escapeHTML(courtLabel)}</div>
-        <div class="vsrow">
-          <div class="vsteam"><div class="av a">${avatarFor(myName)}</div><b>${escapeHTML(myName)}</b><span>${myRecord}</span></div>
-          <div class="vsmid">VS</div>
-          <div class="vsteam"><div class="av b">${avatarFor(oppName)}</div><b>${escapeHTML(oppName)}</b><span>${oppRecord}</span></div>
-        </div>
-        ${verdict}
-      </div>
-      ${roster ? `
-      <div class="sec-lbl">Opponent roster</div>
-      <div class="card" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
-      ` : ''}
+      <div class="sec-lbl" style="margin-top:2px">${label}</div>
+      ${nextGames.map((game, i) => gameGroupHTML({
+        game, teamId, myName, myRecord, standings, games, roster: rosters[i], programName,
+      })).join('')}
       ${seasonStatsLink}
       ${searchAgainLink}
     `;

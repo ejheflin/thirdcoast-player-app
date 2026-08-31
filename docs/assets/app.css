@@ -159,3 +159,102 @@ body{background:#101A2C;display:flex;justify-content:center}
 .result b{display:block}
 .result span{font-size:12px;color:var(--app-faint)}
 .empty{color:var(--app-faint);font-size:13px;margin-top:16px}
+
+/* ── the match card ──────────────────────────────────────────────────
+   A real port of the broadcast board's own court card, not a new
+   component: the rules below are the ones in the brackets repo's
+   prototype/gamenight.html (.card/.slab/.cnum/.tophat/.lgtag/.ctname/
+   .teams/.side/.tname/.capn/.rule/.vs/.statetag), with the same
+   structure -- a full-height painted slab carrying the court number, a
+   league/court tophat, and the two teams stacked either side of a "vs"
+   rule with a corner state tag.
+
+   Scaled, not redrawn. The board is read across a room off a 1920x1080
+   TV; this is read at arm's length on a ~390px phone, so every dimension
+   comes down to about 39% while every proportion and every token
+   relationship stays exactly as it is on the board:
+       slab width   96px -> 38px        court number  54px -> 21px
+       team name    31px -> 12.5px      corner cut    16px ->  7px
+       captain/meta 16px ->  9px        vs rule        2px ->  1px
+   Colours are the same colours under this project's own names, which is
+   the whole point of app.css's token block:
+       --pend -> --app-data     --won  -> --app-win     --live -> --app-live
+       --dim  -> --app-dim      --line -> --app-line    --surface -> --app-surface
+       --on-fill -> --app-on-fill
+   The per-court paint stays where the board puts it: --ct / --ct-ink set
+   inline per card from the COURT table (index.html carries a verbatim
+   copy of prototype/board-data.js's twelve real courts).
+
+   Two class names are renamed because the page shell already owns them:
+   the board's .card -> .mcard and its .body -> .mbody. Everything else
+   keeps the board's own name, scoped under .mgame.
+
+   The angular corner cuts sit on .mgame, the whole card + odds + roster
+   group, rather than on .mcard alone. On the board a card is a lone
+   object and the cuts frame it; here the odds strip and the opponent
+   roster belong to that specific game, so the group is the object and
+   one shared background plus one pair of cuts is what makes them read as
+   attached rather than as three stacked sections.
+
+   The board's Live and Final corner-tag variants are deliberately not
+   ported. docs/data/schedule/*.json only ever carries state:'scheduled'
+   games (archive/schedule.js drops everything else), so the tag here is
+   always the board's upcoming-game one -- which already showed a start
+   time like "9:30". It shows the real date and start time instead. */
+.mgame{
+  --mc-slabw:38px; --mc-cut:7px;
+  position:relative;background:var(--app-surface);margin-bottom:14px;
+  clip-path:polygon(0 0, calc(100% - var(--mc-cut)) 0, 100% var(--mc-cut),
+                    100% 100%, var(--mc-cut) 100%, 0 calc(100% - var(--mc-cut)));
+}
+.mcard{position:relative;padding:8px 11px 9px calc(var(--mc-slabw) + 11px);display:flex;align-items:center}
+/* the slab IS the left edge -- one object, not a bar plus a chip */
+.mgame .slab{position:absolute;left:0;top:0;bottom:0;width:var(--mc-slabw);z-index:1;
+  background:var(--ct);display:grid;place-items:center}
+/* black, maroon and dark green sit under 3:1 against this ground; the
+   board rings them in sand so they read as a chip, not a hole. 1px here
+   rather than the board's 2px -- same ring at phone scale. */
+.mgame .mcard.faint .slab{box-shadow:inset 0 0 0 1px rgba(217,201,163,.45)}
+.mgame .cnum{font-family:"Archivo Black",Impact,sans-serif;font-size:21px;line-height:1;color:var(--ct-ink)}
+.mgame .mbody{position:relative;z-index:1;flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+/* padding-right reserves the corner tag's own column: on the TV the card
+   is wide enough that the tag never reaches the tophat, on a phone it
+   would sit on top of it. */
+.mgame .tophat{display:flex;gap:6px;align-items:center;min-width:0;padding-right:92px}
+.mgame .lgtag{flex:0 1 auto;min-width:0;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--app-data);border:1px solid var(--app-line);padding:1px 6px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mgame .ctname{flex:none;font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--app-dim);white-space:nowrap}
+.mgame .teams{position:relative}
+.mgame .side{display:flex;align-items:baseline;gap:5px;min-width:0;padding:1px 0}
+/* min-width:0 is the one addition the board's rule doesn't need: a
+   flex item won't shrink below its content without it, so a long real
+   team name would push out of the card instead of ellipsing. */
+.mgame .tname{min-width:0;text-transform:uppercase;font-weight:700;font-size:12.5px;letter-spacing:.015em;
+  line-height:1.12;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mgame .capn{flex:none;font-size:9px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--app-dim);white-space:nowrap}
+.mgame .rule{position:relative;height:1px;margin:3px 0;background:var(--app-line)}
+/* --app-dim, not a darker grey: the board's note here is that #5B6577
+   only manages 3.14:1 against this surface. right:0, not the board's
+   right:4px: that inset leaves a sliver of rule showing past the label,
+   which is a deliberate detail at 1920 and an apparent rendering glitch
+   once it scales to under 2px. */
+.mgame .vs{position:absolute;right:0;top:50%;transform:translateY(-50%);
+  background:var(--app-surface);color:var(--app-dim);
+  font-size:8px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:0 5px;line-height:1.4}
+/* state -- the corner tag, and nothing else. Always the board's
+   upcoming-game blue here (see the note above). */
+.mgame .statetag{position:absolute;right:var(--mc-cut);top:0;z-index:3;
+  background:var(--app-data);color:var(--app-on-fill);
+  font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px 3px}
+
+/* attached to the card above it: same background, divided by a line
+   rather than a gap, inside the same pair of corner cuts. */
+.mgame .modds{border-top:1px solid var(--app-line);padding:9px 11px 10px}
+.mgame .modds .probbar{height:20px;border-radius:0;font-size:11px;margin-top:0}
+.mgame .modds .h2h-meta{font-size:10px;margin-top:6px}
+.mgame .mroster{border-top:1px solid var(--app-line);padding:2px 11px 7px}
+.mgame .mroster .rlbl{font-size:9.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--app-faint);padding:8px 2px 0}

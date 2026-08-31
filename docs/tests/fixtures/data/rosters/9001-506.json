@@ -1,0 +1,9 @@
+{
+  "programId": 9001,
+  "teamId": 506,
+  "teamName": "4. Net Prophets",
+  "players": [
+    {"userId":13,"firstName":"Marisol","isCaptain":true},
+    {"userId":14,"firstName":"Tobias","isCaptain":false}
+  ]
+}

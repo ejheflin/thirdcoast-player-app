@@ -4,6 +4,7 @@
   "rows": [
     {"position":1,"teamId":501,"teamName":"1. Testers United","gamesPlayed":10,"wins":8,"losses":1,"ties":1,"points":17},
     {"position":2,"teamId":502,"teamName":"2. Fixture FC","gamesPlayed":10,"wins":6,"losses":3,"ties":1,"points":13},
-    {"position":3,"teamId":503,"teamName":"3. Brand New Squad","gamesPlayed":0,"wins":0,"losses":0,"ties":0,"points":0}
+    {"position":3,"teamId":503,"teamName":"3. Brand New Squad","gamesPlayed":0,"wins":0,"losses":0,"ties":0,"points":0},
+    {"position":4,"teamId":506,"teamName":"4. Net Prophets","gamesPlayed":10,"wins":3,"losses":6,"ties":1,"points":7}
   ]
 }
