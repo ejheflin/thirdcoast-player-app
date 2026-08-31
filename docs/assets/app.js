@@ -82,12 +82,12 @@ function displayTeamName(rawName, { stripCaptain = false } = {}) {
 // ---------------------------------------------------------------------
 // Bottom-bar navigation, shared by every page.
 //
-// Every page's tab bar marks each tab with data-tab="home|ranks|matchup|
-// players"; this is the single place that decides where each one goes, so
-// the four tabs mean the same thing everywhere. A page passes whatever
-// context it has (its own query params); anything it can't supply falls
-// back to the saved team, and a tab with no reachable destination is
-// visibly disabled rather than silently doing nothing.
+// Every page's tab bar marks each tab with data-tab="home|ranks|schedule";
+// this is the single place that decides where each one goes, so the three
+// tabs mean the same thing everywhere. A page passes whatever context it
+// has (its own query params); anything it can't supply falls back to the
+// saved team, and a tab with no reachable destination is visibly disabled
+// rather than silently doing nothing.
 //
 //   Home     -> index.html, which is a ROUTER, not a screen: it sends a
 //               returning player on to gamenight.html (the next-game
@@ -96,51 +96,29 @@ function displayTeamName(rawName, { stripCaptain = false } = {}) {
 //               straight to search.html. Every Home tab points here and
 //               lets the router decide -- no page hardcodes a screen.
 //   Ranks    -> rankings.html for the program in context.
-//   Matchup  -> matchup.html for the team in context.
-//   Players  -> the player card for the team in context's captain (there
-//               is no browse-all-players page; the team's own roster is
-//               the honest "players" destination this data supports).
-async function captainCardHref(programId, teamId) {
-  if (programId == null || teamId == null || programId === '' || teamId === '') return null;
-  const roster = await fetchJSON(
-    `data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(teamId)}.json`,
-  ).catch(() => null);
-  const players = roster?.players ?? [];
-  const target = players.find((p) => p.isCaptain) ?? players[0];
-  return target ? `player.html?person=${encodeURIComponent(target.userId)}` : null;
-}
-
-function wireTabs({ active, programId, teamId, personId } = {}) {
+//   Schedule -> schedule.html for the program in context.
+//
+// Matchup and Players are gone as tabs (2026-08-31 redesign): matchup.html
+// is retired outright (superseded by tapping any team on Ranks, which now
+// shows that team vs. your saved team automatically -- see team.html), and
+// player.html is demoted to a secondary link reached by tapping a roster
+// row or captain name, not a tab of its own.
+function wireTabs({ active, programId, teamId } = {}) {
   const saved = getMyTeam();
   const program = programId ?? saved?.programId ?? null;
-  const team = teamId ?? saved?.teamId ?? null;
   const q = encodeURIComponent;
   const targets = {
     home: 'index.html',
     ranks: program == null ? null : `rankings.html?program=${q(program)}`,
-    matchup: program == null || team == null ? null : `matchup.html?program=${q(program)}&team=${q(team)}`,
-    players: personId == null ? null : `player.html?person=${q(personId)}`,
+    schedule: program == null ? null : `schedule.html?program=${q(program)}`,
   };
 
-  const apply = () => {
-    for (const el of document.querySelectorAll('.tabbar .tab')) {
-      const name = el.dataset.tab;
-      const href = targets[name];
-      el.classList.toggle('on', name === active);
-      el.classList.toggle('off', !href && name !== active);
-      // onclick (not addEventListener) so re-running this once a roster
-      // resolves replaces the handler instead of stacking another one.
-      el.onclick = href && name !== active ? () => { location.href = href; } : null;
-    }
-  };
-  apply();
-
-  if (targets.players === null && active !== 'players') {
-    captainCardHref(program, team).then((href) => {
-      if (!href) return;
-      targets.players = href;
-      apply();
-    });
+  for (const el of document.querySelectorAll('.tabbar .tab')) {
+    const name = el.dataset.tab;
+    const href = targets[name];
+    el.classList.toggle('on', name === active);
+    el.classList.toggle('off', !href && name !== active);
+    el.onclick = href && name !== active ? () => { location.href = href; } : null;
   }
 }
 

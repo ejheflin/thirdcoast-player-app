@@ -107,6 +107,14 @@ await page.evaluate(() => localStorage.clear());
     typeof results[4] === 'string');
 }
 
+// ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
+await go('rankings.html?program=9001');
+{
+  const tabs = await page.$$eval('.tabbar .tab', (els) => els.map((el) => el.dataset.tab));
+  check(`tab bar has exactly 3 tabs (home, ranks, schedule), got ${tabs.join(',')}`,
+    tabs.join(',') === 'home,ranks,schedule');
+}
+
 // ---- page content -------------------------------------------------------
 await go('search.html');
 await page.type('#q', 'test', { delay: 20 });
@@ -525,16 +533,28 @@ check('Home Season stats link -> team page', path().startsWith('/team.html') && 
 await clickThrough('.tab[data-tab="ranks"]');
 check('team page Ranks tab -> rankings', path() === '/rankings.html?program=9001');
 
+await go('team.html?program=9001&team=501');
+{
+  const scheduleHref = await page.$eval('.tab[data-tab="schedule"]', (el) => el.onclick ? 'has-onclick' : 'none');
+  check('team page Schedule tab is a live link once a program is in context', scheduleHref === 'has-onclick');
+}
+// Restore the page the surrounding flow-test sequence expects to be on:
+// the very next existing line in the file is `await clickThrough('#oddsLink')`,
+// which requires being back on rankings.html -- this inserted block must
+// not leave the walk stranded on team.html.
+await go('rankings.html?program=9001');
+
 await clickThrough('#oddsLink');
 check('rankings -> playoff odds', path() === '/odds.html?program=9001');
 
-await clickThrough('.tab[data-tab="matchup"]');
-check(
-  'odds Matchup tab -> matchup, carrying BOTH program and team',
-  path().includes('program=9001') && path().includes('team=501'),
-);
-
-await clickThrough('.tab[data-tab="ranks"]');
+// Odds keeps the Ranks tab lit while you're here (it's a drill-down from
+// Rankings, not a destination of its own), so the tab itself has no
+// onclick; get back to Rankings the way a real player would, via the
+// in-page "Power rankings" link. Deleting the Matchup-tab step above
+// removed the only click in this flow that used to land on a page where
+// Ranks was NOT the active tab, which is what previously made clicking
+// the Ranks tab itself work here.
+await clickThrough('#ranksLink');
 await clickThrough('.row-link');
 check('rankings row -> team page (the drill-down the spec describes)', path().startsWith('/team.html'));
 
@@ -552,16 +572,6 @@ check('player card Home tab -> the Home (next-game) screen', path() === '/gameni
 await clickThrough('#searchAgain');
 check('Home "Not your team? Search again" -> search.html', path() === '/search.html');
 check('the search-again link lands on a working search box', (await page.$('#q')) !== null);
-
-// The Players tab resolves the team's captain from the roster file.
-await go('rankings.html?program=9001');
-await new Promise((r) => setTimeout(r, 300));
-check(
-  'Players tab is enabled once the saved team roster resolves',
-  await page.$eval('.tab[data-tab="players"]', (el) => !el.classList.contains('off')),
-);
-await clickThrough('.tab[data-tab="players"]');
-check('rankings Players tab -> the team captain card', path() === '/player.html?person=1');
 
 // ---- a stale saved team must recover, not bounce forever ----------------
 // Entered the way a real returning player hits it, per this suite's rule
