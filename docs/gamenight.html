@@ -133,16 +133,6 @@ function whenBadge(dateISO, time) {
   return t ? `${day} ${t}` : day;
 }
 
-// Display-only: strips a trailing "(First L.)" captain-name parenthetical
-// from a team name before it renders on the match card -- the full
-// roster right below in .mroster already shows and flags the captain,
-// so the parenthetical up here is redundant. Same shape as
-// archive/leagueapps.js's redactTrailingParenthetical (same trailing-
-// paren regex), but REMOVING the group instead of abbreviating it, and
-// display-only: docs/data/*.json itself is untouched, and
-// archive/leagueapps.js's own redaction (a privacy control with its own
-// careful history) is untouched too -- this is cosmetic, not privacy.
-
 // One roster row, close kin to team.html's own markup (first names only,
 // captain flagged, each row a drill-down) but laid out as a 2-column grid
 // (Eric: "make the roster font larger and split it into 2 columns") rather
