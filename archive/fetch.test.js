@@ -13,18 +13,39 @@ test('runArchive writes standings for every program, activities+roster only for 
     ],
     fetchActivities: async (ids) => {
       assert.deepEqual(ids, [2], 'only the LIVE/UPCOMING program should be asked for activities');
-      return [{
-        id: 900, programId: 2, state: 'played_regular_time', start: { date: '2026-08-30' },
-        teams: [
-          { teamId: 10, teamName: 'Team A', result: 'win', score: 2 },
-          { teamId: 11, teamName: 'Team B', result: 'loss', score: 0 },
-        ],
-      }];
+      return [
+        {
+          id: 900, programId: 2, state: 'played_regular_time', start: { date: '2026-08-30' },
+          teams: [
+            { teamId: 10, teamName: 'Team A', result: 'win', score: 2 },
+            { teamId: 11, teamName: 'Team B', result: 'loss', score: 0 },
+          ],
+        },
+        {
+          id: 901, programId: 2, state: 'scheduled', type: 'game_season',
+          start: { date: '2099-01-15', time: '19:00' }, subLocationId: 70291,
+          teams: [
+            { teamId: 10, teamName: 'Team A' },
+            { teamId: 11, teamName: 'Team B' },
+          ],
+        },
+      ];
     },
     fetchStandingsHTML: async (id) => `<standings-for-${id}>`,
     parseStandings: (html, id) => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
     fetchRosterHTML: async (programId, teamId) => `<roster-for-${programId}-${teamId}>`,
     parseRoster: (html) => [{ userId: 555, fullName: 'Real Name', isCaptain: true }],
+    // Real verified shape of the live GET /locations response.
+    fetchLocations: async () => [{
+      id: 107614,
+      name: 'Third Coast Volleyball',
+      SiteID: 32524,
+      source: 'admin',
+      subLocations: [
+        { id: 70288, name: 'Court 1' },
+        { id: 70291, name: 'Court 2' },
+      ],
+    }],
     readJSON: async (path) => reads.get(path) ?? null,
     writeJSON: async (path, data) => writes.set(path, data),
   };
@@ -51,6 +72,16 @@ test('runArchive writes standings for every program, activities+roster only for 
   assert.deepEqual(roster.players, [{ userId: 555, firstName: 'Real', isCaptain: true }]);
   assert.equal(JSON.stringify(roster).includes('Real Name'), false, 'a roster file must never carry a full name');
   assert.equal(writes.has('docs/data/rosters/1-10.json'), false, 'completed programs get no roster files');
+
+  // Upcoming-game schedule for the "next game" home screen.
+  const schedule2 = writes.get('docs/data/schedule/2.json');
+  assert.ok(schedule2, 'an active program gets a schedule file');
+  assert.equal(schedule2.programId, 2);
+  assert.equal(schedule2.games.length, 1, 'only the real scheduled game counts, not the played one');
+  assert.equal(schedule2.games[0].activityId, 901);
+  assert.equal(schedule2.games[0].date, '2099-01-15');
+  assert.equal(schedule2.games[0].courtName, 'Court 2', 'the real venue subLocationId should resolve to its court name');
+  assert.equal(writes.has('docs/data/schedule/1.json'), false, 'a completed program gets no schedule file');
 });
 
 // The archiver rewrites every standings file on every run; if any field in
@@ -66,6 +97,7 @@ test('runArchive writes byte-identical standings when nothing about the data cha
     parseStandings: () => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
     fetchRosterHTML: async () => '<roster>',
     parseRoster: () => [],
+    fetchLocations: async () => [],
     readJSON: async () => null,
     writeJSON: async (path, data) => writes.set(path, data),
   });

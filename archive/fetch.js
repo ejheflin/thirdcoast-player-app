@@ -10,6 +10,7 @@ import { dirname } from 'node:path';
 import * as leagueapps from './leagueapps.js';
 import { firstNameOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
+import { extractUpcomingGame } from './schedule.js';
 
 async function realReadJSON(path) {
   try {
@@ -32,7 +33,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export async function runArchive(deps) {
   const {
-    fetchPrograms, fetchActivities, fetchStandingsHTML, fetchRosterHTML,
+    fetchPrograms, fetchActivities, fetchStandingsHTML, fetchRosterHTML, fetchLocations,
     parseStandings = leagueapps.parseStandings,
     parseRoster = leagueapps.parseRoster,
     readJSON, writeJSON,
@@ -40,6 +41,11 @@ export async function runArchive(deps) {
 
   const programs = await fetchPrograms();
   const activePrograms = programs.filter((p) => p.state === 'LIVE' || p.state === 'UPCOMING');
+
+  // Venue-wide data, identical for every program every run -- fetched once
+  // per archive run rather than once per program.
+  const locations = await fetchLocations();
+  const courtName = (subLocationId) => leagueapps.courtName(locations, subLocationId);
 
   const activeTeamsIndex = [];
 
@@ -122,6 +128,25 @@ export async function runArchive(deps) {
       const merged = appendGames(existing?.games ?? [], byProgram.get(program.id) ?? []);
       await writeJSON(path, { programId: program.id, games: merged });
     }
+
+    // Same already-fetched `activities` array, reused rather than fetched
+    // again -- upcoming games for the "next game" home screen.
+    const todayISO = new Date().toISOString().slice(0, 10);
+    const upcomingByProgram = new Map();
+    for (const activity of activities) {
+      const game = extractUpcomingGame(activity, todayISO, courtName);
+      if (!game) continue;
+      if (!upcomingByProgram.has(activity.programId)) upcomingByProgram.set(activity.programId, []);
+      upcomingByProgram.get(activity.programId).push(game);
+    }
+    for (const program of activePrograms) {
+      const games = (upcomingByProgram.get(program.id) ?? []).sort((a, b) => {
+        const dateCmp = a.date.localeCompare(b.date);
+        if (dateCmp !== 0) return dateCmp;
+        return (a.time ?? '').localeCompare(b.time ?? '');
+      });
+      await writeJSON(`docs/data/schedule/${program.id}.json`, { programId: program.id, games });
+    }
   }
 
   await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);
@@ -137,6 +162,7 @@ if (import.meta.filename === process.argv[1]) {
     fetchActivities: leagueapps.fetchActivities,
     fetchStandingsHTML: leagueapps.fetchStandingsHTML,
     fetchRosterHTML: leagueapps.fetchRosterHTML,
+    fetchLocations: leagueapps.fetchLocations,
     parseStandings: leagueapps.parseStandings,
     parseRoster: leagueapps.parseRoster,
     readJSON: realReadJSON,

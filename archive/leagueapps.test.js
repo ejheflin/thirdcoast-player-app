@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { parseStandings, parseRoster, redactCaptainName, fetchRosterHTML } from './leagueapps.js';
+import { parseStandings, parseRoster, redactCaptainName, fetchRosterHTML, courtName } from './leagueapps.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const fixture = (name) => readFileSync(join(__dirname, 'fixtures', name), 'utf8');
@@ -195,3 +195,29 @@ test('fetchRosterHTML requests the URL with ngmp_2023_iframe_transition=1', asyn
   assert.match(requestedUrl, /ngmp_2023_iframe_transition=1/);
 });
 
+
+// Real verified shape of the live GET /locations response: a single
+// location object whose subLocations is the actual list of courts.
+const REAL_LOCATIONS_FIXTURE = [{
+  id: 107614,
+  name: 'Third Coast Volleyball',
+  SiteID: 32524,
+  source: 'admin',
+  subLocations: [
+    { id: 70288, name: 'Court 1' },
+    { id: 70291, name: 'Court 2' },
+  ],
+}];
+
+test('courtName resolves a real subLocationId to its court name', () => {
+  assert.equal(courtName(REAL_LOCATIONS_FIXTURE, 70291), 'Court 2');
+});
+
+test('courtName returns null for a missing/null subLocationId (court not yet assigned)', () => {
+  assert.equal(courtName(REAL_LOCATIONS_FIXTURE, null), null);
+  assert.equal(courtName(REAL_LOCATIONS_FIXTURE, undefined), null);
+});
+
+test('courtName returns null, not a throw, for an id that does not exist in the data', () => {
+  assert.equal(courtName(REAL_LOCATIONS_FIXTURE, 999999), null);
+});

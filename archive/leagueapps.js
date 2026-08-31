@@ -26,6 +26,25 @@ export async function fetchActivities(programIds) {
   return envelopes.map((e) => e.activity);
 }
 
+export async function fetchLocations() {
+  const res = await fetch(`${API_BASE}/locations`, { headers: { Accept: 'application/json' } });
+  if (!res.ok) throw new Error(`fetchLocations: unexpected status ${res.status}`);
+  return res.json();
+}
+
+// Flattens every location's subLocations into a lookup and returns the
+// matching name, or null if subLocationId is null/undefined/not found. A
+// scheduled game's court isn't always assigned yet, so this must degrade
+// gracefully rather than throw.
+export function courtName(locations, subLocationId) {
+  if (subLocationId === null || subLocationId === undefined) return null;
+  for (const location of locations) {
+    const sub = location.subLocations?.find((s) => s.id === subLocationId);
+    if (sub) return sub.name;
+  }
+  return null;
+}
+
 export async function fetchStandingsHTML(programId) {
   // ngmp_2023_iframe_transition=1 is required: without it the host serves
   // the SPA shell (no table) instead of the legacy rendered page.
