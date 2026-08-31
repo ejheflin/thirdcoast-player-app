@@ -47,6 +47,38 @@ function escapeHTML(str) {
   return div.innerHTML;
 }
 
+// A real team name carries up to two self-typed artifacts LeagueApps never
+// strips: a leading seed-ish number ("1 - ", "1. ") and, on ~44% of real
+// teams, a trailing captain parenthetical ("(Matt O.)"). Both are
+// display-only cleanups -- the raw teamName in docs/data/ is never
+// touched, and archive/leagueapps.js's own privacy redaction (which
+// abbreviates, never removes, the name inside the parenthetical) is
+// untouched too.
+//
+// The leading number is stripped unconditionally: nothing that calls this
+// has any real use for a captain's self-assigned number, and everywhere
+// it matters a REAL rank/position is already shown separately (rankings'
+// .pos column, team.html's stat grid).
+//
+// The trailing captain name is stripped only when stripCaptain is true --
+// it's only actually redundant where a roster with the captain flagged is
+// shown on the same page (the match card, team.html's header). On a bare
+// list like rankings.html there's no roster to make it redundant against,
+// so that caller leaves it in place.
+function displayTeamName(rawName, { stripCaptain = false } = {}) {
+  let name = String(rawName ?? '');
+  const withoutSeed = name.replace(/^\s*\d+\s*[.\-–)]\s*/, '');
+  if (withoutSeed.trim()) name = withoutSeed;
+  if (stripCaptain) {
+    const m = /\(([^)]+)\)\s*$/.exec(name);
+    if (m) {
+      const before = name.slice(0, m.index).trim();
+      if (before) name = before;
+    }
+  }
+  return name;
+}
+
 // ---------------------------------------------------------------------
 // Bottom-bar navigation, shared by every page.
 //

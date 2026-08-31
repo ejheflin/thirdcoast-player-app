@@ -86,6 +86,27 @@ const goHome = async () => {
 await go('search.html');
 await page.evaluate(() => localStorage.clear());
 
+// ---- displayTeamName (shared helper, app.js) -----------------------------
+{
+  const results = await page.evaluate(() => ([
+    displayTeamName('1 - Bumpin Uglies (Matt O.)'),
+    displayTeamName('1 - Bumpin Uglies (Matt O.)', { stripCaptain: true }),
+    displayTeamName('(Lily P.)', { stripCaptain: true }),
+    displayTeamName('1. Testers United'),
+    displayTeamName('  '),
+  ]));
+  check(`displayTeamName strips the leading number only by default, got ${JSON.stringify(results[0])}`,
+    results[0] === 'Bumpin Uglies (Matt O.)');
+  check(`displayTeamName strips both leading number and trailing captain name when asked, got ${JSON.stringify(results[1])}`,
+    results[1] === 'Bumpin Uglies');
+  check(`displayTeamName guards a parenthetical-only name from becoming empty, got ${JSON.stringify(results[2])}`,
+    results[2] === '(Lily P.)');
+  check(`displayTeamName handles the ". " prefix style too, got ${JSON.stringify(results[3])}`,
+    results[3] === 'Testers United');
+  check(`displayTeamName never throws or returns non-string on blank input, got ${JSON.stringify(results[4])}`,
+    typeof results[4] === 'string');
+}
+
 // ---- page content -------------------------------------------------------
 await go('search.html');
 await page.type('#q', 'test', { delay: 20 });
@@ -211,9 +232,9 @@ check(
     (c) => [...c.querySelectorAll('.side .tname')].map((el) => el.textContent.trim()),
   ));
   check('Home puts the player\'s own team on top of card 1, opponent below',
-    sides[0][0] === '1. Testers United' && sides[0][1] === '2. Fixture FC');
+    sides[0][0] === 'Testers United' && sides[0][1] === 'Fixture FC');
   check('Home puts the player\'s own team on top of card 2 too, even though the raw data lists it second',
-    sides[1][0] === '1. Testers United' && sides[1][1] === '4. Net Prophets');
+    sides[1][0] === 'Testers United' && sides[1][1] === 'Net Prophets');
 
   // The court slab carries the real court number and the venue's real
   // paint name for it, straight off the broadcast board's COURT table:
