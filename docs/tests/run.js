@@ -258,6 +258,32 @@ check(
   check(`Home gives card 1 its own split of 57%/43%, got ${splits[0]}`, splits[0] === '57%/43%');
   check(`Home gives card 2 its own split of 72%/28%, got ${splits[1]}`, splits[1] === '72%/28%');
 
+  // Head-to-head history for THIS matchup specifically -- one shared row
+  // between the card and the odds strip, not one row per team (an earlier
+  // draft of this feature showed each team's separate overall season form;
+  // Eric corrected that to "for A vs B matches, there is only 1 row of
+  // history needed"). fixtures/data/activities/9001.json gives one
+  // populated case and one empty case for free: 501 and 502 have played
+  // each other exactly once this season (501 won it), while 501 and 506
+  // have never played each other (506's only recorded game is against
+  // 999) -- so card 1 must show exactly one win-colored dot and card 2
+  // must show the "not yet met" fallback, with no fixture edits needed.
+  const h2h = await page.$$eval('.mgame .mform', (els) => els.map((el) => ({
+    label: el.querySelector('.flbl')?.textContent.trim() ?? '',
+    dots: [...el.querySelectorAll('.fdots i')].map((i) => i.className),
+    empty: el.querySelector('.empty')?.textContent.trim() ?? null,
+  })));
+  check('Home labels the head-to-head row "Previous matches" on both cards',
+    h2h.every((r) => r.label === 'Previous matches'));
+  check(
+    `card 1's head-to-head row shows exactly one win-colored dot for 501 vs 502 (their one real meeting), got ${JSON.stringify(h2h[0].dots)}`,
+    h2h[0].dots.length === 1 && h2h[0].dots[0] === 'W',
+  );
+  check(
+    `card 2's head-to-head row falls back to "not yet met" for 501 vs 506 (no game between them in the fixture), got ${JSON.stringify(h2h[1])}`,
+    h2h[1].dots.length === 0 && h2h[1].empty === 'Not yet met this season.',
+  );
+
   // ...and each card gets its own opponent roster, from that game's own
   // rosters/9001-{opponent}.json file.
   const rosters = await page.$$eval('.mgame', (cards) => cards.map((c) => ({

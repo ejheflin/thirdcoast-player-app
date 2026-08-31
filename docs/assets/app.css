@@ -298,6 +298,29 @@ body{background:#101A2C;display:flex;justify-content:center}
   background:var(--app-data);color:var(--app-on-fill);
   font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px 5px}
 
+/* Head-to-head history for THIS matchup specifically -- one shared row,
+   not one per team (Eric: "if the match is between team A and team B,
+   there is only 1 row of history needed for A vs B matches"), between the
+   card and the odds strip. No pink/blue identity dot here: the row is
+   already anchored to "my team's" perspective the same way the rest of
+   the card is (top slot, ratings, etc.), so there is no second team to
+   distinguish within it -- the W/L/D dots keep team.html's own
+   win/loss/tie colors (.form-dots i.W/.L/.D) unambiguously instead.
+   .flbl reuses .mroster .rlbl's own faint/uppercase/small treatment so
+   the two labels in this card read as the same kind of thing. Dots sized
+   8x8, up from team.html's 6x6: at this row's much smaller overall
+   footprint (no game log, no roster alongside it) 6px read as flyspecks
+   in rendered review; 8px was the first size that read clearly as a row
+   of dots at a glance rather than needing a squint. */
+.mgame .mform{border-top:1px solid var(--app-line);padding:9px 11px;display:flex;align-items:center;gap:8px}
+.mgame .mform .flbl{flex:none;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--app-faint)}
+.mgame .mform .fdots{display:flex;align-items:center;gap:4px;overflow:hidden}
+.mgame .mform .fdots i{flex:none;display:block;width:8px;height:8px;border-radius:50%}
+.mgame .mform .fdots i.W{background:var(--app-win)}
+.mgame .mform .fdots i.L{background:var(--app-loss)}
+.mgame .mform .fdots i.D{background:var(--app-tie);opacity:.75}
+.mgame .mform .empty{font-size:12px;color:var(--app-faint)}
+
 /* attached to the card above it: same background, divided by a line
    rather than a gap, inside the same pair of corner cuts. */
 .mgame .modds{border-top:1px solid var(--app-line);padding:10px 11px 11px}

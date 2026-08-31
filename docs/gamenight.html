@@ -173,6 +173,33 @@ function rosterRowsHTML(roster) {
     </a>`).join('');
 }
 
+// Head-to-head history between THIS team and THIS opponent specifically --
+// not each team's separate overall season form (that was the wrong read of
+// the ask; Eric wants "for A vs B matches, one row of history", i.e. only
+// games these two exact teams have played against EACH OTHER). Same filter
+// matchup.html already uses to find previous meetings (docs/matchup.html
+// ~line 115: both team ids present on the same game), reused verbatim,
+// but here it also needs the actual result sequence rather than just
+// met.length. Rendered from `teamId`'s (my team's) perspective, same
+// result field/letter mapping as team.html's own formDots and the same
+// win/loss/tie dot colors -- not the pink/blue "which team" identity
+// colors used elsewhere on this card, since there's only one shared row
+// now, not one per team. `games` (the full season list) is already
+// chronological -- see the archive-order note elsewhere in this file --
+// so no re-sort is needed before capping the tail.
+function headToHeadHTML(teamId, oppId, games, cap) {
+  if (oppId == null) return '<span class="empty">Not yet met this season.</span>';
+  const met = games.filter((g) =>
+    g.teams.some((t) => t.teamId === teamId) && g.teams.some((t) => t.teamId === oppId));
+  if (met.length === 0) return '<span class="empty">Not yet met this season.</span>';
+  const dots = met.slice(-cap).map((g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+    return `<i class="${letter}"></i>`;
+  }).join('');
+  return `<span class="fdots">${dots}</span>`;
+}
+
 // One game: the ported broadcast match card, its own odds strip, and its
 // own opponent roster, as a single attached group.
 //
@@ -200,6 +227,18 @@ function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roste
   const myRating = myRow && myRow.gamesPlayed > 0 ? ratingFor(myRow, games) : null;
   const oppRating = oppRow && oppRow.gamesPlayed > 0 ? ratingFor(oppRow, games) : null;
 
+  // A round-robin season rarely puts the same two teams on court more than
+  // a small handful of times, so 12 (team.html's own cap) is more headroom
+  // than this row will realistically ever need -- kept anyway as the same
+  // safety cap team.html uses, so an unusually long series still fits one
+  // line instead of wrapping.
+  const H2H_CAP = 12;
+  const form = `
+    <div class="mform">
+      <span class="flbl">Previous matches</span>
+      ${headToHeadHTML(teamId, opponent?.teamId, games, H2H_CAP)}
+    </div>`;
+
   let odds;
   if (myRating === null || oppRating === null) {
     odds = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
@@ -223,6 +262,7 @@ function gameGroupHTML({ game, teamId, myName, myRecord, standings, games, roste
         </div>
         <span class="statetag">${escapeHTML(whenBadge(game.date, game.time))}</span>
       </div>
+      ${form}
       <div class="modds">${odds}</div>
       <div class="mroster">
         <div class="rlbl">Opponent roster</div>
