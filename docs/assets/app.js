@@ -123,3 +123,49 @@ function wireTabs({ active, programId, teamId } = {}) {
 }
 
 document.addEventListener('DOMContentLoaded', injectIcons);
+
+// Temporary diagnostic for the "floating tab bar" report -- three
+// established CSS fixes (padding, 100dvh, position:fixed) all landed
+// with zero visible change, which means the assumption behind all
+// three (a viewport-height calculation problem) is probably wrong.
+// Rather than guess a fourth CSS fix blind, this renders the actual
+// numbers on-device: ?debug=1 on any page shows a readout of every
+// viewport metric involved, plus .screen's and .tabbar's own measured
+// position, so a screenshot of THIS tells us what's really happening
+// instead of what CSS theory says should be happening. Remove once the
+// bug is actually found -- this is not meant to ship long-term.
+function showDebugOverlay() {
+  if (new URLSearchParams(location.search).get('debug') !== '1') return;
+  const screenEl = document.querySelector('.screen');
+  const tabbarEl = document.querySelector('.tabbar');
+  const sr = screenEl?.getBoundingClientRect();
+  const tr = tabbarEl?.getBoundingClientRect();
+  const cs = tabbarEl ? getComputedStyle(tabbarEl) : null;
+  const probe = document.createElement('div');
+  probe.style.cssText = 'position:fixed;visibility:hidden;padding-bottom:env(safe-area-inset-bottom);padding-top:env(safe-area-inset-top);';
+  document.body.appendChild(probe);
+  const probeStyle = getComputedStyle(probe);
+  const safeBottom = probeStyle.paddingBottom;
+  const safeTop = probeStyle.paddingTop;
+  probe.remove();
+  const lines = [
+    `standalone: ${window.navigator.standalone}`,
+    `innerHeight: ${window.innerHeight}`,
+    `docEl.clientHeight: ${document.documentElement.clientHeight}`,
+    `visualViewport.height: ${window.visualViewport?.height}`,
+    `visualViewport.offsetTop: ${window.visualViewport?.offsetTop}`,
+    `screen.height (device): ${window.screen?.height}`,
+    `devicePixelRatio: ${window.devicePixelRatio}`,
+    `.screen rect: top=${sr?.top} bottom=${sr?.bottom} height=${sr?.height}`,
+    `.tabbar rect: top=${tr?.top} bottom=${tr?.bottom} height=${tr?.height}`,
+    `.tabbar padding-bottom (computed): ${cs?.paddingBottom}`,
+    `env(safe-area-inset-top): ${safeTop}`,
+    `env(safe-area-inset-bottom): ${safeBottom}`,
+  ];
+  const box = document.createElement('div');
+  box.style.cssText = 'position:fixed;left:0;right:0;top:0;z-index:99999;background:#000;color:#0f0;' +
+    'font:11px/1.5 monospace;padding:10px;white-space:pre-wrap;pointer-events:none;';
+  box.textContent = lines.join('\n');
+  document.body.appendChild(box);
+}
+document.addEventListener('DOMContentLoaded', showDebugOverlay);
