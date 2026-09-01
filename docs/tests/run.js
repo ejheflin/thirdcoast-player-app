@@ -358,6 +358,20 @@ check(
   check('Home lists card 2\'s own, different opponent roster (9001-506.json)',
     rosters[1].label === 'Opponent roster' && rosters[1].names === 'Marisol,Tobias');
 
+  // Team names on the match card link to that team's own /team page --
+  // both "my team" and the opponent, on both cards. Checked as real <a>
+  // href attributes rather than by clicking through, so this doesn't
+  // disturb the Home page state the checks right after it still need.
+  const tnameLinks = await page.$$eval('.mgame .tname', (els) => els.map((el) => ({ tag: el.tagName, href: el.getAttribute('href') })));
+  check(`Home match card team names are real links (<a href>), not spans, got ${JSON.stringify(tnameLinks)}`,
+    tnameLinks.length === 4 && tnameLinks.every((l) => l.tag === 'A' && !!l.href));
+  check('Home card 1: my own team name links to my own team page',
+    tnameLinks[0].href === 'team.html?team=501&program=9001');
+  check('Home card 1: opponent name links to their team page',
+    tnameLinks[1].href === 'team.html?team=502&program=9001');
+  check('Home card 2: opponent name links to their (different) team page',
+    tnameLinks[3].href === 'team.html?team=506&program=9001');
+
   const rendered = await page.$eval('#body', (el) => el.innerText);
   check('Home never renders NaN in the probability split', !rendered.includes('NaN'));
   // Fix 2: search.html used to be reachable ONLY via the no-saved-team
