@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8042849,
       "teamName": "8. Sammy L. and Joseph V.",
-      "gamesPlayed": 13,
-      "wins": 9,
+      "gamesPlayed": 14,
+      "wins": 10,
       "losses": 0,
       "ties": 4,
-      "points": 22
+      "points": 24
     },
     {
       "position": 2,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8037979,
       "teamName": "3. Sue L. and David N.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "ties": 4,
       "points": 4
     }

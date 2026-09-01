@@ -1388,6 +1388,24 @@
       ]
     },
     {
+      "activityId": 13274950,
+      "date": "2026-08-19",
+      "teams": [
+        {
+          "teamId": 8005861,
+          "teamName": "9. Nathan G. and Zach B.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8018499,
+          "teamName": "10. Scott S. and Chris H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13274954,
       "date": "2026-08-26",
       "teams": [

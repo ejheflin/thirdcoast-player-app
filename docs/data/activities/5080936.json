@@ -1152,6 +1152,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13357131,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8037979,
+          "teamName": "3. Sue L. and David N.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8042849,
+          "teamName": "8. Sammy L. and Joseph V.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

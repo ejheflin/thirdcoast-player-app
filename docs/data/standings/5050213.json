@@ -74,6 +74,16 @@
     },
     {
       "position": 8,
+      "teamId": 8018499,
+      "teamName": "10. Scott S. and Chris H.",
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 5,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 9,
       "teamId": 8019966,
       "teamName": "11. Vince R. and Alfredo E.",
       "gamesPlayed": 13,
@@ -83,7 +93,7 @@
       "points": 22
     },
     {
-      "position": 9,
+      "position": 10,
       "teamId": 8000497,
       "teamName": "8. Jason O. and Dominick W.",
       "gamesPlayed": 16,
@@ -91,16 +101,6 @@
       "losses": 5,
       "ties": 9,
       "points": 13
-    },
-    {
-      "position": 10,
-      "teamId": 8018499,
-      "teamName": "10. Scott S. and Chris H.",
-      "gamesPlayed": 15,
-      "wins": 2,
-      "losses": 5,
-      "ties": 8,
-      "points": 12
     },
     {
       "position": 11,
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8005861,
       "teamName": "9. Nathan G. and Zach B.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "ties": 7,
       "points": 9
     }
