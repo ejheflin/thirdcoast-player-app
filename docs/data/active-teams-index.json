@@ -20,6 +20,12 @@
   {
     "programId": 5053349,
     "programName": "Monday Coed 2s B",
+    "teamId": 8007542,
+    "teamName": "5. Kim M. and Travis B."
+  },
+  {
+    "programId": 5053349,
+    "programName": "Monday Coed 2s B",
     "teamId": 8013412,
     "teamName": "3. Jenny S. and Nathan G."
   },
@@ -28,12 +34,6 @@
     "programName": "Monday Coed 2s B",
     "teamId": 8020386,
     "teamName": "2. Holli D. and Dan L."
-  },
-  {
-    "programId": 5053349,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8007542,
-    "teamName": "5. Kim M. and Travis B."
   },
   {
     "programId": 5053349,
@@ -86,14 +86,14 @@
   {
     "programId": 5080936,
     "programName": "Monday Coed 2s B/BB Pop Up",
-    "teamId": 8043510,
-    "teamName": "1. Rachele P. and Ganesh N."
+    "teamId": 8039648,
+    "teamName": "7. Lauren V. and Naz A."
   },
   {
     "programId": 5080936,
     "programName": "Monday Coed 2s B/BB Pop Up",
-    "teamId": 8039648,
-    "teamName": "7. Lauren V. and Naz A."
+    "teamId": 8043510,
+    "teamName": "1. Rachele P. and Ganesh N."
   },
   {
     "programId": 5080936,
@@ -110,6 +110,12 @@
   {
     "programId": 5053351,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8011799,
+    "teamName": "7. Sydney Z. and Manny A."
+  },
+  {
+    "programId": 5053351,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8011095,
     "teamName": "6. Liz C. and Josman R."
   },
@@ -118,12 +124,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8020518,
     "teamName": "4. Kaegan W. and Jon N."
-  },
-  {
-    "programId": 5053351,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8011799,
-    "teamName": "7. Sydney Z. and Manny A."
   },
   {
     "programId": 5053351,
@@ -158,14 +158,14 @@
   {
     "programId": 5053299,
     "programName": "Monday Coed 3s B",
-    "teamId": 8007548,
-    "teamName": "1. May the Spike Be With You (Ash C.)"
+    "teamId": 8028220,
+    "teamName": "6. Tito-Rico's (Eliza P.)"
   },
   {
     "programId": 5053299,
     "programName": "Monday Coed 3s B",
-    "teamId": 8028220,
-    "teamName": "6. Tito-Rico's (Eliza P.)"
+    "teamId": 8007548,
+    "teamName": "1. May the Spike Be With You (Ash C.)"
   },
   {
     "programId": 5053299,
@@ -218,14 +218,14 @@
   {
     "programId": 5050344,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8000417,
-    "teamName": "2. Ivy C. and Dreco S."
+    "teamId": 8002189,
+    "teamName": "6. Sydney Z. and Josman R."
   },
   {
     "programId": 5050344,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8002189,
-    "teamName": "6. Sydney Z. and Josman R."
+    "teamId": 8000417,
+    "teamName": "2. Ivy C. and Dreco S."
   },
   {
     "programId": 5050344,

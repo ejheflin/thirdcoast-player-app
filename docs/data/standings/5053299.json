@@ -4,51 +4,51 @@
   "rows": [
     {
       "position": 1,
-      "teamId": 8007548,
-      "teamName": "1. May the Spike Be With You (Ash C.)",
-      "gamesPlayed": 12,
-      "wins": 7,
+      "teamId": 8028220,
+      "teamName": "6. Tito-Rico's (Eliza P.)",
+      "gamesPlayed": 13,
+      "wins": 9,
       "losses": 2,
-      "ties": 3,
-      "points": 17
+      "ties": 2,
+      "points": 20
     },
     {
       "position": 2,
-      "teamId": 8028220,
-      "teamName": "6. Tito-Rico's (Eliza P.)",
-      "gamesPlayed": 11,
+      "teamId": 8007548,
+      "teamName": "1. May the Spike Be With You (Ash C.)",
+      "gamesPlayed": 13,
       "wins": 8,
       "losses": 2,
-      "ties": 1,
-      "points": 17
+      "ties": 3,
+      "points": 19
     },
     {
       "position": 3,
       "teamId": 8011316,
       "teamName": "2. Respect Your Elders (Heather B.)",
-      "gamesPlayed": 12,
-      "wins": 7,
+      "gamesPlayed": 14,
+      "wins": 8,
       "losses": 3,
-      "ties": 2,
-      "points": 16
+      "ties": 3,
+      "points": 19
     },
     {
       "position": 4,
       "teamId": 8019272,
       "teamName": "4. Tri-Angels (Johnny P.)",
-      "gamesPlayed": 12,
-      "wins": 5,
-      "losses": 1,
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
       "ties": 6,
-      "points": 16
+      "points": 18
     },
     {
       "position": 5,
       "teamId": 8012052,
       "teamName": "5. Volley Llamas (Jamie D.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 6,
-      "losses": 3,
+      "losses": 4,
       "ties": 3,
       "points": 15
     },
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8032894,
       "teamName": "8. Sandy Shorts (Gilberto Z.)",
-      "gamesPlayed": 11,
+      "gamesPlayed": 13,
       "wins": 0,
-      "losses": 10,
+      "losses": 12,
       "ties": 1,
       "points": 1
     }

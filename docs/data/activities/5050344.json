@@ -1206,6 +1206,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13291824,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8002189,
+          "teamName": "6. Sydney Z. and Josman R.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
