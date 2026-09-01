@@ -164,29 +164,21 @@ check('team page lists its roster by first name', (await page.content()).include
 }
 
 {
-  // Own team (501) -- no head-to-head section, nothing to compare
-  // against.
+  // team.html's old "Previous matches" card (viewer's saved team vs. this
+  // page's team) was retired as redundant with the Opponents card: the
+  // saved team is always in the same program as any team page reached by
+  // real navigation, so it always already has its own Opponents row
+  // showing the exact same head-to-head dots. This just guards the old
+  // card stays gone rather than silently coming back -- the actual
+  // dot/empty-state logic is covered by the Opponents-card checks above.
   await page.evaluate(() => localStorage.setItem(
     'thirdcoast-my-team',
     JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
   ));
-  await go('team.html?program=9001&team=501');
-  check('team page for YOUR OWN team has no head-to-head section',
-    (await page.$$('.h2h-dots, .h2h-empty')).length === 0);
-
-  // Someone else's team, real prior meeting (501 beat 502 once, same
-  // fixture the match-card head-to-head tests already use).
   await go('team.html?program=9001&team=502');
-  const dots502 = await page.$$eval('.h2h-dots i', (els) => els.map((el) => el.className));
-  check(`team page for 502 shows exactly one W dot vs. your saved team, got ${JSON.stringify(dots502)}`,
-    dots502.length === 1 && dots502[0] === 'W');
-
-  // Someone else's team, no prior meeting at all (501 vs 506 never
-  // played in this fixture).
-  await go('team.html?program=9001&team=506');
-  const empty506 = await page.$eval('.h2h-empty', (el) => el.textContent.trim()).catch(() => null);
-  check(`team page for 506 shows the "not yet met" fallback, got ${JSON.stringify(empty506)}`,
-    empty506 === 'Not yet met this season.');
+  check('team page has no separate "Previous matches vs. your saved team" card any more (superseded by Opponents)',
+    (await page.$$('.sec-lbl')).length > 0 &&
+    !(await page.evaluate(() => [...document.querySelectorAll('.sec-lbl')].some((el) => el.textContent.trim() === 'Previous matches'))));
 }
 
 {

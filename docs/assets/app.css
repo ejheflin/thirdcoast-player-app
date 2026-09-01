@@ -40,7 +40,14 @@ body{background:#101A2C;display:flex;justify-content:center}
    instead of borrowed phone-keyboard art. */
 .icon{width:16px;height:16px;display:inline-block;vertical-align:-3px;fill:currentColor}
 .icon-stroke{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-.topbar{flex:none;padding:14px 18px 10px;display:flex;align-items:center;justify-content:space-between}
+/* padding-top is max(14px, safe-area) rather than a flat value: in an
+   ordinary Safari tab env(safe-area-inset-top) is 0, so this still
+   resolves to the same 14px as before -- but now that the site is
+   installable (apple-mobile-web-app-capable, manifest.json) and can run
+   in standalone mode with no Safari chrome at all, the OS status bar
+   sits directly over the page in THAT mode, and this is what clears it
+   instead of letting content run underneath. */
+.topbar{flex:none;padding:max(14px, env(safe-area-inset-top)) 18px 10px;display:flex;align-items:center;justify-content:space-between}
 .topbar .greet{font-size:13px;color:var(--app-dim)}
 .topbar .brand{font-family:"Archivo Black",Impact,sans-serif;font-size:19px;letter-spacing:.01em}
 .topbar .brand em{font-style:normal;color:var(--app-accent)}
@@ -119,10 +126,22 @@ body{background:#101A2C;display:flex;justify-content:center}
 .odds-track{flex:1;height:8px;border-radius:5px;background:var(--app-line);position:relative;overflow:hidden;min-width:60px}
 .odds-track b{position:absolute;inset:0;border-radius:5px;background:var(--app-win)}
 .odds-pct{width:38px;text-align:right;font-size:12.5px;font-weight:700;font-family:"Archivo Black",Impact,sans-serif}
-.tabbar{flex:none;display:flex;border-top:1px solid var(--app-line);padding:12px 8px 22px;background:var(--app-surface)}
+/* was padding:12px 8px 22px -- the 22px bottom, like .topbar's old 46px
+   top, was home-indicator clearance ported from a full-screen native-app
+   mockup, but a flat value with no real notch to clear just read as
+   uncomfortably tall. Now that the site is installable and can run
+   standalone (see .topbar's own comment), the bottom is
+   max(10px, safe-area) instead of flat 10px -- 10px in an ordinary
+   Safari tab (env() is 0 there), growing to actually clear the home
+   indicator once there's no Safari chrome underneath it. */
+.tabbar{flex:none;display:flex;border-top:1px solid var(--app-line);padding:10px 8px max(10px, env(safe-area-inset-bottom));background:var(--app-surface)}
 .tab{flex:1;text-align:center;font-size:11.5px;color:var(--app-faint);font-weight:700}
 .tab.on{color:var(--app-win)}
-.tab .dot{width:36px;height:36px;border-radius:10px;margin:0 auto 5px;display:grid;place-items:center}
+/* was 36x36 -- the icon glyph itself (.icon, 23x23) is untouched, this
+   only shrinks the invisible box AROUND it (36px box around a 23px icon
+   was 6.5px of empty space on every side, most of what was reading as
+   "too tall" once .tabbar's own padding was already cut). */
+.tab .dot{width:28px;height:28px;border-radius:8px;margin:0 auto 4px;display:grid;place-items:center}
 .tab .dot .icon{width:23px;height:23px;vertical-align:0}
 .tab.on .dot{background:rgba(140,198,63,.16)}
 /* a tab whose destination doesn't exist in this context (no team saved

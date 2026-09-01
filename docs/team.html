@@ -1,8 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Team Page — Third Coast Intel</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="icon" href="assets/favicon-32.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="3C Intel">
+<meta name="theme-color" content="#101A2C">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="assets/app.css">
@@ -105,33 +112,6 @@ Promise.all([
       <p style="color:var(--app-faint);font-size:13px;margin:2px 0 0">No games played yet — check back once there's a result.</p>`;
   }
 
-  // Head-to-head vs. your saved team -- only when viewing a DIFFERENT
-  // team's page. Same "met"/"not yet met" logic as gamenight.html's
-  // headToHeadHTML(), ported rather than imported (no shared-module
-  // convention in this codebase -- see gamenight.html's own note on this).
-  // Assumes the saved team and this page's program are the same program,
-  // which is true on every real navigation path today (Ranks is always
-  // reached for your own program; nothing currently links across
-  // programs) -- if that ever changes, this needs a program check too.
-  const savedTeam = getMyTeam();
-  const isOwnTeam = savedTeam && String(savedTeam.teamId) === String(teamId);
-  let h2hHtml = '';
-  if (savedTeam && !isOwnTeam) {
-    const savedTeamId = Number(savedTeam.teamId);
-    const met = allGames.filter((g) =>
-      g.teams.some((t) => t.teamId === savedTeamId) && g.teams.some((t) => t.teamId === teamId));
-    const h2hInner = met.length === 0
-      ? '<span class="h2h-empty">Not yet met this season.</span>'
-      : `<span class="h2h-dots">${met.slice(-12).map((g) => {
-          const me = g.teams.find((t) => t.teamId === savedTeamId);
-          const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
-          return `<i class="${letter}"></i>`;
-        }).join('')}</span>`;
-    h2hHtml = `
-      <div class="sec-lbl">Previous matches</div>
-      <div class="card">${h2hInner}</div>`;
-  }
-
   const rosterPlayers = roster?.players ?? [];
 
   const games = (activities?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
@@ -225,14 +205,13 @@ Promise.all([
       <div class="box"><b>${setDiff >= 0 ? '+' : ''}${setDiff}</b><span>Set diff</span></div>
       <div class="box"><b>#${row.position}</b><span>Power rank</span></div>
     </div>
+    <div class="sec-lbl">Roster</div>
+    <div class="card teamroster" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
     ${oddsHtml}
-    ${h2hHtml}
     <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
     <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
     <div class="sec-lbl">Opponents</div>
     <div class="card" style="padding:6px 12px">${opponents || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No other teams in this league yet.</p>'}</div>
-    <div class="sec-lbl">Roster</div>
-    <div class="card teamroster" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
   `;
 });
 </script>

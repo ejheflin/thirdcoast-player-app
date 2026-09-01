@@ -1,0 +1,14 @@
+{
+  "name": "Third Coast Intel",
+  "short_name": "3C Intel",
+  "description": "Player-facing stats companion for Third Coast Volleyball.",
+  "start_url": "index.html",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#101A2C",
+  "theme_color": "#101A2C",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
