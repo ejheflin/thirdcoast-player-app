@@ -147,14 +147,60 @@ Promise.all([
     return `<i class="${letter}"></i>`;
   }).join('');
 
-  const gameLog = games.slice(-12).reverse().map((g) => {
-    const me = g.teams.find((t) => t.teamId === teamId);
-    const opp = g.teams.find((t) => t.teamId !== teamId);
-    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
-    return `<div class="gamelog-row"><div class="r ${letter}">${letter}</div>
-      <div class="opp">${escapeHTML(displayTeamName(opp?.teamName ?? 'Unknown'))}</div>
-      <div class="sc">${me.score}-${opp?.score ?? 0}</div></div>`;
-  }).join('');
+  // "Opponents" -- one row per OTHER team in the standings (every league
+  // opponent, not just the ones already met), sorted by power rank
+  // (Eric: "record/strength, best to worst"). Replaces the old game-log's
+  // one-row-per-game list, which repeated an opponent's name for every
+  // meeting and left the captain's name in via a bare displayTeamName()
+  // call with no options.
+  //
+  // splitPct ported verbatim from gamenight.html's own copy (see its
+  // comment for why the min-rating shift is needed) -- this project's
+  // established convention of duplicating rather than sharing a module.
+  function splitPct(ratingA, ratingB) {
+    const minRating = Math.min(ratingA, ratingB);
+    const shift = minRating <= 0 ? -minRating + 0.01 : 0;
+    const a = ratingA + shift;
+    const b = ratingB + shift;
+    let pctA = Math.round((a / (a + b)) * 100);
+    pctA = Math.max(1, Math.min(99, pctA));
+    return { pctA, pctB: 100 - pctA };
+  }
+
+  const OPP_H2H_CAP = 12;
+  const opponents = standings.rows
+    .filter((r) => r.teamId !== teamId)
+    .sort((a, b) => a.position - b.position)
+    .map((oppRow) => {
+      const oppTeamId = oppRow.teamId;
+      const met = allGames.filter((g) =>
+        g.teams.some((t) => t.teamId === teamId) && g.teams.some((t) => t.teamId === oppTeamId));
+      const dotsInner = met.length === 0
+        ? '<span class="opp-empty">—</span>'
+        : met.slice(-OPP_H2H_CAP).map((g) => {
+            const me = g.teams.find((t) => t.teamId === teamId);
+            const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+            return `<i class="${letter}"></i>`;
+          }).join('');
+
+      const oppOddsRow = oddsRated.find((r) => r.teamId === oppTeamId);
+      const oddsInner = (myOddsRow?.rating == null || oppOddsRow?.rating == null)
+        ? '<span class="opp-empty">—</span>'
+        : (() => {
+            const { pctA, pctB } = splitPct(myOddsRow.rating, oppOddsRow.rating);
+            return `<div class="opp-bar"><div class="a" style="flex:${pctA}"></div><div class="b" style="flex:${pctB}"></div></div>
+              <div class="opp-pct">${pctA}%</div>`;
+          })();
+
+      return `
+        <a class="row-link" href="team.html?team=${encodeURIComponent(oppTeamId)}&program=${encodeURIComponent(programId)}">
+          <div class="opp-row">
+            <div class="nm">${escapeHTML(displayTeamName(oppRow.teamName, { stripCaptain: true }))}</div>
+            <div class="opp-dots">${dotsInner}</div>
+            <div class="opp-odds">${oddsInner}</div>
+          </div>
+        </a>`;
+    }).join('');
 
   // First names only, straight out of the roster file -- the same data
   // player.html itself shows. Each row drills down to that player's card.
@@ -183,8 +229,8 @@ Promise.all([
     ${h2hHtml}
     <div class="sec-lbl">Form, last ${Math.min(games.length, 12)}</div>
     <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
-    <div class="sec-lbl">Game log</div>
-    <div class="card">${gameLog || '<p style="color:var(--app-faint);font-size:13px;margin:2px 0">No games yet this season.</p>'}</div>
+    <div class="sec-lbl">Opponents</div>
+    <div class="card" style="padding:6px 12px">${opponents || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No other teams in this league yet.</p>'}</div>
     <div class="sec-lbl">Roster</div>
     <div class="card teamroster" style="padding:4px 12px">${rosterRows || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No roster archived for this team yet.</p>'}</div>
   `;

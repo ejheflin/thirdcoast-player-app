@@ -195,6 +195,45 @@ check('team page lists its roster by first name', (await page.content()).include
   check('team page roster renders as a 2-column grid', gridCols === 2);
 }
 
+// team.html's Opponents card -- one row per OTHER team in the standings
+// (9001 has 6 teams total, so 501's page should show the other 5), sorted
+// by power rank, captain-name-free, each linking to that team's own page.
+{
+  await go('team.html?program=9001&team=501');
+  const oppRows = await page.$$eval('.opp-row', (rows) => rows.map((r) => ({
+    name: r.querySelector('.nm').textContent.trim(),
+    href: r.closest('a').getAttribute('href'),
+    dots: [...r.querySelectorAll('.opp-dots i')].map((i) => i.className),
+    dotsEmpty: r.querySelector('.opp-dots .opp-empty')?.textContent.trim() ?? null,
+    hasBar: !!r.querySelector('.opp-bar'),
+    oddsEmpty: r.querySelector('.opp-odds .opp-empty')?.textContent.trim() ?? null,
+    pct: r.querySelector('.opp-pct')?.textContent.trim() ?? null,
+  })));
+
+  check(`Opponents card lists all 5 other teams, sorted by power rank (best record first), got ${JSON.stringify(oppRows.map((r) => r.name))}`,
+    JSON.stringify(oppRows.map((r) => r.name)) ===
+      JSON.stringify(['Fixture FC', 'Brand New Squad', 'Bubble FC', 'Net Prophets', 'Understrength Squad']));
+
+  const fixtureFC = oppRows.find((r) => r.name === 'Fixture FC');
+  check(`Opponents row for a team already played shows its real head-to-head dot(s), got ${JSON.stringify(fixtureFC?.dots)}`,
+    JSON.stringify(fixtureFC?.dots) === JSON.stringify(['W']));
+  check('Opponents row for a team already played shows an odds bar, not the empty state',
+    fixtureFC?.hasBar && fixtureFC?.oddsEmpty === null && fixtureFC?.pct !== null);
+
+  const bubbleFC = oppRows.find((r) => r.name === 'Bubble FC');
+  check('Opponents row for a team not yet MET (but which has played other games) shows "not yet met" dots but a real odds bar',
+    bubbleFC?.dotsEmpty === '—' && bubbleFC?.hasBar && bubbleFC?.pct !== null);
+
+  const brandNew = oppRows.find((r) => r.name === 'Brand New Squad');
+  check('Opponents row for a 0-game opponent shows the empty state in BOTH columns, not a bar (nothing to rate)',
+    brandNew?.dotsEmpty === '—' && brandNew?.oddsEmpty === '—' && !brandNew?.hasBar);
+
+  check('no Opponents row ever renders NaN%', !oppRows.some((r) => r.pct?.includes('NaN')));
+
+  check('each Opponents row links to that team\'s own team.html page',
+    fixtureFC?.href === 'team.html?team=502&program=9001');
+}
+
 // A team that has not played yet has no rating to divide by: the page must
 // say so rather than rendering "NaN%".
 {
@@ -584,7 +623,11 @@ await go('rankings.html?program=9001');
 await clickThrough('.row-link');
 check('rankings row -> team page (the drill-down the spec describes)', path().startsWith('/team.html'));
 
-await clickThrough('.card .row-link');
+// Scoped to .teamroster specifically -- team.html's Opponents card (above
+// the roster in the DOM) is now ALSO full of .card .row-link elements
+// (each opponent row links to that team's own page), so the old bare
+// '.card .row-link' selector would hit an opponent row first instead.
+await clickThrough('.teamroster .row-link');
 check('team roster row -> player card', path() === '/player.html?person=1');
 
 // Home now lands on the next-game feed itself, not a forward straight to

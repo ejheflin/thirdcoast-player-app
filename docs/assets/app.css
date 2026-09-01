@@ -40,7 +40,7 @@ body{background:#101A2C;display:flex;justify-content:center}
    instead of borrowed phone-keyboard art. */
 .icon{width:16px;height:16px;display:inline-block;vertical-align:-3px;fill:currentColor}
 .icon-stroke{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-.topbar{flex:none;padding:46px 18px 10px;display:flex;align-items:center;justify-content:space-between}
+.topbar{flex:none;padding:14px 18px 10px;display:flex;align-items:center;justify-content:space-between}
 .topbar .greet{font-size:13px;color:var(--app-dim)}
 .topbar .brand{font-family:"Archivo Black",Impact,sans-serif;font-size:19px;letter-spacing:.01em}
 .topbar .brand em{font-style:normal;color:var(--app-accent)}
@@ -339,6 +339,32 @@ body{background:#101A2C;display:flex;justify-content:center}
 .h2h-dots i.L{background:var(--app-loss)}
 .h2h-dots i.D{background:var(--app-tie);opacity:.75}
 .h2h-empty{font-size:13px;color:var(--app-faint)}
+
+/* team.html's "Opponents" card -- one row per team in the standings
+   (every league opponent, not just the ones already met, and not one
+   row per game the way the retired game-log was), sorted by power
+   rank. A list this dense needs a much smaller footprint than the
+   match card's own .h2h-dots/.probbar, so these are compact variants
+   with their own names rather than a reuse at a different size --
+   .opp-dots keeps this page's own win/loss/tie colors, .opp-bar keeps
+   .probbar's pink/blue "which team" colors. Both fixed-width columns
+   (.opp-dots/.opp-odds) always render, even for the "not yet met" /
+   "not enough games" empty states, so every row's three columns stay
+   aligned regardless of which rows have real data. */
+.opp-row{display:flex;align-items:center;gap:10px;padding:10px 2px}
+.opp-row + .opp-row,.row-link + .row-link .opp-row{border-top:1px solid var(--app-line)}
+.opp-row .nm{flex:1;min-width:0;font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--app-ink)}
+.opp-dots{flex:none;width:38px;display:flex;align-items:center;gap:4px;overflow:hidden}
+.opp-dots i{flex:none;display:block;width:7px;height:7px;border-radius:50%}
+.opp-dots i.W{background:var(--app-win)}
+.opp-dots i.L{background:var(--app-loss)}
+.opp-dots i.D{background:var(--app-tie);opacity:.75}
+.opp-empty{font-size:11px;color:var(--app-faint)}
+.opp-odds{flex:none;width:84px;display:flex;align-items:center;justify-content:flex-end;gap:6px}
+.opp-bar{flex:1;height:8px;border-radius:5px;overflow:hidden;display:flex;background:var(--app-line)}
+.opp-bar .a{background:var(--app-live)}
+.opp-bar .b{background:var(--app-data)}
+.opp-pct{flex:none;width:30px;text-align:right;font-size:11.5px;font-weight:700;color:var(--app-dim);font-variant-numeric:tabular-nums}
 
 /* team.html's roster, upgraded to the same 2-column grid + larger font
    the match card's roster uses (.mgame .mroster .rgrid/.roster-row),
