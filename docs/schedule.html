@@ -33,6 +33,31 @@ const saved = getMyTeam();
 const teamId = saved ? Number(saved.teamId) : null;
 wireTabs({ active: 'schedule', programId });
 
+// The venue's real painted courts -- same table, duplicated verbatim
+// from gamenight.html's own copy (see ITS comment for provenance/the
+// contrast-check note), per this project's no-shared-module convention.
+const COURT = {
+  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
+  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
+  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
+  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
+  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
+  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
+  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
+  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
+  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
+  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
+  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
+  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
+};
+
+// Same court-number extraction gamenight.html uses -- duplicated, not
+// shared, same convention as COURT above.
+function courtNumberOf(courtName) {
+  const m = /(\d+)/.exec(String(courtName ?? ''));
+  return m ? Number(m[1]) : null;
+}
+
 // Same "HH:MM" -> "7p"/"7:30p" convention gamenight.html established --
 // duplicated here, not shared, per this project's own no-shared-module
 // convention (see gamenight.html's own header comment on the same point).
@@ -96,12 +121,22 @@ async function main() {
       ${group.games.map((g) => {
         const opp = g.teams.find((t) => t.teamId !== teamId);
         const oppRow = opp ? standings?.rows?.find((r) => r.teamId === opp.teamId) : null;
-        const oppName = opp ? displayTeamName(opp.teamName) : 'TBD';
+        const oppName = opp ? displayTeamName(opp.teamName, { stripCaptain: true }) : 'TBD';
         const oppRecord = oppRow ? `${oppRow.wins}-${oppRow.losses}-${oppRow.ties}` : '';
+
+        const courtNum = courtNumberOf(g.courtName);
+        const paint = courtNum === null ? null : COURT[courtNum];
+        // An unpainted/unnumbered court still gets a badge, same fallback
+        // the match card uses -- a grey "—" beats dropping the game.
+        const ct = paint ? paint.hex : 'var(--app-raised)';
+        const ctInk = paint ? paint.ink : 'var(--app-ink)';
+        const badgeText = courtNum === null ? '—' : String(courtNum);
+
         return `
           <a class="row-link" href="team.html?team=${encodeURIComponent(opp?.teamId ?? '')}&program=${encodeURIComponent(programId)}">
             <div class="sched-row">
-              <div class="sched-when">${escapeHTML(shortTime(g.time))}<span class="sched-court">${escapeHTML(g.courtName ?? '')}</span></div>
+              <div class="sched-court-badge${paint?.faint ? ' faint' : ''}" style="--ct:${ct};--ct-ink:${ctInk}" title="${escapeHTML(paint ? paint.name : (g.courtName ?? 'court TBD'))}">${escapeHTML(badgeText)}</div>
+              <div class="sched-when">${escapeHTML(shortTime(g.time))}</div>
               <div class="sched-opp">${escapeHTML(oppName)}</div>
               <div class="sched-rec">${escapeHTML(oppRecord)}</div>
             </div>

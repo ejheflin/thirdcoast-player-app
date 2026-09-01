@@ -702,15 +702,34 @@ await go('schedule.html?program=9010');
   check(`schedule groups games under a header per date, got ${JSON.stringify(dateHeaders)}`,
     dateHeaders.length === 2 || dateHeaders.length === 3);
 
-  const rows = await page.$$eval('.sched-row', (els) => els.map((el) => ({
-    opp: el.querySelector('.sched-opp')?.textContent.trim() ?? '',
-    rec: el.querySelector('.sched-rec')?.textContent.trim() ?? '',
-  })));
+  const rows = await page.$$eval('.sched-row', (els) => els.map((el) => {
+    const badge = el.querySelector('.sched-court-badge');
+    return {
+      opp: el.querySelector('.sched-opp')?.textContent.trim() ?? '',
+      rec: el.querySelector('.sched-rec')?.textContent.trim() ?? '',
+      badgeNum: badge?.textContent.trim() ?? '',
+      badgeBg: badge ? getComputedStyle(badge).backgroundColor : '',
+      badgeFaint: badge?.classList.contains('faint') ?? false,
+    };
+  }));
   check(`schedule lists all 3 remaining games, got ${rows.length}`, rows.length === 3);
   check('schedule shows the opponent name without the leading seed number',
     rows.some((r) => r.opp === 'Net Ninjas') && rows.some((r) => r.opp === 'Ace Ventura') && rows.some((r) => r.opp === 'Block Party'));
   check('schedule shows each opponent\'s real record',
     rows.some((r) => r.rec === '6-2-0') && rows.some((r) => r.rec === '4-4-0') && rows.some((r) => r.rec === '2-6-0'));
+
+  // Same COURT paint table as the match card: Court 3 vs. Net Ninjas is
+  // blue (#2F72C4), Court 1 vs. Ace Ventura is lime green (#8CC63F, the
+  // brand win color -- happens to share it, unrelated to result color).
+  const netNinjas = rows.find((r) => r.opp === 'Net Ninjas');
+  check(`schedule paints Court 3 (Net Ninjas) blue, got badge "${netNinjas?.badgeNum}" / ${netNinjas?.badgeBg}`,
+    netNinjas?.badgeNum === '3' && netNinjas?.badgeBg === 'rgb(47, 114, 196)');
+  const aceVentura = rows.find((r) => r.opp === 'Ace Ventura');
+  check(`schedule paints Court 1 (Ace Ventura) lime green, got badge "${aceVentura?.badgeNum}" / ${aceVentura?.badgeBg}`,
+    aceVentura?.badgeNum === '1' && aceVentura?.badgeBg === 'rgb(140, 198, 63)');
+  const blockParty = rows.find((r) => r.opp === 'Block Party');
+  check('schedule paints Court 4 (Block Party) maroon with the sand ring (a faint court)',
+    blockParty?.badgeNum === '4' && blockParty?.badgeBg === 'rgb(142, 47, 63)' && blockParty?.badgeFaint === true);
 
   const rendered = await page.$eval('#body', (el) => el.innerText);
   check('schedule includes the season playoff marker', rendered.includes('PLAYOFFS'));
