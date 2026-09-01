@@ -5,19 +5,8 @@
    gallery. Mockup-only components that no page here uses have been
    dropped; what's left is only what the six pages actually render. */
 *{box-sizing:border-box}
-/* 100% (== 100vh here, both resolve off the layout viewport) is the
-   "floating tab bar" bug: mobile Safari's own address bar collapses and
-   expands as you scroll, and in standalone PWA mode there's no address
-   bar at all but the OS still carves out the status bar/home-indicator
-   -- in both cases the layout viewport 100%/100vh is computed against
-   doesn't reliably match what's actually visible on screen, so .screen
-   (height:100% below) falls short of the real bottom edge, exposing
-   body's own background as a gap under the tab bar. 100dvh tracks the
-   TRUE visible viewport instead, in both contexts; kept 100% first as
-   the fallback for anything predating dvh support (iOS Safari has had
-   it since 15.4). */
-html,body{margin:0;height:100%;height:100dvh}
-body{background:#101A2C;display:flex;justify-content:center}
+html,body{margin:0}
+body{background:#101A2C}
 
 /* The page shell every page shares: a fixed-height column (topbar, one
    scrolling body, tab bar) capped at phone width and centred on desktop.
@@ -37,8 +26,26 @@ body{background:#101A2C;display:flex;justify-content:center}
    needed to dwell on "lost" as its own state (--out exists but is a
    muted eliminated-grey, not an alarm color), while a player's own W/L/T
    game log needs one that reads clearly at a glance. */
+/* Pinned to the real viewport edges with position:fixed rather than
+   sized off height:100%/100vh/100dvh -- 100dvh (tried first) was
+   supposed to track the true visible viewport in both a Safari tab
+   (collapsing address bar) and standalone PWA mode (OS status
+   bar/home indicator), but it still left a gap under the tab bar in
+   standalone mode on real hardware (confirmed via screenshot after a
+   full remove-and-re-add, ruling out a stale manifest/icon cache).
+   Percentage/viewport-UNIT heights all ultimately resolve off the
+   LAYOUT viewport's reported size, and that reporting has a history of
+   edge cases across iOS/WebKit versions, particularly in standalone
+   WKWebView. Fixed positioning's top/bottom instead ties directly to
+   the real rendered viewport bounds -- the older, more battle-tested
+   technique for exactly this class of iOS bug, and it sidesteps the
+   discrepancy entirely rather than depending on which viewport metric
+   a given iOS version gets right. left:50%+translateX keeps the
+   existing centre-on-desktop behavior without body needing to be a
+   flex container for it any more. */
 .screen{
-  max-width:480px;width:100%;height:100%;overflow:hidden;position:relative;
+  position:fixed;top:0;bottom:0;left:50%;transform:translateX(-50%);
+  max-width:480px;width:100%;overflow:hidden;
   display:flex;flex-direction:column;background:var(--app-bg);
   --app-bg:#101A2C; --app-surface:#1A263C; --app-raised:#24334E; --app-line:#2B3A54;
   --app-ink:#FFFFFF; --app-dim:#8E99AB; --app-faint:#5A6478;
