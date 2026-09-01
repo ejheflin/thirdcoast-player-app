@@ -1,6 +1,6 @@
 {
-  "name": "Third Coast Intel",
-  "short_name": "3C Intel",
+  "name": "3CVB",
+  "short_name": "3CVB",
   "description": "Player-facing stats companion for Third Coast Volleyball.",
   "start_url": "index.html",
   "scope": ".",
