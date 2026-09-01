@@ -389,6 +389,12 @@ body{background:#101A2C;display:flex;justify-content:center}
    (.opp-dots/.opp-odds) always render, even for the "not yet met" /
    "not enough games" empty states, so every row's three columns stay
    aligned regardless of which rows have real data. */
+/* two .sec-lbl side by side (same uppercase/faint/letter-spaced look
+   every other section header on this page already uses) rather than a
+   one-off style, so this reads as the same kind of label, just a pair --
+   margin moves onto the row itself so the two children don't double it. */
+.opp-header{display:flex;justify-content:space-between;align-items:baseline;margin:18px 2px 9px}
+.opp-header .sec-lbl{margin:0}
 .opp-row{display:flex;align-items:center;gap:10px;padding:10px 2px}
 .opp-row + .opp-row,.row-link + .row-link .opp-row{border-top:1px solid var(--app-line)}
 .opp-row .nm{flex:1;min-width:0;font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--app-ink)}
