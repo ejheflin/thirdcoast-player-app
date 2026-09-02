@@ -6,31 +6,31 @@
       "position": 1,
       "teamId": 8034410,
       "teamName": "5. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 12,
-      "wins": 9,
+      "gamesPlayed": 14,
+      "wins": 11,
       "losses": 1,
       "ties": 2,
-      "points": 20
+      "points": 24
     },
     {
       "position": 2,
       "teamId": 8022079,
       "teamName": "7. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 12,
-      "wins": 7,
+      "gamesPlayed": 14,
+      "wins": 8,
       "losses": 1,
-      "ties": 4,
-      "points": 18
+      "ties": 5,
+      "points": 21
     },
     {
       "position": 3,
       "teamId": 8027833,
       "teamName": "4. Milk (Sean M.)",
-      "gamesPlayed": 12,
-      "wins": 7,
+      "gamesPlayed": 14,
+      "wins": 8,
       "losses": 2,
-      "ties": 3,
-      "points": 17
+      "ties": 4,
+      "points": 20
     },
     {
       "position": 4,
@@ -44,21 +44,21 @@
     },
     {
       "position": 5,
-      "teamId": 8024203,
-      "teamName": "2. Can You Dig It? (Marc S.)",
-      "gamesPlayed": 13,
+      "teamId": 8018572,
+      "teamName": "1. Bad Hombres (Jaimie M.)",
+      "gamesPlayed": 14,
       "wins": 5,
       "losses": 5,
-      "ties": 3,
-      "points": 13
+      "ties": 4,
+      "points": 14
     },
     {
       "position": 6,
-      "teamId": 8018572,
-      "teamName": "1. Bad Hombres (Jaimie M.)",
-      "gamesPlayed": 12,
+      "teamId": 8024203,
+      "teamName": "2. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 14,
       "wins": 5,
-      "losses": 4,
+      "losses": 6,
       "ties": 3,
       "points": 13
     },
@@ -66,29 +66,29 @@
       "position": 7,
       "teamId": 8024049,
       "teamName": "10. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 12,
-      "wins": 2,
+      "gamesPlayed": 14,
+      "wins": 3,
       "losses": 5,
-      "ties": 5,
-      "points": 9
+      "ties": 6,
+      "points": 12
     },
     {
       "position": 8,
       "teamId": 8023885,
       "teamName": "3. Gold Diggerz (JT N.)",
-      "gamesPlayed": 12,
-      "wins": 2,
-      "losses": 6,
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 7,
       "ties": 4,
-      "points": 8
+      "points": 10
     },
     {
       "position": 9,
       "teamId": 8036768,
       "teamName": "9. Carpe Digem (Eric H.)",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 2,
       "points": 6
     },
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8033259,
       "teamName": "8. The Replacements (Joe R.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 12,
       "wins": 0,
-      "losses": 10,
+      "losses": 12,
       "ties": 0,
       "points": 0
     }

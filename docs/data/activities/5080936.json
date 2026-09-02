@@ -1170,6 +1170,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13357124,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8039931,
+          "teamName": "5. Angel H. and Paul R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8042907,
+          "teamName": "9. Brooke F. and Travis T.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

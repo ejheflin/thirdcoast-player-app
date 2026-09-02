@@ -26,14 +26,24 @@
       "position": 3,
       "teamId": 8039931,
       "teamName": "5. Angel H. and Paul R.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 7,
-      "losses": 2,
+      "losses": 3,
       "ties": 4,
       "points": 18
     },
     {
       "position": 4,
+      "teamId": 8042907,
+      "teamName": "9. Brooke F. and Travis T.",
+      "gamesPlayed": 11,
+      "wins": 6,
+      "losses": 3,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 5,
       "teamId": 8038721,
       "teamName": "10. Randy J. and Hector T.",
       "gamesPlayed": 14,
@@ -41,16 +51,6 @@
       "losses": 4,
       "ties": 6,
       "points": 14
-    },
-    {
-      "position": 5,
-      "teamId": 8042907,
-      "teamName": "9. Brooke F. and Travis T.",
-      "gamesPlayed": 10,
-      "wins": 5,
-      "losses": 3,
-      "ties": 2,
-      "points": 12
     },
     {
       "position": 6,

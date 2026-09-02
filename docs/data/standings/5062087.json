@@ -16,21 +16,21 @@
       "position": 2,
       "teamId": 8023051,
       "teamName": "8. Yanni S. and Ali. M.",
-      "gamesPlayed": 11,
-      "wins": 7,
+      "gamesPlayed": 13,
+      "wins": 8,
       "losses": 1,
-      "ties": 3,
-      "points": 17
+      "ties": 4,
+      "points": 20
     },
     {
       "position": 3,
       "teamId": 8028157,
       "teamName": "9. Juli T. and Lauren W.",
-      "gamesPlayed": 12,
-      "wins": 6,
-      "losses": 4,
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 5,
       "ties": 2,
-      "points": 14
+      "points": 16
     },
     {
       "position": 4,
@@ -44,23 +44,23 @@
     },
     {
       "position": 5,
-      "teamId": 8015393,
-      "teamName": "3. Erika P. and Becca W.",
-      "gamesPlayed": 12,
-      "wins": 4,
-      "losses": 3,
-      "ties": 5,
-      "points": 13
+      "teamId": 8017347,
+      "teamName": "7. Melissa B. and Lindsay K.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
+      "ties": 4,
+      "points": 14
     },
     {
       "position": 6,
-      "teamId": 8017347,
-      "teamName": "7. Melissa B. and Lindsay K.",
-      "gamesPlayed": 13,
+      "teamId": 8015393,
+      "teamName": "3. Erika P. and Becca W.",
+      "gamesPlayed": 14,
       "wins": 4,
       "losses": 5,
-      "ties": 4,
-      "points": 12
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 7,
@@ -76,29 +76,29 @@
       "position": 8,
       "teamId": 8019399,
       "teamName": "6. Elaine L. and Tina O.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 3,
-      "losses": 6,
+      "losses": 7,
       "ties": 2,
       "points": 8
     },
     {
       "position": 9,
+      "teamId": 8016497,
+      "teamName": "5. Beth B. and Julia V.",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 8,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 10,
       "teamId": 8015276,
       "teamName": "1. Liz C. and Madison P.",
       "gamesPlayed": 11,
       "wins": 1,
       "losses": 9,
-      "ties": 1,
-      "points": 3
-    },
-    {
-      "position": 10,
-      "teamId": 8016497,
-      "teamName": "5. Beth B. and Julia V.",
-      "gamesPlayed": 10,
-      "wins": 1,
-      "losses": 8,
       "ties": 1,
       "points": 3
     }

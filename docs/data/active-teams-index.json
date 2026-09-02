@@ -68,14 +68,14 @@
   {
     "programId": 5080936,
     "programName": "Monday Coed 2s B/BB Pop Up",
-    "teamId": 8038721,
-    "teamName": "10. Randy J. and Hector T."
+    "teamId": 8042907,
+    "teamName": "9. Brooke F. and Travis T."
   },
   {
     "programId": 5080936,
     "programName": "Monday Coed 2s B/BB Pop Up",
-    "teamId": 8042907,
-    "teamName": "9. Brooke F. and Travis T."
+    "teamId": 8038721,
+    "teamName": "10. Randy J. and Hector T."
   },
   {
     "programId": 5080936,
@@ -434,14 +434,14 @@
   {
     "programId": 5056669,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8026787,
-    "teamName": "7. Watermelon (Lauren K.)"
+    "teamId": 8024708,
+    "teamName": "2. Score Check (Julianna T.)"
   },
   {
     "programId": 5056669,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8024708,
-    "teamName": "2. Score Check (Julianna T.)"
+    "teamId": 8026787,
+    "teamName": "7. Watermelon (Lauren K.)"
   },
   {
     "programId": 5056676,
@@ -470,14 +470,14 @@
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8024203,
-    "teamName": "2. Can You Dig It? (Marc S.)"
+    "teamId": 8018572,
+    "teamName": "1. Bad Hombres (Jaimie M.)"
   },
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8018572,
-    "teamName": "1. Bad Hombres (Jaimie M.)"
+    "teamId": 8024203,
+    "teamName": "2. Can You Dig It? (Marc S.)"
   },
   {
     "programId": 5056676,
@@ -506,8 +506,8 @@
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8021976,
-    "teamName": "4. Twin Peaks (Dan F.)"
+    "teamId": 8034085,
+    "teamName": "3. Chocolate City (Samanda H.)"
   },
   {
     "programId": 5062075,
@@ -518,8 +518,14 @@
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8034085,
-    "teamName": "3. Chocolate City (Samanda H.)"
+    "teamId": 8021976,
+    "teamName": "4. Twin Peaks (Dan F.)"
+  },
+  {
+    "programId": 5062075,
+    "programName": "Tuesday Coed 4s BB",
+    "teamId": 8032447,
+    "teamName": "7. The Vacacioners (Phil M.)"
   },
   {
     "programId": 5062075,
@@ -532,12 +538,6 @@
     "programName": "Tuesday Coed 4s BB",
     "teamId": 8015924,
     "teamName": "1. Bongos (Bradley E.)"
-  },
-  {
-    "programId": 5062075,
-    "programName": "Tuesday Coed 4s BB",
-    "teamId": 8032447,
-    "teamName": "7. The Vacacioners (Phil M.)"
   },
   {
     "programId": 5062075,
@@ -578,14 +578,14 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8024490,
-    "teamName": "2. Beach Please (Annie L.)"
+    "teamId": 8040552,
+    "teamName": "12. The Volleybeaners (Emanuel N.)"
   },
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8040552,
-    "teamName": "12. The Volleybeaners (Emanuel N.)"
+    "teamId": 8024490,
+    "teamName": "2. Beach Please (Annie L.)"
   },
   {
     "programId": 5062084,
@@ -650,14 +650,14 @@
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8015393,
-    "teamName": "3. Erika P. and Becca W."
+    "teamId": 8017347,
+    "teamName": "7. Melissa B. and Lindsay K."
   },
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8017347,
-    "teamName": "7. Melissa B. and Lindsay K."
+    "teamId": 8015393,
+    "teamName": "3. Erika P. and Becca W."
   },
   {
     "programId": 5062087,
@@ -674,14 +674,14 @@
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8015276,
-    "teamName": "1. Liz C. and Madison P."
+    "teamId": 8016497,
+    "teamName": "5. Beth B. and Julia V."
   },
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8016497,
-    "teamName": "5. Beth B. and Julia V."
+    "teamId": 8015276,
+    "teamName": "1. Liz C. and Madison P."
   },
   {
     "programId": 5050213,

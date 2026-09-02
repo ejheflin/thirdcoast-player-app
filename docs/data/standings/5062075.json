@@ -4,6 +4,26 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8034085,
+      "teamName": "3. Chocolate City (Samanda H.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 0,
+      "ties": 9,
+      "points": 19
+    },
+    {
+      "position": 2,
+      "teamId": 8024851,
+      "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 1,
+      "ties": 8,
+      "points": 18
+    },
+    {
+      "position": 3,
       "teamId": 8021976,
       "teamName": "4. Twin Peaks (Dan F.)",
       "gamesPlayed": 14,
@@ -13,62 +33,42 @@
       "points": 17
     },
     {
-      "position": 2,
-      "teamId": 8024851,
-      "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
-      "gamesPlayed": 12,
-      "wins": 5,
-      "losses": 1,
-      "ties": 6,
-      "points": 16
-    },
-    {
-      "position": 3,
-      "teamId": 8034085,
-      "teamName": "3. Chocolate City (Samanda H.)",
-      "gamesPlayed": 12,
-      "wins": 4,
-      "losses": 0,
-      "ties": 8,
-      "points": 16
-    },
-    {
       "position": 4,
-      "teamId": 8030206,
-      "teamName": "6. Key Bumps (Harley G.)",
+      "teamId": 8032447,
+      "teamName": "7. The Vacacioners (Phil M.)",
       "gamesPlayed": 13,
-      "wins": 3,
+      "wins": 6,
       "losses": 4,
-      "ties": 6,
-      "points": 12
+      "ties": 3,
+      "points": 15
     },
     {
       "position": 5,
-      "teamId": 8015924,
-      "teamName": "1. Bongos (Bradley E.)",
-      "gamesPlayed": 13,
+      "teamId": 8030206,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "gamesPlayed": 14,
       "wins": 3,
-      "losses": 4,
+      "losses": 5,
       "ties": 6,
       "points": 12
     },
     {
       "position": 6,
-      "teamId": 8032447,
-      "teamName": "7. The Vacacioners (Phil M.)",
-      "gamesPlayed": 11,
-      "wins": 4,
-      "losses": 4,
-      "ties": 3,
-      "points": 11
+      "teamId": 8015924,
+      "teamName": "1. Bongos (Bradley E.)",
+      "gamesPlayed": 14,
+      "wins": 3,
+      "losses": 5,
+      "ties": 6,
+      "points": 12
     },
     {
       "position": 7,
       "teamId": 8025029,
       "teamName": "2. Net Ninjas (Katelyn M.)",
-      "gamesPlayed": 11,
+      "gamesPlayed": 13,
       "wins": 0,
-      "losses": 3,
+      "losses": 5,
       "ties": 8,
       "points": 8
     },
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8033505,
       "teamName": "8. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 10,
-      "wins": 0,
+      "gamesPlayed": 12,
+      "wins": 1,
       "losses": 6,
-      "ties": 4,
-      "points": 4
+      "ties": 5,
+      "points": 7
     }
   ]
 }
