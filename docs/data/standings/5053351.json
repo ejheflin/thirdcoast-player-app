@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8017043,
+      "teamName": "1. Emily R. and Riley F.",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 2,
+      "ties": 7,
+      "points": 17
+    },
+    {
+      "position": 4,
       "teamId": 8020518,
       "teamName": "4. Kaegan W. and Jon N.",
       "gamesPlayed": 12,
@@ -31,16 +41,6 @@
       "losses": 2,
       "ties": 4,
       "points": 16
-    },
-    {
-      "position": 4,
-      "teamId": 8017043,
-      "teamName": "1. Emily R. and Riley F.",
-      "gamesPlayed": 13,
-      "wins": 4,
-      "losses": 2,
-      "ties": 7,
-      "points": 15
     },
     {
       "position": 5,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8018011,
       "teamName": "3. Ellie B. and Matt G.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 9,
+      "losses": 10,
       "ties": 2,
       "points": 6
     }

@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8036049,
       "teamName": "10. Molly J. and Nicole B.",
-      "gamesPlayed": 12,
-      "wins": 6,
+      "gamesPlayed": 14,
+      "wins": 7,
       "losses": 0,
-      "ties": 6,
-      "points": 18
+      "ties": 7,
+      "points": 21
     },
     {
       "position": 2,
@@ -36,11 +36,11 @@
       "position": 4,
       "teamId": 8018306,
       "teamName": "2. Sarah S. and Jo P.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 5,
       "losses": 3,
-      "ties": 3,
-      "points": 13
+      "ties": 4,
+      "points": 14
     },
     {
       "position": 5,
@@ -56,11 +56,11 @@
       "position": 6,
       "teamId": 8017347,
       "teamName": "7. Melissa B. and Lindsay K.",
-      "gamesPlayed": 11,
-      "wins": 3,
-      "losses": 4,
+      "gamesPlayed": 13,
+      "wins": 4,
+      "losses": 5,
       "ties": 4,
-      "points": 10
+      "points": 12
     },
     {
       "position": 7,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8015276,
       "teamName": "1. Liz C. and Madison P.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 1,
-      "losses": 8,
+      "losses": 9,
       "ties": 1,
       "points": 3
     },

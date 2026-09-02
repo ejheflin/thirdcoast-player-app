@@ -122,14 +122,14 @@
   {
     "programId": 5053351,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8020518,
-    "teamName": "4. Kaegan W. and Jon N."
+    "teamId": 8017043,
+    "teamName": "1. Emily R. and Riley F."
   },
   {
     "programId": 5053351,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8017043,
-    "teamName": "1. Emily R. and Riley F."
+    "teamId": 8020518,
+    "teamName": "4. Kaegan W. and Jon N."
   },
   {
     "programId": 5053351,
@@ -416,6 +416,12 @@
   {
     "programId": 5056669,
     "programName": "Tuesday Coed 4s A",
+    "teamId": 8036801,
+    "teamName": "6. Bombaclat (Aatir A.)"
+  },
+  {
+    "programId": 5056669,
+    "programName": "Tuesday Coed 4s A",
     "teamId": 8023200,
     "teamName": "5. Toodles (Michael L.)"
   },
@@ -424,12 +430,6 @@
     "programName": "Tuesday Coed 4s A",
     "teamId": 8037047,
     "teamName": "3. Hustle Gang (Calvin D.)"
-  },
-  {
-    "programId": 5056669,
-    "programName": "Tuesday Coed 4s A",
-    "teamId": 8036801,
-    "teamName": "6. Bombaclat (Aatir A.)"
   },
   {
     "programId": 5056669,
@@ -464,12 +464,6 @@
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8018572,
-    "teamName": "1. Bad Hombres (Jaimie M.)"
-  },
-  {
-    "programId": 5056676,
-    "programName": "Tuesday Coed 4s B",
     "teamId": 8016718,
     "teamName": "6. The Empire Spikes Back (Ash C.)"
   },
@@ -478,6 +472,12 @@
     "programName": "Tuesday Coed 4s B",
     "teamId": 8024203,
     "teamName": "2. Can You Dig It? (Marc S.)"
+  },
+  {
+    "programId": 5056676,
+    "programName": "Tuesday Coed 4s B",
+    "teamId": 8018572,
+    "teamName": "1. Bad Hombres (Jaimie M.)"
   },
   {
     "programId": 5056676,
@@ -506,6 +506,12 @@
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
+    "teamId": 8021976,
+    "teamName": "4. Twin Peaks (Dan F.)"
+  },
+  {
+    "programId": 5062075,
+    "programName": "Tuesday Coed 4s BB",
     "teamId": 8024851,
     "teamName": "5. Not Good at Volleyball Puns (Daniel A.)"
   },
@@ -518,26 +524,20 @@
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8021976,
-    "teamName": "4. Twin Peaks (Dan F.)"
-  },
-  {
-    "programId": 5062075,
-    "programName": "Tuesday Coed 4s BB",
     "teamId": 8030206,
     "teamName": "6. Key Bumps (Harley G.)"
   },
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8032447,
-    "teamName": "7. The Vacacioners (Phil M.)"
+    "teamId": 8015924,
+    "teamName": "1. Bongos (Bradley E.)"
   },
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8015924,
-    "teamName": "1. Bongos (Bradley E.)"
+    "teamId": 8032447,
+    "teamName": "7. The Vacacioners (Phil M.)"
   },
   {
     "programId": 5062075,
@@ -554,6 +554,12 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
+    "teamId": 8031080,
+    "teamName": "8. Gold Star for Effort (Merilyn V.)"
+  },
+  {
+    "programId": 5062084,
+    "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8031288,
     "teamName": "10. Offense Only (Zhen Y.)"
   },
@@ -562,18 +568,6 @@
     "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8038328,
     "teamName": "9. What Court Are We On? (Bear S.)"
-  },
-  {
-    "programId": 5062084,
-    "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8031080,
-    "teamName": "8. Gold Star for Effort (Merilyn V.)"
-  },
-  {
-    "programId": 5062084,
-    "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8040552,
-    "teamName": "12. The Volleybeaners (Emanuel N.)"
   },
   {
     "programId": 5062084,
@@ -590,20 +584,26 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
+    "teamId": 8040552,
+    "teamName": "12. The Volleybeaners (Emanuel N.)"
+  },
+  {
+    "programId": 5062084,
+    "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8022462,
     "teamName": "5. Notorious DIG (Connor D.)"
   },
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8016830,
-    "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
+    "teamId": 8033954,
+    "teamName": "4. The Thurmanators (David Z.)"
   },
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8033954,
-    "teamName": "4. The Thurmanators (David Z.)"
+    "teamId": 8016830,
+    "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
   },
   {
     "programId": 5062084,

@@ -34,6 +34,26 @@
     },
     {
       "position": 4,
+      "teamId": 8016718,
+      "teamName": "6. The Empire Spikes Back (Ash C.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 4,
+      "ties": 4,
+      "points": 16
+    },
+    {
+      "position": 5,
+      "teamId": 8024203,
+      "teamName": "2. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 13,
+      "wins": 5,
+      "losses": 5,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 6,
       "teamId": 8018572,
       "teamName": "1. Bad Hombres (Jaimie M.)",
       "gamesPlayed": 12,
@@ -41,26 +61,6 @@
       "losses": 4,
       "ties": 3,
       "points": 13
-    },
-    {
-      "position": 5,
-      "teamId": 8016718,
-      "teamName": "6. The Empire Spikes Back (Ash C.)",
-      "gamesPlayed": 12,
-      "wins": 5,
-      "losses": 4,
-      "ties": 3,
-      "points": 13
-    },
-    {
-      "position": 6,
-      "teamId": 8024203,
-      "teamName": "2. Can You Dig It? (Marc S.)",
-      "gamesPlayed": 12,
-      "wins": 5,
-      "losses": 5,
-      "ties": 2,
-      "points": 12
     },
     {
       "position": 7,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8036768,
       "teamName": "9. Carpe Digem (Eric H.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 2,
-      "losses": 6,
+      "losses": 7,
       "ties": 2,
       "points": 6
     },

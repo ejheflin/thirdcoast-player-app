@@ -1044,6 +1044,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13352085,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8024203,
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352087,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8036768,
+          "teamName": "9. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

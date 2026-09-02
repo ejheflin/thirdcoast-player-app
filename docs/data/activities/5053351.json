@@ -918,6 +918,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13314549,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8017043,
+          "teamName": "1. Emily R. and Riley F.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8018011,
+          "teamName": "3. Ellie B. and Matt G.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

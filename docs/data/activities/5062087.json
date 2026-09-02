@@ -972,6 +972,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13351728,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8015276,
+          "teamName": "1. Liz C. and Madison P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8017347,
+          "teamName": "7. Melissa B. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351734,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8017347,
+          "teamName": "7. Melissa B. and Lindsay K.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8036049,
+          "teamName": "10. Molly J. and Nicole B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351738,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8018306,
+          "teamName": "2. Sarah S. and Jo P.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8036049,
+          "teamName": "10. Molly J. and Nicole B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

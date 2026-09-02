@@ -6,21 +6,21 @@
       "position": 1,
       "teamId": 8023884,
       "teamName": "1. Carolina Beach Bumpers (Ashton)",
-      "gamesPlayed": 12,
-      "wins": 9,
-      "losses": 0,
+      "gamesPlayed": 14,
+      "wins": 10,
+      "losses": 1,
       "ties": 3,
-      "points": 21
+      "points": 23
     },
     {
       "position": 2,
       "teamId": 8032502,
       "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
-      "gamesPlayed": 12,
-      "wins": 6,
+      "gamesPlayed": 13,
+      "wins": 7,
       "losses": 1,
       "ties": 5,
-      "points": 17
+      "points": 19
     },
     {
       "position": 3,
@@ -34,41 +34,41 @@
     },
     {
       "position": 4,
-      "teamId": 8023200,
-      "teamName": "5. Toodles (Michael L.)",
-      "gamesPlayed": 10,
-      "wins": 2,
-      "losses": 3,
-      "ties": 5,
+      "teamId": 8036801,
+      "teamName": "6. Bombaclat (Aatir A.)",
+      "gamesPlayed": 11,
+      "wins": 3,
+      "losses": 5,
+      "ties": 3,
       "points": 9
     },
     {
       "position": 5,
-      "teamId": 8037047,
-      "teamName": "3. Hustle Gang (Calvin D.)",
-      "gamesPlayed": 8,
+      "teamId": 8023200,
+      "teamName": "5. Toodles (Michael L.)",
+      "gamesPlayed": 11,
       "wins": 2,
-      "losses": 3,
-      "ties": 3,
-      "points": 7
+      "losses": 4,
+      "ties": 5,
+      "points": 9
     },
     {
       "position": 6,
-      "teamId": 8036801,
-      "teamName": "6. Bombaclat (Aatir A.)",
+      "teamId": 8037047,
+      "teamName": "3. Hustle Gang (Calvin D.)",
       "gamesPlayed": 9,
       "wins": 2,
-      "losses": 5,
-      "ties": 2,
-      "points": 6
+      "losses": 3,
+      "ties": 4,
+      "points": 8
     },
     {
       "position": 7,
       "teamId": 8026787,
       "teamName": "7. Watermelon (Lauren K.)",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 2,
-      "losses": 5,
+      "losses": 6,
       "ties": 2,
       "points": 6
     },

@@ -756,6 +756,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13351800,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8023200,
+          "teamName": "5. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351802,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13351805,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8023884,
+          "teamName": "1. Carolina Beach Bumpers (Ashton)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8032502,
+          "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351807,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8023884,
+          "teamName": "1. Carolina Beach Bumpers (Ashton)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

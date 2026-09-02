@@ -1,0 +1,126 @@
+{
+  "programId": 4752513,
+  "programName": "Thursday Coed 4s B",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 7598385,
+      "teamName": "12. The Habibiz (Roy T.)",
+      "gamesPlayed": 14,
+      "wins": 13,
+      "losses": 0,
+      "ties": 1,
+      "points": 27
+    },
+    {
+      "position": 2,
+      "teamId": 7593491,
+      "teamName": "10. Patty 4 the People (Doug B.)",
+      "gamesPlayed": 16,
+      "wins": 12,
+      "losses": 1,
+      "ties": 3,
+      "points": 27
+    },
+    {
+      "position": 3,
+      "teamId": 7588008,
+      "teamName": "7. Sandy Shorts (Clark P.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 4,
+      "teamId": 7582979,
+      "teamName": "1. Charlie's Angels (Jason O.)",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 3,
+      "ties": 6,
+      "points": 20
+    },
+    {
+      "position": 5,
+      "teamId": 7578315,
+      "teamName": "2. Hits Dont Lie (Shayan E.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 3,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 6,
+      "teamId": 7593189,
+      "teamName": "9. Ay Mi Madre 2 (Daniel D.)",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 3,
+      "ties": 8,
+      "points": 16
+    },
+    {
+      "position": 7,
+      "teamId": 7585270,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "gamesPlayed": 15,
+      "wins": 5,
+      "losses": 5,
+      "ties": 5,
+      "points": 15
+    },
+    {
+      "position": 8,
+      "teamId": 7587823,
+      "teamName": "8. FlyBallers ShotCallers (Albert F.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 6,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 9,
+      "teamId": 7585459,
+      "teamName": "5. Sandy Patch Kids (Curtis J.)",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 6,
+      "ties": 4,
+      "points": 10
+    },
+    {
+      "position": 10,
+      "teamId": 7588884,
+      "teamName": "6. Nothing But Tape! (Joe R.)",
+      "gamesPlayed": 12,
+      "wins": 0,
+      "losses": 9,
+      "ties": 3,
+      "points": 3
+    },
+    {
+      "position": 11,
+      "teamId": 7588171,
+      "teamName": "3. Bump, Set… Dammit! (Nathan G.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 11,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 12,
+      "teamId": 7584290,
+      "teamName": "11. Beta Blockers (Mindy B.)",
+      "gamesPlayed": 13,
+      "wins": 0,
+      "losses": 13,
+      "ties": 0,
+      "points": 0
+    }
+  ]
+}
