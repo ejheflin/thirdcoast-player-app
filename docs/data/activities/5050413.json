@@ -1314,6 +1314,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13291709,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

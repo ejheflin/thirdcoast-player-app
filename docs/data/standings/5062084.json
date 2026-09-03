@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8040552,
+      "teamName": "12. The Volleybeaners (Emanuel N.)",
+      "gamesPlayed": 13,
+      "wins": 7,
+      "losses": 2,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 5,
       "teamId": 8022535,
       "teamName": "3. Bump, set, dammit! (Michael G.)",
       "gamesPlayed": 13,
@@ -41,16 +51,6 @@
       "losses": 2,
       "ties": 5,
       "points": 17
-    },
-    {
-      "position": 5,
-      "teamId": 8040552,
-      "teamName": "12. The Volleybeaners (Emanuel N.)",
-      "gamesPlayed": 12,
-      "wins": 6,
-      "losses": 2,
-      "ties": 4,
-      "points": 16
     },
     {
       "position": 6,
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8022462,
       "teamName": "5. Notorious DIG (Connor D.)",
-      "gamesPlayed": 11,
-      "wins": 3,
-      "losses": 4,
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
       "ties": 4,
-      "points": 10
+      "points": 14
     },
     {
       "position": 8,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8016830,
       "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 8,
       "points": 10
     },
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8037222,
       "teamName": "1. Unprotected Sets (Chase P.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 0,
-      "losses": 12,
+      "losses": 13,
       "ties": 1,
       "points": 1
     }

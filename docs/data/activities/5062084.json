@@ -1244,6 +1244,24 @@
       ]
     },
     {
+      "activityId": 13351993,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8022462,
+          "teamName": "5. Notorious DIG (Connor D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8040552,
+          "teamName": "12. The Volleybeaners (Emanuel N.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13352001,
       "date": "2026-09-01",
       "teams": [
@@ -1382,6 +1400,42 @@
         {
           "teamId": 8031288,
           "teamName": "10. Offense Only (Zhen Y.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352002,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8037222,
+          "teamName": "1. Unprotected Sets (Chase P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022462,
+          "teamName": "5. Notorious DIG (Connor D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352005,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8022462,
+          "teamName": "5. Notorious DIG (Connor D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016830,
+          "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
           "result": "loss",
           "score": 0
         }

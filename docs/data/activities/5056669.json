@@ -650,6 +650,24 @@
       ]
     },
     {
+      "activityId": 13351788,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13351796,
       "date": "2026-08-25",
       "teams": [
@@ -880,6 +898,24 @@
           "teamName": "8. Team Jacob (Mark J.)",
           "result": "win",
           "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351804,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
         }
       ]
     }
