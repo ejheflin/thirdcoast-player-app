@@ -1440,6 +1440,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13352009,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8038328,
+          "teamName": "9. What Court Are We On? (Bear S.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8031288,
+          "teamName": "10. Offense Only (Zhen Y.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352010,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8015523,
+          "teamName": "7. Sets Pistols (Christina Z.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8038328,
+          "teamName": "9. What Court Are We On? (Bear S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
