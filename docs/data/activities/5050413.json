@@ -1332,6 +1332,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13392713,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13392714,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13392716,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8015360,
+          "teamName": "8. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

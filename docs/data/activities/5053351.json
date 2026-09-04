@@ -936,6 +936,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13314545,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8011095,
+          "teamName": "6. Liz C. and Josman R.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8012160,
+          "teamName": "8. Taylor B. and Matt C.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13314547,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8020518,
+          "teamName": "4. Kaegan W. and Jon N.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8012160,
+          "teamName": "8. Taylor B. and Matt C.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
