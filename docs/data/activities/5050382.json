@@ -1350,6 +1350,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13392701,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8019254,
+          "teamName": "8. Lauren H. and Matt B.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016609,
+          "teamName": "10. Sarah U. and Kumar R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392706,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8014943,
+          "teamName": "3. Danielle F. and Jeff S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8007433,
+          "teamName": "4. Elaine L. and Eric W.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

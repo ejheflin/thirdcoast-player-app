@@ -218,14 +218,14 @@
   {
     "programId": 5050344,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8002189,
-    "teamName": "6. Sydney Z. and Josman R."
+    "teamId": 8000417,
+    "teamName": "2. Ivy C. and Dreco S."
   },
   {
     "programId": 5050344,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8000417,
-    "teamName": "2. Ivy C. and Dreco S."
+    "teamId": 8002189,
+    "teamName": "6. Sydney Z. and Josman R."
   },
   {
     "programId": 5050344,
@@ -272,20 +272,26 @@
   {
     "programId": 5050382,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8005774,
-    "teamName": "2. Ali M. and Andrew B."
-  },
-  {
-    "programId": 5050382,
-    "programName": "Thursday Coed 2s AA",
     "teamId": 8019254,
     "teamName": "8. Lauren H. and Matt B."
   },
   {
     "programId": 5050382,
     "programName": "Thursday Coed 2s AA",
+    "teamId": 8005774,
+    "teamName": "2. Ali M. and Andrew B."
+  },
+  {
+    "programId": 5050382,
+    "programName": "Thursday Coed 2s AA",
     "teamId": 8006967,
     "teamName": "1. Shelby L. and Michael A."
+  },
+  {
+    "programId": 5050382,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8007433,
+    "teamName": "4. Elaine L. and Eric W."
   },
   {
     "programId": 5050382,
@@ -298,12 +304,6 @@
     "programName": "Thursday Coed 2s AA",
     "teamId": 8000961,
     "teamName": "7. Jo P. and Leo Y."
-  },
-  {
-    "programId": 5050382,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8007433,
-    "teamName": "4. Elaine L. and Eric W."
   },
   {
     "programId": 5050382,
@@ -326,26 +326,26 @@
   {
     "programId": 5050413,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8015360,
-    "teamName": "8. Patty 4 the People (Doug B.)"
-  },
-  {
-    "programId": 5050413,
-    "programName": "Thursday Coed 4s B",
     "teamId": 8012955,
     "teamName": "2. Ay Mi Madre (Daniel D.)"
   },
   {
     "programId": 5050413,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8000431,
-    "teamName": "1. Blake’s Beaches (Collin W.)"
+    "teamId": 8015360,
+    "teamName": "8. Patty 4 the People (Doug B.)"
   },
   {
     "programId": 5050413,
     "programName": "Thursday Coed 4s B",
     "teamId": 8003695,
     "teamName": "3. Charlie’s Angels (Jason O.)"
+  },
+  {
+    "programId": 5050413,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8000431,
+    "teamName": "1. Blake’s Beaches (Collin W.)"
   },
   {
     "programId": 5050413,

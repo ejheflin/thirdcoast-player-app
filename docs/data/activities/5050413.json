@@ -1386,6 +1386,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13392718,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13392720,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392721,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8000431,
+          "teamName": "1. Blake’s Beaches (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13392722,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8012955,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8003695,
+          "teamName": "3. Charlie’s Angels (Jason O.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

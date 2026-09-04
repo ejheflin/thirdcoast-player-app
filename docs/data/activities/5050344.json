@@ -1260,6 +1260,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13392692,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8000417,
+          "teamName": "2. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392693,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8002313,
+          "teamName": "1. Vanessa S. and Rudy D.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8023440,
+          "teamName": "9. Viktoriya I. and John S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13392694,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8002313,
+          "teamName": "1. Vanessa S. and Rudy D.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8000417,
+          "teamName": "2. Ivy C. and Dreco S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13392696,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8002328,
+          "teamName": "8. Tina O. and Dane R.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

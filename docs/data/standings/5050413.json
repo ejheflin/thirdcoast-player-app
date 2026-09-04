@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8012955,
+      "teamName": "2. Ay Mi Madre (Daniel D.)",
+      "gamesPlayed": 16,
+      "wins": 13,
+      "losses": 1,
+      "ties": 2,
+      "points": 28
+    },
+    {
+      "position": 2,
       "teamId": 8015360,
       "teamName": "8. Patty 4 the People (Doug B.)",
       "gamesPlayed": 16,
@@ -13,34 +23,24 @@
       "points": 27
     },
     {
-      "position": 2,
-      "teamId": 8012955,
-      "teamName": "2. Ay Mi Madre (Daniel D.)",
-      "gamesPlayed": 14,
-      "wins": 12,
-      "losses": 1,
-      "ties": 1,
-      "points": 25
-    },
-    {
       "position": 3,
-      "teamId": 8000431,
-      "teamName": "1. Blake’s Beaches (Collin W.)",
-      "gamesPlayed": 14,
-      "wins": 9,
+      "teamId": 8003695,
+      "teamName": "3. Charlie’s Angels (Jason O.)",
+      "gamesPlayed": 16,
+      "wins": 10,
       "losses": 3,
-      "ties": 2,
-      "points": 20
+      "ties": 3,
+      "points": 23
     },
     {
       "position": 4,
-      "teamId": 8003695,
-      "teamName": "3. Charlie’s Angels (Jason O.)",
-      "gamesPlayed": 14,
+      "teamId": 8000431,
+      "teamName": "1. Blake’s Beaches (Collin W.)",
+      "gamesPlayed": 16,
       "wins": 9,
-      "losses": 3,
-      "ties": 2,
-      "points": 20
+      "losses": 4,
+      "ties": 3,
+      "points": 21
     },
     {
       "position": 5,
@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8017688,
       "teamName": "4. Nothing But Tape!! (Joe R.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "ties": 3,
       "points": 11
     },
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8021699,
       "teamName": "6. I Dunno (Matt G.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 3,
       "losses": 4,
-      "ties": 3,
-      "points": 9
+      "ties": 4,
+      "points": 10
     },
     {
       "position": 8,
