@@ -1458,6 +1458,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13392715,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8012580,
+          "teamName": "10. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

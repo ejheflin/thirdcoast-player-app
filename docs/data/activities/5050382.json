@@ -1386,6 +1386,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13392705,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8002322,
+          "teamName": "5. Holli D. and Tyler J.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8021454,
+          "teamName": "6. Kaegan W. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13392707,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8014943,
+          "teamName": "3. Danielle F. and Jeff S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8002322,
+          "teamName": "5. Holli D. and Tyler J.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
