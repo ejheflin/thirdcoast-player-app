@@ -1350,6 +1350,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13392688,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8010331,
+          "teamName": "3. Olivia E. and Isa T.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8002189,
+          "teamName": "6. Sydney Z. and Josman R.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13392689,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8018869,
+          "teamName": "5. Kylee G. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8002189,
+          "teamName": "6. Sydney Z. and Josman R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13392691,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8006788,
+          "teamName": "7. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8002328,
+          "teamName": "8. Tina O. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392695,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8006788,
+          "teamName": "7. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023440,
+          "teamName": "9. Viktoriya I. and John S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

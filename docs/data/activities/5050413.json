@@ -1172,6 +1172,24 @@
       ]
     },
     {
+      "activityId": 13291694,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13291699,
       "date": "2026-08-27",
       "teams": [
@@ -1472,6 +1490,42 @@
         {
           "teamId": 8016844,
           "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392712,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8022280,
+          "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392717,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8012809,
+          "teamName": "7. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
           "result": "loss",
           "score": 0
         }
