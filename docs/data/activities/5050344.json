@@ -1226,6 +1226,24 @@
       ]
     },
     {
+      "activityId": 13291827,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8010331,
+          "teamName": "3. Olivia E. and Isa T.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8002328,
+          "teamName": "8. Tina O. and Dane R.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13392687,
       "date": "2026-09-03",
       "teams": [

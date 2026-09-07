@@ -1116,6 +1116,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13351735,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8015276,
+          "teamName": "1. Liz C. and Madison P.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8019399,
+          "teamName": "6. Elaine L. and Tina O.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

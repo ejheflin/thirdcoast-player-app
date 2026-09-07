@@ -74,23 +74,23 @@
     },
     {
       "position": 8,
-      "teamId": 8010331,
-      "teamName": "3. Olivia E. and Isa T.",
-      "gamesPlayed": 14,
-      "wins": 0,
-      "losses": 5,
-      "ties": 9,
-      "points": 9
+      "teamId": 8002328,
+      "teamName": "8. Tina O. and Dane R.",
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 6,
+      "ties": 8,
+      "points": 10
     },
     {
       "position": 9,
-      "teamId": 8002328,
-      "teamName": "8. Tina O. and Dane R.",
-      "gamesPlayed": 14,
+      "teamId": 8010331,
+      "teamName": "3. Olivia E. and Isa T.",
+      "gamesPlayed": 15,
       "wins": 0,
       "losses": 6,
-      "ties": 8,
-      "points": 8
+      "ties": 9,
+      "points": 9
     },
     {
       "position": 10,
