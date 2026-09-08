@@ -1422,6 +1422,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13392708,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8007433,
+          "teamName": "4. Elaine L. and Eric W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8021454,
+          "teamName": "6. Kaegan W. and Jon N.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
