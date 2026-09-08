@@ -7,6 +7,12 @@
       "teamId": 8002328,
       "teamName": "8. Tina O. and Dane R.",
       "isCaptain": false
+    },
+    {
+      "programId": 5127673,
+      "teamId": 8139630,
+      "teamName": "9. Dane R. and Carson S.",
+      "isCaptain": true
     }
   ]
 }

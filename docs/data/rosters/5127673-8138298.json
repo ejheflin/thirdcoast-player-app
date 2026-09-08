@@ -1,0 +1,17 @@
+{
+  "programId": 5127673,
+  "teamId": 8138298,
+  "teamName": "7. Jacob J. and Jake S.",
+  "players": [
+    {
+      "userId": 54426683,
+      "firstName": "Jacob",
+      "isCaptain": true
+    },
+    {
+      "userId": 55557630,
+      "firstName": "Jake",
+      "isCaptain": false
+    }
+  ]
+}

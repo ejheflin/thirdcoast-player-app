@@ -1,0 +1,17 @@
+{
+  "programId": 5127673,
+  "teamId": 8139630,
+  "teamName": "9. Dane R. and Carson S.",
+  "players": [
+    {
+      "userId": 53603935,
+      "firstName": "Dane",
+      "isCaptain": true
+    },
+    {
+      "userId": 57653048,
+      "firstName": "Carson",
+      "isCaptain": false
+    }
+  ]
+}
