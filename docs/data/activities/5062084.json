@@ -1512,6 +1512,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13352019,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8033954,
+          "teamName": "4. The Thurmanators (David Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8038328,
+          "teamName": "9. What Court Are We On? (Bear S.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352020,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8022462,
+          "teamName": "5. Notorious DIG (Connor D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8037317,
+          "teamName": "11. BLT (Sean B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13352021,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8016830,
+          "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8031080,
+          "teamName": "8. Gold Star for Effort (Merilyn V.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352022,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8033954,
+          "teamName": "4. The Thurmanators (David Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022462,
+          "teamName": "5. Notorious DIG (Connor D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352023,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8031080,
+          "teamName": "8. Gold Star for Effort (Merilyn V.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8038328,
+          "teamName": "9. What Court Are We On? (Bear S.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13352024,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8016830,
+          "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8037317,
+          "teamName": "11. BLT (Sean B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

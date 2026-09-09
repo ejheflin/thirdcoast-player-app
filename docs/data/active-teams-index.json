@@ -398,14 +398,20 @@
   {
     "programId": 5056669,
     "programName": "Tuesday Coed 4s A",
+    "teamId": 8023884,
+    "teamName": "1. Carolina Beach Bumpers (Ashton)"
+  },
+  {
+    "programId": 5056669,
+    "programName": "Tuesday Coed 4s A",
     "teamId": 8032502,
     "teamName": "4. Holy Blockamole Infinity (Bryan M.)"
   },
   {
     "programId": 5056669,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8023884,
-    "teamName": "1. Carolina Beach Bumpers (Ashton)"
+    "teamId": 8037047,
+    "teamName": "3. Hustle Gang (Calvin D.)"
   },
   {
     "programId": 5056669,
@@ -418,12 +424,6 @@
     "programName": "Tuesday Coed 4s A",
     "teamId": 8036801,
     "teamName": "6. Bombaclat (Aatir A.)"
-  },
-  {
-    "programId": 5056669,
-    "programName": "Tuesday Coed 4s A",
-    "teamId": 8037047,
-    "teamName": "3. Hustle Gang (Calvin D.)"
   },
   {
     "programId": 5056669,
@@ -446,14 +446,14 @@
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8022079,
-    "teamName": "7. Volley Llamas (Daphne D.)"
+    "teamId": 8034410,
+    "teamName": "5. Beach Bunnies (Jimmy R.)"
   },
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8034410,
-    "teamName": "5. Beach Bunnies (Jimmy R.)"
+    "teamId": 8022079,
+    "teamName": "7. Volley Llamas (Daphne D.)"
   },
   {
     "programId": 5056676,
@@ -470,26 +470,26 @@
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8018572,
-    "teamName": "1. Bad Hombres (Jaimie M.)"
-  },
-  {
-    "programId": 5056676,
-    "programName": "Tuesday Coed 4s B",
     "teamId": 8024203,
     "teamName": "2. Can You Dig It? (Marc S.)"
   },
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8024049,
-    "teamName": "10. Big Dig Energy (Chad S.)"
+    "teamId": 8018572,
+    "teamName": "1. Bad Hombres (Jaimie M.)"
   },
   {
     "programId": 5056676,
     "programName": "Tuesday Coed 4s B",
     "teamId": 8023885,
     "teamName": "3. Gold Diggerz (JT N.)"
+  },
+  {
+    "programId": 5056676,
+    "programName": "Tuesday Coed 4s B",
+    "teamId": 8024049,
+    "teamName": "10. Big Dig Energy (Chad S.)"
   },
   {
     "programId": 5056676,
@@ -512,14 +512,14 @@
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8021976,
-    "teamName": "4. Twin Peaks (Dan F.)"
+    "teamId": 8024851,
+    "teamName": "5. Not Good at Volleyball Puns (Daniel A.)"
   },
   {
     "programId": 5062075,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8024851,
-    "teamName": "5. Not Good at Volleyball Puns (Daniel A.)"
+    "teamId": 8021976,
+    "teamName": "4. Twin Peaks (Dan F.)"
   },
   {
     "programId": 5062075,
@@ -584,20 +584,20 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8024490,
-    "teamName": "2. Beach Please (Annie L.)"
-  },
-  {
-    "programId": 5062084,
-    "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8022462,
     "teamName": "5. Notorious DIG (Connor D.)"
   },
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8033954,
-    "teamName": "4. The Thurmanators (David Z.)"
+    "teamId": 8024490,
+    "teamName": "2. Beach Please (Annie L.)"
+  },
+  {
+    "programId": 5062084,
+    "programName": "Tuesday Coed 4s Upper Rec",
+    "teamId": 8037317,
+    "teamName": "11. BLT (Sean B.)"
   },
   {
     "programId": 5062084,
@@ -608,8 +608,8 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8037317,
-    "teamName": "11. BLT (Sean B.)"
+    "teamId": 8033954,
+    "teamName": "4. The Thurmanators (David Z.)"
   },
   {
     "programId": 5062084,
@@ -632,26 +632,26 @@
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8028157,
-    "teamName": "9. Juli T. and Lauren W."
-  },
-  {
-    "programId": 5062087,
-    "programName": "Tuesday Womens 2s A",
     "teamId": 8023051,
     "teamName": "8. Yanni S. and Ali. M."
   },
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8018306,
-    "teamName": "2. Sarah S. and Jo P."
+    "teamId": 8028157,
+    "teamName": "9. Juli T. and Lauren W."
   },
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
     "teamId": 8017347,
     "teamName": "7. Melissa B. and Lindsay K."
+  },
+  {
+    "programId": 5062087,
+    "programName": "Tuesday Womens 2s A",
+    "teamId": 8018306,
+    "teamName": "2. Sarah S. and Jo P."
   },
   {
     "programId": 5062087,
@@ -668,14 +668,14 @@
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8020590,
-    "teamName": "4. Emily F. and Lauren H."
+    "teamId": 8016497,
+    "teamName": "5. Beth B. and Julia V."
   },
   {
     "programId": 5062087,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8016497,
-    "teamName": "5. Beth B. and Julia V."
+    "teamId": 8020590,
+    "teamName": "4. Emily F. and Lauren H."
   },
   {
     "programId": 5062087,

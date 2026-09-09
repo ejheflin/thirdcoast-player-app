@@ -128,6 +128,24 @@
       ]
     },
     {
+      "activityId": 13351758,
+      "date": "2026-07-21",
+      "teams": [
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13351764,
       "date": "2026-07-28",
       "teams": [
@@ -686,6 +704,24 @@
       ]
     },
     {
+      "activityId": 13351795,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023200,
+          "teamName": "5. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13351796,
       "date": "2026-08-25",
       "teams": [
@@ -938,6 +974,42 @@
       ]
     },
     {
+      "activityId": 13351808,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023200,
+          "teamName": "5. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351811,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8024708,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13351812,
       "date": "2026-09-08",
       "teams": [
@@ -1006,6 +1078,78 @@
           "teamName": "8. Team Jacob (Mark J.)",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351816,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8023200,
+          "teamName": "5. Toodles (Michael L.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351817,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8023884,
+          "teamName": "1. Carolina Beach Bumpers (Ashton)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13351818,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8023884,
+          "teamName": "1. Carolina Beach Bumpers (Ashton)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023200,
+          "teamName": "5. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351819,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
         }
       ]
     }

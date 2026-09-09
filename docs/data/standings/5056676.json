@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8034410,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 2,
+      "ties": 3,
+      "points": 25
+    },
+    {
+      "position": 2,
       "teamId": 8022079,
       "teamName": "7. Volley Llamas (Daphne D.)",
       "gamesPlayed": 16,
@@ -13,92 +23,82 @@
       "points": 25
     },
     {
-      "position": 2,
-      "teamId": 8034410,
-      "teamName": "5. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 15,
-      "wins": 11,
-      "losses": 2,
-      "ties": 2,
-      "points": 24
-    },
-    {
       "position": 3,
       "teamId": 8027833,
       "teamName": "4. Milk (Sean M.)",
-      "gamesPlayed": 14,
-      "wins": 8,
+      "gamesPlayed": 16,
+      "wins": 9,
       "losses": 2,
-      "ties": 4,
-      "points": 20
+      "ties": 5,
+      "points": 23
     },
     {
       "position": 4,
       "teamId": 8016718,
       "teamName": "6. The Empire Spikes Back (Ash C.)",
-      "gamesPlayed": 15,
-      "wins": 6,
+      "gamesPlayed": 16,
+      "wins": 7,
       "losses": 5,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 5,
+      "teamId": 8024203,
+      "teamName": "2. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 6,
       "ties": 4,
       "points": 16
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8018572,
       "teamName": "1. Bad Hombres (Jaimie M.)",
-      "gamesPlayed": 14,
-      "wins": 5,
-      "losses": 5,
-      "ties": 4,
-      "points": 14
-    },
-    {
-      "position": 6,
-      "teamId": 8024203,
-      "teamName": "2. Can You Dig It? (Marc S.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 5,
       "losses": 6,
-      "ties": 3,
-      "points": 13
+      "ties": 5,
+      "points": 15
     },
     {
       "position": 7,
-      "teamId": 8024049,
-      "teamName": "10. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 14,
-      "wins": 3,
-      "losses": 5,
-      "ties": 6,
-      "points": 12
+      "teamId": 8023885,
+      "teamName": "3. Gold Diggerz (JT N.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 7,
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 8,
-      "teamId": 8023885,
-      "teamName": "3. Gold Diggerz (JT N.)",
-      "gamesPlayed": 14,
+      "teamId": 8024049,
+      "teamName": "10. Big Dig Energy (Chad S.)",
+      "gamesPlayed": 16,
       "wins": 3,
-      "losses": 7,
-      "ties": 4,
-      "points": 10
+      "losses": 6,
+      "ties": 7,
+      "points": 13
     },
     {
       "position": 9,
       "teamId": 8036768,
       "teamName": "9. Carpe Digem (Eric H.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 2,
       "losses": 8,
-      "ties": 2,
-      "points": 6
+      "ties": 4,
+      "points": 8
     },
     {
       "position": 10,
       "teamId": 8033259,
       "teamName": "8. The Replacements (Joe R.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 0,
-      "losses": 12,
+      "losses": 14,
       "ties": 0,
       "points": 0
     }

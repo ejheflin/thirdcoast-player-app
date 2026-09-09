@@ -6,21 +6,21 @@
       "position": 1,
       "teamId": 8031080,
       "teamName": "8. Gold Star for Effort (Merilyn V.)",
-      "gamesPlayed": 14,
-      "wins": 10,
+      "gamesPlayed": 16,
+      "wins": 12,
       "losses": 1,
       "ties": 3,
-      "points": 23
+      "points": 27
     },
     {
       "position": 2,
       "teamId": 8038328,
       "teamName": "9. What Court Are We On? (Bear S.)",
-      "gamesPlayed": 14,
-      "wins": 10,
-      "losses": 2,
+      "gamesPlayed": 16,
+      "wins": 11,
+      "losses": 3,
       "ties": 2,
-      "points": 22
+      "points": 24
     },
     {
       "position": 3,
@@ -54,6 +54,16 @@
     },
     {
       "position": 6,
+      "teamId": 8022462,
+      "teamName": "5. Notorious DIG (Connor D.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 5,
+      "ties": 5,
+      "points": 17
+    },
+    {
+      "position": 7,
       "teamId": 8024490,
       "teamName": "2. Beach Please (Annie L.)",
       "gamesPlayed": 14,
@@ -63,44 +73,34 @@
       "points": 15
     },
     {
-      "position": 7,
-      "teamId": 8022462,
-      "teamName": "5. Notorious DIG (Connor D.)",
-      "gamesPlayed": 14,
-      "wins": 5,
-      "losses": 5,
-      "ties": 4,
-      "points": 14
-    },
-    {
       "position": 8,
-      "teamId": 8033954,
-      "teamName": "4. The Thurmanators (David Z.)",
-      "gamesPlayed": 13,
+      "teamId": 8037317,
+      "teamName": "11. BLT (Sean B.)",
+      "gamesPlayed": 16,
       "wins": 2,
-      "losses": 5,
-      "ties": 6,
-      "points": 10
+      "losses": 7,
+      "ties": 7,
+      "points": 11
     },
     {
       "position": 9,
       "teamId": 8016830,
       "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 1,
-      "losses": 5,
-      "ties": 8,
-      "points": 10
+      "losses": 6,
+      "ties": 9,
+      "points": 11
     },
     {
       "position": 10,
-      "teamId": 8037317,
-      "teamName": "11. BLT (Sean B.)",
-      "gamesPlayed": 14,
+      "teamId": 8033954,
+      "teamName": "4. The Thurmanators (David Z.)",
+      "gamesPlayed": 15,
       "wins": 2,
       "losses": 7,
-      "ties": 5,
-      "points": 9
+      "ties": 6,
+      "points": 10
     },
     {
       "position": 11,
