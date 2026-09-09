@@ -1224,6 +1224,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13352096,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8016718,
+          "teamName": "6. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352098,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8034410,
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8022079,
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

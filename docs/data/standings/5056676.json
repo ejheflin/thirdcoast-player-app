@@ -4,23 +4,23 @@
   "rows": [
     {
       "position": 1,
-      "teamId": 8034410,
-      "teamName": "5. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 14,
-      "wins": 11,
+      "teamId": 8022079,
+      "teamName": "7. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 16,
+      "wins": 10,
       "losses": 1,
-      "ties": 2,
-      "points": 24
+      "ties": 5,
+      "points": 25
     },
     {
       "position": 2,
-      "teamId": 8022079,
-      "teamName": "7. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 14,
-      "wins": 8,
-      "losses": 1,
-      "ties": 5,
-      "points": 21
+      "teamId": 8034410,
+      "teamName": "5. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 15,
+      "wins": 11,
+      "losses": 2,
+      "ties": 2,
+      "points": 24
     },
     {
       "position": 3,
@@ -36,9 +36,9 @@
       "position": 4,
       "teamId": 8016718,
       "teamName": "6. The Empire Spikes Back (Ash C.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "ties": 4,
       "points": 16
     },

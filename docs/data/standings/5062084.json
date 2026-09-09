@@ -26,11 +26,11 @@
       "position": 3,
       "teamId": 8031288,
       "teamName": "10. Offense Only (Zhen Y.)",
-      "gamesPlayed": 14,
-      "wins": 8,
+      "gamesPlayed": 15,
+      "wins": 9,
       "losses": 2,
       "ties": 4,
-      "points": 20
+      "points": 22
     },
     {
       "position": 4,
@@ -106,19 +106,19 @@
       "position": 11,
       "teamId": 8015523,
       "teamName": "7. Sets Pistols (Christina Z.)",
-      "gamesPlayed": 13,
-      "wins": 0,
-      "losses": 8,
+      "gamesPlayed": 15,
+      "wins": 1,
+      "losses": 9,
       "ties": 5,
-      "points": 5
+      "points": 7
     },
     {
       "position": 12,
       "teamId": 8037222,
       "teamName": "1. Unprotected Sets (Chase P.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 0,
-      "losses": 13,
+      "losses": 14,
       "ties": 1,
       "points": 1
     }

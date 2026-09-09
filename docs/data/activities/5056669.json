@@ -542,6 +542,24 @@
       ]
     },
     {
+      "activityId": 13351787,
+      "date": "2026-08-11",
+      "teams": [
+        {
+          "teamId": 8037047,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8026787,
+          "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13351789,
       "date": "2026-08-18",
       "teams": [
@@ -914,6 +932,78 @@
         {
           "teamId": 8026787,
           "teamName": "7. Watermelon (Lauren K.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351812,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8024708,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8032502,
+          "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351813,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8017573,
+          "teamName": "8. Team Jacob (Mark J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351814,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8024708,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8036801,
+          "teamName": "6. Bombaclat (Aatir A.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13351815,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8032502,
+          "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8017573,
+          "teamName": "8. Team Jacob (Mark J.)",
           "result": "loss",
           "score": 0
         }

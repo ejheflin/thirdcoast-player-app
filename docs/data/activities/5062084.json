@@ -1476,6 +1476,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13352014,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8015523,
+          "teamName": "7. Sets Pistols (Christina Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8031288,
+          "teamName": "10. Offense Only (Zhen Y.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13352016,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8037222,
+          "teamName": "1. Unprotected Sets (Chase P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8015523,
+          "teamName": "7. Sets Pistols (Christina Z.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

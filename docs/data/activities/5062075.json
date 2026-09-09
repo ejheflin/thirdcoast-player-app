@@ -972,6 +972,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13351883,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8021976,
+          "teamName": "4. Twin Peaks (Dan F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8033505,
+          "teamName": "8. 3 OGs and Bae (Johnny W.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

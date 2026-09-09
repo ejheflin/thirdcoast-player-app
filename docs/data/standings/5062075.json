@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8021976,
+      "teamName": "4. Twin Peaks (Dan F.)",
+      "gamesPlayed": 15,
+      "wins": 7,
+      "losses": 3,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
       "teamId": 8024851,
       "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
       "gamesPlayed": 14,
@@ -21,16 +31,6 @@
       "losses": 1,
       "ties": 8,
       "points": 18
-    },
-    {
-      "position": 3,
-      "teamId": 8021976,
-      "teamName": "4. Twin Peaks (Dan F.)",
-      "gamesPlayed": 14,
-      "wins": 6,
-      "losses": 3,
-      "ties": 5,
-      "points": 17
     },
     {
       "position": 4,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8033505,
       "teamName": "8. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "ties": 5,
       "points": 7
     }
