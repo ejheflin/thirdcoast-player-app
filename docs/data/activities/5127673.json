@@ -72,6 +72,60 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13946777,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946780,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946784,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

@@ -86,19 +86,19 @@
       "position": 9,
       "teamId": 8036768,
       "teamName": "9. Carpe Digem (Eric H.)",
-      "gamesPlayed": 14,
-      "wins": 2,
+      "gamesPlayed": 16,
+      "wins": 4,
       "losses": 8,
       "ties": 4,
-      "points": 8
+      "points": 12
     },
     {
       "position": 10,
       "teamId": 8033259,
       "teamName": "8. The Replacements (Joe R.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 0,
-      "losses": 14,
+      "losses": 16,
       "ties": 0,
       "points": 0
     }
