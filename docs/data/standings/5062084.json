@@ -26,34 +26,44 @@
       "position": 3,
       "teamId": 8031288,
       "teamName": "10. Offense Only (Zhen Y.)",
-      "gamesPlayed": 15,
-      "wins": 9,
+      "gamesPlayed": 16,
+      "wins": 10,
       "losses": 2,
       "ties": 4,
-      "points": 22
+      "points": 24
     },
     {
       "position": 4,
       "teamId": 8040552,
       "teamName": "12. The Volleybeaners (Emanuel N.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 15,
       "wins": 7,
-      "losses": 2,
-      "ties": 4,
-      "points": 18
+      "losses": 3,
+      "ties": 5,
+      "points": 19
     },
     {
       "position": 5,
       "teamId": 8022535,
       "teamName": "3. Bump, set, dammit! (Michael G.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 15,
       "wins": 6,
       "losses": 2,
-      "ties": 5,
-      "points": 17
+      "ties": 7,
+      "points": 19
     },
     {
       "position": 6,
+      "teamId": 8024490,
+      "teamName": "2. Beach Please (Annie L.)",
+      "gamesPlayed": 16,
+      "wins": 6,
+      "losses": 4,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 7,
       "teamId": 8022462,
       "teamName": "5. Notorious DIG (Connor D.)",
       "gamesPlayed": 16,
@@ -61,16 +71,6 @@
       "losses": 5,
       "ties": 5,
       "points": 17
-    },
-    {
-      "position": 7,
-      "teamId": 8024490,
-      "teamName": "2. Beach Please (Annie L.)",
-      "gamesPlayed": 14,
-      "wins": 5,
-      "losses": 4,
-      "ties": 5,
-      "points": 15
     },
     {
       "position": 8,
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8037222,
       "teamName": "1. Unprotected Sets (Chase P.)",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 0,
-      "losses": 14,
+      "losses": 15,
       "ties": 1,
       "points": 1
     }

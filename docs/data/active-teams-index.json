@@ -362,8 +362,8 @@
   {
     "programId": 5050413,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8012809,
-    "teamName": "7. HIT FACED (Clark P.)"
+    "teamId": 8008195,
+    "teamName": "5. FlyBallers ShotCallers (Albert F.)"
   },
   {
     "programId": 5050413,
@@ -374,8 +374,8 @@
   {
     "programId": 5050413,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8008195,
-    "teamName": "5. FlyBallers ShotCallers (Albert F.)"
+    "teamId": 8012809,
+    "teamName": "7. HIT FACED (Clark P.)"
   },
   {
     "programId": 5050413,
@@ -584,14 +584,14 @@
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8022462,
-    "teamName": "5. Notorious DIG (Connor D.)"
+    "teamId": 8024490,
+    "teamName": "2. Beach Please (Annie L.)"
   },
   {
     "programId": 5062084,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8024490,
-    "teamName": "2. Beach Please (Annie L.)"
+    "teamId": 8022462,
+    "teamName": "5. Notorious DIG (Connor D.)"
   },
   {
     "programId": 5062084,
@@ -686,8 +686,14 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
-    "teamId": 8106388,
-    "teamName": "1. Eric W. and Dan M."
+    "teamId": 8122145,
+    "teamName": "3. Gordon P. and Harley G."
+  },
+  {
+    "programId": 5127673,
+    "programName": "Wednesday Mens 2s AA",
+    "teamId": 8139630,
+    "teamName": "9. Dane R. and Carson S."
   },
   {
     "programId": 5127673,
@@ -698,14 +704,20 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
-    "teamId": 8122077,
-    "teamName": "10. Nate G. and Zach B."
+    "teamId": 8138988,
+    "teamName": "8. Scott S. and Chris H."
   },
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
-    "teamId": 8122145,
-    "teamName": "3. Gordon P. and Harley G."
+    "teamId": 8106388,
+    "teamName": "1. Eric W. and Dan M."
+  },
+  {
+    "programId": 5127673,
+    "programName": "Wednesday Mens 2s AA",
+    "teamId": 8122077,
+    "teamName": "10. Nate G. and Zach B."
   },
   {
     "programId": 5127673,
@@ -740,19 +752,7 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
-    "teamId": 8138988,
-    "teamName": "8. Scott S. and Chris H."
-  },
-  {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
     "teamId": 8139578,
     "teamName": "12. Riley W. and Jacob W."
-  },
-  {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
-    "teamId": 8139630,
-    "teamName": "9. Dane R. and Carson S."
   }
 ]

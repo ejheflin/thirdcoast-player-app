@@ -1010,6 +1010,24 @@
       ]
     },
     {
+      "activityId": 13291679,
+      "date": "2026-08-13",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8023891,
+          "teamName": "12. Bag of digs (Christopher M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13291687,
       "date": "2026-08-20",
       "teams": [
@@ -1190,6 +1208,24 @@
       ]
     },
     {
+      "activityId": 13291691,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13291699,
       "date": "2026-08-27",
       "teams": [
@@ -1346,6 +1382,42 @@
         {
           "teamId": 8022280,
           "teamName": "9. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13291706,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8016844,
+          "teamName": "11. Spike Wizowski (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13291708,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
           "result": "loss",
           "score": 0
         }
@@ -1528,6 +1600,42 @@
           "teamName": "12. Bag of digs (Christopher M.)",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392719,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8021699,
+          "teamName": "6. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13392723,
+      "date": "2026-09-03",
+      "teams": [
+        {
+          "teamId": 8017688,
+          "teamName": "4. Nothing But Tape!! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8008195,
+          "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+          "result": "win",
+          "score": 2
         }
       ]
     }
