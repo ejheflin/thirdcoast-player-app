@@ -344,6 +344,24 @@
       ]
     },
     {
+      "activityId": 13351685,
+      "date": "2026-07-28",
+      "teams": [
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8016497,
+          "teamName": "5. Beth B. and Julia V.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13351693,
       "date": "2026-08-04",
       "teams": [
@@ -502,6 +520,24 @@
           "teamName": "5. Beth B. and Julia V.",
           "result": "draw",
           "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13351702,
+      "date": "2026-08-04",
+      "teams": [
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8019399,
+          "teamName": "6. Elaine L. and Tina O.",
+          "result": "loss",
+          "score": 0
         }
       ]
     },
@@ -830,6 +866,24 @@
       ]
     },
     {
+      "activityId": 13351722,
+      "date": "2026-08-18",
+      "teams": [
+        {
+          "teamId": 8018306,
+          "teamName": "2. Sarah S. and Jo P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13351723,
       "date": "2026-08-25",
       "teams": [
@@ -992,6 +1046,24 @@
       ]
     },
     {
+      "activityId": 13351725,
+      "date": "2026-08-25",
+      "teams": [
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023051,
+          "teamName": "8. Yanni S. and Ali. M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13351734,
       "date": "2026-09-01",
       "teams": [
@@ -1136,6 +1208,42 @@
       ]
     },
     {
+      "activityId": 13351733,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8018306,
+          "teamName": "2. Sarah S. and Jo P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351737,
+      "date": "2026-09-01",
+      "teams": [
+        {
+          "teamId": 8015276,
+          "teamName": "1. Liz C. and Madison P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 13351744,
       "date": "2026-09-08",
       "teams": [
@@ -1256,6 +1364,42 @@
         {
           "teamId": 8017347,
           "teamName": "7. Melissa B. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13351745,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8023051,
+          "teamName": "8. Yanni S. and Ali. M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13351747,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8018306,
+          "teamName": "2. Sarah S. and Jo P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8020590,
+          "teamName": "4. Emily F. and Lauren H.",
           "result": "win",
           "score": 2
         }
