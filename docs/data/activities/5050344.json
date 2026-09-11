@@ -1244,6 +1244,24 @@
       ]
     },
     {
+      "activityId": 13291822,
+      "date": "2026-08-27",
+      "teams": [
+        {
+          "teamId": 8018869,
+          "teamName": "5. Kylee G. and Jacob W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8024296,
+          "teamName": "10. Tiffany S. and Carson S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13392687,
       "date": "2026-09-03",
       "teams": [

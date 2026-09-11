@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8024296,
       "teamName": "10. Tiffany S. and Carson S.",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 2,
-      "losses": 5,
+      "losses": 6,
       "ties": 8,
       "points": 12
     },
@@ -84,6 +84,16 @@
     },
     {
       "position": 9,
+      "teamId": 8018869,
+      "teamName": "5. Kylee G. and Jacob W.",
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 7,
+      "ties": 8,
+      "points": 10
+    },
+    {
+      "position": 10,
       "teamId": 8010331,
       "teamName": "3. Olivia E. and Isa T.",
       "gamesPlayed": 16,
@@ -91,16 +101,6 @@
       "losses": 7,
       "ties": 9,
       "points": 9
-    },
-    {
-      "position": 10,
-      "teamId": 8018869,
-      "teamName": "5. Kylee G. and Jacob W.",
-      "gamesPlayed": 15,
-      "wins": 0,
-      "losses": 7,
-      "ties": 8,
-      "points": 8
     }
   ]
 }
