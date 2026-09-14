@@ -4,6 +4,11 @@
   "teamName": "2. Net Ninjas (Katelyn M.)",
   "players": [
     {
+      "userId": 14759020,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
       "userId": 14658568,
       "firstName": "Katelyn",
       "isCaptain": true
