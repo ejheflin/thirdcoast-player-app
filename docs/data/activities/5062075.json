@@ -1098,6 +1098,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13351884,
+      "date": "2026-09-08",
+      "teams": [
+        {
+          "teamId": 8024851,
+          "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8032447,
+          "teamName": "7. The Vacacioners (Phil M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
