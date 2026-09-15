@@ -126,6 +126,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13946782,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946783,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

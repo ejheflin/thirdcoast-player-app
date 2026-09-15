@@ -6,9 +6,9 @@
       "position": 1,
       "teamId": 8011799,
       "teamName": "7. Sydney Z. and Manny A.",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "ties": 7,
       "points": 19
     },
@@ -34,23 +34,23 @@
     },
     {
       "position": 4,
-      "teamId": 8017043,
-      "teamName": "1. Emily R. and Riley F.",
-      "gamesPlayed": 14,
-      "wins": 5,
-      "losses": 2,
-      "ties": 7,
-      "points": 17
+      "teamId": 8016616,
+      "teamName": "5. Sarah U. and Joe M.",
+      "gamesPlayed": 16,
+      "wins": 7,
+      "losses": 5,
+      "ties": 4,
+      "points": 18
     },
     {
       "position": 5,
-      "teamId": 8016616,
-      "teamName": "5. Sarah U. and Joe M.",
-      "gamesPlayed": 14,
+      "teamId": 8017043,
+      "teamName": "1. Emily R. and Riley F.",
+      "gamesPlayed": 16,
       "wins": 5,
-      "losses": 5,
-      "ties": 4,
-      "points": 14
+      "losses": 3,
+      "ties": 8,
+      "points": 18
     },
     {
       "position": 6,
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8018011,
       "teamName": "3. Ellie B. and Matt G.",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 2,
       "losses": 11,
-      "ties": 2,
-      "points": 6
+      "ties": 3,
+      "points": 7
     }
   ]
 }

@@ -1350,6 +1350,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13357136,
+      "date": "2026-09-14",
+      "teams": [
+        {
+          "teamId": 8039931,
+          "teamName": "5. Angel H. and Paul R.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8039648,
+          "teamName": "7. Lauren V. and Naz A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13357141,
+      "date": "2026-09-14",
+      "teams": [
+        {
+          "teamId": 8043510,
+          "teamName": "1. Rachele P. and Ganesh N.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8036844,
+          "teamName": "2. Denise H. and Dreco S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

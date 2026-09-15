@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8007540,
       "teamName": "1. Abbie G. and Jason O.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 12,
-      "losses": 0,
-      "ties": 2,
-      "points": 26
+      "losses": 1,
+      "ties": 3,
+      "points": 27
     },
     {
       "position": 2,
@@ -26,59 +26,59 @@
       "position": 3,
       "teamId": 8017657,
       "teamName": "7. Caroline J. and Mark J.",
-      "gamesPlayed": 14,
-      "wins": 4,
+      "gamesPlayed": 16,
+      "wins": 5,
       "losses": 3,
-      "ties": 7,
-      "points": 15
+      "ties": 8,
+      "points": 18
     },
     {
       "position": 4,
       "teamId": 8013412,
       "teamName": "3. Jenny S. and Nathan G.",
-      "gamesPlayed": 13,
-      "wins": 5,
+      "gamesPlayed": 16,
+      "wins": 6,
       "losses": 5,
-      "ties": 3,
-      "points": 13
+      "ties": 5,
+      "points": 17
     },
     {
       "position": 5,
       "teamId": 8020386,
       "teamName": "2. Holli D. and Dan L.",
-      "gamesPlayed": 13,
-      "wins": 3,
+      "gamesPlayed": 15,
+      "wins": 4,
       "losses": 3,
-      "ties": 7,
-      "points": 13
+      "ties": 8,
+      "points": 16
     },
     {
       "position": 6,
       "teamId": 8007542,
       "teamName": "5. Kim M. and Travis B.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 4,
-      "losses": 5,
-      "ties": 5,
-      "points": 13
+      "losses": 6,
+      "ties": 6,
+      "points": 14
     },
     {
       "position": 7,
       "teamId": 8008011,
       "teamName": "4. Joann L. and Jacob W.",
-      "gamesPlayed": 14,
-      "wins": 0,
-      "losses": 7,
+      "gamesPlayed": 16,
+      "wins": 1,
+      "losses": 8,
       "ties": 7,
-      "points": 7
+      "points": 9
     },
     {
       "position": 8,
       "teamId": 8007625,
       "teamName": "8. Jodie N. and Jacob J.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 0,
-      "losses": 9,
+      "losses": 10,
       "ties": 5,
       "points": 5
     }
