@@ -44,6 +44,16 @@
     },
     {
       "position": 5,
+      "teamId": 8020386,
+      "teamName": "2. Holli D. and Dan L.",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 3,
+      "ties": 7,
+      "points": 13
+    },
+    {
+      "position": 6,
       "teamId": 8007542,
       "teamName": "5. Kim M. and Travis B.",
       "gamesPlayed": 14,
@@ -53,24 +63,14 @@
       "points": 13
     },
     {
-      "position": 6,
-      "teamId": 8020386,
-      "teamName": "2. Holli D. and Dan L.",
-      "gamesPlayed": 12,
-      "wins": 3,
-      "losses": 3,
-      "ties": 6,
-      "points": 12
-    },
-    {
       "position": 7,
       "teamId": 8008011,
       "teamName": "4. Joann L. and Jacob W.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 0,
       "losses": 7,
-      "ties": 6,
-      "points": 6
+      "ties": 7,
+      "points": 7
     },
     {
       "position": 8,

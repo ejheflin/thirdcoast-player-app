@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8011799,
+      "teamName": "7. Sydney Z. and Manny A.",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 2,
+      "ties": 7,
+      "points": 19
+    },
+    {
+      "position": 2,
       "teamId": 8011095,
       "teamName": "6. Liz C. and Josman R.",
       "gamesPlayed": 13,
@@ -13,7 +23,7 @@
       "points": 18
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8020518,
       "teamName": "4. Kaegan W. and Jon N.",
       "gamesPlayed": 13,
@@ -21,16 +31,6 @@
       "losses": 2,
       "ties": 4,
       "points": 18
-    },
-    {
-      "position": 3,
-      "teamId": 8011799,
-      "teamName": "7. Sydney Z. and Manny A.",
-      "gamesPlayed": 14,
-      "wins": 5,
-      "losses": 2,
-      "ties": 7,
-      "points": 17
     },
     {
       "position": 4,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8018011,
       "teamName": "3. Ellie B. and Matt G.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 2,
-      "losses": 10,
+      "losses": 11,
       "ties": 2,
       "points": 6
     }

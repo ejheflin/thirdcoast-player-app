@@ -972,6 +972,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13319405,
+      "date": "2026-09-14",
+      "teams": [
+        {
+          "teamId": 8018011,
+          "teamName": "3. Ellie B. and Matt G.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8011799,
+          "teamName": "7. Sydney Z. and Manny A.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

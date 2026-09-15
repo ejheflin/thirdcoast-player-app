@@ -972,6 +972,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13317081,
+      "date": "2026-08-31",
+      "teams": [
+        {
+          "teamId": 8020386,
+          "teamName": "2. Holli D. and Dan L.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8008011,
+          "teamName": "4. Joann L. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
