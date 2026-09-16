@@ -1,12 +1,5 @@
 {
   "programId": 5062084,
   "games": [],
-  "tournaments": [
-    {
-      "activityId": 13392772,
-      "date": "2026-09-15",
-      "time": "18:30",
-      "title": "PLAYOFFS"
-    }
-  ]
+  "tournaments": []
 }
