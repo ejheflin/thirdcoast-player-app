@@ -1,0 +1,17 @@
+{
+  "programId": 5143224,
+  "teamId": 8149530,
+  "teamName": "8. Avery E. and Jon N.",
+  "players": [
+    {
+      "userId": 22232572,
+      "firstName": "Avery",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

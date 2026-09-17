@@ -1,0 +1,27 @@
+{
+  "programId": 5143200,
+  "teamId": 8157248,
+  "teamName": "12. Weekend Warmups (Liz P.)",
+  "players": [
+    {
+      "userId": 58533276,
+      "firstName": "Andres",
+      "isCaptain": false
+    },
+    {
+      "userId": 58530677,
+      "firstName": "Katherine",
+      "isCaptain": false
+    },
+    {
+      "userId": 58528735,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 45446989,
+      "firstName": "Alik",
+      "isCaptain": false
+    }
+  ]
+}

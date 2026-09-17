@@ -1,0 +1,27 @@
+{
+  "programId": 5143200,
+  "teamId": 8156531,
+  "teamName": "9. Dont Dink and Dive (Sarah F.)",
+  "players": [
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": true
+    },
+    {
+      "userId": 58527656,
+      "firstName": "Payden",
+      "isCaptain": false
+    },
+    {
+      "userId": 56677110,
+      "firstName": "Danny",
+      "isCaptain": false
+    },
+    {
+      "userId": 58527736,
+      "firstName": "Bill",
+      "isCaptain": false
+    }
+  ]
+}

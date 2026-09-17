@@ -1,0 +1,17 @@
+{
+  "programId": 5143224,
+  "teamId": 8157013,
+  "teamName": "9. Lauren H. and Clayton B.",
+  "players": [
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": false
+    },
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": true
+    }
+  ]
+}

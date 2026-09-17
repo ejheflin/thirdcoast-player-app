@@ -13,6 +13,12 @@
       "teamId": 8026787,
       "teamName": "7. Watermelon (Lauren K.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5143200,
+      "teamId": 8127097,
+      "teamName": "1. Crab (Collin W.)",
+      "isCaptain": true
     }
   ]
 }

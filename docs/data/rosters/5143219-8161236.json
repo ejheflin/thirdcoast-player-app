@@ -1,0 +1,17 @@
+{
+  "programId": 5143219,
+  "teamId": 8161236,
+  "teamName": "10. Delaney Z. and Dane R.",
+  "players": [
+    {
+      "userId": 53603935,
+      "firstName": "Dane",
+      "isCaptain": true
+    },
+    {
+      "userId": 57744675,
+      "firstName": "Delaney",
+      "isCaptain": false
+    }
+  ]
+}

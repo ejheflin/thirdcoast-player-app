@@ -25,6 +25,12 @@
       "teamId": 8111500,
       "teamName": "2. Jason O. and Dominick W.",
       "isCaptain": true
+    },
+    {
+      "programId": 5143200,
+      "teamId": 8143230,
+      "teamName": "3. Charlies Angels (Jason O.)",
+      "isCaptain": true
     }
   ]
 }

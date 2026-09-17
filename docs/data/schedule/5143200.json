@@ -1,5 +1,1542 @@
 {
   "programId": 5143200,
-  "games": [],
+  "games": [
+    {
+      "activityId": 14048357,
+      "date": "2026-09-17",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048358,
+      "date": "2026-09-17",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048359,
+      "date": "2026-09-17",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048360,
+      "date": "2026-09-17",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048361,
+      "date": "2026-09-17",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048362,
+      "date": "2026-09-17",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048363,
+      "date": "2026-09-17",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048364,
+      "date": "2026-09-17",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048365,
+      "date": "2026-09-17",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048366,
+      "date": "2026-09-17",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048367,
+      "date": "2026-09-17",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048368,
+      "date": "2026-09-17",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048369,
+      "date": "2026-09-24",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048370,
+      "date": "2026-09-24",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048371,
+      "date": "2026-09-24",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048372,
+      "date": "2026-09-24",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048373,
+      "date": "2026-09-24",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048374,
+      "date": "2026-09-24",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048375,
+      "date": "2026-09-24",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048376,
+      "date": "2026-09-24",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048377,
+      "date": "2026-09-24",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048378,
+      "date": "2026-09-24",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048379,
+      "date": "2026-09-24",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048380,
+      "date": "2026-09-24",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048381,
+      "date": "2026-10-01",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048382,
+      "date": "2026-10-01",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048383,
+      "date": "2026-10-01",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048384,
+      "date": "2026-10-01",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048385,
+      "date": "2026-10-01",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048386,
+      "date": "2026-10-01",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048387,
+      "date": "2026-10-01",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048388,
+      "date": "2026-10-01",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048389,
+      "date": "2026-10-01",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048390,
+      "date": "2026-10-01",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048391,
+      "date": "2026-10-01",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048392,
+      "date": "2026-10-01",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048393,
+      "date": "2026-10-08",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048394,
+      "date": "2026-10-08",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048395,
+      "date": "2026-10-08",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048396,
+      "date": "2026-10-08",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048397,
+      "date": "2026-10-08",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048398,
+      "date": "2026-10-08",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048399,
+      "date": "2026-10-08",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048400,
+      "date": "2026-10-08",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048401,
+      "date": "2026-10-08",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048402,
+      "date": "2026-10-08",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048403,
+      "date": "2026-10-08",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048404,
+      "date": "2026-10-08",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048405,
+      "date": "2026-10-15",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048406,
+      "date": "2026-10-15",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048407,
+      "date": "2026-10-15",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048408,
+      "date": "2026-10-15",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048409,
+      "date": "2026-10-15",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048410,
+      "date": "2026-10-15",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048411,
+      "date": "2026-10-15",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048412,
+      "date": "2026-10-15",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048413,
+      "date": "2026-10-15",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048414,
+      "date": "2026-10-15",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048415,
+      "date": "2026-10-15",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048416,
+      "date": "2026-10-15",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048417,
+      "date": "2026-10-22",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048418,
+      "date": "2026-10-22",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048419,
+      "date": "2026-10-22",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048420,
+      "date": "2026-10-22",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048421,
+      "date": "2026-10-22",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048422,
+      "date": "2026-10-22",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048423,
+      "date": "2026-10-22",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048424,
+      "date": "2026-10-22",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048425,
+      "date": "2026-10-22",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048426,
+      "date": "2026-10-22",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048427,
+      "date": "2026-10-22",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048428,
+      "date": "2026-10-22",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048429,
+      "date": "2026-10-29",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048430,
+      "date": "2026-10-29",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048431,
+      "date": "2026-10-29",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048432,
+      "date": "2026-10-29",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048433,
+      "date": "2026-10-29",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048434,
+      "date": "2026-10-29",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048435,
+      "date": "2026-10-29",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048436,
+      "date": "2026-10-29",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048437,
+      "date": "2026-10-29",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048438,
+      "date": "2026-10-29",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048439,
+      "date": "2026-10-29",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048440,
+      "date": "2026-10-29",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048441,
+      "date": "2026-11-05",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048442,
+      "date": "2026-11-05",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048443,
+      "date": "2026-11-05",
+      "time": "18:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048444,
+      "date": "2026-11-05",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)"
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048445,
+      "date": "2026-11-05",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)"
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048446,
+      "date": "2026-11-05",
+      "time": "19:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)"
+        },
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048447,
+      "date": "2026-11-05",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048448,
+      "date": "2026-11-05",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048449,
+      "date": "2026-11-05",
+      "time": "20:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048450,
+      "date": "2026-11-05",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048451,
+      "date": "2026-11-05",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)"
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14048452,
+      "date": "2026-11-05",
+      "time": "21:30",
+      "courtName": "Court 8",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)"
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)"
+        }
+      ]
+    }
+  ],
   "tournaments": []
 }

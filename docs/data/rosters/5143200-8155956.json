@@ -1,0 +1,37 @@
+{
+  "programId": 5143200,
+  "teamId": 8155956,
+  "teamName": "10. Sandy Cheeks (Stephanie D.)",
+  "players": [
+    {
+      "userId": 58532689,
+      "firstName": "Timothy",
+      "isCaptain": false
+    },
+    {
+      "userId": 58558118,
+      "firstName": "Gabriela",
+      "isCaptain": false
+    },
+    {
+      "userId": 57645045,
+      "firstName": "Stephanie",
+      "isCaptain": true
+    },
+    {
+      "userId": 58529337,
+      "firstName": "Tilman",
+      "isCaptain": false
+    },
+    {
+      "userId": 58573685,
+      "firstName": "Annie",
+      "isCaptain": false
+    },
+    {
+      "userId": 58558190,
+      "firstName": "Adriana",
+      "isCaptain": false
+    }
+  ]
+}

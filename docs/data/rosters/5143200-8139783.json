@@ -1,0 +1,27 @@
+{
+  "programId": 5143200,
+  "teamId": 8139783,
+  "teamName": "5. HIT FACED (Clark P.)",
+  "players": [
+    {
+      "userId": 18837775,
+      "firstName": "Albert",
+      "isCaptain": false
+    },
+    {
+      "userId": 17312980,
+      "firstName": "Clark",
+      "isCaptain": true
+    },
+    {
+      "userId": 14647747,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 45873301,
+      "firstName": "SARAH",
+      "isCaptain": false
+    }
+  ]
+}

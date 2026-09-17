@@ -13,6 +13,12 @@
       "teamId": 8019399,
       "teamName": "6. Elaine L. and Tina O.",
       "isCaptain": false
+    },
+    {
+      "programId": 5143224,
+      "teamId": 8141319,
+      "teamName": "3. Elaine L. and Eric W.",
+      "isCaptain": true
     }
   ]
 }

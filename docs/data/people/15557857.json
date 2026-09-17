@@ -7,6 +7,12 @@
       "teamId": 8005774,
       "teamName": "2. Ali M. and Andrew B.",
       "isCaptain": false
+    },
+    {
+      "programId": 5143224,
+      "teamId": 8146294,
+      "teamName": "1. Ali M. and Andrew B.",
+      "isCaptain": true
     }
   ]
 }

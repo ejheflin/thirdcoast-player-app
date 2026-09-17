@@ -19,6 +19,12 @@
       "teamId": 8139578,
       "teamName": "12. Riley W. and Jacob W.",
       "isCaptain": false
+    },
+    {
+      "programId": 5143219,
+      "teamId": 8126546,
+      "teamName": "3. Kylee G. and Jacob W.",
+      "isCaptain": true
     }
   ]
 }
