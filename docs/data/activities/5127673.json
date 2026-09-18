@@ -182,6 +182,24 @@
       ]
     },
     {
+      "activityId": 13946775,
+      "date": "2026-09-09",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13946788,
       "date": "2026-09-16",
       "teams": [
@@ -304,6 +322,42 @@
           "teamName": "10. Nate G. and Zach B.",
           "result": "draw",
           "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946794,
+      "date": "2026-09-16",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946797,
+      "date": "2026-09-16",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8136903,
+          "teamName": "11. Zach P. and Luke S.",
+          "result": "loss",
+          "score": 0
         }
       ]
     }

@@ -206,6 +206,24 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
+    "teamId": 8135226,
+    "teamName": "9. Ivy C. and Dreco S."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
+    "teamId": 8146244,
+    "teamName": "5. Tina O. and Aatir A."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
+    "teamId": 8161236,
+    "teamName": "10. Delaney Z. and Dane R."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
     "teamId": 8124115,
     "teamName": "7. Tiffany S. and Carson S."
   },
@@ -224,12 +242,6 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8135226,
-    "teamName": "9. Ivy C. and Dreco S."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
     "teamId": 8136865,
     "teamName": "8. Sarah D. and Matt B."
   },
@@ -238,12 +250,6 @@
     "programName": "Thursday Coed 2s A",
     "teamId": 8137644,
     "teamName": "4. Taylor B. and Luigi H."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
-    "teamId": 8146244,
-    "teamName": "5. Tina O. and Aatir A."
   },
   {
     "programId": 5143219,
@@ -258,10 +264,22 @@
     "teamName": "2. Mili V. and Isa T."
   },
   {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
-    "teamId": 8161236,
-    "teamName": "10. Delaney Z. and Dane R."
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8141319,
+    "teamName": "3. Elaine L. and Eric W."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8142462,
+    "teamName": "7. Sarah U. and Kumar R."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8146294,
+    "teamName": "1. Ali M. and Andrew B."
   },
   {
     "programId": 5143224,
@@ -296,24 +314,6 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8141319,
-    "teamName": "3. Elaine L. and Eric W."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8142462,
-    "teamName": "7. Sarah U. and Kumar R."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8146294,
-    "teamName": "1. Ali M. and Andrew B."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
     "teamId": 8149530,
     "teamName": "8. Avery E. and Jon N."
   },
@@ -326,14 +326,26 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
+    "teamId": 8139038,
+    "teamName": "2. Ay Mi Madre (Daniel D.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
     "teamId": 8127097,
     "teamName": "1. Crab (Collin W.)"
   },
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8139038,
-    "teamName": "2. Ay Mi Madre (Daniel D.)"
+    "teamId": 8152314,
+    "teamName": "7. Patty 4 the People (Doug B.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8143230,
+    "teamName": "3. Charlies Angels (Jason O.)"
   },
   {
     "programId": 5143200,
@@ -346,18 +358,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8142664,
     "teamName": "4. FlyBallers ShotCallers (Albert F.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8143230,
-    "teamName": "3. Charlies Angels (Jason O.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8152314,
-    "teamName": "7. Patty 4 the People (Doug B.)"
   },
   {
     "programId": 5143200,
@@ -404,6 +404,12 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
+    "teamId": 8139578,
+    "teamName": "12. Riley W. and Jacob W."
+  },
+  {
+    "programId": 5127673,
+    "programName": "Wednesday Mens 2s AA",
     "teamId": 8139630,
     "teamName": "9. Dane R. and Carson S."
   },
@@ -428,8 +434,8 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
-    "teamId": 8139578,
-    "teamName": "12. Riley W. and Jacob W."
+    "teamId": 8106388,
+    "teamName": "1. Eric W. and Dan M."
   },
   {
     "programId": 5127673,
@@ -442,12 +448,6 @@
     "programName": "Wednesday Mens 2s AA",
     "teamId": 8138988,
     "teamName": "8. Scott S. and Chris H."
-  },
-  {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
-    "teamId": 8106388,
-    "teamName": "1. Eric W. and Dan M."
   },
   {
     "programId": 5127673,
