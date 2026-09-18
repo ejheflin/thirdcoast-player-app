@@ -90,6 +90,96 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048363,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048364,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048365,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048366,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048368,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
