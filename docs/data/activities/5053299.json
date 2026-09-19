@@ -1116,6 +1116,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13319389,
+      "date": "2026-09-14",
+      "teams": [
+        {
+          "teamId": 8022958,
+          "teamName": "3. Settin Pretty (Elizabeth A.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8030637,
+          "teamName": "7. Sandy Cheeks (Shayan E.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

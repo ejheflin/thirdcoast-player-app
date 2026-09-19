@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8149530,
+      "teamName": "8. Avery E. and Jon N.",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 0,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 4,
       "teamId": 8141319,
       "teamName": "3. Elaine L. and Eric W.",
       "gamesPlayed": 2,
@@ -33,7 +43,7 @@
       "points": 2
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8146294,
       "teamName": "1. Ali M. and Andrew B.",
       "gamesPlayed": 2,
@@ -43,7 +53,7 @@
       "points": 2
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8124126,
       "teamName": "6. Molly J. and Phil A.",
       "gamesPlayed": 2,
@@ -53,22 +63,12 @@
       "points": 2
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8142462,
       "teamName": "7. Sarah U. and Kumar R.",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
-      "ties": 1,
-      "points": 1
-    },
-    {
-      "position": 7,
-      "teamId": 8149530,
-      "teamName": "8. Avery E. and Jon N.",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 1,
       "points": 1
     },

@@ -144,6 +144,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048749,
+      "date": "2026-09-17",
+      "teams": [
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

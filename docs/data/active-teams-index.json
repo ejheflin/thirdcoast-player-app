@@ -278,6 +278,12 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
+    "teamId": 8149530,
+    "teamName": "8. Avery E. and Jon N."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
     "teamId": 8141319,
     "teamName": "3. Elaine L. and Eric W."
   },
@@ -298,12 +304,6 @@
     "programName": "Thursday Coed 2s AA",
     "teamId": 8142462,
     "teamName": "7. Sarah U. and Kumar R."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8149530,
-    "teamName": "8. Avery E. and Jon N."
   },
   {
     "programId": 5143224,
@@ -338,14 +338,20 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8127097,
-    "teamName": "1. Crab (Collin W.)"
+    "teamId": 8152547,
+    "teamName": "6. Injured Reserve! (Joe R.)"
   },
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
     "teamId": 8152314,
     "teamName": "7. Patty 4 the People (Doug B.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8127097,
+    "teamName": "1. Crab (Collin W.)"
   },
   {
     "programId": 5143200,
@@ -358,12 +364,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8139783,
     "teamName": "5. HIT FACED (Clark P.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8152547,
-    "teamName": "6. Injured Reserve! (Joe R.)"
   },
   {
     "programId": 5143200,

@@ -24,26 +24,36 @@
     },
     {
       "position": 3,
-      "teamId": 8127097,
-      "teamName": "1. Crab (Collin W.)",
-      "gamesPlayed": 1,
-      "wins": 1,
+      "teamId": 8152547,
+      "teamName": "6. Injured Reserve! (Joe R.)",
+      "gamesPlayed": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "points": 2
+      "points": 4
     },
     {
       "position": 4,
       "teamId": 8152314,
       "teamName": "7. Patty 4 the People (Doug B.)",
-      "gamesPlayed": 1,
-      "wins": 1,
+      "gamesPlayed": 2,
+      "wins": 2,
       "losses": 0,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 5,
+      "teamId": 8127097,
+      "teamName": "1. Crab (Collin W.)",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 1,
       "ties": 0,
       "points": 2
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8143230,
       "teamName": "3. Charlies Angels (Jason O.)",
       "gamesPlayed": 2,
@@ -53,22 +63,12 @@
       "points": 2
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8139783,
       "teamName": "5. HIT FACED (Clark P.)",
       "gamesPlayed": 2,
       "wins": 1,
       "losses": 1,
-      "ties": 0,
-      "points": 2
-    },
-    {
-      "position": 7,
-      "teamId": 8152547,
-      "teamName": "6. Injured Reserve! (Joe R.)",
-      "gamesPlayed": 1,
-      "wins": 1,
-      "losses": 0,
       "ties": 0,
       "points": 2
     },
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8157248,
       "teamName": "12. Weekend Warmups (Liz P.)",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 0
     }
