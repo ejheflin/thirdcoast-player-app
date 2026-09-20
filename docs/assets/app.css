@@ -5,7 +5,16 @@
    gallery. Mockup-only components that no page here uses have been
    dropped; what's left is only what the six pages actually render. */
 *{box-sizing:border-box}
-html,body{margin:0}
+/* overscroll-behavior:none kills the document's rubber-band gesture.
+   The document is not scrollable at all here -- .screen is position:fixed,
+   so the body element is literally 0px tall -- but iOS grants a
+   pull-to-refresh/bounce gesture to a non-scrollable document anyway, and
+   once WebKit binds a touch sequence to that scroller, the app's own
+   scrolling pane stops responding until the gesture and its momentum
+   settle. That was the "pull down and scrolling locks for a few seconds"
+   bug. Set on both html and body: the root's value is what propagates to
+   the viewport, and body is stated too so the intent is not implicit. */
+html,body{margin:0;overscroll-behavior:none}
 body{background:#101A2C}
 
 /* The page shell every page shares: a fixed-height column (topbar, one
@@ -89,7 +98,12 @@ body{background:#101A2C}
    permanently, unreachable no matter how far you scroll. Tracks
    env(safe-area-inset-bottom) because the island itself is offset
    by it. 88px = the island (~64) + its float off the bottom + breathing. */
-.body{flex:1;min-height:0;overflow-y:auto;padding:0 18px 22px}
+/* contain, not none: the pane keeps its own rubber-band feel at the top
+   and bottom of the feed, it just stops handing the gesture UP to the
+   document once it has no scroll left to consume. That chaining is
+   what locked scrolling entirely on the iOS PWA. */
+.body{flex:1;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;
+  padding:0 18px 22px}
 /* ...but ONLY on the pages that actually carry the island. search.html and
    index.html have a .body and no .tabbar, and a blanket rule left ~94px of
    dead space under the last search result. :has() keeps this a pure

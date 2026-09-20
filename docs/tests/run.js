@@ -693,6 +693,52 @@ await go('search.html');
     hasBar === null && pad < 40);
 }
 
+// ---- scroll containment -------------------------------------------------
+// Reported 2026-09-20: on the installed iOS PWA, pulling DOWN at the top of
+// the feed locked scrolling entirely for several seconds -- neither
+// direction worked until the screen was left alone.
+//
+// Measured cause: .body is the only real scroller, the document is NOT
+// scrollable (.screen is position:fixed, so the body element is literally
+// 0px tall), and overscroll-behavior-y was `auto` everywhere -- the default,
+// which ENABLES scroll chaining. At scrollTop 0 the pane has nothing left
+// to consume, so the pull-down chains out of it into the document. iOS
+// still grants a rubber-band gesture to a non-scrollable document, and once
+// WebKit binds the touch sequence to that scroller the pane stops
+// responding until the gesture and its momentum settle.
+//
+// These assertions cannot reproduce the iOS gesture binding -- no headless
+// browser can -- but they lock in the property that stops the chain, which
+// is the part that regressed silently for weeks.
+// Needs a page with a real feed: the preceding block leaves search.html
+// loaded, whose results pane is empty and therefore not scrollable at all.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+));
+await goHome();
+{
+  const s = await page.evaluate(() => {
+    const pane = document.querySelector('.body');
+    const de = document.documentElement;
+    return {
+      pane: getComputedStyle(pane).overscrollBehaviorY,
+      html: getComputedStyle(de).overscrollBehaviorY,
+      body: getComputedStyle(document.body).overscrollBehaviorY,
+      paneScrollable: pane.scrollHeight > pane.clientHeight + 1,
+      docScrollable: de.scrollHeight > de.clientHeight + 1,
+    };
+  });
+  check(`the scrolling pane does not chain its overscroll to the document, got ${s.pane}`,
+    s.pane === 'contain' || s.pane === 'none');
+  check(`the document itself refuses the rubber-band gesture (html), got ${s.html}`,
+    s.html === 'none');
+  check(`...and on body too, got ${s.body}`, s.body === 'none');
+  // Guard the fix does not accidentally kill the thing it protects.
+  check('the pane is still the real scroller and the document still is not',
+    s.paneScrollable && !s.docScrollable);
+}
+
 // ---- season rollover: index.html -> season.html --------------------------
 //
 // The bug these cover, seen live on 2026-09-19: a player's saved pointer is
