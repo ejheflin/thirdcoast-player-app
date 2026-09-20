@@ -568,6 +568,129 @@ check(
   );
 }
 
+// ---- season rollover: index.html -> season.html --------------------------
+//
+// The bug these cover, seen live on 2026-09-19: a player's saved pointer is
+// {programId, teamId}, scoped to ONE season's program. When that season
+// ended, NOTHING noticed -- the archiver keeps rewriting standings for
+// completed programs, so gamenight.html's stale-pointer branch (which needs
+// no standings row AND no archived game) could never fire, and the player
+// sat on "No game scheduled right now" permanently while their real new
+// season played out under a different program id.
+//
+// Fixture 9100 is that exact shape: a completed program that still has a
+// full standings file and real archived games, and no schedule file at all.
+
+// (h) The regression itself. Before the fix this landed on gamenight.html
+// and rendered last season's record forever.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9100, teamId: 901, teamName: '1. Old Name Squad', programName: 'Test Rollover League' }),
+));
+await goHome();
+check(
+  `a saved team whose season has ENDED routes to season.html, not a permanently empty game night, got ${path()}`,
+  path() === '/season.html',
+);
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('season.html names the league that ended', rendered.includes('Test Rollover League'));
+  // The whole point of voting the old roster into their current teams:
+  // 901 -> 951 is a RENAME, so no team-name comparison could have found it.
+  check(`season.html guesses the renamed successor team from the old roster's players, got ${JSON.stringify(rendered)}`,
+    rendered.includes('Totally Different Name'));
+  check('season.html poses the guess as a question rather than switching silently',
+    (await page.$eval('.cta', (el) => el.textContent.trim())) === "That's me");
+  // Until the player confirms, the pointer must not move -- a wrong guess
+  // written silently is invisible to them.
+  const stillOld = JSON.parse(await page.evaluate(() => localStorage.getItem('thirdcoast-my-team')));
+  check('season.html leaves the saved pointer alone until the player confirms',
+    stillOld.programId === 9100 && stillOld.teamId === 901);
+  check('season.html is not a dead end -- its Home tab is a live link',
+    await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')));
+}
+
+// ...and confirming actually rolls the pointer forward, into a screen that
+// shows the NEW season's next game. This is the end-to-end fix.
+{
+  const visited = [];
+  const record = (frame) => { if (frame === page.mainFrame()) visited.push(new URL(frame.url()).pathname); };
+  page.on('framenavigated', record);
+  await clickThrough('.cta');
+  await settleRouter();
+  page.off('framenavigated', record);
+  const now = JSON.parse(await page.evaluate(() => localStorage.getItem('thirdcoast-my-team')));
+  check(`"That's me" moves the saved pointer to the new season's program and team, got ${JSON.stringify(now)}`,
+    now.programId === 9101 && now.teamId === 951 && now.programName === 'Test Rollover League');
+  check(`...and goes back through the router, which lands on the new season's game night, got ${path()}`,
+    visited.includes('/index.html') && path() === '/gamenight.html?program=9101&team=951');
+  check('...and that game night really renders the new season match card', (await page.$$('.mgame')).length === 1);
+}
+
+// ...and a player who comes back again is NOT asked twice: their pointer
+// now names a live program, so the router leaves them alone.
+await goHome();
+check(`a rolled-over player goes straight to their game night on the next visit, got ${path()}`,
+  path() === '/gamenight.html?program=9101&team=951');
+
+// (i) Ambiguous: only one of a two-person team came back. One vote out of
+// two is not a majority, so the app must NOT guess -- it offers the new
+// season's teams instead. (This is the shape roughly a third of real teams
+// arrive in: half of a 2s pair returning with a new partner.)
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9100, teamId: 902, teamName: '2. Split Pair', programName: 'Test Rollover League' }),
+));
+await goHome();
+check(`an ambiguous rollover still routes to season.html, got ${path()}`, path() === '/season.html');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('season.html does not offer a guess it cannot stand behind', !(await page.$('.cta')));
+  check('season.html says plainly that it could not tell', rendered.includes("couldn't tell"));
+  const opts = await page.$$eval('#opts .result b', (els) => els.map((el) => el.textContent.trim()));
+  check(`season.html offers every team in the new season of the same league, got ${JSON.stringify(opts)}`,
+    JSON.stringify(opts) === JSON.stringify(['Totally Different Name', 'New Partners']));
+  await clickThrough('#opts .result:nth-child(2)');
+  await settleRouter();
+  const now = JSON.parse(await page.evaluate(() => localStorage.getItem('thirdcoast-my-team')));
+  check(`picking a team from the list rolls the pointer forward, got ${JSON.stringify(now)}`,
+    now.programId === 9101 && now.teamId === 952);
+}
+
+// (j) The new season is announced but has no teams posted yet -- a real,
+// weeks-long state (every new Tuesday/Monday program on 2026-09-19). It is
+// the reason this resolves against programs-index.json and not
+// active-teams-index.json, which cannot see such a program at all.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9200, teamId: 961, teamName: '1. Patient FC', programName: 'Test Waiting League' }),
+));
+await goHome();
+check(`a season whose successor has no teams yet still routes to season.html, got ${path()}`, path() === '/season.html');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('season.html tells the player the next season exists and is on the calendar',
+    rendered.includes('Test Waiting League') && rendered.includes('On the calendar'));
+  check('season.html promises to pick their team up once it is posted', rendered.includes('automatically'));
+  check('season.html still offers a way out to search',
+    await page.$eval('a.textlink', (el) => el.getAttribute('href') === 'search.html'));
+}
+
+// (k) Season over and no league of that name is running at all.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9300, teamId: 971, teamName: '1. Last Of Their Kind', programName: 'Test Defunct League' }),
+));
+await goHome();
+check(`a season with no successor league routes to season.html, got ${path()}`, path() === '/season.html');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('season.html is honest when there is no new season on the calendar',
+    rendered.includes('no new season') && !(await page.$('.cta')));
+  check('season.html still offers search as the way forward',
+    await page.$eval('a.textlink', (el) => el.getAttribute('href') === 'search.html'));
+}
+
 await page.evaluate(() => localStorage.clear());
 
 // ---- navigation: every page reachable using only in-app links -----------
@@ -665,22 +788,33 @@ let staleClicks = 0;
 const staleClick = async (selector) => { staleClicks++; await clickThrough(selector); };
 await go('');
 await settleRouter();
+// The destination moved to season.html with the rollover fix, and the
+// reason is worth stating: "your pointer names a program that is not
+// running" is ONE condition, whether that program finished last month or
+// never existed. Splitting it across two screens by how much archived data
+// happens to be left behind is what produced the original bug -- the
+// recovery lived on the branch that a finished season could never reach.
+// Every guarantee this block has always made is asserted below unchanged;
+// only the screen that makes them changed.
 check('a dead program with no schedule file still routes somewhere real, not a stuck router',
-  path() === '/gamenight.html?program=9999&team=8888');
-// Rendered text, not page.content(): the raw HTML includes gamenight.html's own
+  path() === '/season.html');
+// Rendered text, not page.content(): the raw HTML includes the page's own
 // inline <script> source, so a plain string.includes() against it can pass
 // purely because the source code MENTIONS these words, whether or not the
 // branch that renders them into #body ever actually ran.
 {
   const renderedStale = await page.$eval('#body', (el) => el.innerText);
-  check('a stale saved team is handled on the Home screen itself', renderedStale.includes('find this team'));
+  check('a stale saved team is told plainly that its league is not running',
+    renderedStale.includes('Dead League') && renderedStale.includes('no new season'));
   check(
-    'the Home screen offers the way out, not a "check back after the next archive run" dead end',
+    'the stale-team screen offers the way out, not a "check back after the next archive run" dead end',
     !renderedStale.includes('check back after the next archive run'),
   );
+  check('a pointer with nothing to roll forward to gets no guess and no confirm button',
+    !(await page.$('.cta')));
 }
 check(
-  'the Home screen clears the stale pointer itself, without a trip through team.html',
+  'the stale pointer is cleared on the spot, so the player is never re-asked every time they open the app',
   (await page.evaluate(() => localStorage.getItem('thirdcoast-my-team'))) === null,
 );
 await staleClick('a[href="search.html"]');

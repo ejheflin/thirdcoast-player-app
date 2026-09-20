@@ -80,6 +80,145 @@ function displayTeamName(rawName, { stripCaptain = false } = {}) {
 }
 
 // ---------------------------------------------------------------------
+// Season rollover.
+//
+// The saved-team pointer is {programId, teamId} -- scoped to ONE season's
+// program. LeagueApps starts a brand-new program for each new season, with
+// new team ids, so when a season ends that pointer silently goes dead.
+//
+// Nothing used to notice. gamenight.html's stale-pointer branch needs BOTH
+// no standings row AND no archived game, but archive/fetch.js writes
+// docs/data/standings/{programId}.json for EVERY program, active or not --
+// the isActive check comes after that write. So a finished season's
+// standings file lives on forever with a full row for the player's team,
+// that branch can never fire, and the player sits on "No game scheduled
+// right now" for the rest of time while their real new season plays out
+// under a different program id.
+//
+// programs-index.json (written every archive run) is the fix's foundation:
+// the authoritative list of LIVE/UPCOMING programs. Deliberately NOT
+// active-teams-index.json, which is derived from parsed standings rows and
+// is therefore empty for a season LeagueApps has announced but not yet
+// posted standings for -- a real, weeks-long window.
+
+let _programsIndex = null;
+async function fetchActivePrograms() {
+  if (_programsIndex === null) _programsIndex = (await fetchJSON('data/programs-index.json')) ?? [];
+  return _programsIndex;
+}
+
+// The successor LEAGUE, which is a far more reliable thing to find than
+// the successor TEAM: program names are stable verbatim across seasons
+// ("Thursday Coed 2s A" -> "Thursday Coed 2s A"), while team names are
+// captain-typed and routinely change ("Blake's Beaches" -> "Crab").
+// Latest endDate wins, because a league can legitimately have two active
+// programs at once -- the real live shape on 2026-09-19 was Monday Coed 2s
+// B running its playoffs (LIVE) while next season's Monday Coed 2s B was
+// already listed (UPCOMING).
+function successorLeague(programs, programName) {
+  const same = programs.filter((p) => p.programName === programName);
+  if (same.length === 0) return null;
+  return same.reduce((best, p) => ((p.endDate ?? 0) > (best.endDate ?? 0) ? p : best));
+}
+
+// The successor TEAM, by voting the old roster's players into whatever
+// active team they play on now. people/{userId}.json already carries
+// appearances across every program a person has ever been on -- it was
+// built to survive exactly this -- so no new archived data is needed.
+//
+// Voting beats name-matching by a wide margin. Replayed over the 66 real
+// teams in the four seasons that had just rolled over on 2026-09-19, it
+// followed renames that plain name comparison misses outright: "Blake's
+// Beaches" -> "Crab", "Nothing But Tape!!" -> "Injured Reserve!",
+// "Nathan G. and Zach B." -> "Nate G. and Zach B.".
+//
+// It is still only a guess -- about a third of real teams come back with
+// a partial roster (one half of a 2s pair returning with a new partner is
+// genuinely ambiguous, not a solvable matching problem) -- which is why
+// the caller CONFIRMS rather than switching silently.
+function rankSuccessorTeams(saved, programs, peopleRecords) {
+  // Keyed by String, like every other program-id comparison in this file:
+  // these ids cross a JSON boundary and a saved pointer can predate any
+  // given archiver version, so nothing here assumes they are numbers.
+  const byId = new Map(programs.map((p) => [String(p.programId), p]));
+  const tally = new Map();
+  for (const rec of peopleRecords) {
+    // One vote per PERSON per team, not per appearance: a person with two
+    // appearances on the same team must not outvote a teammate.
+    const seen = new Set();
+    for (const a of rec?.appearances ?? []) {
+      if (String(a.programId) === String(saved.programId)) continue;
+      const program = byId.get(String(a.programId));
+      if (!program) continue; // not an active program -- another dead season
+      const key = `${a.programId}|${a.teamId}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const entry = tally.get(key) ?? {
+        programId: a.programId,
+        teamId: a.teamId,
+        teamName: a.teamName,
+        programName: program.programName,
+        votes: 0,
+      };
+      entry.votes += 1;
+      tally.set(key, entry);
+    }
+  }
+  const sameLeague = (c) => (c.programName === saved.programName ? 1 : 0);
+  return [...tally.values()].sort((a, b) =>
+    b.votes - a.votes || sameLeague(b) - sameLeague(a));
+}
+
+// A guess is only offered when a MAJORITY of the old roster turned up on
+// the same team and no other team tied it. Below that bar the honest
+// answer is a picker, not a worse guess -- see the Tuesday case on
+// 2026-09-19, where the new season existed but had no rosters yet and
+// every "match" was one player who happened to also play on a Monday team.
+function isConfidentSuccessor(candidates, rosterSize) {
+  const [best, second] = candidates;
+  if (!best || rosterSize === 0) return false;
+  if (best.votes * 2 <= rosterSize) return false;
+  return !second || best.votes > second.votes;
+}
+
+// The one question every entry point asks: is this saved team still on a
+// season that is actually happening, and if not, what should we offer?
+//
+//   current  -- nothing to do, the saved season is live
+//   rolled   -- confident guess at their new team, pending confirmation
+//   pick     -- new season of the same league is running; pick a team
+//   waiting  -- new season exists but has no teams posted yet
+//   gone     -- season over, no successor league listed at all
+//   unknown  -- no programs index (an old deploy): never strand anyone
+async function resolveSeason(saved) {
+  const programs = await fetchActivePrograms();
+  if (programs.length === 0) return { status: 'unknown' };
+  if (programs.some((p) => String(p.programId) === String(saved.programId))) {
+    return { status: 'current' };
+  }
+
+  const league = successorLeague(programs, saved.programName);
+  const roster = await fetchJSON(`data/rosters/${encodeURIComponent(saved.programId)}-${encodeURIComponent(saved.teamId)}.json`);
+  const players = roster?.players ?? [];
+  const peopleRecords = await Promise.all(
+    players.map((p) => fetchJSON(`data/people/${encodeURIComponent(p.userId)}.json`)),
+  );
+  const candidates = rankSuccessorTeams(saved, programs, peopleRecords);
+
+  const teams = (await fetchJSON('data/active-teams-index.json')) ?? [];
+  const options = league
+    ? teams.filter((t) => String(t.programId) === String(league.programId))
+    : [];
+
+  if (isConfidentSuccessor(candidates, players.length)) {
+    return { status: 'rolled', suggestion: candidates[0], league, options };
+  }
+  if (options.length > 0) return { status: 'pick', league, options };
+  if (league) return { status: 'waiting', league };
+  return { status: 'gone' };
+}
+
+// ---------------------------------------------------------------------
 // Bottom-bar navigation, shared by every page.
 //
 // Every page's tab bar marks each tab with data-tab="home|ranks|schedule";
@@ -90,6 +229,7 @@ function displayTeamName(rawName, { stripCaptain = false } = {}) {
 // rather than silently doing nothing.
 //
 //   Home     -> index.html, which is a ROUTER, not a screen: it sends a
+//               player whose saved season has ended to season.html, a
 //               returning player on to gamenight.html (the next-game
 //               feed) or playoffs.html depending on what their program's
 //               schedule says is next, and everyone with no saved team

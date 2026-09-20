@@ -30,11 +30,12 @@
 </div>
 <script src="assets/app.js"></script>
 <script>
-// The three destinations:
+// The four destinations:
 //
 //   no saved team          -> search.html   (unchanged: search.html owns
 //                             the opposite direction and no longer
 //                             redirects a returning player away)
+//   saved season is over   -> season.html   (roll the player forward)
 //   playoff night next     -> playoffs.html
 //   anything else          -> gamenight.html
 //
@@ -95,6 +96,34 @@ async function route(saved) {
   const programId = saved.programId;
   const teamId = saved.teamId;
   const to = (page) => `${page}.html?program=${q(programId)}&team=${q(teamId)}`;
+
+  // Is the saved team even on a season that is still happening? This has
+  // to come FIRST, before any of the schedule reasoning below, because
+  // every input that reasoning uses survives the end of a season: the
+  // archiver keeps rewriting docs/data/standings/{programId}.json for
+  // completed programs, and schedule/{programId}.json simply stops being
+  // updated, leaving a permanently empty `games` list. So a dead pointer
+  // reads as a perfectly healthy program with nothing on tonight, and the
+  // player sits on "No game scheduled right now" forever while their real
+  // new season plays out under a different program id.
+  //
+  // Only the redirect is decided here; season.html owns everything about
+  // what to offer, for the same reason gamenight.html owns its own
+  // no-data states -- one screen per decision, so no recovery path ends
+  // up half-implemented in two places.
+  //
+  // A failure here must never strand anyone: resolveSeason returns
+  // 'unknown' when there is no programs index (a deploy older than that
+  // file), and a thrown fetch falls through to the normal route.
+  try {
+    const season = await resolveSeason(saved);
+    if (season.status !== 'current' && season.status !== 'unknown') {
+      location.replace('season.html');
+      return;
+    }
+  } catch (err) {
+    console.error('router: season check failed, staying on the saved team', err);
+  }
 
   // A schedule fetch that fails outright must not strand the player on a
   // permanent "Loading…" -- gamenight.html is the safe default, and it

@@ -1,0 +1,23 @@
+{
+  "programId": 9100,
+  "games": [
+    {
+      "activityId": 9601,
+      "date": "2026-08-20",
+      "teams": [
+        {
+          "teamId": 901,
+          "teamName": "1. Old Name Squad",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 902,
+          "teamName": "2. Split Pair",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

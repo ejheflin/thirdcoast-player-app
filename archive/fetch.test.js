@@ -181,3 +181,74 @@ test('runArchive writes byte-identical standings when nothing about the data cha
     JSON.stringify(second.get('docs/data/standings/1.json')),
   );
 });
+
+// --- season rollover -------------------------------------------------
+//
+// The site's saved-team pointer is {programId, teamId} -- scoped to ONE
+// season's program. Nothing could tell it that season had ended:
+// active-teams-index.json is built out of parsed standings rows, so a
+// brand-new UPCOMING program contributes zero entries until LeagueApps
+// posts its first standings table (verified live: on 2026-09-19 the whole
+// new Tuesday and Monday seasons were LIVE/UPCOMING with rows: 0, so they
+// were invisible to the site). programs-index.json is the signal that
+// does NOT depend on standings: every LIVE/UPCOMING program, the moment
+// LeagueApps lists it, which is what lets a player be rolled forward.
+test('runArchive writes programs-index.json: every active program, standings or not', async () => {
+  const writes = new Map();
+  await runArchive({
+    fetchPrograms: async () => [
+      { id: 1, name: 'Thursday Coed 2s A', state: 'COMPLETED', endDate: 1757000000000 },
+      { id: 2, name: 'Thursday Coed 2s A', state: 'LIVE', endDate: 1767000000000 },
+      // The real shape that active-teams-index.json cannot represent: a
+      // real, announced next season with no standings posted yet.
+      { id: 3, name: 'Tuesday Coed 4s B', state: 'UPCOMING', endDate: 1777000000000 },
+    ],
+    fetchActivities: async () => [],
+    fetchStandingsHTML: async () => '<standings>',
+    parseStandings: (html, id) => (id === 3 ? [] : [
+      { position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 },
+    ]),
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    fetchLocations: async () => [],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+
+  const programs = writes.get('docs/data/programs-index.json');
+  assert.ok(programs, 'every run writes a programs index');
+  assert.deepEqual(programs, [
+    { programId: 2, programName: 'Thursday Coed 2s A', state: 'LIVE', endDate: 1767000000000 },
+    { programId: 3, programName: 'Tuesday Coed 4s B', state: 'UPCOMING', endDate: 1777000000000 },
+  ]);
+  assert.equal(programs.some((p) => p.programId === 1), false,
+    'a completed season must not read as active -- that is exactly what pins a player to a dead season');
+
+  // The gap this file exists to close: program 3 is genuinely active but
+  // has no standings, so it appears in NEITHER the team index nor -- until
+  // now -- anywhere else the site could see it.
+  const teams = writes.get('docs/data/active-teams-index.json');
+  assert.equal(teams.some((t) => t.programId === 3), false);
+  assert.ok(programs.some((p) => p.programId === 3));
+});
+
+// endDate is what orders two seasons of the same league, and LeagueApps
+// does not always send it. Missing must be an explicit null, not an absent
+// key, for the same reason `tournaments: []` is: one shape per file.
+test('runArchive tolerates a program with no endDate', async () => {
+  const writes = new Map();
+  await runArchive({
+    fetchPrograms: async () => [{ id: 4, name: 'Pop Up League', state: 'LIVE' }],
+    fetchActivities: async () => [],
+    fetchStandingsHTML: async () => '<standings>',
+    parseStandings: () => [],
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    fetchLocations: async () => [],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+  assert.deepEqual(writes.get('docs/data/programs-index.json'), [
+    { programId: 4, programName: 'Pop Up League', state: 'LIVE', endDate: null },
+  ]);
+});

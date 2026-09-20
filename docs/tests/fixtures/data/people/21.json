@@ -1,0 +1,18 @@
+{
+  "userId": 21,
+  "firstName": "Nadia",
+  "appearances": [
+    {
+      "programId": 9100,
+      "teamId": 901,
+      "teamName": "1. Old Name Squad",
+      "isCaptain": true
+    },
+    {
+      "programId": 9101,
+      "teamId": 951,
+      "teamName": "1. Totally Different Name",
+      "isCaptain": true
+    }
+  ]
+}

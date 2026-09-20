@@ -1,0 +1,18 @@
+{
+  "userId": 23,
+  "firstName": "Petra",
+  "appearances": [
+    {
+      "programId": 9100,
+      "teamId": 902,
+      "teamName": "2. Split Pair",
+      "isCaptain": true
+    },
+    {
+      "programId": 9101,
+      "teamId": 952,
+      "teamName": "2. New Partners",
+      "isCaptain": true
+    }
+  ]
+}

@@ -47,6 +47,30 @@ export async function runArchive(deps) {
   const locations = await fetchLocations();
   const courtName = (subLocationId) => leagueapps.courtName(locations, subLocationId);
 
+  // The "which season is on right now" signal, and the ONLY one that does
+  // not depend on standings being posted. active-teams-index.json below is
+  // built out of parsed standings rows, so a brand-new UPCOMING program is
+  // invisible in it until LeagueApps posts that program's first standings
+  // table -- a real, weeks-long window (verified live on 2026-09-19: the
+  // entire new Tuesday and Monday seasons were LIVE/UPCOMING with zero
+  // standings rows). Without this file the site has no way to know a saved
+  // team's program has ended, so a returning player stays pinned to a dead
+  // season forever. Written first, and unconditionally, because every
+  // rollover decision the site makes starts here.
+  await writeJSON('docs/data/programs-index.json', activePrograms.map((p) => ({
+    programId: p.id,
+    programName: p.name,
+    // LIVE vs UPCOMING is the difference between "games are being played"
+    // and "the season is announced but hasn't started" -- the site says
+    // different things in each case, so it needs the distinction, not just
+    // membership in this list.
+    state: p.state,
+    // Explicitly null rather than absent when LeagueApps omits it, same
+    // rule as `tournaments: []`: one shape per file, so no consumer has to
+    // know that "missing" and "unknown" mean the same thing.
+    endDate: p.endDate ?? null,
+  })));
+
   const activeTeamsIndex = [];
 
   for (const program of programs) {

@@ -1,0 +1,17 @@
+{
+  "programId": 9100,
+  "teamId": 901,
+  "teamName": "1. Old Name Squad",
+  "players": [
+    {
+      "userId": 21,
+      "firstName": "Nadia",
+      "isCaptain": true
+    },
+    {
+      "userId": 22,
+      "firstName": "Omar",
+      "isCaptain": false
+    }
+  ]
+}

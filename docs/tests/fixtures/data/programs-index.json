@@ -1,0 +1,50 @@
+[
+  {
+    "programId": 9001,
+    "programName": "Test Tuesday League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9002,
+    "programName": "Winless Wednesday League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9003,
+    "programName": "Playoff Thursday League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9004,
+    "programName": "Mid Season League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9005,
+    "programName": "Bracketless Wednesday League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9010,
+    "programName": "Schedule Test League",
+    "state": "LIVE",
+    "endDate": 1767000000000
+  },
+  {
+    "programId": 9101,
+    "programName": "Test Rollover League",
+    "state": "LIVE",
+    "endDate": 1777000000000
+  },
+  {
+    "programId": 9201,
+    "programName": "Test Waiting League",
+    "state": "UPCOMING",
+    "endDate": 1787000000000
+  }
+]

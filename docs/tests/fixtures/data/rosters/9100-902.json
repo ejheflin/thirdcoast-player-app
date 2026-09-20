@@ -1,0 +1,17 @@
+{
+  "programId": 9100,
+  "teamId": 902,
+  "teamName": "2. Split Pair",
+  "players": [
+    {
+      "userId": 23,
+      "firstName": "Petra",
+      "isCaptain": true
+    },
+    {
+      "userId": 24,
+      "firstName": "Quinn",
+      "isCaptain": false
+    }
+  ]
+}

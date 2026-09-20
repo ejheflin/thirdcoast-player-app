@@ -1,0 +1,17 @@
+{
+  "programId": 9101,
+  "teamId": 952,
+  "teamName": "2. New Partners",
+  "players": [
+    {
+      "userId": 23,
+      "firstName": "Petra",
+      "isCaptain": true
+    },
+    {
+      "userId": 25,
+      "firstName": "Rosa",
+      "isCaptain": false
+    }
+  ]
+}

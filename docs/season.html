@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>New Season — Third Coast Intel</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="assets/icon-167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/icon-152.png">
+<link rel="icon" href="assets/favicon-32.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="3CVB">
+<meta name="theme-color" content="#101A2C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">New <em style="color:var(--app-win)">Season</em></div></div></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" data-tab="home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div>Home</div>
+    <div class="tab" data-tab="ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div>Ranks</div>
+    <div class="tab" data-tab="schedule"><div class="dot"><svg class="icon"><use href="#i-calendar"/></svg></div>Schedule</div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+// season.html -- the one screen that exists because a saved team is scoped
+// to ONE season's program, and LeagueApps starts a fresh program, with
+// fresh team ids, for every new season.
+//
+// index.html (the router) sends a player here the moment their saved
+// program stops appearing in programs-index.json. This page's whole job is
+// to get the pointer moved forward and then get out of the way: every
+// branch below ends either in setMyTeam() + back to the router, or in a
+// link to search.html. Nothing here is a dead end.
+//
+// It deliberately does NOT switch the pointer on its own. resolveSeason()'s
+// roster-vote guess is right for most teams but genuinely cannot be for all
+// of them -- half of a 2s pair coming back with a new partner is an
+// ambiguous fact about the world, not a matching bug -- and a wrong guess
+// made silently is invisible to the player, who would simply be shown
+// someone else's games. So a guess is always posed as a question.
+
+const saved = getMyTeam();
+if (!saved) {
+  location.replace('search.html');
+} else {
+  main(saved);
+}
+
+const bodyEl = () => document.getElementById('body');
+
+// Moving the pointer forward writes exactly the shape search.html writes,
+// so nothing downstream can tell a rolled-over pointer from a hand-picked
+// one.
+function adopt(team) {
+  setMyTeam({
+    programId: team.programId,
+    programName: team.programName,
+    teamId: team.teamId,
+    teamName: team.teamName,
+  });
+  // Back through the router rather than straight to a screen: it owns the
+  // game-night vs. playoff-night decision, and for a league that is already
+  // under way the answer may well be playoffs.
+  location.replace('index.html');
+}
+
+function teamButton(team, sub) {
+  const btn = document.createElement('button');
+  btn.className = 'result';
+  btn.innerHTML = '<b>' + escapeHTML(displayTeamName(team.teamName, { stripCaptain: true })) +
+    '</b><span>' + escapeHTML(sub) + '</span>';
+  btn.addEventListener('click', () => adopt(team));
+  return btn;
+}
+
+function searchLink(label) {
+  return '<p style="margin:18px 0 4px"><a class="textlink" href="search.html">' +
+    escapeHTML(label) + '</a></p>';
+}
+
+async function main(saved) {
+  // No tab is marked active: this is an interstitial, not one of the three
+  // tabs, and wireTabs gives the active tab a null onclick -- which on a
+  // screen whose entire purpose is to move the player somewhere else would
+  // be the exact navigation dead end playoffs.html already had to fix.
+  // Wired twice on purpose: once immediately so the bar is live during the
+  // resolve, then again once the successor league is known, so Ranks and
+  // Schedule point at the season the player is being moved INTO rather
+  // than the one that just ended.
+  wireTabs({ programId: saved.programId, teamId: saved.teamId });
+  document.getElementById('greet').textContent = saved.programName ?? '';
+
+  const outcome = await resolveSeason(saved);
+  if (outcome.league) wireTabs({ programId: outcome.league.programId });
+
+  // Nothing to roll over -- the saved season is live after all. Legitimate:
+  // the player opened a stale tab, or confirmed on another device. Straight
+  // back to the router, and it cannot loop, because the router only sends
+  // anyone here when the answer is NOT 'current'.
+  if (outcome.status === 'current' || outcome.status === 'unknown') {
+    location.replace('index.html');
+    return;
+  }
+
+  const oldName = displayTeamName(saved.teamName ?? 'your team', { stripCaptain: true });
+  const oldLeague = escapeHTML(saved.programName ?? 'Your league');
+
+  if (outcome.status === 'rolled') {
+    const s = outcome.suggestion;
+    bodyEl().innerHTML =
+      '<p style="color:var(--app-dim);font-size:13px;margin:2px 0 0">' + oldLeague +
+      ' wrapped up, and <b style="color:var(--app-ink)">' + escapeHTML(oldName) +
+      '</b> isn\'t playing in it any more.</p>' +
+      '<div class="sec-lbl">Looks like you\'re now on</div>' +
+      '<div class="card">' +
+      '<div class="season-team">' + escapeHTML(displayTeamName(s.teamName, { stripCaptain: true })) + '</div>' +
+      '<div class="season-sub">' + escapeHTML(s.programName) + '</div>' +
+      '</div>' +
+      '<button class="cta" id="confirm">That\'s me</button>' +
+      '<p style="margin:14px 0 4px"><a class="textlink" href="search.html" id="notMe">Not my team? Pick another →</a></p>';
+    document.getElementById('confirm').addEventListener('click', () => adopt(s));
+    // "Pick another" stays on this page when there IS a list to offer --
+    // dropping a player into a blank search box when their league is
+    // already known is a worse answer than showing them its ten teams.
+    // Its href is a real search.html link so it still works without JS and
+    // reads as a link, and the handler only intercepts when it can do
+    // better.
+    document.getElementById('notMe').addEventListener('click', (e) => {
+      if (outcome.options.length === 0) return;
+      e.preventDefault();
+      renderPicker(outcome, oldLeague, oldName);
+    });
+    return;
+  }
+
+  if (outcome.status === 'pick') {
+    renderPicker(outcome, oldLeague, oldName);
+    return;
+  }
+
+  // The new season is real and listed, but LeagueApps has not posted its
+  // teams yet. A genuine, weeks-long state rather than an error -- on
+  // 2026-09-19 every new Tuesday and Monday program was exactly here -- and
+  // the reason resolveSeason reads programs-index.json rather than
+  // active-teams-index.json, which cannot see these programs at all.
+  if (outcome.status === 'waiting') {
+    bodyEl().innerHTML =
+      '<p style="color:var(--app-dim);font-size:13px;margin:2px 0 0">' + oldLeague + ' wrapped up.</p>' +
+      '<div class="sec-lbl">Next season</div>' +
+      '<div class="card">' +
+      '<div class="season-team" style="font-size:20px">' + escapeHTML(outcome.league.programName) + '</div>' +
+      '<div class="season-sub">' +
+      (outcome.league.state === 'UPCOMING' ? 'On the calendar.' : 'Under way.') +
+      ' Teams and the schedule aren\'t posted yet — check back and we\'ll pick your team up automatically.</div>' +
+      '</div>' +
+      searchLink('Playing in a different league? Search →');
+    return;
+  }
+
+  // status === 'gone': the season ended and no league of that name is
+  // running. Say so plainly rather than leaving the player parked on an
+  // empty next-game feed, which is the exact bug this page exists to end.
+  //
+  // This is the ONLY branch that drops the pointer, and it has to: there
+  // is nothing to roll forward to and nothing to confirm, so keeping it
+  // would route the player back to this same screen on every single app
+  // open, forever. It also covers a pointer that was never valid in the
+  // first place (a program with no archived data at all), which is the
+  // stale-pointer cleanup gamenight.html used to own -- same contract,
+  // one click to search, now handled where the decision is actually made.
+  clearMyTeam();
+  bodyEl().innerHTML =
+    '<p style="color:var(--app-dim);font-size:13px;margin:2px 0 0">' + oldLeague +
+    ' wrapped up, and there\'s no new season of it on the calendar yet.</p>' +
+    '<p class="empty">Once it is posted — or if you have joined another league — search will find you.</p>' +
+    searchLink('Find my team →');
+}
+
+function renderPicker(outcome, oldLeague, oldName) {
+  bodyEl().innerHTML =
+    '<p style="color:var(--app-dim);font-size:13px;margin:2px 0 0">' + oldLeague +
+    ' wrapped up, and we couldn\'t tell for sure which team <b style="color:var(--app-ink)">' +
+    escapeHTML(oldName) + '</b> became.</p>' +
+    '<div class="sec-lbl">' + escapeHTML(outcome.league.programName) + ' — pick your team</div>' +
+    '<div id="opts"></div>' +
+    searchLink('Playing somewhere else? Search →');
+  const opts = document.getElementById('opts');
+  for (const team of outcome.options) {
+    opts.appendChild(teamButton(team, outcome.league.programName));
+  }
+}
+</script>
+</body>
+</html>

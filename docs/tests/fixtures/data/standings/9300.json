@@ -1,0 +1,16 @@
+{
+  "programId": 9300,
+  "programName": "Test Defunct League",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 971,
+      "teamName": "1. Last Of Their Kind",
+      "gamesPlayed": 8,
+      "wins": 1,
+      "losses": 7,
+      "ties": 0,
+      "points": 2
+    }
+  ]
+}

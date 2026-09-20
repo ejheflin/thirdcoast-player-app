@@ -475,3 +475,16 @@ body{background:#101A2C}
 .mgame .mroster .roster-row .ini{width:28px;height:28px;border-radius:8px;font-size:12px}
 .mgame .mroster .rmeta{display:flex;flex-direction:column;min-width:0;gap:2px}
 .mgame .mroster .roster-row .cap{font-size:10px}
+
+/* ── season.html ─────────────────────────────────────────────────────
+   The one primary action in the app: "That's me", which moves a
+   returning player's saved pointer into the new season. Sized and
+   coloured to be unmistakably the thing to tap, because every other
+   route off that screen is a deliberate correction. */
+.cta{display:block;width:100%;margin-top:14px;padding:15px;border:0;border-radius:12px;
+  background:var(--app-win);color:var(--app-on-fill);cursor:pointer;
+  font-family:"Barlow Condensed",system-ui,sans-serif;font-size:17px;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase}
+.cta:active{filter:brightness(.92)}
+.season-team{font-family:"Archivo Black",Impact,sans-serif;font-size:22px;line-height:1.15}
+.season-sub{color:var(--app-faint);font-size:12.5px;margin-top:6px}

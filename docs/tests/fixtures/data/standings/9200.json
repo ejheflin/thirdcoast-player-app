@@ -1,0 +1,16 @@
+{
+  "programId": 9200,
+  "programName": "Test Waiting League",
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 961,
+      "teamName": "1. Patient FC",
+      "gamesPlayed": 8,
+      "wins": 5,
+      "losses": 3,
+      "ties": 0,
+      "points": 10
+    }
+  ]
+}

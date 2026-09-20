@@ -1,0 +1,23 @@
+{
+  "programId": 9101,
+  "games": [
+    {
+      "activityId": 9701,
+      "date": "2026-09-10",
+      "teams": [
+        {
+          "teamId": 951,
+          "teamName": "1. Totally Different Name",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 952,
+          "teamName": "2. New Partners",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

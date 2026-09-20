@@ -1,0 +1,12 @@
+{
+  "userId": 24,
+  "firstName": "Quinn",
+  "appearances": [
+    {
+      "programId": 9100,
+      "teamId": 902,
+      "teamName": "2. Split Pair",
+      "isCaptain": false
+    }
+  ]
+}

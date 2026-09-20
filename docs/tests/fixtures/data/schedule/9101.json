@@ -1,0 +1,22 @@
+{
+  "programId": 9101,
+  "games": [
+    {
+      "activityId": 9702,
+      "date": "2099-05-06",
+      "time": "19:00",
+      "courtName": "Court 3",
+      "teams": [
+        {
+          "teamId": 951,
+          "teamName": "1. Totally Different Name"
+        },
+        {
+          "teamId": 952,
+          "teamName": "2. New Partners"
+        }
+      ]
+    }
+  ],
+  "tournaments": []
+}
