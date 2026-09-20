@@ -229,17 +229,32 @@ body{background:#101A2C}
                        edge, fainter along the bottom, plus the gradient
        shadow       -- the outer drop shadow that separates it from the
                        content sliding underneath. */
+  /* CLEAR glossy glass, not frosted. Those are opposite mixes and the
+     previous pass had them backwards: "frosted" is what a heavy blur
+     looks like, and "coloured" is what a big brightness lift does to a
+     navy backdrop. So blur drops 24 -> 9 and brightness 1.32 -> 1.10,
+     and the material's presence is carried by the SPECULAR layer
+     instead -- the gloss sheen across the top, the bright rim, and the
+     faint inner illumination. That is what reads as a polished lens
+     rather than a pane of etched glass.
+
+     Fill drops .10 -> .045: with this little blur the tint is doing
+     almost nothing but veiling, and veiling is the thing being removed. */
   background:
     linear-gradient(to bottom,
-      rgba(255,255,255,.20), rgba(255,255,255,.05) 45%, rgba(255,255,255,.11)),
-    rgba(255,255,255,.10);
-  -webkit-backdrop-filter:blur(24px) saturate(180%) brightness(1.32);
-  backdrop-filter:blur(24px) saturate(180%) brightness(1.32);
-  border:1px solid rgba(255,255,255,.24);
+      rgba(255,255,255,.30) 0%,
+      rgba(255,255,255,.11) 16%,
+      rgba(255,255,255,.015) 52%,
+      rgba(255,255,255,.09) 100%),
+    rgba(255,255,255,.045);
+  -webkit-backdrop-filter:blur(9px) saturate(200%) brightness(1.10);
+  backdrop-filter:blur(9px) saturate(200%) brightness(1.10);
+  border:1px solid rgba(255,255,255,.30);
   box-shadow:
-    0 12px 34px rgba(0,0,0,.42),
-    inset 0 1px 0 rgba(255,255,255,.45),
-    inset 0 -1px 0 rgba(255,255,255,.12);
+    0 14px 36px rgba(0,0,0,.40),
+    inset 0 1.5px 0 rgba(255,255,255,.62),
+    inset 0 -1px 0 rgba(255,255,255,.16),
+    inset 0 0 24px rgba(255,255,255,.05);
 }
 /* Real refraction -- the background visibly bending through the rim --
    needs an SVG feDisplacementMap fed into backdrop-filter, and Safari
@@ -260,7 +275,7 @@ body{background:#101A2C}
    its own backdrop and a faint slate glyph sat at nearly the same
    luminance as the pane behind it. flex:1 keeps each touch target a
    full third of the island wide even though the glyph is small. */
-.tab{flex:1;text-align:center;color:rgba(255,255,255,.70)}
+.tab{flex:1;text-align:center;color:rgba(255,255,255,.86)}
 .tab.on{color:var(--app-win)}
 /* was 36x36 -- the icon glyph itself (.icon, 23x23) is untouched, this
    only shrinks the invisible box AROUND it (36px box around a 23px icon
@@ -273,7 +288,12 @@ body{background:#101A2C}
 /* z-index keeps the glyph above the seams; 21px (from 23) buys the ring
    and the seam arcs room to read without growing the dot itself --
    the dot was deliberately cut 36->28 earlier and should stay there. */
-.tab .dot .icon{width:27px;height:27px;vertical-align:0;position:relative;z-index:1}
+/* The drop-shadow is not decoration: with the pane this clear, a glyph
+   can end up sitting over a bright magenta odds bar or a painted court
+   slab, and a flat white mark disappears into it. This is what keeps
+   the icons legible against whatever happens to scroll underneath. */
+.tab .dot .icon{width:27px;height:27px;vertical-align:0;position:relative;z-index:1;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
 /* The ball sits behind the glyph. It briefly had to enclose a text label
    too; with the labels gone it tightens back to a ring around the icon.
    Drawn as an inline SVG so the seams stay crisp at any diameter and need
