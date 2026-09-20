@@ -19,6 +19,12 @@
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5148510,
+      "teamId": 8160228,
+      "teamName": "4. 3 OGs and Bae (Johnny W.)",
+      "isCaptain": true
     }
   ]
 }

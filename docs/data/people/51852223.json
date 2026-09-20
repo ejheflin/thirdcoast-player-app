@@ -19,6 +19,12 @@
       "teamId": 8139038,
       "teamName": "2. Ay Mi Madre (Daniel D.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5148515,
+      "teamId": 8148907,
+      "teamName": "11. What Court Are We On (Bear S.)",
+      "isCaptain": true
     }
   ]
 }

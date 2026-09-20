@@ -1,0 +1,17 @@
+{
+  "programId": 5148518,
+  "teamId": 8167966,
+  "teamName": "10. Kat H. and Julia V.",
+  "players": [
+    {
+      "userId": 46560615,
+      "firstName": "Kat",
+      "isCaptain": true
+    },
+    {
+      "userId": 50025583,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 5148506,
+  "teamId": 8159639,
+  "teamName": "5. Vacacioners (Phil M.)",
+  "players": [
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": false
+    },
+    {
+      "userId": 57744675,
+      "firstName": "Delaney",
+      "isCaptain": false
+    }
+  ]
+}

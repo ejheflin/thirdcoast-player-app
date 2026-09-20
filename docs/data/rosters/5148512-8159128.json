@@ -1,0 +1,17 @@
+{
+  "programId": 5148512,
+  "teamId": 8159128,
+  "teamName": "6. Twin Peaks (Dan F.)",
+  "players": [
+    {
+      "userId": 14670136,
+      "firstName": "Traci",
+      "isCaptain": false
+    },
+    {
+      "userId": 14672407,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

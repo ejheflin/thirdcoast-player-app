@@ -1,0 +1,27 @@
+{
+  "programId": 5148510,
+  "teamId": 8146380,
+  "teamName": "9. Holy Balls (Jacob Y.)",
+  "players": [
+    {
+      "userId": 58469200,
+      "firstName": "Steven",
+      "isCaptain": false
+    },
+    {
+      "userId": 58476420,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 49869006,
+      "firstName": "Helen",
+      "isCaptain": false
+    },
+    {
+      "userId": 57727430,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

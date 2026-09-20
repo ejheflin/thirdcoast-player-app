@@ -7,6 +7,12 @@
       "teamId": 8028157,
       "teamName": "9. Juli T. and Lauren W.",
       "isCaptain": true
+    },
+    {
+      "programId": 5148518,
+      "teamId": 8161616,
+      "teamName": "5. Juliana T. and Lauren W.",
+      "isCaptain": false
     }
   ]
 }

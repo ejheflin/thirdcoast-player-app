@@ -1,0 +1,27 @@
+{
+  "programId": 5148515,
+  "teamId": 8159435,
+  "teamName": "10. 50/50 (Oscar G.)",
+  "players": [
+    {
+      "userId": 58551394,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 57812964,
+      "firstName": "Oscar",
+      "isCaptain": true
+    },
+    {
+      "userId": 58551386,
+      "firstName": "Cami",
+      "isCaptain": false
+    },
+    {
+      "userId": 54284882,
+      "firstName": "Dennis",
+      "isCaptain": false
+    }
+  ]
+}

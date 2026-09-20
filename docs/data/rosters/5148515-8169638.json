@@ -1,0 +1,27 @@
+{
+  "programId": 5148515,
+  "teamId": 8169638,
+  "teamName": "12. Bump Buddies (Mitch L.)",
+  "players": [
+    {
+      "userId": 51141663,
+      "firstName": "Inah",
+      "isCaptain": false
+    },
+    {
+      "userId": 51140157,
+      "firstName": "Mitch",
+      "isCaptain": true
+    },
+    {
+      "userId": 51139908,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 58611963,
+      "firstName": "Jason",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 5148510,
+  "teamId": 8148116,
+  "teamName": "5. Shank You Very Much (Jaimie M.)",
+  "players": [
+    {
+      "userId": 58492570,
+      "firstName": "Nikheel",
+      "isCaptain": false
+    },
+    {
+      "userId": 56679920,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 57699748,
+      "firstName": "Morgan",
+      "isCaptain": false
+    },
+    {
+      "userId": 56640764,
+      "firstName": "Matthew",
+      "isCaptain": false
+    }
+  ]
+}

@@ -25,6 +25,12 @@
       "teamId": 8149530,
       "teamName": "8. Avery E. and Jon N.",
       "isCaptain": true
+    },
+    {
+      "programId": 5148506,
+      "teamId": 8159639,
+      "teamName": "5. Vacacioners (Phil M.)",
+      "isCaptain": false
     }
   ]
 }

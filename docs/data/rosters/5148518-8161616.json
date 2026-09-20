@@ -1,0 +1,17 @@
+{
+  "programId": 5148518,
+  "teamId": 8161616,
+  "teamName": "5. Juliana T. and Lauren W.",
+  "players": [
+    {
+      "userId": 49397436,
+      "firstName": "Juliana",
+      "isCaptain": false
+    },
+    {
+      "userId": 49754764,
+      "firstName": "Lauren",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 5148512,
+  "teamId": 8154126,
+  "teamName": "7. Bongos (Joseph M.)",
+  "players": [
+    {
+      "userId": 52392326,
+      "firstName": "Joseph",
+      "isCaptain": true
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    },
+    {
+      "userId": 52168777,
+      "firstName": "Eliza",
+      "isCaptain": false
+    },
+    {
+      "userId": 48952483,
+      "firstName": "Luke",
+      "isCaptain": false
+    }
+  ]
+}

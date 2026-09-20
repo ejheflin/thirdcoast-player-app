@@ -1,0 +1,27 @@
+{
+  "programId": 5148515,
+  "teamId": 8167138,
+  "teamName": "3. Feeling Setsy (Corey M.)",
+  "players": [
+    {
+      "userId": 58596833,
+      "firstName": "Keegan",
+      "isCaptain": false
+    },
+    {
+      "userId": 58594223,
+      "firstName": "Amber",
+      "isCaptain": false
+    },
+    {
+      "userId": 58592062,
+      "firstName": "Corey",
+      "isCaptain": true
+    },
+    {
+      "userId": 58595399,
+      "firstName": "Nicholas",
+      "isCaptain": false
+    }
+  ]
+}

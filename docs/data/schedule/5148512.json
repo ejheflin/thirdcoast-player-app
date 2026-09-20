@@ -1,5 +1,1030 @@
 {
   "programId": 5148512,
-  "games": [],
+  "games": [
+    {
+      "activityId": 14077518,
+      "date": "2026-09-22",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077519,
+      "date": "2026-09-22",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077520,
+      "date": "2026-09-22",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077521,
+      "date": "2026-09-22",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077522,
+      "date": "2026-09-22",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077523,
+      "date": "2026-09-22",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077524,
+      "date": "2026-09-22",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077525,
+      "date": "2026-09-22",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077526,
+      "date": "2026-09-29",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077527,
+      "date": "2026-09-29",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077528,
+      "date": "2026-09-29",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077529,
+      "date": "2026-09-29",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077530,
+      "date": "2026-09-29",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077531,
+      "date": "2026-09-29",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077532,
+      "date": "2026-09-29",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077533,
+      "date": "2026-09-29",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077534,
+      "date": "2026-10-06",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077535,
+      "date": "2026-10-06",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077536,
+      "date": "2026-10-06",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077537,
+      "date": "2026-10-06",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077538,
+      "date": "2026-10-06",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077539,
+      "date": "2026-10-06",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077540,
+      "date": "2026-10-06",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077541,
+      "date": "2026-10-06",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077542,
+      "date": "2026-10-13",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077543,
+      "date": "2026-10-13",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077544,
+      "date": "2026-10-13",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077545,
+      "date": "2026-10-13",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077546,
+      "date": "2026-10-13",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077547,
+      "date": "2026-10-13",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077548,
+      "date": "2026-10-13",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077549,
+      "date": "2026-10-13",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077550,
+      "date": "2026-10-20",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077551,
+      "date": "2026-10-20",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077552,
+      "date": "2026-10-20",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077553,
+      "date": "2026-10-20",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077554,
+      "date": "2026-10-20",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077555,
+      "date": "2026-10-20",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077556,
+      "date": "2026-10-20",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077557,
+      "date": "2026-10-20",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077558,
+      "date": "2026-10-27",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077559,
+      "date": "2026-10-27",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077560,
+      "date": "2026-10-27",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077561,
+      "date": "2026-10-27",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077562,
+      "date": "2026-10-27",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077563,
+      "date": "2026-10-27",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077564,
+      "date": "2026-10-27",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077565,
+      "date": "2026-10-27",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077566,
+      "date": "2026-11-03",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077567,
+      "date": "2026-11-03",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077568,
+      "date": "2026-11-03",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077569,
+      "date": "2026-11-03",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077570,
+      "date": "2026-11-03",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077571,
+      "date": "2026-11-03",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077572,
+      "date": "2026-11-03",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077573,
+      "date": "2026-11-03",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077574,
+      "date": "2026-11-10",
+      "time": "18:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077575,
+      "date": "2026-11-10",
+      "time": "18:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077576,
+      "date": "2026-11-10",
+      "time": "19:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)"
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077577,
+      "date": "2026-11-10",
+      "time": "19:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)"
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077578,
+      "date": "2026-11-10",
+      "time": "20:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077579,
+      "date": "2026-11-10",
+      "time": "20:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077580,
+      "date": "2026-11-10",
+      "time": "21:30",
+      "courtName": "Court 4",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)"
+        },
+        {
+          "teamId": 8159110,
+          "teamName": "5. Watermelon (Lauren K.)"
+        }
+      ]
+    },
+    {
+      "activityId": 14077581,
+      "date": "2026-11-10",
+      "time": "21:30",
+      "courtName": "Court 5",
+      "teams": [
+        {
+          "teamId": 8163711,
+          "teamName": "3. Chocolate City (Samanda H.)"
+        },
+        {
+          "teamId": 8154126,
+          "teamName": "7. Bongos (Joseph M.)"
+        }
+      ]
+    }
+  ],
   "tournaments": []
 }

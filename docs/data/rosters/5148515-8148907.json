@@ -1,0 +1,17 @@
+{
+  "programId": 5148515,
+  "teamId": 8148907,
+  "teamName": "11. What Court Are We On (Bear S.)",
+  "players": [
+    {
+      "userId": 51852223,
+      "firstName": "Bear",
+      "isCaptain": true
+    },
+    {
+      "userId": 49305252,
+      "firstName": "Brittany",
+      "isCaptain": false
+    }
+  ]
+}

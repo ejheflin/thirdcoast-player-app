@@ -13,6 +13,12 @@
       "teamId": 8015924,
       "teamName": "1. Bongos (Bradley E.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5148512,
+      "teamId": 8154126,
+      "teamName": "7. Bongos (Joseph M.)",
+      "isCaptain": true
     }
   ]
 }

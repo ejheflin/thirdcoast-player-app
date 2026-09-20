@@ -1,0 +1,27 @@
+{
+  "programId": 5148515,
+  "teamId": 8155575,
+  "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+  "players": [
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": true
+    },
+    {
+      "userId": 53567732,
+      "firstName": "Jean-Andre",
+      "isCaptain": false
+    },
+    {
+      "userId": 55716045,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 58528101,
+      "firstName": "Zen",
+      "isCaptain": false
+    }
+  ]
+}

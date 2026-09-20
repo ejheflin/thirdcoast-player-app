@@ -7,6 +7,12 @@
       "teamId": 8037222,
       "teamName": "1. Unprotected Sets (Chase P.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5148515,
+      "teamId": 8147602,
+      "teamName": "8. Unprotected Sets (Catalina P.)",
+      "isCaptain": true
     }
   ]
 }

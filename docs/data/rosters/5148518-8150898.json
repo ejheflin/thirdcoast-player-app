@@ -1,0 +1,17 @@
+{
+  "programId": 5148518,
+  "teamId": 8150898,
+  "teamName": "2. Erika P. and Becca W.",
+  "players": [
+    {
+      "userId": 14668342,
+      "firstName": "Erika",
+      "isCaptain": true
+    },
+    {
+      "userId": 18883024,
+      "firstName": "Becca",
+      "isCaptain": false
+    }
+  ]
+}

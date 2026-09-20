@@ -1,0 +1,27 @@
+{
+  "programId": 5148515,
+  "teamId": 8147602,
+  "teamName": "8. Unprotected Sets (Catalina P.)",
+  "players": [
+    {
+      "userId": 54268790,
+      "firstName": "Hannah",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267814,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 54222067,
+      "firstName": "Catalina",
+      "isCaptain": true
+    },
+    {
+      "userId": 54267817,
+      "firstName": "Samuel",
+      "isCaptain": false
+    }
+  ]
+}

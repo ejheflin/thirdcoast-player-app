@@ -1,0 +1,22 @@
+{
+  "programId": 5148510,
+  "teamId": 8159903,
+  "teamName": "8. Gold Diggerz (JT N.)",
+  "players": [
+    {
+      "userId": 57850164,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 49008374,
+      "firstName": "JT",
+      "isCaptain": true
+    },
+    {
+      "userId": 58556586,
+      "firstName": "Paige",
+      "isCaptain": false
+    }
+  ]
+}

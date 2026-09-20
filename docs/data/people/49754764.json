@@ -19,6 +19,12 @@
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5148518,
+      "teamId": 8161616,
+      "teamName": "5. Juliana T. and Lauren W.",
+      "isCaptain": true
     }
   ]
 }
