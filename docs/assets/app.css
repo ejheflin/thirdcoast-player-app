@@ -27,22 +27,36 @@ body{background:#101A2C}
    muted eliminated-grey, not an alarm color), while a player's own W/L/T
    game log needs one that reads clearly at a glance. */
 /* Pinned to the real viewport edges with position:fixed rather than
-   sized off height:100%/100vh/100dvh -- 100dvh (tried first) was
-   supposed to track the true visible viewport in both a Safari tab
-   (collapsing address bar) and standalone PWA mode (OS status
-   bar/home indicator), but it still left a gap under the tab bar in
-   standalone mode on real hardware (confirmed via screenshot after a
-   full remove-and-re-add, ruling out a stale manifest/icon cache).
-   Percentage/viewport-UNIT heights all ultimately resolve off the
-   LAYOUT viewport's reported size, and that reporting has a history of
-   edge cases across iOS/WebKit versions, particularly in standalone
-   WKWebView. Fixed positioning's top/bottom instead ties directly to
-   the real rendered viewport bounds -- the older, more battle-tested
-   technique for exactly this class of iOS bug, and it sidesteps the
-   discrepancy entirely rather than depending on which viewport metric
-   a given iOS version gets right. left:50%+translateX keeps the
-   existing centre-on-desktop behavior without body needing to be a
-   flex container for it any more. */
+   sized off height:100%/100vh/100dvh. left:50%+translateX keeps the
+   centre-on-desktop behavior without body needing to be a flex
+   container for it.
+
+   History worth keeping, because it cost three wrong fixes: the tab bar
+   used to sit above the bottom of the screen in the installed PWA, with
+   a dark strip beneath it. Padding, then 100dvh, then this position:fixed
+   were each tried on the theory that some viewport-HEIGHT unit was
+   reporting wrong -- and each landed with zero visible change, which
+   should have been the tell.
+
+   The actual cause was measured off a device screenshot (iPhone 14/15
+   Pro, 1179x2556 @3x, installed): viewport 852pt, .screen bottom edge at
+   793pt, a 59.0pt strip of --app-bg below the tab bar. 59pt is exactly
+   safe-area-inset-top on that hardware, and the tab bar's own 91pt height
+   (10+28+4+14+1+34) proves safe-area-inset-BOTTOM was being applied
+   correctly all along. So insets were never broken -- the viewport height
+   used for bottom-anchoring was short by precisely the TOP inset.
+
+   That is the apple-mobile-web-app-status-bar-style:black-translucent
+   bug: iOS paints the web view from y=0, under the status bar, but sizes
+   the containing block as though the status bar were still reserved.
+   Every bottom-anchored technique resolves against that same wrong
+   number, which is why all three fixes failed identically -- they were
+   all on the wrong axis.
+
+   Fixed by dropping black-translucent for content="black" on every page,
+   which removes the buggy code path rather than compensating for it.
+   viewport-fit=cover STAYS: it is what keeps env(safe-area-inset-bottom)
+   non-zero so .tabbar's own padding still clears the home indicator. */
 .screen{
   position:fixed;top:0;bottom:0;left:50%;transform:translateX(-50%);
   max-width:480px;width:100%;overflow:hidden;

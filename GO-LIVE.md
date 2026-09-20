@@ -6,9 +6,15 @@ are pre-existing or newly-discovered, not caused by recent work.
 
 ---
 
-## 1. The floating tab bar — diagnosed, fix identified, NOT applied
+## 1. The floating tab bar — FIX APPLIED 2026-09-20, awaiting device check
 
-**Status:** root cause found 2026-09-20 from a real device screenshot
+**Status:** fix shipped (`black-translucent` → `black` on all nine pages).
+Not yet confirmed on hardware — Eric is verifying. If the strip is gone,
+delete this section and item 1b below. If it is *not* gone, the
+diagnosis was wrong and the next step is the on-device readout, not
+another CSS change.
+
+Root cause found 2026-09-20 from a real device screenshot
 (iPhone 14/15 Pro class, 1179×2556 @3x, installed PWA). Measured, not
 theorised:
 
@@ -32,17 +38,28 @@ that same wrong number — which is why three separate fixes
 (`padding`, `100dvh`, `position:fixed`) each landed with zero visible
 change. They were all on the wrong axis.
 
-**Fix:** change that meta to `content="black"` (or drop it) on all nine
-pages that carry it (every `.html` in `docs/`, `index.html` included —
-verified). iOS then reserves the status bar properly and the viewport matches
-the screen. Knock-on: `env(safe-area-inset-top)` becomes 0, so
-`.topbar`'s `padding-top:max(14px, env(safe-area-inset-top))` resolves to
-its original 14 px — still correct, since the OS now owns that strip.
+**Fix applied:** that meta is now `content="black"` on all nine pages
+(every `.html` in `docs/`, `index.html` included). iOS reserves the status
+bar properly and the viewport matches the screen. Knock-on:
+`env(safe-area-inset-top)` becomes 0, so `.topbar`'s
+`padding-top:max(14px, env(safe-area-inset-top))` resolves to its original
+14 px — still correct, since the OS now owns that strip.
+`viewport-fit=cover` was deliberately **kept**: it is what keeps
+`env(safe-area-inset-bottom)` non-zero so `.tabbar` still clears the home
+indicator.
 
-**Verify with:** the `?debug=1` readout, or five taps on the topbar in the
-installed app. Confirms if `innerHeight` reads **793** rather than 852.
+**Cosmetic knock-on to eyeball:** the status bar is now opaque `#000`
+against the app's `#101A2C`. A near-black seam, not a white one, but
+check whether it reads as intentional.
 
-**Also remove at the same time:** the debug overlay itself
+**If it did NOT work:** five taps on the topbar in the installed app.
+If `innerHeight` reads **793**, the diagnosis holds and the meta change
+was not enough. If it reads **852**, the diagnosis was wrong — start over
+from the readout rather than trying another CSS change.
+
+---
+
+## 1b. Remove the debug overlay before go-live
 (`wireDebugOverlay` / `debugReadout` / `showDebugOverlay` in
 `docs/assets/app.js`, plus the `DEBUG_TAPS_NEEDED` constants). It is
 explicitly temporary and must not ship long-term.
