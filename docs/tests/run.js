@@ -625,31 +625,57 @@ await goHome();
 }
 
 // ---- the active tab reads as a volleyball -------------------------------
-// The selected indicator is a circle with a lime ring and two seam arcs
-// (the ::before/::after ellipses, clipped by the dot's own overflow).
+// The ball is one circle behind the WHOLE active tab -- glyph and label
+// both -- drawn as an inline SVG on .tab.on::before. It used to be a 28px
+// disc behind the glyph alone; enclosing the label is the point of the
+// redesign, so that is what gets asserted rather than merely "a circle
+// exists".
 {
-  const dot = await page.evaluate(() => {
-    const on = document.querySelector('.tab.on .dot');
-    const off = document.querySelector('.tab:not(.on) .dot');
-    const cs = getComputedStyle(on);
-    const before = getComputedStyle(on, '::before');
-    const after = getComputedStyle(on, '::after');
-    const r = on.getBoundingClientRect();
+  const ball = await page.evaluate(() => {
+    const on = document.querySelector('.tab.on');
+    const cs = getComputedStyle(on, '::before');
+    const w = parseFloat(cs.width);
+    const h = parseFloat(cs.height);
+    const tab = on.getBoundingClientRect();
+    const dot = on.querySelector('.dot').getBoundingClientRect();
+    // The label is a bare text node, so it needs a Range to measure.
+    const labelOf = (el) => {
+      for (const n of el.childNodes) {
+        if (n.nodeType === 3 && n.textContent.trim()) {
+          const r = document.createRange();
+          r.selectNodeContents(n);
+          return r.getBoundingClientRect();
+        }
+      }
+      return null;
+    };
+    const label = labelOf(on);
+    // ::before is centred on the tab by left/top 50% + translate(-50%,-50%).
+    const cx = tab.left + tab.width / 2;
+    const cy = tab.top + tab.height / 2;
+    const box = { left: cx - w / 2, right: cx + w / 2, top: cy - h / 2, bottom: cy + h / 2 };
+    // The widest label decides whether the ball is big enough for EVERY
+    // tab, not just whichever one happens to be active on this page.
+    const widest = Math.max(...[...document.querySelectorAll('.tab')]
+      .map((t) => labelOf(t)?.width ?? 0));
     return {
-      circular: cs.borderRadius === '50%' || parseFloat(cs.borderRadius) >= r.width / 2,
-      square: Math.abs(r.width - r.height) < 0.5,
-      clipped: cs.overflow === 'hidden',
-      seamBefore: before.content === '""' || before.content === 'none' ? before.content : 'other',
-      seamAfter: after.content === '""' || after.content === 'none' ? after.content : 'other',
-      inactiveHasSeam: getComputedStyle(off, '::before').content,
+      w, h, content: cs.content,
+      square: Math.abs(w - h) < 0.5,
+      coversGlyphTop: dot.top >= box.top - 0.5,
+      coversLabelBottom: label ? label.bottom <= box.bottom + 0.5 : null,
+      widest: Math.round(widest),
+      inactive: getComputedStyle(document.querySelector('.tab:not(.on)'), '::before').content,
     };
   });
-  check('the active indicator is a circle, not a rounded square', dot.circular && dot.square);
-  check('the active indicator clips its seams to the circle', dot.clipped);
-  check(`the active indicator draws two seam arcs, got before=${dot.seamBefore} after=${dot.seamAfter}`,
-    dot.seamBefore === '""' && dot.seamAfter === '""');
-  check(`an inactive tab has no seams, got ${dot.inactiveHasSeam}`,
-    dot.inactiveHasSeam === 'none' || dot.inactiveHasSeam === '');
+
+  check(`the active tab draws a ball, got content ${ball.content}`, ball.content === '""');
+  check(`the ball is a circle, got ${ball.w}x${ball.h}`, ball.square && ball.w >= 50);
+  check(`the ball encloses the glyph (glyph top inside the ball)`, ball.coversGlyphTop);
+  check(`the ball encloses the text label too (label bottom inside the ball)`, ball.coversLabelBottom);
+  check(`the ball is wide enough for the widest tab label (${ball.widest}px), not just this one`,
+    ball.w >= ball.widest);
+  check(`an inactive tab draws no ball, got ${ball.inactive}`,
+    ball.inactive === 'none' || ball.inactive === '');
 }
 
 // ...and the clearance is scoped to pages that actually HAVE an island.

@@ -88,7 +88,7 @@ body{background:#101A2C}
    clearance the last row of every page would sit under the island
    permanently, unreachable no matter how far you scroll. Tracks
    env(safe-area-inset-bottom) because the island itself is offset
-   by it. 94px = the island (~68) + its 10px float + 16px breathing. */
+   by it. 94px = the island (~73) + its float off the bottom + breathing. */
 .body{flex:1;min-height:0;overflow-y:auto;padding:0 18px 22px}
 /* ...but ONLY on the pages that actually carry the island. search.html and
    index.html have a .body and no .tabbar, and a blanket rule left ~94px of
@@ -194,50 +194,61 @@ body{background:#101A2C}
    rounding, the side insets and the shadow are what distinguish them. */
 .tabbar{
   position:absolute;left:12px;right:12px;
-  bottom:calc(10px + env(safe-area-inset-bottom));
-  display:flex;padding:10px 8px;border-radius:24px;
-  background:rgba(26,38,60,.62);
-  -webkit-backdrop-filter:blur(20px) saturate(160%);
-  backdrop-filter:blur(20px) saturate(160%);
-  border:1px solid rgba(255,255,255,.10);
-  box-shadow:0 8px 28px rgba(0,0,0,.42);
+  /* Sits INSIDE the home-indicator inset rather than floating clear above
+     it: clearing the whole 34pt put the island visibly too high up the
+     screen. Minus 14 keeps the touch targets off the indicator itself
+     while dropping the island ~24pt. max() covers devices with no inset. */
+  bottom:max(8px, calc(env(safe-area-inset-bottom) - 14px));
+  display:flex;padding:13px 8px;border-radius:27px;
+  /* Genuinely translucent (34%, was 62%), leaning on blur and saturate
+     rather than opacity to stay legible. The gradient is the glass tell:
+     a light wash across the top edge falling off by 45%, which is what
+     makes a panel read as a lit pane rather than a flat scrim. The inset
+     top hairline is the same trick at 1px. */
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,.10), rgba(255,255,255,.02) 45%, rgba(255,255,255,0)),
+    rgba(26,38,60,.34);
+  -webkit-backdrop-filter:blur(30px) saturate(185%);
+  backdrop-filter:blur(30px) saturate(185%);
+  border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 10px 32px rgba(0,0,0,.44), inset 0 1px 0 rgba(255,255,255,.16);
 }
 /* Without blur support a 62%-opaque fill is not "glass", it is a washed
    out smear over whatever it happens to be covering. Go near-opaque. */
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
   .tabbar{background:rgba(26,38,60,.96)}
 }
+/* The tab is the positioning context for the ball behind it. */
+.tab{position:relative}
 .tab{flex:1;text-align:center;font-size:11.5px;color:var(--app-faint);font-weight:700}
 .tab.on{color:var(--app-win)}
 /* was 36x36 -- the icon glyph itself (.icon, 23x23) is untouched, this
    only shrinks the invisible box AROUND it (36px box around a 23px icon
    was 6.5px of empty space on every side, most of what was reading as
    "too tall" once .tabbar's own padding was already cut). */
-/* A circle now, not a rounded square, because the active state draws a
-   volleyball on it. overflow:hidden is load-bearing: it clips the two
-   seam ellipses below down to the face of the ball. */
-.tab .dot{position:relative;overflow:hidden;
-  width:28px;height:28px;border-radius:50%;margin:0 auto 4px;
+/* Just a centring box for the glyph now. The volleyball moved off the
+   dot and onto the tab itself, so that it can enclose the label too. */
+.tab .dot{position:relative;width:28px;height:28px;margin:0 auto 3px;
   display:grid;place-items:center}
 /* z-index keeps the glyph above the seams; 21px (from 23) buys the ring
    and the seam arcs room to read without growing the dot itself --
    the dot was deliberately cut 36->28 earlier and should stay there. */
 .tab .dot .icon{width:21px;height:21px;vertical-align:0;position:relative;z-index:1}
-.tab.on .dot{background:rgba(140,198,63,.16);
-  box-shadow:inset 0 0 0 1.5px rgba(140,198,63,.55)}
-/* The two seams. Each is a circle far larger than the dot, pushed out to
-   one side so only its near edge crosses the face -- bowing outward at
-   the middle and pulling back at top and bottom, which is the curve that
-   reads as a volleyball rather than as a plain ring. Kept near the left
-   and right edges on purpose so the tab's own glyph stays clean and
-   centred between them. */
-.tab.on .dot::before,
-.tab.on .dot::after{
-  content:"";position:absolute;top:-25%;height:150%;width:150%;
-  border-radius:50%;border:1.5px solid rgba(140,198,63,.5);
+/* The ball: ONE circle enclosing both the glyph and its label, rather
+   than a 28px disc tucked behind the glyph alone. Drawn as an inline SVG
+   so the seams stay crisp at any diameter and need no clipping tricks --
+   the previous version faked them with oversized ellipses plus
+   overflow:hidden, which could not survive the ball growing.
+
+   z-index:-1 puts it behind the tab's own content but still in front of
+   .tabbar's background: backdrop-filter makes .tabbar a stacking context,
+   which is what stops a negative index escaping the island entirely. */
+.tab.on::before{
+  content:"";position:absolute;left:50%;top:50%;
+  transform:translate(-50%,-50%);
+  width:54px;height:54px;z-index:-1;
+  background:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Ccircle%20cx='32'%20cy='32'%20r='30.4'%20fill='%238CC63F'%20fill-opacity='.13'%20stroke='%238CC63F'%20stroke-opacity='.42'%20stroke-width='1.4'/%3E%3Cpath%20d='M13.2%2010c10.5%2012.8%2010.5%2031.2%200%2044'%20fill='none'%20stroke='%238CC63F'%20stroke-opacity='.30'%20stroke-width='1.4'/%3E%3Cpath%20d='M50.8%2010c-10.5%2012.8-10.5%2031.2%200%2044'%20fill='none'%20stroke='%238CC63F'%20stroke-opacity='.30'%20stroke-width='1.4'/%3E%3C/svg%3E") center/contain no-repeat;
 }
-.tab.on .dot::before{left:-128%}
-.tab.on .dot::after{right:-128%}
 /* a tab whose destination doesn't exist in this context (no team saved
    yet, a team with no roster) is visibly inert rather than silently dead */
 .tab.off{opacity:.32}
