@@ -624,12 +624,34 @@ await goHome();
     box.lastChildBottom !== null && box.lastChildBottom <= box.tabbarTop);
 }
 
+// ---- the tab bar is icon-only ------------------------------------------
+// The visible labels were removed (2026-09-20). Two things have to hold:
+// the glyphs have to grow to carry the meaning on their own, and the tabs
+// must keep an ACCESSIBLE name -- these are plain divs with no role, so
+// stripping the text without aria-label would leave them unidentifiable.
+{
+  const tabs = await page.evaluate(() => [...document.querySelectorAll('.tabbar .tab')].map((t) => ({
+    name: t.dataset.tab,
+    visibleText: t.textContent.trim(),
+    aria: t.getAttribute('aria-label'),
+    title: t.getAttribute('title'),
+    iconW: Math.round(t.querySelector('.icon').getBoundingClientRect().width),
+    hitW: Math.round(t.getBoundingClientRect().width),
+  })));
+  check(`no tab renders visible label text, got ${JSON.stringify(tabs.map((t) => t.visibleText))}`,
+    tabs.every((t) => t.visibleText === ''));
+  check(`every tab keeps an accessible name, got ${JSON.stringify(tabs.map((t) => t.aria))}`,
+    tabs.length === 3 && tabs.every((t) => t.aria && t.aria.length > 0));
+  check('every tab keeps a hover title too', tabs.every((t) => t.title === t.aria));
+  check(`the glyphs grew to carry the meaning alone, got ${tabs[0].iconW}px`,
+    tabs.every((t) => t.iconW >= 25));
+  // Losing the label must not shrink what a thumb has to hit.
+  check(`each tab is still a full third of the island wide, got ${JSON.stringify(tabs.map((t) => t.hitW))}`,
+    tabs.every((t) => t.hitW > 80));
+}
+
 // ---- the active tab reads as a volleyball -------------------------------
-// The ball is one circle behind the WHOLE active tab -- glyph and label
-// both -- drawn as an inline SVG on .tab.on::before. It used to be a 28px
-// disc behind the glyph alone; enclosing the label is the point of the
-// redesign, so that is what gets asserted rather than merely "a circle
-// exists".
+// The ball is drawn as an inline SVG on .tab.on::before, behind the glyph.
 {
   const ball = await page.evaluate(() => {
     const on = document.querySelector('.tab.on');
@@ -637,43 +659,25 @@ await goHome();
     const w = parseFloat(cs.width);
     const h = parseFloat(cs.height);
     const tab = on.getBoundingClientRect();
-    const dot = on.querySelector('.dot').getBoundingClientRect();
-    // The label is a bare text node, so it needs a Range to measure.
-    const labelOf = (el) => {
-      for (const n of el.childNodes) {
-        if (n.nodeType === 3 && n.textContent.trim()) {
-          const r = document.createRange();
-          r.selectNodeContents(n);
-          return r.getBoundingClientRect();
-        }
-      }
-      return null;
-    };
-    const label = labelOf(on);
-    // ::before is centred on the tab by left/top 50% + translate(-50%,-50%).
+    const icon = on.querySelector('.icon').getBoundingClientRect();
     const cx = tab.left + tab.width / 2;
     const cy = tab.top + tab.height / 2;
     const box = { left: cx - w / 2, right: cx + w / 2, top: cy - h / 2, bottom: cy + h / 2 };
-    // The widest label decides whether the ball is big enough for EVERY
-    // tab, not just whichever one happens to be active on this page.
-    const widest = Math.max(...[...document.querySelectorAll('.tab')]
-      .map((t) => labelOf(t)?.width ?? 0));
     return {
       w, h, content: cs.content,
       square: Math.abs(w - h) < 0.5,
-      coversGlyphTop: dot.top >= box.top - 0.5,
-      coversLabelBottom: label ? label.bottom <= box.bottom + 0.5 : null,
-      widest: Math.round(widest),
+      // Encloses the glyph with visible ring showing on every side --
+      // a ball the same size as the glyph would just read as a border.
+      ringGap: Math.round(Math.min(icon.top - box.top, box.bottom - icon.bottom,
+        icon.left - box.left, box.right - icon.right)),
       inactive: getComputedStyle(document.querySelector('.tab:not(.on)'), '::before').content,
     };
   });
 
   check(`the active tab draws a ball, got content ${ball.content}`, ball.content === '""');
-  check(`the ball is a circle, got ${ball.w}x${ball.h}`, ball.square && ball.w >= 50);
-  check(`the ball encloses the glyph (glyph top inside the ball)`, ball.coversGlyphTop);
-  check(`the ball encloses the text label too (label bottom inside the ball)`, ball.coversLabelBottom);
-  check(`the ball is wide enough for the widest tab label (${ball.widest}px), not just this one`,
-    ball.w >= ball.widest);
+  check(`the ball is a circle, got ${ball.w}x${ball.h}`, ball.square && ball.w >= 40);
+  check(`the ball clears the glyph on every side, tightest gap ${ball.ringGap}px`,
+    ball.ringGap >= 4);
   check(`an inactive tab draws no ball, got ${ball.inactive}`,
     ball.inactive === 'none' || ball.inactive === '');
 }
