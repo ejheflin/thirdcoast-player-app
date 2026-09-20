@@ -269,18 +269,23 @@ document.addEventListener('DOMContentLoaded', injectIcons);
 // with zero visible change, which means the assumption behind all
 // three (a viewport-height calculation problem) is probably wrong.
 // Rather than guess a fourth CSS fix blind, this renders the actual
-// numbers on-device: ?debug=1 on any page shows a readout of every
-// viewport metric involved, plus .screen's and .tabbar's own measured
-// position, so a screenshot of THIS tells us what's really happening
-// instead of what CSS theory says should be happening. Remove once the
-// bug is actually found -- this is not meant to ship long-term.
-function showDebugOverlay() {
-  if (new URLSearchParams(location.search).get('debug') !== '1') return;
+// numbers on-device, so a screenshot of THIS tells us what is really
+// happening instead of what CSS theory says should be happening.
+// Remove once the bug is actually found -- not meant to ship long-term.
+//
+// Reachable two ways, and the second is the one that matters: the bug is
+// only reported in the INSTALLED app, which has no address bar, so
+// ?debug=1 cannot be typed in the one mode where the bug occurs. That is
+// very likely why this diagnostic has not yet produced an answer. Five
+// taps on the topbar opens it from inside the installed app.
+const DEBUG_TAPS_NEEDED = 5;
+const DEBUG_TAP_WINDOW_MS = 3000;
+
+function debugReadout() {
   const screenEl = document.querySelector('.screen');
   const tabbarEl = document.querySelector('.tabbar');
   const sr = screenEl?.getBoundingClientRect();
   const tr = tabbarEl?.getBoundingClientRect();
-  const cs = tabbarEl ? getComputedStyle(tabbarEl) : null;
   const probe = document.createElement('div');
   probe.style.cssText = 'position:fixed;visibility:hidden;padding-bottom:env(safe-area-inset-bottom);padding-top:env(safe-area-inset-top);';
   document.body.appendChild(probe);
@@ -288,24 +293,63 @@ function showDebugOverlay() {
   const safeBottom = probeStyle.paddingBottom;
   const safeTop = probeStyle.paddingTop;
   probe.remove();
-  const lines = [
-    `standalone: ${window.navigator.standalone}`,
+  const round = (n) => (typeof n === 'number' ? Math.round(n * 10) / 10 : n);
+  // The single number the whole investigation turns on: how much of the
+  // viewport sits BELOW the tab bar. Computed here rather than left as
+  // mental arithmetic off two other rows, because this is what a
+  // screenshot has to answer in one glance.
+  const gap = tr ? round(window.innerHeight - tr.bottom) : 'n/a';
+  return [
+    `GAP below .tabbar: ${gap}px   <-- the bug, in one number`,
+    '',
+    `navigator.standalone: ${window.navigator.standalone}`,
+    // The reliable standalone test: navigator.standalone is a non-standard
+    // Safari-ism and reads undefined for a manifest-driven install, which
+    // is how iOS 16.4+ installs this app.
+    `display-mode standalone: ${window.matchMedia('(display-mode: standalone)').matches}`,
     `innerHeight: ${window.innerHeight}`,
     `docEl.clientHeight: ${document.documentElement.clientHeight}`,
-    `visualViewport.height: ${window.visualViewport?.height}`,
-    `visualViewport.offsetTop: ${window.visualViewport?.offsetTop}`,
-    `screen.height (device): ${window.screen?.height}`,
+    `visualViewport.height: ${round(window.visualViewport?.height)}`,
+    `visualViewport.offsetTop: ${round(window.visualViewport?.offsetTop)}`,
+    `screen.height: ${window.screen?.height}  avail: ${window.screen?.availHeight}`,
     `devicePixelRatio: ${window.devicePixelRatio}`,
-    `.screen rect: top=${sr?.top} bottom=${sr?.bottom} height=${sr?.height}`,
-    `.tabbar rect: top=${tr?.top} bottom=${tr?.bottom} height=${tr?.height}`,
-    `.tabbar padding-bottom (computed): ${cs?.paddingBottom}`,
+    `.screen rect: top=${round(sr?.top)} bottom=${round(sr?.bottom)} h=${round(sr?.height)}`,
+    `.screen position: ${screenEl ? getComputedStyle(screenEl).position : 'n/a'}`,
+    `.tabbar rect: top=${round(tr?.top)} bottom=${round(tr?.bottom)} h=${round(tr?.height)}`,
+    `.tabbar pad-bottom: ${tabbarEl ? getComputedStyle(tabbarEl).paddingBottom : 'n/a'}`,
     `env(safe-area-inset-top): ${safeTop}`,
     `env(safe-area-inset-bottom): ${safeBottom}`,
-  ];
+    // Identifies what the dark strip actually IS. .tabbar is the lighter
+    // --app-surface and body/.screen are the darker --app-bg, so whichever
+    // colour the gap renders as names the element that is coming up short.
+    `body bg: ${getComputedStyle(document.body).backgroundColor}`,
+    `.screen bg: ${screenEl ? getComputedStyle(screenEl).backgroundColor : 'n/a'}`,
+    `.tabbar bg: ${tabbarEl ? getComputedStyle(tabbarEl).backgroundColor : 'n/a'}`,
+  ].join('\n');
+}
+
+function showDebugOverlay() {
+  if (document.getElementById('dbg-overlay')) return;
   const box = document.createElement('div');
+  box.id = 'dbg-overlay';
   box.style.cssText = 'position:fixed;left:0;right:0;top:0;z-index:99999;background:#000;color:#0f0;' +
-    'font:11px/1.5 monospace;padding:10px;white-space:pre-wrap;pointer-events:none;';
-  box.textContent = lines.join('\n');
+    'font:11px/1.5 monospace;padding:10px;white-space:pre-wrap;';
+  box.textContent = debugReadout() + '\n\n(tap to dismiss)';
+  box.addEventListener('click', () => box.remove());
   document.body.appendChild(box);
 }
-document.addEventListener('DOMContentLoaded', showDebugOverlay);
+
+function wireDebugOverlay() {
+  if (new URLSearchParams(location.search).get('debug') === '1') showDebugOverlay();
+  const topbar = document.querySelector('.topbar');
+  if (!topbar) return;
+  let taps = 0;
+  let first = 0;
+  topbar.addEventListener('click', () => {
+    const now = Date.now();
+    if (now - first > DEBUG_TAP_WINDOW_MS) { taps = 0; first = now; }
+    taps += 1;
+    if (taps >= DEBUG_TAPS_NEEDED) { taps = 0; showDebugOverlay(); }
+  });
+}
+document.addEventListener('DOMContentLoaded', wireDebugOverlay);

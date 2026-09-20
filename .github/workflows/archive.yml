@@ -2,7 +2,18 @@ name: Archive LeagueApps data
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    # Every 3 hours, not every 12. On 2026-09-19 LeagueApps published the
+    # whole Tuesday season's schedule at 18:08-18:17 UTC; the archiver had
+    # run at 15:23 and did not run again until 03:29, so for nine hours the
+    # site told Tuesday players their season was not posted yet -- at
+    # exactly the moment the app is most worth opening.
+    #
+    # Cheap to do: the commit step is already gated on `git diff --quiet`,
+    # so extra runs that find nothing new cost a few CI minutes and produce
+    # no commits at all. Note GitHub delays scheduled runs under load --
+    # observed consistently ~3h late on this repo -- so this buys a real
+    # reduction in the worst case, not a literal 3-hour guarantee.
+    - cron: '0 */3 * * *'
   workflow_dispatch: {}
 
 permissions:

@@ -157,9 +157,16 @@ async function main(saved) {
       '<div class="sec-lbl">Next season</div>' +
       '<div class="card">' +
       '<div class="season-team" style="font-size:20px">' + escapeHTML(outcome.league.programName) + '</div>' +
+      // Deliberately says "not in the archive yet", not "not posted yet".
+      // The site reads a snapshot the archiver refreshes periodically, so
+      // it cannot actually know what LeagueApps published five minutes
+      // ago -- and claiming otherwise is what made this screen wrong on
+      // 2026-09-19, when it told Tuesday players their season was not
+      // posted for nine hours after it went up.
       '<div class="season-sub">' +
       (outcome.league.state === 'UPCOMING' ? 'On the calendar.' : 'Under way.') +
-      ' Teams and the schedule aren\'t posted yet — check back and we\'ll pick your team up automatically.</div>' +
+      ' No teams or schedule in the archive yet — it refreshes every few hours, ' +
+      'and your team gets picked up automatically once it lands.</div>' +
       '</div>' +
       searchLink('Playing in a different league? Search →');
     return;
