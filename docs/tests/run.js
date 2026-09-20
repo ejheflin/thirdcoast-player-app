@@ -568,6 +568,101 @@ check(
   );
 }
 
+// ---- the nav is a floating glass island ---------------------------------
+// Design decision 2026-09-20: the bottom nav detaches from the screen edge
+// and floats as a rounded, blurred island with the body scrolling visibly
+// underneath it. Two things have to stay true for that to be an
+// improvement rather than a regression:
+//   * it must be inset on every side, so it reads as deliberately floating
+//     rather than as the safe-area bug that was fixed earlier the same day;
+//   * the body must reserve clearance for it, or the last row of every
+//     page sits permanently under the island and cannot be scrolled clear.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+));
+await goHome();
+{
+  const box = await page.evaluate(() => {
+    const screenEl = document.querySelector('.screen');
+    const tabbar = document.querySelector('.tabbar');
+    const body = document.querySelector('.body');
+    const cs = getComputedStyle(tabbar);
+    const sr = screenEl.getBoundingClientRect();
+    const tr = tabbar.getBoundingClientRect();
+    // Scroll to the very bottom: clearance only matters once a player has
+    // actually reached the end of the feed.
+    body.scrollTop = body.scrollHeight;
+    const last = body.lastElementChild;
+    return {
+      position: cs.position,
+      radius: parseFloat(cs.borderRadius),
+      hasBlur: (cs.backdropFilter || cs.webkitBackdropFilter || 'none') !== 'none',
+      insetLeft: Math.round(tr.left - sr.left),
+      insetRight: Math.round(sr.right - tr.right),
+      insetBottom: Math.round(sr.bottom - tr.bottom),
+      tabbarTop: Math.round(tr.top),
+      lastChildBottom: last ? Math.round(last.getBoundingClientRect().bottom) : null,
+      bodyPadBottom: parseFloat(getComputedStyle(body).paddingBottom),
+    };
+  });
+
+  check(`the nav island is absolutely positioned inside .screen, got ${box.position}`,
+    box.position === 'absolute');
+  check(`the nav island is inset from both sides (got left ${box.insetLeft}, right ${box.insetRight})`,
+    box.insetLeft > 0 && box.insetRight > 0);
+  check(`the nav island floats clear of the bottom edge, got ${box.insetBottom}px`,
+    box.insetBottom > 0);
+  check(`the nav island is fully rounded, got ${box.radius}px`, box.radius >= 16);
+  check('the nav island applies a backdrop blur', box.hasBlur);
+
+  // The regression this guards: with the island overlaying the body, a
+  // body that does not pad for it hides its own last row forever.
+  check(`the body reserves clearance for the island (padding-bottom ${box.bodyPadBottom}px)`,
+    box.bodyPadBottom >= 60);
+  check(`scrolled to the end, the last content clears the island (content bottom ${box.lastChildBottom} vs island top ${box.tabbarTop})`,
+    box.lastChildBottom !== null && box.lastChildBottom <= box.tabbarTop);
+}
+
+// ---- the active tab reads as a volleyball -------------------------------
+// The selected indicator is a circle with a lime ring and two seam arcs
+// (the ::before/::after ellipses, clipped by the dot's own overflow).
+{
+  const dot = await page.evaluate(() => {
+    const on = document.querySelector('.tab.on .dot');
+    const off = document.querySelector('.tab:not(.on) .dot');
+    const cs = getComputedStyle(on);
+    const before = getComputedStyle(on, '::before');
+    const after = getComputedStyle(on, '::after');
+    const r = on.getBoundingClientRect();
+    return {
+      circular: cs.borderRadius === '50%' || parseFloat(cs.borderRadius) >= r.width / 2,
+      square: Math.abs(r.width - r.height) < 0.5,
+      clipped: cs.overflow === 'hidden',
+      seamBefore: before.content === '""' || before.content === 'none' ? before.content : 'other',
+      seamAfter: after.content === '""' || after.content === 'none' ? after.content : 'other',
+      inactiveHasSeam: getComputedStyle(off, '::before').content,
+    };
+  });
+  check('the active indicator is a circle, not a rounded square', dot.circular && dot.square);
+  check('the active indicator clips its seams to the circle', dot.clipped);
+  check(`the active indicator draws two seam arcs, got before=${dot.seamBefore} after=${dot.seamAfter}`,
+    dot.seamBefore === '""' && dot.seamAfter === '""');
+  check(`an inactive tab has no seams, got ${dot.inactiveHasSeam}`,
+    dot.inactiveHasSeam === 'none' || dot.inactiveHasSeam === '');
+}
+
+// ...and the clearance is scoped to pages that actually HAVE an island.
+// search.html and index.html carry a .body and no .tabbar, so a blanket
+// padding-bottom left ~94px of dead space under the last search result.
+await go('search.html');
+{
+  const pad = await page.$eval('.body', (el) => parseFloat(getComputedStyle(el).paddingBottom));
+  const hasBar = await page.$('.tabbar');
+  check(`search.html has no nav island to clear, so reserves no clearance (padding-bottom ${pad}px)`,
+    hasBar === null && pad < 40);
+}
+
 // ---- season rollover: index.html -> season.html --------------------------
 //
 // The bug these cover, seen live on 2026-09-19: a player's saved pointer is

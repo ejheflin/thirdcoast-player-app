@@ -83,7 +83,18 @@ body{background:#101A2C}
 .topbar .greet{font-size:13px;color:var(--app-dim)}
 .topbar .brand{font-family:"Archivo Black",Impact,sans-serif;font-size:19px;letter-spacing:.01em}
 .topbar .brand em{font-style:normal;color:var(--app-accent)}
+/* padding-bottom, not a margin or a spacer element: the nav island
+   below is out of flow and OVERLAYS this pane, so without reserved
+   clearance the last row of every page would sit under the island
+   permanently, unreachable no matter how far you scroll. Tracks
+   env(safe-area-inset-bottom) because the island itself is offset
+   by it. 94px = the island (~68) + its 10px float + 16px breathing. */
 .body{flex:1;min-height:0;overflow-y:auto;padding:0 18px 22px}
+/* ...but ONLY on the pages that actually carry the island. search.html and
+   index.html have a .body and no .tabbar, and a blanket rule left ~94px of
+   dead space under the last search result. :has() keeps this a pure
+   stylesheet change -- no marker class threaded through nine pages. */
+.screen:has(.tabbar) .body{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
 .body::-webkit-scrollbar{display:none}
 .card{background:var(--app-surface);border:1px solid var(--app-line);border-radius:16px;padding:16px;margin-bottom:12px}
 .sec-lbl{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--app-faint);
@@ -166,16 +177,67 @@ body{background:#101A2C}
    max(10px, safe-area) instead of flat 10px -- 10px in an ordinary
    Safari tab (env() is 0 there), growing to actually clear the home
    indicator once there's no Safari chrome underneath it. */
-.tabbar{flex:none;display:flex;border-top:1px solid var(--app-line);padding:10px 8px max(10px, env(safe-area-inset-bottom));background:var(--app-surface)}
+/* The bottom nav is a floating glass island, not a bar welded to the
+   screen edge: inset on all four sides, fully rounded, with the body
+   scrolling visibly underneath it.
+
+   position:absolute, NOT fixed. .screen is the max-480px phone column and
+   is itself position:fixed, so it is the containing block; a fixed island
+   would stretch to the browser window on desktop and detach from the app
+   frame it belongs to.
+
+   The safe-area inset moves out of padding and into the bottom OFFSET.
+   A bar welded to the edge pads itself around the home indicator; a
+   detached island floats above it instead, which is the entire point of
+   detaching it. Note this is a DELIBERATE gap, unlike the accidental
+   59pt one fixed earlier the same day (see the .screen comment) -- the
+   rounding, the side insets and the shadow are what distinguish them. */
+.tabbar{
+  position:absolute;left:12px;right:12px;
+  bottom:calc(10px + env(safe-area-inset-bottom));
+  display:flex;padding:10px 8px;border-radius:24px;
+  background:rgba(26,38,60,.62);
+  -webkit-backdrop-filter:blur(20px) saturate(160%);
+  backdrop-filter:blur(20px) saturate(160%);
+  border:1px solid rgba(255,255,255,.10);
+  box-shadow:0 8px 28px rgba(0,0,0,.42);
+}
+/* Without blur support a 62%-opaque fill is not "glass", it is a washed
+   out smear over whatever it happens to be covering. Go near-opaque. */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .tabbar{background:rgba(26,38,60,.96)}
+}
 .tab{flex:1;text-align:center;font-size:11.5px;color:var(--app-faint);font-weight:700}
 .tab.on{color:var(--app-win)}
 /* was 36x36 -- the icon glyph itself (.icon, 23x23) is untouched, this
    only shrinks the invisible box AROUND it (36px box around a 23px icon
    was 6.5px of empty space on every side, most of what was reading as
    "too tall" once .tabbar's own padding was already cut). */
-.tab .dot{width:28px;height:28px;border-radius:8px;margin:0 auto 4px;display:grid;place-items:center}
-.tab .dot .icon{width:23px;height:23px;vertical-align:0}
-.tab.on .dot{background:rgba(140,198,63,.16)}
+/* A circle now, not a rounded square, because the active state draws a
+   volleyball on it. overflow:hidden is load-bearing: it clips the two
+   seam ellipses below down to the face of the ball. */
+.tab .dot{position:relative;overflow:hidden;
+  width:28px;height:28px;border-radius:50%;margin:0 auto 4px;
+  display:grid;place-items:center}
+/* z-index keeps the glyph above the seams; 21px (from 23) buys the ring
+   and the seam arcs room to read without growing the dot itself --
+   the dot was deliberately cut 36->28 earlier and should stay there. */
+.tab .dot .icon{width:21px;height:21px;vertical-align:0;position:relative;z-index:1}
+.tab.on .dot{background:rgba(140,198,63,.16);
+  box-shadow:inset 0 0 0 1.5px rgba(140,198,63,.55)}
+/* The two seams. Each is a circle far larger than the dot, pushed out to
+   one side so only its near edge crosses the face -- bowing outward at
+   the middle and pulling back at top and bottom, which is the curve that
+   reads as a volleyball rather than as a plain ring. Kept near the left
+   and right edges on purpose so the tab's own glyph stays clean and
+   centred between them. */
+.tab.on .dot::before,
+.tab.on .dot::after{
+  content:"";position:absolute;top:-25%;height:150%;width:150%;
+  border-radius:50%;border:1.5px solid rgba(140,198,63,.5);
+}
+.tab.on .dot::before{left:-128%}
+.tab.on .dot::after{right:-128%}
 /* a tab whose destination doesn't exist in this context (no team saved
    yet, a team with no roster) is visibly inert rather than silently dead */
 .tab.off{opacity:.32}
