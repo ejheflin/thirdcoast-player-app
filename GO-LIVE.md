@@ -6,67 +6,7 @@ are pre-existing or newly-discovered, not caused by recent work.
 
 ---
 
-## 1. The floating tab bar — FIX APPLIED 2026-09-20, awaiting device check
-
-**Status:** fix shipped (`black-translucent` → `black` on all nine pages).
-Not yet confirmed on hardware — Eric is verifying. If the strip is gone,
-delete this section and item 1b below. If it is *not* gone, the
-diagnosis was wrong and the next step is the on-device readout, not
-another CSS change.
-
-Root cause found 2026-09-20 from a real device screenshot
-(iPhone 14/15 Pro class, 1179×2556 @3x, installed PWA). Measured, not
-theorised:
-
-| | |
-|---|---|
-| viewport | 852 pt |
-| `.screen` bottom edge | **793 pt** — 59 pt short |
-| gap below the tab bar | **59.0 pt** of `--app-bg` (`#101A2C`) |
-| tab bar height | 91 pt = `10 + 28 + 4 + 14 + 1 + 34` |
-
-That 91 pt proves `env(safe-area-inset-bottom)` (34 pt) **is** being
-applied correctly, so safe-area insets are not broken. And 59 pt is
-exactly `safe-area-inset-top` on this device. The viewport height used
-for bottom-anchoring is short by precisely the top inset.
-
-**Cause:** `<meta name="apple-mobile-web-app-status-bar-style"
-content="black-translucent">`. iOS paints the web view from y=0 (under
-the status bar) but computes the containing block as though the status
-bar were still reserved. Every bottom-anchored technique resolves against
-that same wrong number — which is why three separate fixes
-(`padding`, `100dvh`, `position:fixed`) each landed with zero visible
-change. They were all on the wrong axis.
-
-**Fix applied:** that meta is now `content="black"` on all nine pages
-(every `.html` in `docs/`, `index.html` included). iOS reserves the status
-bar properly and the viewport matches the screen. Knock-on:
-`env(safe-area-inset-top)` becomes 0, so `.topbar`'s
-`padding-top:max(14px, env(safe-area-inset-top))` resolves to its original
-14 px — still correct, since the OS now owns that strip.
-`viewport-fit=cover` was deliberately **kept**: it is what keeps
-`env(safe-area-inset-bottom)` non-zero so `.tabbar` still clears the home
-indicator.
-
-**Cosmetic knock-on to eyeball:** the status bar is now opaque `#000`
-against the app's `#101A2C`. A near-black seam, not a white one, but
-check whether it reads as intentional.
-
-**If it did NOT work:** five taps on the topbar in the installed app.
-If `innerHeight` reads **793**, the diagnosis holds and the meta change
-was not enough. If it reads **852**, the diagnosis was wrong — start over
-from the readout rather than trying another CSS change.
-
----
-
-## 1b. Remove the debug overlay before go-live
-(`wireDebugOverlay` / `debugReadout` / `showDebugOverlay` in
-`docs/assets/app.js`, plus the `DEBUG_TAPS_NEEDED` constants). It is
-explicitly temporary and must not ship long-term.
-
----
-
-## 2. `playoffs.html` is a deliberate stub
+## 1. `playoffs.html` is a deliberate stub
 
 There is no live playoff-bracket pipeline. The page says so honestly and
 points at the venue's TV board.
@@ -80,7 +20,7 @@ active league is materially under-served.
 
 ---
 
-## 3. A new player cannot find a team in a just-announced league
+## 2. A new player cannot find a team in a just-announced league
 
 `search.html` reads only `active-teams-index.json`, which is built from
 parsed standings rows. A league that LeagueApps has announced but not yet
@@ -108,7 +48,7 @@ otherwise the real answer is just "wait for LeagueApps", which
 
 ---
 
-## 4. Archive freshness is bounded, not live
+## 3. Archive freshness is bounded, not live
 
 Cadence is every 3 hours (raised from 12 on 2026-09-20 after a real
 nine-hour gap where the site told Tuesday players their season was not
@@ -123,7 +63,7 @@ field.
 
 ---
 
-## 5. Cross-season rollover is a confirmed guess, by design
+## 4. Cross-season rollover is a confirmed guess, by design
 
 `season.html` asks rather than switching silently. Replayed over the 66
 real teams that rolled over on 2026-09-19: 33 confident, 20 ambiguous, 13
