@@ -232,7 +232,7 @@ body{background:#101A2C}
   /* CLEAR glossy glass, not frosted. Those are opposite mixes and the
      previous pass had them backwards: "frosted" is what a heavy blur
      looks like, and "coloured" is what a big brightness lift does to a
-     navy backdrop. So blur drops 24 -> 9 and brightness 1.32 -> 1.10,
+     navy backdrop. So blur drops 24 -> 4 and brightness 1.32 -> 1.10,
      and the material's presence is carried by the SPECULAR layer
      instead -- the gloss sheen across the top, the bright rim, and the
      faint inner illumination. That is what reads as a polished lens
@@ -247,8 +247,8 @@ body{background:#101A2C}
       rgba(255,255,255,.015) 52%,
       rgba(255,255,255,.09) 100%),
     rgba(255,255,255,.045);
-  -webkit-backdrop-filter:blur(9px) saturate(200%) brightness(1.10);
-  backdrop-filter:blur(9px) saturate(200%) brightness(1.10);
+  -webkit-backdrop-filter:blur(4px) saturate(200%) brightness(1.10);
+  backdrop-filter:blur(4px) saturate(200%) brightness(1.10);
   border:1px solid rgba(255,255,255,.30);
   box-shadow:
     0 14px 36px rgba(0,0,0,.40),
