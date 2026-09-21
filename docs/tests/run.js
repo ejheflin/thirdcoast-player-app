@@ -767,7 +767,7 @@ await new Promise((r) => setTimeout(r, 400));
 
   // The whole reason this is a MAP: the board's physical arrangement.
   check(`the floor keeps the venue's real banks, got ${JSON.stringify(floor.cols.map((c) => c.label))}`,
-    JSON.stringify(floor.cols.map((c) => c.label)) === JSON.stringify(['North', 'Centre', 'South']));
+    JSON.stringify(floor.cols.map((c) => c.label)) === JSON.stringify(['North', 'Center', 'South']));
   check(`north bank is 8-12, got ${floor.cols[0].courts.join(',')}`,
     floor.cols[0].courts.join(',') === '8,9,10,11,12');
   check(`centre is 6-7, got ${floor.cols[1].courts.join(',')}`,

@@ -37,7 +37,7 @@
 // A port of the broadcast board's courtmap (thirdcoast_brackets
 // prototype/courtmap.html) down to a phone. The board's own arrangement
 // is kept because it is the whole point of a court MAP -- north bank
-// 8-12 down the left, 6-7 in the centre, south bank 1-5 down the right,
+// 8-12 down the left, 6-7 in the center, south bank 1-5 down the right,
 // so the screen matches what you are standing in. What could not come
 // with it is the full matchup on every card: the board has 1920px to
 // spend and this has ~108px per column, which is the same truncation
@@ -267,10 +267,10 @@ function render() {
   document.getElementById('body').innerHTML = `
     <div class="floor">
       <div class="bankcol"><div class="bank-label">North</div><div class="bank">${bank(LAYOUT.left)}</div></div>
-      <div class="bankcol"><div class="bank-label">Centre</div><div class="bank mid">${bank(LAYOUT.middle)}</div></div>
+      <div class="bankcol"><div class="bank-label">Center</div><div class="bank mid">${bank(LAYOUT.middle)}</div></div>
       <div class="bankcol"><div class="bank-label">South</div><div class="bank">${bank(LAYOUT.right)}</div></div>
     </div>
-    <div id="detail"></div>`;
+    <div id="detail" class="court-detail-host"></div>`;
 
   for (const el of document.querySelectorAll('.court-card')) {
     el.addEventListener('click', () => {
