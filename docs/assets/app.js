@@ -270,3 +270,279 @@ function wireTabs({ active, programId, teamId } = {}) {
 }
 
 document.addEventListener('DOMContentLoaded', injectIcons);
+
+// ---------------------------------------------------------------------
+// The match card, shared by gamenight.html and court.html.
+//
+// Moved out of gamenight.html when court.html needed the same card for
+// any match on the floor. Copying it would have meant duplicating ~150
+// lines and every future fix to it; app.js is already loaded by every
+// page, so it is the one place two pages can share code without a build
+// step. The helpers below came with it unchanged.
+// ---------------------------------------------------------------------
+
+// The venue's real painted courts, copied verbatim from the broadcast
+// board's own paint table (the brackets repo's prototype/board-data.js).
+// "The pink court" is what players actually say out loud, which is the
+// whole argument for colour-coding -- and the whole reason the match card
+// carries the paint and not just a number. `faint` marks the three under
+// 3:1 against this ground -- black, maroon, dark green -- which get a
+// sand ring rather than reading as a notch cut out of the card. Do not
+// edit these by eye: the board's prototype/check-contrast.mjs is what
+// asserts the flags, so these values have to stay identical to it.
+const COURT = {
+  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
+  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
+  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
+  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
+  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
+  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
+  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
+  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
+  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
+  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
+  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
+  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
+};
+
+// setDiffFor/ratingFor copied verbatim from the now-retired matchup.html
+// (also duplicated in the now-retired odds.html) -- this project's
+// established convention, since there's no build step to share a module
+// across pages.
+function setDiffFor(teamId, games) {
+  return games.reduce((sum, g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const opp = g.teams.find((t) => t.teamId !== teamId);
+    if (!me || !opp) return sum;
+    return sum + (me.score - opp.score);
+  }, 0);
+}
+
+// Only ever called for a team that has actually played: with gamesPlayed
+// 0 both terms divide by zero and every number downstream becomes NaN.
+function ratingFor(row, games) {
+  const winRate = (row.wins + 0.5 * row.ties) / row.gamesPlayed;
+  const setDiffPerGame = setDiffFor(row.teamId, games) / row.gamesPlayed;
+  return winRate + setDiffPerGame * 0.05;
+}
+
+// Splits 100% between two ratings. A rating can legitimately be negative
+// (a winless team with a negative average set differential), and a plain
+// ratingA/(ratingA+ratingB) breaks on that: dividing by a negative sum
+// INVERTS which team reads as the favorite, and a sum of exactly zero
+// yields NaN that Math.max/Math.min can't clamp away. Shifting both
+// ratings up by the same constant until neither is negative fixes it
+// without touching the gap between them -- the relative ordering and the
+// size of the difference, which are what should drive the split, are
+// preserved exactly. Kept identical to the now-retired matchup.html's copy.
+function splitPct(ratingA, ratingB) {
+  const minRating = Math.min(ratingA, ratingB);
+  const shift = minRating <= 0 ? -minRating + 0.01 : 0;
+  const a = ratingA + shift;
+  const b = ratingB + shift;
+  let pctA = Math.round((a / (a + b)) * 100);
+  pctA = Math.max(1, Math.min(99, pctA));
+  return { pctA, pctB: 100 - pctA };
+}
+
+// The court number the paint table is keyed by, out of the schedule's
+// human court name ("Court 12"). Returns null for anything unnumbered so
+// the caller can fall back rather than paint a card off COURT[NaN].
+function courtNumberOf(courtName) {
+  const m = /(\d+)/.exec(String(courtName ?? ''));
+  return m ? Number(m[1]) : null;
+}
+
+// "HH:MM" 24-hour, as archive/schedule.js writes it, cut down to what
+// fits in the card's corner tag: "6:30p", and "7p" on the hour.
+function shortTime(time) {
+  const [hh, mm] = String(time).split(':').map(Number);
+  if (!Number.isFinite(hh) || !Number.isFinite(mm)) return '';
+  const suffix = hh >= 12 ? 'p' : 'a';
+  const h12 = ((hh + 11) % 12) + 1;
+  return mm === 0 ? `${h12}${suffix}` : `${h12}:${String(mm).padStart(2, '0')}${suffix}`;
+}
+
+// The corner tag's text. The board's own tag already showed a bare start
+// time for an upcoming game; this extends it with the day, because a
+// player looking at their phone on Sunday needs to tell Tuesday from
+// tonight. "YYYY-MM-DD" is parsed as local calendar fields, not handed to
+// `new Date(str)` -- that parses as UTC midnight and can print the wrong
+// weekday/day depending on the viewer's timezone.
+function whenBadge(dateISO, time) {
+  const [y, m, d] = String(dateISO).split('-').map(Number);
+  const game = new Date(y, m - 1, d);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.round((game - today) / 86400000);
+  let day;
+  if (days === 0) day = 'Today';
+  else if (days > 0 && days < 7) day = game.toLocaleDateString(undefined, { weekday: 'short' });
+  else day = game.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  const t = time ? shortTime(time) : '';
+  return t ? `${day} ${t}` : day;
+}
+
+// One roster row, close kin to team.html's own markup (first names only,
+// captain flagged, each row a drill-down) but laid out as a 2-column grid
+// (Eric: "make the roster font larger and split it into 2 columns") rather
+// than team.html's single stacked column -- this function is only ever
+// called from THIS file's match card, so restructuring its markup can't
+// touch team.html's own, separately-generated roster rows at all.
+// The name+captain-tag pair is wrapped in its own .rmeta column: at half
+// this card's width, "avatar + name + CAPTAIN badge" no longer fits on
+// one line the way it did full-width, so the badge now sits on its own
+// line under the name instead of clipping or wrapping mid-badge.
+function rosterRowsHTML(roster) {
+  const players = roster?.players ?? [];
+  if (players.length === 0) {
+    return '<p style="color:var(--app-faint);font-size:12px;margin:8px 2px">No roster archived for this team yet.</p>';
+  }
+  return `<div class="rgrid">${players.map((p) => `
+    <a class="row-link" href="player.html?person=${encodeURIComponent(p.userId)}">
+      <div class="roster-row">
+        <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
+        <div class="rmeta">
+          <div class="who">${escapeHTML(p.firstName)}</div>
+          ${p.isCaptain ? '<div class="cap">Captain</div>' : ''}
+        </div>
+      </div>
+    </a>`).join('')}</div>`;
+}
+
+// Head-to-head history between THIS team and THIS opponent specifically --
+// not each team's separate overall season form (that was the wrong read of
+// the ask; Eric wants "for A vs B matches, one row of history", i.e. only
+// games these two exact teams have played against EACH OTHER). Same filter
+// the now-retired matchup.html used to find previous meetings (it was
+// ~line 115 there: both team ids present on the same game), reused
+// verbatim,
+// but here it also needs the actual result sequence rather than just
+// met.length. Rendered from `teamId`'s (my team's) perspective, same
+// result field/letter mapping as team.html's own formDots and the same
+// win/loss/tie dot colors -- not the pink/blue "which team" identity
+// colors used elsewhere on this card, since there's only one shared row
+// now, not one per team. `games` (the full season list) is already
+// chronological -- see the archive-order note elsewhere in this file --
+// so no re-sort is needed before capping the tail.
+function headToHeadHTML(teamId, oppId, games, cap) {
+  if (oppId == null) return '<span class="empty">Not yet met this season.</span>';
+  const met = games.filter((g) =>
+    g.teams.some((t) => t.teamId === teamId) && g.teams.some((t) => t.teamId === oppId));
+  if (met.length === 0) return '<span class="empty">Not yet met this season.</span>';
+  const dots = met.slice(-cap).map((g) => {
+    const me = g.teams.find((t) => t.teamId === teamId);
+    const letter = me.result === 'win' ? 'W' : me.result === 'loss' ? 'L' : 'D';
+    return `<i class="${letter}"></i>`;
+  }).join('');
+  return `<span class="fdots">${dots}</span>`;
+}
+
+// One match, rendered as the broadcast board's court card: the painted
+// slab, both teams with their records, the head-to-head strip, the odds
+// split and a roster.
+//
+// It lives here rather than inside gamenight.html because court.html now
+// shows the same card for any match on the floor, and ~150 lines of it is
+// far too much to copy. Every page already loads app.js, so this is the
+// one place two pages can genuinely share code with no build step -- the
+// same reason displayTeamName and wireTabs live here.
+//
+// focusTeamId is what lets one function serve both callers:
+//
+//   gamenight.html passes the saved team. That team takes the TOP slot
+//   regardless of the data's own order, and the roster shown is the
+//   OPPONENT's -- a player looking at their own game wants to see who
+//   they are about to face, not their own team-mates.
+//
+//   court.html passes it only when the saved team happens to be on the
+//   court that was tapped, and null otherwise. A neutral matchup keeps
+//   the data's order and shows BOTH rosters, because with no "you" in
+//   the match there is no "opponent" either.
+function matchCardHTML({ game, programId, standings, games, focusTeamId = null, rosters = {} }) {
+  const all = game.teams ?? [];
+  const focusIdx = focusTeamId == null ? -1
+    : all.findIndex((t) => String(t.teamId) === String(focusTeamId));
+  const ordered = focusIdx > 0
+    ? [all[focusIdx], ...all.filter((_, i) => i !== focusIdx)]
+    : all;
+  const top = ordered[0] ?? null;
+  const bottom = ordered[1] ?? null;
+
+  const rowOf = (t) => (t ? standings?.rows?.find((r) => r.teamId === t.teamId) ?? null : null);
+  const topRow = rowOf(top);
+  const botRow = rowOf(bottom);
+  const nameOf = (t, row) => row?.teamName ?? t?.teamName ?? 'TBD';
+  const recOf = (row) => (row ? `${row.wins}-${row.losses}-${row.ties}` : '');
+
+  const courtNum = courtNumberOf(game.courtName);
+  const paint = courtNum === null ? null : COURT[courtNum];
+  // A court the paint table doesn't know still gets a card: an unpainted
+  // slab is a far smaller failure than dropping the game off the page.
+  const ct = paint ? paint.hex : 'var(--app-raised)';
+  const ctInk = paint ? paint.ink : 'var(--app-ink)';
+  const slabText = courtNum === null ? '—' : String(courtNum);
+  const paintName = paint ? paint.name : (game.courtName ? String(game.courtName) : 'court TBD');
+
+  const topRating = topRow && topRow.gamesPlayed > 0 ? ratingFor(topRow, games) : null;
+  const botRating = botRow && botRow.gamesPlayed > 0 ? ratingFor(botRow, games) : null;
+
+  // A round-robin season rarely puts the same two teams on court more than
+  // a small handful of times, so 12 (team.html's own cap) is more headroom
+  // than this row will realistically ever need.
+  const H2H_CAP = 12;
+  const form = `
+    <div class="mform">
+      <span class="flbl">Previous matches</span>
+      ${headToHeadHTML(top?.teamId, bottom?.teamId, games, H2H_CAP)}
+    </div>`;
+
+  let odds;
+  if (topRating === null || botRating === null) {
+    odds = '<div class="h2h-meta">Not enough games played yet for a prediction.</div>';
+  } else {
+    const { pctA, pctB } = splitPct(topRating, botRating);
+    odds = `
+      <div class="probbar"><div class="a" style="flex:${pctA}">${pctA}%</div><div class="b" style="flex:${pctB}">${pctB}%</div></div>
+      <div class="h2h-meta">Model: season win-rate + set differential per game.</div>`;
+  }
+
+  const teamLink = (t, row) => {
+    const label = escapeHTML(displayTeamName(nameOf(t, row), { stripCaptain: true }));
+    if (!t) return `<span class="tname">${label}</span>`;
+    return `<a class="tname" href="team.html?team=${encodeURIComponent(t.teamId)}&program=${encodeURIComponent(programId)}">${label}</a>`;
+  };
+
+  // With a focus team there is exactly one "other" roster and it is
+  // labelled as such; without one, both are shown under their own names,
+  // since neither side is the opponent.
+  const rosterBlock = (t, row, label) => `
+      <div class="mroster">
+        <div class="rlbl">${escapeHTML(label)}</div>
+        ${rosterRowsHTML(rosters[t?.teamId] ?? null)}
+      </div>`;
+  const rosterHTML = focusIdx >= 0
+    ? (bottom ? rosterBlock(bottom, botRow, 'Opponent roster') : '')
+    : [
+      top ? rosterBlock(top, topRow, displayTeamName(nameOf(top, topRow), { stripCaptain: true })) : '',
+      bottom ? rosterBlock(bottom, botRow, displayTeamName(nameOf(bottom, botRow), { stripCaptain: true })) : '',
+    ].join('');
+
+  return `
+    <div class="mgame" style="--ct:${ct};--ct-ink:${ctInk}">
+      <div class="mcard${paint?.faint ? ' faint' : ''}">
+        <div class="slab" data-paint="${escapeHTML(paintName)}"><span class="cnum">${escapeHTML(slabText)}</span></div>
+        <div class="mbody">
+          <div class="teams">
+            <div class="side a">${teamLink(top, topRow)}${recOf(topRow) ? `<span class="capn">${recOf(topRow)}</span>` : ''}</div>
+            <div class="rule"><span class="vs">vs</span></div>
+            <div class="side b">${teamLink(bottom, botRow)}${recOf(botRow) ? `<span class="capn">${recOf(botRow)}</span>` : ''}</div>
+          </div>
+        </div>
+        <span class="statetag">${escapeHTML(whenBadge(game.date, game.time))}</span>
+      </div>
+      ${form}
+      <div class="modds">${odds}</div>
+      ${rosterHTML}
+    </div>`;
+}

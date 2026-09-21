@@ -49,27 +49,10 @@
 // program by the archiver (docs/data/courts/{date}.json), because a real
 // Tuesday is five leagues sharing one floor.
 
-// The venue's real painted courts. Same table as gamenight.html's, which
-// is itself copied verbatim from the board's paint chart -- there is no
-// build step to share a module, which is this project's convention.
-// NOTE: the board marks court 9 (purple) `faint` and this does not. That
-// is not a drift: `faint` means "under 3:1 against the ground", and the
-// board's ground is teal while this app's is navy. Both are correct for
-// their own background; do not "fix" one to match the other.
-const COURT = {
-  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
-  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
-  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
-  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
-  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
-  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
-  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
-  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
-  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
-  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
-  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
-  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
-};
+// COURT (the venue's paint table) and the match card itself both live in
+// app.js now -- court.html shows the same card gamenight.html does, and a
+// second `const COURT` here would be a duplicate declaration that kills
+// this whole script.
 
 // The real floor, straight from the board's own LAYOUT constant.
 const LAYOUT = { left: [8, 9, 10, 11, 12], middle: [6, 7], right: [1, 2, 3, 4, 5] };
@@ -194,34 +177,82 @@ function courtCardHTML(num, entry, mine) {
   if (paint?.faint) cls.push('faint');
   if (mine) cls.push('mine');
   if (openCourt === num) cls.push('sel');
+  const saved = getMyTeam();
+  // The same shape as the big card: painted slab on the left, the two
+  // teams stacked beside it. At ~86px of text width the names clamp to
+  // two lines rather than truncating to nothing -- the captain
+  // parenthetical is stripped first, which buys most of the room back.
+  const body = entry
+    ? entry.teams.map((t) => {
+      const isMine = saved && String(t.teamId) === String(saved.teamId);
+      return `<span class="ctname${isMine ? ' mine' : ''}">${escapeHTML(displayTeamName(t.teamName, { stripCaptain: true }))}</span>`;
+    }).join('<span class="cvs">v</span>')
+    : '<span class="ctopen">Open</span>';
   return `
     <button class="${cls.join(' ')}" style="${style}" data-court="${num}"
             aria-label="Court ${num}${entry ? ', ' + escapeHTML(shortLeague(entry.programName)) : ', open'}">
-      <span class="cnum">${num}</span>
-      <span class="clg">${entry ? escapeHTML(shortLeague(entry.programName)) : 'Open'}</span>
+      <span class="cslab">${num}</span>
+      <span class="cteams">${body}</span>
     </button>`;
 }
 
-function detailHTML(num, entry) {
-  const paint = COURT[num];
-  if (!entry) {
-    return `<div class="court-detail"><div class="cd-head">
-      <span class="cd-chip" style="--ct:${paint ? paint.hex : 'var(--app-raised)'};--ct-ink:${paint ? paint.ink : 'var(--app-ink)'}">${num}</span>
-      <span>${escapeHTML(paint ? paint.name : 'court ' + num)}</span></div>
-      <p class="cd-open">Nothing scheduled on this court in this slot.</p></div>`;
+// Tapping a court opens the same card the Home screen shows for your own
+// game -- odds, head-to-head, rosters and all. That needs the program's
+// standings and archived games, which the floor data deliberately does
+// not carry (it would multiply every night file by the size of a season),
+// so they are fetched on demand and cached per program.
+const _cache = new Map();
+function cachedJSON(path) {
+  if (!_cache.has(path)) _cache.set(path, fetchJSON(path).catch(() => null));
+  return _cache.get(path);
+}
+
+async function renderDetail() {
+  const host = document.getElementById('detail');
+  if (!host) return;
+  const entry = courtsThisSlot().get(openCourt);
+  if (openCourt === null) {
+    host.innerHTML = '<p class="cd-hint">Tap a court for the full match card.</p>';
+    return;
   }
+  if (!entry) {
+    host.innerHTML = `<div class="court-detail"><p class="cd-open">Nothing scheduled on court ${openCourt} in this slot.</p></div>`;
+    return;
+  }
+  host.innerHTML = '<p class="cd-hint">Loading…</p>';
+
+  // Remember which court this render is for: taps can outrun fetches, and
+  // a slow earlier one landing last would show the wrong court's card.
+  const want = openCourt;
+  const [standings, activities, ...rosterList] = await Promise.all([
+    cachedJSON(`data/standings/${entry.programId}.json`),
+    cachedJSON(`data/activities/${entry.programId}.json`),
+    ...entry.teams.map((t) => cachedJSON(`data/rosters/${encodeURIComponent(entry.programId)}-${encodeURIComponent(t.teamId)}.json`)),
+  ]);
+  if (openCourt !== want) return;
+
+  const rosters = {};
+  entry.teams.forEach((t, i) => { if (rosterList[i]) rosters[t.teamId] = rosterList[i]; });
+
+  // Focus the saved team only when it is actually in THIS match -- that is
+  // what puts them on top and turns the roster into "the opponent's".
   const saved = getMyTeam();
-  const side = (t) => {
-    const isMine = saved && String(t.teamId) === String(saved.teamId);
-    return `<a class="cd-team${isMine ? ' mine' : ''}" href="team.html?team=${encodeURIComponent(t.teamId)}&program=${encodeURIComponent(entry.programId)}">${escapeHTML(displayTeamName(t.teamName, { stripCaptain: true }))}</a>`;
-  };
-  return `<div class="court-detail">
-    <div class="cd-head">
-      <span class="cd-chip" style="--ct:${paint ? paint.hex : 'var(--app-raised)'};--ct-ink:${paint ? paint.ink : 'var(--app-ink)'}">${num}</span>
-      <span>${escapeHTML(paint ? paint.name : 'court ' + num)} · ${escapeHTML(shortLeague(entry.programName))}</span>
-    </div>
-    <div class="cd-teams">${entry.teams.map(side).join('<span class="cd-vs">vs</span>')}</div>
-  </div>`;
+  const focusTeamId = saved && entry.teams.some((t) => String(t.teamId) === String(saved.teamId))
+    ? saved.teamId : null;
+
+  host.innerHTML = matchCardHTML({
+    game: {
+      date: NIGHT.date,
+      time: currentSlot()?.time ?? null,
+      courtName: entry.courtName,
+      teams: entry.teams,
+    },
+    programId: entry.programId,
+    standings,
+    games: activities?.games ?? [],
+    focusTeamId,
+    rosters,
+  });
 }
 
 function render() {
@@ -232,9 +263,6 @@ function render() {
   if (openCourt === null && mine !== null) openCourt = mine;
 
   const bank = (nums) => nums.map((n) => courtCardHTML(n, byCourt.get(n) ?? null, n === mine)).join('');
-  const detail = openCourt === null
-    ? '<p class="cd-hint">Tap a court to see the matchup.</p>'
-    : detailHTML(openCourt, byCourt.get(openCourt) ?? null);
 
   document.getElementById('body').innerHTML = `
     <div class="floor">
@@ -242,7 +270,7 @@ function render() {
       <div class="bankcol"><div class="bank-label">Centre</div><div class="bank mid">${bank(LAYOUT.middle)}</div></div>
       <div class="bankcol"><div class="bank-label">South</div><div class="bank">${bank(LAYOUT.right)}</div></div>
     </div>
-    ${detail}`;
+    <div id="detail"></div>`;
 
   for (const el of document.querySelectorAll('.court-card')) {
     el.addEventListener('click', () => {
@@ -252,6 +280,7 @@ function render() {
     });
   }
   renderSlotbar();
+  renderDetail();
 }
 
 async function main() {

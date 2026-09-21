@@ -792,28 +792,78 @@ await new Promise((r) => setTimeout(r, 400));
 }
 
 {
-  // Landing straight on your own game is the point of marking it.
-  const detail = await page.$eval('.court-detail', (el) => el.innerText);
-  check(`the player's own court is expanded on arrival, got ${JSON.stringify(detail.slice(0, 60))}`,
-    detail.includes('Testers United') && detail.includes('Brand New Squad'));
-  check('the detail names the court by its paint colour, not just its number',
-    detail.toLowerCase().includes('pink'));
-  check('the player\'s own team is distinguished inside the detail',
-    (await page.$$('.cd-team.mine')).length === 1);
+  // Ask #1: the floor cards carry the team names, in the big card's own
+  // slab-and-teams shape, rather than just a colour chip and a league.
+  const onFloor = await page.evaluate(() => {
+    const c = document.querySelector('.court-card[data-court="8"]');
+    return {
+      slab: c.querySelector('.cslab')?.textContent.trim(),
+      names: [...c.querySelectorAll('.ctname')].map((e) => e.textContent.trim()),
+      mine: [...c.querySelectorAll('.ctname.mine')].map((e) => e.textContent.trim()),
+    };
+  });
+  check(`a floor card shows both team names, got ${JSON.stringify(onFloor.names)}`,
+    JSON.stringify(onFloor.names) === JSON.stringify(['Testers United', 'Brand New Squad']));
+  check(`...beside the painted slab, got ${onFloor.slab}`, onFloor.slab === '8');
+  check(`...with your own team picked out, got ${JSON.stringify(onFloor.mine)}`,
+    JSON.stringify(onFloor.mine) === JSON.stringify(['Testers United']));
 }
 
 {
-  // Tapping a different court swaps the detail; tapping it again closes.
+  // Ask #2: tapping opens the FULL match card -- the same component the
+  // Home screen renders for your own game, odds and head-to-head and
+  // rosters included -- not a summary. It loads async, hence the wait.
+  await page.waitForSelector('#detail .mgame', { timeout: 6000 });
+  const card = await page.evaluate(() => {
+    const g = document.querySelector('#detail .mgame');
+    return {
+      names: [...g.querySelectorAll('.tname')].map((e) => e.textContent.trim()),
+      court: g.querySelector('.cnum')?.textContent.trim(),
+      paint: g.querySelector('.slab')?.getAttribute('data-paint'),
+      formLabel: g.querySelector('.flbl')?.textContent.trim(),
+      odds: [...g.querySelectorAll('.probbar > div')].map((e) => e.textContent.trim()),
+      oddsNote: g.querySelector('.modds .h2h-meta')?.textContent.trim() ?? '',
+      rosterLabels: [...g.querySelectorAll('.mroster .rlbl')].map((e) => e.textContent.trim()),
+      when: g.querySelector('.statetag')?.textContent.trim() ?? '',
+    };
+  });
+  check(`tapping opens the full match card with your team on top, got ${JSON.stringify(card.names)}`,
+    card.names[0] === 'Testers United');
+  check(`the card carries the painted court slab, got ${card.court}/${card.paint}`,
+    card.court === '8' && card.paint === 'pink');
+  check(`the card carries the previous-matches strip, got ${card.formLabel}`,
+    card.formLabel === 'Previous matches');
+  // 503 has played no games in the fixture, so this match legitimately
+  // has no prediction -- either a real split or the honest explanation.
+  check(`the card carries the odds strip, got ${JSON.stringify(card.odds)} ${JSON.stringify(card.oddsNote)}`,
+    card.odds.length === 2 || card.oddsNote.includes('Not enough games'));
+  check(`the card carries the slot time, got ${JSON.stringify(card.when)}`, card.when.includes('6:30'));
+  check(`with your team in the match the roster shown is the OPPONENT's, got ${JSON.stringify(card.rosterLabels)}`,
+    JSON.stringify(card.rosterLabels) === JSON.stringify(['Opponent roster']));
+}
+
+{
+  // A neutral match -- the saved team is not on court 1 -- keeps the
+  // data's own order and labels BOTH rosters by team, because with no
+  // "you" in the match there is no "opponent" either.
   await page.click('.court-card[data-court="1"]');
-  await new Promise((r) => setTimeout(r, 120));
-  const one = await page.$eval('.court-detail', (el) => el.innerText);
-  check(`tapping a court opens that court, got ${JSON.stringify(one.slice(0, 40))}`,
-    one.includes('Fixture FC') && one.includes('Net Prophets'));
+  await page.waitForFunction(() => document.querySelector('#detail .cnum')?.textContent.trim() === '1', { timeout: 6000 });
+  const neutral = await page.evaluate(() => {
+    const g = document.querySelector('#detail .mgame');
+    return {
+      names: [...g.querySelectorAll('.tname')].map((e) => e.textContent.trim()),
+      rosterLabels: [...g.querySelectorAll('.mroster .rlbl')].map((e) => e.textContent.trim()),
+    };
+  });
+  check(`a neutral match keeps the data's own order, got ${JSON.stringify(neutral.names)}`,
+    JSON.stringify(neutral.names) === JSON.stringify(['Fixture FC', 'Net Prophets']));
+  check(`...and labels both rosters by team rather than "opponent", got ${JSON.stringify(neutral.rosterLabels)}`,
+    JSON.stringify(neutral.rosterLabels) === JSON.stringify(['Fixture FC', 'Net Prophets']));
 
   await page.click('.court-card[data-court="3"]');
-  await new Promise((r) => setTimeout(r, 120));
-  const open = await page.$eval('.court-detail', (el) => el.innerText);
-  check('tapping an unused court says so rather than showing a stale matchup',
+  await new Promise((r) => setTimeout(r, 350));
+  const open = await page.$eval('#detail', (el) => el.innerText);
+  check('tapping an unused court says so rather than leaving the last card up',
     open.includes('Nothing scheduled') && !open.includes('Fixture FC'));
 }
 

@@ -36,41 +36,12 @@ const saved = getMyTeam();
 const teamId = saved ? Number(saved.teamId) : null;
 wireTabs({ active: 'schedule', programId });
 
-// The venue's real painted courts -- same table, duplicated verbatim
-// from gamenight.html's own copy (see ITS comment for provenance/the
-// contrast-check note), per this project's no-shared-module convention.
-const COURT = {
-  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
-  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
-  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
-  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
-  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
-  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
-  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
-  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
-  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
-  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
-  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
-  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
-};
-
-// Same court-number extraction gamenight.html uses -- duplicated, not
-// shared, same convention as COURT above.
-function courtNumberOf(courtName) {
-  const m = /(\d+)/.exec(String(courtName ?? ''));
-  return m ? Number(m[1]) : null;
-}
-
-// Same "HH:MM" -> "7p"/"7:30p" convention gamenight.html established --
-// duplicated here, not shared, per this project's own no-shared-module
-// convention (see gamenight.html's own header comment on the same point).
-function shortTime(time) {
-  const [hh, mm] = String(time).split(':').map(Number);
-  if (!Number.isFinite(hh) || !Number.isFinite(mm)) return '';
-  const suffix = hh >= 12 ? 'p' : 'a';
-  const h12 = ((hh + 11) % 12) + 1;
-  return mm === 0 ? `${h12}${suffix}` : `${h12}:${String(mm).padStart(2, '0')}${suffix}`;
-}
+// COURT, courtNumberOf and shortTime used to be duplicated here verbatim
+// from gamenight.html, on the grounds that there was no way to share a
+// module across pages without a build step. There is: app.js, which
+// every page already loads. All three moved there when court.html became
+// the third page needing them, and a duplicate `const COURT` here would
+// now be a redeclaration that kills this whole script.
 
 // Day-only label for a SECTION HEADER (one per date, not per row --
 // gamenight.html's whenBadge() combines day+time into one per-row corner
