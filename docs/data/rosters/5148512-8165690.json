@@ -7,6 +7,11 @@
       "userId": 53474081,
       "firstName": "Ali",
       "isCaptain": true
+    },
+    {
+      "userId": 54415783,
+      "firstName": "Javier",
+      "isCaptain": false
     }
   ]
 }
