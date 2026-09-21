@@ -1,0 +1,537 @@
+{
+  "date": "2026-09-24",
+  "slots": [
+    {
+      "time": "18:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8137644,
+              "teamName": "4. Taylor B. and Luigi H."
+            },
+            {
+              "teamId": 8146244,
+              "teamName": "5. Tina O. and Aatir A."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8126546,
+              "teamName": "3. Kylee G. and Jacob W."
+            },
+            {
+              "teamId": 8161236,
+              "teamName": "10. Delaney Z. and Dane R."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8125615,
+              "teamName": "1. Michelle C. and Josman R."
+            },
+            {
+              "teamId": 8124115,
+              "teamName": "7. Tiffany S. and Carson S."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8152547,
+              "teamName": "6. Injured Reserve! (Joe R.)"
+            },
+            {
+              "teamId": 8153064,
+              "teamName": "8. Sandy Patch Kids (Curtis J.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8139783,
+              "teamName": "5. HIT FACED (Clark P.)"
+            },
+            {
+              "teamId": 8152314,
+              "teamName": "7. Patty 4 the People (Doug B.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8149530,
+              "teamName": "8. Avery E. and Jon N."
+            },
+            {
+              "teamId": 8157013,
+              "teamName": "9. Lauren H. and Clayton B."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8139636,
+              "teamName": "2. Danielle F. and Jeff S."
+            },
+            {
+              "teamId": 8124126,
+              "teamName": "6. Molly J. and Phil A."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8142664,
+              "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+            },
+            {
+              "teamId": 8156531,
+              "teamName": "9. Dont Dink and Dive (Sarah F.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8126546,
+              "teamName": "3. Kylee G. and Jacob W."
+            },
+            {
+              "teamId": 8124115,
+              "teamName": "7. Tiffany S. and Carson S."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8125615,
+              "teamName": "1. Michelle C. and Josman R."
+            },
+            {
+              "teamId": 8146244,
+              "teamName": "5. Tina O. and Aatir A."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8137644,
+              "teamName": "4. Taylor B. and Luigi H."
+            },
+            {
+              "teamId": 8161236,
+              "teamName": "10. Delaney Z. and Dane R."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8139783,
+              "teamName": "5. HIT FACED (Clark P.)"
+            },
+            {
+              "teamId": 8156531,
+              "teamName": "9. Dont Dink and Dive (Sarah F.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8152547,
+              "teamName": "6. Injured Reserve! (Joe R.)"
+            },
+            {
+              "teamId": 8152314,
+              "teamName": "7. Patty 4 the People (Doug B.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8139636,
+              "teamName": "2. Danielle F. and Jeff S."
+            },
+            {
+              "teamId": 8157013,
+              "teamName": "9. Lauren H. and Clayton B."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8124126,
+              "teamName": "6. Molly J. and Phil A."
+            },
+            {
+              "teamId": 8149530,
+              "teamName": "8. Avery E. and Jon N."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8142664,
+              "teamName": "4. FlyBallers ShotCallers (Albert F.)"
+            },
+            {
+              "teamId": 8153064,
+              "teamName": "8. Sandy Patch Kids (Curtis J.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8138556,
+              "teamName": "4. Jo P. and Leo Y."
+            },
+            {
+              "teamId": 8142462,
+              "teamName": "7. Sarah U. and Kumar R."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8154115,
+              "teamName": "2. Mili V. and Isa T."
+            },
+            {
+              "teamId": 8135226,
+              "teamName": "9. Ivy C. and Dreco S."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8152486,
+              "teamName": "6. Lisa B. and Rudy D."
+            },
+            {
+              "teamId": 8136865,
+              "teamName": "8. Sarah D. and Matt B."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8143230,
+              "teamName": "3. Charlies Angels (Jason O.)"
+            },
+            {
+              "teamId": 8156585,
+              "teamName": "11. I Dunno (Matt G.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8139038,
+              "teamName": "2. Ay Mi Madre (Daniel D.)"
+            },
+            {
+              "teamId": 8155956,
+              "teamName": "10. Sandy Cheeks (Stephanie D.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8146294,
+              "teamName": "1. Ali M. and Andrew B."
+            },
+            {
+              "teamId": 8136201,
+              "teamName": "5. Shelbita L. and Michael A."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8141319,
+              "teamName": "3. Elaine L. and Eric W."
+            },
+            {
+              "teamId": 8139641,
+              "teamName": "10. Viktoriya I. and John S."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8127097,
+              "teamName": "1. Crab (Collin W.)"
+            },
+            {
+              "teamId": 8157248,
+              "teamName": "12. Weekend Warmups (Liz P.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8141319,
+              "teamName": "3. Elaine L. and Eric W."
+            },
+            {
+              "teamId": 8136201,
+              "teamName": "5. Shelbita L. and Michael A."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8136865,
+              "teamName": "8. Sarah D. and Matt B."
+            },
+            {
+              "teamId": 8135226,
+              "teamName": "9. Ivy C. and Dreco S."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5143219,
+          "programName": "Thursday Coed 2s A",
+          "teams": [
+            {
+              "teamId": 8154115,
+              "teamName": "2. Mili V. and Isa T."
+            },
+            {
+              "teamId": 8152486,
+              "teamName": "6. Lisa B. and Rudy D."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8139038,
+              "teamName": "2. Ay Mi Madre (Daniel D.)"
+            },
+            {
+              "teamId": 8157248,
+              "teamName": "12. Weekend Warmups (Liz P.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8143230,
+              "teamName": "3. Charlies Angels (Jason O.)"
+            },
+            {
+              "teamId": 8155956,
+              "teamName": "10. Sandy Cheeks (Stephanie D.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8138556,
+              "teamName": "4. Jo P. and Leo Y."
+            },
+            {
+              "teamId": 8139641,
+              "teamName": "10. Viktoriya I. and John S."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5143224,
+          "programName": "Thursday Coed 2s AA",
+          "teams": [
+            {
+              "teamId": 8146294,
+              "teamName": "1. Ali M. and Andrew B."
+            },
+            {
+              "teamId": 8142462,
+              "teamName": "7. Sarah U. and Kumar R."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5143200,
+          "programName": "Thursday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8127097,
+              "teamName": "1. Crab (Collin W.)"
+            },
+            {
+              "teamId": 8156585,
+              "teamName": "11. I Dunno (Matt G.)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

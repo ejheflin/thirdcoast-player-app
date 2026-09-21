@@ -45,6 +45,17 @@ export function courtName(locations, subLocationId) {
   return null;
 }
 
+// The court NUMBER out of the human court name the schedule carries
+// ("Court 12" -> 12). Null for anything unnumbered or unassigned, so a
+// caller can leave such a game out rather than key a map off NaN. The
+// site has its own copy of this in gamenight.html -- there is no build
+// step to share a module with the browser, which is this project's
+// established convention.
+export function courtNumberOf(courtName) {
+  const m = /(\d+)/.exec(String(courtName ?? ''));
+  return m ? Number(m[1]) : null;
+}
+
 export async function fetchStandingsHTML(programId) {
   // ngmp_2023_iframe_transition=1 is required: without it the host serves
   // the SPA shell (no table) instead of the legacy rendered page.

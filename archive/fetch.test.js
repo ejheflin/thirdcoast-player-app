@@ -252,3 +252,102 @@ test('runArchive tolerates a program with no endDate', async () => {
     { programId: 4, programName: 'Pop Up League', state: 'LIVE', endDate: null },
   ]);
 });
+
+// --- the venue-wide court map ----------------------------------------
+//
+// Schedules are stored per PROGRAM, but a court map is per NIGHT: on a
+// real Tuesday all 12 courts are filled by five different programs at
+// once. Re-indexing that client-side would mean fetching every active
+// program's schedule (16 files on 2026-09-20) just to draw one floor, so
+// the archiver does the merge instead -- it already has every upcoming
+// game in memory at this point, so it costs nothing extra.
+test('runArchive writes a per-night court map merged across every active program', async () => {
+  const writes = new Map();
+  const game = (id, programId, court, time, a, b) => ({
+    id, programId, state: 'scheduled', type: 'game_season',
+    start: { date: '2099-03-10', time }, subLocationId: court,
+    teams: [{ teamId: a, teamName: `Team ${a}` }, { teamId: b, teamName: `Team ${b}` }],
+  });
+  await runArchive({
+    fetchPrograms: async () => [
+      { id: 10, name: 'Tuesday Coed 4s A', state: 'LIVE' },
+      { id: 11, name: 'Tuesday Womens 2s A', state: 'LIVE' },
+    ],
+    // Two programs, same night, two slots, different courts -- the exact
+    // shape the merge exists for.
+    fetchActivities: async () => [
+      game(1, 10, 70288, '18:30', 100, 101), // Court 1
+      game(2, 11, 70291, '18:30', 200, 201), // Court 2
+      game(3, 10, 70288, '19:30', 102, 103), // Court 1, later slot
+    ],
+    fetchStandingsHTML: async () => '<standings>',
+    parseStandings: () => [],
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    fetchLocations: async () => [{
+      id: 1, name: 'Third Coast Volleyball',
+      subLocations: [{ id: 70288, name: 'Court 1' }, { id: 70291, name: 'Court 2' }],
+    }],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+
+  const night = writes.get('docs/data/courts/2099-03-10.json');
+  assert.ok(night, 'a night with games gets a court map');
+  assert.equal(night.date, '2099-03-10');
+  assert.deepEqual(night.slots.map((s) => s.time), ['18:30', '19:30'], 'slots sorted by time');
+
+  const first = night.slots[0];
+  assert.equal(first.courts.length, 2, 'both programs land in the same slot');
+  assert.deepEqual(first.courts.map((c) => c.court), [1, 2], 'courts sorted by number');
+  // The whole point: two DIFFERENT programs on one floor.
+  assert.deepEqual(first.courts.map((c) => c.programName),
+    ['Tuesday Coed 4s A', 'Tuesday Womens 2s A']);
+  assert.equal(first.courts[0].courtName, 'Court 1');
+  assert.deepEqual(first.courts[0].teams.map((t) => t.teamId), [100, 101]);
+
+  assert.equal(night.slots[1].courts.length, 1, 'the later slot has only its own game');
+  assert.equal(night.slots[1].courts[0].court, 1);
+
+  // The index is what lets the site pick "tonight, else the next night"
+  // without fetching every date.
+  assert.deepEqual(writes.get('docs/data/courts/index.json'), { dates: ['2099-03-10'] });
+});
+
+// A court map entry is meaningless without a court and a slot to put it
+// in. Rather than inventing a placeholder, such a game is left out of the
+// map -- it still appears in its own program's schedule file, which is
+// what the rest of the site reads.
+test('runArchive leaves a game with no court or no time out of the court map', async () => {
+  const writes = new Map();
+  await runArchive({
+    fetchPrograms: async () => [{ id: 12, name: 'Odd League', state: 'LIVE' }],
+    fetchActivities: async () => [
+      { id: 1, programId: 12, state: 'scheduled', type: 'game_season',
+        start: { date: '2099-04-01', time: '18:30' }, subLocationId: 70288,
+        teams: [{ teamId: 1, teamName: 'A' }, { teamId: 2, teamName: 'B' }] },
+      // court not assigned yet -- a real, normal state early in a season
+      { id: 2, programId: 12, state: 'scheduled', type: 'game_season',
+        start: { date: '2099-04-01', time: '19:30' }, subLocationId: null,
+        teams: [{ teamId: 3, teamName: 'C' }, { teamId: 4, teamName: 'D' }] },
+      // no start time at all
+      { id: 3, programId: 12, state: 'scheduled', type: 'game_season',
+        start: { date: '2099-04-01' }, subLocationId: 70288,
+        teams: [{ teamId: 5, teamName: 'E' }, { teamId: 6, teamName: 'F' }] },
+    ],
+    fetchStandingsHTML: async () => '<standings>',
+    parseStandings: () => [],
+    fetchRosterHTML: async () => '<roster>',
+    parseRoster: () => [],
+    fetchLocations: async () => [{ id: 1, name: 'V', subLocations: [{ id: 70288, name: 'Court 1' }] }],
+    readJSON: async () => null,
+    writeJSON: async (path, data) => writes.set(path, data),
+  });
+  const night = writes.get('docs/data/courts/2099-04-01.json');
+  assert.equal(night.slots.length, 1, 'only the fully-specified game makes the map');
+  assert.equal(night.slots[0].time, '18:30');
+  assert.equal(night.slots[0].courts.length, 1);
+  // ...but it is still in the program's own schedule, not lost.
+  const sched = writes.get('docs/data/schedule/12.json');
+  assert.equal(sched.games.length, 3, 'all three remain in the program schedule');
+});

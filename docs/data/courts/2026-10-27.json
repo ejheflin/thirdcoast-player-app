@@ -1,0 +1,793 @@
+{
+  "date": "2026-10-27",
+  "slots": [
+    {
+      "time": "18:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8150354,
+              "teamName": "4. Yanni S. and Ali. M."
+            },
+            {
+              "teamId": 8139645,
+              "teamName": "8. Molly J. and Nicole B."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8150721,
+              "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
+            },
+            {
+              "teamId": 8150950,
+              "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8163816,
+              "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
+            },
+            {
+              "teamId": 8148916,
+              "teamName": "8. Team Jacob (Mark J.)"
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8148853,
+              "teamName": "1. Beach Bunnies (Jimmy R.)"
+            },
+            {
+              "teamId": 8151238,
+              "teamName": "2. Score Check (Julianna T.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8154126,
+              "teamName": "7. Bongos (Joseph M.)"
+            },
+            {
+              "teamId": 8165690,
+              "teamName": "8. Net Ninjas (Ali F.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8148743,
+              "teamName": "1. Olivia J. and Emily S."
+            },
+            {
+              "teamId": 8167966,
+              "teamName": "10. Kat H. and Julia V."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8143348,
+              "teamName": "3. Melissa B. and Lindsay K."
+            },
+            {
+              "teamId": 8138562,
+              "teamName": "7. Sarah S. and Jo P."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8160228,
+              "teamName": "4. 3 OGs and Bae (Johnny W.)"
+            },
+            {
+              "teamId": 8148116,
+              "teamName": "5. Shank You Very Much (Jaimie M.)"
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8159903,
+              "teamName": "8. Gold Diggerz (JT N.)"
+            },
+            {
+              "teamId": 8146380,
+              "teamName": "9. Holy Balls (Jacob Y.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8155575,
+              "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
+            },
+            {
+              "teamId": 8148907,
+              "teamName": "11. What Court Are We On (Bear S.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8137775,
+              "teamName": "5. Sets Pistols (Christina Z.)"
+            },
+            {
+              "teamId": 8159435,
+              "teamName": "10. 50/50 (Oscar G.)"
+            }
+          ]
+        },
+        {
+          "court": 12,
+          "courtName": "Court 12",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8137762,
+              "teamName": "4. Notorious DIG (Connor D.)"
+            },
+            {
+              "teamId": 8169638,
+              "teamName": "12. Bump Buddies (Mitch L.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8148743,
+              "teamName": "1. Olivia J. and Emily S."
+            },
+            {
+              "teamId": 8138562,
+              "teamName": "7. Sarah S. and Jo P."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8150721,
+              "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
+            },
+            {
+              "teamId": 8148916,
+              "teamName": "8. Team Jacob (Mark J.)"
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8150950,
+              "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
+            },
+            {
+              "teamId": 8163816,
+              "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8148853,
+              "teamName": "1. Beach Bunnies (Jimmy R.)"
+            },
+            {
+              "teamId": 8165690,
+              "teamName": "8. Net Ninjas (Ali F.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8151238,
+              "teamName": "2. Score Check (Julianna T.)"
+            },
+            {
+              "teamId": 8154126,
+              "teamName": "7. Bongos (Joseph M.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8143348,
+              "teamName": "3. Melissa B. and Lindsay K."
+            },
+            {
+              "teamId": 8150354,
+              "teamName": "4. Yanni S. and Ali. M."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8139645,
+              "teamName": "8. Molly J. and Nicole B."
+            },
+            {
+              "teamId": 8167966,
+              "teamName": "10. Kat H. and Julia V."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8148116,
+              "teamName": "5. Shank You Very Much (Jaimie M.)"
+            },
+            {
+              "teamId": 8159903,
+              "teamName": "8. Gold Diggerz (JT N.)"
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8160228,
+              "teamName": "4. 3 OGs and Bae (Johnny W.)"
+            },
+            {
+              "teamId": 8146380,
+              "teamName": "9. Holy Balls (Jacob Y.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8137762,
+              "teamName": "4. Notorious DIG (Connor D.)"
+            },
+            {
+              "teamId": 8148907,
+              "teamName": "11. What Court Are We On (Bear S.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8137775,
+              "teamName": "5. Sets Pistols (Christina Z.)"
+            },
+            {
+              "teamId": 8169638,
+              "teamName": "12. Bump Buddies (Mitch L.)"
+            }
+          ]
+        },
+        {
+          "court": 12,
+          "courtName": "Court 12",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8155575,
+              "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
+            },
+            {
+              "teamId": 8159435,
+              "teamName": "10. 50/50 (Oscar G.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8153555,
+              "teamName": "2. Big Dig Energy (Chad S.)"
+            },
+            {
+              "teamId": 8164233,
+              "teamName": "10. Carpe Digem (Eric H.)"
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8159639,
+              "teamName": "5. Vacacioners (Phil M.)"
+            },
+            {
+              "teamId": 8163520,
+              "teamName": "6. Bombaclat! (Aatir A.)"
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8163533,
+              "teamName": "3. Hustle Gang (Calvin D.)"
+            },
+            {
+              "teamId": 8142715,
+              "teamName": "4. Toodles (Michael L.)"
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8159110,
+              "teamName": "5. Watermelon (Lauren K.)"
+            },
+            {
+              "teamId": 8159128,
+              "teamName": "6. Twin Peaks (Dan F.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8163711,
+              "teamName": "3. Chocolate City (Samanda H.)"
+            },
+            {
+              "teamId": 8137254,
+              "teamName": "4. Milk (Sean M.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8150634,
+              "teamName": "6. Tina O. and Elaine L."
+            },
+            {
+              "teamId": 8156795,
+              "teamName": "9. Liz C. and Madison P."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8150898,
+              "teamName": "2. Erika P. and Becca W."
+            },
+            {
+              "teamId": 8161616,
+              "teamName": "5. Juliana T. and Lauren W."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8135728,
+              "teamName": "6. Volley Llamas (Daphne D.)"
+            },
+            {
+              "teamId": 8148877,
+              "teamName": "7. Can You Dig It? (Marc S.)"
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8164493,
+              "teamName": "1. Gold Star for Effort (Merilyn V.)"
+            },
+            {
+              "teamId": 8136555,
+              "teamName": "3. The Empire Spikes Back (Ash C.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8167138,
+              "teamName": "3. Feeling Setsy (Corey M.)"
+            },
+            {
+              "teamId": 8147602,
+              "teamName": "8. Unprotected Sets (Catalina P.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8138261,
+              "teamName": "2. Bump, Set, Dammit! (Michael G.)"
+            },
+            {
+              "teamId": 8150563,
+              "teamName": "7. The Thurmanators (David Z.)"
+            }
+          ]
+        },
+        {
+          "court": 12,
+          "courtName": "Court 12",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8142399,
+              "teamName": "1. Beach Please (Annie L.)"
+            },
+            {
+              "teamId": 8162254,
+              "teamName": "9. The Replacements (Joe R.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8153555,
+              "teamName": "2. Big Dig Energy (Chad S.)"
+            },
+            {
+              "teamId": 8136555,
+              "teamName": "3. The Empire Spikes Back (Ash C.)"
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8163533,
+              "teamName": "3. Hustle Gang (Calvin D.)"
+            },
+            {
+              "teamId": 8163520,
+              "teamName": "6. Bombaclat! (Aatir A.)"
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5148506,
+          "programName": "Tuesday Coed 4s A",
+          "teams": [
+            {
+              "teamId": 8142715,
+              "teamName": "4. Toodles (Michael L.)"
+            },
+            {
+              "teamId": 8159639,
+              "teamName": "5. Vacacioners (Phil M.)"
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8163711,
+              "teamName": "3. Chocolate City (Samanda H.)"
+            },
+            {
+              "teamId": 8159128,
+              "teamName": "6. Twin Peaks (Dan F.)"
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5148512,
+          "programName": "Tuesday Coed 4s BB",
+          "teams": [
+            {
+              "teamId": 8137254,
+              "teamName": "4. Milk (Sean M.)"
+            },
+            {
+              "teamId": 8159110,
+              "teamName": "5. Watermelon (Lauren K.)"
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8150898,
+              "teamName": "2. Erika P. and Becca W."
+            },
+            {
+              "teamId": 8150634,
+              "teamName": "6. Tina O. and Elaine L."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5148518,
+          "programName": "Tuesday Womens 2s A",
+          "teams": [
+            {
+              "teamId": 8161616,
+              "teamName": "5. Juliana T. and Lauren W."
+            },
+            {
+              "teamId": 8156795,
+              "teamName": "9. Liz C. and Madison P."
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8164493,
+              "teamName": "1. Gold Star for Effort (Merilyn V.)"
+            },
+            {
+              "teamId": 8135728,
+              "teamName": "6. Volley Llamas (Daphne D.)"
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5148510,
+          "programName": "Tuesday Coed 4s B",
+          "teams": [
+            {
+              "teamId": 8148877,
+              "teamName": "7. Can You Dig It? (Marc S.)"
+            },
+            {
+              "teamId": 8164233,
+              "teamName": "10. Carpe Digem (Eric H.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8167138,
+              "teamName": "3. Feeling Setsy (Corey M.)"
+            },
+            {
+              "teamId": 8150563,
+              "teamName": "7. The Thurmanators (David Z.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8138261,
+              "teamName": "2. Bump, Set, Dammit! (Michael G.)"
+            },
+            {
+              "teamId": 8162254,
+              "teamName": "9. The Replacements (Joe R.)"
+            }
+          ]
+        },
+        {
+          "court": 12,
+          "courtName": "Court 12",
+          "programId": 5148515,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teams": [
+            {
+              "teamId": 8142399,
+              "teamName": "1. Beach Please (Annie L.)"
+            },
+            {
+              "teamId": 8147602,
+              "teamName": "8. Unprotected Sets (Catalina P.)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

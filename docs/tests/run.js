@@ -111,8 +111,8 @@ await page.evaluate(() => localStorage.clear());
 await go('rankings.html?program=9001');
 {
   const tabs = await page.$$eval('.tabbar .tab', (els) => els.map((el) => el.dataset.tab));
-  check(`tab bar has exactly 3 tabs (home, ranks, schedule), got ${tabs.join(',')}`,
-    tabs.join(',') === 'home,ranks,schedule');
+  check(`tab bar has exactly 4 tabs (home, court, ranks, schedule), got ${tabs.join(',')}`,
+    tabs.join(',') === 'home,court,ranks,schedule');
 }
 
 // ---- page content -------------------------------------------------------
@@ -641,7 +641,7 @@ await goHome();
   check(`no tab renders visible label text, got ${JSON.stringify(tabs.map((t) => t.visibleText))}`,
     tabs.every((t) => t.visibleText === ''));
   check(`every tab keeps an accessible name, got ${JSON.stringify(tabs.map((t) => t.aria))}`,
-    tabs.length === 3 && tabs.every((t) => t.aria && t.aria.length > 0));
+    tabs.length === 4 && tabs.every((t) => t.aria && t.aria.length > 0));
   check('every tab keeps a hover title too', tabs.every((t) => t.title === t.aria));
   check(`the glyphs grew to carry the meaning alone, got ${tabs[0].iconW}px`,
     tabs.every((t) => t.iconW >= 25));
@@ -737,6 +737,134 @@ await goHome();
   // Guard the fix does not accidentally kill the thing it protects.
   check('the pane is still the real scroller and the document still is not',
     s.paneScrollable && !s.docScrollable);
+}
+
+// ---- court.html: the venue floor ---------------------------------------
+// A port of the broadcast board's courtmap. The fixture night is dated
+// 2099 on purpose, so the suite never depends on what "today" is; the
+// clock logic is unit-tested separately below against a synthetic night.
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+));
+await go('court.html');
+await new Promise((r) => setTimeout(r, 400));
+{
+  const floor = await page.evaluate(() => {
+    const cols = [...document.querySelectorAll('.bankcol')].map((c) => ({
+      label: c.querySelector('.bank-label').textContent.trim(),
+      courts: [...c.querySelectorAll('.court-card')].map((b) => Number(b.dataset.court)),
+    }));
+    return {
+      cols,
+      total: document.querySelectorAll('.court-card').length,
+      open: [...document.querySelectorAll('.court-card.open')].map((b) => Number(b.dataset.court)),
+      mine: [...document.querySelectorAll('.court-card.mine')].map((b) => Number(b.dataset.court)),
+      slots: [...document.querySelectorAll('.slot')].map((s) => s.textContent.trim()),
+      onSlot: document.querySelector('.slot.on')?.textContent.trim(),
+    };
+  });
+
+  // The whole reason this is a MAP: the board's physical arrangement.
+  check(`the floor keeps the venue's real banks, got ${JSON.stringify(floor.cols.map((c) => c.label))}`,
+    JSON.stringify(floor.cols.map((c) => c.label)) === JSON.stringify(['North', 'Centre', 'South']));
+  check(`north bank is 8-12, got ${floor.cols[0].courts.join(',')}`,
+    floor.cols[0].courts.join(',') === '8,9,10,11,12');
+  check(`centre is 6-7, got ${floor.cols[1].courts.join(',')}`,
+    floor.cols[1].courts.join(',') === '6,7');
+  check(`south bank is 1-5, got ${floor.cols[2].courts.join(',')}`,
+    floor.cols[2].courts.join(',') === '1,2,3,4,5');
+  check(`all 12 courts are on the floor, got ${floor.total}`, floor.total === 12);
+
+  // An unused court stays as an outline -- dropping it would leave a hole
+  // where a real court is, which defeats the orientation the map is for.
+  check(`the 9 courts with no game render as open, got ${JSON.stringify(floor.open)}`,
+    JSON.stringify(floor.open.sort((a, b) => a - b)) === JSON.stringify([2, 3, 4, 5, 6, 7, 9, 10, 11]));
+
+  // The saved team is on court 8 in this slot.
+  check(`the player's own court is marked, got ${JSON.stringify(floor.mine)}`,
+    JSON.stringify(floor.mine) === JSON.stringify([8]));
+
+  check(`the slot toggle lists every slot, got ${JSON.stringify(floor.slots)}`,
+    floor.slots.length === 2 && floor.slots[0].startsWith('6:30') && floor.slots[1].startsWith('7:30'));
+  check(`a night that is not today opens on its first slot, got ${floor.onSlot}`,
+    floor.onSlot.startsWith('6:30'));
+}
+
+{
+  // Landing straight on your own game is the point of marking it.
+  const detail = await page.$eval('.court-detail', (el) => el.innerText);
+  check(`the player's own court is expanded on arrival, got ${JSON.stringify(detail.slice(0, 60))}`,
+    detail.includes('Testers United') && detail.includes('Brand New Squad'));
+  check('the detail names the court by its paint colour, not just its number',
+    detail.toLowerCase().includes('pink'));
+  check('the player\'s own team is distinguished inside the detail',
+    (await page.$$('.cd-team.mine')).length === 1);
+}
+
+{
+  // Tapping a different court swaps the detail; tapping it again closes.
+  await page.click('.court-card[data-court="1"]');
+  await new Promise((r) => setTimeout(r, 120));
+  const one = await page.$eval('.court-detail', (el) => el.innerText);
+  check(`tapping a court opens that court, got ${JSON.stringify(one.slice(0, 40))}`,
+    one.includes('Fixture FC') && one.includes('Net Prophets'));
+
+  await page.click('.court-card[data-court="3"]');
+  await new Promise((r) => setTimeout(r, 120));
+  const open = await page.$eval('.court-detail', (el) => el.innerText);
+  check('tapping an unused court says so rather than showing a stale matchup',
+    open.includes('Nothing scheduled') && !open.includes('Fixture FC'));
+}
+
+{
+  // A different slot must actually re-render the floor, not repaint it.
+  await page.click('.slot[data-slot="1"]');
+  await new Promise((r) => setTimeout(r, 150));
+  const after = await page.evaluate(() => ({
+    onSlot: document.querySelector('.slot.on')?.textContent.trim(),
+    open: [...document.querySelectorAll('.court-card.open')].map((b) => Number(b.dataset.court)).sort((a, b) => a - b),
+  }));
+  check(`tapping a slot selects it, got ${after.onSlot}`, after.onSlot.startsWith('7:30'));
+  check(`the second slot shows its own, different floor (only court 6 in play), got ${JSON.stringify(after.open)}`,
+    after.open.length === 11 && !after.open.includes(6));
+}
+
+{
+  // The clock logic, unit-tested against a synthetic night rather than
+  // against fixture dates -- 24 hourly slots starting at midnight means
+  // the live slot must be exactly the current hour, whenever this runs.
+  const clock = await page.evaluate(() => {
+    const pad = (n) => String(n).padStart(2, '0');
+    const d = new Date();
+    const today = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    const hourly = { date: today, slots: Array.from({ length: 24 }, (_, h) => ({ time: `${pad(h)}:00`, courts: [] })) };
+    const notToday = { date: '2099-03-10', slots: hourly.slots };
+    return {
+      hour: d.getHours(),
+      liveToday: liveSlotIndex(hourly),
+      liveOther: liveSlotIndex(notToday),
+      defaultOther: defaultSlotIndex(notToday),
+    };
+  });
+  check(`the live slot is the one containing now (hour ${clock.hour}), got ${clock.liveToday}`,
+    clock.liveToday === clock.hour);
+  check(`a night that is not today has no live slot, got ${clock.liveOther}`, clock.liveOther === null);
+  check(`...and opens on its first slot, got ${clock.defaultOther}`, clock.defaultOther === 0);
+}
+
+{
+  // The court map is venue-wide, so it must work with no saved team at
+  // all -- unlike every other tab, it needs no program in context.
+  await page.evaluate(() => localStorage.removeItem('thirdcoast-my-team'));
+  await go('court.html');
+  await new Promise((r) => setTimeout(r, 400));
+  check('court.html works with no saved team', (await page.$$('.court-card')).length === 12);
+  check('...and marks nobody\'s court as mine', (await page.$$('.court-card.mine')).length === 0);
+  check('...and its Court tab is the active one',
+    await page.$eval('.tab[data-tab="court"]', (el) => el.classList.contains('on')));
+  check('...while Home stays a live link out of it',
+    await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')));
 }
 
 // ---- season rollover: index.html -> season.html --------------------------

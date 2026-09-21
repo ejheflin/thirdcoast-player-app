@@ -187,6 +187,57 @@ export async function runArchive(deps) {
         tournaments,
       });
     }
+
+    // The venue-wide court map, re-indexing those same games by NIGHT and
+    // SLOT instead of by program.
+    //
+    // It has to be built here rather than in the browser because the axis
+    // is wrong everywhere else: schedules are stored per program, but a
+    // real Tuesday night is five programs sharing one floor of 12 courts.
+    // Drawing that client-side would mean fetching every active program's
+    // schedule (16 files on 2026-09-20) to render a single screen. Here
+    // the games are already in memory, so the merge is free.
+    //
+    // One file per night rather than one big file: a night is ~8-12KB and
+    // is all the court screen ever needs at once, while the whole horizon
+    // (21 nights on 2026-09-20) would be a quarter of a megabyte fetched
+    // to show one evening.
+    const courtsByDate = new Map();
+    for (const program of activePrograms) {
+      for (const game of upcomingByProgram.get(program.id) ?? []) {
+        const court = leagueapps.courtNumberOf(game.courtName);
+        // A map entry needs both a court to sit on and a slot to sit in.
+        // Either missing is a real, normal state -- a court is often
+        // unassigned early in a season -- so the game is simply left out
+        // of the map rather than given an invented placeholder. It still
+        // appears in its own program's schedule file, which is what every
+        // other screen reads.
+        if (court === null || !game.time) continue;
+        if (!courtsByDate.has(game.date)) courtsByDate.set(game.date, new Map());
+        const slots = courtsByDate.get(game.date);
+        if (!slots.has(game.time)) slots.set(game.time, []);
+        slots.get(game.time).push({
+          court,
+          courtName: game.courtName,
+          programId: program.id,
+          programName: program.name,
+          teams: game.teams,
+        });
+      }
+    }
+    for (const [date, slots] of courtsByDate) {
+      await writeJSON(`docs/data/courts/${date}.json`, {
+        date,
+        slots: [...slots.entries()]
+          .sort((a, b) => a[0].localeCompare(b[0]))
+          .map(([time, courts]) => ({ time, courts: courts.sort((a, b) => a.court - b.court) })),
+      });
+    }
+    // So the court screen can pick "tonight, else the next night" from one
+    // small fetch instead of probing dates until one answers.
+    await writeJSON('docs/data/courts/index.json', {
+      dates: [...courtsByDate.keys()].sort(),
+    });
   }
 
   await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);

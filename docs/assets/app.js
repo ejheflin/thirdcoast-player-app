@@ -235,6 +235,8 @@ async function resolveSeason(saved) {
 //               schedule says is next, and everyone with no saved team
 //               straight to search.html. Every Home tab points here and
 //               lets the router decide -- no page hardcodes a screen.
+//   Court    -> court.html, the venue-wide floor for tonight. Needs no
+//               program, so unlike Ranks/Schedule it is never disabled.
 //   Ranks    -> rankings.html for the program in context.
 //   Schedule -> schedule.html for the program in context.
 //
@@ -249,6 +251,11 @@ function wireTabs({ active, programId, teamId } = {}) {
   const q = encodeURIComponent;
   const targets = {
     home: 'index.html',
+    // No program param, and never disabled: the court map is VENUE-wide.
+    // It answers "what is happening in this building tonight", which is a
+    // question that does not depend on which team you saved -- or on
+    // having saved one at all.
+    court: 'court.html',
     ranks: program == null ? null : `rankings.html?program=${q(program)}`,
     schedule: program == null ? null : `schedule.html?program=${q(program)}`,
   };

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Courts — Third Coast Intel</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="assets/icon-167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/icon-152.png">
+<link rel="icon" href="assets/favicon-32.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="3CVB">
+<meta name="theme-color" content="#101A2C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div class="screen">
+  <div class="topbar"><div><div class="greet" id="greet"></div><div class="brand">Court <em style="color:var(--app-win)">Map</em></div></div></div>
+  <div class="slotbar" id="slotbar"></div>
+  <div class="body" id="body">
+    <p style="color:var(--app-faint);font-size:13px">Loading…</p>
+  </div>
+  <div class="tabbar">
+    <div class="tab" data-tab="home" aria-label="Home" title="Home"><div class="dot"><svg class="icon"><use href="#i-home"/></svg></div></div>
+    <div class="tab" data-tab="court" aria-label="Court" title="Court"><div class="dot"><svg class="icon"><use href="#i-court"/></svg></div></div>
+    <div class="tab" data-tab="ranks" aria-label="Ranks" title="Ranks"><div class="dot"><svg class="icon"><use href="#i-bars"/></svg></div></div>
+    <div class="tab" data-tab="schedule" aria-label="Schedule" title="Schedule"><div class="dot"><svg class="icon"><use href="#i-calendar"/></svg></div></div>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+<script>
+// court.html -- the venue floor for one night, one slot at a time.
+//
+// A port of the broadcast board's courtmap (thirdcoast_brackets
+// prototype/courtmap.html) down to a phone. The board's own arrangement
+// is kept because it is the whole point of a court MAP -- north bank
+// 8-12 down the left, 6-7 in the centre, south bank 1-5 down the right,
+// so the screen matches what you are standing in. What could not come
+// with it is the full matchup on every card: the board has 1920px to
+// spend and this has ~108px per column, which is the same truncation
+// problem the board's own comments describe hitting. So a card collapses
+// to its colour chip plus league, and tapping one opens the matchup
+// underneath.
+//
+// Venue-wide, not team-wide: the data is merged across every active
+// program by the archiver (docs/data/courts/{date}.json), because a real
+// Tuesday is five leagues sharing one floor.
+
+// The venue's real painted courts. Same table as gamenight.html's, which
+// is itself copied verbatim from the board's paint chart -- there is no
+// build step to share a module, which is this project's convention.
+// NOTE: the board marks court 9 (purple) `faint` and this does not. That
+// is not a drift: `faint` means "under 3:1 against the ground", and the
+// board's ground is teal while this app's is navy. Both are correct for
+// their own background; do not "fix" one to match the other.
+const COURT = {
+  1:  {name:"lime green", hex:"#8CC63F", ink:"#0A0A0A"},
+  2:  {name:"orange",     hex:"#F2872F", ink:"#0A0A0A"},
+  3:  {name:"blue",       hex:"#2F72C4", ink:"#FFFFFF"},
+  4:  {name:"maroon",     hex:"#8E2F3F", ink:"#FFFFFF", faint:true},
+  5:  {name:"dark green", hex:"#1F6B3A", ink:"#FFFFFF", faint:true},
+  6:  {name:"yellow",     hex:"#F2CE2F", ink:"#0A0A0A"},
+  7:  {name:"black",      hex:"#151515", ink:"#FFFFFF", faint:true},
+  8:  {name:"pink",       hex:"#E86FA8", ink:"#0A0A0A"},
+  9:  {name:"purple",     hex:"#8455C4", ink:"#FFFFFF"},
+  10: {name:"white",      hex:"#F4F4F2", ink:"#0A0A0A"},
+  11: {name:"red",        hex:"#D93A32", ink:"#FFFFFF"},
+  12: {name:"tan",        hex:"#C9A87C", ink:"#0A0A0A"},
+};
+
+// The real floor, straight from the board's own LAYOUT constant.
+const LAYOUT = { left: [8, 9, 10, 11, 12], middle: [6, 7], right: [1, 2, 3, 4, 5] };
+
+// A slot is one hour long at this venue -- 18:30, 19:30, 20:30, 21:30 on
+// every night in the archive.
+const SLOT_MINUTES = 60;
+
+let NIGHT = null;        // the loaded {date, slots:[...]}
+let slotIndex = 0;
+let userPickedSlot = false;  // a manual tap stops the clock moving them
+let openCourt = null;
+
+// Local calendar date, never toISOString(): that is UTC, and for a player
+// on Central time an evening game reads as tomorrow -- which on a court
+// map would mean showing the wrong night during the exact hours it
+// matters most.
+function todayISO() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+function minutesNow() {
+  const d = new Date();
+  return d.getHours() * 60 + d.getMinutes();
+}
+
+function slotMinutes(time) {
+  const [h, m] = String(time).split(':').map(Number);
+  return h * 60 + m;
+}
+
+// "18:30" -> "6:30", "19:00" -> "7". The bar is narrow and every slot at
+// this venue is an evening one, so the am/pm marker earns no space.
+function slotLabel(time) {
+  const [h, m] = String(time).split(':').map(Number);
+  const h12 = ((h + 11) % 12) + 1;
+  return m === 0 ? `${h12}` : `${h12}:${String(m).padStart(2, '0')}`;
+}
+
+// Which slot is happening right now. Only meaningful for tonight; any
+// other night has no live slot at all and simply opens on its first.
+function liveSlotIndex(night) {
+  if (!night || night.date !== todayISO()) return null;
+  const now = minutesNow();
+  for (let i = 0; i < night.slots.length; i++) {
+    const start = slotMinutes(night.slots[i].time);
+    if (now >= start && now < start + SLOT_MINUTES) return i;
+  }
+  return null;
+}
+
+// What the bar should show when nobody has tapped it: the live slot if
+// there is one, else the first slot before play starts, else the last
+// once the night is over.
+function defaultSlotIndex(night) {
+  const live = liveSlotIndex(night);
+  if (live !== null) return live;
+  if (!night || night.date !== todayISO()) return 0;
+  const now = minutesNow();
+  if (now < slotMinutes(night.slots[0].time)) return 0;
+  return night.slots.length - 1;
+}
+
+// The whole night is one weekday, named in the header, so repeating it on
+// twelve cards is twelve wasted lines: "Tuesday Coed 4s B" -> "Coed 4s B".
+function shortLeague(programName) {
+  return String(programName ?? '').replace(/^(Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day\s+/, '');
+}
+
+function prettyDate(iso) {
+  const [y, m, d] = String(iso).split('-').map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString(undefined,
+    { weekday: 'long', month: 'short', day: 'numeric' });
+}
+
+function currentSlot() {
+  return NIGHT?.slots?.[slotIndex] ?? null;
+}
+
+function courtsThisSlot() {
+  const byCourt = new Map();
+  for (const c of currentSlot()?.courts ?? []) byCourt.set(c.court, c);
+  return byCourt;
+}
+
+// The saved team's court this slot, if they are on one -- so a player
+// lands on the tab already looking at their own game.
+function myCourtNumber(byCourt) {
+  const saved = getMyTeam();
+  if (!saved) return null;
+  for (const [num, c] of byCourt) {
+    if (c.teams.some((t) => String(t.teamId) === String(saved.teamId))) return num;
+  }
+  return null;
+}
+
+function renderSlotbar() {
+  const live = liveSlotIndex(NIGHT);
+  document.getElementById('slotbar').innerHTML = (NIGHT?.slots ?? []).map((s, i) => `
+    <button class="slot${i === slotIndex ? ' on' : ''}" data-slot="${i}">
+      ${escapeHTML(slotLabel(s.time))}${i === live ? '<span class="livedot"></span>' : ''}
+    </button>`).join('');
+  for (const el of document.querySelectorAll('.slot')) {
+    el.addEventListener('click', () => {
+      slotIndex = Number(el.dataset.slot);
+      // From here the clock stops moving them: being yanked off the slot
+      // you deliberately opened is worse than a stale highlight.
+      userPickedSlot = true;
+      openCourt = null;
+      render();
+    });
+  }
+}
+
+function courtCardHTML(num, entry, mine) {
+  const paint = COURT[num];
+  const style = `--ct:${paint ? paint.hex : 'var(--app-raised)'};--ct-ink:${paint ? paint.ink : 'var(--app-ink)'}`;
+  const cls = ['court-card'];
+  if (!entry) cls.push('open');
+  if (paint?.faint) cls.push('faint');
+  if (mine) cls.push('mine');
+  if (openCourt === num) cls.push('sel');
+  return `
+    <button class="${cls.join(' ')}" style="${style}" data-court="${num}"
+            aria-label="Court ${num}${entry ? ', ' + escapeHTML(shortLeague(entry.programName)) : ', open'}">
+      <span class="cnum">${num}</span>
+      <span class="clg">${entry ? escapeHTML(shortLeague(entry.programName)) : 'Open'}</span>
+    </button>`;
+}
+
+function detailHTML(num, entry) {
+  const paint = COURT[num];
+  if (!entry) {
+    return `<div class="court-detail"><div class="cd-head">
+      <span class="cd-chip" style="--ct:${paint ? paint.hex : 'var(--app-raised)'};--ct-ink:${paint ? paint.ink : 'var(--app-ink)'}">${num}</span>
+      <span>${escapeHTML(paint ? paint.name : 'court ' + num)}</span></div>
+      <p class="cd-open">Nothing scheduled on this court in this slot.</p></div>`;
+  }
+  const saved = getMyTeam();
+  const side = (t) => {
+    const isMine = saved && String(t.teamId) === String(saved.teamId);
+    return `<a class="cd-team${isMine ? ' mine' : ''}" href="team.html?team=${encodeURIComponent(t.teamId)}&program=${encodeURIComponent(entry.programId)}">${escapeHTML(displayTeamName(t.teamName, { stripCaptain: true }))}</a>`;
+  };
+  return `<div class="court-detail">
+    <div class="cd-head">
+      <span class="cd-chip" style="--ct:${paint ? paint.hex : 'var(--app-raised)'};--ct-ink:${paint ? paint.ink : 'var(--app-ink)'}">${num}</span>
+      <span>${escapeHTML(paint ? paint.name : 'court ' + num)} · ${escapeHTML(shortLeague(entry.programName))}</span>
+    </div>
+    <div class="cd-teams">${entry.teams.map(side).join('<span class="cd-vs">vs</span>')}</div>
+  </div>`;
+}
+
+function render() {
+  const byCourt = courtsThisSlot();
+  const mine = myCourtNumber(byCourt);
+  // Default the open card to the player's own court -- the most likely
+  // reason to open this screen at all.
+  if (openCourt === null && mine !== null) openCourt = mine;
+
+  const bank = (nums) => nums.map((n) => courtCardHTML(n, byCourt.get(n) ?? null, n === mine)).join('');
+  const detail = openCourt === null
+    ? '<p class="cd-hint">Tap a court to see the matchup.</p>'
+    : detailHTML(openCourt, byCourt.get(openCourt) ?? null);
+
+  document.getElementById('body').innerHTML = `
+    <div class="floor">
+      <div class="bankcol"><div class="bank-label">North</div><div class="bank">${bank(LAYOUT.left)}</div></div>
+      <div class="bankcol"><div class="bank-label">Centre</div><div class="bank mid">${bank(LAYOUT.middle)}</div></div>
+      <div class="bankcol"><div class="bank-label">South</div><div class="bank">${bank(LAYOUT.right)}</div></div>
+    </div>
+    ${detail}`;
+
+  for (const el of document.querySelectorAll('.court-card')) {
+    el.addEventListener('click', () => {
+      const n = Number(el.dataset.court);
+      openCourt = openCourt === n ? null : n;
+      render();
+    });
+  }
+  renderSlotbar();
+}
+
+async function main() {
+  wireTabs({ active: 'court' });
+
+  const index = await fetchJSON('data/courts/index.json');
+  const dates = index?.dates ?? [];
+  // Venue-centric: tonight if anything is on at Third Coast, otherwise the
+  // next night anything is on. Not the saved team's next game -- a court
+  // map answers "what is happening in this building", which is usually
+  // why it gets opened.
+  const date = dates.find((d) => d >= todayISO()) ?? null;
+  if (!date) {
+    document.getElementById('greet').textContent = '';
+    document.getElementById('body').innerHTML =
+      '<p class="empty">No nights on the calendar yet. The archive refreshes every few hours.</p>';
+    return;
+  }
+
+  NIGHT = await fetchJSON(`data/courts/${date}.json`);
+  if (!NIGHT || (NIGHT.slots ?? []).length === 0) {
+    document.getElementById('body').innerHTML =
+      '<p class="empty">No courts posted for this night yet.</p>';
+    return;
+  }
+
+  document.getElementById('greet').textContent =
+    prettyDate(date) + (date === todayISO() ? ' · tonight' : '');
+  slotIndex = defaultSlotIndex(NIGHT);
+  render();
+
+  // Roll the highlight forward as the night runs -- but never over a slot
+  // the player chose themselves.
+  setInterval(() => {
+    if (userPickedSlot) return;
+    const next = defaultSlotIndex(NIGHT);
+    if (next !== slotIndex) { slotIndex = next; openCourt = null; render(); }
+  }, 60000);
+}
+
+main();
+</script>
+</body>
+</html>

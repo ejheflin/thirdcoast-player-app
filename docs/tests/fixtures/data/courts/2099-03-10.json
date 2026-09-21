@@ -1,0 +1,79 @@
+{
+  "date": "2099-03-10",
+  "slots": [
+    {
+      "time": "18:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 9001,
+          "programName": "Test Tuesday League",
+          "teams": [
+            {
+              "teamId": 502,
+              "teamName": "2. Fixture FC"
+            },
+            {
+              "teamId": 506,
+              "teamName": "5. Net Prophets"
+            }
+          ]
+        },
+        {
+          "court": 8,
+          "courtName": "Court 8",
+          "programId": 9001,
+          "programName": "Test Tuesday League",
+          "teams": [
+            {
+              "teamId": 501,
+              "teamName": "1. Testers United"
+            },
+            {
+              "teamId": 503,
+              "teamName": "3. Brand New Squad"
+            }
+          ]
+        },
+        {
+          "court": 12,
+          "courtName": "Court 12",
+          "programId": 9002,
+          "programName": "Winless Wednesday League",
+          "teams": [
+            {
+              "teamId": 504,
+              "teamName": "1. Sandbar Sitters"
+            },
+            {
+              "teamId": 505,
+              "teamName": "2. Beach Bums"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "courts": [
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 9001,
+          "programName": "Test Tuesday League",
+          "teams": [
+            {
+              "teamId": 502,
+              "teamName": "2. Fixture FC"
+            },
+            {
+              "teamId": 503,
+              "teamName": "3. Brand New Squad"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
