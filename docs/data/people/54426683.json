@@ -25,6 +25,12 @@
       "teamId": 8138298,
       "teamName": "7. Jacob J. and Jake S.",
       "isCaptain": true
+    },
+    {
+      "programId": 5148506,
+      "teamId": 8150950,
+      "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
     }
   ]
 }

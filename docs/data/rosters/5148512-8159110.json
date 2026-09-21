@@ -4,6 +4,11 @@
   "teamName": "5. Watermelon (Lauren K.)",
   "players": [
     {
+      "userId": 22293661,
+      "firstName": "Ian",
+      "isCaptain": false
+    },
+    {
       "userId": 51435336,
       "firstName": "Blake",
       "isCaptain": false

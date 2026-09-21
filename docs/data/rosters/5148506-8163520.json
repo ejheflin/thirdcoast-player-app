@@ -7,6 +7,16 @@
       "userId": 21071014,
       "firstName": "Aatir",
       "isCaptain": true
+    },
+    {
+      "userId": 58627962,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 52265111,
+      "firstName": "Chelsea",
+      "isCaptain": false
     }
   ]
 }

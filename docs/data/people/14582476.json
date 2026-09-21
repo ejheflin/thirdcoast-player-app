@@ -19,6 +19,12 @@
       "teamId": 8142664,
       "teamName": "4. FlyBallers ShotCallers (Albert F.)",
       "isCaptain": true
+    },
+    {
+      "programId": 5148510,
+      "teamId": 8162254,
+      "teamName": "4. The Replacements (Joe R.)",
+      "isCaptain": false
     }
   ]
 }

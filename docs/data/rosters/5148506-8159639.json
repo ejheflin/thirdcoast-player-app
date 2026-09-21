@@ -4,6 +4,16 @@
   "teamName": "5. Vacacioners (Phil M.)",
   "players": [
     {
+      "userId": 56707771,
+      "firstName": "Joshua",
+      "isCaptain": false
+    },
+    {
+      "userId": 46627282,
+      "firstName": "Cristofer",
+      "isCaptain": false
+    },
+    {
       "userId": 14605978,
       "firstName": "Philip",
       "isCaptain": true

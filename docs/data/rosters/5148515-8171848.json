@@ -1,0 +1,32 @@
+{
+  "programId": 5148515,
+  "teamId": 8171848,
+  "teamName": "9. Notorious D.I.G. (Rudy G.)",
+  "players": [
+    {
+      "userId": 58629997,
+      "firstName": "Kelly",
+      "isCaptain": false
+    },
+    {
+      "userId": 56720825,
+      "firstName": "Rudy",
+      "isCaptain": true
+    },
+    {
+      "userId": 58630124,
+      "firstName": "Kara",
+      "isCaptain": false
+    },
+    {
+      "userId": 45495747,
+      "firstName": "Aj",
+      "isCaptain": false
+    },
+    {
+      "userId": 58630015,
+      "firstName": "Adam",
+      "isCaptain": false
+    }
+  ]
+}
