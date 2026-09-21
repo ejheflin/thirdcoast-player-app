@@ -736,3 +736,29 @@ body{background:#101A2C}
 .cd-vs{font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--app-faint)}
 .cd-open{margin:9px 0 0;font-size:13px;color:var(--app-faint)}
 .cd-hint{margin-top:16px;font-size:12.5px;color:var(--app-faint);text-align:center}
+
+/* ── swipe between tabs ──────────────────────────────────────────────
+   Nine separate documents, not a single-page app, so the gesture cannot
+   track a finger across a transition. It splits the motion instead: the
+   page being left slides off, and the one arriving slides in from the
+   opposite side. app.js carries the direction across the navigation in
+   sessionStorage.
+
+   Every transform below restates translateX(-50%) -- that is .screen's
+   centring, not decoration, and dropping it would fling the whole app
+   half its own width off the side of the screen. */
+@media (prefers-reduced-motion: no-preference) {
+  .screen{transition:transform 130ms ease-in, opacity 130ms ease-in}
+  .screen.nav-out-left{transform:translateX(-50%) translateX(-16%);opacity:0}
+  .screen.nav-out-right{transform:translateX(-50%) translateX(16%);opacity:0}
+  .screen.nav-in-right{animation:nav-in-right 190ms cubic-bezier(.22,1,.36,1)}
+  .screen.nav-in-left{animation:nav-in-left 190ms cubic-bezier(.22,1,.36,1)}
+}
+@keyframes nav-in-right{
+  from{transform:translateX(-50%) translateX(16%);opacity:0}
+  to{transform:translateX(-50%);opacity:1}
+}
+@keyframes nav-in-left{
+  from{transform:translateX(-50%) translateX(-16%);opacity:0}
+  to{transform:translateX(-50%);opacity:1}
+}

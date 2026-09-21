@@ -917,6 +917,126 @@ await new Promise((r) => setTimeout(r, 400));
     await page.$eval('.tab[data-tab="home"]', (el) => !el.classList.contains('on') && !el.classList.contains('off')));
 }
 
+// ---- swipe between tabs -------------------------------------------------
+// Two halves: where a swipe ROUTES to (pure, testable directly), and
+// whether a given gesture counts as a swipe at all (needs real touches).
+await page.evaluate(() => localStorage.setItem(
+  'thirdcoast-my-team',
+  JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' }),
+));
+
+// A real swipe, dispatched as real TouchEvents on .screen. Anything less
+// than this would test the maths and none of the gesture.
+const swipe = async (dx, dy, startX) => page.evaluate(([x, y, sx0]) => {
+  const el = document.querySelector('.screen');
+  const mk = (type, cx, cy) => {
+    const t = new Touch({ identifier: 1, target: el, clientX: cx, clientY: cy });
+    return new TouchEvent(type, {
+      touches: type === 'touchend' ? [] : [t],
+      changedTouches: [t], targetTouches: type === 'touchend' ? [] : [t],
+      bubbles: true, cancelable: true,
+    });
+  };
+  const startY = 400;
+  el.dispatchEvent(mk('touchstart', sx0, startY));
+  el.dispatchEvent(mk('touchend', sx0 + x, startY + y));
+}, [dx, dy, startX]);
+
+await go('rankings.html?program=9001');
+{
+  // Routing: from Ranks, forward is Schedule and back is Court.
+  const dests = await page.evaluate(() => ({
+    fwd: window.swipeDestination(1),
+    back: window.swipeDestination(-1),
+  }));
+  check(`swiping forward from Ranks goes to Schedule, got ${dests.fwd}`,
+    (dests.fwd ?? '').startsWith('schedule.html'));
+  check(`swiping back from Ranks goes to Court, got ${dests.back}`, dests.back === 'court.html');
+}
+
+{
+  // The end of the bar is the end of the bar -- no wrap-around.
+  await go('schedule.html?program=9010');
+  const past = await page.evaluate(() => window.swipeDestination(1));
+  check(`swiping past the last tab goes nowhere, got ${past}`, past === null);
+  await go('gamenight.html?program=9001&team=501');
+  const before = await page.evaluate(() => window.swipeDestination(-1));
+  check(`swiping back from the first tab goes nowhere, got ${before}`, before === null);
+}
+
+{
+  // With no saved team, Ranks and Schedule have no destination; the
+  // swipe must step PAST them rather than stopping dead on one.
+  await go('search.html');
+  await page.evaluate(() => localStorage.removeItem('thirdcoast-my-team'));
+  await go('court.html');
+  await new Promise((r) => setTimeout(r, 350));
+  const skipped = await page.evaluate(() => window.swipeDestination(1));
+  check(`a swipe skips tabs with no destination, got ${skipped}`, skipped === null);
+  await page.evaluate(() => localStorage.setItem(
+    'thirdcoast-my-team',
+    JSON.stringify({ programId: 9001, teamId: 501, teamName: '1. Testers United', programName: 'Test Tuesday League' })));
+}
+
+{
+  // The gesture itself. A decisive horizontal drag navigates...
+  await go('rankings.html?program=9001');
+  await swipe(-120, 10, 200);
+  await page.waitForFunction(() => location.pathname.endsWith('/schedule.html'), { timeout: 4000 })
+    .then(() => check('a decisive left swipe navigates to the next tab', true))
+    .catch(() => check(`a decisive left swipe navigates to the next tab, still on ${path()}`, false));
+}
+
+{
+  // ...and a right swipe goes back the other way.
+  await page.waitForNetworkIdle({ idleTime: 200, timeout: 4000 }).catch(() => {});
+  await swipe(120, -8, 200);
+  await page.waitForFunction(() => location.pathname.endsWith('/rankings.html'), { timeout: 4000 })
+    .then(() => check('a decisive right swipe navigates to the previous tab', true))
+    .catch(() => check(`a decisive right swipe navigates to the previous tab, still on ${path()}`, false));
+}
+
+{
+  // The three ways a gesture must NOT be treated as a tab swipe. Each is
+  // a real thing a player does: scrolling the feed, tapping, and iOS's
+  // own edge-back gesture.
+  await go('rankings.html?program=9001');
+  const here = path();
+
+  await swipe(-30, -160, 200);            // a vertical flick down the feed
+  await new Promise((r) => setTimeout(r, 400));
+  check(`a vertical scroll is not a tab swipe, still on ${path()}`, path() === here);
+
+  await swipe(-8, 2, 200);                // a tap with a little wobble
+  await new Promise((r) => setTimeout(r, 400));
+  check(`a tap is not a tab swipe, still on ${path()}`, path() === here);
+
+  await swipe(-120, 5, 6);                // starting in iOS's edge-back zone
+  await new Promise((r) => setTimeout(r, 400));
+  check(`a swipe from the screen edge is left to iOS, still on ${path()}`, path() === here);
+}
+
+{
+  // The slide is two halves joined by sessionStorage; without the key the
+  // arriving page would just appear, which is the seam this hides.
+  await go('rankings.html?program=9001');
+  await swipe(-120, 0, 200);
+  await new Promise((r) => setTimeout(r, 60));
+  const outClass = await page.evaluate(() => document.querySelector('.screen')?.className ?? '');
+  check(`the outgoing page slides off before navigating, got ${JSON.stringify(outClass)}`,
+    outClass.includes('nav-out-left'));
+  await page.waitForFunction(() => location.pathname.endsWith('/schedule.html'), { timeout: 4000 }).catch(() => {});
+  await new Promise((r) => setTimeout(r, 500));
+  const cleared = await page.evaluate(() => {
+    let v = null;
+    try { v = sessionStorage.getItem('thirdcoast-nav-slide'); } catch { /* ignore */ }
+    return { key: v, cls: document.querySelector('.screen')?.className ?? '' };
+  });
+  check(`the direction key is consumed on arrival, got ${cleared.key}`, cleared.key === null);
+  check(`and the incoming page is left with no animation class stuck on it, got ${JSON.stringify(cleared.cls)}`,
+    !cleared.cls.includes('nav-in-') && !cleared.cls.includes('nav-out-'));
+}
+
 // ---- season rollover: index.html -> season.html --------------------------
 //
 // The bug these cover, seen live on 2026-09-19: a player's saved pointer is
