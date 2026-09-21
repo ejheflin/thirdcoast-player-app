@@ -12,6 +12,11 @@
       "userId": 54415783,
       "firstName": "Javier",
       "isCaptain": false
+    },
+    {
+      "userId": 14707129,
+      "firstName": "Emiliano",
+      "isCaptain": false
     }
   ]
 }

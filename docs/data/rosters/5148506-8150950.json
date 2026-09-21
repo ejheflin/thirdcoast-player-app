@@ -7,6 +7,11 @@
       "userId": 17299156,
       "firstName": "Daniel",
       "isCaptain": true
+    },
+    {
+      "userId": 53185400,
+      "firstName": "Daniel",
+      "isCaptain": false
     }
   ]
 }
