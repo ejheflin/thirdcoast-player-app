@@ -4,6 +4,11 @@
   "teamName": "8. Net Ninjas (Ali F.)",
   "players": [
     {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": false
+    },
+    {
       "userId": 53474081,
       "firstName": "Ali",
       "isCaptain": true
