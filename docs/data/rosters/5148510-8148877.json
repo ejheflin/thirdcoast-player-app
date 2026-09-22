@@ -9,6 +9,11 @@
       "isCaptain": false
     },
     {
+      "userId": 35077900,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
       "userId": 14645212,
       "firstName": "Marc",
       "isCaptain": true

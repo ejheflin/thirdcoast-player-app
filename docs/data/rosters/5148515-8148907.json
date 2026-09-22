@@ -4,6 +4,11 @@
   "teamName": "11. What Court Are We On (Bear S.)",
   "players": [
     {
+      "userId": 57810251,
+      "firstName": "Nathaniel",
+      "isCaptain": false
+    },
+    {
       "userId": 53966997,
       "firstName": "Maddison",
       "isCaptain": false
