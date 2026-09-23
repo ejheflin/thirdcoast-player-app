@@ -4,6 +4,11 @@
   "teamName": "5. HIT FACED (Clark P.)",
   "players": [
     {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
       "userId": 18837775,
       "firstName": "Albert",
       "isCaptain": false

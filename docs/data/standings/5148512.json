@@ -4,16 +4,36 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8154126,
+      "teamName": "7. Bongos (Joseph M.)",
+      "gamesPlayed": 2,
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 2,
+      "teamId": 8159110,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "points": 2
+    },
+    {
+      "position": 3,
       "teamId": 8160228,
       "teamName": "3. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 0
     },
     {
-      "position": 2,
+      "position": 4,
       "teamId": 8137254,
       "teamName": "4. Milk (Sean M.)",
       "gamesPlayed": 0,
@@ -23,39 +43,19 @@
       "points": 0
     },
     {
-      "position": 3,
+      "position": 5,
       "teamId": 8148853,
       "teamName": "1. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 4,
-      "teamId": 8151238,
-      "teamName": "2. Score Check (Julianna T.)",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 5,
-      "teamId": 8154126,
-      "teamName": "7. Bongos (Joseph M.)",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 0
     },
     {
       "position": 6,
-      "teamId": 8159110,
-      "teamName": "5. Watermelon (Lauren K.)",
+      "teamId": 8151238,
+      "teamName": "2. Score Check (Julianna T.)",
       "gamesPlayed": 0,
       "wins": 0,
       "losses": 0,

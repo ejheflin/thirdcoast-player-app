@@ -7,6 +7,12 @@
       "teamId": 8020386,
       "teamName": "2. Holli D. and Dan L.",
       "isCaptain": true
+    },
+    {
+      "programId": 5143200,
+      "teamId": 8139783,
+      "teamName": "5. HIT FACED (Clark P.)",
+      "isCaptain": false
     }
   ]
 }
