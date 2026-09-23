@@ -108,6 +108,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077676,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8156795,
+          "teamName": "9. Liz C. and Madison P.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8167966,
+          "teamName": "10. Kat H. and Julia V.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077678,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8167966,
+          "teamName": "10. Kat H. and Julia V.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

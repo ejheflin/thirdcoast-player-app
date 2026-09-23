@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8153555,
+      "teamName": "2. Big Dig Energy (Chad S.)",
+      "gamesPlayed": 2,
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 5,
       "teamId": 8146380,
       "teamName": "9. Holy Balls (Jacob Y.)",
       "gamesPlayed": 2,
@@ -43,29 +53,19 @@
       "points": 2
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8148116,
       "teamName": "5. Shank You Very Much (Jaimie M.)",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 2
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8162254,
       "teamName": "4. The Replacements (Joe R.)",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 7,
-      "teamId": 8148877,
-      "teamName": "7. Can You Dig It? (Marc S.)",
       "gamesPlayed": 2,
       "wins": 0,
       "losses": 2,
@@ -74,11 +74,11 @@
     },
     {
       "position": 8,
-      "teamId": 8153555,
-      "teamName": "2. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 0,
+      "teamId": 8148877,
+      "teamName": "7. Can You Dig It? (Marc S.)",
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "ties": 0,
       "points": 0
     },
