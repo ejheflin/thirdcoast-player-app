@@ -180,6 +180,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14095428,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8137762,
+          "teamName": "4. Notorious DIG (Connor D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8148907,
+          "teamName": "11. What Court Are We On (Bear S.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095432,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8137775,
+          "teamName": "5. Sets Pistols (Christina Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148907,
+          "teamName": "11. What Court Are We On (Bear S.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
