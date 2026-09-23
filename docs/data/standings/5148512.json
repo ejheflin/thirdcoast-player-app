@@ -26,11 +26,11 @@
       "position": 3,
       "teamId": 8160228,
       "teamName": "3. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 1,
-      "wins": 0,
+      "gamesPlayed": 2,
+      "wins": 1,
       "losses": 1,
       "ties": 0,
-      "points": 0
+      "points": 2
     },
     {
       "position": 4,
@@ -46,9 +46,9 @@
       "position": 5,
       "teamId": 8148853,
       "teamName": "1. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 0
     },

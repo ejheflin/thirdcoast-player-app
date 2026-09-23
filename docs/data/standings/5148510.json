@@ -24,31 +24,31 @@
     },
     {
       "position": 3,
-      "teamId": 8162254,
-      "teamName": "4. The Replacements (Joe R.)",
-      "gamesPlayed": 0,
-      "wins": 0,
+      "teamId": 8135728,
+      "teamName": "6. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "points": 0
+      "points": 4
     },
     {
       "position": 4,
-      "teamId": 8135728,
-      "teamName": "6. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
+      "teamId": 8146380,
+      "teamName": "9. Holy Balls (Jacob Y.)",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 1,
       "ties": 0,
-      "points": 0
+      "points": 2
     },
     {
       "position": 5,
-      "teamId": 8146380,
-      "teamName": "9. Holy Balls (Jacob Y.)",
-      "gamesPlayed": 0,
+      "teamId": 8162254,
+      "teamName": "4. The Replacements (Joe R.)",
+      "gamesPlayed": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 0
     },
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8164233,
       "teamName": "10. Carpe Digem (Eric H.)",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 0
     },

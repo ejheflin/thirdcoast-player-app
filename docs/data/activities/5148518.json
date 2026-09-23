@@ -36,6 +36,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14077682,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
