@@ -206,6 +206,12 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
+    "teamId": 8163816,
+    "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
     "teamId": 8150950,
     "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
   },
@@ -218,26 +224,20 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8150721,
-    "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
     "teamId": 8159639,
     "teamName": "5. Vacacioners (Phil M.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8163533,
-    "teamName": "3. Hustle Gang (Calvin D.)"
+    "teamId": 8150721,
+    "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8163816,
-    "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
+    "teamId": 8163533,
+    "teamName": "3. Hustle Gang (Calvin D.)"
   },
   {
     "programId": 5148510,
@@ -266,14 +266,14 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8162254,
-    "teamName": "4. The Replacements (Joe R.)"
+    "teamId": 8148116,
+    "teamName": "5. Shank You Very Much (Jaimie M.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8148116,
-    "teamName": "5. Shank You Very Much (Jaimie M.)"
+    "teamId": 8162254,
+    "teamName": "4. The Replacements (Joe R.)"
   },
   {
     "programId": 5148510,
@@ -308,6 +308,12 @@
   {
     "programId": 5148512,
     "programName": "Tuesday Coed 4s BB",
+    "teamId": 8159128,
+    "teamName": "6. Twin Peaks (Dan F.)"
+  },
+  {
+    "programId": 5148512,
+    "programName": "Tuesday Coed 4s BB",
     "teamId": 8159110,
     "teamName": "5. Watermelon (Lauren K.)"
   },
@@ -332,20 +338,14 @@
   {
     "programId": 5148512,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8148853,
-    "teamName": "1. Beach Bunnies (Jimmy R.)"
-  },
-  {
-    "programId": 5148512,
-    "programName": "Tuesday Coed 4s BB",
-    "teamId": 8159128,
-    "teamName": "6. Twin Peaks (Dan F.)"
-  },
-  {
-    "programId": 5148512,
-    "programName": "Tuesday Coed 4s BB",
     "teamId": 8165690,
     "teamName": "8. Net Ninjas (Ali F.)"
+  },
+  {
+    "programId": 5148512,
+    "programName": "Tuesday Coed 4s BB",
+    "teamId": 8148853,
+    "teamName": "1. Beach Bunnies (Jimmy R.)"
   },
   {
     "programId": 5148515,
@@ -422,8 +422,20 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
+    "teamId": 8148743,
+    "teamName": "1. Olivia J. and Emily S."
+  },
+  {
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
     "teamId": 8161616,
     "teamName": "5. Juliana T. and Lauren W."
+  },
+  {
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
+    "teamId": 8150354,
+    "teamName": "4. Yanni S. and Ali. M."
   },
   {
     "programId": 5148518,
@@ -448,18 +460,6 @@
     "programName": "Tuesday Womens 2s A",
     "teamId": 8139645,
     "teamName": "8. Molly J. and Nicole B."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
-    "teamId": 8148743,
-    "teamName": "1. Olivia J. and Emily S."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
-    "teamId": 8150354,
-    "teamName": "4. Yanni S. and Ali. M."
   },
   {
     "programId": 5148518,

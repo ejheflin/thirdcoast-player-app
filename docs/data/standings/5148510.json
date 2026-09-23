@@ -44,21 +44,21 @@
     },
     {
       "position": 5,
+      "teamId": 8148116,
+      "teamName": "5. Shank You Very Much (Jaimie M.)",
+      "gamesPlayed": 1,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "points": 2
+    },
+    {
+      "position": 6,
       "teamId": 8162254,
       "teamName": "4. The Replacements (Joe R.)",
       "gamesPlayed": 1,
       "wins": 0,
       "losses": 1,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 6,
-      "teamId": 8148116,
-      "teamName": "5. Shank You Very Much (Jaimie M.)",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
       "ties": 0,
       "points": 0
     },
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8164233,
       "teamName": "10. Carpe Digem (Eric H.)",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 0
     },

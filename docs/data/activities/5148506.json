@@ -72,6 +72,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14077448,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8159639,
+          "teamName": "5. Vacacioners (Phil M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077449,
+      "date": "2026-09-22",
+      "teams": [
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
