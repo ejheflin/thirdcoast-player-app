@@ -57,6 +57,19 @@
 // The real floor, straight from the board's own LAYOUT constant.
 const LAYOUT = { left: [8, 9, 10, 11, 12], middle: [6, 7], right: [1, 2, 3, 4, 5] };
 
+// The rest of the room, for orientation: the bar and the entrance sit in
+// the open floor below courts 6 and 7. The bar is an L on a 4x4 grid --
+// the whole bottom row plus the first column's lower three cells -- and
+// the entrance is between the north bank and the bar's upright. Static:
+// nothing here depends on the night or the slot.
+const VENUE_HTML = `
+  <div class="venue" aria-hidden="true">
+    <div class="entrance"><span>Entrance</span></div>
+    <div class="venue-box"></div>
+    <div class="bar bar-up"></div>
+    <div class="bar bar-run"><span>Bar</span></div>
+  </div>`;
+
 // A slot is one hour long at this venue -- 18:30, 19:30, 20:30, 21:30 on
 // every night in the archive.
 const SLOT_MINUTES = 60;
@@ -267,7 +280,7 @@ function render() {
   document.getElementById('body').innerHTML = `
     <div class="floor">
       <div class="bankcol"><div class="bank-label">North</div><div class="bank">${bank(LAYOUT.left)}</div></div>
-      <div class="bankcol"><div class="bank-label">Center</div><div class="bank mid">${bank(LAYOUT.middle)}</div></div>
+      <div class="bankcol center"><div class="bank-label">Center</div><div class="bank mid">${bank(LAYOUT.middle)}</div>${VENUE_HTML}</div>
       <div class="bankcol"><div class="bank-label">South</div><div class="bank">${bank(LAYOUT.right)}</div></div>
     </div>
     <div id="detail" class="court-detail-host"></div>`;

@@ -802,3 +802,27 @@ body{background:#101A2C}
    its own line under the name instead of being clipped off the end. */
 .opp-row .nm .nmt{display:block;overflow:hidden;text-overflow:ellipsis}
 .opp-row .nm .mv{margin-top:3px}
+
+/* ---- court.html: the bar and the entrance ------------------------------
+   The open floor under courts 6-7 holds the rest of the room, so the map
+   has landmarks beyond court numbers. Pinned to the bottom of the centre
+   column (which the floor grid stretches to the full bank height), so it
+   sits level with courts 12 and 5 however tall a card grows. The
+   entrance strip comes first in the row: it is between the north bank and
+   the bar, which is exactly where it is in the building. */
+.bankcol.center{position:relative}
+.venue{position:absolute;left:0;right:0;bottom:0;display:grid;
+  grid-template-columns:16px 4px repeat(4,1fr);grid-template-rows:repeat(4,1fr)}
+/* The dashed outline is one item spanning the 4x4 box and sets its
+   height (square); the bar pieces and the entrance are placed on the same
+   grid, so the entrance spans exactly rows 2-4, level with the upright. */
+.venue-box{grid-column:3 / 7;grid-row:1 / 5;aspect-ratio:1;
+  border:1px dashed var(--app-line);border-radius:12px}
+.bar{background:color-mix(in srgb, var(--app-accent) 30%, var(--app-surface))}
+.bar-up{grid-column:3;grid-row:2 / 4;margin-left:1px}
+.bar-run{grid-column:3 / 7;grid-row:4;display:grid;place-items:center;margin:0 1px 1px;border-radius:0 0 11px 11px}
+.bar-run span,.entrance span{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.bar-run span{color:var(--app-accent)}
+.entrance{grid-column:1;grid-row:2 / 5;display:grid;place-items:center;
+  border-left:3px solid var(--app-data);border-radius:2px}
+.entrance span{writing-mode:vertical-rl;transform:rotate(180deg);color:var(--app-data);white-space:nowrap}

@@ -905,6 +905,34 @@ await new Promise((r) => setTimeout(r, 400));
 }
 
 {
+  // The room's landmarks under courts 6-7: an L-shaped bar (bottom row
+  // plus column 1's lower three cells of a 4x4 box) and the entrance
+  // between the north bank and the bar, both labeled.
+  const venue = await page.evaluate(() => {
+    const v = document.querySelector('.bankcol.center .venue');
+    if (!v) return null;
+    const r = (sel) => v.querySelector(sel).getBoundingClientRect();
+    const box = r('.venue-box'), up = r('.bar-up'), run = r('.bar-run'), ent = r('.entrance');
+    const north = document.querySelector('.court-card[data-court="12"]').getBoundingClientRect();
+    const cell = box.height / 4;
+    const near = (a, b) => Math.abs(a - b) < 2.5;
+    return {
+      square: near(box.width, box.height),
+      runIsBottomRow: near(run.top, box.bottom - cell) && near(run.width, box.width - 2),
+      upIsCol1Rows23: near(up.left, box.left + 1) && near(up.top, box.top + cell) && near(up.bottom, run.top),
+      entranceBetween: ent.left >= north.right && ent.right <= up.left && near(ent.top, box.top + cell),
+      levelWith12: near(box.bottom, north.bottom),
+      labels: [v.querySelector('.bar-run').textContent.trim(), v.querySelector('.entrance').textContent.trim()],
+    };
+  });
+  check(`the venue box is a square with the L-shaped bar, got ${JSON.stringify(venue)}`,
+    venue?.square && venue.runIsBottomRow && venue.upIsCol1Rows23);
+  check('the entrance sits between the north courts and the bar, level with its upright', venue?.entranceBetween);
+  check('the box sits level with the bottom of the banks', venue?.levelWith12);
+  check('bar and entrance are labeled', JSON.stringify(venue?.labels) === JSON.stringify(['Bar', 'Entrance']));
+}
+
+{
   // The locked-phone bug: open at 7:30, lock, unlock at 9:30 -- the live
   // dot must move the moment the page is visible again, not on whatever
   // tick of a suspended timer comes next. Simulated with a synthetic
