@@ -870,19 +870,28 @@ body{background:#101A2C}
   font:600 10px -apple-system,"Barlow Condensed",sans-serif;color:#111}
 .nd-page{position:absolute;inset:14px 12px 44px;display:flex;flex-direction:column;gap:8px}
 .nd-page i{display:block;height:22px;border-radius:6px;background:#dcdce3}
-.nd-f1,.nd-f2,.nd-f3,.nd-f4{position:absolute;inset:0;opacity:0;animation:9s infinite}
-.nd-f1{animation-name:nd-f1}.nd-f2{animation-name:nd-f2}.nd-f3{animation-name:nd-f3}.nd-f4{animation-name:nd-f4}
-@keyframes nd-f1{0%,24%{opacity:1}26%,100%{opacity:0}}
-@keyframes nd-f2{0%,24%{opacity:0}26%,49%{opacity:1}51%,100%{opacity:0}}
-@keyframes nd-f3{0%,49%{opacity:0}51%,74%{opacity:1}76%,100%{opacity:0}}
-@keyframes nd-f4{0%,74%{opacity:0}76%,98%{opacity:1}100%{opacity:0}}
+/* One frame shown at a time (startInstallDemo toggles .on). Each
+   frame's own motion -- the sheet sliding up, the ring landing, the icon
+   popping in -- is keyed to .on, so it replays every time the frame
+   comes round. */
+.nd-frame{position:absolute;inset:0;opacity:0;transition:opacity .25s}
+.nd-frame.on{opacity:1}
 .nd-bar{position:absolute;left:0;right:0;bottom:0;height:36px;background:#fff;border-top:1px solid #ddd;
   display:flex;align-items:center;justify-content:space-around;font-size:15px;color:#007aff}
+/* Safari 26: a floating pill -- back, the address, then •••. */
+.nd-bar.compact{left:6px;right:6px;bottom:6px;height:30px;border:1px solid #ddd;border-radius:16px;
+  justify-content:space-between;padding:0 10px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.nd-url{flex:1;text-align:center;font-size:10px;color:#333}
 .nd-bar .ig,.nd-row .ig{width:16px;height:16px}
-.nd-share{display:grid;place-items:center;color:#007aff}
+.nd-share,.nd-more{display:grid;place-items:center;color:#007aff}
+.nd-menu{position:absolute;right:6px;bottom:42px;width:122px;background:#fff;border-radius:12px;padding:4px;
+  box-shadow:0 6px 20px rgba(0,0,0,.2);transform-origin:bottom right}
+.nd-frame.on .nd-menu{animation:nd-grow .3s ease-out}
+@keyframes nd-grow{from{transform:scale(.6);opacity:0}}
 .nd-sheet{position:absolute;left:0;right:0;bottom:0;background:#fff;border-radius:14px 14px 0 0;padding:8px 8px 12px;
-  box-shadow:0 -4px 16px rgba(0,0,0,.15);animation:nd-slide 9s infinite}
-@keyframes nd-slide{0%,25%{transform:translateY(100%)}30%,100%{transform:none}}
+  box-shadow:0 -4px 16px rgba(0,0,0,.15)}
+.nd-frame.on .nd-sheet{animation:nd-slide .35s ease-out}
+@keyframes nd-slide{from{transform:translateY(100%)}}
 .nd-row{display:flex;align-items:center;justify-content:space-between;padding:8px 8px;border-radius:8px;font-size:10.5px}
 .nd-row + .nd-row{border-top:1px solid #eee}
 .nd-row.hl{background:#e8f1ff;color:#007aff;font-weight:800}
@@ -893,17 +902,20 @@ body{background:#101A2C}
 .nd-home{position:absolute;inset:0;background:linear-gradient(160deg,#2b4a7a,#101a2c);display:grid;
   grid-template-columns:repeat(4,1fr);gap:12px;padding:18px 12px;align-content:start}
 .nd-home i,.nd-home img{aspect-ratio:1;border-radius:9px;width:100%;background:rgba(255,255,255,.22)}
-.nd-home img{animation:nd-pop 9s infinite}
-@keyframes nd-pop{0%,78%{transform:scale(.4);opacity:0}84%{transform:scale(1.15);opacity:1}88%,100%{transform:none}}
+.nd-frame.on .nd-home img{animation:nd-pop .9s ease-out .3s both}
+@keyframes nd-pop{0%{transform:scale(.4);opacity:0}60%{transform:scale(1.15);opacity:1}100%{transform:none}}
 /* The finger: a ring that lands on the thing to tap in each frame. */
-.nd-tap{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;
-  border:3px solid rgba(255,59,48,.9);animation:nd-tap 2.25s infinite}
-.nd-tap.t1{left:50%;bottom:3px;margin-top:0}
-.nd-tap.t1.more{left:89%}
-.nd-tap.t2{left:50%;bottom:44px;margin-top:0}
-.nd-tap.t3{right:4px;top:22px;margin:0}
-@keyframes nd-tap{0%,40%{transform:scale(1.6);opacity:0}60%{transform:scale(1);opacity:1}85%{transform:scale(.8);opacity:0}100%{opacity:0}}
+.nd-tap{position:absolute;width:30px;height:30px;border-radius:50%;border:3px solid rgba(255,59,48,.9);opacity:0}
+.nd-frame.on .nd-tap{animation:nd-tap 1.6s ease-out .35s both}
+.nd-tap.at-share{left:50%;margin-left:-15px;bottom:3px}
+.nd-tap.at-more{right:4px;bottom:6px}
+.nd-tap.at-menu-share{right:10px;bottom:136px}
+.nd-tap.at-sheet{left:50%;margin-left:-15px;bottom:44px}
+.nd-tap.at-add{right:4px;top:4px}
+@keyframes nd-tap{0%{transform:scale(1.7);opacity:0}25%{transform:scale(1);opacity:1}40%{transform:scale(.85)}55%{transform:scale(1)}80%{opacity:1}100%{opacity:0}}
+.nd-cap{margin:10px 0 0;font-size:14px;font-weight:700;color:var(--app-accent);min-height:18px}
 @media (prefers-reduced-motion:reduce){
-  .nag-arrow,.nd-tap,.nd-sheet,.nd-home img{animation:none}
-  .nd-f1,.nd-f2,.nd-f3,.nd-f4{animation-duration:24s}
+  .nag-arrow,.nd-frame.on .nd-sheet,.nd-frame.on .nd-menu,.nd-frame.on .nd-home img{animation:none}
+  .nd-frame.on .nd-tap{animation:none;opacity:1}
 }
+

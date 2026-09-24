@@ -584,20 +584,61 @@ const ADD_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><rect x="4" y="4" width="
 const MORE_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><circle cx="5.5" cy="12" r="1.9" fill="currentColor"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/><circle cx="18.5" cy="12" r="1.9" fill="currentColor"/></svg>';
 const KEBAB_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><circle cx="12" cy="5.5" r="1.9" fill="currentColor"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/><circle cx="12" cy="18.5" r="1.9" fill="currentColor"/></svg>';
 
-// The looping walkthrough: a little phone doing the three taps. CSS
-// animation rather than a GIF -- crisp at any pixel density, a fraction
-// of the bytes, and it is drawn in this app's own colours.
+// The looping walkthrough: a little phone doing every tap, one frame per
+// tap, with a caption naming it. Drawn rather than a GIF -- crisp at any
+// pixel density, a fraction of the bytes, in this app's own colours --
+// and stepped by startInstallDemo(), because Safari 26 has one more tap
+// than older Safari (••• before Share) and fixed CSS timings cannot vary
+// the frame count.
 function installDemoHTML({ behindMore = false } = {}) {
+  const frame = (cap, body) => `<div class="nd-frame" data-cap="${escapeHTML(cap)}">${body}</div>`;
+  const tap = (cls) => `<div class="nd-tap ${cls}"></div>`;
+  const frames = [];
+  if (behindMore) {
+    // Safari 26's compact toolbar: back, the address pill, then •••.
+    frames.push(frame('Tap •••',
+      `<div class="nd-bar compact"><span>‹</span><span class="nd-url">3cvb</span><b class="nd-more">${MORE_GLYPH}</b></div>${tap('at-more')}`));
+    frames.push(frame('Tap Share',
+      `<div class="nd-bar compact"><span>‹</span><span class="nd-url">3cvb</span><b class="nd-more">${MORE_GLYPH}</b></div>
+       <div class="nd-menu"><div class="nd-row hl">Share ${SHARE_GLYPH}</div><div class="nd-row">Add to Bookmarks</div><div class="nd-row">Add to Favorites</div><div class="nd-row">New Tab</div></div>${tap('at-menu-share')}`));
+  } else {
+    frames.push(frame('Tap Share',
+      `<div class="nd-bar"><span>‹</span><span>›</span><b class="nd-share">${SHARE_GLYPH}</b><span>▢</span><span>⋯</span></div>${tap('at-share')}`));
+  }
+  frames.push(frame('Tap Add to Home Screen',
+    `<div class="nd-sheet"><div class="nd-row">Copy</div><div class="nd-row">Add to Reading List</div><div class="nd-row hl">Add to Home Screen ${ADD_GLYPH}</div><div class="nd-row">Add Bookmark</div></div>${tap('at-sheet')}`));
+  frames.push(frame('Tap Add',
+    `<div class="nd-dialog"><div class="nd-dh"><span>Cancel</span><b>Add</b></div><div class="nd-app"><img src="assets/icon-180.png" alt=""><span>3CVB</span></div></div>${tap('at-add')}`));
+  frames.push(frame('Open 3CVB from your Home Screen',
+    '<div class="nd-home"><i></i><i></i><i></i><img src="assets/icon-180.png" alt=""><i></i><i></i><i></i><i></i></div>'));
   return `
     <div class="nag-demo" aria-hidden="true">
       <div class="nd-screen">
         <div class="nd-page"><i></i><i></i><i></i><i></i></div>
-        <div class="nd-f1"><div class="nd-bar"><span>‹</span><span>›</span><b class="nd-share">${SHARE_GLYPH}</b><span>▢</span><span>⋯</span></div><div class="nd-tap t1${behindMore ? ' more' : ''}"></div></div>
-        <div class="nd-f2"><div class="nd-sheet"><div class="nd-row">Copy</div><div class="nd-row">Add to Reading List</div><div class="nd-row hl">Add to Home Screen ${ADD_GLYPH}</div><div class="nd-row">Add Bookmark</div></div><div class="nd-tap t2"></div></div>
-        <div class="nd-f3"><div class="nd-dialog"><div class="nd-dh"><span>Cancel</span><b>Add</b></div><div class="nd-app"><img src="assets/icon-180.png" alt=""><span>3CVB</span></div></div><div class="nd-tap t3"></div></div>
-        <div class="nd-f4"><div class="nd-home"><i></i><i></i><i></i><img src="assets/icon-180.png" alt=""><i></i><i></i><i></i><i></i></div></div>
+        ${frames.join('')}
       </div>
-    </div>`;
+    </div>
+    <p class="nd-cap" aria-hidden="true"></p>`;
+}
+
+// Steps the demo one frame per tap, looping, until the guide is closed.
+const DEMO_FRAME_MS = 2200;
+function startInstallDemo(nag) {
+  const frames = [...nag.querySelectorAll('.nd-frame')];
+  const cap = nag.querySelector('.nd-cap');
+  if (frames.length === 0) return;
+  const slow = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let i = 0;
+  const show = () => {
+    frames.forEach((f, n) => f.classList.toggle('on', n === i));
+    if (cap) cap.textContent = `${i + 1}. ${frames[i].dataset.cap}`;
+  };
+  show();
+  const timer = setInterval(() => {
+    if (!nag.isConnected) { clearInterval(timer); return; }
+    i = (i + 1) % frames.length;
+    show();
+  }, slow ? DEMO_FRAME_MS * 2 : DEMO_FRAME_MS);
 }
 
 function installNagHTML(platform) {
@@ -676,6 +717,7 @@ function mountInstallNag() {
   nag.setAttribute('aria-label', 'Add 3CVB to your Home Screen');
   nag.innerHTML = installNagHTML(platform);
   screen.appendChild(nag);
+  startInstallDemo(nag);
 
   const close = () => { markNagQuiet(); nag.remove(); };
   nag.querySelector('.nag-later').addEventListener('click', close);

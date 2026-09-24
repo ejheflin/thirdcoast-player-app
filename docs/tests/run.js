@@ -1419,7 +1419,10 @@ await go('rankings.html?program=9001');
     steps: [...document.querySelectorAll('.nag-steps li')].map((li) => li.textContent),
     arrow: document.querySelector('.nag-arrow')?.className ?? null,
     demo: !!document.querySelector('.nag-demo'),
+    caps: [...document.querySelectorAll('.nd-frame')].map((f) => f.dataset.cap),
   }));
+  check(`Safari 26's walkthrough shows every tap: •••, Share, Add to Home Screen, Add, got ${JSON.stringify(shown.caps)}`,
+    JSON.stringify(shown.caps.slice(0, 4)) === JSON.stringify(['Tap •••', 'Tap Share', 'Tap Add to Home Screen', 'Tap Add']));
   check(`iPhone Safari in a browser tab gets the full-screen guide, got ${JSON.stringify(shown.platform)}`,
     shown.platform === 'ios-safari' && shown.demo);
   check(`Safari 26's guide says to tap ••• first and points at it, got ${JSON.stringify(shown)}`,
@@ -1433,6 +1436,17 @@ await go('rankings.html?program=9001');
   await tab.reload({ waitUntil: 'networkidle0' });
   check('...but comes back on the next visit', (await tab.$('.install-nag')) !== null);
   await tab.close();
+
+  // Older Safari has Share right in the toolbar: no ••• step.
+  const old = await phone({ standalone: false });
+  await old.setUserAgent(IPHONE.replace('Version/26.0', 'Version/18.6'));
+  await old.goto(`${BASE}/court.html`, { waitUntil: 'networkidle0' });
+  await old.evaluate(() => localStorage.clear());
+  await old.reload({ waitUntil: 'networkidle0' });
+  const oldCaps = await old.$$eval('.nd-frame', (fs) => fs.map((f) => f.dataset.cap));
+  check(`pre-26 Safari's walkthrough starts at Share, got ${JSON.stringify(oldCaps)}`,
+    oldCaps[0] === 'Tap Share' && !oldCaps.includes('Tap •••'));
+  await old.close();
 
   const app = await phone({ standalone: true });
   await app.goto(`${BASE}/court.html`, { waitUntil: 'networkidle0' });
