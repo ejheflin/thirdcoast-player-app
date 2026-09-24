@@ -64,6 +64,14 @@ workflow archives from LeagueApps every 12 hours.
     **Omnisearch.** Every top bar has a magnifier that searches every
     player (first name) and team across every season, from one lazily
     fetched `data/search-index.json`.
+    **Install guide.** A phone visitor in a plain browser (not the
+    home-screen app) gets a full-screen "add to Home Screen" guide on every
+    visit; "Not now" quiets it for that visit (a sliding 30 minutes).
+    Android Chrome gets a real one-tap Install button. iOS gets animated
+    steps and an arrow at Safari's own Share button, because no web page
+    can open "Add to Home Screen" for the user. Desktop never sees it, and
+    neither does the Puppeteer suite (`navigator.webdriver`) unless a test
+    forces a platform with `window.__installNag`.
   - `/docs/tests` — the local Puppeteer UI suite and its fixture data.
   - `/docs/.nojekyll` — tells Pages to serve these files as-is instead of
     running them through Jekyll.

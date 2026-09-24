@@ -1393,6 +1393,74 @@ await go('rankings.html?program=9001');
   check('an omnisearch player result opens their card', path() === '/player.html?person=2');
 }
 
+// ---- install guide: phone browser vs installed app ------------------------
+// Real detection, not the test hook: a spoofed iPhone Safari with
+// navigator.webdriver hidden, once as a plain browser tab and once as a
+// home-screen app (navigator.standalone).
+{
+  const IPHONE = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1';
+  const phone = async ({ standalone }) => {
+    const p = await browser.newPage();
+    p.on('pageerror', (err) => { pageErrors++; console.error('PAGE ERROR:', err.message); });
+    await p.setUserAgent(IPHONE);
+    await p.evaluateOnNewDocument((sa) => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => false });
+      Object.defineProperty(navigator, 'standalone', { get: () => sa });
+    }, standalone);
+    return p;
+  };
+
+  const tab = await phone({ standalone: false });
+  await tab.goto(`${BASE}/court.html`, { waitUntil: 'networkidle0' });
+  await tab.evaluate(() => localStorage.clear());
+  await tab.reload({ waitUntil: 'networkidle0' });
+  const shown = await tab.evaluate(() => ({
+    platform: document.querySelector('.install-nag')?.dataset.platform ?? null,
+    steps: [...document.querySelectorAll('.nag-steps li')].map((li) => li.textContent),
+    arrow: document.querySelector('.nag-arrow')?.className ?? null,
+    demo: !!document.querySelector('.nag-demo'),
+  }));
+  check(`iPhone Safari in a browser tab gets the full-screen guide, got ${JSON.stringify(shown.platform)}`,
+    shown.platform === 'ios-safari' && shown.demo);
+  check(`Safari 26's guide says to tap ••• first and points at it, got ${JSON.stringify(shown)}`,
+    shown.steps[0].includes('bottom-right') && shown.arrow === 'nag-arrow bottom-right');
+
+  await tab.click('.nag-later');
+  check('"Not now" dismisses the guide', (await tab.$('.install-nag')) === null);
+  await tab.goto(`${BASE}/rankings.html?program=9001`, { waitUntil: 'networkidle0' });
+  check('...and it stays away for the rest of the visit', (await tab.$('.install-nag')) === null);
+  await tab.evaluate((k) => localStorage.setItem(k, String(Date.now() - 31 * 60 * 1000)), 'thirdcoast-install-nag-dismissed');
+  await tab.reload({ waitUntil: 'networkidle0' });
+  check('...but comes back on the next visit', (await tab.$('.install-nag')) !== null);
+  await tab.close();
+
+  const app = await phone({ standalone: true });
+  await app.goto(`${BASE}/court.html`, { waitUntil: 'networkidle0' });
+  await app.evaluate(() => localStorage.clear());
+  await app.reload({ waitUntil: 'networkidle0' });
+  check('the installed home-screen app never shows the guide', (await app.$('.install-nag')) === null);
+  await app.close();
+
+  // Android without Chrome's install offer: no dead Install button.
+  const droid = await browser.newPage();
+  await droid.evaluateOnNewDocument(() => { window.__installNag = 'android'; });
+  await droid.goto(`${BASE}/court.html`, { waitUntil: 'networkidle0' });
+  await droid.evaluate(() => localStorage.clear());
+  await droid.reload({ waitUntil: 'networkidle0' });
+  // Headless Chrome may genuinely offer an install (the manifest qualifies),
+  // so start from a known "no offer" state rather than assuming one.
+  const btnHidden = await droid.evaluate(() => {
+    _installPrompt = null;
+    document.querySelector('.install-nag').classList.remove('can-install');
+    return getComputedStyle(document.querySelector('.nag-install')).display === 'none';
+  });
+  check('Android hides the Install button until Chrome actually offers one', btnHidden);
+  await droid.evaluate(() => { const e = new Event('beforeinstallprompt'); e.prompt = () => {}; e.userChoice = Promise.resolve({ outcome: 'dismissed' }); window.dispatchEvent(e); });
+  const btnShown = await droid.$eval('.nag-install', (b) => getComputedStyle(b).display !== 'none');
+  check('...and shows it the moment Chrome does', btnShown);
+  await droid.close();
+}
+
 check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 
 await browser.close();

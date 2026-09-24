@@ -512,6 +512,190 @@ function mountOmnisearch() {
 document.addEventListener('DOMContentLoaded', mountOmnisearch);
 
 // ---------------------------------------------------------------------
+// "Put this on your Home Screen" -- a full-screen guide for anyone using
+// the site in a plain phone browser instead of the installed app.
+//
+// The installed app is the real product: full screen, no browser chrome,
+// opens straight to the next game. But most people have never installed
+// a web app and do not know it is possible, so every VISIT from a phone
+// browser opens with the guide. Dismissing it quiets it for the rest of
+// that visit (sliding 30 minutes, the same "you have been away" line
+// app.js' freshness check uses) -- not forever.
+//
+// What each platform actually allows:
+//   android     Chrome hands us a real install prompt (beforeinstallprompt),
+//               so the guide is one big Install button. Without it (another
+//               browser, or Chrome not offering yet) it falls back to steps.
+//   ios-safari  No web page can open Safari's "Add to Home Screen" --
+//               navigator.share() opens a share sheet WITHOUT that row -- so
+//               the guide animates the steps and points an arrow at the
+//               real Share button in Safari's own toolbar.
+//   ios-other   Chrome/Firefox/Edge on iOS: Share lives in the address bar.
+//   inapp       Instagram/Facebook/Gmail-style in-app browsers cannot
+//               install anything; the only way forward is to open the page
+//               in a real browser first, so that is all it asks.
+// Desktop gets nothing: there is no Home Screen to put it on.
+
+const NAG_KEY = 'thirdcoast-install-nag-dismissed';
+const NAG_QUIET_MS = 30 * 60 * 1000;
+
+let _installPrompt = null;
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Hold Chrome's prompt for our own button rather than its mini-infobar.
+  e.preventDefault();
+  _installPrompt = e;
+  document.querySelector('.install-nag')?.classList.add('can-install');
+});
+window.addEventListener('appinstalled', () => document.querySelector('.install-nag')?.remove());
+
+function isInstalledApp() {
+  if (navigator.standalone === true) return true; // iOS home-screen app
+  return ['standalone', 'fullscreen', 'minimal-ui'].some((m) => matchMedia(`(display-mode: ${m})`).matches);
+}
+
+function installPlatform() {
+  // Test hook: the UI suite forces a platform; everything else about a
+  // headless browser (navigator.webdriver) keeps the guide out of the way.
+  if (window.__installNag !== undefined) return window.__installNag;
+  if (navigator.webdriver || isInstalledApp()) return null;
+  const ua = navigator.userAgent;
+  // iPadOS reports itself as a Mac; a Mac with a touchscreen is an iPad.
+  const iOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const android = /Android/.test(ua);
+  if (!iOS && !android) return null;
+  if (/FBAN|FBAV|FB_IAB|Instagram|Line\/|Snapchat|LinkedInApp|GSA\/|Twitter|MicroMessenger/.test(ua)) return 'inapp';
+  if (iOS) return /CriOS|FxiOS|EdgiOS|OPiOS/.test(ua) ? 'ios-other' : 'ios-safari';
+  return 'android';
+}
+
+function nagQuiet() {
+  try {
+    const at = Number(localStorage.getItem(NAG_KEY));
+    return at > 0 && Date.now() - at < NAG_QUIET_MS;
+  } catch { return false; }
+}
+function markNagQuiet() {
+  try { localStorage.setItem(NAG_KEY, String(Date.now())); } catch { /* private mode: just close */ }
+}
+
+// Safari's own glyphs, drawn so the guide shows exactly what to look for.
+const SHARE_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M6 11H5v10h14V11h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const ADD_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8.5v7M8.5 12h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+const MORE_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><circle cx="5.5" cy="12" r="1.9" fill="currentColor"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/><circle cx="18.5" cy="12" r="1.9" fill="currentColor"/></svg>';
+const KEBAB_GLYPH = '<svg class="ig" viewBox="0 0 24 24"><circle cx="12" cy="5.5" r="1.9" fill="currentColor"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/><circle cx="12" cy="18.5" r="1.9" fill="currentColor"/></svg>';
+
+// The looping walkthrough: a little phone doing the three taps. CSS
+// animation rather than a GIF -- crisp at any pixel density, a fraction
+// of the bytes, and it is drawn in this app's own colours.
+function installDemoHTML({ behindMore = false } = {}) {
+  return `
+    <div class="nag-demo" aria-hidden="true">
+      <div class="nd-screen">
+        <div class="nd-page"><i></i><i></i><i></i><i></i></div>
+        <div class="nd-f1"><div class="nd-bar"><span>‹</span><span>›</span><b class="nd-share">${SHARE_GLYPH}</b><span>▢</span><span>⋯</span></div><div class="nd-tap t1${behindMore ? ' more' : ''}"></div></div>
+        <div class="nd-f2"><div class="nd-sheet"><div class="nd-row">Copy</div><div class="nd-row">Add to Reading List</div><div class="nd-row hl">Add to Home Screen ${ADD_GLYPH}</div><div class="nd-row">Add Bookmark</div></div><div class="nd-tap t2"></div></div>
+        <div class="nd-f3"><div class="nd-dialog"><div class="nd-dh"><span>Cancel</span><b>Add</b></div><div class="nd-app"><img src="assets/icon-180.png" alt=""><span>3CVB</span></div></div><div class="nd-tap t3"></div></div>
+        <div class="nd-f4"><div class="nd-home"><i></i><i></i><i></i><img src="assets/icon-180.png" alt=""><i></i><i></i><i></i><i></i></div></div>
+      </div>
+    </div>`;
+}
+
+function installNagHTML(platform) {
+  const ua = navigator.userAgent;
+  const iPad = /iPad/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  // Safari 26 tucked Share behind the ••• button in its compact toolbar.
+  const safariMajor = Number(/Version\/(\d+)/.exec(ua)?.[1] ?? 0);
+  const behindMore = platform === 'ios-safari' && !iPad && safariMajor >= 26;
+
+  let steps; let arrow = ''; let demo = '';
+  if (platform === 'ios-safari') {
+    demo = installDemoHTML({ behindMore });
+    steps = [
+      behindMore
+        ? `Tap ${MORE_GLYPH} in the bottom-right corner, then <b>Share</b> ${SHARE_GLYPH}`
+        : `Tap <b>Share</b> ${SHARE_GLYPH} ${iPad ? 'at the top of the screen' : 'in the toolbar at the bottom'}`,
+      `Scroll down and tap <b>Add to Home Screen</b> ${ADD_GLYPH} <small>(under “View More” if you don't see it)</small>`,
+      'Tap <b>Add</b> — then open 3CVB from your Home Screen',
+    ];
+    arrow = iPad ? 'top-right' : behindMore ? 'bottom-right' : 'bottom-center';
+  } else if (platform === 'ios-other') {
+    demo = installDemoHTML({ behindMore });
+    steps = [
+      `Tap <b>Share</b> ${SHARE_GLYPH} in the address bar`,
+      `Tap <b>Add to Home Screen</b> ${ADD_GLYPH} <small>(under “More” if you don't see it)</small>`,
+      'Tap <b>Add</b> — then open 3CVB from your Home Screen',
+    ];
+    arrow = 'top-right';
+  } else if (platform === 'android') {
+    steps = [
+      `Tap ${KEBAB_GLYPH} at the top right of your browser`,
+      'Tap <b>Install app</b> or <b>Add to Home screen</b>',
+      'Tap <b>Install</b> — then open 3CVB from your Home Screen',
+    ];
+    arrow = 'top-right';
+  } else {
+    steps = [
+      `Tap ${MORE_GLYPH} or ${KEBAB_GLYPH} in this app's corner`,
+      'Choose <b>Open in browser</b> (or Safari / Chrome)',
+      'Then add it to your Home Screen from there',
+    ];
+  }
+
+  return `
+    <div class="nag-scroll">
+      <img class="nag-icon" src="assets/icon-180.png" alt="">
+      <h2>${platform === 'inapp' ? 'Open this in your browser' : 'Get the 3CVB app'}</h2>
+      <p class="nag-lede">${platform === 'inapp'
+        ? 'This app can\'t be installed from inside another app. Open it in Safari or Chrome to add it to your Home Screen.'
+        : 'Add it to your Home Screen: full screen, no browser bars, one tap from your next game. It\'s free and takes 10 seconds.'}</p>
+      ${platform === 'android' ? '<button type="button" class="nag-install">Install app</button><p class="nag-or">or do it by hand:</p>' : ''}
+      ${platform === 'inapp' ? '<button type="button" class="nag-copy">Copy link</button>' : ''}
+      ${demo}
+      <ol class="nag-steps">${steps.map((s) => `<li>${s}</li>`).join('')}</ol>
+      ${platform === 'inapp' ? '' : '<p class="nag-note">After installing, pick your team once more in the app — it keeps its own settings, separate from this browser.</p>'}
+      <button type="button" class="nag-later">Not now, continue in the browser</button>
+    </div>
+    ${arrow ? `<div class="nag-arrow ${arrow}" aria-hidden="true">${arrow.startsWith('top') ? '↑' : '↓'}</div>` : ''}`;
+}
+
+function mountInstallNag() {
+  // index.html is a router that navigates away immediately; the guide
+  // opens on the page it lands on instead of flashing on the way through.
+  if (/(^|\/)(index\.html)?$/.test(location.pathname)) return;
+  const platform = installPlatform();
+  if (!platform) return;
+  if (nagQuiet()) { markNagQuiet(); return; } // still this visit: slide the window
+  const screen = document.querySelector('.screen');
+  if (!screen || screen.querySelector('.install-nag')) return;
+
+  const nag = document.createElement('div');
+  nag.className = `install-nag${_installPrompt ? ' can-install' : ''}`;
+  nag.dataset.platform = platform;
+  nag.setAttribute('role', 'dialog');
+  nag.setAttribute('aria-modal', 'true');
+  nag.setAttribute('aria-label', 'Add 3CVB to your Home Screen');
+  nag.innerHTML = installNagHTML(platform);
+  screen.appendChild(nag);
+
+  const close = () => { markNagQuiet(); nag.remove(); };
+  nag.querySelector('.nag-later').addEventListener('click', close);
+  nag.querySelector('.nag-install')?.addEventListener('click', async () => {
+    if (!_installPrompt) return;
+    _installPrompt.prompt();
+    const { outcome } = await _installPrompt.userChoice;
+    _installPrompt = null;
+    nag.classList.remove('can-install');
+    if (outcome === 'accepted') nag.remove();
+  });
+  nag.querySelector('.nag-copy')?.addEventListener('click', async (e) => {
+    const url = new URL('.', location.href).href;
+    try { await navigator.clipboard.writeText(url); e.target.textContent = 'Copied — paste it into Safari or Chrome'; }
+    catch { e.target.textContent = url; }
+  });
+}
+document.addEventListener('DOMContentLoaded', mountInstallNag);
+
+// ---------------------------------------------------------------------
 // The match card, shared by gamenight.html and court.html.
 //
 // Moved out of gamenight.html when court.html needed the same card for
