@@ -43,6 +43,27 @@ workflow archives from LeagueApps every 12 hours.
     One night is ~17KB and is all the screen ever needs; doing the merge
     in the browser instead would mean fetching every active program's
     schedule to draw one floor.
+    **History across seasons.** Rosters are archived for *finished*
+    seasons too, not just active ones — each one fetched once and read
+    back from `data/rosters/` forever after, since a finished roster never
+    changes. The first pass over the back catalog is ~4,000 pages, so a
+    scheduled run spends at most 600 of them (`HISTORY_ROSTER_BUDGET`); a
+    by-hand run can lift that with `ARCHIVE_HISTORY_BUDGET=10000`.
+    LeagueApps only still serves rosters from mid-2022 on; earlier seasons
+    have standings but empty rosters.
+
+    From those rosters `archive/lineage.js` links every team to the team
+    it was last season — by who is on it, not by name, since names change
+    — and writes `data/lineage/{programId}.json`: each team's season
+    count, its full season-by-season history, and `move: up | down` when
+    last season was a different level of the same format. The ladder is
+    AA > A > BB > B > Upper Rec (BB above B, per LeagueApps' own
+    "(formerly Intermediate #1)" renames). Pop-ups, KOB/QOB and snake
+    drafts are not rungs and never count as a previous season.
+
+    **Omnisearch.** Every top bar has a magnifier that searches every
+    player (first name) and team across every season, from one lazily
+    fetched `data/search-index.json`.
   - `/docs/tests` — the local Puppeteer UI suite and its fixture data.
   - `/docs/.nojekyll` — tells Pages to serve these files as-is instead of
     running them through Jekyll.

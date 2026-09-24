@@ -35,25 +35,56 @@ const userId = new URLSearchParams(location.search).get('person');
 // is "active" here -- there's no Players tab any more.
 wireTabs({ active: null, personId: userId });
 
-fetchJSON(`data/people/${userId}.json`).then((person) => {
+fetchJSON(`data/people/${userId}.json`).then(async (person) => {
   const bodyEl = document.getElementById('body');
   if (!person) {
     bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We don\'t have a card for this player yet.</p>';
     return;
   }
-  const seasons = person.appearances.length;
-  const captainCount = person.appearances.filter((a) => a.isCaptain).length;
+  // Each appearance's league name, date and record live in that season's
+  // lineage file (one per program, cached by fetchLineage), not in the
+  // person record, which only ever stored ids and the team name.
+  const lineages = await Promise.all(person.appearances.map((a) => fetchLineage(a.programId)));
+  const seasons = person.appearances.map((a, i) => {
+    const entry = lineages[i]?.teams?.[a.teamId] ?? null;
+    const here = entry?.history?.[entry.history.length - 1] ?? null;
+    return { ...a, entry, here, endDate: here?.endDate ?? 0 };
+  }).sort((a, b) => b.endDate - a.endDate);
+
+  const count = seasons.length;
+  const captainCount = seasons.filter((s) => s.isCaptain).length;
+  const firstYear = seasons.filter((s) => s.endDate).map((s) => new Date(s.endDate).getFullYear()).sort()[0];
+  const leagues = new Set(seasons.map((s) => s.here?.programName).filter(Boolean)).size;
+
+  const rows = seasons.map((s) => {
+    const h = s.here;
+    const finish = h?.position && h?.teamCount ? `${ordinal(h.position)} of ${h.teamCount}` : '';
+    return `
+      <a class="row-link" href="team.html?team=${encodeURIComponent(s.teamId)}&program=${encodeURIComponent(s.programId)}">
+        <div class="hist-row">
+          <div class="when">${escapeHTML(seasonLabel(s.endDate))}</div>
+          <div class="what">
+            <b>${escapeHTML(displayTeamName(s.teamName, { stripCaptain: true }))}${s.isCaptain ? ' <span class="cap-tag">Captain</span>' : ''}</b>
+            <span>${escapeHTML(h?.programName ?? '')}</span>
+            ${moveBadgeHTML(s.entry, h?.programName)}
+          </div>
+          ${h ? `<div class="res">${h.wins}-${h.losses}-${h.ties}<span>${escapeHTML(finish)}</span></div>` : ''}
+        </div>
+      </a>`;
+  }).join('');
+
   bodyEl.innerHTML = `
     <div class="dyn-hero">
       <div class="av"><b>${escapeHTML(person.firstName.slice(0, 2).toUpperCase())}</b></div>
       <h3>${escapeHTML(person.firstName)}</h3>
-      <div class="sub">${seasons} season${seasons === 1 ? '' : 's'}</div>
-      <div class="badge-row"><span class="badge"><svg class="icon"><use href="#i-star"/></svg> ${captainCount} team${captainCount === 1 ? '' : 's'} captained</span></div>
+      <div class="sub">${count} season${count === 1 ? '' : 's'}${firstYear ? ` · since ${firstYear}` : ''}</div>
+      <div class="badge-row">
+        <span class="badge"><svg class="icon"><use href="#i-star"/></svg> ${captainCount} team${captainCount === 1 ? '' : 's'} captained</span>
+        ${leagues > 1 ? `<span class="badge">${leagues} leagues</span>` : ''}
+      </div>
     </div>
-    <div class="sec-lbl">Teams, every season</div>
-    <div class="card" style="padding:4px 12px">
-      ${person.appearances.map((a) => `<div class="partner-row"><span>${escapeHTML(displayTeamName(a.teamName))}</span><span>${a.isCaptain ? 'Captain' : ''}</span></div>`).join('')}
-    </div>
+    <div class="sec-lbl">Every season</div>
+    <div class="card" style="padding:2px 12px">${rows}</div>
   `;
 });
 </script>

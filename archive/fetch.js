@@ -11,6 +11,7 @@ import * as leagueapps from './leagueapps.js';
 import { firstNameOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
 import { extractUpcomingGame, extractTournamentMarker } from './schedule.js';
+import { buildLineage } from './lineage.js';
 
 async function realReadJSON(path) {
   try {
@@ -31,13 +32,23 @@ async function realWriteJSON(path, data) {
 const REQUEST_DELAY_MS = 250;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// How many rosters of FINISHED seasons one run may fetch. A finished
+// season's roster never changes, so each is fetched exactly once and read
+// back from docs/data/rosters/ on every later run -- but the first pass
+// over the whole back catalog is ~4,000 pages, far too many for one
+// scheduled run. The budget spreads that one-time backfill over a handful
+// of runs; once it is done a run spends none of it at all.
+const HISTORY_ROSTER_BUDGET = 600;
+
 export async function runArchive(deps) {
   const {
     fetchPrograms, fetchActivities, fetchStandingsHTML, fetchRosterHTML, fetchLocations,
     parseStandings = leagueapps.parseStandings,
     parseRoster = leagueapps.parseRoster,
     readJSON, writeJSON,
+    historyRosterBudget = HISTORY_ROSTER_BUDGET,
   } = deps;
+  let historyBudget = historyRosterBudget;
 
   const programs = await fetchPrograms();
   const activePrograms = programs.filter((p) => p.state === 'LIVE' || p.state === 'UPCOMING');
@@ -72,6 +83,51 @@ export async function runArchive(deps) {
   })));
 
   const activeTeamsIndex = [];
+  // Every standings table and every roster this run knows about, active or
+  // not -- the team-history pass after the loop needs all of them at once.
+  const standingsByProgram = new Map();
+  const rostersByTeam = new Map();
+
+  // Fetches one team's roster and writes the two files that come out of
+  // it: the team -> people index, and each person's own record. Returns
+  // the roster exactly as written, first names only.
+  async function archiveRoster(program, row) {
+    const rosterHtml = await fetchRosterHTML(program.id, row.teamId);
+    await sleep(REQUEST_DELAY_MS);
+    const players = parseRoster(rosterHtml);
+
+    // The team -> people index. Without it nothing in the site can reach
+    // a player card at all: people/{userId}.json can only be looked up
+    // once you already know the userId, and no other file maps a team to
+    // its players. First names only, exactly like people/*.json -- this
+    // stores nothing people/*.json doesn't already hold.
+    const roster = players.map((p) => ({
+      userId: p.userId,
+      firstName: firstNameOf(p.fullName),
+      isCaptain: p.isCaptain,
+    }));
+    await writeJSON(`docs/data/rosters/${program.id}-${row.teamId}.json`, {
+      programId: program.id,
+      teamId: row.teamId,
+      teamName: row.teamName,
+      players: roster,
+    });
+
+    for (const player of players) {
+      const path = `docs/data/people/${player.userId}.json`;
+      const existing = await readJSON(path);
+      const record = mergePersonRecord(existing, {
+        userId: player.userId,
+        firstName: firstNameOf(player.fullName),
+        programId: program.id,
+        teamId: row.teamId,
+        teamName: row.teamName,
+        isCaptain: player.isCaptain,
+      });
+      await writeJSON(path, record);
+    }
+    return roster;
+  }
 
   for (const program of programs) {
     const html = await fetchStandingsHTML(program.id);
@@ -90,8 +146,25 @@ export async function runArchive(deps) {
       rows,
     });
 
+    standingsByProgram.set(program.id, rows);
+
     const isActive = activePrograms.some((p) => p.id === program.id);
-    if (!isActive) continue;
+    if (!isActive) {
+      // A finished season: its rosters are history, so one already on disk
+      // is final and is read back instead of fetched again.
+      for (const row of rows) {
+        if (!row.teamId) continue;
+        const key = `${program.id}|${row.teamId}`;
+        const cached = await readJSON(`docs/data/rosters/${program.id}-${row.teamId}.json`);
+        if (cached) {
+          rostersByTeam.set(key, cached.players ?? []);
+        } else if (historyBudget > 0) {
+          historyBudget -= 1;
+          rostersByTeam.set(key, await archiveRoster(program, row));
+        }
+      }
+      continue;
+    }
 
     for (const row of rows) {
       activeTeamsIndex.push({
@@ -100,40 +173,7 @@ export async function runArchive(deps) {
         teamId: row.teamId,
         teamName: row.teamName,
       });
-
-      const rosterHtml = await fetchRosterHTML(program.id, row.teamId);
-      await sleep(REQUEST_DELAY_MS);
-      const players = parseRoster(rosterHtml);
-
-      // The team -> people index. Without it nothing in the site can reach
-      // a player card at all: people/{userId}.json can only be looked up
-      // once you already know the userId, and no other file maps a team to
-      // its players. First names only, exactly like people/*.json -- this
-      // stores nothing people/*.json doesn't already hold.
-      await writeJSON(`docs/data/rosters/${program.id}-${row.teamId}.json`, {
-        programId: program.id,
-        teamId: row.teamId,
-        teamName: row.teamName,
-        players: players.map((p) => ({
-          userId: p.userId,
-          firstName: firstNameOf(p.fullName),
-          isCaptain: p.isCaptain,
-        })),
-      });
-
-      for (const player of players) {
-        const path = `docs/data/people/${player.userId}.json`;
-        const existing = await readJSON(path);
-        const record = mergePersonRecord(existing, {
-          userId: player.userId,
-          firstName: firstNameOf(player.fullName),
-          programId: program.id,
-          teamId: row.teamId,
-          teamName: row.teamName,
-          isCaptain: player.isCaptain,
-        });
-        await writeJSON(path, record);
-      }
+      rostersByTeam.set(`${program.id}|${row.teamId}`, await archiveRoster(program, row));
     }
   }
 
@@ -241,6 +281,69 @@ export async function runArchive(deps) {
   }
 
   await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);
+
+  // Team history: which team last season each team is, and whether it
+  // came up or down a level to get here. Built here, over every roster in
+  // the catalog, because no page could afford to: answering it in the
+  // browser would mean fetching thousands of roster files.
+  const catalog = programs.map((p) => ({ id: p.id, name: p.name, endDate: p.endDate ?? null }));
+  const lineage = buildLineage({ programs: catalog, standings: standingsByProgram, rosters: rostersByTeam });
+  for (const [programId, teams] of lineage) {
+    if (Object.keys(teams).length === 0) continue;
+    await writeJSON(`docs/data/lineage/${programId}.json`, { programId, teams });
+  }
+
+  await writeJSON('docs/data/search-index.json', buildSearchIndex(programs, standingsByProgram, rostersByTeam, lineage));
+}
+
+// The omnisearch's whole world in one file, fetched once, the first time
+// someone opens the search. Rows are arrays rather than objects and
+// programs are referenced by index, because the file carries every team
+// and every player in the back catalog and object keys would be most of
+// its weight. First names only, like every other file in docs/data.
+//
+//   programs: [programId, programName, endDate, state]   newest first
+//   teams:    [programIndex, teamId, teamName, seasons]
+//   people:   [userId, firstName, programIndex, teamId, teamName, seasons]
+//             -- the program and team are the person's LATEST, which is
+//                what tells one "Sam" from another in a result list.
+export function buildSearchIndex(programs, standingsByProgram, rostersByTeam, lineage) {
+  const ordered = [...programs].sort((a, b) => (b.endDate ?? 0) - (a.endDate ?? 0) || b.id - a.id);
+  const indexOf = new Map(ordered.map((p, i) => [p.id, i]));
+
+  const teams = [];
+  for (const p of ordered) {
+    for (const r of standingsByProgram.get(p.id) ?? []) {
+      if (!r.teamId) continue;
+      teams.push([indexOf.get(p.id), r.teamId, r.teamName, lineage.get(p.id)?.[r.teamId]?.seasons ?? 1]);
+    }
+  }
+
+  const people = new Map();
+  for (const [key, players] of rostersByTeam) {
+    const [programId, teamId] = key.split('|').map(Number);
+    const at = indexOf.get(programId);
+    if (at === undefined) continue;
+    const teamName = (standingsByProgram.get(programId) ?? []).find((r) => r.teamId === teamId)?.teamName ?? '';
+    for (const pl of players) {
+      const seen = people.get(pl.userId);
+      if (!seen) {
+        people.set(pl.userId, { firstName: pl.firstName, at, teamId, teamName, seasons: 1 });
+        continue;
+      }
+      seen.seasons += 1;
+      // Lower index = newer program: keep the latest team as the label.
+      if (at < seen.at) Object.assign(seen, { at, teamId, teamName });
+    }
+  }
+
+  return {
+    programs: ordered.map((p) => [p.id, p.name, p.endDate ?? null, p.state]),
+    teams,
+    people: [...people.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([userId, p]) => [userId, p.firstName, p.at, p.teamId, p.teamName, p.seasons]),
+  };
 }
 
 // Node 20.11+ hands us the module's own path directly, already in the same
@@ -258,6 +361,10 @@ if (import.meta.filename === process.argv[1]) {
     parseRoster: leagueapps.parseRoster,
     readJSON: realReadJSON,
     writeJSON: realWriteJSON,
+    // A by-hand backfill can lift the per-run cap: ARCHIVE_HISTORY_BUDGET=5000.
+    ...(process.env.ARCHIVE_HISTORY_BUDGET
+      ? { historyRosterBudget: Number(process.env.ARCHIVE_HISTORY_BUDGET) }
+      : {}),
   };
   runArchive(deps)
     .then(() => console.log('archive run complete'))

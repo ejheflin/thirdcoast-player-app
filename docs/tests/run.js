@@ -193,7 +193,8 @@ check('team page lists its roster by first name', (await page.content()).include
 {
   await go('team.html?program=9001&team=501');
   const oppRows = await page.$$eval('.opp-row', (rows) => rows.map((r) => ({
-    name: r.querySelector('.nm').textContent.trim(),
+    // .nmt, not .nm: .nm also holds the promoted/moved-down badge.
+    name: r.querySelector('.nm .nmt').textContent.trim(),
     href: r.closest('a').getAttribute('href'),
     dots: [...r.querySelectorAll('.opp-dots i')].map((i) => i.className),
     dotsEmpty: r.querySelector('.opp-dots .opp-empty')?.textContent.trim() ?? null,
@@ -904,6 +905,54 @@ await new Promise((r) => setTimeout(r, 400));
 }
 
 {
+  // The locked-phone bug: open at 7:30, lock, unlock at 9:30 -- the live
+  // dot must move the moment the page is visible again, not on whatever
+  // tick of a suspended timer comes next. Simulated with a synthetic
+  // tonight holding a slot for every hour, the page left pointing at a
+  // stale slot, and a visibilitychange standing in for the unlock.
+  const res = await page.evaluate(() => {
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, '0');
+    NIGHT = {
+      date: `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`,
+      slots: Array.from({ length: 24 }, (_, h) => ({ time: `${pad(h)}:00`, courts: [] })),
+    };
+    const staleHour = (d.getHours() + 12) % 24;
+    slotIndex = staleHour; userPickedSlot = true; lastLive = staleHour; render();
+    const dotAt = () => [...document.querySelectorAll('.slot')].findIndex((s) => s.querySelector('.livedot'));
+    const onAt = () => [...document.querySelectorAll('.slot')].findIndex((s) => s.classList.contains('on'));
+    // Force the stale picture the bug report describes: dot on the old slot.
+    document.querySelectorAll('.livedot').forEach((e) => e.remove());
+    document.querySelectorAll('.slot')[staleHour].insertAdjacentHTML('beforeend', '<span class="livedot"></span>');
+
+    document.dispatchEvent(new Event('visibilitychange'));
+    const picked = { dot: dotAt(), on: onAt() };
+    userPickedSlot = false;
+    document.dispatchEvent(new Event('visibilitychange'));
+    return { hour: d.getHours(), staleHour, picked, auto: { dot: dotAt(), on: onAt() } };
+  });
+  check(`on unlock the live dot jumps to the current hour, got ${JSON.stringify(res)}`,
+    res.picked.dot === res.hour);
+  check('...without yanking a player off a slot they tapped themselves', res.picked.on === res.staleHour);
+  check('...and an untouched map follows the clock to the live slot', res.auto.on === res.hour && res.auto.dot === res.hour);
+}
+
+{
+  // app.js' freshness check: a long absence reloads the page on return, a
+  // short glance away does not.
+  await go('court.html');
+  await page.evaluate(() => { window.__marker = 1; _hiddenAt = Date.now() - 5 * 60 * 1000; });
+  await page.evaluate(() => document.dispatchEvent(new Event('visibilitychange')));
+  await new Promise((r) => setTimeout(r, 300));
+  check('a 5-minute absence keeps the page as it was', (await page.evaluate(() => window.__marker)) === 1);
+  await Promise.all([
+    page.waitForNavigation({ waitUntil: 'networkidle0' }),
+    page.evaluate(() => { _hiddenAt = Date.now() - 2 * 60 * 60 * 1000; document.dispatchEvent(new Event('visibilitychange')); }),
+  ]);
+  check('a 2-hour absence reloads the page fresh', (await page.evaluate(() => window.__marker)) === undefined);
+}
+
+{
   // The court map is venue-wide, so it must work with no saved team at
   // all -- unlike every other tab, it needs no program in context.
   await page.evaluate(() => localStorage.removeItem('thirdcoast-my-team'));
@@ -1220,6 +1269,101 @@ await go('schedule.html?program=9010');
 
 await clickThrough('.sched-row a, a.row-link');
 check('schedule row -> that opponent\'s team page', path().startsWith('/team.html') && path().includes('program=9010'));
+
+// ---- team history: promoted / moved-down badges -------------------------
+await go('rankings.html?program=9001');
+{
+  const badges = await page.$$eval('.rank-row', (rows) => rows.map((r) => ({
+    name: r.querySelector('.nm b').textContent.trim(),
+    mv: r.querySelector('.mv')?.className ?? null,
+    text: r.querySelector('.mv')?.textContent.trim() ?? null,
+  })));
+  const testers = badges.find((b) => b.name.includes('Testers United'));
+  const fixture = badges.find((b) => b.name.includes('Fixture FC'));
+  const prophets = badges.find((b) => b.name.includes('Net Prophets'));
+  check(`rankings marks a promoted team, got ${JSON.stringify(testers)}`,
+    testers?.mv === 'mv up' && testers.text === '▲ Up from B');
+  check(`rankings marks a team that came down, naming the other night, got ${JSON.stringify(fixture)}`,
+    fixture?.mv === 'mv down' && fixture.text === '▼ Down from Mon AA');
+  check('rankings leaves a team with no prior season unbadged', prophets?.mv === null);
+}
+
+await go('team.html?program=9001&team=501');
+{
+  const sub = await page.$eval('.team-hero .sub', (el) => el.textContent);
+  check(`team header shows the season count and the promotion, got "${sub}"`,
+    sub.includes('2nd season') && sub.includes('Up from B'));
+  const hist = await page.$$eval('.hist-row', (rows) => rows.map((r) => ({
+    res: r.querySelector('.res').firstChild.textContent.trim(),
+    here: r.classList.contains('here'),
+    href: r.closest('a')?.getAttribute('href'),
+  })));
+  check(`team history lists every season newest first, got ${JSON.stringify(hist)}`,
+    hist.length === 2 && hist[0].here && hist[0].res === '8-1-1' && hist[1].res === '9-1-0'
+      && hist[1].href === 'team.html?team=401&program=9000');
+  const oppBadge = await page.$$eval('.opp-row', (rows) => rows
+    .filter((r) => r.querySelector('.nm .nmt').textContent.includes('Fixture FC'))
+    .map((r) => r.querySelector('.mv')?.textContent.trim()));
+  check(`team page Opponents rows carry the move badge too, got ${JSON.stringify(oppBadge)}`,
+    oppBadge[0] === '▼ Down from Mon AA');
+}
+await go('team.html?program=9001&team=506');
+{
+  const hasHistory = await page.$('.hist-row');
+  check('a first-season team shows no history card', hasHistory === null);
+}
+
+await go('player.html?person=1');
+{
+  const hist = await page.$$eval('.hist-row', (rows) => rows.map((r) => r.innerText));
+  check(`player card lists each season with its league and record, got ${JSON.stringify(hist)}`,
+    hist.length === 1 && hist[0].includes('Test Tuesday League') && hist[0].includes('8-1-1')
+      && /up from b/i.test(hist[0]) && /captain/i.test(hist[0]));
+}
+
+// ---- omnisearch -----------------------------------------------------------
+await go('search.html');
+check('search.html (the save-your-team search) gets no omnisearch button', (await page.$('.omni-btn')) === null);
+
+await go('rankings.html?program=9001');
+{
+  const inTopbar = await page.$('.topbar .omni-btn');
+  check('every top bar carries the omnisearch button', inTopbar !== null);
+  await page.click('.omni-btn');
+  await page.waitForSelector('.omni input');
+  const focused = await page.evaluate(() => document.activeElement?.matches('.omni input'));
+  check('opening omnisearch focuses its input', focused === true);
+
+  await page.type('.omni input', 'sam', { delay: 20 });
+  await page.waitForSelector('.omni-row');
+  const people = await page.$$eval('.omni-row b', (els) => els.map((e) => e.firstChild.textContent.trim()));
+  check(`omnisearch ranks name-starts-with first, newest first, then substrings, got ${JSON.stringify(people)}`,
+    JSON.stringify(people) === JSON.stringify(['Sam', 'Samira', 'Isam']));
+
+  await page.$eval('.omni input', (el) => { el.value = ''; });
+  await page.type('.omni input', 'testers', { delay: 20 });
+  const teams = await page.$$eval('.omni-row', (els) => els.map((e) => ({
+    href: e.getAttribute('href'), text: e.innerText,
+  })));
+  check(`omnisearch folds a team's seasons into one row pointing at its newest, got ${JSON.stringify(teams)}`,
+    teams.length === 1 && teams[0].href === 'team.html?team=501&program=9001' && teams[0].text.includes('2 seasons'));
+
+  await page.$eval('.omni input', (el) => { el.value = ''; });
+  await page.type('.omni input', 'sam net', { delay: 20 });
+  const narrowed = await page.$$eval('.omni-row b', (els) => els.map((e) => e.firstChild.textContent.trim()));
+  check(`a second word narrows by team name, got ${JSON.stringify(narrowed)}`,
+    JSON.stringify(narrowed) === JSON.stringify(['Isam']));
+
+  await page.keyboard.press('Escape');
+  check('Escape closes omnisearch', (await page.$('.omni')) === null);
+
+  await page.click('.omni-btn');
+  await page.waitForSelector('.omni input');
+  await page.type('.omni input', 'robin', { delay: 20 });
+  await page.waitForSelector('.omni-row');
+  await clickThrough('.omni-row');
+  check('an omnisearch player result opens their card', path() === '/player.html?person=2');
+}
 
 check(`no uncaught page errors (${pageErrors} occurred)`, pageErrors === 0);
 

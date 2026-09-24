@@ -37,7 +37,10 @@
 const programId = new URLSearchParams(location.search).get('program');
 wireTabs({ active: 'ranks', programId });
 
-fetchJSON(`data/standings/${programId}.json`).then((data) => {
+Promise.all([
+  fetchJSON(`data/standings/${programId}.json`),
+  fetchLineage(programId),
+]).then(([data, lineage]) => {
   const rowsEl = document.getElementById('rows');
   if (!data || data.rows.length === 0) {
     rowsEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">No standings yet.</p>';
@@ -50,7 +53,7 @@ fetchJSON(`data/standings/${programId}.json`).then((data) => {
     <a class="row-link" href="team.html?team=${encodeURIComponent(r.teamId)}&program=${encodeURIComponent(programId)}">
       <div class="rank-row">
         <div class="pos">${r.position}</div>
-        <div class="nm"><b>${escapeHTML(displayTeamName(r.teamName))}</b></div>
+        <div class="nm"><b>${escapeHTML(displayTeamName(r.teamName))}</b>${moveBadgeHTML(lineage?.teams?.[r.teamId], data.programName)}</div>
         <div class="rec">${r.wins}-${r.losses}-${r.ties}</div>
       </div>
     </a>`).join('');

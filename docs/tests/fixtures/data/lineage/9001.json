@@ -1,0 +1,31 @@
+{
+  "programId": 9001,
+  "teams": {
+    "501": {
+      "seasons": 2,
+      "move": "up",
+      "from": { "programId": 9000, "teamId": 401, "programName": "Test Tuesday League", "teamName": "Testers United", "level": "B" },
+      "history": [
+        { "programId": 9000, "teamId": 401, "programName": "Test Tuesday League", "teamName": "Testers United", "endDate": 1759000000000, "level": "B", "move": null, "position": 1, "teamCount": 8, "wins": 9, "losses": 1, "ties": 0 },
+        { "programId": 9001, "teamId": 501, "programName": "Test Tuesday League", "teamName": "1. Testers United", "endDate": 1767000000000, "level": "A", "move": "up", "position": 1, "teamCount": 6, "wins": 8, "losses": 1, "ties": 1 }
+      ]
+    },
+    "502": {
+      "seasons": 2,
+      "move": "down",
+      "from": { "programId": 8900, "teamId": 402, "programName": "Monday Coed 4s AA", "teamName": "Fixture FC", "level": "AA" },
+      "history": [
+        { "programId": 8900, "teamId": 402, "programName": "Monday Coed 4s AA", "teamName": "Fixture FC", "endDate": 1759000000000, "level": "AA", "move": null, "position": 8, "teamCount": 8, "wins": 1, "losses": 9, "ties": 0 },
+        { "programId": 9001, "teamId": 502, "programName": "Test Tuesday League", "teamName": "2. Fixture FC", "endDate": 1767000000000, "level": "A", "move": "down", "position": 2, "teamCount": 6, "wins": 6, "losses": 3, "ties": 1 }
+      ]
+    },
+    "506": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        { "programId": 9001, "teamId": 506, "programName": "Test Tuesday League", "teamName": "4. Net Prophets", "endDate": 1767000000000, "level": "A", "move": null, "position": 5, "teamCount": 6, "wins": 3, "losses": 6, "ties": 1 }
+      ]
+    }
+  }
+}

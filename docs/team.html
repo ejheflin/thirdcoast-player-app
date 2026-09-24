@@ -46,7 +46,8 @@ Promise.all([
   fetchJSON(`data/standings/${programId}.json`),
   fetchJSON(`data/activities/${programId}.json`),
   fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(teamId)}.json`),
-]).then(([standings, activities, roster]) => {
+  fetchLineage(programId),
+]).then(([standings, activities, roster, lineage]) => {
   const bodyEl = document.getElementById('body');
   const row = standings?.rows.find((r) => r.teamId === teamId);
   if (!standings || !row) {
@@ -178,7 +179,7 @@ Promise.all([
       return `
         <a class="row-link" href="team.html?team=${encodeURIComponent(oppTeamId)}&program=${encodeURIComponent(programId)}">
           <div class="opp-row">
-            <div class="nm">${escapeHTML(displayTeamName(oppRow.teamName, { stripCaptain: true }))}</div>
+            <div class="nm"><span class="nmt">${escapeHTML(displayTeamName(oppRow.teamName, { stripCaptain: true }))}</span>${moveBadgeHTML(lineage?.teams?.[oppTeamId], standings.programName)}</div>
             <div class="opp-dots">${dotsInner}</div>
             <div class="opp-odds">${oddsInner}</div>
           </div>
@@ -198,10 +199,39 @@ Promise.all([
       </div>
     </a>`).join('')}</div>`;
 
+  // Every season this team has played, newest first, found by who is on
+  // the roster (archive/lineage.js) -- so a renamed team keeps its past.
+  // Each row opens that season's own team page.
+  const lineageEntry = lineage?.teams?.[teamId] ?? null;
+  const history = lineageEntry?.history ?? [];
+  const seasonsPlayed = lineageEntry?.seasons ?? 1;
+  const historyHTML = history.length < 2 ? '' : `
+    <div class="sec-lbl">Team history · ${seasonsPlayed} seasons</div>
+    <div class="card" style="padding:2px 12px">${[...history].reverse().map((h, i, all) => {
+      const here = String(h.programId) === String(programId);
+      // Each season records how it was reached from the one before it --
+      // which, newest first, is the NEXT row down.
+      const prev = all[i + 1];
+      const badge = prev ? moveBadgeHTML({ move: h.move, from: prev }, h.programName) : '';
+      const finish = h.position && h.teamCount ? `${ordinal(h.position)} of ${h.teamCount}` : '';
+      return `
+      <a class="row-link" href="team.html?team=${encodeURIComponent(h.teamId)}&program=${encodeURIComponent(h.programId)}">
+        <div class="hist-row${here ? ' here' : ''}">
+          <div class="when">${escapeHTML(seasonLabel(h.endDate))}</div>
+          <div class="what">
+            <b>${escapeHTML(displayTeamName(h.teamName, { stripCaptain: true }))}</b>
+            <span>${escapeHTML(h.programName ?? '')}</span>
+            ${badge}
+          </div>
+          <div class="res">${h.wins}-${h.losses}-${h.ties}<span>${escapeHTML(finish)}</span></div>
+        </div>
+      </a>`;
+    }).join('')}</div>`;
+
   bodyEl.innerHTML = `
     <div class="team-hero">
       <div class="avatar">${escapeHTML(displayTeamName(row.teamName, { stripCaptain: true }).slice(0, 2).toUpperCase())}</div>
-      <div><h3>${escapeHTML(displayTeamName(row.teamName, { stripCaptain: true }))}</h3><div class="sub">${escapeHTML(standings.programName)}</div></div>
+      <div><h3>${escapeHTML(displayTeamName(row.teamName, { stripCaptain: true }))}</h3><div class="sub">${escapeHTML(standings.programName)}${seasonsPlayed > 1 ? ` · ${ordinal(seasonsPlayed)} season` : ''}${moveBadgeHTML(lineageEntry, standings.programName)}</div></div>
     </div>
     <div class="stat-grid">
       <div class="box"><b>${row.wins}-${row.losses}-${row.ties}</b><span>Record</span></div>
@@ -215,6 +245,7 @@ Promise.all([
     <div class="card"><div class="form-dots">${formDots || '<span style="color:var(--app-faint);font-size:12px">No games yet</span>'}</div></div>
     <div class="opp-header"><div class="sec-lbl">Opponents</div><div class="sec-lbl">Match Up Odds</div></div>
     <div class="card" style="padding:6px 12px">${opponents || '<p style="color:var(--app-faint);font-size:13px;margin:10px 0">No other teams in this league yet.</p>'}</div>
+    ${historyHTML}
   `;
 });
 </script>

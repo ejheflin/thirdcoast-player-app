@@ -272,6 +272,246 @@ function wireTabs({ active, programId, teamId } = {}) {
 document.addEventListener('DOMContentLoaded', injectIcons);
 
 // ---------------------------------------------------------------------
+// Freshness after the phone has been locked.
+//
+// An installed PWA is not reloaded when it comes back to the foreground:
+// iOS just thaws the page exactly as it was. Open the app at 7:30, lock
+// the phone, unlock at 9:30, and every screen still shows 7:30's world --
+// the court map's live slot, the "next game" card for a game that is
+// already over, and data the archiver has since refreshed. So a page that
+// has been out of sight for a long stretch, or across midnight, reloads
+// itself the moment it is visible again. A short glance away (under half
+// an hour) keeps the page as it was, so a tapped court or an open search
+// is not thrown away for nothing.
+const STALE_AFTER_MS = 30 * 60 * 1000;
+const localDay = () => new Date().toDateString();
+const _loadedDay = localDay();
+let _hiddenAt = null;
+
+function reloadIfStale() {
+  const away = _hiddenAt === null ? 0 : Date.now() - _hiddenAt;
+  if (away > STALE_AFTER_MS || localDay() !== _loadedDay) location.reload();
+}
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) _hiddenAt = Date.now();
+  else reloadIfStale();
+});
+// A page restored from the back/forward cache fires pageshow, not a
+// fresh load -- same staleness, same check.
+window.addEventListener('pageshow', (e) => { if (e.persisted) reloadIfStale(); });
+
+// ---------------------------------------------------------------------
+// Team history badges.
+//
+// data/lineage/{programId}.json (written by archive/lineage.js) links each
+// team to the team it was last season, found by who is on the roster
+// rather than by name. `move` is 'up' / 'down' when that season was a
+// different level of the same format -- the "did they come up into my
+// league, or down into it" question.
+
+const _lineage = new Map();
+function fetchLineage(programId) {
+  const key = String(programId);
+  if (!_lineage.has(key)) {
+    _lineage.set(key, fetchJSON(`data/lineage/${encodeURIComponent(key)}.json`).catch(() => null));
+  }
+  return _lineage.get(key);
+}
+
+const DAY_ABBR = { Monday: 'Mon', Tuesday: 'Tue', Wednesday: 'Wed', Thursday: 'Thu', Friday: 'Fri', Saturday: 'Sat', Sunday: 'Sun' };
+const dayOf = (programName) => String(programName ?? '').split(/\s+/)[0];
+
+// "Up from B", or "Up from Mon B" when last season was on another night --
+// a bare "B" would read as this night's B league.
+function moveBadgeHTML(entry, programName) {
+  if (!entry?.from || (entry.move !== 'up' && entry.move !== 'down')) return '';
+  const fromDay = dayOf(entry.from.programName);
+  const otherNight = fromDay !== dayOf(programName) && DAY_ABBR[fromDay];
+  const where = `${otherNight ? `${DAY_ABBR[fromDay]} ` : ''}${entry.from.level ?? ''}`.trim();
+  const up = entry.move === 'up';
+  const title = `${up ? 'Promoted' : 'Moved down'} from ${entry.from.programName}`;
+  return `<span class="mv ${entry.move}" title="${escapeHTML(title)}">${up ? '▲' : '▼'} ${up ? 'Up' : 'Down'} from ${escapeHTML(where)}</span>`;
+}
+
+// When a season happened, told by when it ended: "Nov 2026".
+function seasonLabel(endDate) {
+  if (!endDate) return '';
+  return new Date(endDate).toLocaleDateString(undefined, { month: 'short', year: 'numeric' });
+}
+
+const ordinal = (n) => {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return `${n}${s[(v - 20) % 10] ?? s[v] ?? s[0]}`;
+};
+
+// ---------------------------------------------------------------------
+// Omnisearch: the magnifier in the top-right of every page's top bar.
+//
+// One index (data/search-index.json, see archive/fetch.js'
+// buildSearchIndex) holds every team and every player across every season
+// the archive knows. It is only fetched the first time someone opens the
+// search, and then kept for the life of the page.
+
+let _searchIndex = null;
+function loadSearchIndex() {
+  if (!_searchIndex) {
+    _searchIndex = fetchJSON('data/search-index.json').then((raw) => {
+      if (!raw) return null;
+      const programs = raw.programs.map(([id, name, endDate, state]) => ({
+        id, name, endDate, active: state === 'LIVE' || state === 'UPCOMING',
+      }));
+      return {
+        programs,
+        teams: raw.teams.map(([p, teamId, teamName, seasons]) => ({ program: programs[p], teamId, teamName, seasons })),
+        people: raw.people.map(([userId, firstName, p, teamId, teamName, seasons]) => ({
+          userId, firstName, program: programs[p], teamId, teamName, seasons,
+        })),
+      };
+    }).catch(() => null);
+  }
+  return _searchIndex;
+}
+
+// 0 = the name starts with the query, 1 = a word in it does, 2 = it is in
+// there somewhere, null = no match. Every extra word typed must appear in
+// the result's team or league text too, so "sam tuesday" narrows the Sams.
+function omniScore(primary, extra, tokens) {
+  const name = primary.toLowerCase();
+  const [first, ...rest] = tokens;
+  const hay = `${name} ${extra.toLowerCase()}`;
+  if (!rest.every((t) => hay.includes(t))) return null;
+  if (name.startsWith(first)) return 0;
+  if (new RegExp(`\\b${first.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(name)) return 1;
+  if (name.includes(first)) return 2;
+  return null;
+}
+
+function omniMatch(index, query) {
+  const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return null;
+
+  const people = [];
+  for (const p of index.people) {
+    const score = omniScore(p.firstName, `${p.teamName} ${p.program.name}`, tokens);
+    if (score !== null) people.push({ ...p, score });
+  }
+  // Newest first within a score: the person still playing is the one
+  // most likely being looked for. index.programs is newest-first, so a
+  // lower program position means more recent.
+  const pos = new Map(index.programs.map((p, i) => [p, i]));
+  people.sort((a, b) => a.score - b.score || pos.get(a.program) - pos.get(b.program) || b.seasons - a.seasons);
+
+  // One row per team NAME, pointing at its newest season: the same name
+  // five seasons running is one team to a person searching, not five.
+  const byName = new Map();
+  for (const t of index.teams) {
+    const label = displayTeamName(t.teamName, { stripCaptain: true });
+    const key = label.toLowerCase();
+    const score = omniScore(label, `${t.teamName} ${t.program.name}`, tokens);
+    if (score === null) continue;
+    const seen = byName.get(key);
+    // index.teams is already newest-first, so the first hit is the newest.
+    if (!seen) byName.set(key, { ...t, label, score, count: 1 });
+    else seen.count += 1;
+  }
+  const teams = [...byName.values()].sort((a, b) =>
+    a.score - b.score || pos.get(a.program) - pos.get(b.program));
+
+  return { people, teams };
+}
+
+const OMNI_LIMIT = 8;
+
+function omniResultsHTML(result) {
+  if (!result) return '<p class="omni-hint">Search any player or team, from any season.</p>';
+  const { people, teams } = result;
+  if (people.length === 0 && teams.length === 0) return '<p class="omni-hint">No players or teams match that.</p>';
+  const now = (program) => (program.active ? '<i class="omni-now">Now</i>' : '');
+  const more = (n, what) => (n > OMNI_LIMIT
+    ? `<p class="omni-more">Showing ${OMNI_LIMIT} of ${n} ${what} — add a team or league name to narrow it.</p>` : '');
+  const seasons = (n) => `${n} season${n === 1 ? '' : 's'}`;
+
+  const peopleHTML = people.slice(0, OMNI_LIMIT).map((p) => `
+    <a class="omni-row" href="player.html?person=${encodeURIComponent(p.userId)}">
+      <span class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</span>
+      <span class="omni-meta">
+        <b>${escapeHTML(p.firstName)} ${now(p.program)}</b>
+        <span>${escapeHTML(displayTeamName(p.teamName, { stripCaptain: true }))} · ${escapeHTML(p.program.name)} · ${seasons(p.seasons)}</span>
+      </span>
+    </a>`).join('');
+  const teamsHTML = teams.slice(0, OMNI_LIMIT).map((t) => `
+    <a class="omni-row" href="team.html?team=${encodeURIComponent(t.teamId)}&program=${encodeURIComponent(t.program.id)}">
+      <span class="ini team">${escapeHTML(t.label.slice(0, 2).toUpperCase())}</span>
+      <span class="omni-meta">
+        <b>${escapeHTML(t.label)} ${now(t.program)}</b>
+        <span>${escapeHTML(t.program.name)} · ${escapeHTML(seasonLabel(t.program.endDate))} · ${seasons(t.seasons)}</span>
+      </span>
+    </a>`).join('');
+
+  return `
+    ${people.length ? `<div class="sec-lbl">Players</div><div class="card omni-list">${peopleHTML}</div>${more(people.length, 'players')}` : ''}
+    ${teams.length ? `<div class="sec-lbl">Teams</div><div class="card omni-list">${teamsHTML}</div>${more(teams.length, 'teams')}` : ''}`;
+}
+
+function openOmnisearch() {
+  const screen = document.querySelector('.screen');
+  if (!screen || screen.querySelector('.omni')) return;
+  const sheet = document.createElement('div');
+  sheet.className = 'omni';
+  sheet.setAttribute('role', 'dialog');
+  sheet.setAttribute('aria-label', 'Search players and teams');
+  sheet.innerHTML = `
+    <div class="omni-head">
+      <label class="omni-field">
+        <svg class="icon"><use href="#i-search"/></svg>
+        <input type="search" placeholder="Player or team name…" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+      </label>
+      <button type="button" class="omni-cancel">Cancel</button>
+    </div>
+    <div class="omni-body"><p class="omni-hint">Search any player or team, from any season.</p></div>`;
+  screen.appendChild(sheet);
+
+  const input = sheet.querySelector('input');
+  const body = sheet.querySelector('.omni-body');
+  const close = () => { sheet.remove(); document.removeEventListener('keydown', onKey); };
+  const onKey = (e) => { if (e.key === 'Escape') close(); };
+  document.addEventListener('keydown', onKey);
+  sheet.querySelector('.omni-cancel').addEventListener('click', close);
+
+  let index = null;
+  const render = () => {
+    const q = input.value.trim();
+    if (!q) { body.innerHTML = omniResultsHTML(null); return; }
+    if (!index) { body.innerHTML = '<p class="omni-hint">Loading…</p>'; return; }
+    body.innerHTML = omniResultsHTML(omniMatch(index, q));
+  };
+  input.addEventListener('input', render);
+  loadSearchIndex().then((idx) => {
+    index = idx;
+    if (!idx) { body.innerHTML = '<p class="omni-hint">Search isn\'t available yet — check back after the next data refresh.</p>'; return; }
+    render();
+  });
+  input.focus();
+}
+
+// Every page with a top bar gets the magnifier, top right. search.html has
+// no .topbar -- it IS a search, of the active leagues only, for saving a
+// team -- so it is left alone.
+function mountOmnisearch() {
+  const bar = document.querySelector('.topbar');
+  if (!bar || bar.querySelector('.omni-btn')) return;
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'omni-btn';
+  btn.setAttribute('aria-label', 'Search players and teams');
+  btn.innerHTML = '<svg class="icon"><use href="#i-search"/></svg>';
+  btn.addEventListener('click', openOmnisearch);
+  bar.appendChild(btn);
+}
+document.addEventListener('DOMContentLoaded', mountOmnisearch);
+
+// ---------------------------------------------------------------------
 // The match card, shared by gamenight.html and court.html.
 //
 // Moved out of gamenight.html when court.html needed the same card for

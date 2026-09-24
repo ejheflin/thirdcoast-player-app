@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { runArchive } from './fetch.js';
 
-test('runArchive writes standings for every program, activities+roster only for active ones', async () => {
+test('runArchive writes standings and rosters for every program, activities only for active ones', async () => {
   const writes = new Map();
   const reads = new Map();
   const deps = {
@@ -95,7 +95,9 @@ test('runArchive writes standings for every program, activities+roster only for 
   assert.ok(roster, 'an active team gets a roster file');
   assert.deepEqual(roster.players, [{ userId: 555, firstName: 'Real', isCaptain: true }]);
   assert.equal(JSON.stringify(roster).includes('Real Name'), false, 'a roster file must never carry a full name');
-  assert.equal(writes.has('docs/data/rosters/1-10.json'), false, 'completed programs get no roster files');
+  // A finished season's roster IS archived now -- once -- because team and
+  // player history across seasons is built out of it.
+  assert.ok(writes.has('docs/data/rosters/1-10.json'), 'a completed program gets its roster archived too');
 
   // Upcoming-game schedule for the "next game" home screen.
   const schedule2 = writes.get('docs/data/schedule/2.json');
@@ -251,6 +253,88 @@ test('runArchive tolerates a program with no endDate', async () => {
   assert.deepEqual(writes.get('docs/data/programs-index.json'), [
     { programId: 4, programName: 'Pop Up League', state: 'LIVE', endDate: null },
   ]);
+});
+
+// --- history across seasons ------------------------------------------
+
+const DAY = 24 * 60 * 60 * 1000;
+const T0 = Date.UTC(2026, 0, 1);
+
+// Two seasons of the same Tuesday ladder: team 20 played B last season,
+// and the same four people are team 30 in A this season.
+function twoSeasonDeps({ writes, reads = new Map(), rosterFetches = [], budget } = {}) {
+  const rosterFor = { 20: [1, 2, 3, 4], 21: [5, 6, 7, 8], 30: [1, 2, 3, 4], 31: [9, 10, 11, 12] };
+  return {
+    fetchPrograms: async () => [
+      { id: 100, name: 'Tuesday Coed 4s B', state: 'COMPLETED', endDate: T0 },
+      { id: 200, name: 'Tuesday Coed 4s A', state: 'LIVE', endDate: T0 + 90 * DAY },
+    ],
+    fetchActivities: async () => [],
+    fetchStandingsHTML: async (id) => String(id),
+    parseStandings: (html) => (html === '100'
+      ? [{ position: 1, teamId: 20, teamName: 'Old Name', gamesPlayed: 9, wins: 8, losses: 1, ties: 0, points: 16 },
+        { position: 2, teamId: 21, teamName: 'Others', gamesPlayed: 9, wins: 1, losses: 8, ties: 0, points: 2 }]
+      : [{ position: 1, teamId: 30, teamName: 'New Name', gamesPlayed: 0, wins: 0, losses: 0, ties: 0, points: 0 },
+        { position: 2, teamId: 31, teamName: 'Fresh', gamesPlayed: 0, wins: 0, losses: 0, ties: 0, points: 0 }]),
+    fetchRosterHTML: async (programId, teamId) => { rosterFetches.push(`${programId}-${teamId}`); return String(teamId); },
+    parseRoster: (html) => rosterFor[html].map((id) => ({ userId: id, fullName: `P${id} Surname`, isCaptain: false })),
+    fetchLocations: async () => [],
+    readJSON: async (path) => reads.get(path) ?? writes.get(path) ?? null,
+    writeJSON: async (path, data) => writes.set(path, data),
+    ...(budget === undefined ? {} : { historyRosterBudget: budget }),
+  };
+}
+
+test('runArchive links a team to last season and marks it promoted', async () => {
+  const writes = new Map();
+  await runArchive(twoSeasonDeps({ writes }));
+  const lineage = writes.get('docs/data/lineage/200.json');
+  assert.ok(lineage, 'an active program gets a lineage file');
+  const promoted = lineage.teams[30];
+  assert.equal(promoted.move, 'up', 'B -> A is a promotion');
+  assert.equal(promoted.seasons, 2);
+  assert.equal(promoted.from.teamName, 'Old Name', 'followed the people across a rename');
+  assert.equal(promoted.from.level, 'B');
+  assert.deepEqual(promoted.history.map((h) => h.programId), [100, 200], 'oldest season first');
+  assert.equal(promoted.history[0].wins, 8, 'each season carries its own record');
+  assert.equal(lineage.teams[31].move, null, 'a brand-new team has no prior season to compare');
+  assert.equal(lineage.teams[31].seasons, 1);
+});
+
+test('runArchive never re-fetches a finished season roster it already has', async () => {
+  const writes = new Map();
+  const rosterFetches = [];
+  const reads = new Map([
+    ['docs/data/rosters/100-20.json', { players: [1, 2, 3, 4].map((userId) => ({ userId, firstName: 'P', isCaptain: false })) }],
+  ]);
+  await runArchive(twoSeasonDeps({ writes, reads, rosterFetches }));
+  assert.equal(rosterFetches.includes('100-20'), false, 'the cached finished roster was read, not fetched');
+  assert.ok(rosterFetches.includes('100-21'), 'an uncached finished roster is still fetched');
+  assert.ok(rosterFetches.includes('200-30'), 'an active roster is always fetched fresh');
+  assert.equal(writes.get('docs/data/lineage/200.json').teams[30].move, 'up', 'a cached roster still feeds the history');
+});
+
+test('runArchive spends at most its history budget on finished rosters', async () => {
+  const writes = new Map();
+  const rosterFetches = [];
+  await runArchive(twoSeasonDeps({ writes, rosterFetches, budget: 1 }));
+  assert.equal(rosterFetches.filter((k) => k.startsWith('100-')).length, 1, 'one finished roster, as budgeted');
+  assert.equal(rosterFetches.filter((k) => k.startsWith('200-')).length, 2, 'the budget never limits an active season');
+});
+
+test('runArchive writes a search index of every team and every player, first names only', async () => {
+  const writes = new Map();
+  await runArchive(twoSeasonDeps({ writes }));
+  const idx = writes.get('docs/data/search-index.json');
+  assert.deepEqual(idx.programs.map((p) => p[0]), [200, 100], 'newest program first');
+  assert.equal(idx.teams.length, 4, 'every team of every season is searchable');
+  const newName = idx.teams.find((t) => t[2] === 'New Name');
+  assert.equal(newName[3], 2, 'a team row carries its season count');
+  const p1 = idx.people.find((p) => p[0] === 1);
+  assert.equal(p1[1], 'P1');
+  assert.equal(p1[4], 'New Name', "a person is labelled with their LATEST team");
+  assert.equal(p1[5], 2, 'and how many seasons they have played');
+  assert.equal(JSON.stringify(idx).includes('Surname'), false, 'the index must never carry a surname');
 });
 
 // --- the venue-wide court map ----------------------------------------
