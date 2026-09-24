@@ -1,0 +1,215 @@
+{
+  "programId": 1462948,
+  "teams": {
+    "2892091": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2892091,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "4 - Life's a Beach (Clark P.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "2892133": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2892133,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "12 - Volleyholics (Letty B.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "2892814": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2892814,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "2 - Fly Ballers Shot Callers (Albert F.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 3,
+          "ties": 1
+        }
+      ]
+    },
+    "2893477": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2893477,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "1 - 3C Whiskey Social Club (Jaimie G.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "2895619": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2895619,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "7 - SERVEZAS (Emily C.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 2,
+          "ties": 0
+        }
+      ]
+    },
+    "2897110": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2897110,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "8 - Slay la Vie (Starr K.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 1,
+          "ties": 2
+        }
+      ]
+    },
+    "2898784": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2898784,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "9 - Stranger Dinks (Mike B.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 0,
+          "ties": 3
+        }
+      ]
+    },
+    "2899039": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2899039,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "11 - Zombies (Brad F.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "2930278": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 2930278,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "6 - TSG (Calvin D.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 1,
+          "ties": 1
+        }
+      ]
+    },
+    "3170548": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462948,
+          "teamId": 3170548,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "(Lily P.)",
+          "endDate": 1588219200000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

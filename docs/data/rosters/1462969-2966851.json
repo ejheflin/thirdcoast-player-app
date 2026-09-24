@@ -1,0 +1,27 @@
+{
+  "programId": 1462969,
+  "teamId": 2966851,
+  "teamName": "5 - Sandy Cheeks (Alyson L.)",
+  "players": [
+    {
+      "userId": 14944333,
+      "firstName": "Diana",
+      "isCaptain": false
+    },
+    {
+      "userId": 19155358,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 14620669,
+      "firstName": "Trung",
+      "isCaptain": false
+    },
+    {
+      "userId": 14637376,
+      "firstName": "Alyson",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 3719661,
+  "teamId": 6149319,
+  "teamName": "1. Hollis S. & Michael G.",
+  "players": [
+    {
+      "userId": 14866009,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 14634340,
+      "firstName": "Hollis",
+      "isCaptain": false
+    }
+  ]
+}

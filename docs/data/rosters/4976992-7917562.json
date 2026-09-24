@@ -1,0 +1,17 @@
+{
+  "programId": 4976992,
+  "teamId": 7917562,
+  "teamName": "2. Ashlee S. and Matt G.",
+  "players": [
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 14635723,
+      "firstName": "ashlee",
+      "isCaptain": false
+    }
+  ]
+}

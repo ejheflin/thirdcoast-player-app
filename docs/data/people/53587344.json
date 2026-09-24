@@ -1,0 +1,30 @@
+{
+  "userId": 53587344,
+  "firstName": "Doria",
+  "appearances": [
+    {
+      "programId": 4872859,
+      "teamId": 7761978,
+      "teamName": "2. Doria O. and Jacob W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7607307,
+      "teamName": "5. Doria O. and Roy T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7472940,
+      "teamName": "11. The Habibiz (Roy T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7598385,
+      "teamName": "12. The Habibiz (Roy T.)",
+      "isCaptain": false
+    }
+  ]
+}

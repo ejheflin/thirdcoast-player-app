@@ -7,6 +7,54 @@
       "teamId": 8025029,
       "teamName": "2. Net Ninjas (Katelyn M.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7430806,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384891,
+      "teamName": "3. The Hard Digs (Alfredo E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7332401,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6158907,
+      "teamName": "8. The Hard Digs (Alfredo E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7774995,
+      "teamName": "1. Net Ninjas (Katelyn M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7185053,
+      "teamName": "4. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7900996,
+      "teamName": "8. Net Ninjas (Katelyn M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7573040,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
     }
   ]
 }

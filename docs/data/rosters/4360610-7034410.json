@@ -1,0 +1,22 @@
+{
+  "programId": 4360610,
+  "teamId": 7034410,
+  "teamName": "10. Team Wanna Be’s (Kyle P.)",
+  "players": [
+    {
+      "userId": 23417074,
+      "firstName": "Kyle",
+      "isCaptain": true
+    },
+    {
+      "userId": 49890403,
+      "firstName": "Mackenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 49890451,
+      "firstName": "Mason",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "programId": 3904384,
+  "teams": {
+    "6374397": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6130416,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "2. Can You Dig It? (Marc S.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3719520,
+          "teamId": 6130416,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "2. Can You Dig It? (Marc S.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6374397,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "1. Can You Dig It? (Marc S.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "6377279": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6143511,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "7. Volley Llamas (Daphne D.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3719520,
+          "teamId": 6143511,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "7. Volley Llamas (Daphne D.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6377279,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "2. Volley Llamas (Daphne D.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "6380252": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6127749,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "1. Empire Spikes Back (Ash B.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3719520,
+          "teamId": 6127749,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "1. Empire Spikes Back (Ash B.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6380252,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "4. Empire Spikes Back (Ash B.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "6380801": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6141897,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "5. Bumpin Uglies (Annie L.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3430566,
+          "teamId": 5713197,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6. Big Digs (Annie L.)",
+          "endDate": 1669698000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        },
+        {
+          "programId": 3719520,
+          "teamId": 6141897,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "5. Bumpin Uglies (Annie L.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": "up",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 6
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6380801,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "3. Bumpin Uglies (Annie L.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 10,
+          "ties": 5
+        }
+      ]
+    },
+    "6380870": {
+      "seasons": 2,
+      "move": "down",
+      "from": {
+        "programId": 3719505,
+        "teamId": 6133749,
+        "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+        "teamName": "7. River Oaks VC (Tom K.)",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6133749,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "7. River Oaks VC (Tom K.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6380870,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "8. River Oaks VC (Tom K.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "down",
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "6382144": {
+      "seasons": 2,
+      "move": "up",
+      "from": {
+        "programId": 3719592,
+        "teamId": 6164856,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "8. Ninja Turtles (Andrew B.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 3719592,
+          "teamId": 6164856,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8. Ninja Turtles (Andrew B.)",
+          "endDate": 1682395200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 14,
+          "losses": 1,
+          "ties": 1
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6382144,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "9. Ninja Turtles (Andrew B.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "up",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 15,
+          "losses": 1,
+          "ties": 0
+        }
+      ]
+    },
+    "6382288": {
+      "seasons": 5,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6128070,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "8. Freakin' Tapes (Aatir A.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3114541,
+          "teamId": 5219890,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "9 - On Your Knees (Aatir A.)",
+          "endDate": 1657598400000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        },
+        {
+          "programId": 3257331,
+          "teamId": 5448939,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "4 - One and Done (Aatir A.)",
+          "endDate": 1663646400000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        },
+        {
+          "programId": 3430566,
+          "teamId": 5716869,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7. Freaking Tapes! (Aatir A.)",
+          "endDate": 1669698000000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 0,
+          "ties": 6
+        },
+        {
+          "programId": 3719520,
+          "teamId": 6128070,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "8. Freakin' Tapes (Aatir A.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": "up",
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 7,
+          "ties": 9
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6382288,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "10. iNetted (Aatir A.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 10,
+          "ties": 6
+        }
+      ]
+    },
+    "6382299": {
+      "seasons": 2,
+      "move": "up",
+      "from": {
+        "programId": 3719592,
+        "teamId": 6166983,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "9. Milk & Cookies (Sam E.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 3719592,
+          "teamId": 6166983,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "9. Milk & Cookies (Sam E.)",
+          "endDate": 1682395200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 13,
+          "losses": 2,
+          "ties": 1
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6382299,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "5. Milk & Cookies (Sam E.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "up",
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "6382705": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6144612,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3719520,
+          "teamId": 6144612,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6382705,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "6. IT'S THE S W E E T ONE! (Quentin B.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "6383407": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 3719520,
+        "teamId": 6157710,
+        "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+        "teamName": "9. Ginger & the Giants (Allan K.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 2609355,
+          "teamId": 4434978,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Ginger and the Giants (Allan K.)",
+          "endDate": 1638248400000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 3,
+          "ties": 3
+        },
+        {
+          "programId": 2821746,
+          "teamId": 4785060,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7 - Ginger and the Giants (Allan K.)",
+          "endDate": 1652155200000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 4,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        },
+        {
+          "programId": 3114541,
+          "teamId": 5228893,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Ginger & the Giants (Allan K.)",
+          "endDate": 1657598400000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        },
+        {
+          "programId": 3257331,
+          "teamId": 5461917,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "10 - Ginger & the Giants (Allan K.)",
+          "endDate": 1663646400000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 13,
+          "losses": 2,
+          "ties": 1
+        },
+        {
+          "programId": 3719520,
+          "teamId": 6157710,
+          "programName": "Tuesday Coed 4s B (formerly Intermediate #2)",
+          "teamName": "9. Ginger & the Giants (Allan K.)",
+          "endDate": 1682395200000,
+          "level": "B",
+          "move": "up",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        },
+        {
+          "programId": 3904384,
+          "teamId": 6383407,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "7. Ginger & the Giants (Allan K.)",
+          "endDate": 1687838400000,
+          "level": "B",
+          "move": "same",
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

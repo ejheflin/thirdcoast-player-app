@@ -1,0 +1,17 @@
+{
+  "programId": 4661449,
+  "teamId": 7453264,
+  "teamName": "2. Taylor B. and Alfredo E.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 19697446,
+      "firstName": "Alfredo",
+      "isCaptain": false
+    }
+  ]
+}

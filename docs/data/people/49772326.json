@@ -1,0 +1,24 @@
+{
+  "userId": 49772326,
+  "firstName": "Osvaldo",
+  "appearances": [
+    {
+      "programId": 4362250,
+      "teamId": 7027305,
+      "teamName": "6. Hitmen (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7234938,
+      "teamName": "7. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6914085,
+      "teamName": "10. Hitmen (Cristofer G.)",
+      "isCaptain": false
+    }
+  ]
+}

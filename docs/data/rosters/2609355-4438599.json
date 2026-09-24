@@ -1,0 +1,37 @@
+{
+  "programId": 2609355,
+  "teamId": 4438599,
+  "teamName": "9 - Sets on the Beach (Amy C.)",
+  "players": [
+    {
+      "userId": 29712354,
+      "firstName": "Kiley",
+      "isCaptain": false
+    },
+    {
+      "userId": 29672004,
+      "firstName": "Amy",
+      "isCaptain": true
+    },
+    {
+      "userId": 29704038,
+      "firstName": "Grant",
+      "isCaptain": false
+    },
+    {
+      "userId": 29728773,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
+      "userId": 29806935,
+      "firstName": "Ross",
+      "isCaptain": false
+    },
+    {
+      "userId": 29705787,
+      "firstName": "Christina",
+      "isCaptain": false
+    }
+  ]
+}

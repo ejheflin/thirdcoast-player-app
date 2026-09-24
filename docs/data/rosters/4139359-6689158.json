@@ -1,0 +1,17 @@
+{
+  "programId": 4139359,
+  "teamId": 6689158,
+  "teamName": "12. Sarah H. & Charlie B.",
+  "players": [
+    {
+      "userId": 14567269,
+      "firstName": "Charlie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14578171,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}

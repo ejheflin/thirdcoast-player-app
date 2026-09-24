@@ -1,0 +1,27 @@
+{
+  "programId": 3719727,
+  "teamId": 6136956,
+  "teamName": "3. Arsenal Gunners (David T.)",
+  "players": [
+    {
+      "userId": 29905233,
+      "firstName": "Gonya",
+      "isCaptain": false
+    },
+    {
+      "userId": 29687073,
+      "firstName": "Simon",
+      "isCaptain": false
+    },
+    {
+      "userId": 22226353,
+      "firstName": "Abbey",
+      "isCaptain": false
+    },
+    {
+      "userId": 14576317,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

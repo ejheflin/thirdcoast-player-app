@@ -1,0 +1,18 @@
+{
+  "userId": 39343026,
+  "firstName": "MICHAEL",
+  "appearances": [
+    {
+      "programId": 4488296,
+      "teamId": 7233936,
+      "teamName": "8. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6723045,
+      "teamName": "7. Kiss My Ace (Jessica C.)",
+      "isCaptain": false
+    }
+  ]
+}

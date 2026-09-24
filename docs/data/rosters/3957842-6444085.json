@@ -1,0 +1,17 @@
+{
+  "programId": 3957842,
+  "teamId": 6444085,
+  "teamName": "3. Andrea M. & Jaimie G.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 15948247,
+      "firstName": "Andrea",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4872859,
+  "teamId": 7761984,
+  "teamName": "6. Sarah U. and Brent B.",
+  "players": [
+    {
+      "userId": 15654655,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}

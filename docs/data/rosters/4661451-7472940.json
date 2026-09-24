@@ -1,0 +1,27 @@
+{
+  "programId": 4661451,
+  "teamId": 7472940,
+  "teamName": "11. The Habibiz (Roy T.)",
+  "players": [
+    {
+      "userId": 52264809,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 53587344,
+      "firstName": "Doria",
+      "isCaptain": false
+    },
+    {
+      "userId": 53564559,
+      "firstName": "Ruben",
+      "isCaptain": false
+    },
+    {
+      "userId": 52225898,
+      "firstName": "Roy",
+      "isCaptain": true
+    }
+  ]
+}

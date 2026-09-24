@@ -1,0 +1,90 @@
+{
+  "userId": 35031907,
+  "firstName": "Zee",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7350509,
+      "teamName": "5. SCDR’s (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7211480,
+      "teamName": "8. SCDR’s (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6382288,
+      "teamName": "10. iNetted (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6128070,
+      "teamName": "8. Freakin' Tapes (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7461586,
+      "teamName": "1. #SCDR’s (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6920998,
+      "teamName": "8. Balls Deep (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7027814,
+      "teamName": "5. SCDR (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6450844,
+      "teamName": "4. Freakin’ Tapes (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6825257,
+      "teamName": "7. One and Done! (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5219890,
+      "teamName": "9 - On Your Knees (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6704071,
+      "teamName": "1. Hakuna Matata (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5448939,
+      "teamName": "4 - One and Done (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5716869,
+      "teamName": "7. Freaking Tapes! (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6549019,
+      "teamName": "6. Hakuna Matata (Aatir A.)",
+      "isCaptain": false
+    }
+  ]
+}

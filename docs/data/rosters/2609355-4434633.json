@@ -1,0 +1,27 @@
+{
+  "programId": 2609355,
+  "teamId": 4434633,
+  "teamName": "4 - Spike It Harder (Brad O.)",
+  "players": [
+    {
+      "userId": 15220531,
+      "firstName": "Cathryn",
+      "isCaptain": false
+    },
+    {
+      "userId": 16232575,
+      "firstName": "Brad",
+      "isCaptain": true
+    },
+    {
+      "userId": 29652405,
+      "firstName": "Eduardo",
+      "isCaptain": false
+    },
+    {
+      "userId": 25289338,
+      "firstName": "Andressa",
+      "isCaptain": false
+    }
+  ]
+}

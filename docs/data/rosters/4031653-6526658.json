@@ -1,0 +1,27 @@
+{
+  "programId": 4031653,
+  "teamId": 6526658,
+  "teamName": "11. Spike Wars (Kate S.)",
+  "players": [
+    {
+      "userId": 29586969,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 39327453,
+      "firstName": "William",
+      "isCaptain": false
+    },
+    {
+      "userId": 39464394,
+      "firstName": "Kate",
+      "isCaptain": true
+    },
+    {
+      "userId": 31727040,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

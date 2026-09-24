@@ -19,6 +19,96 @@
       "teamId": 8122077,
       "teamName": "10. Nate G. and Zach B.",
       "isCaptain": true
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7897190,
+      "teamName": "3. Jenny S. and Nate G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761977,
+      "teamName": "3. Jenny S. and Nathan G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7601756,
+      "teamName": "11. Jenny S. and Nathan G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7449289,
+      "teamName": "9. Jenny S. and Nathan G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7355373,
+      "teamName": "12. Jenny S. and Nathan G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7196041,
+      "teamName": "7. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7463187,
+      "teamName": "2. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7588171,
+      "teamName": "3. Bump, Set… Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7353419,
+      "teamName": "10. Bump, Set… Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6849109,
+      "teamName": "9. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7050296,
+      "teamName": "3. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6954675,
+      "teamName": "5. Bump, Set... Dammit (Nathan G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6646856,
+      "teamName": "1. Bang Ít (Denise H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7784660,
+      "teamName": "1. Nathan G. and Jordan O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7925296,
+      "teamName": "11. Nathan G. and Zach B.",
+      "isCaptain": true
     }
   ]
 }

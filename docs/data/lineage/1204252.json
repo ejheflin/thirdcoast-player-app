@@ -1,0 +1,173 @@
+{
+  "programId": 1204252,
+  "teams": {
+    "2510266": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2510266,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "5 - Fly Ballers Shot Callers (Albert F.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "2511091": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2511091,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "7 - Can't Keep Score (Joy R.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "2511217": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2511217,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "6 - Arsenal Gunners (David T.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "2512234": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2512234,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "2 - Any4s (Naomi L.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 14,
+          "ties": 1
+        }
+      ]
+    },
+    "2512270": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2512270,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "1 - Safety First (Jesse B.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 11,
+          "ties": 3
+        }
+      ]
+    },
+    "2514466": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2514466,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "8 - Volleyholics (Leticia B.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 4,
+          "ties": 4
+        }
+      ]
+    },
+    "2518921": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2518921,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "4 - Das Gunners (David T.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2519110": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1204252,
+          "teamId": 2519110,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "3 - Kicking Assets (Joseph N.)",
+          "endDate": 1569211200000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 0,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

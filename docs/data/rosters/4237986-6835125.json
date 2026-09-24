@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6835125,
+  "teamName": "3. Taylor H. & Jaimie G.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 47833664,
+      "firstName": "Taylor",
+      "isCaptain": false
+    }
+  ]
+}

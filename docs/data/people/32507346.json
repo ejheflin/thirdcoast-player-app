@@ -1,0 +1,42 @@
+{
+  "userId": 32507346,
+  "firstName": "Daniel",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6453502,
+      "teamName": "8. The vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6382641,
+      "teamName": "7. Monster Swang (Philip M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6143595,
+      "teamName": "4. Monster Swang (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5456859,
+      "teamName": "8 - Rusteze (Brian C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5719896,
+      "teamName": "9. Rusteze (Brian C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6549240,
+      "teamName": "8. The Vacationers (Philip M.)",
+      "isCaptain": false
+    }
+  ]
+}

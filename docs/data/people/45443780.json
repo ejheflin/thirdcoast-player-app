@@ -13,6 +13,126 @@
       "teamId": 8136201,
       "teamName": "5. Shelbita L. and Michael A.",
       "isCaptain": true
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6560366,
+      "teamName": "12. Olivia E. & Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689112,
+      "teamName": "6. Olivia E. & Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6689268,
+      "teamName": "5. Anabel K. & Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6567776,
+      "teamName": "12. Anabel K. & Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484432,
+      "teamName": "12. Odette M. & Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6952675,
+      "teamName": "1. Paige D. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196690,
+      "teamName": "4. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7776906,
+      "teamName": "1. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7588166,
+      "teamName": "5. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7348277,
+      "teamName": "2. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7914505,
+      "teamName": "6. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7466097,
+      "teamName": "9. Shelby L. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6835059,
+      "teamName": "5. Anabel K. & Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7042380,
+      "teamName": "12. Anabel K. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6702050,
+      "teamName": "5. Mike A. & Adolph T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6561065,
+      "teamName": "11. Adolph T. & Mike A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6834460,
+      "teamName": "12. Mike A. & Adolph T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6950679,
+      "teamName": "8. Mike A. and Adolph T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7228103,
+      "teamName": "11. Jake S. and Michael A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7349975,
+      "teamName": "4. Jake S. and Michael A.",
+      "isCaptain": true
     }
   ]
 }

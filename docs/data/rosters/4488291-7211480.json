@@ -1,0 +1,27 @@
+{
+  "programId": 4488291,
+  "teamId": 7211480,
+  "teamName": "8. SCDR’s (Aatir A.)",
+  "players": [
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 49372007,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 51312696,
+      "firstName": "Rachael",
+      "isCaptain": false
+    },
+    {
+      "userId": 35031907,
+      "firstName": "Zee",
+      "isCaptain": false
+    }
+  ]
+}

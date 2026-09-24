@@ -1,0 +1,18 @@
+{
+  "userId": 55618763,
+  "firstName": "Charlie",
+  "appearances": [
+    {
+      "programId": 4975323,
+      "teamId": 7901262,
+      "teamName": "7. Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7784592,
+      "teamName": "6. Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4590324,
+  "teamId": 7339593,
+  "teamName": "8. Yanni S. and Savannah W.",
+  "players": [
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": false
+    }
+  ]
+}

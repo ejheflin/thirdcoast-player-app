@@ -1,0 +1,17 @@
+{
+  "programId": 4033201,
+  "teamId": 6558276,
+  "teamName": "12. Jeff S. & Zack B.",
+  "players": [
+    {
+      "userId": 45930068,
+      "firstName": "Zack",
+      "isCaptain": false
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "userId": 14707600,
+  "firstName": "Christine",
+  "appearances": [
+    {
+      "programId": 4752508,
+      "teamId": 7582016,
+      "teamName": "3. Christine M. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6393608,
+      "teamName": "10. Christine M. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6953632,
+      "teamName": "2. Christine M. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6132822,
+      "teamName": "2. Christine M. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483430,
+      "teamName": "10. Christine M. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6562531,
+      "teamName": "1. Christine M & Matt B",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6689279,
+      "teamName": "2. Christine M. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6839664,
+      "teamName": "3. Christine M. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7333133,
+      "teamName": "5. Christine M. and Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7027300,
+      "teamName": "11. Christine M. and Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7436641,
+      "teamName": "5. Christine M. and Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288379,
+      "teamId": 6909952,
+      "teamName": "9. Christine M. and Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6455726,
+      "teamName": "10. Christine M. & Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6820763,
+      "teamName": "11. Christine M. & Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6692934,
+      "teamName": "3. Christine M. & Dani D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6380119,
+      "teamName": "4. Christine M. & Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7585255,
+      "teamName": "10. Christine M. & Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6158994,
+      "teamName": "10. Christine M. & Erika P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031663,
+      "teamId": 6549359,
+      "teamName": "8. Christine M. & Erika P.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "programId": 2278405,
+  "teamId": 3953017,
+  "teamName": "8 - Das Gunners (David T.)",
+  "players": [
+    {
+      "userId": 22333882,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 25441147,
+      "firstName": "Yulia",
+      "isCaptain": false
+    },
+    {
+      "userId": 25414723,
+      "firstName": "Kristen",
+      "isCaptain": false
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": false
+    },
+    {
+      "userId": 16232575,
+      "firstName": "Brad",
+      "isCaptain": false
+    },
+    {
+      "userId": 25415110,
+      "firstName": "Dave",
+      "isCaptain": false
+    },
+    {
+      "userId": 14576317,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

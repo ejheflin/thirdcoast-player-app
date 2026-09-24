@@ -1,0 +1,54 @@
+{
+  "userId": 46610862,
+  "firstName": "Colby",
+  "appearances": [
+    {
+      "programId": 4967493,
+      "teamId": 7892522,
+      "teamName": "3. Jodie N. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872881,
+      "teamId": 7761986,
+      "teamName": "4. Jodie N. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7899563,
+      "teamName": "7. Taylor B. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7048707,
+      "teamName": "7. Brenna B. and Colby H.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7588001,
+      "teamName": "7. Taylor B. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7761965,
+      "teamName": "7. Taylor B. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6958970,
+      "teamName": "1. Jasmin C. and Colby H.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6912180,
+      "teamName": "4. Team Jacob (Mark J.)",
+      "isCaptain": false
+    }
+  ]
+}

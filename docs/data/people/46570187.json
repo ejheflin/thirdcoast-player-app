@@ -7,6 +7,66 @@
       "teamId": 8034085,
       "teamName": "3. Chocolate City (Samanda H.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6721156,
+      "teamName": "10. Over and Out (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6570074,
+      "teamName": "5. Over and Out (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7029516,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6722901,
+      "teamName": "6. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6919420,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7433341,
+      "teamName": "4. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7757984,
+      "teamName": "8. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6823943,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7184897,
+      "teamName": "2. Chocolate & Cream Coalition (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7332837,
+      "teamName": "1. Chocolate and Cream Coalition (Ryan T.)",
+      "isCaptain": false
     }
   ]
 }

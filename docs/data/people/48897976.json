@@ -1,0 +1,24 @@
+{
+  "userId": 48897976,
+  "firstName": "Luke",
+  "appearances": [
+    {
+      "programId": 4362247,
+      "teamId": 7012424,
+      "teamName": "8. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6816519,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6909314,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    }
+  ]
+}

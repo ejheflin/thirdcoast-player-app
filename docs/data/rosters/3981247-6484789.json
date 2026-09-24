@@ -1,0 +1,27 @@
+{
+  "programId": 3981247,
+  "teamId": 6484789,
+  "teamName": "12. The Misfits ( Joe R.)",
+  "players": [
+    {
+      "userId": 18431188,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14820670,
+      "firstName": "Liz",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    },
+    {
+      "userId": 45446989,
+      "firstName": "Alik",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 48345309,
+  "firstName": "Lucie",
+  "appearances": [
+    {
+      "programId": 4770452,
+      "teamId": 7603040,
+      "teamName": "1. Lucie A. and Christopher M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6849166,
+      "teamName": "10. We Here (Kumar S.)",
+      "isCaptain": false
+    }
+  ]
+}

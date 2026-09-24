@@ -1,0 +1,17 @@
+{
+  "programId": 4656563,
+  "teamId": 7436515,
+  "teamName": "9. Yanni S. and Becca W.",
+  "players": [
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    },
+    {
+      "userId": 18883024,
+      "firstName": "Becca",
+      "isCaptain": false
+    }
+  ]
+}

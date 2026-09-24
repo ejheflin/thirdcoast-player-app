@@ -1,0 +1,72 @@
+{
+  "userId": 25501708,
+  "firstName": "nicole",
+  "appearances": [
+    {
+      "programId": 4237986,
+      "teamId": 6838900,
+      "teamName": "7. Nicole P. & Isa T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6393519,
+      "teamName": "4. Nicole P. & Raul C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6153168,
+      "teamName": "6. Nicole P. & Raul C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6484097,
+      "teamName": "9. Nicole P. & Raul C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6552929,
+      "teamName": "8. las tóxicas (Nicole P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7022802,
+      "teamName": "7. Las Tóxicas (Nicole P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6693372,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6914443,
+      "teamName": "3. Las Tóxicas (Nicole P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6447843,
+      "teamName": "1. Jeff's Team (Jeff S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820952,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6158997,
+      "teamName": "10. Disney Princesses + Mikey (Nicole P.)",
+      "isCaptain": true
+    }
+  ]
+}

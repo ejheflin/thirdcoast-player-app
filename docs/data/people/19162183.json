@@ -1,0 +1,18 @@
+{
+  "userId": 19162183,
+  "firstName": "Stu",
+  "appearances": [
+    {
+      "programId": 4661442,
+      "teamId": 7442358,
+      "teamName": "1. Denise H. and Stu M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7026690,
+      "teamName": "6. Denise H. and Stu M.",
+      "isCaptain": false
+    }
+  ]
+}

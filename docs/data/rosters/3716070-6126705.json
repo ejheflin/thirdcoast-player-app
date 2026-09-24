@@ -1,0 +1,17 @@
+{
+  "programId": 3716070,
+  "teamId": 6126705,
+  "teamName": "8. Travis B. & Kim M.",
+  "players": [
+    {
+      "userId": 16226119,
+      "firstName": "Travis",
+      "isCaptain": true
+    },
+    {
+      "userId": 29916075,
+      "firstName": "Kim",
+      "isCaptain": false
+    }
+  ]
+}

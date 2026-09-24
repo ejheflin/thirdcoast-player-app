@@ -1,0 +1,17 @@
+{
+  "programId": 4139350,
+  "teamId": 6689268,
+  "teamName": "5. Anabel K. & Michael A.",
+  "players": [
+    {
+      "userId": 45443780,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 45347050,
+      "firstName": "Anabel",
+      "isCaptain": false
+    }
+  ]
+}

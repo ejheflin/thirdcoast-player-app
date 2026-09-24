@@ -1,0 +1,173 @@
+{
+  "programId": 1317244,
+  "teams": {
+    "2684506": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2684506,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "4 - Arsenal Gunners (David T.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "2684941": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2684941,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "1 - Kickin Assets (Joseph N.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 0,
+          "ties": 1
+        }
+      ]
+    },
+    "2685304": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2685304,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "3 - Dinking & Diving (Stephen R.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "2686336": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2686336,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "2 - Can't Close (Heather B.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "2686351": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2686351,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "6 - Flyballer Shotcaller (Albert F.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 10,
+          "ties": 4
+        }
+      ]
+    },
+    "2686549": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2686549,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "5 - DAS Gunners (David T.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "2687773": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2687773,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "7 - Ninja Turtles (Andrew B.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "2690944": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317244,
+          "teamId": 2690944,
+          "programName": "Monday Coed 4s Intermediate",
+          "teamName": "8 - Double Diggers (Tiffany D.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 13,
+          "losses": 2,
+          "ties": 1
+        }
+      ]
+    }
+  }
+}

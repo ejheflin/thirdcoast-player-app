@@ -1,0 +1,17 @@
+{
+  "programId": 3909677,
+  "teamId": 6377362,
+  "teamName": "1. Julia L. & Son T.",
+  "players": [
+    {
+      "userId": 14923579,
+      "firstName": "Julia",
+      "isCaptain": true
+    },
+    {
+      "userId": 15220915,
+      "firstName": "Son",
+      "isCaptain": false
+    }
+  ]
+}

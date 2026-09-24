@@ -1,0 +1,17 @@
+{
+  "programId": 4360610,
+  "teamId": 7029899,
+  "teamName": "4. Los Tres Locos (Clayton B.)",
+  "players": [
+    {
+      "userId": 35098438,
+      "firstName": "Brenna",
+      "isCaptain": false
+    },
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": true
+    }
+  ]
+}

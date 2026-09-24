@@ -1,0 +1,27 @@
+{
+  "programId": 2083774,
+  "teamId": 3633604,
+  "teamName": "3 - Booze Crew (Jack S.)",
+  "players": [
+    {
+      "userId": 18918892,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 23452489,
+      "firstName": "Jack",
+      "isCaptain": true
+    },
+    {
+      "userId": 23470234,
+      "firstName": "Ellie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14630458,
+      "firstName": "Miguel",
+      "isCaptain": false
+    }
+  ]
+}

@@ -7,6 +7,120 @@
       "teamId": 8010920,
       "teamName": "2. Helen L. and George C.",
       "isCaptain": true
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7916250,
+      "teamName": "8. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7592797,
+      "teamName": "12. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7336444,
+      "teamName": "4. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7218763,
+      "teamName": "7. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6908455,
+      "teamName": "4. Joann L. and George C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7029862,
+      "teamName": "5. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7466092,
+      "teamName": "2. Helen L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031653,
+      "teamId": 6548026,
+      "teamName": "2. Chino Gambino (David N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6694955,
+      "teamName": "4. Sandy Cheeks (David N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6812551,
+      "teamName": "4. Sandy Cheeks (David N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6387604,
+      "teamName": "7. Saucy C U Next Thursday’s! (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6131736,
+      "teamName": "2. Saucy C-U-Next Thursday's (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384618,
+      "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7026759,
+      "teamName": "7. Pass these hands (George C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6920820,
+      "teamName": "7. Passing These Hands (George C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4182417,
+      "teamName": "2 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3939652,
+      "teamName": "1 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6826503,
+      "teamName": "8. Passing These Hands (George C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3665539,
+      "teamName": "5 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
     }
   ]
 }

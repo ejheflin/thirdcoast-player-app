@@ -1,0 +1,18 @@
+{
+  "userId": 46659312,
+  "firstName": "Jose",
+  "appearances": [
+    {
+      "programId": 4139364,
+      "teamId": 6723973,
+      "teamName": "8. Couples Therapy (Katy S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6657165,
+      "teamName": "2. HAVOC (Lola H.)",
+      "isCaptain": false
+    }
+  ]
+}

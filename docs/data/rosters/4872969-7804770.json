@@ -1,0 +1,42 @@
+{
+  "programId": 4872969,
+  "teamId": 7804770,
+  "teamName": "5. JSPR (Sarah F.)",
+  "players": [
+    {
+      "userId": 55717889,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": true
+    },
+    {
+      "userId": 52275245,
+      "firstName": "Victoria",
+      "isCaptain": false
+    },
+    {
+      "userId": 53316618,
+      "firstName": "Maddie",
+      "isCaptain": false
+    },
+    {
+      "userId": 55737640,
+      "firstName": "Paolo",
+      "isCaptain": false
+    },
+    {
+      "userId": 55716045,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 55716815,
+      "firstName": "Jackson",
+      "isCaptain": false
+    }
+  ]
+}

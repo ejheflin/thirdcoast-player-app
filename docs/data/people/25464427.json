@@ -1,0 +1,18 @@
+{
+  "userId": 25464427,
+  "firstName": "Micaela",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4201107,
+      "teamName": "8 - Stankaitis Season 2 (Evan L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3949759,
+      "teamName": "7 - Team Stankaitas (Evan L.)",
+      "isCaptain": false
+    }
+  ]
+}

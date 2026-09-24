@@ -1,0 +1,32 @@
+{
+  "programId": 2278405,
+  "teamId": 3949759,
+  "teamName": "7 - Team Stankaitas (Evan L.)",
+  "players": [
+    {
+      "userId": 25394383,
+      "firstName": "Mckenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 25385380,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 25392457,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 25464427,
+      "firstName": "Micaela",
+      "isCaptain": false
+    },
+    {
+      "userId": 25396060,
+      "firstName": "Cari",
+      "isCaptain": false
+    }
+  ]
+}

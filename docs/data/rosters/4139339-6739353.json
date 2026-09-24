@@ -1,0 +1,17 @@
+{
+  "programId": 4139339,
+  "teamId": 6739353,
+  "teamName": "12. Mikhail B. & Charlie B.",
+  "players": [
+    {
+      "userId": 14567269,
+      "firstName": "Charlie",
+      "isCaptain": false
+    },
+    {
+      "userId": 38401346,
+      "firstName": "Mikhail",
+      "isCaptain": true
+    }
+  ]
+}

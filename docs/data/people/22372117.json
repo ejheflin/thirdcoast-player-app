@@ -1,0 +1,24 @@
+{
+  "userId": 22372117,
+  "firstName": "JJ",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4182417,
+      "teamName": "2 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3939652,
+      "teamName": "1 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3665539,
+      "teamName": "5 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

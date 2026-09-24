@@ -1,0 +1,32 @@
+{
+  "programId": 4488291,
+  "teamId": 7186464,
+  "teamName": "3. Here for the Beer (Annie L.)",
+  "players": [
+    {
+      "userId": 27941982,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 29703738,
+      "firstName": "Patrick",
+      "isCaptain": false
+    },
+    {
+      "userId": 35491195,
+      "firstName": "Sean",
+      "isCaptain": false
+    },
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    },
+    {
+      "userId": 49383007,
+      "firstName": "Harrison",
+      "isCaptain": false
+    }
+  ]
+}

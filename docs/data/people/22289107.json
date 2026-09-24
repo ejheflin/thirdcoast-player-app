@@ -1,0 +1,18 @@
+{
+  "userId": 22289107,
+  "firstName": "Mary",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4187898,
+      "teamName": "1 - Booze Cruise (Jack S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3949078,
+      "teamName": "2 - Booze Cruise (Jack S.)",
+      "isCaptain": false
+    }
+  ]
+}

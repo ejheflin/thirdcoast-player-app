@@ -7,6 +7,54 @@
       "teamId": 8159639,
       "teamName": "5. Vacacioners (Phil M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7932339,
+      "teamName": "5. Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7587219,
+      "teamName": "3. Hit Men (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7442700,
+      "teamName": "6. Hit Men (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350085,
+      "teamName": "4. Hit Men (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7027305,
+      "teamName": "6. Hitmen (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7234938,
+      "teamName": "7. Hit Men (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6914085,
+      "teamName": "10. Hitmen (Cristofer G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6657165,
+      "teamName": "2. HAVOC (Lola H.)",
+      "isCaptain": false
     }
   ]
 }

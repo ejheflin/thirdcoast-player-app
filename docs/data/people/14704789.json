@@ -1,0 +1,102 @@
+{
+  "userId": 14704789,
+  "firstName": "Megan",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6550030,
+      "teamName": "10. Scrappy Doo (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6377425,
+      "teamName": "10. Scrappy Doo (Matt O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6455271,
+      "teamName": "7. Scrappy Doo (Matt O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6150873,
+      "teamName": "3. Scrappy Doo (Matt O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6912752,
+      "teamName": "6. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7186022,
+      "teamName": "3. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7343238,
+      "teamName": "6. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7017401,
+      "teamName": "1. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6447059,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6375876,
+      "teamName": "3. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6821233,
+      "teamName": "3. Kibbles n Hits (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6129255,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6689498,
+      "teamName": "3. Kibbles N' Hits (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5451414,
+      "teamName": "3 - Kibbles 'n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5695602,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6548152,
+      "teamName": "5. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    }
+  ]
+}

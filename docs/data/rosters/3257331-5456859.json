@@ -1,0 +1,27 @@
+{
+  "programId": 3257331,
+  "teamId": 5456859,
+  "teamName": "8 - Rusteze (Brian C.)",
+  "players": [
+    {
+      "userId": 14851303,
+      "firstName": "Brian",
+      "isCaptain": true
+    },
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 32507346,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 37553331,
+      "firstName": "Morgan",
+      "isCaptain": false
+    }
+  ]
+}

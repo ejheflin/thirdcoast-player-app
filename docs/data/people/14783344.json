@@ -1,0 +1,24 @@
+{
+  "userId": 14783344,
+  "firstName": "Matt",
+  "appearances": [
+    {
+      "programId": 3903869,
+      "teamId": 6377425,
+      "teamName": "10. Scrappy Doo (Matt O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6455271,
+      "teamName": "7. Scrappy Doo (Matt O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6150873,
+      "teamName": "3. Scrappy Doo (Matt O.)",
+      "isCaptain": true
+    }
+  ]
+}

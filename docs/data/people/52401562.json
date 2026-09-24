@@ -1,0 +1,18 @@
+{
+  "userId": 52401562,
+  "firstName": "Vicente",
+  "appearances": [
+    {
+      "programId": 4656367,
+      "teamId": 7441808,
+      "teamName": "3. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7346060,
+      "teamName": "7. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    }
+  ]
+}

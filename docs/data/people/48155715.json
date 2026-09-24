@@ -1,0 +1,18 @@
+{
+  "userId": 48155715,
+  "firstName": "Kristylen",
+  "appearances": [
+    {
+      "programId": 4379697,
+      "teamId": 7047233,
+      "teamName": "4. Krissy B. and Adolph T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196725,
+      "teamName": "7. Krissy B. and Ryan H.",
+      "isCaptain": true
+    }
+  ]
+}

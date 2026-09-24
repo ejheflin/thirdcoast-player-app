@@ -1,0 +1,17 @@
+{
+  "programId": 4656563,
+  "teamId": 7440069,
+  "teamName": "12. Molly J. and Cabrina B.",
+  "players": [
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    }
+  ]
+}

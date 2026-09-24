@@ -1,0 +1,24 @@
+{
+  "userId": 49409597,
+  "firstName": "Kyndra",
+  "appearances": [
+    {
+      "programId": 4379697,
+      "teamId": 7041921,
+      "teamName": "3. Kyndra K. and Brian T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196687,
+      "teamName": "4. Kyndra K. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6946061,
+      "teamName": "3. Kyndra K. and Jaimie G.",
+      "isCaptain": false
+    }
+  ]
+}

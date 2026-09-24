@@ -1,0 +1,27 @@
+{
+  "programId": 2821746,
+  "teamId": 4732803,
+  "teamName": "6 - Shablam (Arturo P.)",
+  "players": [
+    {
+      "userId": 15848623,
+      "firstName": "Bradley",
+      "isCaptain": false
+    },
+    {
+      "userId": 31699167,
+      "firstName": "Jine",
+      "isCaptain": false
+    },
+    {
+      "userId": 16252696,
+      "firstName": "Arturo",
+      "isCaptain": true
+    },
+    {
+      "userId": 18837706,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

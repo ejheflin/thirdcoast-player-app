@@ -1,0 +1,27 @@
+{
+  "programId": 4379701,
+  "teamId": 7052153,
+  "teamName": "5. No Dig-ity! (Joe R.)",
+  "players": [
+    {
+      "userId": 49426556,
+      "firstName": "Bethani",
+      "isCaptain": false
+    },
+    {
+      "userId": 14583655,
+      "firstName": "Susan",
+      "isCaptain": false
+    },
+    {
+      "userId": 49535904,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    }
+  ]
+}

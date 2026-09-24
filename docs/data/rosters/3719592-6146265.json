@@ -1,0 +1,27 @@
+{
+  "programId": 3719592,
+  "teamId": 6146265,
+  "teamName": "5. Sets on the Beach (Ashleigh P.)",
+  "players": [
+    {
+      "userId": 42581307,
+      "firstName": "Connor",
+      "isCaptain": false
+    },
+    {
+      "userId": 39284871,
+      "firstName": "McKenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 42399747,
+      "firstName": "MATTHEW",
+      "isCaptain": false
+    },
+    {
+      "userId": 35135665,
+      "firstName": "Ashleigh",
+      "isCaptain": true
+    }
+  ]
+}

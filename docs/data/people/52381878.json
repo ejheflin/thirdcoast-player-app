@@ -1,0 +1,18 @@
+{
+  "userId": 52381878,
+  "firstName": "Adrian",
+  "appearances": [
+    {
+      "programId": 4770452,
+      "teamId": 7609019,
+      "teamName": "4. Julia W. and Adrian M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7585723,
+      "teamName": "8. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    }
+  ]
+}

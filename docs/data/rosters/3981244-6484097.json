@@ -1,0 +1,17 @@
+{
+  "programId": 3981244,
+  "teamId": 6484097,
+  "teamName": "9. Nicole P. & Raul C.",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": true
+    },
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": false
+    }
+  ]
+}

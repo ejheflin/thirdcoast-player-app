@@ -1,0 +1,27 @@
+{
+  "programId": 4488287,
+  "teamId": 7229856,
+  "teamName": "6. H-Town HardHitters (Mark M.)",
+  "players": [
+    {
+      "userId": 18431188,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": true
+    },
+    {
+      "userId": 27944868,
+      "firstName": "Derek",
+      "isCaptain": false
+    },
+    {
+      "userId": 50025583,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

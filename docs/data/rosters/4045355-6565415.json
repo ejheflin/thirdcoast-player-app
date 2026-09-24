@@ -1,0 +1,17 @@
+{
+  "programId": 4045355,
+  "teamId": 6565415,
+  "teamName": "12. Julia D. & Emiliano T.",
+  "players": [
+    {
+      "userId": 29506803,
+      "firstName": "Julia",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707129,
+      "firstName": "Emiliano",
+      "isCaptain": false
+    }
+  ]
+}

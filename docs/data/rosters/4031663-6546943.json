@@ -1,0 +1,17 @@
+{
+  "programId": 4031663,
+  "teamId": 6546943,
+  "teamName": "4. Yanni S. & Elaine L.",
+  "players": [
+    {
+      "userId": 14595709,
+      "firstName": "Elaine",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

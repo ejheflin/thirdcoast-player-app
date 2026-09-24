@@ -1,0 +1,26 @@
+{
+  "programId": 4801533,
+  "teams": {
+    "7709986": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 4801533,
+          "teamId": 7709986,
+          "programName": "Wednesday KOB (B/BB)",
+          "teamName": "KOB",
+          "endDate": 1768971600000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 1,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

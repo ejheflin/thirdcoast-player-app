@@ -1,0 +1,17 @@
+{
+  "programId": 4752508,
+  "teamId": 7580404,
+  "teamName": "6. Lisa B. and Rudy D.",
+  "players": [
+    {
+      "userId": 14545690,
+      "firstName": "Lisa",
+      "isCaptain": true
+    },
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "programId": 3114541,
+  "teamId": 5225887,
+  "teamName": "10 - Sets in the City (Catherine M.)",
+  "players": [
+    {
+      "userId": 35089546,
+      "firstName": "Sabrina",
+      "isCaptain": false
+    },
+    {
+      "userId": 35090995,
+      "firstName": "Anthony",
+      "isCaptain": false
+    },
+    {
+      "userId": 35090557,
+      "firstName": "Kyle",
+      "isCaptain": false
+    },
+    {
+      "userId": 35076985,
+      "firstName": "Catherine",
+      "isCaptain": true
+    },
+    {
+      "userId": 35139715,
+      "firstName": "Meredith",
+      "isCaptain": false
+    },
+    {
+      "userId": 35316965,
+      "firstName": "Gloria",
+      "isCaptain": false
+    }
+  ]
+}

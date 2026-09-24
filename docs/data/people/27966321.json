@@ -1,0 +1,18 @@
+{
+  "userId": 27966321,
+  "firstName": "Caleb",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4198188,
+      "teamName": "6 - Sets on the Beach (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4423932,
+      "teamName": "1 - Big Digs (Annie L.)",
+      "isCaptain": false
+    }
+  ]
+}

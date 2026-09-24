@@ -1,0 +1,17 @@
+{
+  "programId": 3957842,
+  "teamId": 6456460,
+  "teamName": "6. Heather F. & Rob B.",
+  "players": [
+    {
+      "userId": 25295965,
+      "firstName": "Rob",
+      "isCaptain": true
+    },
+    {
+      "userId": 14632525,
+      "firstName": "Heather",
+      "isCaptain": false
+    }
+  ]
+}

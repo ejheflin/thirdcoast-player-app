@@ -1,0 +1,18 @@
+{
+  "userId": 35882128,
+  "firstName": "Juan",
+  "appearances": [
+    {
+      "programId": 3114541,
+      "teamId": 5225233,
+      "teamName": "8 - Ruff Sets (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5451414,
+      "teamName": "3 - Kibbles 'n Hits (Doug T.)",
+      "isCaptain": false
+    }
+  ]
+}

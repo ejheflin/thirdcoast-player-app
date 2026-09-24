@@ -7,6 +7,126 @@
       "teamId": 8019254,
       "teamName": "8. Lauren H. and Matt B.",
       "isCaptain": true
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6953133,
+      "teamName": "5. Julia D. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196694,
+      "teamName": "7. Cabrina B. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7761087,
+      "teamName": "2. Lauren H. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7592457,
+      "teamName": "7. Lauren H. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7349030,
+      "teamName": "7. Cabrina B. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7924284,
+      "teamName": "8. Lauren H. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6721034,
+      "teamName": "9. Julia D. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7468445,
+      "teamName": "7. Lauren H. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6846694,
+      "teamName": "11. Julia D. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7053275,
+      "teamName": "11. Cabrina B. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6144195,
+      "teamName": "3. How I Set Your Mother (Ivan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6692080,
+      "teamName": "8. Zach P. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6556215,
+      "teamName": "8. Zach P. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6837896,
+      "teamName": "11. Zach P. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6942308,
+      "teamName": "12. Zach P. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6461236,
+      "teamName": "1. Zach P. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7190720,
+      "teamName": "5. Matt B. and Alex J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6154644,
+      "teamName": "9. Zach P. & Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7051506,
+      "teamName": "6. Matt B. and Alex J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6393578,
+      "teamName": "3. Zach P. & Matt B.",
+      "isCaptain": false
     }
   ]
 }

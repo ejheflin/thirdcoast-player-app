@@ -1,0 +1,17 @@
+{
+  "programId": 3909677,
+  "teamId": 6377856,
+  "teamName": "2. Marisela G. & Isa T.",
+  "players": [
+    {
+      "userId": 17286262,
+      "firstName": "MARISELA",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

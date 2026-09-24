@@ -1,0 +1,17 @@
+{
+  "programId": 3903855,
+  "teamId": 6374081,
+  "teamName": "7. Megan E. & Rudy D.",
+  "players": [
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": false
+    },
+    {
+      "userId": 14695876,
+      "firstName": "Megan",
+      "isCaptain": true
+    }
+  ]
+}

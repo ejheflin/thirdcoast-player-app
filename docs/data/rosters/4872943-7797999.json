@@ -1,0 +1,32 @@
+{
+  "programId": 4872943,
+  "teamId": 7797999,
+  "teamName": "7. Beach ballers (Megan C.)",
+  "players": [
+    {
+      "userId": 47340236,
+      "firstName": "Christian",
+      "isCaptain": false
+    },
+    {
+      "userId": 55760395,
+      "firstName": "Jacob",
+      "isCaptain": false
+    },
+    {
+      "userId": 47137459,
+      "firstName": "Megan",
+      "isCaptain": true
+    },
+    {
+      "userId": 53460609,
+      "firstName": "Taylor",
+      "isCaptain": false
+    },
+    {
+      "userId": 55865743,
+      "firstName": "Kamil",
+      "isCaptain": false
+    }
+  ]
+}

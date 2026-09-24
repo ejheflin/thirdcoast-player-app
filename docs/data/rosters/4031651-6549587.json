@@ -1,0 +1,17 @@
+{
+  "programId": 4031651,
+  "teamId": 6549587,
+  "teamName": "10. Jess L. & Edwin F.",
+  "players": [
+    {
+      "userId": 14631478,
+      "firstName": "Edwin",
+      "isCaptain": false
+    },
+    {
+      "userId": 14616280,
+      "firstName": "Jessica",
+      "isCaptain": true
+    }
+  ]
+}

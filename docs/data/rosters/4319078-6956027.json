@@ -1,0 +1,17 @@
+{
+  "programId": 4319078,
+  "teamId": 6956027,
+  "teamName": "2. Hayden S. and Adolph T.",
+  "players": [
+    {
+      "userId": 49405324,
+      "firstName": "Hayden",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4656364,
+  "teamId": 7433341,
+  "teamName": "4. Clutch City (Ryan T.)",
+  "players": [
+    {
+      "userId": 49932436,
+      "firstName": "Carissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 46570187,
+      "firstName": "Mike",
+      "isCaptain": false
+    },
+    {
+      "userId": 49895646,
+      "firstName": "TeRon",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887630,
+      "firstName": "Ryan",
+      "isCaptain": true
+    }
+  ]
+}

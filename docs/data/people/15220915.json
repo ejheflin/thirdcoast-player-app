@@ -1,0 +1,66 @@
+{
+  "userId": 15220915,
+  "firstName": "Son",
+  "appearances": [
+    {
+      "programId": 4589129,
+      "teamId": 7330756,
+      "teamName": "3. Emily R. and Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7196688,
+      "teamName": "2. Emily R. and Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7026507,
+      "teamName": "4. Emily R. and Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7455833,
+      "teamName": "7. Emily R. and Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6134460,
+      "teamName": "4. Julia L. & Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6377362,
+      "teamName": "1. Julia L. & Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483215,
+      "teamName": "6. Julia L. & Son T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384618,
+      "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6155916,
+      "teamName": "6. Soft Serve (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6450857,
+      "teamName": "3. Welcome to the Sonderdome (Son T.)",
+      "isCaptain": true
+    }
+  ]
+}

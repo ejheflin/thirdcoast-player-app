@@ -1,0 +1,17 @@
+{
+  "programId": 4360608,
+  "teamId": 7019645,
+  "teamName": "2. Cailin P. and Travis B.",
+  "players": [
+    {
+      "userId": 16226119,
+      "firstName": "Travis",
+      "isCaptain": true
+    },
+    {
+      "userId": 23931286,
+      "firstName": "Cailin",
+      "isCaptain": false
+    }
+  ]
+}

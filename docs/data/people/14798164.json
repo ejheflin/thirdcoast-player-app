@@ -25,6 +25,132 @@
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7187006,
+      "teamName": "1. 3 OG's & Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7027096,
+      "teamName": "1. 3 OGs and Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6920618,
+      "teamName": "8. 3 OG’s and Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384618,
+      "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820040,
+      "teamName": "1. 3 OG's & Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7344910,
+      "teamName": "7. 3 OGs and Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6155916,
+      "teamName": "6. Soft Serve (Zach P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7774995,
+      "teamName": "1. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7441875,
+      "teamName": "2. 3 OGs and Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7900996,
+      "teamName": "8. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7758832,
+      "teamName": "12. Zach P. and Ben L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7555232,
+      "teamName": "9. Jaimie G. and Zach P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6692080,
+      "teamName": "8. Zach P. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7914865,
+      "teamName": "12. Zach P. and Ben L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6556215,
+      "teamName": "8. Zach P. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6837896,
+      "teamName": "11. Zach P. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6942308,
+      "teamName": "12. Zach P. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6461236,
+      "teamName": "1. Zach P. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6154644,
+      "teamName": "9. Zach P. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7042612,
+      "teamName": "9. Rudy D. and Zach P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6393578,
+      "teamName": "3. Zach P. & Matt B.",
+      "isCaptain": true
     }
   ]
 }

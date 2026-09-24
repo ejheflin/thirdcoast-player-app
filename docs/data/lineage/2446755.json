@@ -1,0 +1,215 @@
+{
+  "programId": 2446755,
+  "teams": {
+    "4182189": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4182189,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 4,
+          "ties": 5
+        }
+      ]
+    },
+    "4187517": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4187517,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - Ginger & the Giants (Allan K.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 14,
+          "ties": 2
+        }
+      ]
+    },
+    "4187844": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4187844,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - Settin pretty (Elizabeth A.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 4,
+          "ties": 7
+        }
+      ]
+    },
+    "4188162": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4188162,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Arsenal Gunners (David T.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "4197291": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4197291,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Jump Sets Or Bust (Gary C.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "4198842": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4198842,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - Can't Close (Heather B.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 4,
+          "ties": 5
+        }
+      ]
+    },
+    "4200294": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4200294,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - Ooh... A Piece Of Candy! (Terry V.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "4201098": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4201098,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - IT'S THE SWEET ONE! (Quentin B.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "4202898": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4202898,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - Hustle Gang (Calvin D.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "4203555": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2446755,
+          "teamId": 4203555,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Volley Llamas (Joshua M.)",
+          "endDate": 1632196800000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 4,
+          "ties": 10
+        }
+      ]
+    }
+  }
+}

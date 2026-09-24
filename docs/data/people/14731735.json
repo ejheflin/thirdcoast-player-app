@@ -1,0 +1,18 @@
+{
+  "userId": 14731735,
+  "firstName": "Sage",
+  "appearances": [
+    {
+      "programId": 3904462,
+      "teamId": 6374318,
+      "teamName": "3. Liz C. & Sage H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6130335,
+      "teamName": "4. Liz C. & Sage H.",
+      "isCaptain": false
+    }
+  ]
+}

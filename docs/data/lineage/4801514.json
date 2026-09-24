@@ -1,0 +1,26 @@
+{
+  "programId": 4801514,
+  "teams": {
+    "7710909": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 4801514,
+          "teamId": 7710909,
+          "programName": "Wednesday QOB (B/BB)",
+          "teamName": "QOB",
+          "endDate": 1768366800000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 1,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

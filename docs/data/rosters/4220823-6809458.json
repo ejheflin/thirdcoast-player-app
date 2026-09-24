@@ -1,0 +1,17 @@
+{
+  "programId": 4220823,
+  "teamId": 6809458,
+  "teamName": "2. Odette M. & Jacob W.",
+  "players": [
+    {
+      "userId": 44414241,
+      "firstName": "Odette",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

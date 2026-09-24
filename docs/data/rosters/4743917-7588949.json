@@ -1,0 +1,17 @@
+{
+  "programId": 4743917,
+  "teamId": 7588949,
+  "teamName": "4. Erin F. and Kaegan W.",
+  "players": [
+    {
+      "userId": 52089397,
+      "firstName": "Erin",
+      "isCaptain": true
+    },
+    {
+      "userId": 53277253,
+      "firstName": "Kaegan",
+      "isCaptain": false
+    }
+  ]
+}

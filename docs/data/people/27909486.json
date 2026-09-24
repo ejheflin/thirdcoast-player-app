@@ -1,0 +1,18 @@
+{
+  "userId": 27909486,
+  "firstName": "Elle",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4191807,
+      "teamName": "7 - Spike It Harder (Brad O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4811196,
+      "teamName": "8 - Getting It In (Jose B.)",
+      "isCaptain": false
+    }
+  ]
+}

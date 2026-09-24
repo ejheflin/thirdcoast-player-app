@@ -1,0 +1,24 @@
+{
+  "userId": 14672230,
+  "firstName": "Debbie",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6449747,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6382236,
+      "teamName": "9. A Bit Rusty (Andrew L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6544179,
+      "teamName": "1. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

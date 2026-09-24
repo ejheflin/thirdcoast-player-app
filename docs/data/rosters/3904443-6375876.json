@@ -1,0 +1,32 @@
+{
+  "programId": 3904443,
+  "teamId": 6375876,
+  "teamName": "3. Kibbles n Hits (Doug T.)",
+  "players": [
+    {
+      "userId": 25636023,
+      "firstName": "Keith",
+      "isCaptain": false
+    },
+    {
+      "userId": 25653393,
+      "firstName": "Morgan",
+      "isCaptain": false
+    },
+    {
+      "userId": 33471532,
+      "firstName": "Cody",
+      "isCaptain": false
+    },
+    {
+      "userId": 14704789,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 25611799,
+      "firstName": "Doug",
+      "isCaptain": true
+    }
+  ]
+}

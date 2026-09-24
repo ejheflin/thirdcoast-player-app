@@ -1,0 +1,27 @@
+{
+  "programId": 4237992,
+  "teamId": 6835194,
+  "teamName": "7. Volley Vibes (Liz P.)",
+  "players": [
+    {
+      "userId": 33471532,
+      "firstName": "Cody",
+      "isCaptain": false
+    },
+    {
+      "userId": 14820670,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 14647747,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 45446989,
+      "firstName": "Alik",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 3903869,
+  "teamId": 6371371,
+  "teamName": "4. Sandpeople (Tyler J.)",
+  "players": [
+    {
+      "userId": 44271432,
+      "firstName": "Evan",
+      "isCaptain": false
+    },
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": true
+    },
+    {
+      "userId": 44273790,
+      "firstName": "Cyan",
+      "isCaptain": false
+    }
+  ]
+}

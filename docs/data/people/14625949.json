@@ -1,0 +1,48 @@
+{
+  "userId": 14625949,
+  "firstName": "benet",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4200084,
+      "teamName": "4 - Empire Spikes Back (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4423353,
+      "teamName": "2 - Empire Spikes Back (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3925735,
+      "teamName": "10 - 4 Boobs and Balls (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4737381,
+      "teamName": "2 - Empire SPIKES Back (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3439867,
+      "teamName": "2 - Beer, Bongs, & Balls (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626953,
+      "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3287932,
+      "teamName": "8 - Volley Fire (Benet G.)",
+      "isCaptain": true
+    }
+  ]
+}

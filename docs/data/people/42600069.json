@@ -13,6 +13,36 @@
       "teamId": 8163711,
       "teamName": "3. Chocolate City (Samanda H.)",
       "isCaptain": true
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6374046,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165186,
+      "teamName": "8. Big Dig Energy (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7347639,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7921769,
+      "teamName": "4. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6657165,
+      "teamName": "2. HAVOC (Lola H.)",
+      "isCaptain": false
     }
   ]
 }

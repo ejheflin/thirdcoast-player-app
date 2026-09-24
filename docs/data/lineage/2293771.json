@@ -1,0 +1,215 @@
+{
+  "programId": 2293771,
+  "teams": {
+    "3954256": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3954256,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "2 - Third Wheel (Phil M.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "3955822": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3955822,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "6 - A Plethora of Pinatas (Jonathan P.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 9,
+          "ties": 2
+        }
+      ]
+    },
+    "3959068": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3959068,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "1 - Blueberries (Nicole B.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "3963811": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3963811,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "7 - Sets on the Beach (Michael W.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "3964441": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3964441,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "3 - The Threesome (Luis H.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "3966229": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3966229,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "4 - Ninos Locos (Jeanne B.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "3967621": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3967621,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "8 - Ninja Turtles (Andrew B.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "3969922": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3969922,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "9 - Court Jesters (Matt O.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3
+        }
+      ]
+    },
+    "3976696": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3976696,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "5 - New Tricks (Doug T.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 15,
+          "ties": 0
+        }
+      ]
+    },
+    "3981120": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293771,
+          "teamId": 3981120,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "10 - Computer Blue (John K.)",
+          "endDate": 1627272000000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

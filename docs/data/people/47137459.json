@@ -1,0 +1,90 @@
+{
+  "userId": 47137459,
+  "firstName": "Megan",
+  "appearances": [
+    {
+      "programId": 4872859,
+      "teamId": 7761979,
+      "teamName": "5. Megan C. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7591683,
+      "teamName": "7. Megan C. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7455814,
+      "teamName": "10. Megan C. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7352482,
+      "teamName": "10. Megan C. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7029080,
+      "teamName": "5. Megan C. and Gordon P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7208841,
+      "teamName": "7. That’s What She Set (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7024154,
+      "teamName": "2. Calm Yo Tips (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7585173,
+      "teamName": "4. Beach ballers (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6912844,
+      "teamName": "1. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7447218,
+      "teamName": "5. Beach ballers (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7797999,
+      "teamName": "7. Beach ballers (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6717484,
+      "teamName": "2. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7350645,
+      "teamName": "3. Beach ballers (Megan C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6820519,
+      "teamName": "7. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    }
+  ]
+}

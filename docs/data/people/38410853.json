@@ -13,6 +13,42 @@
       "teamId": 8164493,
       "teamName": "1. Gold Star for Effort (Merilyn V.)",
       "isCaptain": true
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6375898,
+      "teamName": "3. Ricky’s Tricks (John K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6483394,
+      "teamName": "8. Saucy C U Next Thursdays (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6387604,
+      "teamName": "7. Saucy C U Next Thursday’s! (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6721468,
+      "teamName": "5. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6545105,
+      "teamName": "9. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7937448,
+      "teamName": "10. A Gold Star for Effort (Merilyn V.)",
+      "isCaptain": true
     }
   ]
 }

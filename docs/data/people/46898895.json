@@ -19,6 +19,114 @@
       "teamId": 8163533,
       "teamName": "3. Hustle Gang (Calvin D.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6917791,
+      "teamName": "9. Tres locos (Hector T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7029899,
+      "teamName": "4. Los Tres Locos (Clayton B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196614,
+      "teamName": "1. Lisa B. and Clayton B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7772950,
+      "teamName": "5. Molly J. and Clayton B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7587813,
+      "teamName": "9. Molly J. and Clayton B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7461515,
+      "teamName": "10. Molly J. and Clayton B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7924382,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7212123,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7029516,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6693372,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7585364,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6919420,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7455832,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7799328,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6823943,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350093,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7529694,
+      "teamName": "2. Jason O. and Clayton B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7445112,
+      "teamName": "9. Jason O. and Clayton B.",
+      "isCaptain": false
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "programId": 4756152,
+  "teamId": 7605095,
+  "teamName": "6. Chocolate City 25 (Kellye M.)",
+  "players": [
+    {
+      "userId": 49888211,
+      "firstName": "Rew",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887630,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 46628031,
+      "firstName": "kellye",
+      "isCaptain": true
+    }
+  ]
+}

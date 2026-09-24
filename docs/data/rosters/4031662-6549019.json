@@ -1,0 +1,27 @@
+{
+  "programId": 4031662,
+  "teamId": 6549019,
+  "teamName": "6. Hakuna Matata (Aatir A.)",
+  "players": [
+    {
+      "userId": 35050870,
+      "firstName": "Kristofer",
+      "isCaptain": false
+    },
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 45870123,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 35031907,
+      "firstName": "Zee",
+      "isCaptain": false
+    }
+  ]
+}

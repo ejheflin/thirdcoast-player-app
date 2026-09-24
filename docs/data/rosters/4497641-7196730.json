@@ -1,0 +1,22 @@
+{
+  "programId": 4497641,
+  "teamId": 7196730,
+  "teamName": "3. Sandy Cheeks (David N.)",
+  "players": [
+    {
+      "userId": 42478986,
+      "firstName": "Sue-Lynn",
+      "isCaptain": false
+    },
+    {
+      "userId": 42323817,
+      "firstName": "David",
+      "isCaptain": true
+    },
+    {
+      "userId": 51266477,
+      "firstName": "Mark",
+      "isCaptain": false
+    }
+  ]
+}

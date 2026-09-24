@@ -1,0 +1,37 @@
+{
+  "programId": 4752513,
+  "teamId": 7578315,
+  "teamName": "2. Hits Dont Lie (Shayan E.)",
+  "players": [
+    {
+      "userId": 42533328,
+      "firstName": "Shayan",
+      "isCaptain": true
+    },
+    {
+      "userId": 37966010,
+      "firstName": "Maggie",
+      "isCaptain": false
+    },
+    {
+      "userId": 53615961,
+      "firstName": "Jessica",
+      "isCaptain": false
+    },
+    {
+      "userId": 54075657,
+      "firstName": "Sas",
+      "isCaptain": false
+    },
+    {
+      "userId": 53615881,
+      "firstName": "Anna",
+      "isCaptain": false
+    },
+    {
+      "userId": 54447949,
+      "firstName": "Travis",
+      "isCaptain": false
+    }
+  ]
+}

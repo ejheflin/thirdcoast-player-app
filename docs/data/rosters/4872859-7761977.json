@@ -1,0 +1,17 @@
+{
+  "programId": 4872859,
+  "teamId": 7761977,
+  "teamName": "3. Jenny S. and Nathan G.",
+  "players": [
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707312,
+      "firstName": "Jenny",
+      "isCaptain": false
+    }
+  ]
+}

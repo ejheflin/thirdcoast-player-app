@@ -1,0 +1,27 @@
+{
+  "programId": 2083774,
+  "teamId": 3626278,
+  "teamName": "4 - Getting It In (Ralph T.)",
+  "players": [
+    {
+      "userId": 21326962,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 22396837,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 22317232,
+      "firstName": "Josephine",
+      "isCaptain": false
+    },
+    {
+      "userId": 22304641,
+      "firstName": "Ralph",
+      "isCaptain": true
+    }
+  ]
+}

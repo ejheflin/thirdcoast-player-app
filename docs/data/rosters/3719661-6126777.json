@@ -1,0 +1,17 @@
+{
+  "programId": 3719661,
+  "teamId": 6126777,
+  "teamName": "4. Marshall C. & Scott R.",
+  "players": [
+    {
+      "userId": 14607730,
+      "firstName": "Marshall",
+      "isCaptain": true
+    },
+    {
+      "userId": 29453550,
+      "firstName": "Scott",
+      "isCaptain": false
+    }
+  ]
+}

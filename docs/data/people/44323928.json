@@ -1,0 +1,24 @@
+{
+  "userId": 44323928,
+  "firstName": "Elizabeth",
+  "appearances": [
+    {
+      "programId": 3981247,
+      "teamId": 6482147,
+      "teamName": "4. Super Sandy Battle Axes (Andrea M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6566769,
+      "teamName": "7. Super Sandy Battle Axes (Andrea M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6380334,
+      "teamName": "3. Sandy Battle Axes (Andrea M.)",
+      "isCaptain": false
+    }
+  ]
+}

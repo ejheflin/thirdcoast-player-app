@@ -1,0 +1,30 @@
+{
+  "userId": 47864154,
+  "firstName": "Cameron",
+  "appearances": [
+    {
+      "programId": 4497641,
+      "teamId": 7201467,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6816526,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6912288,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7016441,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "isCaptain": false
+    }
+  ]
+}

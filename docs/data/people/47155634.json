@@ -1,0 +1,18 @@
+{
+  "userId": 47155634,
+  "firstName": "Chris",
+  "appearances": [
+    {
+      "programId": 4222036,
+      "teamId": 6823787,
+      "teamName": "7. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6696431,
+      "teamName": "6. That's What She Set (Albert F.)",
+      "isCaptain": false
+    }
+  ]
+}

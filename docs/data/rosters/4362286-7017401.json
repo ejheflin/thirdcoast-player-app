@@ -1,0 +1,32 @@
+{
+  "programId": 4362286,
+  "teamId": 7017401,
+  "teamName": "1. Chewblocka (Cody C.)",
+  "players": [
+    {
+      "userId": 33471532,
+      "firstName": "Cody",
+      "isCaptain": true
+    },
+    {
+      "userId": 14864449,
+      "firstName": "Paige",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681509,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 14704789,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681506,
+      "firstName": "Lyndon",
+      "isCaptain": false
+    }
+  ]
+}

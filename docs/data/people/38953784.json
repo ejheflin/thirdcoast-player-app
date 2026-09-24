@@ -1,0 +1,36 @@
+{
+  "userId": 38953784,
+  "firstName": "Nathan",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6457508,
+      "teamName": "6. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6173529,
+      "teamName": "10. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5455980,
+      "teamName": "7 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5715423,
+      "teamName": "5. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6548945,
+      "teamName": "7. Taking Back Tuesday (Lyndon Z.)",
+      "isCaptain": false
+    }
+  ]
+}

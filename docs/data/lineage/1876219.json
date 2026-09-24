@@ -1,0 +1,173 @@
+{
+  "programId": 1876219,
+  "teams": {
+    "3419101": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3419101,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "1 - David D. & Blake D.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "3431698": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3431698,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "3 - Johnny W. & Michael G.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "3432388": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3432388,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "5 - Michael G. & Matt F.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "3432397": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3432397,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "8 - Eric W. & Edwin F.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 4
+        }
+      ]
+    },
+    "3432532": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3432532,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "4 - Matt Y. & Will S.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "3432730": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3432730,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "6 - Zach P. & Brian G.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "3435166": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3435166,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "7 - Trung H. & Ruslan A.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "3442588": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876219,
+          "teamId": 3442588,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "2 - Chris H. & Riley W.",
+          "endDate": 1607490000000,
+          "level": "AA",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 0,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

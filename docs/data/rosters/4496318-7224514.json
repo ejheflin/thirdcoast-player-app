@@ -1,0 +1,32 @@
+{
+  "programId": 4496318,
+  "teamId": 7224514,
+  "teamName": "10. Sandy Patch Kids (Curtis J.)",
+  "players": [
+    {
+      "userId": 44249011,
+      "firstName": "Josh",
+      "isCaptain": false
+    },
+    {
+      "userId": 16391512,
+      "firstName": "Curtis",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126689,
+      "firstName": "Raj",
+      "isCaptain": false
+    },
+    {
+      "userId": 20029030,
+      "firstName": "Haley",
+      "isCaptain": false
+    },
+    {
+      "userId": 44259488,
+      "firstName": "Catherine",
+      "isCaptain": false
+    }
+  ]
+}

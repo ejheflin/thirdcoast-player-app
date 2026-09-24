@@ -1,0 +1,37 @@
+{
+  "programId": 4488258,
+  "teamId": 7251606,
+  "teamName": "10. Texas Tigers (Joe M.)",
+  "players": [
+    {
+      "userId": 51462739,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 51457525,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 51349497,
+      "firstName": "Courtney",
+      "isCaptain": false
+    },
+    {
+      "userId": 51462971,
+      "firstName": "Luke",
+      "isCaptain": false
+    },
+    {
+      "userId": 51558329,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 29576433,
+      "firstName": "Joe",
+      "isCaptain": true
+    }
+  ]
+}

@@ -13,6 +13,102 @@
       "teamId": 8148916,
       "teamName": "8. Team Jacob (Mark J.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6561175,
+      "teamName": "9. Joann L. & Luis L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7051147,
+      "teamName": "3. Emily F. and Luis L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7900353,
+      "teamName": "7. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7569140,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7428857,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7758960,
+      "teamName": "4. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6545105,
+      "teamName": "9. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4204467,
+      "teamName": "10 - Thrown Together (Omar S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6691940,
+      "teamName": "6. Alfonzo L. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6557850,
+      "teamName": "6. Alfonzo L. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6835118,
+      "teamName": "6. Alfonzo L. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6951478,
+      "teamName": "6. Luis L. and Alfonzo L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6468186,
+      "teamName": "9. Alfonso L. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6155901,
+      "teamName": "10. Riley F. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7050792,
+      "teamName": "5. Luis L. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6393416,
+      "teamName": "9. Luis L. & Riley F.",
+      "isCaptain": true
     }
   ]
 }

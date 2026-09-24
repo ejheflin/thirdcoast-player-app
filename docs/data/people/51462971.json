@@ -1,0 +1,24 @@
+{
+  "userId": 51462971,
+  "firstName": "Luke",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7342225,
+      "teamName": "7. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7443622,
+      "teamName": "8. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7251606,
+      "teamName": "10. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    }
+  ]
+}

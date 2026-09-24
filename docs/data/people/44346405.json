@@ -1,0 +1,30 @@
+{
+  "userId": 44346405,
+  "firstName": "Trey",
+  "appearances": [
+    {
+      "programId": 4139252,
+      "teamId": 6726104,
+      "teamName": "3. Swag in a Bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7442700,
+      "teamName": "6. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820248,
+      "teamName": "6. Swag in a bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6386244,
+      "teamName": "1. Hit-Men (Justin C.)",
+      "isCaptain": false
+    }
+  ]
+}

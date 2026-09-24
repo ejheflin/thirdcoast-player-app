@@ -1,0 +1,27 @@
+{
+  "programId": 4237992,
+  "teamId": 6848937,
+  "teamName": "8. Sandstorm (Leah V.)",
+  "players": [
+    {
+      "userId": 48186115,
+      "firstName": "Sean",
+      "isCaptain": false
+    },
+    {
+      "userId": 48094594,
+      "firstName": "Paul",
+      "isCaptain": false
+    },
+    {
+      "userId": 48199356,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 48093864,
+      "firstName": "Leah",
+      "isCaptain": true
+    }
+  ]
+}

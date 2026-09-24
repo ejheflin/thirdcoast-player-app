@@ -1,0 +1,24 @@
+{
+  "userId": 49887953,
+  "firstName": "Lauren",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7350014,
+      "teamName": "4. Sandy Cheeks (Lauren D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7185804,
+      "teamName": "4. Sandy Cheeks (Lauren D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7033904,
+      "teamName": "9. Sandy Cheeks (Lauren D.)",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 3257331,
+  "teamId": 5451927,
+  "teamName": "5 - Richies Revenge (Richard H.)",
+  "players": [
+    {
+      "userId": 37713646,
+      "firstName": "Charissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 37541718,
+      "firstName": "Francisco",
+      "isCaptain": false
+    },
+    {
+      "userId": 29651328,
+      "firstName": "Richard",
+      "isCaptain": true
+    },
+    {
+      "userId": 29627895,
+      "firstName": "Johnny",
+      "isCaptain": false
+    },
+    {
+      "userId": 37512333,
+      "firstName": "trey",
+      "isCaptain": false
+    }
+  ]
+}

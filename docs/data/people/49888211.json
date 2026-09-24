@@ -1,0 +1,48 @@
+{
+  "userId": 49888211,
+  "firstName": "Rew",
+  "appearances": [
+    {
+      "programId": 4756152,
+      "teamId": 7605095,
+      "teamName": "6. Chocolate City 25 (Kellye M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7566817,
+      "teamName": "1. Chocolate and Cream Coalition (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7757984,
+      "teamName": "8. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7184897,
+      "teamName": "2. Chocolate & Cream Coalition (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7332837,
+      "teamName": "1. Chocolate and Cream Coalition (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7921769,
+      "teamName": "4. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7033814,
+      "teamName": "8. Chocolate City (Ryan T.)",
+      "isCaptain": false
+    }
+  ]
+}

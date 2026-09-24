@@ -1,0 +1,27 @@
+{
+  "programId": 3257331,
+  "teamId": 5452434,
+  "teamName": "2 - Just for Fun (Naomi L.)",
+  "players": [
+    {
+      "userId": 29674044,
+      "firstName": "Kimberly",
+      "isCaptain": false
+    },
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705224,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 18714160,
+      "firstName": "Glenn",
+      "isCaptain": false
+    }
+  ]
+}

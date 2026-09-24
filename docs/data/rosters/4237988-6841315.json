@@ -1,0 +1,17 @@
+{
+  "programId": 4237988,
+  "teamId": 6841315,
+  "teamName": "4. Jackie J. & Alex J.",
+  "players": [
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": false
+    },
+    {
+      "userId": 35342981,
+      "firstName": "Jackie",
+      "isCaptain": true
+    }
+  ]
+}

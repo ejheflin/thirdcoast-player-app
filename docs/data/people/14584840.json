@@ -25,6 +25,186 @@
       "teamId": 8141319,
       "teamName": "3. Elaine L. and Eric W.",
       "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6381468,
+      "teamName": "12. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6953182,
+      "teamName": "10. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6139974,
+      "teamName": "10. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196625,
+      "teamName": "6. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7758502,
+      "teamName": "3. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6469518,
+      "teamName": "12. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7579020,
+      "teamName": "6. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6559015,
+      "teamName": "11. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7335465,
+      "teamName": "5. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7901392,
+      "teamName": "5. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6689647,
+      "teamName": "7. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7449393,
+      "teamName": "5. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6835371,
+      "teamName": "12. Olivia J. & Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7044080,
+      "teamName": "10. Olivia J. and Eric W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6816736,
+      "teamName": "7. Toodles (Michael L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6690007,
+      "teamName": "7. Toodles (Michael L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7757939,
+      "teamName": "2. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7542156,
+      "teamName": "11. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6689882,
+      "teamName": "2. Eric W. & Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7902212,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6551943,
+      "teamName": "9. Eric W. & Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6824412,
+      "teamName": "1. Eric W. & Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6945036,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6465304,
+      "teamName": "5. Eric W. & Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7196869,
+      "teamName": "7. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6132576,
+      "teamName": "2. Eric W. & Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7333667,
+      "teamName": "1. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7040609,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7431440,
+      "teamName": "2. Eric W. and Dan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6391161,
+      "teamName": "1. Eric W. & Dan M.",
+      "isCaptain": true
     }
   ]
 }

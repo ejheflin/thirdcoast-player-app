@@ -1,0 +1,531 @@
+{
+  "programId": 5053349,
+  "teams": {
+    "8007540": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 4967492,
+        "teamId": 7894354,
+        "programName": "Monday Coed 2s B",
+        "teamName": "6. Abbie G. and Jason O.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4967492,
+          "teamId": 7894354,
+          "programName": "Monday Coed 2s B",
+          "teamName": "6. Abbie G. and Jason O.",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 1,
+          "ties": 3
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8007540,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Abbie G. and Jason O.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "same",
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "8007542": {
+      "seasons": 5,
+      "move": "same",
+      "from": {
+        "programId": 4967492,
+        "teamId": 7890108,
+        "programName": "Monday Coed 2s B",
+        "teamName": "7. Kim M. and Travis B.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4661442,
+          "teamId": 7455708,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Kim M. and Travis B.",
+          "endDate": 1759723200000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 5,
+          "ties": 4
+        },
+        {
+          "programId": 4756147,
+          "teamId": 7583152,
+          "programName": "Monday Coed 2s B",
+          "teamName": "2. Kim M. and Travis B.",
+          "endDate": 1766379600000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        },
+        {
+          "programId": 4872859,
+          "teamId": 7762078,
+          "programName": "Monday Coed 2s B",
+          "teamName": "8. Kim M. and Travis B.",
+          "endDate": 1776657600000,
+          "level": "B",
+          "move": "same",
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 9
+        },
+        {
+          "programId": 4967492,
+          "teamId": 7890108,
+          "programName": "Monday Coed 2s B",
+          "teamName": "7. Kim M. and Travis B.",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": "same",
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 4,
+          "ties": 3
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8007542,
+          "programName": "Monday Coed 2s B",
+          "teamName": "5. Kim M. and Travis B.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "8007625": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5053349,
+          "teamId": 8007625,
+          "programName": "Monday Coed 2s B",
+          "teamName": "8. Jodie N. and Jacob J.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 11,
+          "ties": 5
+        }
+      ]
+    },
+    "8008011": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 4967492,
+        "teamId": 7896738,
+        "programName": "Monday Coed 2s B",
+        "teamName": "4. Joann L. and Jacob W.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4967492,
+          "teamId": 7896738,
+          "programName": "Monday Coed 2s B",
+          "teamName": "4. Joann L. and Jacob W.",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8008011,
+          "programName": "Monday Coed 2s B",
+          "teamName": "4. Joann L. and Jacob W.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 8,
+          "ties": 7
+        }
+      ]
+    },
+    "8013412": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4967492,
+        "teamId": 7897190,
+        "programName": "Monday Coed 2s B",
+        "teamName": "3. Jenny S. and Nate G.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4589129,
+          "teamId": 7355373,
+          "programName": "Monday Coed 2s B",
+          "teamName": "12. Jenny S. and Nathan G.",
+          "endDate": 1752465600000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        },
+        {
+          "programId": 4661442,
+          "teamId": 7449289,
+          "programName": "Monday Coed 2s B",
+          "teamName": "9. Jenny S. and Nathan G.",
+          "endDate": 1759723200000,
+          "level": "B",
+          "move": "same",
+          "position": 3,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        },
+        {
+          "programId": 4756147,
+          "teamId": 7601756,
+          "programName": "Monday Coed 2s B",
+          "teamName": "11. Jenny S. and Nathan G.",
+          "endDate": 1766379600000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 4872859,
+          "teamId": 7761977,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Jenny S. and Nathan G.",
+          "endDate": 1776657600000,
+          "level": "B",
+          "move": "same",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 4967492,
+          "teamId": 7897190,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Jenny S. and Nate G.",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 4,
+          "ties": 5
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8013412,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Jenny S. and Nathan G.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "same",
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "8017657": {
+      "seasons": 4,
+      "move": "down",
+      "from": {
+        "programId": 4967493,
+        "teamId": 7889959,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "6. Caroline J. and Mark J.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 4756151,
+          "teamId": 7583187,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "1. Caroline J. and Mark J.",
+          "endDate": 1766379600000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 8,
+          "ties": 8
+        },
+        {
+          "programId": 4872881,
+          "teamId": 7762876,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "7. Caroline J. and Mark J.",
+          "endDate": 1776657600000,
+          "level": "BB",
+          "move": "same",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        },
+        {
+          "programId": 4967493,
+          "teamId": 7889959,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "6. Caroline J. and Mark J.",
+          "endDate": 1783310400000,
+          "level": "BB",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8017657,
+          "programName": "Monday Coed 2s B",
+          "teamName": "7. Caroline J. and Mark J.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "down",
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "8020386": {
+      "seasons": 10,
+      "move": "same",
+      "from": {
+        "programId": 4967492,
+        "teamId": 7891785,
+        "programName": "Monday Coed 2s B",
+        "teamName": "1. Holli D. and Dan L.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4220823,
+          "teamId": 6811200,
+          "programName": "Monday Coed 2s B",
+          "teamName": "4. Holli D. & Dan L.",
+          "endDate": 1719806400000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 4
+        },
+        {
+          "programId": 4288348,
+          "teamId": 6909127,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Holli D. and Dan L.",
+          "endDate": 1726459200000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 4360608,
+          "teamId": 7019501,
+          "programName": "Monday Coed 2s B",
+          "teamName": "6. Holli D. and Dan L.",
+          "endDate": 1732510800000,
+          "level": "B",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 10,
+          "ties": 4
+        },
+        {
+          "programId": 4497638,
+          "teamId": 7196705,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Holli D. and Dan L.",
+          "endDate": 1745208000000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 4,
+          "ties": 9
+        },
+        {
+          "programId": 4589129,
+          "teamId": 7336300,
+          "programName": "Monday Coed 2s B",
+          "teamName": "5. Holli D. and Dan L.",
+          "endDate": 1752465600000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 4,
+          "ties": 7
+        },
+        {
+          "programId": 4661442,
+          "teamId": 7447484,
+          "programName": "Monday Coed 2s B",
+          "teamName": "7. Holli D. and Dan L.",
+          "endDate": 1759723200000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 3,
+          "ties": 8
+        },
+        {
+          "programId": 4756147,
+          "teamId": 7600976,
+          "programName": "Monday Coed 2s B",
+          "teamName": "10. Holli D. and Dan L.",
+          "endDate": 1766379600000,
+          "level": "B",
+          "move": "same",
+          "position": 10,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        },
+        {
+          "programId": 4872859,
+          "teamId": 7761976,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Holli D. and Dan L.",
+          "endDate": 1776657600000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 4,
+          "ties": 9
+        },
+        {
+          "programId": 4967492,
+          "teamId": 7891785,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Holli D. and Dan L.",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": "same",
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        },
+        {
+          "programId": 5053349,
+          "teamId": 8020386,
+          "programName": "Monday Coed 2s B",
+          "teamName": "2. Holli D. and Dan L.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": "same",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        }
+      ]
+    },
+    "8033568": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5053349,
+          "teamId": 8033568,
+          "programName": "Monday Coed 2s B",
+          "teamName": "6. Taylor P. and Carson S.",
+          "endDate": 1789963200000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

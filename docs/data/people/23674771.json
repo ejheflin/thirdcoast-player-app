@@ -13,6 +13,102 @@
       "teamId": 8163816,
       "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
       "isCaptain": true
+    },
+    {
+      "programId": 3715962,
+      "teamId": 6127158,
+      "teamName": "1. Emily R. & Bryan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6456179,
+      "teamName": "9. The Monday Blues (Benjamin T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7924578,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7242846,
+      "teamName": "5. Holy Blockamole 3.0 (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7029474,
+      "teamName": "5. Holy Blockamole (Devin S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7586287,
+      "teamName": "7. Holy Blockamole 6.0 (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6911644,
+      "teamName": "2. Holy Blockamole (Devin S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7442496,
+      "teamName": "7. Holy Blockamole 5.0 (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7792661,
+      "teamName": "6. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350092,
+      "teamName": "6. Holy Blockamole 4.0 (Bryan M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6144195,
+      "teamName": "3. How I Set Your Mother (Ivan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6816636,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6706028,
+      "teamName": "4. Hit It from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7557095,
+      "teamName": "7. Ross N. and Bryan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7359587,
+      "teamName": "7. Ross N. and Bryan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7439672,
+      "teamName": "12. Ross N. and Bryan M.",
+      "isCaptain": false
     }
   ]
 }

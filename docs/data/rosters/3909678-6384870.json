@@ -1,0 +1,17 @@
+{
+  "programId": 3909678,
+  "teamId": 6384870,
+  "teamName": "1. Kendall C. & Alfonso L.",
+  "players": [
+    {
+      "userId": 23715604,
+      "firstName": "Kendall",
+      "isCaptain": true
+    },
+    {
+      "userId": 29606427,
+      "firstName": "Alfonso",
+      "isCaptain": false
+    }
+  ]
+}

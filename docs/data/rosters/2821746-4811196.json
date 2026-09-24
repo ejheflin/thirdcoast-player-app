@@ -1,0 +1,27 @@
+{
+  "programId": 2821746,
+  "teamId": 4811196,
+  "teamName": "8 - Getting It In (Jose B.)",
+  "players": [
+    {
+      "userId": 21326962,
+      "firstName": "Jose",
+      "isCaptain": true
+    },
+    {
+      "userId": 22396837,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 22317232,
+      "firstName": "Josephine",
+      "isCaptain": false
+    },
+    {
+      "userId": 27909486,
+      "firstName": "Elle",
+      "isCaptain": false
+    }
+  ]
+}

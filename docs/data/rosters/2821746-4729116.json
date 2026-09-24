@@ -1,0 +1,32 @@
+{
+  "programId": 2821746,
+  "teamId": 4729116,
+  "teamName": "1 - Big Dig Energy (Johnny L.)",
+  "players": [
+    {
+      "userId": 29442015,
+      "firstName": "Lauryn",
+      "isCaptain": false
+    },
+    {
+      "userId": 29733981,
+      "firstName": "Myrla",
+      "isCaptain": false
+    },
+    {
+      "userId": 29651328,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 29627895,
+      "firstName": "Johnny",
+      "isCaptain": true
+    },
+    {
+      "userId": 29657457,
+      "firstName": "Carson",
+      "isCaptain": false
+    }
+  ]
+}

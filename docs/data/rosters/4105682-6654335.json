@@ -1,0 +1,22 @@
+{
+  "programId": 4105682,
+  "teamId": 6654335,
+  "teamName": "7. Will Work for Sets (Austin D.)",
+  "players": [
+    {
+      "userId": 46587000,
+      "firstName": "Austin",
+      "isCaptain": true
+    },
+    {
+      "userId": 46625180,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 46625220,
+      "firstName": "Michelle",
+      "isCaptain": false
+    }
+  ]
+}

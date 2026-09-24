@@ -1,0 +1,27 @@
+{
+  "programId": 4656367,
+  "teamId": 7445182,
+  "teamName": "10. The Substitute (Phil M.)",
+  "players": [
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": false
+    },
+    {
+      "userId": 53277253,
+      "firstName": "Kaegan",
+      "isCaptain": false
+    }
+  ]
+}

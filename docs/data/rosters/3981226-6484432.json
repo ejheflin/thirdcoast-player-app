@@ -1,0 +1,17 @@
+{
+  "programId": 3981226,
+  "teamId": 6484432,
+  "teamName": "12. Odette M. & Michael A.",
+  "players": [
+    {
+      "userId": 45443780,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 44414241,
+      "firstName": "Odette",
+      "isCaptain": true
+    }
+  ]
+}

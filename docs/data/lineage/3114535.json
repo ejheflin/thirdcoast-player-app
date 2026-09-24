@@ -1,0 +1,215 @@
+{
+  "programId": 3114535,
+  "teams": {
+    "5209558": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5209558,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - Arsenal Gunners (David T.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "5211529": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5211529,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Big Digs (Annie L.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "5213011": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5213011,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Sandy Cheeks (Arturo R.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "5220433": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5220433,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - FlyBallers ShotCallers (Albert F.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 5,
+          "ties": 8
+        }
+      ]
+    },
+    "5225602": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5225602,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - ROVB Prime Time (Tom K.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "5226031": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5226031,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - Empire SPIKES Back (Benet G.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 4,
+          "ties": 4
+        }
+      ]
+    },
+    "5226238": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5226238,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Rusteze (Brian C.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 12,
+          "ties": 4
+        }
+      ]
+    },
+    "5226322": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5226322,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Hustle Gang (Calvin D.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "5227672": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5227672,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - It's the SWEET ONE! (Quentin B.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "5231896": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114535,
+          "teamId": 5231896,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - Gabs & Abs + 2 (Marshall C.)",
+          "endDate": 1657598400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4222041,
+  "teamId": 6820519,
+  "teamName": "7. Calm Yo Tips (Adolph T.)",
+  "players": [
+    {
+      "userId": 47340236,
+      "firstName": "Christian",
+      "isCaptain": false
+    },
+    {
+      "userId": 47137459,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 42926049,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

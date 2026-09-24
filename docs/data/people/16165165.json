@@ -1,0 +1,24 @@
+{
+  "userId": 16165165,
+  "firstName": "Gabriella",
+  "appearances": [
+    {
+      "programId": 3716070,
+      "teamId": 6126720,
+      "teamName": "1. Gabriela C. & Erik H.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903865,
+      "teamId": 6374083,
+      "teamName": "1. Gabriela C. & Erik H.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6382623,
+      "teamName": "4. Team Name (Marshall C.)",
+      "isCaptain": false
+    }
+  ]
+}

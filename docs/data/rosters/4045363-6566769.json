@@ -1,0 +1,27 @@
+{
+  "programId": 4045363,
+  "teamId": 6566769,
+  "teamName": "7. Super Sandy Battle Axes (Andrea M.)",
+  "players": [
+    {
+      "userId": 14645806,
+      "firstName": "Tanner",
+      "isCaptain": false
+    },
+    {
+      "userId": 44323928,
+      "firstName": "Elizabeth",
+      "isCaptain": false
+    },
+    {
+      "userId": 15948247,
+      "firstName": "Andrea",
+      "isCaptain": true
+    },
+    {
+      "userId": 14647747,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    }
+  ]
+}

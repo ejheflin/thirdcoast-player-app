@@ -1,0 +1,17 @@
+{
+  "programId": 4138991,
+  "teamId": 6689299,
+  "teamName": "7. Michelle E. & Dan L.",
+  "players": [
+    {
+      "userId": 16255540,
+      "firstName": "Michelle",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

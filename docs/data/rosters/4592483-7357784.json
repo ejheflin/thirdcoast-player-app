@@ -1,0 +1,17 @@
+{
+  "programId": 4592483,
+  "teamId": 7357784,
+  "teamName": "10. Ali M. and Andrew B.",
+  "players": [
+    {
+      "userId": 15557857,
+      "firstName": "Andrew",
+      "isCaptain": true
+    },
+    {
+      "userId": 47034997,
+      "firstName": "Ali",
+      "isCaptain": false
+    }
+  ]
+}

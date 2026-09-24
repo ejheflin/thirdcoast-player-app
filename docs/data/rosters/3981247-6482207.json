@@ -1,0 +1,27 @@
+{
+  "programId": 3981247,
+  "teamId": 6482207,
+  "teamName": "3. FlyBallers ShotCallers (Albert F.)",
+  "players": [
+    {
+      "userId": 44396648,
+      "firstName": "Jon",
+      "isCaptain": false
+    },
+    {
+      "userId": 14582476,
+      "firstName": "Albert",
+      "isCaptain": true
+    },
+    {
+      "userId": 45434480,
+      "firstName": "Ainsley",
+      "isCaptain": false
+    },
+    {
+      "userId": 14723746,
+      "firstName": "sean",
+      "isCaptain": false
+    }
+  ]
+}

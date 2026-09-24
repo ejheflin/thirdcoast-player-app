@@ -1,0 +1,27 @@
+{
+  "programId": 3719520,
+  "teamId": 6158997,
+  "teamName": "10. Disney Princesses + Mikey (Nicole P.)",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 17342788,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 39305583,
+      "firstName": "Martin",
+      "isCaptain": false
+    },
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": true
+    }
+  ]
+}

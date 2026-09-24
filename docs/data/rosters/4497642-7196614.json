@@ -1,0 +1,17 @@
+{
+  "programId": 4497642,
+  "teamId": 7196614,
+  "teamName": "1. Lisa B. and Clayton B.",
+  "players": [
+    {
+      "userId": 14545690,
+      "firstName": "Lisa",
+      "isCaptain": true
+    },
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": false
+    }
+  ]
+}

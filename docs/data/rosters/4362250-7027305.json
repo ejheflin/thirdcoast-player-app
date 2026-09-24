@@ -1,0 +1,32 @@
+{
+  "programId": 4362250,
+  "teamId": 7027305,
+  "teamName": "6. Hitmen (Cristofer G.)",
+  "players": [
+    {
+      "userId": 49846186,
+      "firstName": "Arquimedes",
+      "isCaptain": false
+    },
+    {
+      "userId": 49772326,
+      "firstName": "Osvaldo",
+      "isCaptain": false
+    },
+    {
+      "userId": 46627282,
+      "firstName": "Cristofer",
+      "isCaptain": true
+    },
+    {
+      "userId": 37886413,
+      "firstName": "Courtney",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": false
+    }
+  ]
+}

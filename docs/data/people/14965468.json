@@ -1,0 +1,36 @@
+{
+  "userId": 14965468,
+  "firstName": "turner",
+  "appearances": [
+    {
+      "programId": 4139339,
+      "teamId": 6719546,
+      "teamName": "1. Ryan S. & Cole C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6950149,
+      "teamName": "11. Ryan S. and Cole T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6466453,
+      "teamName": "7. Ryan S. & Cole C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6155493,
+      "teamName": "12. Ryan S. & Cole C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6389556,
+      "teamName": "5. Ryan S. & Cole C.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4592484,
+  "teamId": 7341985,
+  "teamName": "10. Elaine L. and Tyler J.",
+  "players": [
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 14595709,
+      "firstName": "Elaine",
+      "isCaptain": true
+    }
+  ]
+}

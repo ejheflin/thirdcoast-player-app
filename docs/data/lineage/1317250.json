@@ -1,0 +1,173 @@
+{
+  "programId": 1317250,
+  "teams": {
+    "2683285": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2683285,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "4 - Notorious D.I.G. (Jamie D.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 4,
+          "ties": 2
+        }
+      ]
+    },
+    "2683711": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2683711,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "3 - Just the Tip (Will B.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "2685310": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2685310,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "7 - Any4s (Naomi L.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 7
+        }
+      ]
+    },
+    "2687062": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2687062,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "1 - Bumpin Uglies (Matt O.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "2687278": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2687278,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "5 - Sets on Fire (Callie P.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "2691760": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2691760,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "6 - Those Guys (Kelly S.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "2691913": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2691913,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "2 - Squadwerd (Jordan R.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "2692030": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317250,
+          "teamId": 2692030,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "8 - To Be Determined (Andy T.)",
+          "endDate": 1574658000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 0,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

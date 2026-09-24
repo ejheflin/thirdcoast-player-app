@@ -1,0 +1,27 @@
+{
+  "programId": 4139315,
+  "teamId": 6740437,
+  "teamName": "10. Hits Don’t Lie (Elif D.)",
+  "players": [
+    {
+      "userId": 47237403,
+      "firstName": "Isaac",
+      "isCaptain": false
+    },
+    {
+      "userId": 47236672,
+      "firstName": "Elif",
+      "isCaptain": true
+    },
+    {
+      "userId": 47237506,
+      "firstName": "Isabelle",
+      "isCaptain": false
+    },
+    {
+      "userId": 47237446,
+      "firstName": "Kelsey",
+      "isCaptain": false
+    }
+  ]
+}

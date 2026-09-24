@@ -1,0 +1,131 @@
+{
+  "programId": 1734298,
+  "teams": {
+    "3255766": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3255766,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5 - Makeup Sets (Matt K.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 6,
+          "wins": 7,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "3258367": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3258367,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3 - Fourplay (Benjamin T.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 6,
+          "wins": 7,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "3259516": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3259516,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2 - Beach Bunnies (Jimmy R.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 6,
+          "wins": 6,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "3259996": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3259996,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1 - Ball Whisperers (Matthew G.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 6,
+          "wins": 4,
+          "losses": 8,
+          "ties": 1
+        }
+      ]
+    },
+    "3261451": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3261451,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4 - We Dig You (Lauren M.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 6,
+          "wins": 7,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "3285640": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734298,
+          "teamId": 3285640,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6 - Kiss My Ace (Sepi M.)",
+          "endDate": 1601352000000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 6,
+          "wins": 0,
+          "losses": 13,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

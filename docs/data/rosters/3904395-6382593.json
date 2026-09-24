@@ -1,0 +1,27 @@
+{
+  "programId": 3904395,
+  "teamId": 6382593,
+  "teamName": "7. We Dig You (Stephen J.)",
+  "players": [
+    {
+      "userId": 14921479,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 39404268,
+      "firstName": "Stephen",
+      "isCaptain": true
+    },
+    {
+      "userId": 21101914,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 31680339,
+      "firstName": "Hunter",
+      "isCaptain": false
+    }
+  ]
+}

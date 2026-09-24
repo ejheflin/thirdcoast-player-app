@@ -1,0 +1,17 @@
+{
+  "programId": 4220824,
+  "teamId": 6809654,
+  "teamName": "1. Liz C. & Josman R.",
+  "players": [
+    {
+      "userId": 14657086,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 14681206,
+      "firstName": "Josman",
+      "isCaptain": false
+    }
+  ]
+}

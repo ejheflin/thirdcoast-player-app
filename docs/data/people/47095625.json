@@ -1,0 +1,60 @@
+{
+  "userId": 47095625,
+  "firstName": "Camden",
+  "appearances": [
+    {
+      "programId": 4362250,
+      "teamId": 7021104,
+      "teamName": "10. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6911245,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823695,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6695412,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7339870,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7429658,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7186303,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7572866,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7569992,
+      "teamName": "5. Sets Pistols (Christina Z.)",
+      "isCaptain": false
+    }
+  ]
+}

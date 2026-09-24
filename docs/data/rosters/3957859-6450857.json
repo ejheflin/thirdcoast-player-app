@@ -1,0 +1,27 @@
+{
+  "programId": 3957859,
+  "teamId": 6450857,
+  "teamName": "3. Welcome to the Sonderdome (Son T.)",
+  "players": [
+    {
+      "userId": 14732062,
+      "firstName": "Albert",
+      "isCaptain": false
+    },
+    {
+      "userId": 14923579,
+      "firstName": "Julia",
+      "isCaptain": false
+    },
+    {
+      "userId": 15220915,
+      "firstName": "Son",
+      "isCaptain": true
+    },
+    {
+      "userId": 45168284,
+      "firstName": "Faith",
+      "isCaptain": false
+    }
+  ]
+}

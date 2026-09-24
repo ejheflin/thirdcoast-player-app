@@ -1,0 +1,27 @@
+{
+  "programId": 3430566,
+  "teamId": 5716869,
+  "teamName": "7. Freaking Tapes! (Aatir A.)",
+  "players": [
+    {
+      "userId": 35050870,
+      "firstName": "Kristofer",
+      "isCaptain": false
+    },
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 39313353,
+      "firstName": "Jada",
+      "isCaptain": false
+    },
+    {
+      "userId": 35031907,
+      "firstName": "Zee",
+      "isCaptain": false
+    }
+  ]
+}

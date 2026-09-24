@@ -1,0 +1,17 @@
+{
+  "programId": 4033201,
+  "teamId": 6557850,
+  "teamName": "6. Alfonzo L. & Luis L.",
+  "players": [
+    {
+      "userId": 16172593,
+      "firstName": "Luis",
+      "isCaptain": true
+    },
+    {
+      "userId": 29606427,
+      "firstName": "Alfonso",
+      "isCaptain": false
+    }
+  ]
+}

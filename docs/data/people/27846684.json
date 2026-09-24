@@ -1,0 +1,114 @@
+{
+  "userId": 27846684,
+  "firstName": "Clayton",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7349336,
+      "teamName": "9. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7216252,
+      "teamName": "7. Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6383407,
+      "teamName": "7. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7445536,
+      "teamName": "7. Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6455010,
+      "teamName": "7. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7029202,
+      "teamName": "4. Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7797201,
+      "teamName": "10. Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6920187,
+      "teamName": "9. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6822995,
+      "teamName": "5. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6722750,
+      "teamName": "3. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7580106,
+      "teamName": "6. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7924700,
+      "teamName": "4. Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6549319,
+      "teamName": "6. Giants with a side of Ginger (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6157710,
+      "teamName": "9. Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4434978,
+      "teamName": "5 - Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4785060,
+      "teamName": "7 - Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5228893,
+      "teamName": "5 - Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5461917,
+      "teamName": "10 - Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    }
+  ]
+}

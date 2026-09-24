@@ -1,0 +1,17 @@
+{
+  "programId": 4967493,
+  "teamId": 7892522,
+  "teamName": "3. Jodie N. and Colby H.",
+  "players": [
+    {
+      "userId": 46610862,
+      "firstName": "Colby",
+      "isCaptain": false
+    },
+    {
+      "userId": 49879219,
+      "firstName": "Jodie",
+      "isCaptain": true
+    }
+  ]
+}

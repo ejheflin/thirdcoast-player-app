@@ -1,0 +1,17 @@
+{
+  "programId": 4653860,
+  "teamId": 7434995,
+  "teamName": "4. Michael G. and Daniel A.",
+  "players": [
+    {
+      "userId": 15283918,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14759020,
+      "firstName": "Michael",
+      "isCaptain": true
+    }
+  ]
+}

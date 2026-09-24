@@ -1,0 +1,27 @@
+{
+  "programId": 4220826,
+  "teamId": 6809467,
+  "teamName": "2. Sets on the Beach (Kerry C.)",
+  "players": [
+    {
+      "userId": 39604113,
+      "firstName": "Jeff",
+      "isCaptain": false
+    },
+    {
+      "userId": 37341172,
+      "firstName": "Kerry",
+      "isCaptain": true
+    },
+    {
+      "userId": 23232067,
+      "firstName": "Jeremy",
+      "isCaptain": false
+    },
+    {
+      "userId": 16195831,
+      "firstName": "Stephen",
+      "isCaptain": false
+    }
+  ]
+}

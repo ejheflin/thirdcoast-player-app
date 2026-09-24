@@ -1,0 +1,17 @@
+{
+  "programId": 4975326,
+  "teamId": 7905150,
+  "teamName": "3. Manieka D. and Kaegan W.",
+  "players": [
+    {
+      "userId": 23454538,
+      "firstName": "Manieka",
+      "isCaptain": false
+    },
+    {
+      "userId": 53277253,
+      "firstName": "Kaegan",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4661442,
+  "teamId": 7462945,
+  "teamName": "8. Shelby G. and Dom W.",
+  "players": [
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": true
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": false
+    }
+  ]
+}

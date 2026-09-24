@@ -1,0 +1,18 @@
+{
+  "userId": 39368979,
+  "firstName": "Julianna",
+  "appearances": [
+    {
+      "programId": 3719592,
+      "teamId": 6143595,
+      "teamName": "4. Monster Swang (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5719896,
+      "teamName": "9. Rusteze (Brian C.)",
+      "isCaptain": false
+    }
+  ]
+}

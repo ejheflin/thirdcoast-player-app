@@ -1,0 +1,32 @@
+{
+  "programId": 2609355,
+  "teamId": 4423932,
+  "teamName": "1 - Big Digs (Annie L.)",
+  "players": [
+    {
+      "userId": 27966399,
+      "firstName": "Audrey",
+      "isCaptain": false
+    },
+    {
+      "userId": 27941982,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 29703738,
+      "firstName": "Patrick",
+      "isCaptain": false
+    },
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    },
+    {
+      "userId": 27966321,
+      "firstName": "Caleb",
+      "isCaptain": false
+    }
+  ]
+}

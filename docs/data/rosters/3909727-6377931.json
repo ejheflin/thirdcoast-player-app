@@ -1,0 +1,17 @@
+{
+  "programId": 3909727,
+  "teamId": 6377931,
+  "teamName": "10. Riley W. & Ross N.",
+  "players": [
+    {
+      "userId": 27841302,
+      "firstName": "Ross",
+      "isCaptain": false
+    },
+    {
+      "userId": 17291476,
+      "firstName": "Riley",
+      "isCaptain": true
+    }
+  ]
+}

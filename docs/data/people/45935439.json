@@ -31,6 +31,90 @@
       "teamId": 8143230,
       "teamName": "3. Charlies Angels (Jason O.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7894354,
+      "teamName": "6. Abbie G. and Jason O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6568215,
+      "teamName": "5. Jenny S. & Jason O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7351228,
+      "teamName": "9. Denise H. and Jason O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7602565,
+      "teamName": "2. Kyndal G. and Jason O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7461615,
+      "teamName": "4. Charlie’s Angels (Jason O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7582979,
+      "teamName": "1. Charlie's Angels (Jason O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7758353,
+      "teamName": "7. I’d Hit That (Jason O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7357860,
+      "teamName": "6. Eat a Whole Bag o’ Digs (Jason O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7467205,
+      "teamName": "10. Bump, set, dammit! (Michael G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6646856,
+      "teamName": "1. Bang Ít (Denise H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7757873,
+      "teamName": "9. Jason O. and Dominick W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7529694,
+      "teamName": "2. Jason O. and Clayton B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7903063,
+      "teamName": "1. Jason O. and Dominick W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7445112,
+      "teamName": "9. Jason O. and Clayton B.",
+      "isCaptain": true
     }
   ]
 }

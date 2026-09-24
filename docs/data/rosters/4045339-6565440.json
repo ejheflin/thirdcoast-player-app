@@ -1,0 +1,17 @@
+{
+  "programId": 4045339,
+  "teamId": 6565440,
+  "teamName": "5. Lisa B. & Kumar R.",
+  "players": [
+    {
+      "userId": 14545690,
+      "firstName": "Lisa",
+      "isCaptain": true
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    }
+  ]
+}

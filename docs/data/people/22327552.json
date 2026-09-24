@@ -1,0 +1,48 @@
+{
+  "userId": 22327552,
+  "firstName": "Mike",
+  "appearances": [
+    {
+      "programId": 3715962,
+      "teamId": 6126804,
+      "teamName": "6. Kim S. & Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6374049,
+      "teamName": "4. Kim S. & Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6444833,
+      "teamName": "4. Kim S. & Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7447246,
+      "teamName": "6. Kim S. and Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7197963,
+      "teamName": "6. Kim S. and Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6910663,
+      "teamName": "5. Kim S. and Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7021475,
+      "teamName": "8. Kim S. and Mike O.",
+      "isCaptain": false
+    }
+  ]
+}

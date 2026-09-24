@@ -1,0 +1,22 @@
+{
+  "programId": 4872925,
+  "teamId": 7792977,
+  "teamName": "8. Tri-Angels (Johnny P.)",
+  "players": [
+    {
+      "userId": 54298552,
+      "firstName": "Jonatan",
+      "isCaptain": false
+    },
+    {
+      "userId": 55682000,
+      "firstName": "Geraldina",
+      "isCaptain": false
+    },
+    {
+      "userId": 46933884,
+      "firstName": "Johnny",
+      "isCaptain": true
+    }
+  ]
+}

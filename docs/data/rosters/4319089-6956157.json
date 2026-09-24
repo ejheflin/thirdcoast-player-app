@@ -1,0 +1,32 @@
+{
+  "programId": 4319089,
+  "teamId": 6956157,
+  "teamName": "10. The Comebacks! (Joe R.)",
+  "players": [
+    {
+      "userId": 49426556,
+      "firstName": "Bethani",
+      "isCaptain": false
+    },
+    {
+      "userId": 14583655,
+      "firstName": "Susan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14666941,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 49535904,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    }
+  ]
+}

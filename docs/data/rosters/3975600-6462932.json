@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6462932,
+  "teamName": "2. Holli D. & Adolph T.",
+  "players": [
+    {
+      "userId": 45248311,
+      "firstName": "Holli",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

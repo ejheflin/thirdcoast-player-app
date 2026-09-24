@@ -1,0 +1,27 @@
+{
+  "programId": 4873012,
+  "teamId": 7759833,
+  "teamName": "2. Beta Blockets (Mindy B.)",
+  "players": [
+    {
+      "userId": 53615354,
+      "firstName": "Mindy",
+      "isCaptain": true
+    },
+    {
+      "userId": 54273603,
+      "firstName": "Kate",
+      "isCaptain": false
+    },
+    {
+      "userId": 54323055,
+      "firstName": "Brooke",
+      "isCaptain": false
+    },
+    {
+      "userId": 54362750,
+      "firstName": "William",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4975325,
+  "teamId": 7937448,
+  "teamName": "10. A Gold Star for Effort (Merilyn V.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 47994805,
+      "firstName": "Gabby",
+      "isCaptain": false
+    },
+    {
+      "userId": 38410853,
+      "firstName": "Merilyn",
+      "isCaptain": true
+    },
+    {
+      "userId": 56723759,
+      "firstName": "Sam",
+      "isCaptain": false
+    }
+  ]
+}

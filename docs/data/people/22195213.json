@@ -1,0 +1,78 @@
+{
+  "userId": 22195213,
+  "firstName": "Sam",
+  "appearances": [
+    {
+      "programId": 4031649,
+      "teamId": 6568192,
+      "teamName": "11. Dani D. & Sam E.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689269,
+      "teamName": "8. Shelby G. & Sam E.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7583155,
+      "teamName": "3. Denise H. and Sam E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3975600,
+      "teamId": 6464827,
+      "teamName": "10. Sirena V. & Sam E.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6394489,
+      "teamName": "12. Calm your tips (Emma P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6912501,
+      "teamName": "4. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820211,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6382299,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6546214,
+      "teamName": "3. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6451260,
+      "teamName": "1. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6690556,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6166983,
+      "teamName": "9. Milk & Cookies (Sam E.)",
+      "isCaptain": true
+    }
+  ]
+}

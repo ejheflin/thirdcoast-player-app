@@ -1,0 +1,17 @@
+{
+  "programId": 4033201,
+  "teamId": 6541033,
+  "teamName": "1. Caleb B. & Mikhail B.",
+  "players": [
+    {
+      "userId": 38355629,
+      "firstName": "Caleb",
+      "isCaptain": true
+    },
+    {
+      "userId": 38401346,
+      "firstName": "Mikhail",
+      "isCaptain": false
+    }
+  ]
+}

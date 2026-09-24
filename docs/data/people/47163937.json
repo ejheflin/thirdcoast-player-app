@@ -1,0 +1,18 @@
+{
+  "userId": 47163937,
+  "firstName": "Jason",
+  "appearances": [
+    {
+      "programId": 4362247,
+      "teamId": 7029516,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6722901,
+      "teamName": "6. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 45434480,
+  "firstName": "Ainsley",
+  "appearances": [
+    {
+      "programId": 3981247,
+      "teamId": 6482207,
+      "teamName": "3. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6562344,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    }
+  ]
+}

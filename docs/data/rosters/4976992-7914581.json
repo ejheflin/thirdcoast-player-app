@@ -1,0 +1,17 @@
+{
+  "programId": 4976992,
+  "teamId": 7914581,
+  "teamName": "3. Ivy C. and Dreco S.",
+  "players": [
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": false
+    },
+    {
+      "userId": 25371946,
+      "firstName": "Dreco",
+      "isCaptain": true
+    }
+  ]
+}

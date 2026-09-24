@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7607307,
+  "teamName": "5. Doria O. and Roy T.",
+  "players": [
+    {
+      "userId": 53587344,
+      "firstName": "Doria",
+      "isCaptain": false
+    },
+    {
+      "userId": 52225898,
+      "firstName": "Roy",
+      "isCaptain": true
+    }
+  ]
+}

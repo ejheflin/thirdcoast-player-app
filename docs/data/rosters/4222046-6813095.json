@@ -1,0 +1,17 @@
+{
+  "programId": 4222046,
+  "teamId": 6813095,
+  "teamName": "5. Liz C. & Taylor H.",
+  "players": [
+    {
+      "userId": 14657086,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 47833664,
+      "firstName": "Taylor",
+      "isCaptain": false
+    }
+  ]
+}

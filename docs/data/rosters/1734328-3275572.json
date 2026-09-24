@@ -1,0 +1,27 @@
+{
+  "programId": 1734328,
+  "teamId": 3275572,
+  "teamName": "7 - All Sets are Off (Naomi L.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705224,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 18714160,
+      "firstName": "Glenn",
+      "isCaptain": false
+    }
+  ]
+}

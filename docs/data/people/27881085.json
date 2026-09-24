@@ -13,6 +13,132 @@
       "teamId": 8135529,
       "teamName": "6. Ruslan A. and Ryan S.",
       "isCaptain": false
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484561,
+      "teamName": "11. Emily F. & Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6393359,
+      "teamName": "5. Lisa B. & Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6951555,
+      "teamName": "4. Emily F. and Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6566119,
+      "teamName": "3. Emily F. & Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6691530,
+      "teamName": "4. Emily F. & Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6837485,
+      "teamName": "2. Emily F. & Ryan S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7188595,
+      "teamName": "6. Toodles (Michael L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7771167,
+      "teamName": "5. Ryan S. and Rus A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7541922,
+      "teamName": "6. Ryan S. and Rus A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6719546,
+      "teamName": "1. Ryan S. & Cole C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7912987,
+      "teamName": "6. Ryan S. and Rus A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6556354,
+      "teamName": "7. Ryan S. & Cole C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6834627,
+      "teamName": "3. Ryan S. & Cole C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6950149,
+      "teamName": "11. Ryan S. and Cole T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6466453,
+      "teamName": "7. Ryan S. & Cole C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7224638,
+      "teamName": "8. Ryan S. and Ruslan A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6155493,
+      "teamName": "12. Ryan S. & Cole C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7340875,
+      "teamName": "3. Ryan S. and Rus A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7047972,
+      "teamName": "11. Ryan S. and Beau B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7440010,
+      "teamName": "5. Ryan S. and Rus A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6389556,
+      "teamName": "5. Ryan S. & Cole C.",
+      "isCaptain": true
     }
   ]
 }

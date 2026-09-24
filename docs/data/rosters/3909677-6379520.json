@@ -1,0 +1,17 @@
+{
+  "programId": 3909677,
+  "teamId": 6379520,
+  "teamName": "7. Taylor B. & Erik H.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 23969023,
+      "firstName": "Erik",
+      "isCaptain": false
+    }
+  ]
+}

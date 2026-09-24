@@ -1,0 +1,36 @@
+{
+  "userId": 21012970,
+  "firstName": "Jonathan",
+  "appearances": [
+    {
+      "programId": 3719532,
+      "teamId": 6155346,
+      "teamName": "5. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6550626,
+      "teamName": "8. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6456202,
+      "teamName": "8. Pedialyte (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6383289,
+      "teamName": "6. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3934375,
+      "teamName": "5 - Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    }
+  ]
+}

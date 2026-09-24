@@ -1,0 +1,17 @@
+{
+  "programId": 3968137,
+  "teamId": 6466453,
+  "teamName": "7. Ryan S. & Cole C.",
+  "players": [
+    {
+      "userId": 27881085,
+      "firstName": "Ryan",
+      "isCaptain": true
+    },
+    {
+      "userId": 14965468,
+      "firstName": "turner",
+      "isCaptain": false
+    }
+  ]
+}

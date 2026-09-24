@@ -1,0 +1,173 @@
+{
+  "programId": 1132792,
+  "teams": {
+    "2382337": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2382337,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "1 - Iann P. & Rod M.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "2393959": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2393959,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "6 - Matt Fa. & Mike K.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 8,
+          "ties": 3
+        }
+      ]
+    },
+    "2396653": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2396653,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "7 - Brent M. & Ryan B.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "2398570": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2398570,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "4 - David D. & Brandon B.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "2399659": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2399659,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "3 - Stu M. & Will T.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 14,
+          "ties": 1
+        }
+      ]
+    },
+    "2399662": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2399662,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "2 - Jon N. & Christian A.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 10,
+          "ties": 3
+        }
+      ]
+    },
+    "2399668": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2399668,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "5 - Eric W. & Edwin F.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "2400535": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132792,
+          "teamId": 2400535,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "8 - David D. & Kelly C.",
+          "endDate": 1563940800000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

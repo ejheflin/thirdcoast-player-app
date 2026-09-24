@@ -1,0 +1,27 @@
+{
+  "programId": 4872969,
+  "teamId": 7760535,
+  "teamName": "2. TBD formerly NAVS (Steve C.)",
+  "players": [
+    {
+      "userId": 17612635,
+      "firstName": "Steve",
+      "isCaptain": true
+    },
+    {
+      "userId": 30947913,
+      "firstName": "Yuxi",
+      "isCaptain": false
+    },
+    {
+      "userId": 28113363,
+      "firstName": "Jesse",
+      "isCaptain": false
+    },
+    {
+      "userId": 53186427,
+      "firstName": "Jeni",
+      "isCaptain": false
+    }
+  ]
+}

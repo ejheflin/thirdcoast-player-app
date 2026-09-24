@@ -13,6 +13,84 @@
       "teamId": 8139038,
       "teamName": "2. Ay Mi Madre (Daniel D.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7224566,
+      "teamName": "8. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6484054,
+      "teamName": "9. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7468634,
+      "teamName": "10. Ay Mi Madre 2 (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7593189,
+      "teamName": "9. Ay Mi Madre 2 (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7760672,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6721894,
+      "teamName": "2. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6568333,
+      "teamName": "10. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7352034,
+      "teamName": "3. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6844749,
+      "teamName": "2. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7048166,
+      "teamName": "2. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6953282,
+      "teamName": "4. Ay mi madre (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6390526,
+      "teamName": "8. Ay mi madre! (Daniel D.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6155904,
+      "teamName": "8. Ay mi madre! (Daniel D.)",
+      "isCaptain": true
     }
   ]
 }

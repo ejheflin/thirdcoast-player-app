@@ -1,0 +1,17 @@
+{
+  "programId": 4488152,
+  "teamId": 7185031,
+  "teamName": "3. Paige D. and Jo P.",
+  "players": [
+    {
+      "userId": 45176585,
+      "firstName": "Paige",
+      "isCaptain": false
+    },
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7609019,
+  "teamName": "4. Julia W. and Adrian M.",
+  "players": [
+    {
+      "userId": 52381878,
+      "firstName": "Adrian",
+      "isCaptain": false
+    },
+    {
+      "userId": 21102859,
+      "firstName": "Julia",
+      "isCaptain": true
+    }
+  ]
+}

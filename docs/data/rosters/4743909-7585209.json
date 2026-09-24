@@ -1,0 +1,27 @@
+{
+  "programId": 4743909,
+  "teamId": 7585209,
+  "teamName": "9. Substitute (Phil M.)",
+  "players": [
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": false
+    },
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 47639985,
+      "firstName": "Brynn",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": false
+    }
+  ]
+}

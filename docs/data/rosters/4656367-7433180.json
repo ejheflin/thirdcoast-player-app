@@ -1,0 +1,27 @@
+{
+  "programId": 4656367,
+  "teamId": 7433180,
+  "teamName": "2. Hit it from the Side (Mark M.)",
+  "players": [
+    {
+      "userId": 18431188,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": true
+    },
+    {
+      "userId": 27944868,
+      "firstName": "Derek",
+      "isCaptain": false
+    },
+    {
+      "userId": 46628031,
+      "firstName": "kellye",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "userId": 14681509,
+  "firstName": "Lauren",
+  "appearances": [
+    {
+      "programId": 4288378,
+      "teamId": 6912752,
+      "teamName": "6. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7186022,
+      "teamName": "3. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7343238,
+      "teamName": "6. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7017401,
+      "teamName": "1. Chewblocka (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4187937,
+      "teamName": "9 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4435158,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3944392,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6457508,
+      "teamName": "6. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6381258,
+      "teamName": "8. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4731948,
+      "teamName": "5 - Rancho Carne Torros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3691234,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6173529,
+      "teamName": "10. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6548945,
+      "teamName": "7. Taking Back Tuesday (Lyndon Z.)",
+      "isCaptain": false
+    }
+  ]
+}

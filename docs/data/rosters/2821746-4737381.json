@@ -1,0 +1,27 @@
+{
+  "programId": 2821746,
+  "teamId": 4737381,
+  "teamName": "2 - Empire SPIKES Back (Benet G.)",
+  "players": [
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": false
+    },
+    {
+      "userId": 29586969,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 31727040,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 14625949,
+      "firstName": "benet",
+      "isCaptain": true
+    }
+  ]
+}

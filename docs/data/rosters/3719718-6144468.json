@@ -1,0 +1,17 @@
+{
+  "programId": 3719718,
+  "teamId": 6144468,
+  "teamName": "1. Mili V. & Brian T.",
+  "players": [
+    {
+      "userId": 14631940,
+      "firstName": "Brian",
+      "isCaptain": true
+    },
+    {
+      "userId": 14608675,
+      "firstName": "Milica",
+      "isCaptain": false
+    }
+  ]
+}

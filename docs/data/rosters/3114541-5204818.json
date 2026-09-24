@@ -1,0 +1,32 @@
+{
+  "programId": 3114541,
+  "teamId": 5204818,
+  "teamName": "1 - Hard Pass (Johnny L.)",
+  "players": [
+    {
+      "userId": 35211811,
+      "firstName": "Colette",
+      "isCaptain": false
+    },
+    {
+      "userId": 34744092,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 17179564,
+      "firstName": "Rick",
+      "isCaptain": false
+    },
+    {
+      "userId": 29651328,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 29627895,
+      "firstName": "Johnny",
+      "isCaptain": true
+    }
+  ]
+}

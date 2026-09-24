@@ -1,0 +1,17 @@
+{
+  "programId": 4589129,
+  "teamId": 7330714,
+  "teamName": "2. Courtney H. and Travis B.",
+  "players": [
+    {
+      "userId": 16226119,
+      "firstName": "Travis",
+      "isCaptain": true
+    },
+    {
+      "userId": 51349497,
+      "firstName": "Courtney",
+      "isCaptain": false
+    }
+  ]
+}

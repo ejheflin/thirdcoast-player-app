@@ -1,0 +1,17 @@
+{
+  "programId": 3903865,
+  "teamId": 6370408,
+  "teamName": "6. Caroline J. & Mark J.",
+  "players": [
+    {
+      "userId": 22297144,
+      "firstName": "Caroline",
+      "isCaptain": false
+    },
+    {
+      "userId": 23555404,
+      "firstName": "Mark",
+      "isCaptain": true
+    }
+  ]
+}

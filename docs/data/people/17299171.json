@@ -7,6 +7,84 @@
       "teamId": 8017043,
       "teamName": "1. Emily R. and Riley F.",
       "isCaptain": true
+    },
+    {
+      "programId": 3715962,
+      "teamId": 6127158,
+      "teamName": "1. Emily R. & Bryan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6370118,
+      "teamName": "1. Emily R. & Jake S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7330756,
+      "teamName": "3. Emily R. and Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7196688,
+      "teamName": "2. Emily R. and Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6920074,
+      "teamName": "10. Emily R. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7026507,
+      "teamName": "4. Emily R. and Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220824,
+      "teamId": 6813523,
+      "teamName": "4. Emily R. & Joe M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967493,
+      "teamId": 7900778,
+      "teamName": "1. Emily R. and Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872881,
+      "teamId": 7761989,
+      "teamName": "2. Emily R. and Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6545576,
+      "teamName": "8. Emily R. & Joe M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7455833,
+      "teamName": "7. Emily R. and Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756151,
+      "teamId": 7600620,
+      "teamName": "6. Emily R. and Leo Y.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957846,
+      "teamId": 6449317,
+      "teamName": "5. Emily R. & Jake S.",
+      "isCaptain": true
     }
   ]
 }

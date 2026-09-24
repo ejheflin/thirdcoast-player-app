@@ -1,0 +1,54 @@
+{
+  "userId": 44170583,
+  "firstName": "Jake",
+  "appearances": [
+    {
+      "programId": 3903855,
+      "teamId": 6370118,
+      "teamName": "1. Emily R. & Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957846,
+      "teamId": 6449317,
+      "teamName": "5. Emily R. & Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7052254,
+      "teamName": "1. Lauren H. and Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196702,
+      "teamName": "1. Lauren H. and Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7783721,
+      "teamName": "6. Elaine L. and Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7353918,
+      "teamName": "6. Lauren H. and Jake S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7228103,
+      "teamName": "11. Jake S. and Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7349975,
+      "teamName": "4. Jake S. and Michael A.",
+      "isCaptain": false
+    }
+  ]
+}

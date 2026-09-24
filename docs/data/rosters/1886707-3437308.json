@@ -1,0 +1,32 @@
+{
+  "programId": 1886707,
+  "teamId": 3437308,
+  "teamName": "3 - Bump SET Attack! (Naomi L.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705224,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 17174326,
+      "firstName": "Abby",
+      "isCaptain": false
+    },
+    {
+      "userId": 18714160,
+      "firstName": "Glenn",
+      "isCaptain": false
+    }
+  ]
+}

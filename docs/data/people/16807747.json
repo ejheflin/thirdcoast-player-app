@@ -1,0 +1,24 @@
+{
+  "userId": 16807747,
+  "firstName": "Brian",
+  "appearances": [
+    {
+      "programId": 3715962,
+      "teamId": 6126744,
+      "teamName": "2. Megan L. & Brian C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6372477,
+      "teamName": "6. Megan L. & Brian C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2985415,
+      "teamName": "2 - Dirty Sets (Brian C.)",
+      "isCaptain": true
+    }
+  ]
+}

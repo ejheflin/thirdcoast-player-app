@@ -1,0 +1,18 @@
+{
+  "userId": 16188796,
+  "firstName": "Brandon",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3448207,
+      "teamName": "1 - A team (Brandon B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626899,
+      "teamName": "1 - A Team (Brandon B.)",
+      "isCaptain": true
+    }
+  ]
+}

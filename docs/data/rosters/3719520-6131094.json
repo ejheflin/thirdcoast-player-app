@@ -1,0 +1,27 @@
+{
+  "programId": 3719520,
+  "teamId": 6131094,
+  "teamName": "3. Sandy Cheeks (Lauren K.)",
+  "players": [
+    {
+      "userId": 16237666,
+      "firstName": "Martha",
+      "isCaptain": false
+    },
+    {
+      "userId": 21100726,
+      "firstName": "Arturo",
+      "isCaptain": false
+    },
+    {
+      "userId": 21101914,
+      "firstName": "Lauren",
+      "isCaptain": true
+    },
+    {
+      "userId": 31680339,
+      "firstName": "Hunter",
+      "isCaptain": false
+    }
+  ]
+}

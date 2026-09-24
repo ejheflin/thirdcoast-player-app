@@ -1,0 +1,17 @@
+{
+  "programId": 3968137,
+  "teamId": 6468057,
+  "teamName": "10. Kumar R. & Emiliano T.",
+  "players": [
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707129,
+      "firstName": "Emiliano",
+      "isCaptain": false
+    }
+  ]
+}

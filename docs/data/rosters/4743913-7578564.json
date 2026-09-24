@@ -1,0 +1,32 @@
+{
+  "programId": 4743913,
+  "teamId": 7578564,
+  "teamName": "9. Cowboy Bebump (Catalina P.)",
+  "players": [
+    {
+      "userId": 54268790,
+      "firstName": "Hannah",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267814,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 54222067,
+      "firstName": "Catalina",
+      "isCaptain": true
+    },
+    {
+      "userId": 54267817,
+      "firstName": "Samuel",
+      "isCaptain": false
+    },
+    {
+      "userId": 54319317,
+      "firstName": "chase",
+      "isCaptain": false
+    }
+  ]
+}

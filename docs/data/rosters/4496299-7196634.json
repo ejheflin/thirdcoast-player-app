@@ -1,0 +1,17 @@
+{
+  "programId": 4496299,
+  "teamId": 7196634,
+  "teamName": "6. Sarah U. and Rudy D.",
+  "players": [
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": true
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": false
+    }
+  ]
+}

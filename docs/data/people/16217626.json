@@ -1,0 +1,18 @@
+{
+  "userId": 16217626,
+  "firstName": "Tommy",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6449747,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2985415,
+      "teamName": "2 - Dirty Sets (Brian C.)",
+      "isCaptain": false
+    }
+  ]
+}

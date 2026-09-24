@@ -1,0 +1,78 @@
+{
+  "userId": 45871505,
+  "firstName": "Savannah",
+  "appearances": [
+    {
+      "programId": 4319078,
+      "teamId": 6958875,
+      "teamName": "11. Savannah W. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6845415,
+      "teamName": "10. Savannah W. & Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7197943,
+      "teamName": "9. Savannah W. and Phil A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6567344,
+      "teamName": "8. Savannah W. & Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6693440,
+      "teamName": "10. Savannah W. & Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7339593,
+      "teamName": "8. Yanni S. and Savannah W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7188953,
+      "teamName": "8. Yanni S. and Savannah W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7014664,
+      "teamName": "9. Savannah W. and Ali M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288379,
+      "teamId": 6910453,
+      "teamName": "3. Savannah W. and Ali M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6820184,
+      "teamName": "9. Savannah W. & Ali M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6712980,
+      "teamName": "7. Savannah W. & Ali M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031663,
+      "teamId": 6547031,
+      "teamName": "7. Molly J. & Savannah W.",
+      "isCaptain": false
+    }
+  ]
+}

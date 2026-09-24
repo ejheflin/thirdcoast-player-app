@@ -1,0 +1,48 @@
+{
+  "userId": 29576433,
+  "firstName": "Joe",
+  "appearances": [
+    {
+      "programId": 4220824,
+      "teamId": 6813523,
+      "teamName": "4. Emily R. & Joe M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689123,
+      "teamName": "1. Courtney H. & Joe M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6545576,
+      "teamName": "8. Emily R. & Joe M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6392942,
+      "teamName": "8. Alyssa M. & Joe M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7342225,
+      "teamName": "7. Texas Tigers (Joe M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7443622,
+      "teamName": "8. Texas Tigers (Joe M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7251606,
+      "teamName": "10. Texas Tigers (Joe M.)",
+      "isCaptain": true
+    }
+  ]
+}

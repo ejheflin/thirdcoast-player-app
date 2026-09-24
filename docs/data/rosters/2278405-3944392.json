@@ -1,0 +1,37 @@
+{
+  "programId": 2278405,
+  "teamId": 3944392,
+  "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+  "players": [
+    {
+      "userId": 18449212,
+      "firstName": "Gabriel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681509,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 23846128,
+      "firstName": "Ry",
+      "isCaptain": false
+    },
+    {
+      "userId": 23853106,
+      "firstName": "Morgan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681581,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681506,
+      "firstName": "Lyndon",
+      "isCaptain": true
+    }
+  ]
+}

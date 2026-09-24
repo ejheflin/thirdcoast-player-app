@@ -1,0 +1,17 @@
+{
+  "programId": 3957863,
+  "teamId": 6444098,
+  "teamName": "7. Susan P. & Dani D.",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 21125752,
+      "firstName": "Susan",
+      "isCaptain": true
+    }
+  ]
+}

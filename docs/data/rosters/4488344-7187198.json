@@ -1,0 +1,17 @@
+{
+  "programId": 4488344,
+  "teamId": 7187198,
+  "teamName": "1. Zach B. and Mikhail B.",
+  "players": [
+    {
+      "userId": 50949180,
+      "firstName": "Zach",
+      "isCaptain": true
+    },
+    {
+      "userId": 38401346,
+      "firstName": "Mikhail",
+      "isCaptain": false
+    }
+  ]
+}

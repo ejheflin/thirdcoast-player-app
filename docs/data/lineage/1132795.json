@@ -1,0 +1,173 @@
+{
+  "programId": 1132795,
+  "teams": {
+    "2382925": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2382925,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "1 - Blake C. & Matt D.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 15,
+          "ties": 1
+        }
+      ]
+    },
+    "2383240": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2383240,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "3 - Daniel A. & Michael G.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "2383489": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2383489,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "7 - Johnny W. & Michael G.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "2384722": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2384722,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "8 - Adam H. & Roger M.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "2394847": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2394847,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "6 - Ryan R. & Charlie B.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "2397481": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2397481,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "2 - Walid E. & Matt Fe.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "2399836": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2399836,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "4 - Scott S. & Chris H.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "2399848": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1132795,
+          "teamId": 2399848,
+          "programName": "Wednesday Mens 2s AA",
+          "teamName": "5 - Bill K. & Trung H.",
+          "endDate": 1563940800000,
+          "level": "AA",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

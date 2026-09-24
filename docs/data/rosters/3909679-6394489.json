@@ -1,0 +1,27 @@
+{
+  "programId": 3909679,
+  "teamId": 6394489,
+  "teamName": "12. Calm your tips (Emma P.)",
+  "players": [
+    {
+      "userId": 14769280,
+      "firstName": "Claire",
+      "isCaptain": false
+    },
+    {
+      "userId": 22195213,
+      "firstName": "Sam",
+      "isCaptain": false
+    },
+    {
+      "userId": 37962335,
+      "firstName": "Emma",
+      "isCaptain": true
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "userId": 39404268,
+  "firstName": "Stephen",
+  "appearances": [
+    {
+      "programId": 3981226,
+      "teamId": 6481649,
+      "teamName": "3. Alyssa M. & Stephen J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6450856,
+      "teamName": "5. We Dig You (Stephen J.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6382593,
+      "teamName": "7. We Dig You (Stephen J.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6128973,
+      "teamName": "3. We Dig You (Lauren M.)",
+      "isCaptain": true
+    }
+  ]
+}

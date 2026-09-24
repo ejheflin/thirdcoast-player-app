@@ -7,6 +7,12 @@
       "teamId": 8042907,
       "teamName": "9. Brooke F. and Travis T.",
       "isCaptain": true
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7760672,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
     }
   ]
 }

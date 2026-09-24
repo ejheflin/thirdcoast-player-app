@@ -1,0 +1,37 @@
+{
+  "programId": 4222041,
+  "teamId": 6816519,
+  "teamName": "3. Net Ninjas (Nathan W.)",
+  "players": [
+    {
+      "userId": 48900906,
+      "firstName": "Savanna",
+      "isCaptain": false
+    },
+    {
+      "userId": 45904784,
+      "firstName": "Ian",
+      "isCaptain": false
+    },
+    {
+      "userId": 45904629,
+      "firstName": "Ben",
+      "isCaptain": false
+    },
+    {
+      "userId": 45904660,
+      "firstName": "Mackenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 48897976,
+      "firstName": "Luke",
+      "isCaptain": false
+    },
+    {
+      "userId": 45904445,
+      "firstName": "Nathan",
+      "isCaptain": true
+    }
+  ]
+}

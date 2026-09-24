@@ -7,6 +7,24 @@
       "teamId": 8038721,
       "teamName": "10. Randy J. and Hector T.",
       "isCaptain": true
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3460474,
+      "teamName": "7 - Hits Don't Lie (Dawn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3710554,
+      "teamName": "8 - SKG Arsenal (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3263737,
+      "teamName": "5 - Hits Don't Lie (Dawn M.)",
+      "isCaptain": false
     }
   ]
 }

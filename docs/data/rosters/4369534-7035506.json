@@ -1,0 +1,17 @@
+{
+  "programId": 4369534,
+  "teamId": 7035506,
+  "teamName": "2. Tara C. and Aatir A.",
+  "players": [
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 25333303,
+      "firstName": "Tara",
+      "isCaptain": false
+    }
+  ]
+}

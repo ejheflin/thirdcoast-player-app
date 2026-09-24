@@ -1,0 +1,17 @@
+{
+  "programId": 4031663,
+  "teamId": 6545914,
+  "teamName": "3. Susan P. & Beth B.",
+  "players": [
+    {
+      "userId": 14662834,
+      "firstName": "Beth",
+      "isCaptain": true
+    },
+    {
+      "userId": 21125752,
+      "firstName": "Susan",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "programId": 3716070,
+  "teams": {
+    "6126702": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126702,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "7. Macey C. & Branden B.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "6126705": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126705,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "8. Travis B. & Kim M.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "6126714": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126714,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "5. Caroline J. & Mark J.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "6126720": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126720,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "1. Gabriela C. & Erik H.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "6126741": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126741,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "6. Megan E. & Rudy D.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 6,
+          "ties": 9
+        }
+      ]
+    },
+    "6126756": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126756,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "3. Liz C. & Josman R.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "6162747": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6162747,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "2. Julia W. & Jon N.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "6165111": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6165111,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "4. Jess L. & Edwin F.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 1,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

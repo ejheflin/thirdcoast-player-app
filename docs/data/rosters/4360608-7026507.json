@@ -1,0 +1,17 @@
+{
+  "programId": 4360608,
+  "teamId": 7026507,
+  "teamName": "4. Emily R. and Son T.",
+  "players": [
+    {
+      "userId": 17299171,
+      "firstName": "Emily",
+      "isCaptain": true
+    },
+    {
+      "userId": 15220915,
+      "firstName": "Son",
+      "isCaptain": false
+    }
+  ]
+}

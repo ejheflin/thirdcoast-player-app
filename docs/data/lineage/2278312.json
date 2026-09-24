@@ -1,0 +1,173 @@
+{
+  "programId": 2278312,
+  "teams": {
+    "3929008": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3929008,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2 - Can You Dig It? (Marc S.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "3944353": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3944353,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1 - Beach Bunnies (Jimmy R.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "3945019": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3945019,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3 - FourPlay (Benjamin T.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "3947608": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3947608,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "8 - Can't Keep Score (Joy R.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "3947803": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3947803,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4 - Size Matters (Matt K.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "3949834": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3949834,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5 - Two Claw Minimum (Jaimie G.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        }
+      ]
+    },
+    "3950542": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3950542,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6 - Who Netted (Evan R.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3953704": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278312,
+          "teamId": 3953704,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "7 - Bumpin' Uglies (Jeffrey S.)",
+          "endDate": 1626148800000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 11,
+          "ties": 2
+        }
+      ]
+    }
+  }
+}

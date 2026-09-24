@@ -13,6 +13,48 @@
       "teamId": 8167966,
       "teamName": "10. Kat H. and Julia V.",
       "isCaptain": false
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7200279,
+      "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7052093,
+      "teamName": "7. Flyballers Shot Callers (Ashleigh P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7350509,
+      "teamName": "5. SCDR’s (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7229856,
+      "teamName": "6. H-Town HardHitters (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7428574,
+      "teamName": "3. Ivy C. and Julia V.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7762009,
+      "teamName": "9. Lindsay K. and Julia V.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7562494,
+      "teamName": "2. Ivy C. and Julia V.",
+      "isCaptain": false
     }
   ]
 }

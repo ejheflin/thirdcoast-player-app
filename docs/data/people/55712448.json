@@ -1,0 +1,18 @@
+{
+  "userId": 55712448,
+  "firstName": "Lily",
+  "appearances": [
+    {
+      "programId": 4975325,
+      "teamId": 7911631,
+      "teamName": "2. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872969,
+      "teamId": 7803988,
+      "teamName": "7. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    }
+  ]
+}

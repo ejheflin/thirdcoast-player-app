@@ -1,0 +1,32 @@
+{
+  "programId": 3430566,
+  "teamId": 5699778,
+  "teamName": "1. Getting It In (Ryan D.)",
+  "players": [
+    {
+      "userId": 21326962,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 35135497,
+      "firstName": "Crystal",
+      "isCaptain": false
+    },
+    {
+      "userId": 39284871,
+      "firstName": "McKenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 22396837,
+      "firstName": "Ryan",
+      "isCaptain": true
+    },
+    {
+      "userId": 35135665,
+      "firstName": "Ashleigh",
+      "isCaptain": false
+    }
+  ]
+}

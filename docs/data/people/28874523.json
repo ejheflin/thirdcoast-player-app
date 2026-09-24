@@ -1,0 +1,36 @@
+{
+  "userId": 28874523,
+  "firstName": "Nick",
+  "appearances": [
+    {
+      "programId": 4288354,
+      "teamId": 6915327,
+      "teamName": "4. Los Trio Frios (Jacob W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549758,
+      "teamName": "6. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6451602,
+      "teamName": "2. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6126780,
+      "teamName": "4. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6382692,
+      "teamName": "5. Flat Balls (Abby T.)",
+      "isCaptain": false
+    }
+  ]
+}

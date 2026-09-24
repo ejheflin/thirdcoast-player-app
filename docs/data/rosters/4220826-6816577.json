@@ -1,0 +1,22 @@
+{
+  "programId": 4220826,
+  "teamId": 6816577,
+  "teamName": "9. Key Bumps (Harley G.)",
+  "players": [
+    {
+      "userId": 45440198,
+      "firstName": "Harley",
+      "isCaptain": true
+    },
+    {
+      "userId": 45440228,
+      "firstName": "Kristin",
+      "isCaptain": false
+    },
+    {
+      "userId": 47870254,
+      "firstName": "William",
+      "isCaptain": false
+    }
+  ]
+}

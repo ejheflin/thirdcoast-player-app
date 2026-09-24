@@ -1,0 +1,17 @@
+{
+  "programId": 4976995,
+  "teamId": 7906530,
+  "teamName": "3. Jo P. and Leo Y.",
+  "players": [
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    },
+    {
+      "userId": 14709559,
+      "firstName": "Leo",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "userId": 47911541,
+  "firstName": "Alex",
+  "appearances": [
+    {
+      "programId": 4288373,
+      "teamId": 6914377,
+      "teamName": "4. Carolina Beach Bumpers (Ashton M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362285,
+      "teamId": 7028181,
+      "teamName": "3. Carolina Beach Bumpers (Ashton M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6816360,
+      "teamName": "10. Carolina Beach Bumpers (Ashton M.)",
+      "isCaptain": false
+    }
+  ]
+}

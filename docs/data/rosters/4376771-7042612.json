@@ -1,0 +1,17 @@
+{
+  "programId": 4376771,
+  "teamId": 7042612,
+  "teamName": "9. Rudy D. and Zach P.",
+  "players": [
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": true
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    }
+  ]
+}

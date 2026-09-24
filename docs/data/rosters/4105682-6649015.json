@@ -1,0 +1,27 @@
+{
+  "programId": 4105682,
+  "teamId": 6649015,
+  "teamName": "6. Wednesday Winter Warriors Will Win (Curtis J.)",
+  "players": [
+    {
+      "userId": 46001700,
+      "firstName": "Kyndal",
+      "isCaptain": false
+    },
+    {
+      "userId": 16391512,
+      "firstName": "Curtis",
+      "isCaptain": true
+    },
+    {
+      "userId": 17312980,
+      "firstName": "Clark",
+      "isCaptain": false
+    },
+    {
+      "userId": 46631393,
+      "firstName": "Bracken",
+      "isCaptain": false
+    }
+  ]
+}

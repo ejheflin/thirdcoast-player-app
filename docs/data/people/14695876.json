@@ -1,0 +1,30 @@
+{
+  "userId": 14695876,
+  "firstName": "Megan",
+  "appearances": [
+    {
+      "programId": 3903855,
+      "teamId": 6374081,
+      "teamName": "7. Megan E. & Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6449176,
+      "teamName": "5. Megan E. & Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6550347,
+      "teamName": "6. Megan E. & Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6126741,
+      "teamName": "6. Megan E. & Rudy D.",
+      "isCaptain": true
+    }
+  ]
+}

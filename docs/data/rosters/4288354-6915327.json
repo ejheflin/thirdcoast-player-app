@@ -1,0 +1,22 @@
+{
+  "programId": 4288354,
+  "teamId": 6915327,
+  "teamName": "4. Los Trio Frios (Jacob W.)",
+  "players": [
+    {
+      "userId": 39574563,
+      "firstName": "Kylee",
+      "isCaptain": false
+    },
+    {
+      "userId": 28874523,
+      "firstName": "Nick",
+      "isCaptain": false
+    },
+    {
+      "userId": 35367179,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

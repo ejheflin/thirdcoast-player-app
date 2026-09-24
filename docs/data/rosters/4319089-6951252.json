@@ -1,0 +1,27 @@
+{
+  "programId": 4319089,
+  "teamId": 6951252,
+  "teamName": "9. Trust Me, It Was Out! (Curtis J.)",
+  "players": [
+    {
+      "userId": 44249011,
+      "firstName": "Josh",
+      "isCaptain": false
+    },
+    {
+      "userId": 16391512,
+      "firstName": "Curtis",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126689,
+      "firstName": "Raj",
+      "isCaptain": false
+    },
+    {
+      "userId": 20029030,
+      "firstName": "Haley",
+      "isCaptain": false
+    }
+  ]
+}

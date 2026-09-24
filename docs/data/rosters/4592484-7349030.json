@@ -1,0 +1,17 @@
+{
+  "programId": 4592484,
+  "teamId": 7349030,
+  "teamName": "7. Cabrina B. and Matt B.",
+  "players": [
+    {
+      "userId": 23969914,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 35200222,
+      "firstName": "Cabrina",
+      "isCaptain": false
+    }
+  ]
+}

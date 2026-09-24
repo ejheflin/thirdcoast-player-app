@@ -19,6 +19,66 @@
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4589133,
+      "teamId": 7345154,
+      "teamName": "7. Bumpin Uglies (Luke S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7185437,
+      "teamName": "5. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7021104,
+      "teamName": "10. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6911245,
+      "teamName": "8. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7350776,
+      "teamName": "5. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7758023,
+      "teamName": "3. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7446069,
+      "teamName": "7. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7912509,
+      "teamName": "3. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7582397,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7925296,
+      "teamName": "11. Nathan G. and Zach B.",
+      "isCaptain": false
     }
   ]
 }

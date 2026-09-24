@@ -1,0 +1,17 @@
+{
+  "programId": 4319084,
+  "teamId": 6954538,
+  "teamName": "11. Cabrina B. and Philip A.",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 35200222,
+      "firstName": "Cabrina",
+      "isCaptain": false
+    }
+  ]
+}

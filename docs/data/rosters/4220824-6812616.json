@@ -1,0 +1,17 @@
+{
+  "programId": 4220824,
+  "teamId": 6812616,
+  "teamName": "6. Sydney Z. & Kumar R.",
+  "players": [
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": true
+    },
+    {
+      "userId": 46867934,
+      "firstName": "Sydney",
+      "isCaptain": false
+    }
+  ]
+}

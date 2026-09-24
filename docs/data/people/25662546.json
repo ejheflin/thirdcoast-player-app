@@ -1,0 +1,18 @@
+{
+  "userId": 25662546,
+  "firstName": "Christina",
+  "appearances": [
+    {
+      "programId": 3903869,
+      "teamId": 6375898,
+      "teamName": "3. Ricky’s Tricks (John K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6454747,
+      "teamName": "6. Ricky’s Tricks (John K.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4488152,
+  "teamId": 7190020,
+  "teamName": "5. Dani D. and Shelby G.",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": true
+    },
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": false
+    }
+  ]
+}

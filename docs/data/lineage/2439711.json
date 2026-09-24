@@ -1,0 +1,173 @@
+{
+  "programId": 2439711,
+  "teams": {
+    "4175340": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4175340,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "3 - Ryan C. & Rudy D.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 10,
+          "ties": 3
+        }
+      ]
+    },
+    "4176513": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4176513,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "1 - Mike B. & Stefan W.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "4178433": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4178433,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "4 - Jaimie G. & Fredo E.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "4178634": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4178634,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "2 - David D. & Ed F.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "4179630": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4179630,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "5 - James N. & Son T.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "4180620": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4180620,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "6 - Johnny W. & Michael G.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "4183929": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4183929,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "7 - Riley F. & Matt S.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "4187181": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2439711,
+          "teamId": 4187181,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "8 - Riley W. & Ross N.",
+          "endDate": 1631073600000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 3,
+          "ties": 1
+        }
+      ]
+    }
+  }
+}

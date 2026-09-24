@@ -1,0 +1,27 @@
+{
+  "programId": 3957861,
+  "teamId": 6459047,
+  "teamName": "10. Team Jacob (Mark J.)",
+  "players": [
+    {
+      "userId": 48775506,
+      "firstName": "Austin",
+      "isCaptain": false
+    },
+    {
+      "userId": 22297144,
+      "firstName": "Caroline",
+      "isCaptain": false
+    },
+    {
+      "userId": 45205073,
+      "firstName": "Grace",
+      "isCaptain": false
+    },
+    {
+      "userId": 23555404,
+      "firstName": "Mark",
+      "isCaptain": true
+    }
+  ]
+}

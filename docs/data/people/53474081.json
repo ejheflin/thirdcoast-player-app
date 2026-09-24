@@ -7,6 +7,24 @@
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7774995,
+      "teamName": "1. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7433456,
+      "teamName": "3. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7900996,
+      "teamName": "8. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
     }
   ]
 }

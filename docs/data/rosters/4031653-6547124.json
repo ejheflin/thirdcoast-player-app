@@ -1,0 +1,27 @@
+{
+  "programId": 4031653,
+  "teamId": 6547124,
+  "teamName": "3. Formation Alpha (Connor K.)",
+  "players": [
+    {
+      "userId": 45888381,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 45223676,
+      "firstName": "Connor",
+      "isCaptain": true
+    },
+    {
+      "userId": 44414241,
+      "firstName": "Odette",
+      "isCaptain": false
+    },
+    {
+      "userId": 45875276,
+      "firstName": "Belen",
+      "isCaptain": false
+    }
+  ]
+}

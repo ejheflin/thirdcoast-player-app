@@ -1,0 +1,17 @@
+{
+  "programId": 3719715,
+  "teamId": 6143493,
+  "teamName": "7. Hannah S. & Matt G.",
+  "players": [
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 14605693,
+      "firstName": "Hannah",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "userId": 14625931,
+  "firstName": "Benjamin",
+  "appearances": [
+    {
+      "programId": 4031649,
+      "teamId": 6557269,
+      "teamName": "2. Brie S. & Ben T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6456179,
+      "teamName": "9. The Monday Blues (Benjamin T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6380870,
+      "teamName": "8. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6454892,
+      "teamName": "8. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6924583,
+      "teamName": "7. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823787,
+      "teamName": "7. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550230,
+      "teamName": "7. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6133749,
+      "teamName": "7. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    }
+  ]
+}

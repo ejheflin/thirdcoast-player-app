@@ -1,0 +1,17 @@
+{
+  "programId": 4045339,
+  "teamId": 6562044,
+  "teamName": "1. Alyssa M. & Beau B.",
+  "players": [
+    {
+      "userId": 46019625,
+      "firstName": "Beau",
+      "isCaptain": false
+    },
+    {
+      "userId": 39390141,
+      "firstName": "Alyssa",
+      "isCaptain": true
+    }
+  ]
+}

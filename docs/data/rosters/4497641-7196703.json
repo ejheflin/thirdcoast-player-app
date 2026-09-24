@@ -1,0 +1,22 @@
+{
+  "programId": 4497641,
+  "teamId": 7196703,
+  "teamName": "5. Volley Llamas (Jamie D.)",
+  "players": [
+    {
+      "userId": 14641990,
+      "firstName": "Jamie",
+      "isCaptain": true
+    },
+    {
+      "userId": 51016581,
+      "firstName": "Carl",
+      "isCaptain": false
+    },
+    {
+      "userId": 14647747,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    }
+  ]
+}

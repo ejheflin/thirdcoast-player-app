@@ -1,0 +1,36 @@
+{
+  "userId": 25660995,
+  "firstName": "John",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6548934,
+      "teamName": "8. Ricky’s Tricks (Ricky S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6715115,
+      "teamName": "8. Prosthesiotape (John K.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6375898,
+      "teamName": "3. Ricky’s Tricks (John K.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6454747,
+      "teamName": "6. Ricky’s Tricks (John K.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6153099,
+      "teamName": "4. Ricky's Tricks (John K.)",
+      "isCaptain": true
+    }
+  ]
+}

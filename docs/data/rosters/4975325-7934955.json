@@ -1,0 +1,32 @@
+{
+  "programId": 4975325,
+  "teamId": 7934955,
+  "teamName": "8. Bad Hombres (Jaimie M.)",
+  "players": [
+    {
+      "userId": 56702804,
+      "firstName": "Marcos",
+      "isCaptain": false
+    },
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 56679920,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 56702771,
+      "firstName": "Cristian",
+      "isCaptain": false
+    },
+    {
+      "userId": 57699710,
+      "firstName": "Sebastian",
+      "isCaptain": false
+    }
+  ]
+}

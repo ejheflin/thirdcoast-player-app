@@ -1,0 +1,18 @@
+{
+  "userId": 27989439,
+  "firstName": "Shelbi",
+  "appearances": [
+    {
+      "programId": 4031655,
+      "teamId": 6549020,
+      "teamName": "4. Swag in a bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6380810,
+      "teamName": "4. Indoor Ballers Turned Beach Junkies (Michael R.)",
+      "isCaptain": false
+    }
+  ]
+}

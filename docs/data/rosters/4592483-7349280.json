@@ -1,0 +1,17 @@
+{
+  "programId": 4592483,
+  "teamId": 7349280,
+  "teamName": "7. Krissy B. and Mason S.",
+  "players": [
+    {
+      "userId": 52238200,
+      "firstName": "Mason",
+      "isCaptain": false
+    },
+    {
+      "userId": 52185013,
+      "firstName": "krissy",
+      "isCaptain": true
+    }
+  ]
+}

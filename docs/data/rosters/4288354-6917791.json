@@ -1,0 +1,22 @@
+{
+  "programId": 4288354,
+  "teamId": 6917791,
+  "teamName": "9. Tres locos (Hector T.)",
+  "players": [
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": false
+    },
+    {
+      "userId": 35072617,
+      "firstName": "Hector",
+      "isCaptain": true
+    },
+    {
+      "userId": 31056663,
+      "firstName": "Elena",
+      "isCaptain": false
+    }
+  ]
+}

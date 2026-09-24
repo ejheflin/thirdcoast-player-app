@@ -1,0 +1,32 @@
+{
+  "programId": 3719592,
+  "teamId": 6166983,
+  "teamName": "9. Milk & Cookies (Sam E.)",
+  "players": [
+    {
+      "userId": 22195213,
+      "firstName": "Sam",
+      "isCaptain": true
+    },
+    {
+      "userId": 14809633,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 42557619,
+      "firstName": "Evan",
+      "isCaptain": false
+    },
+    {
+      "userId": 42568275,
+      "firstName": "Jade",
+      "isCaptain": false
+    },
+    {
+      "userId": 44129043,
+      "firstName": "Sirena",
+      "isCaptain": false
+    }
+  ]
+}

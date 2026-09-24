@@ -1,0 +1,17 @@
+{
+  "programId": 4589132,
+  "teamId": 7336171,
+  "teamName": "3. Abi J. and Jon N.",
+  "players": [
+    {
+      "userId": 51244394,
+      "firstName": "Abigail",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

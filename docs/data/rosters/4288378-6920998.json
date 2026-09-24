@@ -1,0 +1,27 @@
+{
+  "programId": 4288378,
+  "teamId": 6920998,
+  "teamName": "8. Balls Deep (Aatir A.)",
+  "players": [
+    {
+      "userId": 35050870,
+      "firstName": "Kristofer",
+      "isCaptain": false
+    },
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 45825411,
+      "firstName": "Valaya",
+      "isCaptain": false
+    },
+    {
+      "userId": 35031907,
+      "firstName": "Zee",
+      "isCaptain": false
+    }
+  ]
+}

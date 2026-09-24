@@ -1,0 +1,42 @@
+{
+  "programId": 4105682,
+  "teamId": 6657165,
+  "teamName": "2. HAVOC (Lola H.)",
+  "players": [
+    {
+      "userId": 46628553,
+      "firstName": "Juan",
+      "isCaptain": false
+    },
+    {
+      "userId": 46627282,
+      "firstName": "Cristofer",
+      "isCaptain": false
+    },
+    {
+      "userId": 46623269,
+      "firstName": "Lola",
+      "isCaptain": true
+    },
+    {
+      "userId": 42600069,
+      "firstName": "Samanda",
+      "isCaptain": false
+    },
+    {
+      "userId": 46659312,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 45983256,
+      "firstName": "Jalile",
+      "isCaptain": false
+    },
+    {
+      "userId": 46628031,
+      "firstName": "kellye",
+      "isCaptain": false
+    }
+  ]
+}

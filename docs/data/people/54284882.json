@@ -7,6 +7,24 @@
       "teamId": 8159435,
       "teamName": "10. 50/50 (Oscar G.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4967494,
+      "teamId": 7914623,
+      "teamName": "8. Beach Bums (Uilvim F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7772680,
+      "teamName": "5. Bump. set, dammit! (Michael G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7564073,
+      "teamName": "1. Bump, set, dammit! (Michael G.)",
+      "isCaptain": false
     }
   ]
 }

@@ -13,6 +13,90 @@
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
       "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6393238,
+      "teamName": "6. Julia D. & Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196691,
+      "teamName": "10. Julia D. and Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6482906,
+      "teamName": "3. Julia D. & Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6565415,
+      "teamName": "12. Julia D. & Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6845197,
+      "teamName": "8. Jo P. & Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6447843,
+      "teamName": "1. Jeff's Team (Jeff S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7220715,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7025405,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6380152,
+      "teamName": "3. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6140196,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6468057,
+      "teamName": "10. Kumar R. & Emiliano T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6157131,
+      "teamName": "11. Emiliano T. & Kumar R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7447590,
+      "teamName": "11. Alex D. and Emiliano T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6392268,
+      "teamName": "8. Kumar R. & Emiliano T.",
+      "isCaptain": false
     }
   ]
 }

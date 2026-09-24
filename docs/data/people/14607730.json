@@ -1,0 +1,30 @@
+{
+  "userId": 14607730,
+  "firstName": "Marshall",
+  "appearances": [
+    {
+      "programId": 3904327,
+      "teamId": 6382623,
+      "teamName": "4. Team Name (Marshall C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6126786,
+      "teamName": "1. Gabby & The Boyz (Marshall C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6126777,
+      "teamName": "4. Marshall C. & Scott R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6382624,
+      "teamName": "12. Marshall C. & Caleb B.",
+      "isCaptain": true
+    }
+  ]
+}

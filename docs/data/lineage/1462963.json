@@ -1,0 +1,173 @@
+{
+  "programId": 1462963,
+  "teams": {
+    "2893510": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2893510,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - Nice Ace (Jaimie G.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 6,
+          "ties": 0
+        }
+      ]
+    },
+    "2895430": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2895430,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - Big Digs (Mike B.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 0,
+          "ties": 3
+        }
+      ]
+    },
+    "2910436": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2910436,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Ooh... A Piece Of Candy! (Terry V.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 5,
+          "ties": 1
+        }
+      ]
+    },
+    "2928715": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2928715,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Arsenal Gunners (David T.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "2929531": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2929531,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - ROVB (Tom K.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "2962528": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2962528,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Settin Pretty (Elizabeth A.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "2964988": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 2964988,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - Big Tipper$ (Ivan M.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 3,
+          "ties": 1
+        }
+      ]
+    },
+    "3194644": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462963,
+          "teamId": 3194644,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "Sets on the Beach (Evan R.)",
+          "endDate": 1588046400000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 1,
+          "ties": 1
+        }
+      ]
+    }
+  }
+}

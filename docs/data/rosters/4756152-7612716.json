@@ -1,0 +1,22 @@
+{
+  "programId": 4756152,
+  "teamId": 7612716,
+  "teamName": "10. Third Wheel (Kim C.)",
+  "players": [
+    {
+      "userId": 54689724,
+      "firstName": "Jackson",
+      "isCaptain": false
+    },
+    {
+      "userId": 54456743,
+      "firstName": "Kim",
+      "isCaptain": true
+    },
+    {
+      "userId": 54678866,
+      "firstName": "Ran",
+      "isCaptain": false
+    }
+  ]
+}

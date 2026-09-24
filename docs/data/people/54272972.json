@@ -1,0 +1,18 @@
+{
+  "userId": 54272972,
+  "firstName": "Saige",
+  "appearances": [
+    {
+      "programId": 4752513,
+      "teamId": 7588884,
+      "teamName": "6. Nothing But Tape! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7574801,
+      "teamName": "3. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    }
+  ]
+}

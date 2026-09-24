@@ -1,0 +1,17 @@
+{
+  "programId": 4031651,
+  "teamId": 6548646,
+  "teamName": "12. Alexis T. & Tyler J.",
+  "players": [
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126086,
+      "firstName": "Alexis",
+      "isCaptain": false
+    }
+  ]
+}

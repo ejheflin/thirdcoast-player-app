@@ -1,0 +1,27 @@
+{
+  "programId": 4105682,
+  "teamId": 6658719,
+  "teamName": "3. Setting Ducks (Glenn S.)",
+  "players": [
+    {
+      "userId": 46632842,
+      "firstName": "Zachary",
+      "isCaptain": false
+    },
+    {
+      "userId": 42535980,
+      "firstName": "Osalodion",
+      "isCaptain": false
+    },
+    {
+      "userId": 46632823,
+      "firstName": "Paige",
+      "isCaptain": false
+    },
+    {
+      "userId": 46632146,
+      "firstName": "Glenn",
+      "isCaptain": true
+    }
+  ]
+}

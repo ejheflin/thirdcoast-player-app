@@ -1,0 +1,27 @@
+{
+  "programId": 3114541,
+  "teamId": 5219890,
+  "teamName": "9 - On Your Knees (Aatir A.)",
+  "players": [
+    {
+      "userId": 35050870,
+      "firstName": "Kristofer",
+      "isCaptain": false
+    },
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 35095630,
+      "firstName": "Courtney",
+      "isCaptain": false
+    },
+    {
+      "userId": 35031907,
+      "firstName": "Zee",
+      "isCaptain": false
+    }
+  ]
+}

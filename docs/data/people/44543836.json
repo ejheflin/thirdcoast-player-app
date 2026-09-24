@@ -1,0 +1,18 @@
+{
+  "userId": 44543836,
+  "firstName": "Kevin",
+  "appearances": [
+    {
+      "programId": 3909679,
+      "teamId": 6389276,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6701777,
+      "teamName": "2. Just Get the Ball (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

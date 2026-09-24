@@ -1,0 +1,27 @@
+{
+  "programId": 4488296,
+  "teamId": 7208841,
+  "teamName": "7. That’s What She Set (Megan C.)",
+  "players": [
+    {
+      "userId": 47340236,
+      "firstName": "Christian",
+      "isCaptain": false
+    },
+    {
+      "userId": 15654655,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 47137459,
+      "firstName": "Megan",
+      "isCaptain": true
+    },
+    {
+      "userId": 49818955,
+      "firstName": "Gordon",
+      "isCaptain": false
+    }
+  ]
+}

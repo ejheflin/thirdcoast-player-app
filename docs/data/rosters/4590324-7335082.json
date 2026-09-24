@@ -1,0 +1,17 @@
+{
+  "programId": 4590324,
+  "teamId": 7335082,
+  "teamName": "7. Olivia J. and Savka P.",
+  "players": [
+    {
+      "userId": 14657521,
+      "firstName": "Olivia",
+      "isCaptain": true
+    },
+    {
+      "userId": 52118408,
+      "firstName": "Savka",
+      "isCaptain": false
+    }
+  ]
+}

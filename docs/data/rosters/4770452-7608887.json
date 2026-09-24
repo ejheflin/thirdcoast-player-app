@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7608887,
+  "teamName": "8. Hannah S. and Francisco S.",
+  "players": [
+    {
+      "userId": 14605693,
+      "firstName": "Hannah",
+      "isCaptain": true
+    },
+    {
+      "userId": 54428167,
+      "firstName": "Francisco",
+      "isCaptain": false
+    }
+  ]
+}

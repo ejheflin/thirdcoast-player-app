@@ -1,0 +1,27 @@
+{
+  "programId": 3719532,
+  "teamId": 6144195,
+  "teamName": "3. How I Set Your Mother (Ivan M.)",
+  "players": [
+    {
+      "userId": 23969914,
+      "firstName": "Matt",
+      "isCaptain": false
+    },
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14692090,
+      "firstName": "Ivan",
+      "isCaptain": true
+    },
+    {
+      "userId": 42379794,
+      "firstName": "Lexi",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 4288354,
+  "teamId": 6917537,
+  "teamName": "8. Diggin’ Divas (Sarah U.)",
+  "players": [
+    {
+      "userId": 46596799,
+      "firstName": "Clay",
+      "isCaptain": false
+    },
+    {
+      "userId": 14677072,
+      "firstName": "Ricky",
+      "isCaptain": false
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "programId": 1734346,
+  "teams": {
+    "3255091": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3255091,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "4 - Life's a Beach (Clark P.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 9,
+          "wins": 1,
+          "losses": 3,
+          "ties": 10
+        }
+      ]
+    },
+    "3258217": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3258217,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "1 - 3C Whiskey Social Club (Jaimie G.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 9,
+          "wins": 12,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "3260629": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3260629,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "5 - Zombies (Brad F.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 9,
+          "wins": 3,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "3260635": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3260635,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "3 - Hustle Gang (Calvin D.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 9,
+          "wins": 4,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "3261361": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3261361,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "2 - Flyballers Shotcallers (Albert F.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 9,
+          "wins": 1,
+          "losses": 5,
+          "ties": 8
+        }
+      ]
+    },
+    "3270766": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3270766,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "7 - Block Market (Sean M.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 9,
+          "wins": 4,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "3275209": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3275209,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "6 - Arsenal Gunners (David T.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 9,
+          "wins": 4,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "3277882": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3277882,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "8 - Island of Misfit Players (Tim S.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 9,
+          "wins": 3,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "3286846": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734346,
+          "teamId": 3286846,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "9 - The Rhodeys (Dylan H.)",
+          "endDate": 1600920000000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 9,
+          "wins": 0,
+          "losses": 9,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

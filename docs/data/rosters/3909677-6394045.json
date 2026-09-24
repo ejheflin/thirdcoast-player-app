@@ -1,0 +1,17 @@
+{
+  "programId": 3909677,
+  "teamId": 6394045,
+  "teamName": "11. Cat D. & Jon N.",
+  "players": [
+    {
+      "userId": 44412027,
+      "firstName": "Catherine",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

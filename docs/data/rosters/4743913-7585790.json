@@ -1,0 +1,27 @@
+{
+  "programId": 4743913,
+  "teamId": 7585790,
+  "teamName": "6. Notorious DIG (Connor D.)",
+  "players": [
+    {
+      "userId": 42581307,
+      "firstName": "Connor",
+      "isCaptain": true
+    },
+    {
+      "userId": 39284871,
+      "firstName": "McKenzie",
+      "isCaptain": false
+    },
+    {
+      "userId": 45911158,
+      "firstName": "Weston",
+      "isCaptain": false
+    },
+    {
+      "userId": 51413808,
+      "firstName": "Carlo",
+      "isCaptain": false
+    }
+  ]
+}

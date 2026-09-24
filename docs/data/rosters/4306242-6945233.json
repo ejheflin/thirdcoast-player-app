@@ -1,0 +1,17 @@
+{
+  "programId": 4306242,
+  "teamId": 6945233,
+  "teamName": "9. Mikhail B. and Jeff S.",
+  "players": [
+    {
+      "userId": 38401346,
+      "firstName": "Mikhail",
+      "isCaptain": true
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    }
+  ]
+}

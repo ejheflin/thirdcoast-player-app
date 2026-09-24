@@ -13,6 +13,60 @@
       "teamId": 8138562,
       "teamName": "7. Sarah S. and Jo P.",
       "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6392192,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6954101,
+      "teamName": "7. Sarah H. and Martin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6131679,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483548,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6567414,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6689158,
+      "teamName": "12. Sarah H. & Charlie B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6845656,
+      "teamName": "7. Sarah H. & Austin J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975326,
+      "teamId": 7906527,
+      "teamName": "5. Sarah H. and Jo P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7761990,
+      "teamName": "6. Sarah S. and Jo P.",
+      "isCaptain": false
     }
   ]
 }

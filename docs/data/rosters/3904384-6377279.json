@@ -1,0 +1,27 @@
+{
+  "programId": 3904384,
+  "teamId": 6377279,
+  "teamName": "2. Volley Llamas (Daphne D.)",
+  "players": [
+    {
+      "userId": 14668864,
+      "firstName": "Daphne",
+      "isCaptain": true
+    },
+    {
+      "userId": 14721412,
+      "firstName": "Joshua",
+      "isCaptain": false
+    },
+    {
+      "userId": 14672281,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 14930086,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

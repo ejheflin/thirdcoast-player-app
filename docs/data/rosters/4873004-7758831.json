@@ -1,0 +1,17 @@
+{
+  "programId": 4873004,
+  "teamId": 7758831,
+  "teamName": "10. Holli D. and Alex J.",
+  "players": [
+    {
+      "userId": 45248311,
+      "firstName": "Holli",
+      "isCaptain": true
+    },
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

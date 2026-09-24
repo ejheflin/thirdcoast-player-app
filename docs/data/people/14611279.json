@@ -25,6 +25,168 @@
       "teamId": 8150634,
       "teamName": "6. Tina O. and Elaine L.",
       "isCaptain": true
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6690474,
+      "teamName": "3. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7909233,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7455785,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7041911,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7589618,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7339981,
+      "teamName": "3. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6568251,
+      "teamName": "4. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484244,
+      "teamName": "6. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7759921,
+      "teamName": "2. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196624,
+      "teamName": "2. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6155859,
+      "teamName": "3. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6948342,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6394062,
+      "teamName": "6. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6835152,
+      "teamName": "4. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7334834,
+      "teamName": "6. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7184950,
+      "teamName": "1. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7019636,
+      "teamName": "4. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7428607,
+      "teamName": "6. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288379,
+      "teamId": 6917210,
+      "teamName": "4. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6451687,
+      "teamName": "1. Lisa B. & Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6813228,
+      "teamName": "4. Lisa B. & Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975326,
+      "teamId": 7900525,
+      "teamName": "1. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6689275,
+      "teamName": "1. Lisa B. & Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6372593,
+      "teamName": "1. Lisa B. & Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7761983,
+      "teamName": "1. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7562811,
+      "teamName": "6. Lisa B. and Tina O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6133875,
+      "teamName": "1. Lisa B. & Tina O.",
+      "isCaptain": false
     }
   ]
 }

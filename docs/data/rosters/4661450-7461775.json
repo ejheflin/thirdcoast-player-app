@@ -1,0 +1,17 @@
+{
+  "programId": 4661450,
+  "teamId": 7461775,
+  "teamName": "3. Erin F. and Matt B.",
+  "players": [
+    {
+      "userId": 14645944,
+      "firstName": "Mathieu",
+      "isCaptain": true
+    },
+    {
+      "userId": 52089397,
+      "firstName": "Erin",
+      "isCaptain": false
+    }
+  ]
+}

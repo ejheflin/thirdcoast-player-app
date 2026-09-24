@@ -1,0 +1,27 @@
+{
+  "programId": 3904327,
+  "teamId": 6384891,
+  "teamName": "3. The Hard Digs (Alfredo E.)",
+  "players": [
+    {
+      "userId": 38042141,
+      "firstName": "Brandon",
+      "isCaptain": false
+    },
+    {
+      "userId": 19697446,
+      "firstName": "Alfredo",
+      "isCaptain": true
+    },
+    {
+      "userId": 14658568,
+      "firstName": "Katelyn",
+      "isCaptain": false
+    },
+    {
+      "userId": 17332996,
+      "firstName": "Leandro",
+      "isCaptain": false
+    }
+  ]
+}

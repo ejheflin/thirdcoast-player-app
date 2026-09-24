@@ -13,6 +13,18 @@
       "teamId": 8151238,
       "teamName": "2. Score Check (Julianna T.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7758605,
+      "teamName": "5. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7906943,
+      "teamName": "5. Arsenal Gunners (Julianna T.)",
+      "isCaptain": false
     }
   ]
 }

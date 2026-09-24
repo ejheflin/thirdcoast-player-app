@@ -1,0 +1,18 @@
+{
+  "userId": 49888040,
+  "firstName": "Nia",
+  "appearances": [
+    {
+      "programId": 4488291,
+      "teamId": 7184897,
+      "teamName": "2. Chocolate & Cream Coalition (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7033814,
+      "teamName": "8. Chocolate City (Ryan T.)",
+      "isCaptain": false
+    }
+  ]
+}

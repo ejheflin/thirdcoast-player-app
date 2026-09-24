@@ -1,0 +1,17 @@
+{
+  "programId": 3909677,
+  "teamId": 6381025,
+  "teamName": "4. Ashlee S. & Adolph T.",
+  "players": [
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    },
+    {
+      "userId": 14635723,
+      "firstName": "ashlee",
+      "isCaptain": false
+    }
+  ]
+}

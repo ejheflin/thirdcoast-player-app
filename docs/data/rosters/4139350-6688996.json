@@ -1,0 +1,17 @@
+{
+  "programId": 4139350,
+  "teamId": 6688996,
+  "teamName": "6. Michelle C. & Josman R.",
+  "players": [
+    {
+      "userId": 14589721,
+      "firstName": "Michelle",
+      "isCaptain": true
+    },
+    {
+      "userId": 14681206,
+      "firstName": "Josman",
+      "isCaptain": false
+    }
+  ]
+}

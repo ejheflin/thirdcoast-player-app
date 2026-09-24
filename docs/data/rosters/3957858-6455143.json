@@ -1,0 +1,27 @@
+{
+  "programId": 3957858,
+  "teamId": 6455143,
+  "teamName": "9. Setters of Catan (Albert F.)",
+  "players": [
+    {
+      "userId": 14582476,
+      "firstName": "Albert",
+      "isCaptain": true
+    },
+    {
+      "userId": 34744092,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 14713285,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 29627895,
+      "firstName": "Johnny",
+      "isCaptain": false
+    }
+  ]
+}

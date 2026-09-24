@@ -13,6 +13,72 @@
       "teamId": 8111500,
       "teamName": "2. Jason O. and Dominick W.",
       "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6810606,
+      "teamName": "5. Olivia E. & Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3975600,
+      "teamId": 6463469,
+      "teamName": "6. Cailin P. & Dominick W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7027854,
+      "teamName": "7. Olivia E. and Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288350,
+      "teamId": 6908097,
+      "teamName": "7. Olivia E. and Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7208284,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7340388,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6549634,
+      "teamName": "5. BomBubz (Stefan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6726738,
+      "teamName": "1. BomDubz (Dominick W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6458784,
+      "teamName": "9. BomBubz (Stefan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7757873,
+      "teamName": "9. Jason O. and Dominick W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7903063,
+      "teamName": "1. Jason O. and Dominick W.",
+      "isCaptain": false
     }
   ]
 }

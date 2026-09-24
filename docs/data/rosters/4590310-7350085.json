@@ -1,0 +1,32 @@
+{
+  "programId": 4590310,
+  "teamId": 7350085,
+  "teamName": "4. Hit Men (Cristofer G.)",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 46627282,
+      "firstName": "Cristofer",
+      "isCaptain": true
+    },
+    {
+      "userId": 51159605,
+      "firstName": "Marco",
+      "isCaptain": false
+    },
+    {
+      "userId": 37886413,
+      "firstName": "Courtney",
+      "isCaptain": false
+    }
+  ]
+}

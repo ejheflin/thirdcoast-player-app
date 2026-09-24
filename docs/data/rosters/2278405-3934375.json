@@ -1,0 +1,27 @@
+{
+  "programId": 2278405,
+  "teamId": 3934375,
+  "teamName": "5 - Hustle Gang (Calvin D.)",
+  "players": [
+    {
+      "userId": 18293119,
+      "firstName": "Calvin",
+      "isCaptain": true
+    },
+    {
+      "userId": 21012970,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 20929447,
+      "firstName": "Stephen",
+      "isCaptain": false
+    },
+    {
+      "userId": 22036888,
+      "firstName": "Chenelle",
+      "isCaptain": false
+    }
+  ]
+}

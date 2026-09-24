@@ -1,0 +1,27 @@
+{
+  "programId": 2821746,
+  "teamId": 4863873,
+  "teamName": "10 - Sandy Cheeks (Arturo R.)",
+  "players": [
+    {
+      "userId": 32599950,
+      "firstName": "Martha",
+      "isCaptain": false
+    },
+    {
+      "userId": 21100726,
+      "firstName": "Arturo",
+      "isCaptain": true
+    },
+    {
+      "userId": 21101914,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 31680339,
+      "firstName": "Hunter",
+      "isCaptain": false
+    }
+  ]
+}

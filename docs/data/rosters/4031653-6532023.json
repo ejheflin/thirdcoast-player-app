@@ -1,0 +1,22 @@
+{
+  "programId": 4031653,
+  "teamId": 6532023,
+  "teamName": "12. May the Spike Be With You (Ash B.)",
+  "players": [
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": true
+    },
+    {
+      "userId": 14672281,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 17332996,
+      "firstName": "Leandro",
+      "isCaptain": false
+    }
+  ]
+}

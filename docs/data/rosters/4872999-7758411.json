@@ -1,0 +1,17 @@
+{
+  "programId": 4872999,
+  "teamId": 7758411,
+  "teamName": "4. Sarah U. and Kumar R.",
+  "players": [
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}

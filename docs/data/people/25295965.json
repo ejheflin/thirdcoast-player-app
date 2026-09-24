@@ -1,0 +1,42 @@
+{
+  "userId": 25295965,
+  "firstName": "Rob",
+  "appearances": [
+    {
+      "programId": 3957842,
+      "teamId": 6456460,
+      "teamName": "6. Heather F. & Rob B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6474799,
+      "teamName": "5. Team Tika (Rob B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6723198,
+      "teamName": "7. Team Tika (Rob B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6563462,
+      "teamName": "12. Team Tika (Rob B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6393254,
+      "teamName": "11. Team Tika (Heather F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6158631,
+      "teamName": "9. Team Tika (Heather F.)",
+      "isCaptain": false
+    }
+  ]
+}

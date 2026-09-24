@@ -1,0 +1,24 @@
+{
+  "userId": 49879146,
+  "firstName": "Dylan",
+  "appearances": [
+    {
+      "programId": 4589133,
+      "teamId": 7343701,
+      "teamName": "6. The Thurmanators (David Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7464763,
+      "teamName": "8. The Thurmanators (David Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7578993,
+      "teamName": "2. The Thurmanators (David Z.)",
+      "isCaptain": false
+    }
+  ]
+}

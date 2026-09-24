@@ -1,0 +1,173 @@
+{
+  "programId": 1734313,
+  "teams": {
+    "3254392": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3254392,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "2 - No Fly Zone (Kumar R.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3258061": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3258061,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "6 - Big Digs (Mike B.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 0,
+          "ties": 6
+        }
+      ]
+    },
+    "3258901": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3258901,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "4 - Soft Serve (Erika J.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "3259768": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3259768,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "5 - Toodles (Michael L.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "3260197": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3260197,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "1 - 3 OG's & Bae (Johnny W.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "3260494": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3260494,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "8 - Karmas a Beach (Liz C.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "3262699": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3262699,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "3 - SofaKingGoodGunners (Luis H.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "3266035": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734313,
+          "teamId": 3266035,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "7 - E League Champs (Chris B.)",
+          "endDate": 1601352000000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

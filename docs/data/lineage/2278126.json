@@ -1,0 +1,215 @@
+{
+  "programId": 2278126,
+  "teams": {
+    "3927679": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3927679,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "7 - We Dig Four Play (Lauren B.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 0,
+          "ties": 9
+        }
+      ]
+    },
+    "3930688": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3930688,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "3 - FlyBallers ShotCallers (Albert F.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "3932341": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3932341,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "9 - Life's a Beach (Clark P.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "3933202": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3933202,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "1 - Dakiti (Daniel D.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "3933496": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3933496,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "2 - D and Ts (Ryan B.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "3934561": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3934561,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "4 - Gabby and Da Boyz (Marshall C.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "3934600": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3934600,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "10 - Reach High Baby (Mike B.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "3934873": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3934873,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "8 - Zombies (Brad F.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3941188": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3941188,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "6 - Block Market (Sean M.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 9,
+          "ties": 5
+        }
+      ]
+    },
+    "3946987": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278126,
+          "teamId": 3946987,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "5 - Got Candy (Emma P.)",
+          "endDate": 1625112000000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 10,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

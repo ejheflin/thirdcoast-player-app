@@ -1,0 +1,27 @@
+{
+  "programId": 3904443,
+  "teamId": 6381551,
+  "teamName": "5. Just 4 Fun (Naomi L.)",
+  "players": [
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705224,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 42556359,
+      "firstName": "Thomas",
+      "isCaptain": false
+    },
+    {
+      "userId": 14682244,
+      "firstName": "Tommy",
+      "isCaptain": false
+    }
+  ]
+}

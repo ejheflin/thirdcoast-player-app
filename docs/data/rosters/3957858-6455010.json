@@ -1,0 +1,32 @@
+{
+  "programId": 3957858,
+  "teamId": 6455010,
+  "teamName": "7. Ginger & the Giants (Allan K.)",
+  "players": [
+    {
+      "userId": 22208443,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 27844878,
+      "firstName": "Allan",
+      "isCaptain": true
+    },
+    {
+      "userId": 27845718,
+      "firstName": "Breanna",
+      "isCaptain": false
+    },
+    {
+      "userId": 27846684,
+      "firstName": "Clayton",
+      "isCaptain": false
+    },
+    {
+      "userId": 42497067,
+      "firstName": "Taylor",
+      "isCaptain": false
+    }
+  ]
+}

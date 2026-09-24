@@ -1,0 +1,24 @@
+{
+  "userId": 28254429,
+  "firstName": "Nicole",
+  "appearances": [
+    {
+      "programId": 3904384,
+      "teamId": 6382705,
+      "teamName": "6. IT'S THE S W E E T ONE! (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6455391,
+      "teamName": "2. IT'S THE S W E E T ONE! (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6144612,
+      "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+      "isCaptain": false
+    }
+  ]
+}

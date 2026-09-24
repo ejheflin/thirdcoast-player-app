@@ -7,6 +7,24 @@
       "teamId": 8022535,
       "teamName": "3. Bump, set, dammit! (Michael G.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7902595,
+      "teamName": "7. Bump Set Dammit! (Michael G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7465779,
+      "teamName": "9. Bag of digs (Christopher M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7576790,
+      "teamName": "7. Eli and the goon squad (Christopher M.)",
+      "isCaptain": false
     }
   ]
 }

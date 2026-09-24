@@ -1,0 +1,27 @@
+{
+  "programId": 4590320,
+  "teamId": 7339870,
+  "teamName": "8. Watermelon (Lauren K.)",
+  "players": [
+    {
+      "userId": 22293661,
+      "firstName": "Ian",
+      "isCaptain": false
+    },
+    {
+      "userId": 47095625,
+      "firstName": "Camden",
+      "isCaptain": false
+    },
+    {
+      "userId": 14921479,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 21101914,
+      "firstName": "Lauren",
+      "isCaptain": true
+    }
+  ]
+}

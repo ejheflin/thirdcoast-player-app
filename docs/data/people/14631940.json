@@ -1,0 +1,24 @@
+{
+  "userId": 14631940,
+  "firstName": "Brian",
+  "appearances": [
+    {
+      "programId": 4379697,
+      "teamId": 7041921,
+      "teamName": "3. Kyndra K. and Brian T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6393508,
+      "teamName": "9. Mili V. & Brian T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6144468,
+      "teamName": "1. Mili V. & Brian T.",
+      "isCaptain": true
+    }
+  ]
+}

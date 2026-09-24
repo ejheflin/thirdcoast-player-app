@@ -1,0 +1,173 @@
+{
+  "programId": 1217698,
+  "teams": {
+    "2528656": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2528656,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "1 - Rachael G. & Erika J.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "2528758": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2528758,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "2 - Starr K. & Tallie A.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "2532025": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2532025,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "3 - Rebecca B. & Khoun T.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3
+        }
+      ]
+    },
+    "2534656": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2534656,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "4 - Megan E. & Diana F.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2534692": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2534692,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "5 - Fran R. & Beth B.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 4,
+          "ties": 4
+        }
+      ]
+    },
+    "2535205": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2535205,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "6 - Coco G. & Sarah K.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "2535532": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2535532,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "7 - Victoria Q. & Giselle L.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 11,
+          "losses": 0,
+          "ties": 5
+        }
+      ]
+    },
+    "2537104": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1217698,
+          "teamId": 2537104,
+          "programName": "Wednesday Womens 2s BB",
+          "teamName": "8 - Emily M. & Kearby B.",
+          "endDate": 1569384000000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 11,
+          "ties": 3
+        }
+      ]
+    }
+  }
+}

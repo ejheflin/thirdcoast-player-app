@@ -1,0 +1,27 @@
+{
+  "programId": 4031658,
+  "teamId": 6549634,
+  "teamName": "5. BomBubz (Stefan W.)",
+  "players": [
+    {
+      "userId": 45755220,
+      "firstName": "Bethany",
+      "isCaptain": false
+    },
+    {
+      "userId": 28302753,
+      "firstName": "Jackson",
+      "isCaptain": false
+    },
+    {
+      "userId": 38366792,
+      "firstName": "Dominick",
+      "isCaptain": false
+    },
+    {
+      "userId": 17175352,
+      "firstName": "Stefan",
+      "isCaptain": true
+    }
+  ]
+}

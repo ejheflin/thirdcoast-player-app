@@ -1,0 +1,17 @@
+{
+  "programId": 4220823,
+  "teamId": 6813895,
+  "teamName": "6. Joann L. & Connor K.",
+  "players": [
+    {
+      "userId": 45223676,
+      "firstName": "Connor",
+      "isCaptain": false
+    },
+    {
+      "userId": 17401432,
+      "firstName": "Joann",
+      "isCaptain": true
+    }
+  ]
+}

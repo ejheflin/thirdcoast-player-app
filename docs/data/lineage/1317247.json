@@ -1,0 +1,173 @@
+{
+  "programId": 1317247,
+  "teams": {
+    "2683627": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2683627,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "1 - Can You Dig It? (Marc S.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "2684956": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2684956,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "4 - Sets on the Beach (Starr K.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "2686450": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2686450,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "5 - Spaceballs (Paul V.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2686480": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2686480,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "7 - Sweet pASS (Matt G.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 9,
+          "ties": 5
+        }
+      ]
+    },
+    "2686546": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2686546,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "2 - Can't Keep Score (Joy R.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        }
+      ]
+    },
+    "2690863": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2690863,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "3 - Sand Slingers (James N.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "2691433": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2691433,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "6 - Raindrop, Drop Top (Mark R.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 4,
+          "ties": 3
+        }
+      ]
+    },
+    "2692213": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317247,
+          "teamId": 2692213,
+          "programName": "Monday Coed 4s Upper Intermediate",
+          "teamName": "8 - Snack Pack (Sinohe R.)",
+          "endDate": 1574658000000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

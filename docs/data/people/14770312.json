@@ -1,0 +1,18 @@
+{
+  "userId": 14770312,
+  "firstName": "Francesca",
+  "appearances": [
+    {
+      "programId": 3957842,
+      "teamId": 6444296,
+      "teamName": "2. Fran R. & Dan L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6546424,
+      "teamName": "2. Fran R. & Dan L.",
+      "isCaptain": false
+    }
+  ]
+}

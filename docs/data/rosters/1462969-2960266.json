@@ -1,0 +1,22 @@
+{
+  "programId": 1462969,
+  "teamId": 2960266,
+  "teamName": "6 - It's the Sweet One! (Quentin B.)",
+  "players": [
+    {
+      "userId": 14638129,
+      "firstName": "Quentin",
+      "isCaptain": true
+    },
+    {
+      "userId": 19374466,
+      "firstName": "Kenneth",
+      "isCaptain": false
+    },
+    {
+      "userId": 14760655,
+      "firstName": "Delyce",
+      "isCaptain": false
+    }
+  ]
+}

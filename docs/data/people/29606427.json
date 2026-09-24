@@ -1,0 +1,84 @@
+{
+  "userId": 29606427,
+  "firstName": "Alfonso",
+  "appearances": [
+    {
+      "programId": 3909678,
+      "teamId": 6384870,
+      "teamName": "1. Kendall C. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6952645,
+      "teamName": "6. Kendall G. and Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6149109,
+      "teamName": "5. Kendall C. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196696,
+      "teamName": "5. Kendall G. and Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6479838,
+      "teamName": "2. Kendall G. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6562490,
+      "teamName": "4. Kendall G. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6691741,
+      "teamName": "6. Kendall G. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6845017,
+      "teamName": "9. Kendall G. & Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7047245,
+      "teamName": "1. Kendall G. and Alfonso L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549020,
+      "teamName": "4. Swag in a bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6454569,
+      "teamName": "7. Indoor Ballerz Turned Sand Junkies (Michael R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6557850,
+      "teamName": "6. Alfonzo L. & Luis L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6951478,
+      "teamName": "6. Luis L. and Alfonzo L.",
+      "isCaptain": false
+    }
+  ]
+}

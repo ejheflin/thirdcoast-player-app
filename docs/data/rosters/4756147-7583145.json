@@ -1,0 +1,17 @@
+{
+  "programId": 4756147,
+  "teamId": 7583145,
+  "teamName": "1. Jodie N. and Jaimie G.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": false
+    },
+    {
+      "userId": 49879219,
+      "firstName": "Jodie",
+      "isCaptain": true
+    }
+  ]
+}

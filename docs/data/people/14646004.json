@@ -13,6 +13,126 @@
       "teamId": 8154115,
       "teamName": "2. Mili V. and Isa T.",
       "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761981,
+      "teamName": "4. Kim S. and Isa T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7592597,
+      "teamName": "9. Kim S. and Isa T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6691421,
+      "teamName": "8. Marisela G. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7914440,
+      "teamName": "4. Milica V. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7471675,
+      "teamName": "8. Emperatriz S. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7043149,
+      "teamName": "8. Olivia E. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7588025,
+      "teamName": "8. Mili V. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7353889,
+      "teamName": "9. Erin F. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6567378,
+      "teamName": "8. Marisela G. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6481767,
+      "teamName": "9. Marisela G. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7758725,
+      "teamName": "5. Millie V. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196699,
+      "teamName": "9. Olivia E. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6144111,
+      "teamName": "2. Marisela G. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6954422,
+      "teamName": "8. Olivia E. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6377856,
+      "teamName": "2. Marisela G. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6838900,
+      "teamName": "7. Nicole P. & Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6919631,
+      "teamName": "9. See You Next Tuesday (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7212074,
+      "teamName": "8. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7026410,
+      "teamName": "6. See You Next Tuesday (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6726015,
+      "teamName": "7. It's the Sweet One! (Quentin B.)",
+      "isCaptain": false
     }
   ]
 }

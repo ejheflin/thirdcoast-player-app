@@ -1,0 +1,30 @@
+{
+  "userId": 52273791,
+  "firstName": "Lily",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7340419,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7585266,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7799335,
+      "teamName": "8. Vacacioners (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7433456,
+      "teamName": "3. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

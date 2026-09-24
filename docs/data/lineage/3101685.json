@@ -1,0 +1,257 @@
+{
+  "programId": 3101685,
+  "teams": {
+    "5192806": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5192806,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "10 - Olivia J. & Alfonso L.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 2,
+          "teamCount": 12,
+          "wins": 11,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "5212252": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5212252,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "9 - Jo P. & Johnny W.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 5,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "5219269": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5219269,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "11 - Elaine L. & Bill K.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 9,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "5225509": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5225509,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "4 - Tina O. & Josh K.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 6,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "5225785": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5225785,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "1 - Tori H. & Brian T.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 3,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "5227831": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5227831,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "7 - Julia D. & Emiliano T.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 10,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    },
+    "5230588": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5230588,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "5 - Dani D. & Luis L.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 11,
+          "teamCount": 12,
+          "wins": 1,
+          "losses": 5,
+          "ties": 10
+        }
+      ]
+    },
+    "5230651": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5230651,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "3 - Christine M. & Matt B.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 8,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "5232562": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5232562,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "6 - Giselle T. & Philip A.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 1,
+          "teamCount": 12,
+          "wins": 13,
+          "losses": 2,
+          "ties": 1
+        }
+      ]
+    },
+    "5233351": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5233351,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "8 - Molly J. & Riley F.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "5235157": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5235157,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "12 - Kendall C. & Jon N.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    },
+    "5235373": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3101685,
+          "teamId": 5235373,
+          "programName": "Thursday Coed 2s AA (formerly Comp)",
+          "teamName": "2 - Sandra A. & Michael G.",
+          "endDate": 1657771200000,
+          "level": "AA",
+          "move": null,
+          "position": 12,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

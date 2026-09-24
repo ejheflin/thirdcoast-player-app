@@ -1,0 +1,78 @@
+{
+  "userId": 14638129,
+  "firstName": "Quentin",
+  "appearances": [
+    {
+      "programId": 3904384,
+      "teamId": 6382705,
+      "teamName": "6. IT'S THE S W E E T ONE! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6455391,
+      "teamName": "2. IT'S THE S W E E T ONE! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550243,
+      "teamName": "10. It's the Sweet One! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6144612,
+      "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6919631,
+      "teamName": "9. See You Next Tuesday (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7212074,
+      "teamName": "8. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7346060,
+      "teamName": "7. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7026410,
+      "teamName": "6. See You Next Tuesday (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6820466,
+      "teamName": "6. See You Next Tuesday (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6726015,
+      "teamName": "7. It's the Sweet One! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2960266,
+      "teamName": "6 - It's the Sweet One! (Quentin B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3264601,
+      "teamName": "4 - It's the Sweet One! (Quentin B.)",
+      "isCaptain": true
+    }
+  ]
+}

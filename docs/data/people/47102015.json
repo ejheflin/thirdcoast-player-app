@@ -1,0 +1,24 @@
+{
+  "userId": 47102015,
+  "firstName": "Jasmin",
+  "appearances": [
+    {
+      "programId": 4319078,
+      "teamId": 6958970,
+      "teamName": "1. Jasmin C. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6693372,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820952,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": false
+    }
+  ]
+}

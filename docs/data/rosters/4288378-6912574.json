@@ -1,0 +1,32 @@
+{
+  "programId": 4288378,
+  "teamId": 6912574,
+  "teamName": "3. Hammer Time (Alex M.)",
+  "players": [
+    {
+      "userId": 47047060,
+      "firstName": "Bethany",
+      "isCaptain": false
+    },
+    {
+      "userId": 47040026,
+      "firstName": "Tara",
+      "isCaptain": false
+    },
+    {
+      "userId": 46969102,
+      "firstName": "Miguel",
+      "isCaptain": false
+    },
+    {
+      "userId": 46966327,
+      "firstName": "Alex",
+      "isCaptain": true
+    },
+    {
+      "userId": 46972527,
+      "firstName": "Stephany",
+      "isCaptain": false
+    }
+  ]
+}

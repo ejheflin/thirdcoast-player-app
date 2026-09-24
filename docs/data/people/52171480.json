@@ -1,0 +1,18 @@
+{
+  "userId": 52171480,
+  "firstName": "Erin",
+  "appearances": [
+    {
+      "programId": 4590324,
+      "teamId": 7347826,
+      "teamName": "3. Ali M. and Erin M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7428631,
+      "teamName": "2. Ali M. and Erin M.",
+      "isCaptain": false
+    }
+  ]
+}

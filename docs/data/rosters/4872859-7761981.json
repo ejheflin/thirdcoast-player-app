@@ -1,0 +1,17 @@
+{
+  "programId": 4872859,
+  "teamId": 7761981,
+  "teamName": "4. Kim S. and Isa T.",
+  "players": [
+    {
+      "userId": 22327516,
+      "firstName": "Kim",
+      "isCaptain": true
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": false
+    }
+  ]
+}

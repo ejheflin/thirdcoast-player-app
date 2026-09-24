@@ -1,0 +1,36 @@
+{
+  "userId": 44340152,
+  "firstName": "Tom",
+  "appearances": [
+    {
+      "programId": 4661444,
+      "teamId": 7469379,
+      "teamName": "5. Sandy Cheeks (David N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384618,
+      "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7026759,
+      "teamName": "7. Pass these hands (George C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6920820,
+      "teamName": "7. Passing These Hands (George C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6826503,
+      "teamName": "8. Passing These Hands (George C.)",
+      "isCaptain": false
+    }
+  ]
+}

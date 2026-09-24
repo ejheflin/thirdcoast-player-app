@@ -1,0 +1,17 @@
+{
+  "programId": 3957863,
+  "teamId": 6451402,
+  "teamName": "8. Tiffany S. & Brittney G.",
+  "players": [
+    {
+      "userId": 31687011,
+      "firstName": "Brittney",
+      "isCaptain": false
+    },
+    {
+      "userId": 14760175,
+      "firstName": "Tiffany",
+      "isCaptain": true
+    }
+  ]
+}

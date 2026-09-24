@@ -1,0 +1,27 @@
+{
+  "programId": 4872943,
+  "teamId": 7757979,
+  "teamName": "2. Carolina Beach Bumpers (Ashton M.)",
+  "players": [
+    {
+      "userId": 47949118,
+      "firstName": "Zachary",
+      "isCaptain": false
+    },
+    {
+      "userId": 46065529,
+      "firstName": "Ashton",
+      "isCaptain": true
+    },
+    {
+      "userId": 44346402,
+      "firstName": "Ransom",
+      "isCaptain": false
+    },
+    {
+      "userId": 51314898,
+      "firstName": "Jordan",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "userId": 39534252,
+  "firstName": "Madison",
+  "appearances": [
+    {
+      "programId": 3909678,
+      "teamId": 6380648,
+      "teamName": "2. Madison M. & Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6134433,
+      "teamName": "3. Madison M. & Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6481640,
+      "teamName": "4. Madison M. & Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6458784,
+      "teamName": "9. BomBubz (Stefan W.)",
+      "isCaptain": false
+    }
+  ]
+}

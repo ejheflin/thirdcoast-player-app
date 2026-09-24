@@ -1,0 +1,24 @@
+{
+  "userId": 22304641,
+  "firstName": "Ralph",
+  "appearances": [
+    {
+      "programId": 2278405,
+      "teamId": 3948634,
+      "teamName": "3 - Getting It In (Ryan D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3459337,
+      "teamName": "6 - Getting It In (Jose B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626278,
+      "teamName": "4 - Getting It In (Ralph T.)",
+      "isCaptain": true
+    }
+  ]
+}

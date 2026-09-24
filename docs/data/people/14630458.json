@@ -1,0 +1,24 @@
+{
+  "userId": 14630458,
+  "firstName": "Miguel",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3461371,
+      "teamName": "8 - Soft Serves (Emma P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3633604,
+      "teamName": "3 - Booze Crew (Jack S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3261073,
+      "teamName": "3 - Now Serving (Emma P.)",
+      "isCaptain": false
+    }
+  ]
+}

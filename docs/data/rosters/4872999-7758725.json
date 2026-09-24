@@ -1,0 +1,17 @@
+{
+  "programId": 4872999,
+  "teamId": 7758725,
+  "teamName": "5. Millie V. and Isa T.",
+  "players": [
+    {
+      "userId": 14608675,
+      "firstName": "Milica",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "userId": 19075195,
+  "firstName": "Bryce",
+  "appearances": [
+    {
+      "programId": 3981247,
+      "teamId": 6483356,
+      "teamName": "7. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6696591,
+      "teamName": "3. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6562344,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6839964,
+      "teamName": "3. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7047240,
+      "teamName": "4. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6945299,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6387491,
+      "teamName": "1. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6131445,
+      "teamName": "1. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    }
+  ]
+}

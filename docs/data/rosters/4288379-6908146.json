@@ -1,0 +1,17 @@
+{
+  "programId": 4288379,
+  "teamId": 6908146,
+  "teamName": "1. Beth B. and Shelby L.",
+  "players": [
+    {
+      "userId": 14662834,
+      "firstName": "Beth",
+      "isCaptain": true
+    },
+    {
+      "userId": 46848746,
+      "firstName": "Shelby",
+      "isCaptain": false
+    }
+  ]
+}

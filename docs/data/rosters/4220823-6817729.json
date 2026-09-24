@@ -1,0 +1,17 @@
+{
+  "programId": 4220823,
+  "teamId": 6817729,
+  "teamName": "9. Shelby G. & Jon N.",
+  "players": [
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

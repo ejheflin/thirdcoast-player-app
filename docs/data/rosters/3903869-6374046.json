@@ -1,0 +1,22 @@
+{
+  "programId": 3903869,
+  "teamId": 6374046,
+  "teamName": "2. Block Party (Jeremy M.)",
+  "players": [
+    {
+      "userId": 42600069,
+      "firstName": "Samanda",
+      "isCaptain": false
+    },
+    {
+      "userId": 44215020,
+      "firstName": "Francis",
+      "isCaptain": false
+    },
+    {
+      "userId": 23232067,
+      "firstName": "Jeremy",
+      "isCaptain": true
+    }
+  ]
+}

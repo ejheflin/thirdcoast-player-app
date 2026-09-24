@@ -13,6 +13,48 @@
       "teamId": 8151238,
       "teamName": "2. Score Check (Julianna T.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4031653,
+      "teamId": 6532023,
+      "teamName": "12. May the Spike Be With You (Ash B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384891,
+      "teamName": "3. The Hard Digs (Alfredo E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6158907,
+      "teamName": "8. The Hard Digs (Alfredo E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7340419,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7025405,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7433456,
+      "teamName": "3. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7906943,
+      "teamName": "5. Arsenal Gunners (Julianna T.)",
+      "isCaptain": false
     }
   ]
 }

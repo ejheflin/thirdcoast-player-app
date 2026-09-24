@@ -1,0 +1,24 @@
+{
+  "userId": 49882653,
+  "firstName": "Nathaniel",
+  "appearances": [
+    {
+      "programId": 4369534,
+      "teamId": 7033256,
+      "teamName": "7. Jodie N. and Nathaniel C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7760684,
+      "teamName": "8. Jann D. and Richard C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7533142,
+      "teamName": "1. Jann D. and Nathaniel C.",
+      "isCaptain": false
+    }
+  ]
+}

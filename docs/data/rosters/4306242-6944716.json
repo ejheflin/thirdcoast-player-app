@@ -1,0 +1,17 @@
+{
+  "programId": 4306242,
+  "teamId": 6944716,
+  "teamName": "10. Rudy D. and Ryan C.",
+  "players": [
+    {
+      "userId": 18878803,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": true
+    }
+  ]
+}

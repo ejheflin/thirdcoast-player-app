@@ -1,0 +1,17 @@
+{
+  "programId": 4031651,
+  "teamId": 6545058,
+  "teamName": "9. Macey C. & Branden B.",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 37472127,
+      "firstName": "Macey",
+      "isCaptain": true
+    }
+  ]
+}

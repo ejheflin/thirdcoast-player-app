@@ -1,0 +1,313 @@
+{
+  "programId": 3903855,
+  "teams": {
+    "6370118": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3903855,
+          "teamId": 6370118,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Emily R. & Jake S.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        }
+      ]
+    },
+    "6370145": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3715962,
+        "teamId": 6126768,
+        "programName": "Monday Coed 2s B",
+        "teamName": "3. Beth B. & Jaimie G.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6126768,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Beth B. & Jaimie G.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 8
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6370145,
+          "programName": "Monday Coed 2s B",
+          "teamName": "3. Beth B. & Jaimie G.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "same",
+          "position": 2,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "6370177": {
+      "seasons": 2,
+      "move": "down",
+      "from": {
+        "programId": 3716070,
+        "teamId": 6126702,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "7. Macey C. & Branden B.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126702,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "7. Macey C. & Branden B.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6370177,
+          "programName": "Monday Coed 2s B",
+          "teamName": "5. Macey C. & Branden B.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "down",
+          "position": 4,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "6372477": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3715962,
+        "teamId": 6126744,
+        "programName": "Monday Coed 2s B",
+        "teamName": "2. Megan L. & Brian C.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6126744,
+          "programName": "Monday Coed 2s B",
+          "teamName": "2. Megan L. & Brian C.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 9,
+          "ties": 5
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6372477,
+          "programName": "Monday Coed 2s B",
+          "teamName": "6. Megan L. & Brian C.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "same",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3
+        }
+      ]
+    },
+    "6373051": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3715962,
+        "teamId": 6126732,
+        "programName": "Monday Coed 2s B",
+        "teamName": "4. Jess C. & Adrian M.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6126732,
+          "programName": "Monday Coed 2s B",
+          "teamName": "4. Jess C. & Adrian M.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6373051,
+          "programName": "Monday Coed 2s B",
+          "teamName": "2. Jess C. & Adrian M.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 12,
+          "ties": 4
+        }
+      ]
+    },
+    "6374049": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3715962,
+        "teamId": 6126804,
+        "programName": "Monday Coed 2s B",
+        "teamName": "6. Kim S. & Mike O.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6126804,
+          "programName": "Monday Coed 2s B",
+          "teamName": "6. Kim S. & Mike O.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 9,
+          "ties": 3
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6374049,
+          "programName": "Monday Coed 2s B",
+          "teamName": "4. Kim S. & Mike O.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "6374081": {
+      "seasons": 2,
+      "move": "down",
+      "from": {
+        "programId": 3716070,
+        "teamId": 6126741,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "6. Megan E. & Rudy D.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126741,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "6. Megan E. & Rudy D.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 6,
+          "ties": 9
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6374081,
+          "programName": "Monday Coed 2s B",
+          "teamName": "7. Megan E. & Rudy D.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": "down",
+          "position": 3,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "6377956": {
+      "seasons": 2,
+      "move": null,
+      "from": {
+        "programId": 3719445,
+        "teamId": 6165189,
+        "programName": "Monday Coed 3s B (formerly Intermediate)",
+        "teamName": "9. Sandpeople (Dan L.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3719445,
+          "teamId": 6165189,
+          "programName": "Monday Coed 3s B (formerly Intermediate)",
+          "teamName": "9. Sandpeople (Dan L.)",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 2,
+          "ties": 2
+        },
+        {
+          "programId": 3903855,
+          "teamId": 6377956,
+          "programName": "Monday Coed 2s B",
+          "teamName": "8. Ivy C. & Dan L.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 8,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

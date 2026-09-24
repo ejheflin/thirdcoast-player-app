@@ -1,0 +1,32 @@
+{
+  "programId": 3430566,
+  "teamId": 5708634,
+  "teamName": "8. Calm Your Tips (Anthony K.)",
+  "players": [
+    {
+      "userId": 35089546,
+      "firstName": "Sabrina",
+      "isCaptain": false
+    },
+    {
+      "userId": 37627383,
+      "firstName": "Erik",
+      "isCaptain": false
+    },
+    {
+      "userId": 35090995,
+      "firstName": "Anthony",
+      "isCaptain": true
+    },
+    {
+      "userId": 35090557,
+      "firstName": "Kyle",
+      "isCaptain": false
+    },
+    {
+      "userId": 37572999,
+      "firstName": "Alexandra",
+      "isCaptain": false
+    }
+  ]
+}

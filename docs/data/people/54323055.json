@@ -1,0 +1,18 @@
+{
+  "userId": 54323055,
+  "firstName": "Brooke",
+  "appearances": [
+    {
+      "programId": 4752513,
+      "teamId": 7584290,
+      "teamName": "11. Beta Blockers (Mindy B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7759833,
+      "teamName": "2. Beta Blockets (Mindy B.)",
+      "isCaptain": false
+    }
+  ]
+}

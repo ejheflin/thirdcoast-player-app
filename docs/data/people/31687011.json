@@ -1,0 +1,66 @@
+{
+  "userId": 31687011,
+  "firstName": "Brittney",
+  "appearances": [
+    {
+      "programId": 4139350,
+      "teamId": 6691096,
+      "teamName": "2. Brittney G. & Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6845617,
+      "teamName": "9. Brittney G. & Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7340491,
+      "teamName": "4. Liz C. and Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7190178,
+      "teamName": "9. Liz C. and Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7017976,
+      "teamName": "6. Liz C. and Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7436963,
+      "teamName": "7. Olivia J. and Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6451402,
+      "teamName": "8. Tiffany S. & Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6380862,
+      "teamName": "9. Tiffany S. & Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6133314,
+      "teamName": "8. Tiffany S. & Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031663,
+      "teamId": 6551663,
+      "teamName": "10. Tiffany S. & Brittney G.",
+      "isCaptain": false
+    }
+  ]
+}

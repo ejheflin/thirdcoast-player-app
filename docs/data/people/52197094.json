@@ -1,0 +1,18 @@
+{
+  "userId": 52197094,
+  "firstName": "Courtney",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7350091,
+      "teamName": "8. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7442369,
+      "teamName": "5. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    }
+  ]
+}

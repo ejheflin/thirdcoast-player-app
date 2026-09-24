@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6845415,
+  "teamName": "10. Savannah W. & Jeff S.",
+  "players": [
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": true
+    }
+  ]
+}

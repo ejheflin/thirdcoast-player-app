@@ -1,0 +1,27 @@
+{
+  "programId": 3957861,
+  "teamId": 6456025,
+  "teamName": "7. Notorious D.I.G. (Connor D.)",
+  "players": [
+    {
+      "userId": 44350165,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 44350203,
+      "firstName": "Olivia",
+      "isCaptain": false
+    },
+    {
+      "userId": 42581307,
+      "firstName": "Connor",
+      "isCaptain": true
+    },
+    {
+      "userId": 39284871,
+      "firstName": "McKenzie",
+      "isCaptain": false
+    }
+  ]
+}

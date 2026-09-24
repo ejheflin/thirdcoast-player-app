@@ -1,0 +1,30 @@
+{
+  "userId": 52089397,
+  "firstName": "Erin",
+  "appearances": [
+    {
+      "programId": 4592483,
+      "teamId": 7353889,
+      "teamName": "9. Erin F. and Isa T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7461775,
+      "teamName": "3. Erin F. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7443452,
+      "teamName": "11. Liz C. and Erin F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7588949,
+      "teamName": "4. Erin F. and Kaegan W.",
+      "isCaptain": true
+    }
+  ]
+}

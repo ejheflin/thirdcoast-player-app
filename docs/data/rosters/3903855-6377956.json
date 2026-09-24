@@ -1,0 +1,17 @@
+{
+  "programId": 3903855,
+  "teamId": 6377956,
+  "teamName": "8. Ivy C. & Dan L.",
+  "players": [
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

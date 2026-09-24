@@ -1,0 +1,42 @@
+{
+  "userId": 29627895,
+  "firstName": "Johnny",
+  "appearances": [
+    {
+      "programId": 3957858,
+      "teamId": 6455143,
+      "teamName": "9. Setters of Catan (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4431630,
+      "teamName": "10 - Premarital Sets (Johnny L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4729116,
+      "teamName": "1 - Big Dig Energy (Johnny L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5204818,
+      "teamName": "1 - Hard Pass (Johnny L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5451927,
+      "teamName": "5 - Richies Revenge (Richard H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5717370,
+      "teamName": "10. Big Dig Energy (Richard H.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 55424327,
+  "firstName": "Georget",
+  "appearances": [
+    {
+      "programId": 4872943,
+      "teamId": 7757984,
+      "teamName": "8. Clutch City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7921769,
+      "teamName": "4. Clutch City (Ryan T.)",
+      "isCaptain": false
+    }
+  ]
+}

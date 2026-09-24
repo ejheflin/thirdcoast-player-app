@@ -1,0 +1,17 @@
+{
+  "programId": 4139330,
+  "teamId": 6692934,
+  "teamName": "3. Christine M. & Dani D.",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 14707600,
+      "firstName": "Christine",
+      "isCaptain": true
+    }
+  ]
+}

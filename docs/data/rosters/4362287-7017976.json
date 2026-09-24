@@ -1,0 +1,17 @@
+{
+  "programId": 4362287,
+  "teamId": 7017976,
+  "teamName": "6. Liz C. and Brittney G.",
+  "players": [
+    {
+      "userId": 14657086,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 31687011,
+      "firstName": "Brittney",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 3957846,
+  "teamId": 6450714,
+  "teamName": "6. Lauren H. & Kumar R.",
+  "players": [
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": true
+    }
+  ]
+}

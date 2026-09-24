@@ -1,0 +1,27 @@
+{
+  "programId": 4362250,
+  "teamId": 7028809,
+  "teamName": "2. Consensual Sets (Kyndal G.)",
+  "players": [
+    {
+      "userId": 45440198,
+      "firstName": "Harley",
+      "isCaptain": false
+    },
+    {
+      "userId": 45440228,
+      "firstName": "Kristin",
+      "isCaptain": false
+    },
+    {
+      "userId": 46001700,
+      "firstName": "Kyndal",
+      "isCaptain": true
+    },
+    {
+      "userId": 45495747,
+      "firstName": "Aj",
+      "isCaptain": false
+    }
+  ]
+}

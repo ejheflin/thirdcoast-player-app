@@ -1,0 +1,18 @@
+{
+  "userId": 18918892,
+  "firstName": "Daniel",
+  "appearances": [
+    {
+      "programId": 2083774,
+      "teamId": 3633604,
+      "teamName": "3 - Booze Crew (Jack S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2963434,
+      "teamName": "4 - Sand in all the Right Places (Jeanne B.)",
+      "isCaptain": false
+    }
+  ]
+}

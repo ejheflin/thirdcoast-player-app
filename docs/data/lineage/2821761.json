@@ -1,0 +1,215 @@
+{
+  "programId": 2821761,
+  "teams": {
+    "4727616": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4727616,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "8 - We Dig Four Play (Matt B.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 13,
+          "losses": 1,
+          "ties": 2
+        }
+      ]
+    },
+    "4728756": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4728756,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "4 - Dream Team (Marshall C.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "4729551": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4729551,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "5 - FlyBallers ShotCallers (Albert F.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "4729587": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4729587,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "7 - Jelly Beans (Clark P.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 6
+        }
+      ]
+    },
+    "4735332": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4735332,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "1 - Calm Yo Tips (Emma P.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "4735347": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4735347,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "2 - Arsenal Gunners (David T.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 3
+        }
+      ]
+    },
+    "4764294": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4764294,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "3 - Dakiti (Daniel D.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "4799478": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4799478,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "9 - Zombies (Brad F.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 8,
+          "ties": 3
+        }
+      ]
+    },
+    "4807539": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4807539,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "6 - Meoowch (Ryan B.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "4812306": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821761,
+          "teamId": 4812306,
+          "programName": "Thursday Coed 4s Intermediate",
+          "teamName": "10 - Harolds and Kumar (Kumar R.)",
+          "endDate": 1651723200000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

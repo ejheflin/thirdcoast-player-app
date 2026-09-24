@@ -1,0 +1,17 @@
+{
+  "programId": 3719445,
+  "teamId": 6153099,
+  "teamName": "4. Ricky's Tricks (John K.)",
+  "players": [
+    {
+      "userId": 25660995,
+      "firstName": "John",
+      "isCaptain": true
+    },
+    {
+      "userId": 14677072,
+      "firstName": "Ricky",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4872983,
+  "teamId": 7762009,
+  "teamName": "9. Lindsay K. and Julia V.",
+  "players": [
+    {
+      "userId": 14817949,
+      "firstName": "Lindsay",
+      "isCaptain": true
+    },
+    {
+      "userId": 50025583,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

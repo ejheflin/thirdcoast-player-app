@@ -1,0 +1,17 @@
+{
+  "programId": 4319078,
+  "teamId": 6946061,
+  "teamName": "3. Kyndra K. and Jaimie G.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 49409597,
+      "firstName": "Kyndra",
+      "isCaptain": false
+    }
+  ]
+}

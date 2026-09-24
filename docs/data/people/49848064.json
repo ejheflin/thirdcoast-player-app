@@ -1,0 +1,54 @@
+{
+  "userId": 49848064,
+  "firstName": "Stephanie",
+  "appearances": [
+    {
+      "programId": 4756147,
+      "teamId": 7583147,
+      "teamName": "3. Stephanie G. and Jacob W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589133,
+      "teamId": 7345154,
+      "teamName": "7. Bumpin Uglies (Luke S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7587219,
+      "teamName": "3. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350085,
+      "teamName": "4. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7350007,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7224345,
+      "teamName": "9. Vacation (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7445182,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7934955,
+      "teamName": "8. Bad Hombres (Jaimie M.)",
+      "isCaptain": false
+    }
+  ]
+}

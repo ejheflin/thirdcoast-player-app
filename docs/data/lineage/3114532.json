@@ -1,0 +1,173 @@
+{
+  "programId": 3114532,
+  "teams": {
+    "5204293": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5204293,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4 - Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 4,
+          "ties": 4
+        }
+      ]
+    },
+    "5209348": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5209348,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1 - Makeup Sets (Matt K.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 8,
+          "ties": 2
+        }
+      ]
+    },
+    "5218978": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5218978,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2 - Can You Dig It? (Marc S.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "5220277": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5220277,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6 - We Dig You (Lauren M.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "5225437": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5225437,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "7 - Volley Llamas (Josh M.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "5226343": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5226343,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3 - Panda People (Jaimie G.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "5226556": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5226556,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5 - Practice Safe Sets (Gary C.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "5227006": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3114532,
+          "teamId": 5227006,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "8 - Sandy Balls (William T.)",
+          "endDate": 1657598400000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 45219634,
+  "firstName": "Brandon",
+  "appearances": [
+    {
+      "programId": 4031655,
+      "teamId": 6552929,
+      "teamName": "8. las tóxicas (Nicole P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6456047,
+      "teamName": "10. Hit Men (Justin C.)",
+      "isCaptain": false
+    }
+  ]
+}

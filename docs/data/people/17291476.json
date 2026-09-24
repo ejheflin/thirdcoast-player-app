@@ -13,6 +13,96 @@
       "teamId": 8139578,
       "teamName": "12. Riley W. and Jacob W.",
       "isCaptain": true
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7032910,
+      "teamName": "6. Kiwis Keepers (Emma P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7758952,
+      "teamName": "7. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7555932,
+      "teamName": "10. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6689685,
+      "teamName": "7. Riley W. & Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7926234,
+      "teamName": "7. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6541934,
+      "teamName": "10. Riley W. & Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6825185,
+      "teamName": "7. Riley W. & Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6930445,
+      "teamName": "5. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6455672,
+      "teamName": "2. Riley W. & Ross N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7197301,
+      "teamName": "10. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6131682,
+      "teamName": "3. Riley W. & Ross N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7333983,
+      "teamName": "8. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7049754,
+      "teamName": "7. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7439938,
+      "teamName": "10. Riley W. and Jacob W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6377931,
+      "teamName": "10. Riley W. & Ross N.",
+      "isCaptain": true
     }
   ]
 }

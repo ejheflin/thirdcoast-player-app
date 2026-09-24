@@ -1,0 +1,18 @@
+{
+  "userId": 19374466,
+  "firstName": "Kenneth",
+  "appearances": [
+    {
+      "programId": 1462969,
+      "teamId": 2960266,
+      "teamName": "6 - It's the Sweet One! (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3264601,
+      "teamName": "4 - It's the Sweet One! (Quentin B.)",
+      "isCaptain": false
+    }
+  ]
+}

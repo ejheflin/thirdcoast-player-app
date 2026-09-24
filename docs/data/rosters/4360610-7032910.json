@@ -1,0 +1,22 @@
+{
+  "programId": 4360610,
+  "teamId": 7032910,
+  "teamName": "6. Kiwis Keepers (Emma P.)",
+  "players": [
+    {
+      "userId": 14782789,
+      "firstName": "Thien",
+      "isCaptain": false
+    },
+    {
+      "userId": 37962335,
+      "firstName": "Emma",
+      "isCaptain": true
+    },
+    {
+      "userId": 17291476,
+      "firstName": "Riley",
+      "isCaptain": false
+    }
+  ]
+}

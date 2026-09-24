@@ -1,0 +1,27 @@
+{
+  "programId": 4222036,
+  "teamId": 6823003,
+  "teamName": "9. The Vacationers (Phil M.)",
+  "players": [
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": false
+    },
+    {
+      "userId": 47164644,
+      "firstName": "Vanessa",
+      "isCaptain": false
+    },
+    {
+      "userId": 48039306,
+      "firstName": "Anne",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4139315,
+  "teamId": 6701777,
+  "teamName": "2. Just Get the Ball (Naomi L.)",
+  "players": [
+    {
+      "userId": 44543836,
+      "firstName": "Kevin",
+      "isCaptain": false
+    },
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705224,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 47015033,
+      "firstName": "Behdad",
+      "isCaptain": false
+    }
+  ]
+}

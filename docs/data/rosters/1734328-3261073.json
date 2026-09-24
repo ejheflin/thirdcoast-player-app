@@ -1,0 +1,22 @@
+{
+  "programId": 1734328,
+  "teamId": 3261073,
+  "teamName": "3 - Now Serving (Emma P.)",
+  "players": [
+    {
+      "userId": 21326962,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 14682244,
+      "firstName": "Tommy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14630458,
+      "firstName": "Miguel",
+      "isCaptain": false
+    }
+  ]
+}

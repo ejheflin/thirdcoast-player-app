@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6539030,
+  "teamName": "4. Beth B. & Jaimie G.",
+  "players": [
+    {
+      "userId": 14662834,
+      "firstName": "Beth",
+      "isCaptain": true
+    },
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": false
+    }
+  ]
+}

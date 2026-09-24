@@ -1,0 +1,27 @@
+{
+  "programId": 4031655,
+  "teamId": 6549758,
+  "teamName": "6. Flat Balls (Abby T.)",
+  "players": [
+    {
+      "userId": 28874523,
+      "firstName": "Nick",
+      "isCaptain": false
+    },
+    {
+      "userId": 17174326,
+      "firstName": "Abby",
+      "isCaptain": true
+    },
+    {
+      "userId": 27841302,
+      "firstName": "Ross",
+      "isCaptain": false
+    },
+    {
+      "userId": 28279959,
+      "firstName": "Katya",
+      "isCaptain": false
+    }
+  ]
+}

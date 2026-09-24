@@ -1,0 +1,821 @@
+{
+  "programId": 4237988,
+  "teams": {
+    "6835059": {
+      "seasons": 3,
+      "move": "up",
+      "from": {
+        "programId": 4139350,
+        "teamId": 6689268,
+        "programName": "Thursday Coed 2s A",
+        "teamName": "5. Anabel K. & Michael A.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 4045339,
+          "teamId": 6567776,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "12. Anabel K. & Michael A.",
+          "endDate": 1702530000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        },
+        {
+          "programId": 4139350,
+          "teamId": 6689268,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "5. Anabel K. & Michael A.",
+          "endDate": 1715227200000,
+          "level": "A",
+          "move": "same",
+          "position": 3,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 8
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6835059,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "5. Anabel K. & Michael A.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "up",
+          "position": 6,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 3,
+          "ties": 11
+        }
+      ]
+    },
+    "6835371": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6689647,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "7. Olivia J. & Eric W.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3719718,
+          "teamId": 6139974,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "10. Olivia J. & Eric W.",
+          "endDate": 1683172800000,
+          "level": "AA",
+          "move": null,
+          "position": 9,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        },
+        {
+          "programId": 3909678,
+          "teamId": 6381468,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "12. Olivia J. & Eric W.",
+          "endDate": 1689825600000,
+          "level": "AA",
+          "move": "same",
+          "position": 3,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        },
+        {
+          "programId": 3981244,
+          "teamId": 6469518,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "12. Olivia J. & Eric W.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": "same",
+          "position": 10,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6559015,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Olivia J. & Eric W.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 9,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6689647,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "7. Olivia J. & Eric W.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 4,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 4,
+          "ties": 5
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6835371,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "12. Olivia J. & Eric W.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 11,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "6837485": {
+      "seasons": 4,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6691530,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "4. Emily F. & Ryan S.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3981226,
+          "teamId": 6484561,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "11. Emily F. & Ryan S.",
+          "endDate": 1695873600000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 12,
+          "wins": 11,
+          "losses": 1,
+          "ties": 4
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6566119,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "3. Emily F. & Ryan S.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "up",
+          "position": 2,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 4,
+          "ties": 5
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6691530,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "4. Emily F. & Ryan S.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 5,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 2,
+          "ties": 10
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6837485,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "2. Emily F. & Ryan S.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 4,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 2,
+          "ties": 11
+        }
+      ]
+    },
+    "6839664": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6689279,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "2. Christine M. & Matt B.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3719718,
+          "teamId": 6132822,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "2. Christine M. & Matt B.",
+          "endDate": 1683172800000,
+          "level": "AA",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        },
+        {
+          "programId": 3909678,
+          "teamId": 6393608,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "10. Christine M. & Matt B.",
+          "endDate": 1689825600000,
+          "level": "AA",
+          "move": "same",
+          "position": 9,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        },
+        {
+          "programId": 3981244,
+          "teamId": 6483430,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "10. Christine M. & Matt B.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": "same",
+          "position": 5,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6562531,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "1. Christine M & Matt B",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6689279,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "2. Christine M. & Matt B.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6839664,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "3. Christine M. & Matt B.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 8,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "6841315": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6701392,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "1. Jackie J. & Alex J.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3719718,
+          "teamId": 6154842,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "8. Jackie J. & Alex J.",
+          "endDate": 1683172800000,
+          "level": "AA",
+          "move": null,
+          "position": 8,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        },
+        {
+          "programId": 3909678,
+          "teamId": 6393206,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Jackie J. & Alex J.",
+          "endDate": 1689825600000,
+          "level": "AA",
+          "move": "same",
+          "position": 10,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 8,
+          "ties": 4
+        },
+        {
+          "programId": 3981244,
+          "teamId": 6484459,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Jackie J. & Alex J.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6568008,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "9. Jackie J. & Alex J.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 10,
+          "teamCount": 12,
+          "wins": 1,
+          "losses": 5,
+          "ties": 10
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6701392,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "1. Jackie J. & Alex J.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 10,
+          "teamCount": 12,
+          "wins": 1,
+          "losses": 7,
+          "ties": 8
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6841315,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "4. Jackie J. & Alex J.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 9,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "6844688": {
+      "seasons": 4,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6691423,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "3. Elaine L. & Tyler J.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3981244,
+          "teamId": 6477654,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "1. Elaine L. & Tyler J.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6562373,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "2. Elaine L. & Tyler J.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 11,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6691423,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "3. Elaine L. & Tyler J.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 8,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6844688,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "1. Elaine L. & Tyler J.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "6845017": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6691741,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "6. Kendall G. & Alfonso L.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3719718,
+          "teamId": 6149109,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "5. Kendall C. & Alfonso L.",
+          "endDate": 1683172800000,
+          "level": "AA",
+          "move": null,
+          "position": 2,
+          "teamCount": 12,
+          "wins": 11,
+          "losses": 2,
+          "ties": 3
+        },
+        {
+          "programId": 3909678,
+          "teamId": 6384870,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "1. Kendall C. & Alfonso L.",
+          "endDate": 1689825600000,
+          "level": "AA",
+          "move": "same",
+          "position": 1,
+          "teamCount": 12,
+          "wins": 14,
+          "losses": 0,
+          "ties": 2
+        },
+        {
+          "programId": 3981244,
+          "teamId": 6479838,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "2. Kendall G. & Alfonso L.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": "same",
+          "position": 1,
+          "teamCount": 12,
+          "wins": 12,
+          "losses": 0,
+          "ties": 4
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6562490,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "4. Kendall G. & Alfonso L.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 1,
+          "teamCount": 12,
+          "wins": 11,
+          "losses": 0,
+          "ties": 5
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6691741,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "6. Kendall G. & Alfonso L.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 1,
+          "teamCount": 12,
+          "wins": 13,
+          "losses": 1,
+          "ties": 2
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6845017,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "9. Kendall G. & Alfonso L.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 1,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        }
+      ]
+    },
+    "6845197": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 4237988,
+          "teamId": 6845197,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "8. Jo P. & Emiliano T.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": null,
+          "position": 12,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "6845656": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 4237988,
+          "teamId": 6845656,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "7. Sarah H. & Austin J.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": null,
+          "position": 10,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "6846018": {
+      "seasons": 6,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6694078,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "8. Giselle L. & Phil A.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 3719718,
+          "teamId": 6155877,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Giselle L. & Philip A.",
+          "endDate": 1683172800000,
+          "level": "AA",
+          "move": null,
+          "position": 1,
+          "teamCount": 12,
+          "wins": 14,
+          "losses": 0,
+          "ties": 2
+        },
+        {
+          "programId": 3909678,
+          "teamId": 6392974,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "5. Giselle T. & Philip A.",
+          "endDate": 1689825600000,
+          "level": "AA",
+          "move": "same",
+          "position": 2,
+          "teamCount": 12,
+          "wins": 12,
+          "losses": 0,
+          "ties": 4
+        },
+        {
+          "programId": 3981244,
+          "teamId": 6483602,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "8. Giselle T. & Philip A.",
+          "endDate": 1695873600000,
+          "level": "AA",
+          "move": "same",
+          "position": 2,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 1,
+          "ties": 4
+        },
+        {
+          "programId": 4045355,
+          "teamId": 6568145,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "10. Giselle L. & Philip A.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": "same",
+          "position": 4,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6694078,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "8. Giselle L. & Phil A.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 2,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6846018,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "6. Giselle T. & Philip A.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 2,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "6846322": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6693938,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "11. Molly J. & Josh K.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 4045355,
+          "teamId": 6567394,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "6. Molly J. & Josh K.",
+          "endDate": 1702530000000,
+          "level": "AA",
+          "move": null,
+          "position": 3,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        },
+        {
+          "programId": 4139359,
+          "teamId": 6693938,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Molly J. & Josh K.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": "same",
+          "position": 3,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 2,
+          "ties": 8
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6846322,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "10. Molly J. & Josh K.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 3,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 1,
+          "ties": 11
+        }
+      ]
+    },
+    "6846694": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 4139359,
+        "teamId": 6721034,
+        "programName": "Thursday Coed 2s AA",
+        "teamName": "9. Julia D. & Matt B.",
+        "level": "AA"
+      },
+      "history": [
+        {
+          "programId": 4139359,
+          "teamId": 6721034,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "9. Julia D. & Matt B.",
+          "endDate": 1715227200000,
+          "level": "AA",
+          "move": null,
+          "position": 6,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 4,
+          "ties": 7
+        },
+        {
+          "programId": 4237988,
+          "teamId": 6846694,
+          "programName": "Thursday Coed 2s AA",
+          "teamName": "11. Julia D. & Matt B.",
+          "endDate": 1722484800000,
+          "level": "AA",
+          "move": "same",
+          "position": 5,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4661443,
+  "teamId": 7455718,
+  "teamName": "5. Vanessa S. and Rudy D.",
+  "players": [
+    {
+      "userId": 16184074,
+      "firstName": "Jesus",
+      "isCaptain": true
+    },
+    {
+      "userId": 47164644,
+      "firstName": "Vanessa",
+      "isCaptain": false
+    }
+  ]
+}

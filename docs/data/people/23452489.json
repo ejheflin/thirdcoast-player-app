@@ -1,0 +1,24 @@
+{
+  "userId": 23452489,
+  "firstName": "Jack",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4187898,
+      "teamName": "1 - Booze Cruise (Jack S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3949078,
+      "teamName": "2 - Booze Cruise (Jack S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3633604,
+      "teamName": "3 - Booze Crew (Jack S.)",
+      "isCaptain": true
+    }
+  ]
+}

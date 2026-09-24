@@ -1,0 +1,17 @@
+{
+  "programId": 4592484,
+  "teamId": 7344380,
+  "teamName": "3. Julia D. and Brent B.",
+  "players": [
+    {
+      "userId": 49945661,
+      "firstName": "Brent",
+      "isCaptain": true
+    },
+    {
+      "userId": 29506803,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

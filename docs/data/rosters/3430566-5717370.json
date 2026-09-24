@@ -1,0 +1,32 @@
+{
+  "programId": 3430566,
+  "teamId": 5717370,
+  "teamName": "10. Big Dig Energy (Richard H.)",
+  "players": [
+    {
+      "userId": 34744092,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 37541718,
+      "firstName": "Francisco",
+      "isCaptain": false
+    },
+    {
+      "userId": 29651328,
+      "firstName": "Richard",
+      "isCaptain": true
+    },
+    {
+      "userId": 29627895,
+      "firstName": "Johnny",
+      "isCaptain": false
+    },
+    {
+      "userId": 37512333,
+      "firstName": "trey",
+      "isCaptain": false
+    }
+  ]
+}

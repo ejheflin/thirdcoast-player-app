@@ -1,0 +1,30 @@
+{
+  "userId": 53460609,
+  "firstName": "Taylor",
+  "appearances": [
+    {
+      "programId": 4975318,
+      "teamId": 7934436,
+      "teamName": "8. Back Door Bumpers (Taylor L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7585173,
+      "teamName": "4. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7447218,
+      "teamName": "5. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7797999,
+      "teamName": "7. Beach ballers (Megan C.)",
+      "isCaptain": false
+    }
+  ]
+}

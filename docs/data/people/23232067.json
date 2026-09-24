@@ -1,0 +1,48 @@
+{
+  "userId": 23232067,
+  "firstName": "Jeremy",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6554611,
+      "teamName": "9. Block Party (Jeremy M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6690270,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872925,
+      "teamId": 7788770,
+      "teamName": "7. Spikeopathic Tendencies (Jeremy M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6809467,
+      "teamName": "2. Sets on the Beach (Kerry C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6374046,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7025455,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165186,
+      "teamName": "8. Big Dig Energy (Jeremy M.)",
+      "isCaptain": true
+    }
+  ]
+}

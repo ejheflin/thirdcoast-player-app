@@ -1,0 +1,18 @@
+{
+  "userId": 14645305,
+  "firstName": "Suzanne",
+  "appearances": [
+    {
+      "programId": 4139257,
+      "teamId": 6722721,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6549261,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

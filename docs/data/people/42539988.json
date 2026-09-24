@@ -1,0 +1,12 @@
+{
+  "userId": 42539988,
+  "firstName": "Peter",
+  "appearances": [
+    {
+      "programId": 3719727,
+      "teamId": 6158958,
+      "teamName": "6. Calm Your Tips (Emma P.)",
+      "isCaptain": false
+    }
+  ]
+}

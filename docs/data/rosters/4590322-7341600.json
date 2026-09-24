@@ -1,0 +1,32 @@
+{
+  "programId": 4590322,
+  "teamId": 7341600,
+  "teamName": "1. Sets Pistols (Christina Z.)",
+  "players": [
+    {
+      "userId": 52121760,
+      "firstName": "Justin",
+      "isCaptain": false
+    },
+    {
+      "userId": 51140884,
+      "firstName": "Andrea",
+      "isCaptain": false
+    },
+    {
+      "userId": 49910846,
+      "firstName": "Valerie",
+      "isCaptain": false
+    },
+    {
+      "userId": 51130544,
+      "firstName": "Denise",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887623,
+      "firstName": "Christina",
+      "isCaptain": true
+    }
+  ]
+}

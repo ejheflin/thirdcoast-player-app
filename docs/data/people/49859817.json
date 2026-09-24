@@ -19,6 +19,36 @@
       "teamId": 8150563,
       "teamName": "7. The Thurmanators (David Z.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4589133,
+      "teamId": 7343701,
+      "teamName": "6. The Thurmanators (David Z.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7920311,
+      "teamName": "6. The Thurmanators (David Z.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872969,
+      "teamId": 7759660,
+      "teamName": "3. The Thurmanators (David Z.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7464763,
+      "teamName": "8. The Thurmanators (David Z.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7578993,
+      "teamName": "2. The Thurmanators (David Z.)",
+      "isCaptain": true
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "programId": 4752513,
+  "teamId": 7588171,
+  "teamName": "3. Bump, Set… Dammit! (Nathan G.)",
+  "players": [
+    {
+      "userId": 48184723,
+      "firstName": "Kathleen",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184594,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184584,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": true
+    },
+    {
+      "userId": 51016039,
+      "firstName": "Sara",
+      "isCaptain": false
+    }
+  ]
+}

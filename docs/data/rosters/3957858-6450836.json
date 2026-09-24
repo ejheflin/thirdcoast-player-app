@@ -1,0 +1,27 @@
+{
+  "programId": 3957858,
+  "teamId": 6450836,
+  "teamName": "4. Empire Spikes Back (Ash B.)",
+  "players": [
+    {
+      "userId": 38194146,
+      "firstName": "Brett",
+      "isCaptain": false
+    },
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": true
+    },
+    {
+      "userId": 29586969,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 31727040,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

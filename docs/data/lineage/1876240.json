@@ -1,0 +1,173 @@
+{
+  "programId": 1876240,
+  "teams": {
+    "3429019": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3429019,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "4 - Practice Safe Sets (Jason B.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "3432148": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3432148,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "2 - Can You Dig It? (Marc S.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "3446323": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3446323,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "3 - Can't Keep Score (Joy R.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "3448135": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3448135,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "1 - Buns & Bazookas (Stefan W.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 0,
+          "ties": 3
+        }
+      ]
+    },
+    "3455935": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3455935,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "7 - That's What She Sets (Brandon B.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 8,
+          "ties": 1
+        }
+      ]
+    },
+    "3457135": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3457135,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "6 - Bumpin Uglies (Matt O.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 8,
+          "ties": 2
+        }
+      ]
+    },
+    "3457372": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3457372,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "5 - Ninja Turtles (Andrew B.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "3469582": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1876240,
+          "teamId": 3469582,
+          "programName": "Monday Coed 4s Upper Intermediate/Intermediate",
+          "teamName": "8 - To Be Determined (JJ C.)",
+          "endDate": 1606712400000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 11,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

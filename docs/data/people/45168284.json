@@ -13,6 +13,36 @@
       "teamId": 8142399,
       "teamName": "1. Beach Please (Annie L.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7026759,
+      "teamName": "7. Pass these hands (George C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6450857,
+      "teamName": "3. Welcome to the Sonderdome (Son T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7923356,
+      "teamName": "5. Beach Please (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6920820,
+      "teamName": "7. Passing These Hands (George C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6826503,
+      "teamName": "8. Passing These Hands (George C.)",
+      "isCaptain": false
     }
   ]
 }

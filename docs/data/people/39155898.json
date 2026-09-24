@@ -25,6 +25,168 @@
       "teamId": 8148916,
       "teamName": "8. Team Jacob (Mark J.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7472410,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7048509,
+      "teamName": "2. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7352182,
+      "teamName": "5. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196685,
+      "teamName": "3. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6845415,
+      "teamName": "10. Savannah W. & Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7773678,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7581695,
+      "teamName": "10. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7923522,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6559238,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7900353,
+      "teamName": "7. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549942,
+      "teamName": "7. Practice Safe Sets (John O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7184949,
+      "teamName": "2. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7017452,
+      "teamName": "6. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7569140,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7428857,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7758960,
+      "teamName": "4. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6447843,
+      "teamName": "1. Jeff's Team (Jeff S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6382623,
+      "teamName": "4. Team Name (Marshall C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820952,
+      "teamName": "4. Las Tóxicas (Nicole P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7337305,
+      "teamName": "1. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6691456,
+      "teamName": "8. Practice Safe Sets (John O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6558276,
+      "teamName": "12. Jeff S. & Zack B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6945233,
+      "teamName": "9. Mikhail B. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6469501,
+      "teamName": "12. Gary C. & Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7185052,
+      "teamName": "3. Jeff S. and Josh K.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7352181,
+      "teamName": "10. Jeff S. and Evan D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7050792,
+      "teamName": "5. Luis L. and Jeff S.",
+      "isCaptain": false
     }
   ]
 }

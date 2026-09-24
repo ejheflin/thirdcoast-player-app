@@ -1,0 +1,30 @@
+{
+  "userId": 15948247,
+  "firstName": "Andrea",
+  "appearances": [
+    {
+      "programId": 3957842,
+      "teamId": 6444085,
+      "teamName": "3. Andrea M. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6482147,
+      "teamName": "4. Super Sandy Battle Axes (Andrea M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6566769,
+      "teamName": "7. Super Sandy Battle Axes (Andrea M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6380334,
+      "teamName": "3. Sandy Battle Axes (Andrea M.)",
+      "isCaptain": true
+    }
+  ]
+}

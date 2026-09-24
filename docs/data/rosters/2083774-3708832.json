@@ -1,0 +1,27 @@
+{
+  "programId": 2083774,
+  "teamId": 3708832,
+  "teamName": "7 - Serves You Right (Michael I.)",
+  "players": [
+    {
+      "userId": 22384618,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 22371148,
+      "firstName": "Allison",
+      "isCaptain": false
+    },
+    {
+      "userId": 23973421,
+      "firstName": "Nan",
+      "isCaptain": false
+    },
+    {
+      "userId": 23969818,
+      "firstName": "Eric",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4139330,
+  "teamId": 6689950,
+  "teamName": "8. Tiffany S. & Nicole B.",
+  "players": [
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 14760175,
+      "firstName": "Tiffany",
+      "isCaptain": true
+    }
+  ]
+}

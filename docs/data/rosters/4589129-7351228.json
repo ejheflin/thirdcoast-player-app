@@ -1,0 +1,17 @@
+{
+  "programId": 4589129,
+  "teamId": 7351228,
+  "teamName": "9. Denise H. and Jason O.",
+  "players": [
+    {
+      "userId": 46566898,
+      "firstName": "Denise",
+      "isCaptain": true
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": false
+    }
+  ]
+}

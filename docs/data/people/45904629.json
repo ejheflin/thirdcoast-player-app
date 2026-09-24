@@ -1,0 +1,24 @@
+{
+  "userId": 45904629,
+  "firstName": "Ben",
+  "appearances": [
+    {
+      "programId": 4139257,
+      "teamId": 6690030,
+      "teamName": "4. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6816519,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6554439,
+      "teamName": "10. Net Ninjas (Nate W.)",
+      "isCaptain": false
+    }
+  ]
+}

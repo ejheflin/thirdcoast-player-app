@@ -1,0 +1,17 @@
+{
+  "programId": 4369534,
+  "teamId": 7027866,
+  "teamName": "3. Destiny H. and Cody C.",
+  "players": [
+    {
+      "userId": 50107381,
+      "firstName": "Destiny",
+      "isCaptain": true
+    },
+    {
+      "userId": 50108767,
+      "firstName": "cody",
+      "isCaptain": false
+    }
+  ]
+}

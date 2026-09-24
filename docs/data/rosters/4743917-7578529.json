@@ -1,0 +1,17 @@
+{
+  "programId": 4743917,
+  "teamId": 7578529,
+  "teamName": "9. Melissa B. and Lindsay K.",
+  "players": [
+    {
+      "userId": 14785066,
+      "firstName": "Melissa",
+      "isCaptain": true
+    },
+    {
+      "userId": 14817949,
+      "firstName": "Lindsay",
+      "isCaptain": false
+    }
+  ]
+}

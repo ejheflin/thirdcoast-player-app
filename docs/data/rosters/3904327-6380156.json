@@ -1,0 +1,22 @@
+{
+  "programId": 3904327,
+  "teamId": 6380156,
+  "teamName": "8. The Set Masters (Ivan M.)",
+  "players": [
+    {
+      "userId": 17338705,
+      "firstName": "Jessica",
+      "isCaptain": false
+    },
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 14692090,
+      "firstName": "Ivan",
+      "isCaptain": true
+    }
+  ]
+}

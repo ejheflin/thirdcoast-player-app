@@ -1,0 +1,17 @@
+{
+  "programId": 4976992,
+  "teamId": 7899563,
+  "teamName": "7. Taylor B. and Colby H.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 46610862,
+      "firstName": "Colby",
+      "isCaptain": false
+    }
+  ]
+}

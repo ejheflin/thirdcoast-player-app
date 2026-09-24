@@ -1,0 +1,17 @@
+{
+  "programId": 3719715,
+  "teamId": 6126816,
+  "teamName": "10. Taylor B. & Luigi H.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 14705833,
+      "firstName": "Luis",
+      "isCaptain": false
+    }
+  ]
+}

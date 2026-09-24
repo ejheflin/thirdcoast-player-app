@@ -1,0 +1,27 @@
+{
+  "programId": 4743908,
+  "teamId": 7566817,
+  "teamName": "1. Chocolate and Cream Coalition (Ryan T.)",
+  "players": [
+    {
+      "userId": 49888211,
+      "firstName": "Rew",
+      "isCaptain": false
+    },
+    {
+      "userId": 49932436,
+      "firstName": "Carissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 49895646,
+      "firstName": "TeRon",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887630,
+      "firstName": "Ryan",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "userId": 22327516,
+  "firstName": "Kim",
+  "appearances": [
+    {
+      "programId": 3715962,
+      "teamId": 6126804,
+      "teamName": "6. Kim S. & Mike O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7904839,
+      "teamName": "5. Kim S. and Eli F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761981,
+      "teamName": "4. Kim S. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7592597,
+      "teamName": "9. Kim S. and Isa T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6374049,
+      "teamName": "4. Kim S. & Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6444833,
+      "teamName": "4. Kim S. & Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6542152,
+      "teamName": "1. Kim S. & Noman Z.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7447246,
+      "teamName": "6. Kim S. and Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689176,
+      "teamName": "4. Kim S. & Noman Z.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7336374,
+      "teamName": "7. Kim S. and Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6812798,
+      "teamName": "7. Kim S. & Noman Z.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7197963,
+      "teamName": "6. Kim S. and Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6910663,
+      "teamName": "5. Kim S. and Mike O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7021475,
+      "teamName": "8. Kim S. and Mike O.",
+      "isCaptain": true
+    }
+  ]
+}

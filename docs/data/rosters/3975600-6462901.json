@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6462901,
+  "teamName": "3. Jessica B. & Antonio P.",
+  "players": [
+    {
+      "userId": 21116116,
+      "firstName": "Jessica",
+      "isCaptain": true
+    },
+    {
+      "userId": 45244311,
+      "firstName": "antonio",
+      "isCaptain": false
+    }
+  ]
+}

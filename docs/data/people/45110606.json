@@ -1,0 +1,18 @@
+{
+  "userId": 45110606,
+  "firstName": "Tyler",
+  "appearances": [
+    {
+      "programId": 4031655,
+      "teamId": 6549625,
+      "teamName": "5. Kiss my Ace (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6450755,
+      "teamName": "6. Here for the exercise (Jessica C.)",
+      "isCaptain": false
+    }
+  ]
+}

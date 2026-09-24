@@ -1,0 +1,37 @@
+{
+  "programId": 1734328,
+  "teamId": 3256264,
+  "teamName": "2 - Sonova Beach (Evan G.)",
+  "players": [
+    {
+      "userId": 21017464,
+      "firstName": "Madison",
+      "isCaptain": false
+    },
+    {
+      "userId": 21017158,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 20568550,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 20950363,
+      "firstName": "Kally",
+      "isCaptain": false
+    },
+    {
+      "userId": 21017800,
+      "firstName": "Nate",
+      "isCaptain": false
+    },
+    {
+      "userId": 21263329,
+      "firstName": "Craig",
+      "isCaptain": false
+    }
+  ]
+}

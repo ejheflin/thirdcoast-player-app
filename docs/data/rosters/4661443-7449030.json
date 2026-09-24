@@ -1,0 +1,17 @@
+{
+  "programId": 4661443,
+  "teamId": 7449030,
+  "teamName": "4. Beth B. and Kumar R.",
+  "players": [
+    {
+      "userId": 14662834,
+      "firstName": "Beth",
+      "isCaptain": true
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    }
+  ]
+}

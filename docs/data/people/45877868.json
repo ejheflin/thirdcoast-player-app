@@ -1,0 +1,36 @@
+{
+  "userId": 45877868,
+  "firstName": "Jason",
+  "appearances": [
+    {
+      "programId": 4288378,
+      "teamId": 6914885,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7029717,
+      "teamName": "7. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6821091,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6722774,
+      "teamName": "5. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6550639,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "isCaptain": false
+    }
+  ]
+}

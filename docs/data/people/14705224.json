@@ -1,0 +1,66 @@
+{
+  "userId": 14705224,
+  "firstName": "Richard",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6449747,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6381551,
+      "teamName": "5. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4812609,
+      "teamName": "9 - Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3437308,
+      "teamName": "3 - Bump SET Attack! (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5206018,
+      "teamName": "3 - Just4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6701777,
+      "teamName": "2. Just Get the Ball (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5452434,
+      "teamName": "2 - Just for Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5711148,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6544179,
+      "teamName": "1. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3275572,
+      "teamName": "7 - All Sets are Off (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

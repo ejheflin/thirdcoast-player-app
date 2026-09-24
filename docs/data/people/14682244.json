@@ -1,0 +1,36 @@
+{
+  "userId": 14682244,
+  "firstName": "Tommy",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6449747,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6381551,
+      "teamName": "5. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3461371,
+      "teamName": "8 - Soft Serves (Emma P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6151995,
+      "teamName": "6. JUST 4FUN (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3261073,
+      "teamName": "3 - Now Serving (Emma P.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 4589133,
+  "teamId": 7337981,
+  "teamName": "3. Big Dig Energy (Juliana T.)",
+  "players": [
+    {
+      "userId": 52008040,
+      "firstName": "Alexander",
+      "isCaptain": false
+    },
+    {
+      "userId": 49397436,
+      "firstName": "Juliana",
+      "isCaptain": true
+    },
+    {
+      "userId": 49754764,
+      "firstName": "Lauren",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "userId": 49012990,
+  "firstName": "Christian",
+  "appearances": [
+    {
+      "programId": 4497641,
+      "teamId": 7199899,
+      "teamName": "1. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6915256,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7028806,
+      "teamName": "3. Key Bumps (Harley G.)",
+      "isCaptain": false
+    }
+  ]
+}

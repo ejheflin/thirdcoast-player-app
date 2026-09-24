@@ -1,0 +1,17 @@
+{
+  "programId": 4319078,
+  "teamId": 6958970,
+  "teamName": "1. Jasmin C. and Colby H.",
+  "players": [
+    {
+      "userId": 47102015,
+      "firstName": "Jasmin",
+      "isCaptain": false
+    },
+    {
+      "userId": 46610862,
+      "firstName": "Colby",
+      "isCaptain": true
+    }
+  ]
+}

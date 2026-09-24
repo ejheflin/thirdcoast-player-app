@@ -1,0 +1,17 @@
+{
+  "programId": 4488344,
+  "teamId": 7224638,
+  "teamName": "8. Ryan S. and Ruslan A.",
+  "players": [
+    {
+      "userId": 14737468,
+      "firstName": "Ruslan",
+      "isCaptain": false
+    },
+    {
+      "userId": 27881085,
+      "firstName": "Ryan",
+      "isCaptain": true
+    }
+  ]
+}

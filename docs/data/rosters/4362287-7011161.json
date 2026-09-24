@@ -1,0 +1,17 @@
+{
+  "programId": 4362287,
+  "teamId": 7011161,
+  "teamName": "3. Lauren H. and Nicole B.",
+  "players": [
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": true
+    },
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": false
+    }
+  ]
+}

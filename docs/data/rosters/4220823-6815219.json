@@ -1,0 +1,17 @@
+{
+  "programId": 4220823,
+  "teamId": 6815219,
+  "teamName": "8. Cyan L. & Tyler J.",
+  "players": [
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": true
+    },
+    {
+      "userId": 44273790,
+      "firstName": "Cyan",
+      "isCaptain": false
+    }
+  ]
+}

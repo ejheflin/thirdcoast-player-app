@@ -1,0 +1,48 @@
+{
+  "userId": 37341172,
+  "firstName": "Kerry",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6547432,
+      "teamName": "4. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6689165,
+      "teamName": "5. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6809467,
+      "teamName": "2. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6908782,
+      "teamName": "3. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7028124,
+      "teamName": "9. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6447169,
+      "teamName": "1. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6129684,
+      "teamName": "1. Sets on the Beach (Kerry C.)",
+      "isCaptain": true
+    }
+  ]
+}

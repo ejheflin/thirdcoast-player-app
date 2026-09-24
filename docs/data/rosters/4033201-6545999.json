@@ -1,0 +1,17 @@
+{
+  "programId": 4033201,
+  "teamId": 6545999,
+  "teamName": "3. Johnny W. & Hollis S.",
+  "players": [
+    {
+      "userId": 14634340,
+      "firstName": "Hollis",
+      "isCaptain": false
+    },
+    {
+      "userId": 14567347,
+      "firstName": "Johnny",
+      "isCaptain": true
+    }
+  ]
+}

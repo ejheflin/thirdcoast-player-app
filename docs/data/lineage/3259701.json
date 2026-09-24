@@ -1,0 +1,215 @@
+{
+  "programId": 3259701,
+  "teams": {
+    "5450901": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5450901,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "4. Liz C. & Devin S.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "5458659": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5458659,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "5. Michelle C. & Josman R.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "5458689": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5458689,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "2. Hannah S. & Matt G.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "5460822": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5460822,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "6. Sarah H. & Stefan W.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "5461146": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5461146,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "7. Marisela R. & Mike O.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 6,
+          "ties": 9
+        }
+      ]
+    },
+    "5461554": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5461554,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "3. Nicole P. & Isa T.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "5461974": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5461974,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "1. Jackie S. & Adolph T.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "5463300": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5463300,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "8. Taylor B. & Jaimie G.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 5,
+          "ties": 8
+        }
+      ]
+    },
+    "5463913": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5463913,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "9. Julia D. & Emiliano T.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "5466286": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3259701,
+          "teamId": 5466286,
+          "programName": "Thursday Coed 2s A",
+          "teamName": "10. Julia L. & Son T.",
+          "endDate": 1664424000000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    }
+  }
+}

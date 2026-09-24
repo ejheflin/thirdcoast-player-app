@@ -1,0 +1,337 @@
+{
+  "programId": 2278405,
+  "teams": {
+    "3925735": {
+      "seasons": 4,
+      "move": "same",
+      "from": {
+        "programId": 2083774,
+        "teamId": 3626953,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3287932,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8 - Volley Fire (Benet G.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 2
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3439867,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Beer, Bongs, & Balls (Benet G.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 4,
+          "ties": 3
+        },
+        {
+          "programId": 2083774,
+          "teamId": 3626953,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+          "endDate": 1619496000000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 10,
+          "ties": 5
+        },
+        {
+          "programId": 2278405,
+          "teamId": 3925735,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "10 - 4 Boobs and Balls (Benet G.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 8,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 10,
+          "ties": 4
+        }
+      ]
+    },
+    "3934375": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3934375,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Hustle Gang (Calvin D.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "3939652": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 2083774,
+        "teamId": 3665539,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "5 - Make-up Sets (Naomi L.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 2083774,
+          "teamId": 3665539,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Make-up Sets (Naomi L.)",
+          "endDate": 1619496000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 7
+        },
+        {
+          "programId": 2278405,
+          "teamId": 3939652,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "1 - Make-up Sets (Naomi L.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "3944392": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 2083774,
+        "teamId": 3691234,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 2083774,
+          "teamId": 3691234,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+          "endDate": 1619496000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        },
+        {
+          "programId": 2278405,
+          "teamId": 3944392,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "3947947": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3947947,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "4 - SKG D' Arsenal (David T.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "3948634": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 2083774,
+        "teamId": 3626278,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "4 - Getting It In (Ralph T.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1886707,
+          "teamId": 3459337,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6 - Getting It In (Jose B.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 4,
+          "ties": 5
+        },
+        {
+          "programId": 2083774,
+          "teamId": 3626278,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "4 - Getting It In (Ralph T.)",
+          "endDate": 1619496000000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 10,
+          "ties": 4
+        },
+        {
+          "programId": 2278405,
+          "teamId": 3948634,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "3 - Getting It In (Ryan D.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 9,
+          "ties": 3
+        }
+      ]
+    },
+    "3949078": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3949078,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Booze Cruise (Jack S.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "3949759": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3949759,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7 - Team Stankaitas (Evan L.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 12,
+          "ties": 1
+        }
+      ]
+    },
+    "3953017": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3953017,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8 - Das Gunners (David T.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 11,
+          "losses": 3,
+          "ties": 2
+        }
+      ]
+    },
+    "3958873": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278405,
+          "teamId": 3958873,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "9 - Full Send (Julia L.)",
+          "endDate": 1626148800000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

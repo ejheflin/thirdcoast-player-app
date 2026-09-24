@@ -1,0 +1,17 @@
+{
+  "programId": 4379700,
+  "teamId": 7051448,
+  "teamName": "9. Nicole B. and Phil A.",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "programId": 2606679,
+  "teams": {
+    "4417854": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4417854,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "2 - Tasha W. & Tommy S.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 11,
+          "ties": 4
+        }
+      ]
+    },
+    "4418838": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4418838,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "1 - Melissa L. & Steven L.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    },
+    "4420698": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4420698,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "3 - Naomi L. & Richard L.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 12,
+          "ties": 2
+        }
+      ]
+    },
+    "4421340": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4421340,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "4 - Josman R. & Margo P.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 4,
+          "ties": 2
+        }
+      ]
+    },
+    "4422789": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4422789,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "7 - Nicole P. & Manny A.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "4423797": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4423797,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "6 - Kim M. & Dalton M.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "4428138": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4428138,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "8 - Kendall C. & Zach G.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 8
+        }
+      ]
+    },
+    "4428399": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2606679,
+          "teamId": 4428399,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "5 - Diem P. & Paul I.",
+          "endDate": 1637298000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 9,
+          "ties": 3
+        }
+      ]
+    }
+  }
+}

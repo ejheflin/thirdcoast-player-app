@@ -1,0 +1,17 @@
+{
+  "programId": 4488152,
+  "teamId": 7188328,
+  "teamName": "7. Lauren H. and Tiffany J.",
+  "players": [
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": true
+    },
+    {
+      "userId": 18441355,
+      "firstName": "Tiffany",
+      "isCaptain": false
+    }
+  ]
+}

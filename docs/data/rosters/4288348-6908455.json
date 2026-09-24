@@ -1,0 +1,17 @@
+{
+  "programId": 4288348,
+  "teamId": 6908455,
+  "teamName": "4. Joann L. and George C.",
+  "players": [
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": false
+    },
+    {
+      "userId": 17401432,
+      "firstName": "Joann",
+      "isCaptain": true
+    }
+  ]
+}

@@ -13,6 +13,18 @@
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7585270,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7906943,
+      "teamName": "5. Arsenal Gunners (Julianna T.)",
+      "isCaptain": false
     }
   ]
 }

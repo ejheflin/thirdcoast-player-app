@@ -19,6 +19,84 @@
       "teamId": 8139783,
       "teamName": "5. HIT FACED (Clark P.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7194592,
+      "teamName": "2. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7456113,
+      "teamName": "3. Bumping Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7588008,
+      "teamName": "7. Sandy Shorts (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7759496,
+      "teamName": "5. HIT FACED (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6696430,
+      "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7337265,
+      "teamName": "2. Bumpin Uglies (Clark P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7185035,
+      "teamName": "10. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6924583,
+      "teamName": "7. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823787,
+      "teamName": "7. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6696431,
+      "teamName": "6. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7563161,
+      "teamName": "2. Volley Llamas (Daphne D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550058,
+      "teamName": "8. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362285,
+      "teamId": 7029401,
+      "teamName": "8. Thats What She Set (Albert F.)",
+      "isCaptain": false
     }
   ]
 }

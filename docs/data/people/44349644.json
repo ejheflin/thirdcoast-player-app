@@ -1,0 +1,30 @@
+{
+  "userId": 44349644,
+  "firstName": "Yash",
+  "appearances": [
+    {
+      "programId": 4362247,
+      "teamId": 7012424,
+      "teamName": "8. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6450792,
+      "teamName": "5. Sandy Cheeks (Dani D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6386884,
+      "teamName": "10. Sandy Cheeks (Dani D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6544902,
+      "teamName": "3. Sandy Cheeks (Dani D.)",
+      "isCaptain": false
+    }
+  ]
+}

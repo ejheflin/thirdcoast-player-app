@@ -1,0 +1,17 @@
+{
+  "programId": 4237988,
+  "teamId": 6845197,
+  "teamName": "8. Jo P. & Emiliano T.",
+  "players": [
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707129,
+      "firstName": "Emiliano",
+      "isCaptain": false
+    }
+  ]
+}

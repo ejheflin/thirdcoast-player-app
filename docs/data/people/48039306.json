@@ -1,0 +1,24 @@
+{
+  "userId": 48039306,
+  "firstName": "Anne",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7350007,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6913095,
+      "teamName": "5. The Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823003,
+      "teamName": "9. The Vacationers (Phil M.)",
+      "isCaptain": false
+    }
+  ]
+}

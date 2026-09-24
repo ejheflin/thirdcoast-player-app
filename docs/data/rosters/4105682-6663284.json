@@ -1,0 +1,17 @@
+{
+  "programId": 4105682,
+  "teamId": 6663284,
+  "teamName": "8. 2Legit2Hit (Thanh N.)",
+  "players": [
+    {
+      "userId": 21067966,
+      "firstName": "Crystal",
+      "isCaptain": false
+    },
+    {
+      "userId": 46655888,
+      "firstName": "Thanh",
+      "isCaptain": true
+    }
+  ]
+}

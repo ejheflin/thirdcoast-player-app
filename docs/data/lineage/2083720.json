@@ -1,0 +1,215 @@
+{
+  "programId": 2083720,
+  "teams": {
+    "3625651": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3625651,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "2 - Michelle E. & Dan L.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "3626317": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3626317,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "3 - Gabriela C. & Marshall C.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "3626356": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3626356,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "6 - Erin V. & Brian C.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "3626392": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3626392,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "1 - Naomi L. & Richard L.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "3626527": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3626527,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "4 - Kim S. & Mike O.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "3641725": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3641725,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "7 - Fran R. & Brad F.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3690784": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3690784,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "5 - Jess L. & Edwin F.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 0,
+          "ties": 1
+        }
+      ]
+    },
+    "3692035": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3692035,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "8 - Kayla C. & Yuxi D.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 11,
+          "ties": 5
+        }
+      ]
+    },
+    "3710350": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3710350,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "9 - Emily R. & Brent B.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "3711172": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083720,
+          "teamId": 3711172,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "10 - Sage H. & Jonny T.",
+          "endDate": 1620014400000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

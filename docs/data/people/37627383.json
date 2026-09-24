@@ -1,0 +1,18 @@
+{
+  "userId": 37627383,
+  "firstName": "Erik",
+  "appearances": [
+    {
+      "programId": 3257331,
+      "teamId": 5456238,
+      "teamName": "9 - Calm Yo Tips (Anthony K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5708634,
+      "teamName": "8. Calm Your Tips (Anthony K.)",
+      "isCaptain": false
+    }
+  ]
+}

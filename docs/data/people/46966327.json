@@ -7,6 +7,60 @@
       "teamId": 8036768,
       "teamName": "9. Carpe Digem (Eric H.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6912738,
+      "teamName": "10. The Extra Milla (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6819520,
+      "teamName": "10. Rolling Thunder (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7923360,
+      "teamName": "9. Carpe Digem (Eric H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6912574,
+      "teamName": "3. Hammer Time (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7186247,
+      "teamName": "2. Bremer Tremor (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7442367,
+      "teamName": "4. S’Moores (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7341128,
+      "teamName": "9. SMoores (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7027807,
+      "teamName": "2. Everyday I’m Hef-a-lin (Alex M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6704985,
+      "teamName": "9. No Sets on the Beach (Alex M.)",
+      "isCaptain": true
     }
   ]
 }

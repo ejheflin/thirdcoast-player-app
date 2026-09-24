@@ -1,0 +1,24 @@
+{
+  "userId": 15220531,
+  "firstName": "Cathryn",
+  "appearances": [
+    {
+      "programId": 2609355,
+      "teamId": 4434633,
+      "teamName": "4 - Spike It Harder (Brad O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3448207,
+      "teamName": "1 - A team (Brandon B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626899,
+      "teamName": "1 - A Team (Brandon B.)",
+      "isCaptain": false
+    }
+  ]
+}

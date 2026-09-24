@@ -1,0 +1,24 @@
+{
+  "userId": 52185013,
+  "firstName": "krissy",
+  "appearances": [
+    {
+      "programId": 4661449,
+      "teamId": 7449104,
+      "teamName": "4. Krissy B. and Mason S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7598623,
+      "teamName": "2. Krissy B. and Mason S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7349280,
+      "teamName": "7. Krissy B. and Mason S.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4362287,
+  "teamId": 7013996,
+  "teamName": "10. Yanni S. and Sarah R.",
+  "players": [
+    {
+      "userId": 49782616,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

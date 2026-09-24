@@ -1,0 +1,215 @@
+{
+  "programId": 1205860,
+  "teams": {
+    "2512123": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2512123,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - SKG Gunners (David T.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "2512654": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2512654,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - The Server Spiked Your Dink (Jaimie G.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 6
+        }
+      ]
+    },
+    "2513725": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2513725,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Beaches and Cream (Liz C.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 11,
+          "ties": 2
+        }
+      ]
+    },
+    "2514949": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2514949,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - Dream Team (George C.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 0,
+          "ties": 6
+        }
+      ]
+    },
+    "2515741": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2515741,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - \"It's The Sweet One!\" (Quentin B.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 7,
+          "ties": 2
+        }
+      ]
+    },
+    "2515942": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2515942,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - That's What She Set (Mauricio H.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "2516659": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2516659,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Can You Dig It? (Tom K.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "2518225": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2518225,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - Ball Whisperers (Matthew G.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "2519929": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2519929,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - Arsenal Gunners (David T.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2520745": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205860,
+          "teamId": 2520745,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Set on my Face (Lyndon Z.)",
+          "endDate": 1568692800000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

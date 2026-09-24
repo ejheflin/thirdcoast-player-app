@@ -1,0 +1,27 @@
+{
+  "programId": 3904395,
+  "teamId": 6380810,
+  "teamName": "4. Indoor Ballers Turned Beach Junkies (Michael R.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 27989439,
+      "firstName": "Shelbi",
+      "isCaptain": false
+    },
+    {
+      "userId": 17342788,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 39305583,
+      "firstName": "Martin",
+      "isCaptain": false
+    }
+  ]
+}

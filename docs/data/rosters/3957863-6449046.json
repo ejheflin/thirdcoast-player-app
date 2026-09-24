@@ -1,0 +1,17 @@
+{
+  "programId": 3957863,
+  "teamId": 6449046,
+  "teamName": "5. Yanni S. & Paige D.",
+  "players": [
+    {
+      "userId": 45176585,
+      "firstName": "Paige",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

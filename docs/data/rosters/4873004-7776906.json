@@ -1,0 +1,17 @@
+{
+  "programId": 4873004,
+  "teamId": 7776906,
+  "teamName": "1. Shelby L. and Michael A.",
+  "players": [
+    {
+      "userId": 45443780,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 46848746,
+      "firstName": "Shelby",
+      "isCaptain": false
+    }
+  ]
+}

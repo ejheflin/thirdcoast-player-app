@@ -1,0 +1,27 @@
+{
+  "programId": 2083774,
+  "teamId": 3626953,
+  "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+  "players": [
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": false
+    },
+    {
+      "userId": 14693932,
+      "firstName": "Nikita",
+      "isCaptain": false
+    },
+    {
+      "userId": 14625949,
+      "firstName": "benet",
+      "isCaptain": true
+    },
+    {
+      "userId": 21183061,
+      "firstName": "nels",
+      "isCaptain": false
+    }
+  ]
+}

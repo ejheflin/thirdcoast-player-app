@@ -1,0 +1,395 @@
+{
+  "programId": 3904462,
+  "teams": {
+    "6371273": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6145302,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "5. Melissa B. & Lindsay K.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6145302,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "5. Melissa B. & Lindsay K.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6371273,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "5. Melissa B. & Lindsay K.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "6372593": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6133875,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "1. Lisa B. & Tina O.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6133875,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "1. Lisa B. & Tina O.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 6
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6372593,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "1. Lisa B. & Tina O.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 6
+        }
+      ]
+    },
+    "6374318": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6130335,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "4. Liz C. & Sage H.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6130335,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "4. Liz C. & Sage H.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 8,
+          "ties": 4
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6374318,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "3. Liz C. & Sage H.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 12,
+          "ties": 3
+        }
+      ]
+    },
+    "6377863": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6134430,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "2. Diana F. & Yanni S.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6134430,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "2. Diana F. & Yanni S.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6377863,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "7. Sundara C. & Yanni S.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "6378546": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6134160,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "3. Giselle L. & Jo P.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6134160,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "3. Giselle L. & Jo P.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 11,
+          "losses": 0,
+          "ties": 5
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6378546,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "2. Jo P. & Giselle T.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "6380119": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6158994,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "10. Christine M. & Erika P.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6158994,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "10. Christine M. & Erika P.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6380119,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "4. Christine M. & Erika P.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 8,
+          "ties": 7
+        }
+      ]
+    },
+    "6380546": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6142950,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "7. Molly J. & Cabrina B.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6142950,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "7. Molly J. & Cabrina B.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6380546,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "8. Molly J. & Cabrina B.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "6380862": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6133314,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "8. Tiffany S. & Brittney G.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6133314,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "8. Tiffany S. & Brittney G.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 8,
+          "ties": 4
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6380862,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "9. Tiffany S. & Brittney G.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 3,
+          "ties": 9
+        }
+      ]
+    },
+    "6381456": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3719640,
+        "teamId": 6140004,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "6. Olivia J. & Emily F.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 3719640,
+          "teamId": 6140004,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "6. Olivia J. & Emily F.",
+          "endDate": 1682395200000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 0,
+          "ties": 6
+        },
+        {
+          "programId": 3904462,
+          "teamId": 6381456,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "6. Olivia J. & Emily F.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": "same",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "6383003": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3904462,
+          "teamId": 6383003,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "10. Beth B. & Susan P.",
+          "endDate": 1687838400000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

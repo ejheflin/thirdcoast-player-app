@@ -1,0 +1,37 @@
+{
+  "programId": 4873012,
+  "teamId": 7758353,
+  "teamName": "7. I’d Hit That (Jason O.)",
+  "players": [
+    {
+      "userId": 53727774,
+      "firstName": "Mary",
+      "isCaptain": false
+    },
+    {
+      "userId": 46001700,
+      "firstName": "Kyndal",
+      "isCaptain": false
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": true
+    },
+    {
+      "userId": 52287689,
+      "firstName": "Mohnish",
+      "isCaptain": false
+    },
+    {
+      "userId": 55445517,
+      "firstName": "Sophie",
+      "isCaptain": false
+    },
+    {
+      "userId": 45942289,
+      "firstName": "Charles",
+      "isCaptain": false
+    }
+  ]
+}

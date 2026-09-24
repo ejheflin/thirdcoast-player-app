@@ -1,0 +1,24 @@
+{
+  "userId": 14781625,
+  "firstName": "Chris",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6457508,
+      "teamName": "6. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6381258,
+      "teamName": "8. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6173529,
+      "teamName": "10. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    }
+  ]
+}

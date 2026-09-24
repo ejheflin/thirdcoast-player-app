@@ -1,0 +1,72 @@
+{
+  "userId": 27841302,
+  "firstName": "Ross",
+  "appearances": [
+    {
+      "programId": 4031655,
+      "teamId": 6549758,
+      "teamName": "6. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7233574,
+      "teamName": "4. Fam-bam (Jerri N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6451602,
+      "teamName": "2. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6126780,
+      "teamName": "4. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6382692,
+      "teamName": "5. Flat Balls (Abby T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7557095,
+      "teamName": "7. Ross N. and Bryan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6455672,
+      "teamName": "2. Riley W. & Ross N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6131682,
+      "teamName": "3. Riley W. & Ross N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7359587,
+      "teamName": "7. Ross N. and Bryan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7439672,
+      "teamName": "12. Ross N. and Bryan M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6377931,
+      "teamName": "10. Riley W. & Ross N.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -7,6 +7,30 @@
       "teamId": 8042907,
       "teamName": "9. Brooke F. and Travis T.",
       "isCaptain": false
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7608721,
+      "teamName": "10. Maggie H. and Travis T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967494,
+      "teamId": 7911899,
+      "teamName": "1. Dream Team (Maggie H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7578315,
+      "teamName": "2. Hits Dont Lie (Shayan E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7758591,
+      "teamName": "6. Hits Don’t Lie (Shayan E.)",
+      "isCaptain": false
     }
   ]
 }

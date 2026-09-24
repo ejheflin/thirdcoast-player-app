@@ -1,0 +1,18 @@
+{
+  "userId": 21067966,
+  "firstName": "Crystal",
+  "appearances": [
+    {
+      "programId": 1734328,
+      "teamId": 3274843,
+      "teamName": "6 - MojoFoShoYo (Arrowson P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6663284,
+      "teamName": "8. 2Legit2Hit (Thanh N.)",
+      "isCaptain": false
+    }
+  ]
+}

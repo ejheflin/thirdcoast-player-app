@@ -1,0 +1,30 @@
+{
+  "userId": 35098438,
+  "firstName": "Brenna",
+  "appearances": [
+    {
+      "programId": 4360610,
+      "teamId": 7029899,
+      "teamName": "4. Los Tres Locos (Clayton B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7048707,
+      "teamName": "7. Brenna B. and Colby H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7242846,
+      "teamName": "5. Holy Blockamole 3.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7022802,
+      "teamName": "7. Las Tóxicas (Nicole P.)",
+      "isCaptain": false
+    }
+  ]
+}

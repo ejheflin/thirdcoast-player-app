@@ -1,0 +1,32 @@
+{
+  "programId": 2083774,
+  "teamId": 3665539,
+  "teamName": "5 - Make-up Sets (Naomi L.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 22372117,
+      "firstName": "JJ",
+      "isCaptain": false
+    },
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": false
+    },
+    {
+      "userId": 17401432,
+      "firstName": "Joann",
+      "isCaptain": false
+    },
+    {
+      "userId": 14609275,
+      "firstName": "Naomi",
+      "isCaptain": true
+    }
+  ]
+}

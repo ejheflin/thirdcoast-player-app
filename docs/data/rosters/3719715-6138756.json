@@ -1,0 +1,17 @@
+{
+  "programId": 3719715,
+  "teamId": 6138756,
+  "teamName": "5. Jo P. & Kumar R.",
+  "players": [
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    }
+  ]
+}

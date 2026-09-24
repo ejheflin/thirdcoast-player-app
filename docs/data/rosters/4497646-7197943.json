@@ -1,0 +1,17 @@
+{
+  "programId": 4497646,
+  "teamId": 7197943,
+  "teamName": "9. Savannah W. and Phil A.",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": false
+    }
+  ]
+}

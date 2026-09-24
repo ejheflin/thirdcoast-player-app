@@ -13,6 +13,126 @@
       "teamId": 8139636,
       "teamName": "2. Danielle F. and Jeff S.",
       "isCaptain": true
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7035021,
+      "teamName": "8. Danielle F. and Richard A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7472410,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7048509,
+      "teamName": "2. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7352182,
+      "teamName": "5. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196685,
+      "teamName": "3. Danielle F. and Jeff S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7773678,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7581695,
+      "teamName": "10. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7923522,
+      "teamName": "7. Danielle F. and Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6716969,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6559238,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6847029,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6949442,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7184949,
+      "teamName": "2. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7017452,
+      "teamName": "6. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7428857,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7337305,
+      "teamName": "1. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6918106,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823900,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7761994,
+      "teamName": "2. Erika P. and Danielle F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7568164,
+      "teamName": "7. Olivia J. and Danielle F.",
+      "isCaptain": false
     }
   ]
 }

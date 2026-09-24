@@ -7,6 +7,78 @@
       "teamId": 8021976,
       "teamName": "4. Twin Peaks (Dan F.)",
       "isCaptain": false
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6373051,
+      "teamName": "2. Jess C. & Adrian M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6453964,
+      "teamName": "8. Dig this! (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6474799,
+      "teamName": "5. Team Tika (Rob B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6723198,
+      "teamName": "7. Team Tika (Rob B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6393254,
+      "teamName": "11. Team Tika (Heather F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549625,
+      "teamName": "5. Kiss my Ace (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6723045,
+      "teamName": "7. Kiss My Ace (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7447084,
+      "teamName": "1. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6450755,
+      "teamName": "6. Here for the exercise (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350526,
+      "teamName": "8. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6160668,
+      "teamName": "7. Will be back on top! (Adrian M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6824994,
+      "teamName": "8. Kiss my Ace (Jessica C.)",
+      "isCaptain": false
     }
   ]
 }

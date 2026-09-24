@@ -1,0 +1,17 @@
+{
+  "programId": 4725312,
+  "teamId": 7529694,
+  "teamName": "2. Jason O. and Clayton B.",
+  "players": [
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": false
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": true
+    }
+  ]
+}

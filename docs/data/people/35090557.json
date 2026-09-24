@@ -1,0 +1,30 @@
+{
+  "userId": 35090557,
+  "firstName": "Kyle",
+  "appearances": [
+    {
+      "programId": 3719592,
+      "teamId": 6137484,
+      "teamName": "3. Calm Your Tips (Anthony K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5225887,
+      "teamName": "10 - Sets in the City (Catherine M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5456238,
+      "teamName": "9 - Calm Yo Tips (Anthony K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5708634,
+      "teamName": "8. Calm Your Tips (Anthony K.)",
+      "isCaptain": false
+    }
+  ]
+}

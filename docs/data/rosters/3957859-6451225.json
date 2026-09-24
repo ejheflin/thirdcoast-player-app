@@ -1,0 +1,27 @@
+{
+  "programId": 3957859,
+  "teamId": 6451225,
+  "teamName": "4. Ninja Turtles (Andrew B.)",
+  "players": [
+    {
+      "userId": 15557857,
+      "firstName": "Andrew",
+      "isCaptain": true
+    },
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 35014660,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": false
+    }
+  ]
+}

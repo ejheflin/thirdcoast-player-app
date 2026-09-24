@@ -1,0 +1,12 @@
+{
+  "userId": 45244686,
+  "firstName": "Donald",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6462931,
+      "teamName": "4. Jasmine J. & Donald P.",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 1734328,
+  "teamId": 3274843,
+  "teamName": "6 - MojoFoShoYo (Arrowson P.)",
+  "players": [
+    {
+      "userId": 21405409,
+      "firstName": "Cindy",
+      "isCaptain": false
+    },
+    {
+      "userId": 21067966,
+      "firstName": "Crystal",
+      "isCaptain": false
+    },
+    {
+      "userId": 21070129,
+      "firstName": "Rafael",
+      "isCaptain": false
+    },
+    {
+      "userId": 21067135,
+      "firstName": "Arrowson",
+      "isCaptain": true
+    },
+    {
+      "userId": 21069616,
+      "firstName": "Andres",
+      "isCaptain": false
+    }
+  ]
+}

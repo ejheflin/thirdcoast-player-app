@@ -13,6 +13,102 @@
       "teamId": 8159639,
       "teamName": "5. Vacacioners (Phil M.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7932339,
+      "teamName": "5. Vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7350007,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7224345,
+      "teamName": "9. Vacation (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7445182,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7027821,
+      "teamName": "8. The Vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6913095,
+      "teamName": "5. The Vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823003,
+      "teamName": "9. The Vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7585209,
+      "teamName": "9. Substitute (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7799335,
+      "teamName": "8. Vacacioners (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6453502,
+      "teamName": "8. The vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6382641,
+      "teamName": "7. Monster Swang (Philip M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6143595,
+      "teamName": "4. Monster Swang (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6719991,
+      "teamName": "6. The vacationers (Phil M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5456859,
+      "teamName": "8 - Rusteze (Brian C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5719896,
+      "teamName": "9. Rusteze (Brian C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6549240,
+      "teamName": "8. The Vacationers (Philip M.)",
+      "isCaptain": true
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "userId": 22371148,
+  "firstName": "Allison",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3474148,
+      "teamName": "10 - To Be Determined (Rick G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3708832,
+      "teamName": "7 - Serves You Right (Michael I.)",
+      "isCaptain": false
+    }
+  ]
+}

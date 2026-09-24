@@ -1,0 +1,24 @@
+{
+  "userId": 47833664,
+  "firstName": "Taylor",
+  "appearances": [
+    {
+      "programId": 4592483,
+      "teamId": 7353452,
+      "teamName": "8. Taylor H. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6835125,
+      "teamName": "3. Taylor H. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6813095,
+      "teamName": "5. Liz C. & Taylor H.",
+      "isCaptain": false
+    }
+  ]
+}

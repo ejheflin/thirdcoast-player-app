@@ -1,0 +1,17 @@
+{
+  "programId": 3981244,
+  "teamId": 6481332,
+  "teamName": "5. Molly J. & Riley F.",
+  "players": [
+    {
+      "userId": 22184167,
+      "firstName": "Riley",
+      "isCaptain": false
+    },
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    }
+  ]
+}

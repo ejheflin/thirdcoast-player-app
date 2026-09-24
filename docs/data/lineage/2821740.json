@@ -1,0 +1,215 @@
+{
+  "programId": 2821740,
+  "teams": {
+    "4727307": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4727307,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - Practice Safe Sets (Gary C.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 11,
+          "losses": 3,
+          "ties": 2
+        }
+      ]
+    },
+    "4731147": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4731147,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - Big Digs (Annie L.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "4732335": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4732335,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Sandy Cheeks (William T.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "4735335": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4735335,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Arsenal Gunners (David T.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "4772634": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4772634,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - FlyBallers ShotCallers (Albert F.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "4803318": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4803318,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - IT'S THE SWEET ONE! (Quentin B.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "4810392": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4810392,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Hustle Gang (Calvin D.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "4814151": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4814151,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - Prime Time (Tom K.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "4827753": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4827753,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - TBD (Mark R.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "4831206": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2821740,
+          "teamId": 4831206,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Rusteze (Brian C.)",
+          "endDate": 1652155200000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 11,
+          "ties": 1
+        }
+      ]
+    }
+  }
+}

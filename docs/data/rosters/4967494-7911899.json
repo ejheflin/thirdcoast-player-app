@@ -1,0 +1,22 @@
+{
+  "programId": 4967494,
+  "teamId": 7911899,
+  "teamName": "1. Dream Team (Maggie H.)",
+  "players": [
+    {
+      "userId": 37966010,
+      "firstName": "Maggie",
+      "isCaptain": true
+    },
+    {
+      "userId": 53615881,
+      "firstName": "Anna",
+      "isCaptain": false
+    },
+    {
+      "userId": 54447949,
+      "firstName": "Travis",
+      "isCaptain": false
+    }
+  ]
+}

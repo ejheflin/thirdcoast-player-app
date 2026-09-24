@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7606210,
+  "teamName": "7. Kassidy D. and Hector T.",
+  "players": [
+    {
+      "userId": 54407533,
+      "firstName": "Hector",
+      "isCaptain": true
+    },
+    {
+      "userId": 54433562,
+      "firstName": "kassidy",
+      "isCaptain": false
+    }
+  ]
+}

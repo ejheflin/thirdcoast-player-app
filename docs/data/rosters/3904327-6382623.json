@@ -1,0 +1,27 @@
+{
+  "programId": 3904327,
+  "teamId": 6382623,
+  "teamName": "4. Team Name (Marshall C.)",
+  "players": [
+    {
+      "userId": 14607730,
+      "firstName": "Marshall",
+      "isCaptain": true
+    },
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 16165165,
+      "firstName": "Gabriella",
+      "isCaptain": false
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    }
+  ]
+}

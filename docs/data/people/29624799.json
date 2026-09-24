@@ -25,6 +25,156 @@
       "teamId": 8163816,
       "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6954538,
+      "teamName": "11. Cabrina B. and Philip A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6155877,
+      "teamName": "11. Giselle L. & Philip A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7197943,
+      "teamName": "9. Savannah W. and Phil A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873004,
+      "teamId": 7759690,
+      "teamName": "4. Giselle T. and Philip A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483602,
+      "teamName": "8. Giselle T. & Philip A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7592520,
+      "teamName": "2. Giselle T. and Philip A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6568145,
+      "teamName": "10. Giselle L. & Philip A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7345284,
+      "teamName": "1. Giselle T. and Philip A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7928140,
+      "teamName": "10. Giselle T. and Phil A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6694078,
+      "teamName": "8. Giselle L. & Phil A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7472496,
+      "teamName": "6. Giselle T. and Philip A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6846018,
+      "teamName": "6. Giselle T. & Philip A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7051448,
+      "teamName": "9. Nicole B. and Phil A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7924578,
+      "teamName": "4. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549020,
+      "teamName": "4. Swag in a bag (Phil A.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7242846,
+      "teamName": "5. Holy Blockamole 3.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6726104,
+      "teamName": "3. Swag in a Bag (Phil A.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7586287,
+      "teamName": "7. Holy Blockamole 6.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7442496,
+      "teamName": "7. Holy Blockamole 5.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7792661,
+      "teamName": "6. Holy Blockamole Infinity (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6454569,
+      "teamName": "7. Indoor Ballerz Turned Sand Junkies (Michael R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820248,
+      "teamName": "6. Swag in a bag (Phil A.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350092,
+      "teamName": "6. Holy Blockamole 4.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6920606,
+      "teamName": "7. My quads hurt (Phil A.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6380810,
+      "teamName": "4. Indoor Ballers Turned Beach Junkies (Michael R.)",
+      "isCaptain": false
     }
   ]
 }

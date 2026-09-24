@@ -1,0 +1,18 @@
+{
+  "userId": 49412550,
+  "firstName": "Marty",
+  "appearances": [
+    {
+      "programId": 4379697,
+      "teamId": 7041325,
+      "teamName": "10. Taylor B. and Marty Z.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6952834,
+      "teamName": "10. Taylor B. and Marty Z.",
+      "isCaptain": false
+    }
+  ]
+}

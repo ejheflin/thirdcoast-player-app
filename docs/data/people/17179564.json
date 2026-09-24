@@ -1,0 +1,18 @@
+{
+  "userId": 17179564,
+  "firstName": "Rick",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3474148,
+      "teamName": "10 - To Be Determined (Rick G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5204818,
+      "teamName": "1 - Hard Pass (Johnny L.)",
+      "isCaptain": false
+    }
+  ]
+}

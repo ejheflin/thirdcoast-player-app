@@ -1,0 +1,17 @@
+{
+  "programId": 4031663,
+  "teamId": 6547031,
+  "teamName": "7. Molly J. & Savannah W.",
+  "players": [
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": false
+    }
+  ]
+}

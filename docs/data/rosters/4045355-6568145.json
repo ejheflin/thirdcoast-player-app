@@ -1,0 +1,17 @@
+{
+  "programId": 4045355,
+  "teamId": 6568145,
+  "teamName": "10. Giselle L. & Philip A.",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 14863684,
+      "firstName": "Giselle",
+      "isCaptain": true
+    }
+  ]
+}

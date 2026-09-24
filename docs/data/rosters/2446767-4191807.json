@@ -1,0 +1,27 @@
+{
+  "programId": 2446767,
+  "teamId": 4191807,
+  "teamName": "7 - Spike It Harder (Brad O.)",
+  "players": [
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": false
+    },
+    {
+      "userId": 16232575,
+      "firstName": "Brad",
+      "isCaptain": true
+    },
+    {
+      "userId": 27909486,
+      "firstName": "Elle",
+      "isCaptain": false
+    }
+  ]
+}

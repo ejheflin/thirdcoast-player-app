@@ -1,0 +1,22 @@
+{
+  "programId": 3904395,
+  "teamId": 6372245,
+  "teamName": "2. Size Matters (Matt K.)",
+  "players": [
+    {
+      "userId": 42566019,
+      "firstName": "Jessica",
+      "isCaptain": false
+    },
+    {
+      "userId": 14669044,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": false
+    }
+  ]
+}

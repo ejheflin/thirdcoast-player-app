@@ -1,0 +1,24 @@
+{
+  "userId": 25326646,
+  "firstName": "Lindsey",
+  "appearances": [
+    {
+      "programId": 4661451,
+      "teamId": 7461613,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6452238,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6140196,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

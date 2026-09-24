@@ -1,0 +1,24 @@
+{
+  "userId": 16232575,
+  "firstName": "Brad",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4191807,
+      "teamName": "7 - Spike It Harder (Brad O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4434633,
+      "teamName": "4 - Spike It Harder (Brad O.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3953017,
+      "teamName": "8 - Das Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

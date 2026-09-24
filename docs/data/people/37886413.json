@@ -1,0 +1,42 @@
+{
+  "userId": 37886413,
+  "firstName": "Courtney",
+  "appearances": [
+    {
+      "programId": 4656364,
+      "teamId": 7442700,
+      "teamName": "6. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7350085,
+      "teamName": "4. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7027305,
+      "teamName": "6. Hitmen (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7234938,
+      "teamName": "7. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7582397,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6914085,
+      "teamName": "10. Hitmen (Cristofer G.)",
+      "isCaptain": false
+    }
+  ]
+}

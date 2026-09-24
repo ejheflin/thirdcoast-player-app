@@ -64,6 +64,26 @@
     },
     {
       "position": 7,
+      "teamId": 8126546,
+      "teamName": "3. Kylee G. and Jacob W.",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 8,
+      "teamId": 8152486,
+      "teamName": "6. Lisa B. and Rudy D.",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 9,
       "teamId": 8125615,
       "teamName": "1. Michelle C. and Josman R.",
       "gamesPlayed": 0,
@@ -73,29 +93,9 @@
       "points": 0
     },
     {
-      "position": 8,
-      "teamId": 8126546,
-      "teamName": "3. Kylee G. and Jacob W.",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 9,
+      "position": 10,
       "teamId": 8137644,
       "teamName": "4. Taylor B. and Luigi H.",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 10,
-      "teamId": 8152486,
-      "teamName": "6. Lisa B. and Rudy D.",
       "gamesPlayed": 1,
       "wins": 0,
       "losses": 1,

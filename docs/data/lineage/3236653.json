@@ -1,0 +1,173 @@
+{
+  "programId": 3236653,
+  "teams": {
+    "5429260": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5429260,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "1 - James N. & Son T.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "5430139": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5430139,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "2 - Albert F. & Jeff M.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "5434753": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5434753,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "3 - Jaimie G. & Mark M.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 5,
+          "ties": 8
+        }
+      ]
+    },
+    "5436946": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5436946,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "4 - Ian B. & Gary C.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 9,
+          "ties": 6
+        }
+      ]
+    },
+    "5438809": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5438809,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "5 - Johnny W. & Michael G.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "5439172": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5439172,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "6 - Zach P. & Brandon B.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "5439211": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5439211,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "7 - Chris H. & Scott S.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "5439505": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3236653,
+          "teamId": 5439505,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "8 - Blake C. & Leo Y.",
+          "endDate": 1663128000000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

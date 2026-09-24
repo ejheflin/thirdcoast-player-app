@@ -1,0 +1,27 @@
+{
+  "programId": 4288371,
+  "teamId": 6911644,
+  "teamName": "2. Holy Blockamole (Devin S.)",
+  "players": [
+    {
+      "userId": 45930068,
+      "firstName": "Zack",
+      "isCaptain": false
+    },
+    {
+      "userId": 22346914,
+      "firstName": "Holland",
+      "isCaptain": false
+    },
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": true
+    }
+  ]
+}

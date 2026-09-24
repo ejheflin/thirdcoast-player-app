@@ -1,0 +1,30 @@
+{
+  "userId": 52008040,
+  "firstName": "Alexander",
+  "appearances": [
+    {
+      "programId": 4589133,
+      "teamId": 7337981,
+      "teamName": "3. Big Dig Energy (Juliana T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497641,
+      "teamId": 7232528,
+      "teamName": "8. Big Dig Energy (Juliana T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661444,
+      "teamId": 7468101,
+      "teamName": "4. Big dig energy (Juliana T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756152,
+      "teamId": 7603665,
+      "teamName": "1. Big Dig Energy (Juliana T.)",
+      "isCaptain": false
+    }
+  ]
+}

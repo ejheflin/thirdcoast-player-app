@@ -1,0 +1,17 @@
+{
+  "programId": 4661449,
+  "teamId": 7471675,
+  "teamName": "8. Emperatriz S. and Isa T.",
+  "players": [
+    {
+      "userId": 53553711,
+      "firstName": "Emperatriz",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

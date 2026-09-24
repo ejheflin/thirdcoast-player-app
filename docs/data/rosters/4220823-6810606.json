@@ -1,0 +1,17 @@
+{
+  "programId": 4220823,
+  "teamId": 6810606,
+  "teamName": "5. Olivia E. & Dom W.",
+  "players": [
+    {
+      "userId": 45979100,
+      "firstName": "Olivia",
+      "isCaptain": true
+    },
+    {
+      "userId": 38366792,
+      "firstName": "Dominick",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "userId": 32670543,
+  "firstName": "Alexis",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6463022,
+      "teamName": "1. Alexis B. & Alex L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6552976,
+      "teamName": "11. Alexis B. & Alex L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6484110,
+      "teamName": "10. Blue Balls (Alexis B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6568062,
+      "teamName": "8. Blue Balls (Alex L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6392893,
+      "teamName": "9. Blue Balls (Alexis B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6136728,
+      "teamName": "4. Blue Balls (Alex L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6453512,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6553478,
+      "teamName": "9. Blue Balls (Alex L.)",
+      "isCaptain": false
+    }
+  ]
+}

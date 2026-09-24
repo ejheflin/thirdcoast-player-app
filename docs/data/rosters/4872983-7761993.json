@@ -1,0 +1,17 @@
+{
+  "programId": 4872983,
+  "teamId": 7761993,
+  "teamName": "10. Yanni S. and Ali M.",
+  "players": [
+    {
+      "userId": 47034997,
+      "firstName": "Ali",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

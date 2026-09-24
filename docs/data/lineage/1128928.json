@@ -1,0 +1,215 @@
+{
+  "programId": 1128928,
+  "teams": {
+    "2372482": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2372482,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3 - Makeup Sets (Matt K.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "2378872": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2378872,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1 - Beach Bunnies (Jimmy R.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 4,
+          "ties": 10
+        }
+      ]
+    },
+    "2380099": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2380099,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6 - We Dig You (Lauren M.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "2382262": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2382262,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4 - Along Came A Spiker (William T.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2382517": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2382517,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "9 - Settin' Pretty (Elizabeth A.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 4,
+          "ties": 4
+        }
+      ]
+    },
+    "2389642": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2389642,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5 - I'd Hit That! (Victoria Q.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "2393905": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2393905,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "8 - No Fly Zone (Sukumar A.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 3,
+          "ties": 10
+        }
+      ]
+    },
+    "2395360": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2395360,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2 - Beans and Rice (Chris R.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2398927": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2398927,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "7 - High on Bumps (Tommy R.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 4,
+          "ties": 6
+        }
+      ]
+    },
+    "2400139": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1128928,
+          "teamId": 2400139,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "10 - E League Champs (Matthew C.)",
+          "endDate": 1563854400000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

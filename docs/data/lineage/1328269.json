@@ -1,0 +1,173 @@
+{
+  "programId": 1328269,
+  "teams": {
+    "2703640": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2703640,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "1 - Safe Sets (Jeanne B.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 3
+        }
+      ]
+    },
+    "2705251": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2705251,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Sand in Your Face (Victor M.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "2705533": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2705533,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "3 - Big Digs and Tiff (Mike B.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 14,
+          "losses": 2,
+          "ties": 0
+        }
+      ]
+    },
+    "2707573": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2707573,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "4 - We Always Get It uP (Jeremy K.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "2708107": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2708107,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7 - Raindrop, Drop Top (Mark R.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 14,
+          "losses": 1,
+          "ties": 1
+        }
+      ]
+    },
+    "2711911": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2711911,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Anal Sets (Alyson L.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 1
+        }
+      ]
+    },
+    "2712214": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2712214,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6 - Not Good At Volleyball Puns (Daniel A.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "2712271": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328269,
+          "teamId": 2712271,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8 - Just Hit the Ball (Ron T.)",
+          "endDate": 1575349200000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 7,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

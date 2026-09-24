@@ -1,0 +1,18 @@
+{
+  "userId": 38033366,
+  "firstName": "Mariangela",
+  "appearances": [
+    {
+      "programId": 3257331,
+      "teamId": 5455980,
+      "teamName": "7 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5715423,
+      "teamName": "5. Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4288378,
+  "teamId": 6920820,
+  "teamName": "7. Passing These Hands (George C.)",
+  "players": [
+    {
+      "userId": 44340152,
+      "firstName": "Tom",
+      "isCaptain": false
+    },
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": true
+    },
+    {
+      "userId": 14782789,
+      "firstName": "Thien",
+      "isCaptain": false
+    },
+    {
+      "userId": 45168284,
+      "firstName": "Faith",
+      "isCaptain": false
+    }
+  ]
+}

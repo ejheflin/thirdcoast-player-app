@@ -1,0 +1,17 @@
+{
+  "programId": 3957842,
+  "teamId": 6459366,
+  "teamName": "8. Loren T. & Jacob W.",
+  "players": [
+    {
+      "userId": 41896734,
+      "firstName": "Loren",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

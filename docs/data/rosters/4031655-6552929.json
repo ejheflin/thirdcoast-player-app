@@ -1,0 +1,27 @@
+{
+  "programId": 4031655,
+  "teamId": 6552929,
+  "teamName": "8. las tóxicas (Nicole P.)",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 45219634,
+      "firstName": "Brandon",
+      "isCaptain": false
+    },
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": true
+    },
+    {
+      "userId": 44346388,
+      "firstName": "kalvin",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 4222044,
+  "teamId": 6813413,
+  "teamName": "9. Gold Diggerz (Kimberlee S.)",
+  "players": [
+    {
+      "userId": 47832501,
+      "firstName": "Kirby",
+      "isCaptain": false
+    },
+    {
+      "userId": 47968672,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 47852534,
+      "firstName": "Braden",
+      "isCaptain": false
+    },
+    {
+      "userId": 47832113,
+      "firstName": "Morgan",
+      "isCaptain": false
+    },
+    {
+      "userId": 47697149,
+      "firstName": "Kimberlee",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "programId": 2083819,
+  "teams": {
+    "3625702": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3625702,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "6 - Michelle C. & Josman R.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "3625741": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3625741,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "7 - Annie N. & Alex L.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 10,
+          "ties": 2
+        }
+      ]
+    },
+    "3625810": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3625810,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "8 - Alyson L. & Andrew D.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "3626410": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3626410,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "5 - Julie V. & Chris E.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 1,
+          "ties": 9
+        }
+      ]
+    },
+    "3626521": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3626521,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "4 - Lori G. & Robert D.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 11,
+          "ties": 2
+        }
+      ]
+    },
+    "3626779": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3626779,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "9 - Marah F. & Isa T.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 9,
+          "ties": 2
+        }
+      ]
+    },
+    "3626932": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3626932,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "2 - Taylor B. & Matt Y.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        }
+      ]
+    },
+    "3626995": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3626995,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "1 - Tina O. & Ruslan A.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "3627784": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3627784,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "3 - Marisela G. & Matt G.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3689887": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2083819,
+          "teamId": 3689887,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "10 - Liz C. & David D.",
+          "endDate": 1619064000000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

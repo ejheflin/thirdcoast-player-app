@@ -1,0 +1,66 @@
+{
+  "userId": 21125752,
+  "firstName": "Susan",
+  "appearances": [
+    {
+      "programId": 4362250,
+      "teamId": 7027821,
+      "teamName": "8. The Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7014468,
+      "teamName": "5. Beth B. and Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6444098,
+      "teamName": "7. Susan P. & Dani D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6813050,
+      "teamName": "2. Beth B. & Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975326,
+      "teamId": 7913882,
+      "teamName": "2. Beth B. and Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6689250,
+      "teamName": "10. Beth B. & Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6383003,
+      "teamName": "10. Beth B. & Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7761987,
+      "teamName": "4. Beth B. and Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7571877,
+      "teamName": "1. Beth B. and Susan P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031663,
+      "teamId": 6545914,
+      "teamName": "3. Susan P. & Beth B.",
+      "isCaptain": false
+    }
+  ]
+}

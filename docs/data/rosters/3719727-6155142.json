@@ -1,0 +1,27 @@
+{
+  "programId": 3719727,
+  "teamId": 6155142,
+  "teamName": "7. Zombies (Brad F.)",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": false
+    },
+    {
+      "userId": 14597449,
+      "firstName": "Brad",
+      "isCaptain": true
+    },
+    {
+      "userId": 14809633,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": false
+    }
+  ]
+}

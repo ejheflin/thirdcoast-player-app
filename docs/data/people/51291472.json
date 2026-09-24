@@ -1,0 +1,18 @@
+{
+  "userId": 51291472,
+  "firstName": "Grant",
+  "appearances": [
+    {
+      "programId": 4497641,
+      "teamId": 7232528,
+      "teamName": "8. Big Dig Energy (Juliana T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756152,
+      "teamId": 7603665,
+      "teamName": "1. Big Dig Energy (Juliana T.)",
+      "isCaptain": false
+    }
+  ]
+}

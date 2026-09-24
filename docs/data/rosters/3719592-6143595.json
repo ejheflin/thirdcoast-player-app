@@ -1,0 +1,27 @@
+{
+  "programId": 3719592,
+  "teamId": 6143595,
+  "teamName": "4. Monster Swang (Phil M.)",
+  "players": [
+    {
+      "userId": 14851303,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 39368979,
+      "firstName": "Julianna",
+      "isCaptain": false
+    },
+    {
+      "userId": 32507346,
+      "firstName": "Daniel",
+      "isCaptain": false
+    }
+  ]
+}

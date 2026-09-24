@@ -1,0 +1,32 @@
+{
+  "programId": 1734328,
+  "teamId": 3263737,
+  "teamName": "5 - Hits Don't Lie (Dawn M.)",
+  "players": [
+    {
+      "userId": 21132442,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 20960389,
+      "firstName": "Randy",
+      "isCaptain": false
+    },
+    {
+      "userId": 18963673,
+      "firstName": "Dawn",
+      "isCaptain": true
+    },
+    {
+      "userId": 21135721,
+      "firstName": "Rodrigo",
+      "isCaptain": false
+    },
+    {
+      "userId": 22176634,
+      "firstName": "Waldo",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "userId": 29506803,
+  "firstName": "Julia",
+  "appearances": [
+    {
+      "programId": 3909678,
+      "teamId": 6393238,
+      "teamName": "6. Julia D. & Emiliano T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6953133,
+      "teamName": "5. Julia D. and Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6159546,
+      "teamName": "12. Julia D. & Caleb B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196691,
+      "teamName": "10. Julia D. and Emiliano T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6482906,
+      "teamName": "3. Julia D. & Emiliano T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6565415,
+      "teamName": "12. Julia D. & Emiliano T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7344380,
+      "teamName": "3. Julia D. and Brent B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6721034,
+      "teamName": "9. Julia D. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6846694,
+      "teamName": "11. Julia D. & Matt B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7049538,
+      "teamName": "4. Julia D. and Emiliano T.",
+      "isCaptain": true
+    }
+  ]
+}

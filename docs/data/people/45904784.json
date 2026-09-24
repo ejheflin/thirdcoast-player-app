@@ -1,0 +1,72 @@
+{
+  "userId": 45904784,
+  "firstName": "Ian",
+  "appearances": [
+    {
+      "programId": 4362247,
+      "teamId": 7012424,
+      "teamName": "8. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7430806,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590310,
+      "teamId": 7332401,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6690030,
+      "teamName": "4. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6816519,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7774995,
+      "teamName": "1. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6909314,
+      "teamName": "3. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7185053,
+      "teamName": "4. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7900996,
+      "teamName": "8. Net Ninjas (Katelyn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7573040,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6554439,
+      "teamName": "10. Net Ninjas (Nate W.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4379701,
+  "teamId": 7052093,
+  "teamName": "7. Flyballers Shot Callers (Ashleigh P.)",
+  "players": [
+    {
+      "userId": 14822965,
+      "firstName": "Sean",
+      "isCaptain": false
+    },
+    {
+      "userId": 35135665,
+      "firstName": "Ashleigh",
+      "isCaptain": true
+    },
+    {
+      "userId": 39385452,
+      "firstName": "Sean",
+      "isCaptain": false
+    },
+    {
+      "userId": 50025583,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

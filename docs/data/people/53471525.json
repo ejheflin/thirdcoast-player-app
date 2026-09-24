@@ -1,0 +1,18 @@
+{
+  "userId": 53471525,
+  "firstName": "Eli",
+  "appearances": [
+    {
+      "programId": 4656550,
+      "teamId": 7465779,
+      "teamName": "9. Bag of digs (Christopher M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7576790,
+      "teamName": "7. Eli and the goon squad (Christopher M.)",
+      "isCaptain": false
+    }
+  ]
+}

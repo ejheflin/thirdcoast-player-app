@@ -13,6 +13,144 @@
       "teamId": 8152486,
       "teamName": "6. Lisa B. and Rudy D.",
       "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7593851,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6374081,
+      "teamName": "7. Megan E. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6449176,
+      "teamName": "5. Megan E. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6550347,
+      "teamName": "6. Megan E. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6809685,
+      "teamName": "3. Vanessa S. & Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6908094,
+      "teamName": "8. Vanessa S. and Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7020601,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7196634,
+      "teamName": "6. Sarah U. and Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689163,
+      "teamName": "5. Vanessa S. & Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7337993,
+      "teamName": "1. Sarah U. and Rudy. D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7455718,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6126741,
+      "teamName": "6. Megan E. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7900552,
+      "teamName": "6. Lisa B. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7448380,
+      "teamName": "6. Lisa B. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7580404,
+      "teamName": "6. Lisa B. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7340978,
+      "teamName": "1. Lisa B. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7758407,
+      "teamName": "1. Lisa B. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820040,
+      "teamName": "1. 3 OG's & Bae (Johnny W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7585209,
+      "teamName": "9. Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6732143,
+      "teamName": "11. Rudy D. & Ryan C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6822524,
+      "teamName": "2. Rudy D. & Ryan C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6944716,
+      "teamName": "10. Rudy D. and Ryan C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7042612,
+      "teamName": "9. Rudy D. and Zach P.",
+      "isCaptain": true
     }
   ]
 }

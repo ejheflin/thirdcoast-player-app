@@ -1,0 +1,24 @@
+{
+  "userId": 25385380,
+  "firstName": "Evan",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4201107,
+      "teamName": "8 - Stankaitis Season 2 (Evan L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4437090,
+      "teamName": "8 - Ev & The B's Szn 3 (Evan L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3949759,
+      "teamName": "7 - Team Stankaitas (Evan L.)",
+      "isCaptain": true
+    }
+  ]
+}

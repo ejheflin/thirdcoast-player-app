@@ -1,0 +1,36 @@
+{
+  "userId": 44414193,
+  "firstName": "Jann",
+  "appearances": [
+    {
+      "programId": 3909677,
+      "teamId": 6394591,
+      "teamName": "3. Odette M. & Jann D.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7760684,
+      "teamName": "8. Jann D. and Richard C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7533142,
+      "teamName": "1. Jann D. and Nathaniel C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7354601,
+      "teamName": "11. Jann D. and Hugo R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7440605,
+      "teamName": "3. Jann D. and Chase P.",
+      "isCaptain": true
+    }
+  ]
+}

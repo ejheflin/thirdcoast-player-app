@@ -1,0 +1,17 @@
+{
+  "programId": 4228631,
+  "teamId": 6834460,
+  "teamName": "12. Mike A. & Adolph T.",
+  "players": [
+    {
+      "userId": 45443780,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

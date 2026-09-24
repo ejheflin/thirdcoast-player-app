@@ -1,0 +1,18 @@
+{
+  "userId": 42469380,
+  "firstName": "Matthew",
+  "appearances": [
+    {
+      "programId": 3903869,
+      "teamId": 6373057,
+      "teamName": "6. Sandy Start (Tiffany S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6153246,
+      "teamName": "5. Sandy Start (Tiffany S.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 3904384,
+  "teamId": 6382705,
+  "teamName": "6. IT'S THE S W E E T ONE! (Quentin B.)",
+  "players": [
+    {
+      "userId": 14638129,
+      "firstName": "Quentin",
+      "isCaptain": true
+    },
+    {
+      "userId": 28254429,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 23944489,
+      "firstName": "Chad",
+      "isCaptain": false
+    }
+  ]
+}

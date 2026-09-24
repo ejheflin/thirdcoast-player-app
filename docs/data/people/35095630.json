@@ -1,0 +1,18 @@
+{
+  "userId": 35095630,
+  "firstName": "Courtney",
+  "appearances": [
+    {
+      "programId": 3114541,
+      "teamId": 5219890,
+      "teamName": "9 - On Your Knees (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5448939,
+      "teamName": "4 - One and Done (Aatir A.)",
+      "isCaptain": false
+    }
+  ]
+}

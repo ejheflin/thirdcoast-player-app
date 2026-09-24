@@ -1,0 +1,27 @@
+{
+  "programId": 3903869,
+  "teamId": 6378202,
+  "teamName": "1. Some Spike It Hot (Rebecca B.)",
+  "players": [
+    {
+      "userId": 35156734,
+      "firstName": "Rebecca",
+      "isCaptain": true
+    },
+    {
+      "userId": 44260967,
+      "firstName": "Steven",
+      "isCaptain": false
+    },
+    {
+      "userId": 14964559,
+      "firstName": "Mark",
+      "isCaptain": false
+    },
+    {
+      "userId": 14820670,
+      "firstName": "Liz",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 3957842,
+  "teamId": 6450028,
+  "teamName": "7. Ivy C. & Tyler J.",
+  "players": [
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": true
+    },
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": false
+    }
+  ]
+}

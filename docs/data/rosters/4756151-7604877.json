@@ -1,0 +1,17 @@
+{
+  "programId": 4756151,
+  "teamId": 7604877,
+  "teamName": "2. Shelby G. and Devin S.",
+  "players": [
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": true
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": false
+    }
+  ]
+}

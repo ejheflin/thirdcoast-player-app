@@ -1,0 +1,22 @@
+{
+  "programId": 4139007,
+  "teamId": 6715115,
+  "teamName": "8. Prosthesiotape (John K.)",
+  "players": [
+    {
+      "userId": 25660995,
+      "firstName": "John",
+      "isCaptain": true
+    },
+    {
+      "userId": 14677072,
+      "firstName": "Ricky",
+      "isCaptain": false
+    },
+    {
+      "userId": 14744581,
+      "firstName": "Tiffany",
+      "isCaptain": false
+    }
+  ]
+}

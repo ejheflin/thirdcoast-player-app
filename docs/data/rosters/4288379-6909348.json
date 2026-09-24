@@ -1,0 +1,17 @@
+{
+  "programId": 4288379,
+  "teamId": 6909348,
+  "teamName": "11. Yanni S. and Thanairy G.",
+  "players": [
+    {
+      "userId": 48937368,
+      "firstName": "Thanairy",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

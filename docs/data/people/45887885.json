@@ -1,0 +1,24 @@
+{
+  "userId": 45887885,
+  "firstName": "Homero",
+  "appearances": [
+    {
+      "programId": 4031658,
+      "teamId": 6549261,
+      "teamName": "4. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7465779,
+      "teamName": "9. Bag of digs (Christopher M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7576790,
+      "teamName": "7. Eli and the goon squad (Christopher M.)",
+      "isCaptain": false
+    }
+  ]
+}

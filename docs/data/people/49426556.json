@@ -13,6 +13,48 @@
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7223745,
+      "teamName": "5. Passing Machines!! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7462631,
+      "teamName": "5. Nothing but Tape!! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7588884,
+      "teamName": "6. Nothing But Tape! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7765202,
+      "teamName": "9. Nothing But Tape!! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7350355,
+      "teamName": "5. Bump...Set...Bump!! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7052153,
+      "teamName": "5. No Dig-ity! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6956157,
+      "teamName": "10. The Comebacks! (Joe R.)",
+      "isCaptain": false
     }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "userId": 46001700,
+  "firstName": "Kyndal",
+  "appearances": [
+    {
+      "programId": 4770452,
+      "teamId": 7602565,
+      "teamName": "2. Kyndal G. and Jason O.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6915256,
+      "teamName": "6. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7758353,
+      "teamName": "7. I’d Hit That (Jason O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045363,
+      "teamId": 6561667,
+      "teamName": "4. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7028809,
+      "teamName": "2. Consensual Sets (Kyndal G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6908116,
+      "teamName": "10. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7033814,
+      "teamName": "8. Chocolate City (Ryan T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6821323,
+      "teamName": "2. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6726733,
+      "teamName": "8. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6649015,
+      "teamName": "6. Wednesday Winter Warriors Will Win (Curtis J.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4488291,
+  "teamId": 7224345,
+  "teamName": "9. Vacation (Phil M.)",
+  "players": [
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14605978,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": false
+    },
+    {
+      "userId": 51478165,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    }
+  ]
+}

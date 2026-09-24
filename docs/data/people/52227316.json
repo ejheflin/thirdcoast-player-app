@@ -1,0 +1,18 @@
+{
+  "userId": 52227316,
+  "firstName": "Guang",
+  "appearances": [
+    {
+      "programId": 4661451,
+      "teamId": 7448723,
+      "teamName": "1. Soju My Soul (Johnny P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7360113,
+      "teamName": "11. Soju My Soul (Johnny P.)",
+      "isCaptain": false
+    }
+  ]
+}

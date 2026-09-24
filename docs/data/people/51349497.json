@@ -1,0 +1,36 @@
+{
+  "userId": 51349497,
+  "firstName": "Courtney",
+  "appearances": [
+    {
+      "programId": 4589129,
+      "teamId": 7330714,
+      "teamName": "2. Courtney H. and Travis B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7224246,
+      "teamName": "8. Courtney H. and Travis B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7342225,
+      "teamName": "7. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7443622,
+      "teamName": "8. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7251606,
+      "teamName": "10. Texas Tigers (Joe M.)",
+      "isCaptain": false
+    }
+  ]
+}

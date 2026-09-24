@@ -1,0 +1,17 @@
+{
+  "programId": 4656563,
+  "teamId": 7436963,
+  "teamName": "7. Olivia J. and Brittney G.",
+  "players": [
+    {
+      "userId": 31687011,
+      "firstName": "Brittney",
+      "isCaptain": false
+    },
+    {
+      "userId": 14657521,
+      "firstName": "Olivia",
+      "isCaptain": true
+    }
+  ]
+}

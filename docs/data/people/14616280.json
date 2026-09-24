@@ -1,0 +1,42 @@
+{
+  "userId": 14616280,
+  "firstName": "Jessica",
+  "appearances": [
+    {
+      "programId": 4360609,
+      "teamId": 7032093,
+      "teamName": "2. Jess L. and Leo Y.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689556,
+      "teamName": "2. Jess L. & Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6549587,
+      "teamName": "10. Jess L. & Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6165111,
+      "teamName": "4. Jess L. & Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957846,
+      "teamId": 6453739,
+      "teamName": "7. Jess L. & Edwin F.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903865,
+      "teamId": 6373259,
+      "teamName": "3. Jess L. & Edwin F.",
+      "isCaptain": true
+    }
+  ]
+}

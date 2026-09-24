@@ -1,0 +1,42 @@
+{
+  "userId": 17175352,
+  "firstName": "Stefan",
+  "appearances": [
+    {
+      "programId": 3909678,
+      "teamId": 6392192,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6131679,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483548,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6567414,
+      "teamName": "7. Sarah H. & Stefan W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6549634,
+      "teamName": "5. BomBubz (Stefan W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6458784,
+      "teamName": "9. BomBubz (Stefan W.)",
+      "isCaptain": true
+    }
+  ]
+}

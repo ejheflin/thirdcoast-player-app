@@ -13,6 +13,42 @@
       "teamId": 8124115,
       "teamName": "7. Tiffany S. and Carson S.",
       "isCaptain": true
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7802928,
+      "teamName": "7. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6451402,
+      "teamName": "8. Tiffany S. & Brittney G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6689950,
+      "teamName": "8. Tiffany S. & Nicole B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6380862,
+      "teamName": "9. Tiffany S. & Brittney G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6133314,
+      "teamName": "8. Tiffany S. & Brittney G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031663,
+      "teamId": 6551663,
+      "teamName": "10. Tiffany S. & Brittney G.",
+      "isCaptain": true
     }
   ]
 }

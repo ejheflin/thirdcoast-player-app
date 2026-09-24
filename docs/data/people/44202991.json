@@ -1,0 +1,18 @@
+{
+  "userId": 44202991,
+  "firstName": "vanessa",
+  "appearances": [
+    {
+      "programId": 3903869,
+      "teamId": 6373016,
+      "teamName": "9. We Back In It (Aatir A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6449833,
+      "teamName": "3. Swandy (Aatir A.)",
+      "isCaptain": false
+    }
+  ]
+}

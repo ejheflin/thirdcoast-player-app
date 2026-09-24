@@ -1,0 +1,215 @@
+{
+  "programId": 3462087,
+  "teams": {
+    "5754834": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5754834,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "1. Five Pokemon in the Party (Omar S.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 0,
+          "ties": 8
+        }
+      ]
+    },
+    "5758299": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5758299,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "2. Sandy Start (Tiffany S.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "5758314": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5758314,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "4. Volley Llamas (Jamie D.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "5758845": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5758845,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "3. Settin pretty (Elizabeth A.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "5760672": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5760672,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "5. Rickys Tricks (John K.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 6,
+          "ties": 2
+        }
+      ]
+    },
+    "5763411": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5763411,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "6. Sets on the Beach (Kerry C.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "5765466": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5765466,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "9. Sonova Beach (Zaman J.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 14,
+          "ties": 1
+        }
+      ]
+    },
+    "5766192": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5766192,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "8. Third Coast Ball (Hector T.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "5766975": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5766975,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "7. Scrappy Doo (Matt O.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 3
+        }
+      ]
+    },
+    "5770917": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3462087,
+          "teamId": 5770917,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "10. Let's Play (Naomi L.)",
+          "endDate": 1670821200000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

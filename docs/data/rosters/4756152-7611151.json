@@ -1,0 +1,22 @@
+{
+  "programId": 4756152,
+  "teamId": 7611151,
+  "teamName": "9. Notorious D.I.G. (Jose B.)",
+  "players": [
+    {
+      "userId": 21326962,
+      "firstName": "Jose",
+      "isCaptain": true
+    },
+    {
+      "userId": 22396837,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 37962335,
+      "firstName": "Emma",
+      "isCaptain": false
+    }
+  ]
+}

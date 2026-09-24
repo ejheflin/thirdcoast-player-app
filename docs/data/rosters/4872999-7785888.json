@@ -1,0 +1,17 @@
+{
+  "programId": 4872999,
+  "teamId": 7785888,
+  "teamName": "3. Jessica N. and Matt B.",
+  "players": [
+    {
+      "userId": 14645944,
+      "firstName": "Mathieu",
+      "isCaptain": true
+    },
+    {
+      "userId": 54351444,
+      "firstName": "Jessica",
+      "isCaptain": false
+    }
+  ]
+}

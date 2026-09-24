@@ -1,0 +1,173 @@
+{
+  "programId": 3430548,
+  "teams": {
+    "5695779": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5695779,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5. Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 10,
+          "ties": 4
+        }
+      ]
+    },
+    "5696901": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5696901,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1. Size Matters (Matt K.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "5714748": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5714748,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3. Arsenal Gunners (David T.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 5,
+          "ties": 3
+        }
+      ]
+    },
+    "5717061": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5717061,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6. Sandy Ballz (William T.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 10,
+          "ties": 6
+        }
+      ]
+    },
+    "5718210": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5718210,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "8. Hustle Gang (Calvin D.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 1,
+          "ties": 11
+        }
+      ]
+    },
+    "5718399": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5718399,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2. Beach Bunnies (Jimmy R.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "5718450": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5718450,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4. Practice Safe Sets (Gary C.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "5719272": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430548,
+          "teamId": 5719272,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "7. Diggin and Swinging w/a Vengeance (Ivan M.)",
+          "endDate": 1669698000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

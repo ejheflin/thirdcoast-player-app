@@ -1,0 +1,18 @@
+{
+  "userId": 45461911,
+  "firstName": "Nicklas",
+  "appearances": [
+    {
+      "programId": 3981247,
+      "teamId": 6475144,
+      "teamName": "2. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550058,
+      "teamName": "8. That's What She Set (Albert F.)",
+      "isCaptain": false
+    }
+  ]
+}

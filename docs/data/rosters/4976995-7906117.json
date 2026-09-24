@@ -1,0 +1,17 @@
+{
+  "programId": 4976995,
+  "teamId": 7906117,
+  "teamName": "2. Holli D. and Tyler J.",
+  "players": [
+    {
+      "userId": 45248311,
+      "firstName": "Holli",
+      "isCaptain": true
+    },
+    {
+      "userId": 42592644,
+      "firstName": "Tyler",
+      "isCaptain": false
+    }
+  ]
+}

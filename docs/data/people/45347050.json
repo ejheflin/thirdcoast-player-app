@@ -1,0 +1,36 @@
+{
+  "userId": 45347050,
+  "firstName": "Anabel",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6465320,
+      "teamName": "8. Anabel K. & Hector T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6689268,
+      "teamName": "5. Anabel K. & Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6567776,
+      "teamName": "12. Anabel K. & Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6835059,
+      "teamName": "5. Anabel K. & Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7042380,
+      "teamName": "12. Anabel K. and Michael A.",
+      "isCaptain": false
+    }
+  ]
+}

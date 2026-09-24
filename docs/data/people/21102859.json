@@ -1,0 +1,18 @@
+{
+  "userId": 21102859,
+  "firstName": "Julia",
+  "appearances": [
+    {
+      "programId": 4770452,
+      "teamId": 7609019,
+      "teamName": "4. Julia W. and Adrian M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6162747,
+      "teamName": "2. Julia W. & Jon N.",
+      "isCaptain": false
+    }
+  ]
+}

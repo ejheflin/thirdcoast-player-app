@@ -1,0 +1,17 @@
+{
+  "programId": 4752512,
+  "teamId": 7597394,
+  "teamName": "8. Holli D. and Jaimie G.",
+  "players": [
+    {
+      "userId": 45248311,
+      "firstName": "Holli",
+      "isCaptain": false
+    },
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    }
+  ]
+}

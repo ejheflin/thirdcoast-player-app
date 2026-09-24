@@ -1,0 +1,17 @@
+{
+  "programId": 4872983,
+  "teamId": 7761990,
+  "teamName": "6. Sarah S. and Jo P.",
+  "players": [
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    },
+    {
+      "userId": 14578171,
+      "firstName": "Sarah",
+      "isCaptain": false
+    }
+  ]
+}

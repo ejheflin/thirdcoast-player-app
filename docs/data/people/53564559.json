@@ -1,0 +1,24 @@
+{
+  "userId": 53564559,
+  "firstName": "Ruben",
+  "appearances": [
+    {
+      "programId": 4661451,
+      "teamId": 7472940,
+      "teamName": "11. The Habibiz (Roy T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7598385,
+      "teamName": "12. The Habibiz (Roy T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7589105,
+      "teamName": "10. Jet 2 Holiday (Ruben R.)",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "userId": 14744581,
+  "firstName": "Tiffany",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6548934,
+      "teamName": "8. Ricky’s Tricks (Ricky S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6715115,
+      "teamName": "8. Prosthesiotape (John K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6373057,
+      "teamName": "6. Sandy Start (Tiffany S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6454747,
+      "teamName": "6. Ricky’s Tricks (John K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6153246,
+      "teamName": "5. Sandy Start (Tiffany S.)",
+      "isCaptain": true
+    }
+  ]
+}

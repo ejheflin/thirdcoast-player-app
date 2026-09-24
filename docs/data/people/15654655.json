@@ -1,0 +1,96 @@
+{
+  "userId": 15654655,
+  "firstName": "Brent",
+  "appearances": [
+    {
+      "programId": 4872859,
+      "teamId": 7761984,
+      "teamName": "6. Sarah U. and Brent B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7607093,
+      "teamName": "4. Sarah U. and Brent B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967493,
+      "teamId": 7899708,
+      "teamName": "8. Sarah U. and Brent B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6392893,
+      "teamName": "9. Blue Balls (Alexis B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6136728,
+      "teamName": "4. Blue Balls (Alex L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7208841,
+      "teamName": "7. That’s What She Set (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7024154,
+      "teamName": "2. Calm Yo Tips (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7587219,
+      "teamName": "3. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6912501,
+      "teamName": "4. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820211,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7350645,
+      "teamName": "3. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6546214,
+      "teamName": "3. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6451260,
+      "teamName": "1. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6690556,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6128973,
+      "teamName": "3. We Dig You (Lauren M.)",
+      "isCaptain": false
+    }
+  ]
+}

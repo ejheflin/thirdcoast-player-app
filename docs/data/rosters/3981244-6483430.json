@@ -1,0 +1,17 @@
+{
+  "programId": 3981244,
+  "teamId": 6483430,
+  "teamName": "10. Christine M. & Matt B.",
+  "players": [
+    {
+      "userId": 14645944,
+      "firstName": "Mathieu",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707600,
+      "firstName": "Christine",
+      "isCaptain": false
+    }
+  ]
+}

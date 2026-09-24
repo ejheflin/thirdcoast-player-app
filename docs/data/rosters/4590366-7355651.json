@@ -1,0 +1,17 @@
+{
+  "programId": 4590366,
+  "teamId": 7355651,
+  "teamName": "9. Vince R. and John T.",
+  "players": [
+    {
+      "userId": 52227974,
+      "firstName": "Vicente",
+      "isCaptain": true
+    },
+    {
+      "userId": 52076360,
+      "firstName": "John",
+      "isCaptain": false
+    }
+  ]
+}

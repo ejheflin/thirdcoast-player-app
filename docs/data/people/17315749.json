@@ -1,0 +1,18 @@
+{
+  "userId": 17315749,
+  "firstName": "Sarita",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3428917,
+      "teamName": "4 - Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2895298,
+      "teamName": "1 - Not Good at Volleyball Puns (Daniel A.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 46596799,
+  "firstName": "Clay",
+  "appearances": [
+    {
+      "programId": 4220826,
+      "teamId": 6817840,
+      "teamName": "7. Diggin’ Divas (Sarah U.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6917537,
+      "teamName": "8. Diggin’ Divas (Sarah U.)",
+      "isCaptain": false
+    }
+  ]
+}

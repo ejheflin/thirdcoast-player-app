@@ -1,0 +1,24 @@
+{
+  "userId": 14634340,
+  "firstName": "Hollis",
+  "appearances": [
+    {
+      "programId": 4033201,
+      "teamId": 6545999,
+      "teamName": "3. Johnny W. & Hollis S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6830343,
+      "teamName": "8. Mike G. & Hollis S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6149319,
+      "teamName": "1. Hollis S. & Michael G.",
+      "isCaptain": false
+    }
+  ]
+}

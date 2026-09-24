@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6560366,
+  "teamName": "12. Olivia E. & Michael A.",
+  "players": [
+    {
+      "userId": 45443780,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 45979100,
+      "firstName": "Olivia",
+      "isCaptain": false
+    }
+  ]
+}

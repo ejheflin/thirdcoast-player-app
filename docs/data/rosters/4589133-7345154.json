@@ -1,0 +1,22 @@
+{
+  "programId": 4589133,
+  "teamId": 7345154,
+  "teamName": "7. Bumpin Uglies (Luke S.)",
+  "players": [
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 39777210,
+      "firstName": "Benjamin",
+      "isCaptain": false
+    },
+    {
+      "userId": 48952483,
+      "firstName": "Luke",
+      "isCaptain": true
+    }
+  ]
+}

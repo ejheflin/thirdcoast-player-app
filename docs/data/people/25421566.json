@@ -1,0 +1,30 @@
+{
+  "userId": 25421566,
+  "firstName": "Jasmine",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6462931,
+      "teamName": "4. Jasmine J. & Donald P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6691456,
+      "teamName": "8. Practice Safe Sets (John O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4192626,
+      "teamName": "5 - Getting it in (Jose B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3948634,
+      "teamName": "3 - Getting It In (Ryan D.)",
+      "isCaptain": false
+    }
+  ]
+}

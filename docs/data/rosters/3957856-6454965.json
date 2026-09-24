@@ -1,0 +1,27 @@
+{
+  "programId": 3957856,
+  "teamId": 6454965,
+  "teamName": "8. Practice Safe Sets (Gary C.)",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": true
+    },
+    {
+      "userId": 39390141,
+      "firstName": "Alyssa",
+      "isCaptain": false
+    },
+    {
+      "userId": 22329109,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 27944868,
+      "firstName": "Derek",
+      "isCaptain": false
+    }
+  ]
+}

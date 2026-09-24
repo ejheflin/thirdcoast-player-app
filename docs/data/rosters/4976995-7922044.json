@@ -1,0 +1,17 @@
+{
+  "programId": 4976995,
+  "teamId": 7922044,
+  "teamName": "4. Molly J. and Alex J.",
+  "players": [
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    },
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

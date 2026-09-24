@@ -1,0 +1,27 @@
+{
+  "programId": 3957858,
+  "teamId": 6454892,
+  "teamName": "8. River Oaks VC (Tom K.)",
+  "players": [
+    {
+      "userId": 14636653,
+      "firstName": "Tom",
+      "isCaptain": true
+    },
+    {
+      "userId": 14625931,
+      "firstName": "Benjamin",
+      "isCaptain": false
+    },
+    {
+      "userId": 35126086,
+      "firstName": "Alexis",
+      "isCaptain": false
+    },
+    {
+      "userId": 14723746,
+      "firstName": "sean",
+      "isCaptain": false
+    }
+  ]
+}

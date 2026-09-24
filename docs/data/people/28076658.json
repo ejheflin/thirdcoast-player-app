@@ -1,0 +1,24 @@
+{
+  "userId": 28076658,
+  "firstName": "Emily",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4206204,
+      "teamName": "3 - North American Volleyball Syndicate (Steve C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4423971,
+      "teamName": "3 - North American Volleyball Syndicate (Steve C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4731090,
+      "teamName": "4 - North American Volleyball Syndicate (Steve C.)",
+      "isCaptain": false
+    }
+  ]
+}

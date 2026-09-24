@@ -1,0 +1,32 @@
+{
+  "programId": 4288375,
+  "teamId": 6920606,
+  "teamName": "7. My quads hurt (Phil A.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 22184167,
+      "firstName": "Riley",
+      "isCaptain": false
+    },
+    {
+      "userId": 42548046,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": false
+    },
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

@@ -25,6 +25,66 @@
       "teamId": 8159110,
       "teamName": "5. Watermelon (Lauren K.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4872925,
+      "teamId": 7762219,
+      "teamName": "1. Blakes Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661444,
+      "teamId": 7472983,
+      "teamName": "7. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756152,
+      "teamId": 7587118,
+      "teamName": "5. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7758741,
+      "teamName": "3. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7758658,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7429658,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975324,
+      "teamId": 7900259,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7572866,
+      "teamName": "5. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7229397,
+      "teamName": "9. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7343862,
+      "teamName": "4. Blake’s Beaches (Collin W.)",
+      "isCaptain": true
     }
   ]
 }

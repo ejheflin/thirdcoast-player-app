@@ -1,0 +1,96 @@
+{
+  "userId": 14964559,
+  "firstName": "Mark",
+  "appearances": [
+    {
+      "programId": 3903869,
+      "teamId": 6378202,
+      "teamName": "1. Some Spike It Hot (Rebecca B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7433180,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7585266,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7347639,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6816636,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6545500,
+      "teamName": "2. Size Matters (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362285,
+      "teamId": 7029278,
+      "teamName": "4. Hit it from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6445396,
+      "teamName": "2. Makeup Sets (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6919342,
+      "teamName": "8. Hit it from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7229856,
+      "teamName": "6. H-Town HardHitters (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6372245,
+      "teamName": "2. Size Matters (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6706028,
+      "teamName": "4. Hit It from the Side (Mark M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6131601,
+      "teamName": "6. Makeup Sets (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4191807,
+      "teamName": "7 - Spike It Harder (Brad O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3953017,
+      "teamName": "8 - Das Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

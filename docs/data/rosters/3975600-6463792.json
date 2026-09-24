@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6463792,
+  "teamName": "7. Alexis T. & Gary C.",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126086,
+      "firstName": "Alexis",
+      "isCaptain": false
+    }
+  ]
+}

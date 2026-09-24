@@ -19,6 +19,150 @@
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7905533,
+      "teamName": "2. Ellie B. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761979,
+      "teamName": "5. Megan C. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7591683,
+      "teamName": "7. Megan C. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7455814,
+      "teamName": "10. Megan C. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7352482,
+      "teamName": "10. Megan C. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6920074,
+      "teamName": "10. Emily R. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7027756,
+      "teamName": "4. Sarah U. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7917562,
+      "teamName": "2. Ashlee S. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7045893,
+      "teamName": "9. Sarah U. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7336310,
+      "teamName": "2. Sarah U. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6565367,
+      "teamName": "3. Alexis T. & Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6480767,
+      "teamName": "2. Alexis T. & Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7790989,
+      "teamName": "10. Ashlee S. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196683,
+      "teamName": "5. Sarah U. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6143493,
+      "teamName": "7. Hannah S. & Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6952921,
+      "teamName": "4. Sarah U. and Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6393030,
+      "teamName": "9. Emily F. & Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6845617,
+      "teamName": "9. Brittney G. & Matt G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6913439,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6824805,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6549335,
+      "teamName": "6. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6384400,
+      "teamName": "8. Twin Peaks (Tracie D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6722110,
+      "teamName": "3. Twin Peaks (Tracie D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6159372,
+      "teamName": "8. Twin Peaks (Tracie D.)",
+      "isCaptain": false
     }
   ]
 }

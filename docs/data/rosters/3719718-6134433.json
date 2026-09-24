@@ -1,0 +1,17 @@
+{
+  "programId": 3719718,
+  "teamId": 6134433,
+  "teamName": "3. Madison M. & Devin S.",
+  "players": [
+    {
+      "userId": 39534252,
+      "firstName": "Madison",
+      "isCaptain": false
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": true
+    }
+  ]
+}

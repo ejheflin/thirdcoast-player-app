@@ -1,0 +1,215 @@
+{
+  "programId": 2609349,
+  "teams": {
+    "4424271": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4424271,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - VicTORIous Secret (Branden B.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "4426200": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4426200,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Arsenal Gunners (David T.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 1,
+          "ties": 4
+        }
+      ]
+    },
+    "4429470": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4429470,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - Jump Set Or Bust (Gary C.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "4434792": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4434792,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Volley Llamas (Joshua M.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "4437147": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4437147,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - Settin Pretty (Elizabeth A.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "4438488": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4438488,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - IT'S THE SWEET ONE! (Quentin B.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 1
+        }
+      ]
+    },
+    "4438608": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4438608,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - Sandy Cheeks (Will T.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 3,
+          "ties": 2
+        }
+      ]
+    },
+    "4438788": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4438788,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - Hustle Gang (Calvin D.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "4439217": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4439217,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - Diggin and Swinging (Ivan M.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "4439643": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609349,
+          "teamId": 4439643,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - The Beta-Blockers (Simon M.)",
+          "endDate": 1638248400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 3,
+          "ties": 9
+        }
+      ]
+    }
+  }
+}

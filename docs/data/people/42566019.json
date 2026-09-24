@@ -1,0 +1,54 @@
+{
+  "userId": 42566019,
+  "firstName": "Jessica",
+  "appearances": [
+    {
+      "programId": 4222041,
+      "teamId": 6816636,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6545500,
+      "teamName": "2. Size Matters (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362285,
+      "teamId": 7029278,
+      "teamName": "4. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6445396,
+      "teamName": "2. Makeup Sets (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6919342,
+      "teamName": "8. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6372245,
+      "teamName": "2. Size Matters (Matt K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6706028,
+      "teamName": "4. Hit It from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6131601,
+      "teamName": "6. Makeup Sets (Matt K.)",
+      "isCaptain": false
+    }
+  ]
+}

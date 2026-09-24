@@ -1,0 +1,17 @@
+{
+  "programId": 4139359,
+  "teamId": 6693440,
+  "teamName": "10. Savannah W. & Devin S.",
+  "players": [
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": true
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": false
+    }
+  ]
+}

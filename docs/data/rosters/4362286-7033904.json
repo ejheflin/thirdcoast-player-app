@@ -1,0 +1,27 @@
+{
+  "programId": 4362286,
+  "teamId": 7033904,
+  "teamName": "9. Sandy Cheeks (Lauren D.)",
+  "players": [
+    {
+      "userId": 49888408,
+      "firstName": "Deep",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887953,
+      "firstName": "Lauren",
+      "isCaptain": true
+    },
+    {
+      "userId": 49888202,
+      "firstName": "Jeremy",
+      "isCaptain": false
+    },
+    {
+      "userId": 49888270,
+      "firstName": "Erin",
+      "isCaptain": false
+    }
+  ]
+}

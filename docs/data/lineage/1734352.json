@@ -1,0 +1,215 @@
+{
+  "programId": 1734352,
+  "teams": {
+    "3245047": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3245047,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "2 - Sophia D. & Dan L.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 1,
+          "ties": 8
+        }
+      ]
+    },
+    "3246550": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3246550,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "1 - Debbie W. & Tony L.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "3248035": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3248035,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "3 - Margo P. & Mike B.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 9,
+          "ties": 2
+        }
+      ]
+    },
+    "3250810": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3250810,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "4 - Melissa L. & Christian A.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 1,
+          "ties": 8
+        }
+      ]
+    },
+    "3256603": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3256603,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "9 - Hunter & Josman R.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "3258655": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3258655,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "6 - Julie V. & Jaimie G.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "3259696": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3259696,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "7 - Megan E. & Tommy S.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "3260527": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3260527,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "5 - Giselle L. & Emiliano T.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 1,
+          "ties": 1
+        }
+      ]
+    },
+    "3261439": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3261439,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "8 - Tasha W. & Christopher C.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "3265696": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734352,
+          "teamId": 3265696,
+          "programName": "Friday Coed 2s Intermediate",
+          "teamName": "10 - Myah P. & James N.",
+          "endDate": 1601006400000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

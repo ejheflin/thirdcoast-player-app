@@ -7,6 +7,60 @@
       "teamId": 8017043,
       "teamName": "1. Emily R. and Riley F.",
       "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7021496,
+      "teamName": "1. Beth B. and Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7197992,
+      "teamName": "5. Beth B. and Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7332862,
+      "teamName": "6. Beth B. and Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6390146,
+      "teamName": "8. Molly J. & Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6142923,
+      "teamName": "4. Molly J. & Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6481332,
+      "teamName": "5. Molly J. & Riley F.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6920606,
+      "teamName": "7. My quads hurt (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6155901,
+      "teamName": "10. Riley F. & Luis L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6393416,
+      "teamName": "9. Luis L. & Riley F.",
+      "isCaptain": false
     }
   ]
 }

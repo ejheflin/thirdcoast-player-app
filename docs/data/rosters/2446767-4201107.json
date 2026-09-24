@@ -1,0 +1,27 @@
+{
+  "programId": 2446767,
+  "teamId": 4201107,
+  "teamName": "8 - Stankaitis Season 2 (Evan L.)",
+  "players": [
+    {
+      "userId": 25385380,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 25392457,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 25464427,
+      "firstName": "Micaela",
+      "isCaptain": false
+    },
+    {
+      "userId": 25396060,
+      "firstName": "Cari",
+      "isCaptain": false
+    }
+  ]
+}

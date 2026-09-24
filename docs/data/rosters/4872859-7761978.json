@@ -1,0 +1,17 @@
+{
+  "programId": 4872859,
+  "teamId": 7761978,
+  "teamName": "2. Doria O. and Jacob W.",
+  "players": [
+    {
+      "userId": 53587344,
+      "firstName": "Doria",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

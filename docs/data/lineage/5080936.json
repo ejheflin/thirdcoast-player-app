@@ -1,0 +1,305 @@
+{
+  "programId": 5080936,
+  "teams": {
+    "8036844": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8036844,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "2. Denise H. and Dreco S.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        }
+      ]
+    },
+    "8037121": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8037121,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "4. Kathleen B. and Robert T.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 10,
+          "ties": 6
+        }
+      ]
+    },
+    "8037979": {
+      "seasons": 7,
+      "move": null,
+      "from": {
+        "programId": 4967494,
+        "teamId": 7908817,
+        "programName": "Monday Coed 3s B",
+        "teamName": "4. Sandy Cheeks (David N.)",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 4497641,
+          "teamId": 7196730,
+          "programName": "Monday Coed 3s B",
+          "teamName": "3. Sandy Cheeks (David N.)",
+          "endDate": 1745208000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 12,
+          "ties": 2
+        },
+        {
+          "programId": 4589133,
+          "teamId": 7347267,
+          "programName": "Monday Coed 3s B",
+          "teamName": "8. Sandy Cheeks (David N.)",
+          "endDate": 1752465600000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 12,
+          "ties": 1
+        },
+        {
+          "programId": 4661444,
+          "teamId": 7469379,
+          "programName": "Monday Coed 3s B",
+          "teamName": "5. Sandy Cheeks (David N.)",
+          "endDate": 1759723200000,
+          "level": "B",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 8,
+          "ties": 5
+        },
+        {
+          "programId": 4756152,
+          "teamId": 7607239,
+          "programName": "Monday Coed 3s B",
+          "teamName": "8. Sandy Cheeks (David N.)",
+          "endDate": 1766379600000,
+          "level": "B",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 9,
+          "ties": 3
+        },
+        {
+          "programId": 4872925,
+          "teamId": 7778432,
+          "programName": "Monday Coed 3s B",
+          "teamName": "5. Sandy Cheeks (David N.)",
+          "endDate": 1776657600000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 10,
+          "ties": 2
+        },
+        {
+          "programId": 4967494,
+          "teamId": 7908817,
+          "programName": "Monday Coed 3s B",
+          "teamName": "4. Sandy Cheeks (David N.)",
+          "endDate": 1783310400000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 9,
+          "ties": 5
+        },
+        {
+          "programId": 5080936,
+          "teamId": 8037979,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "3. Sue L. and David N.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 9,
+          "ties": 5
+        }
+      ]
+    },
+    "8038721": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8038721,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "10. Randy J. and Hector T.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        }
+      ]
+    },
+    "8039648": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8039648,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "7. Lauren V. and Naz A.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    },
+    "8039931": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8039931,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "5. Angel H. and Paul R.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "8041292": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8041292,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "6. Julie V. and Brandon W.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        }
+      ]
+    },
+    "8042849": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8042849,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "8. Sammy L. and Joseph V.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 0,
+          "ties": 4
+        }
+      ]
+    },
+    "8042907": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8042907,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "9. Brooke F. and Travis T.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "8043510": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5080936,
+          "teamId": 8043510,
+          "programName": "Monday Coed 2s B/BB Pop Up",
+          "teamName": "1. Rachele P. and Ganesh N.",
+          "endDate": 1789963200000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 8,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

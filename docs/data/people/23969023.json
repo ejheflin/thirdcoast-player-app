@@ -1,0 +1,30 @@
+{
+  "userId": 23969023,
+  "firstName": "Erik",
+  "appearances": [
+    {
+      "programId": 3716070,
+      "teamId": 6126720,
+      "teamName": "1. Gabriela C. & Erik H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903865,
+      "teamId": 6374083,
+      "teamName": "1. Gabriela C. & Erik H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6379520,
+      "teamName": "7. Taylor B. & Erik H.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6126786,
+      "teamName": "1. Gabby & The Boyz (Marshall C.)",
+      "isCaptain": false
+    }
+  ]
+}

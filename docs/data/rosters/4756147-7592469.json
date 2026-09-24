@@ -1,0 +1,17 @@
+{
+  "programId": 4756147,
+  "teamId": 7592469,
+  "teamName": "8. Abbie G. and Jonathan G.",
+  "players": [
+    {
+      "userId": 51224015,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 48964709,
+      "firstName": "Abbie",
+      "isCaptain": true
+    }
+  ]
+}

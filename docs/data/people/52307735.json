@@ -1,0 +1,24 @@
+{
+  "userId": 52307735,
+  "firstName": "Parker",
+  "appearances": [
+    {
+      "programId": 4661451,
+      "teamId": 7467429,
+      "teamName": "8. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7585459,
+      "teamName": "5. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7353416,
+      "teamName": "8. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    }
+  ]
+}

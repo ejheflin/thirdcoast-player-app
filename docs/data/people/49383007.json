@@ -1,0 +1,30 @@
+{
+  "userId": 49383007,
+  "firstName": "Harrison",
+  "appearances": [
+    {
+      "programId": 4488291,
+      "teamId": 7186464,
+      "teamName": "3. Here for the Beer (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6907726,
+      "teamName": "2. Here for the Beer (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7346972,
+      "teamName": "8. Here for the Beer (Annie L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7202987,
+      "teamName": "9. Dreco S. and Harrison S.",
+      "isCaptain": false
+    }
+  ]
+}

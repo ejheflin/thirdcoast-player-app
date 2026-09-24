@@ -1,0 +1,173 @@
+{
+  "programId": 1734334,
+  "teams": {
+    "3255532": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3255532,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "1 - Mike B. & Aaron K.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3256375": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3256375,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "2 - David Dry. & Ed F.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "3258433": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3258433,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "3 - Ryan R. & Nic C.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "3259138": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3259138,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "5 - Zach P. & Brian G.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 11,
+          "losses": 1,
+          "ties": 2
+        }
+      ]
+    },
+    "3259513": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3259513,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "4 - Matt Y. & Will S.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "3278812": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3278812,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "6 - Jaimie G. & Leo C.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 6,
+          "ties": 2
+        }
+      ]
+    },
+    "3282760": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3282760,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "7 - Ryan C. & Rudy D.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "3284599": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1734334,
+          "teamId": 3284599,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "8 - Dan L. & Gary M.",
+          "endDate": 1600833600000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 12,
+          "ties": 2
+        }
+      ]
+    }
+  }
+}

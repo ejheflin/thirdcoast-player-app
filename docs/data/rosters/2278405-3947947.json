@@ -1,0 +1,32 @@
+{
+  "programId": 2278405,
+  "teamId": 3947947,
+  "teamName": "4 - SKG D' Arsenal (David T.)",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": false
+    },
+    {
+      "userId": 22329109,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 24156160,
+      "firstName": "Eddie",
+      "isCaptain": false
+    },
+    {
+      "userId": 16202581,
+      "firstName": "David",
+      "isCaptain": true
+    },
+    {
+      "userId": 16228330,
+      "firstName": "Dara",
+      "isCaptain": false
+    }
+  ]
+}

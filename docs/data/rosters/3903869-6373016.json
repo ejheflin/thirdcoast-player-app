@@ -1,0 +1,22 @@
+{
+  "programId": 3903869,
+  "teamId": 6373016,
+  "teamName": "9. We Back In It (Aatir A.)",
+  "players": [
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 42545037,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 44202991,
+      "firstName": "vanessa",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 3909727,
+  "teamId": 6391161,
+  "teamName": "1. Eric W. & Dan M.",
+  "players": [
+    {
+      "userId": 18666043,
+      "firstName": "Dan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14584840,
+      "firstName": "Eric",
+      "isCaptain": true
+    }
+  ]
+}

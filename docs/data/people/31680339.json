@@ -1,0 +1,36 @@
+{
+  "userId": 31680339,
+  "firstName": "Hunter",
+  "appearances": [
+    {
+      "programId": 3719520,
+      "teamId": 6131094,
+      "teamName": "3. Sandy Cheeks (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6549537,
+      "teamName": "7. Watermelon (Lauren K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6450856,
+      "teamName": "5. We Dig You (Stephen J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904395,
+      "teamId": 6382593,
+      "teamName": "7. We Dig You (Stephen J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4863873,
+      "teamName": "10 - Sandy Cheeks (Arturo R.)",
+      "isCaptain": false
+    }
+  ]
+}

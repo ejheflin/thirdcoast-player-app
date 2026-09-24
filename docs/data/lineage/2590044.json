@@ -1,0 +1,173 @@
+{
+  "programId": 2590044,
+  "teams": {
+    "4391661": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4391661,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "4 - Riley F. & Emiliano T.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 3
+        }
+      ]
+    },
+    "4396335": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4396335,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "8 - Mike B. & Stefan W.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "4397772": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4397772,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "5 - James N. & Son T.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "4406589": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4406589,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "2 - David D. & Hollis S.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "4406877": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4406877,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "6 - Ryan C. & Rudy D.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "4411173": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4411173,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "7 - Zach P. & Brian T.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
+        }
+      ]
+    },
+    "4415451": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4415451,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "1 - Jaimie G. & Fredo E.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "4416408": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2590044,
+          "teamId": 4416408,
+          "programName": "Wednesday Mens 2s A",
+          "teamName": "3 - David D. & Alfonso L.",
+          "endDate": 1638939600000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 16,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

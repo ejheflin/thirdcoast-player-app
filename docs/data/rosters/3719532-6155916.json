@@ -1,0 +1,27 @@
+{
+  "programId": 3719532,
+  "teamId": 6155916,
+  "teamName": "6. Soft Serve (Zach P.)",
+  "players": [
+    {
+      "userId": 29442015,
+      "firstName": "Lauryn",
+      "isCaptain": false
+    },
+    {
+      "userId": 42548046,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": true
+    },
+    {
+      "userId": 15220915,
+      "firstName": "Son",
+      "isCaptain": false
+    }
+  ]
+}

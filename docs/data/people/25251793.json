@@ -1,0 +1,30 @@
+{
+  "userId": 25251793,
+  "firstName": "Omar",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6462933,
+      "teamName": "5. Dani D. & Omar S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6373057,
+      "teamName": "6. Sandy Start (Tiffany S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6153246,
+      "teamName": "5. Sandy Start (Tiffany S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4204467,
+      "teamName": "10 - Thrown Together (Omar S.)",
+      "isCaptain": true
+    }
+  ]
+}

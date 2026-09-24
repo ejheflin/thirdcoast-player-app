@@ -1,0 +1,17 @@
+{
+  "programId": 4661450,
+  "teamId": 7474289,
+  "teamName": "1. Alyssa D. and Brent B.",
+  "players": [
+    {
+      "userId": 49945661,
+      "firstName": "Brent",
+      "isCaptain": true
+    },
+    {
+      "userId": 14868448,
+      "firstName": "Alyssa",
+      "isCaptain": false
+    }
+  ]
+}

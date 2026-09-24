@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6462933,
+  "teamName": "5. Dani D. & Omar S.",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 25251793,
+      "firstName": "Omar",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4105682,
+  "teamId": 6657815,
+  "teamName": "5. Team (Mark J.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": false
+    },
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 45205073,
+      "firstName": "Grace",
+      "isCaptain": false
+    },
+    {
+      "userId": 23555404,
+      "firstName": "Mark",
+      "isCaptain": true
+    }
+  ]
+}

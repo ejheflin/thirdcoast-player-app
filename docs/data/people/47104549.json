@@ -1,0 +1,18 @@
+{
+  "userId": 47104549,
+  "firstName": "Leandro",
+  "appearances": [
+    {
+      "programId": 4139007,
+      "teamId": 6689360,
+      "teamName": "3. May the Spike Be With You (Ash C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6809504,
+      "teamName": "1. May the Spike Be With You (Ash C.)",
+      "isCaptain": false
+    }
+  ]
+}

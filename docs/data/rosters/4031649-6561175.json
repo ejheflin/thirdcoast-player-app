@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6561175,
+  "teamName": "9. Joann L. & Luis L.",
+  "players": [
+    {
+      "userId": 16172593,
+      "firstName": "Luis",
+      "isCaptain": false
+    },
+    {
+      "userId": 17401432,
+      "firstName": "Joann",
+      "isCaptain": true
+    }
+  ]
+}

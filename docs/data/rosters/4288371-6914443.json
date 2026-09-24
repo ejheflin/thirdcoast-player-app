@@ -1,0 +1,27 @@
+{
+  "programId": 4288371,
+  "teamId": 6914443,
+  "teamName": "3. Las Tóxicas (Nicole P.)",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 49007140,
+      "firstName": "Jalen",
+      "isCaptain": false
+    },
+    {
+      "userId": 39305583,
+      "firstName": "Martin",
+      "isCaptain": false
+    },
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": true
+    }
+  ]
+}

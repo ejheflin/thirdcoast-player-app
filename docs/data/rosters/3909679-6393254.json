@@ -1,0 +1,27 @@
+{
+  "programId": 3909679,
+  "teamId": 6393254,
+  "teamName": "11. Team Tika (Heather F.)",
+  "players": [
+    {
+      "userId": 25295965,
+      "firstName": "Rob",
+      "isCaptain": false
+    },
+    {
+      "userId": 14632525,
+      "firstName": "Heather",
+      "isCaptain": true
+    },
+    {
+      "userId": 23626960,
+      "firstName": "Chad",
+      "isCaptain": false
+    },
+    {
+      "userId": 23106514,
+      "firstName": "Adrian",
+      "isCaptain": false
+    }
+  ]
+}

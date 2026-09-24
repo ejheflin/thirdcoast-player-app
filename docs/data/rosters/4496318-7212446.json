@@ -1,0 +1,47 @@
+{
+  "programId": 4496318,
+  "teamId": 7212446,
+  "teamName": "9. Hidden Volley Ranch (Sarah T.)",
+  "players": [
+    {
+      "userId": 51146036,
+      "firstName": "Mark",
+      "isCaptain": false
+    },
+    {
+      "userId": 51389026,
+      "firstName": "Zachary",
+      "isCaptain": false
+    },
+    {
+      "userId": 51141663,
+      "firstName": "Inah",
+      "isCaptain": false
+    },
+    {
+      "userId": 51140157,
+      "firstName": "Mitch",
+      "isCaptain": false
+    },
+    {
+      "userId": 51389186,
+      "firstName": "Hannah",
+      "isCaptain": false
+    },
+    {
+      "userId": 51151838,
+      "firstName": "Blythe",
+      "isCaptain": false
+    },
+    {
+      "userId": 51140964,
+      "firstName": "Tyler",
+      "isCaptain": false
+    },
+    {
+      "userId": 51139908,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}

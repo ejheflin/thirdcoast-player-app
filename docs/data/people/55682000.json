@@ -1,0 +1,18 @@
+{
+  "userId": 55682000,
+  "firstName": "Geraldina",
+  "appearances": [
+    {
+      "programId": 4872925,
+      "teamId": 7792977,
+      "teamName": "8. Tri-Angels (Johnny P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967494,
+      "teamId": 7909257,
+      "teamName": "6. Tri-Angels (Johnny P.)",
+      "isCaptain": false
+    }
+  ]
+}

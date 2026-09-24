@@ -1,0 +1,22 @@
+{
+  "programId": 4496318,
+  "teamId": 7223745,
+  "teamName": "5. Passing Machines!! (Joe R.)",
+  "players": [
+    {
+      "userId": 49426556,
+      "firstName": "Bethani",
+      "isCaptain": false
+    },
+    {
+      "userId": 49535904,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    }
+  ]
+}

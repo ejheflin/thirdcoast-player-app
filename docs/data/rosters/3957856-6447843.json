@@ -1,0 +1,27 @@
+{
+  "programId": 3957856,
+  "teamId": 6447843,
+  "teamName": "1. Jeff's Team (Jeff S.)",
+  "players": [
+    {
+      "userId": 28074471,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": true
+    },
+    {
+      "userId": 14707129,
+      "firstName": "Emiliano",
+      "isCaptain": false
+    },
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": false
+    }
+  ]
+}

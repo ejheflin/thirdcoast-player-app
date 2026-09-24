@@ -1,0 +1,54 @@
+{
+  "userId": 39390141,
+  "firstName": "Alyssa",
+  "appearances": [
+    {
+      "programId": 4045339,
+      "teamId": 6562044,
+      "teamName": "1. Alyssa M. & Beau B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6481649,
+      "teamName": "3. Alyssa M. & Stephen J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6155406,
+      "teamName": "9. Alyssa M. & Adolph T.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6392942,
+      "teamName": "8. Alyssa M. & Joe M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549942,
+      "teamName": "7. Practice Safe Sets (John O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6454965,
+      "teamName": "8. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6382693,
+      "teamName": "2. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6156249,
+      "teamName": "1. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    }
+  ]
+}

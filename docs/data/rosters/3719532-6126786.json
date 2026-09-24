@@ -1,0 +1,27 @@
+{
+  "programId": 3719532,
+  "teamId": 6126786,
+  "teamName": "1. Gabby & The Boyz (Marshall C.)",
+  "players": [
+    {
+      "userId": 14607730,
+      "firstName": "Marshall",
+      "isCaptain": true
+    },
+    {
+      "userId": 38042141,
+      "firstName": "Brandon",
+      "isCaptain": false
+    },
+    {
+      "userId": 23969023,
+      "firstName": "Erik",
+      "isCaptain": false
+    },
+    {
+      "userId": 35342981,
+      "firstName": "Jackie",
+      "isCaptain": false
+    }
+  ]
+}

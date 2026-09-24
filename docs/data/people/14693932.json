@@ -1,0 +1,30 @@
+{
+  "userId": 14693932,
+  "firstName": "Nikita",
+  "appearances": [
+    {
+      "programId": 2446767,
+      "teamId": 4200084,
+      "teamName": "4 - Empire Spikes Back (Benet G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3925735,
+      "teamName": "10 - 4 Boobs and Balls (Benet G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3439867,
+      "teamName": "2 - Beer, Bongs, & Balls (Benet G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626953,
+      "teamName": "2 - Beer Bong and Bikinis (Benet G.)",
+      "isCaptain": false
+    }
+  ]
+}

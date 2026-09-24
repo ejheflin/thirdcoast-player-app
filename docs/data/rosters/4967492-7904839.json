@@ -1,0 +1,17 @@
+{
+  "programId": 4967492,
+  "teamId": 7904839,
+  "teamName": "5. Kim S. and Eli F.",
+  "players": [
+    {
+      "userId": 56464927,
+      "firstName": "Eliseo",
+      "isCaptain": false
+    },
+    {
+      "userId": 22327516,
+      "firstName": "Kim",
+      "isCaptain": true
+    }
+  ]
+}

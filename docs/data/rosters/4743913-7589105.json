@@ -1,0 +1,27 @@
+{
+  "programId": 4743913,
+  "teamId": 7589105,
+  "teamName": "10. Jet 2 Holiday (Ruben R.)",
+  "players": [
+    {
+      "userId": 54298552,
+      "firstName": "Jonatan",
+      "isCaptain": false
+    },
+    {
+      "userId": 53564559,
+      "firstName": "Ruben",
+      "isCaptain": true
+    },
+    {
+      "userId": 54321616,
+      "firstName": "Jenna",
+      "isCaptain": false
+    },
+    {
+      "userId": 52225898,
+      "firstName": "Roy",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4369534,
+  "teamId": 7027761,
+  "teamName": "1. Pam C. and Hugo N.",
+  "players": [
+    {
+      "userId": 49851508,
+      "firstName": "Pam",
+      "isCaptain": false
+    },
+    {
+      "userId": 49851442,
+      "firstName": "Hughie",
+      "isCaptain": true
+    }
+  ]
+}

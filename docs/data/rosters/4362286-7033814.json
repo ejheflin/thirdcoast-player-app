@@ -1,0 +1,42 @@
+{
+  "programId": 4362286,
+  "teamId": 7033814,
+  "teamName": "8. Chocolate City (Ryan T.)",
+  "players": [
+    {
+      "userId": 49888211,
+      "firstName": "Rew",
+      "isCaptain": false
+    },
+    {
+      "userId": 49888040,
+      "firstName": "Nia",
+      "isCaptain": false
+    },
+    {
+      "userId": 46001700,
+      "firstName": "Kyndal",
+      "isCaptain": false
+    },
+    {
+      "userId": 49932436,
+      "firstName": "Carissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 49895646,
+      "firstName": "TeRon",
+      "isCaptain": false
+    },
+    {
+      "userId": 50075335,
+      "firstName": "Phong",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887630,
+      "firstName": "Ryan",
+      "isCaptain": true
+    }
+  ]
+}

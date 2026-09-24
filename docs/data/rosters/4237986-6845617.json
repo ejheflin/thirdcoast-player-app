@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6845617,
+  "teamName": "9. Brittney G. & Matt G.",
+  "players": [
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 31687011,
+      "firstName": "Brittney",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "programId": 4222036,
+  "teamId": 6823900,
+  "teamName": "1. Arsenal Gunners (David T.)",
+  "players": [
+    {
+      "userId": 42545037,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 45964525,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 47883860,
+      "firstName": "Gabby",
+      "isCaptain": false
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    },
+    {
+      "userId": 39384516,
+      "firstName": "Emmanuel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14880838,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14576317,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

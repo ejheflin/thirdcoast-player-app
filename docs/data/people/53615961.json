@@ -1,0 +1,24 @@
+{
+  "userId": 53615961,
+  "firstName": "Jessica",
+  "appearances": [
+    {
+      "programId": 4661451,
+      "teamId": 7480928,
+      "teamName": "12. Hits don’t lie (Shayan E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7578315,
+      "teamName": "2. Hits Dont Lie (Shayan E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7758591,
+      "teamName": "6. Hits Don’t Lie (Shayan E.)",
+      "isCaptain": false
+    }
+  ]
+}

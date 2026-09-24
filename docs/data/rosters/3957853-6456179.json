@@ -1,0 +1,22 @@
+{
+  "programId": 3957853,
+  "teamId": 6456179,
+  "teamName": "9. The Monday Blues (Benjamin T.)",
+  "players": [
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14625931,
+      "firstName": "Benjamin",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126086,
+      "firstName": "Alexis",
+      "isCaptain": false
+    }
+  ]
+}

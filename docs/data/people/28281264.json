@@ -1,0 +1,24 @@
+{
+  "userId": 28281264,
+  "firstName": "Colin",
+  "appearances": [
+    {
+      "programId": 3981247,
+      "teamId": 6483394,
+      "teamName": "8. Saucy C U Next Thursdays (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6387604,
+      "teamName": "7. Saucy C U Next Thursday’s! (Branden B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6131736,
+      "teamName": "2. Saucy C-U-Next Thursday's (Branden B.)",
+      "isCaptain": false
+    }
+  ]
+}

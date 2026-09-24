@@ -13,6 +13,66 @@
       "teamId": 8122145,
       "teamName": "3. Gordon P. and Harley G.",
       "isCaptain": true
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7029080,
+      "teamName": "5. Megan C. and Gordon P.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7208841,
+      "teamName": "7. That’s What She Set (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743908,
+      "teamId": 7585173,
+      "teamName": "4. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7447218,
+      "teamName": "5. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7350645,
+      "teamName": "3. Beach ballers (Megan C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7758023,
+      "teamName": "3. Key Bumps (Harley G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7757884,
+      "teamName": "3. Gordon P. and Harley G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7524251,
+      "teamName": "3. Gordon P. and Harley G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7912532,
+      "teamName": "2. Gordon P. and Harley G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7442386,
+      "teamName": "8. Gordon P. and Harley G.",
+      "isCaptain": true
     }
   ]
 }

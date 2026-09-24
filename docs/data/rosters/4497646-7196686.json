@@ -1,0 +1,17 @@
+{
+  "programId": 4497646,
+  "teamId": 7196686,
+  "teamName": "8. Molly J. and Josh K.",
+  "players": [
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    },
+    {
+      "userId": 29615565,
+      "firstName": "Joshua",
+      "isCaptain": false
+    }
+  ]
+}

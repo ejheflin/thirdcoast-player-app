@@ -1,0 +1,17 @@
+{
+  "programId": 4379697,
+  "teamId": 7047233,
+  "teamName": "4. Krissy B. and Adolph T.",
+  "players": [
+    {
+      "userId": 48155715,
+      "firstName": "Kristylen",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

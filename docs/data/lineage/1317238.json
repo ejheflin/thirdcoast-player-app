@@ -1,0 +1,215 @@
+{
+  "programId": 1317238,
+  "teams": {
+    "2682274": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2682274,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "7 - Tallie A. & Payton P.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "2684902": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2684902,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "4 - Megan L. & Brad F.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    },
+    "2684947": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2684947,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "6 - Starr K. & Etienne B.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 3,
+          "ties": 9
+        }
+      ]
+    },
+    "2685424": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2685424,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "2 - Liz C. & Van P.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "2685814": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2685814,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "1 - Erin V. & Grant W.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    },
+    "2686108": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2686108,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "9 - Kait L. & Chris C.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "2686192": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2686192,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "8 - Erin K. & Travis B.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "2687767": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2687767,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "3 - Maria H. & Shak M.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "2688922": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2688922,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "5 - Silvana C. & Kevin G.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "2693095": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1317238,
+          "teamId": 2693095,
+          "programName": "Monday Coed 2s Intermediate",
+          "teamName": "10 - Lindsay S. & Tommy S.",
+          "endDate": 1574658000000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 29442015,
+  "firstName": "Lauryn",
+  "appearances": [
+    {
+      "programId": 3719532,
+      "teamId": 6155916,
+      "teamName": "6. Soft Serve (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4729116,
+      "teamName": "1 - Big Dig Energy (Johnny L.)",
+      "isCaptain": false
+    }
+  ]
+}

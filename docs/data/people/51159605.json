@@ -1,0 +1,18 @@
+{
+  "userId": 51159605,
+  "firstName": "Marco",
+  "appearances": [
+    {
+      "programId": 4590310,
+      "teamId": 7350085,
+      "teamName": "4. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7578478,
+      "teamName": "7. See You Next Tuesday (Chad S.)",
+      "isCaptain": false
+    }
+  ]
+}

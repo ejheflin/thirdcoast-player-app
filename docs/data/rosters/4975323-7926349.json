@@ -1,0 +1,27 @@
+{
+  "programId": 4975323,
+  "teamId": 7926349,
+  "teamName": "1. Gold Diggerz (JT N.)",
+  "players": [
+    {
+      "userId": 55630518,
+      "firstName": "Grayson",
+      "isCaptain": false
+    },
+    {
+      "userId": 47832501,
+      "firstName": "Kirby",
+      "isCaptain": false
+    },
+    {
+      "userId": 49008374,
+      "firstName": "JT",
+      "isCaptain": true
+    },
+    {
+      "userId": 56698054,
+      "firstName": "Catherine",
+      "isCaptain": false
+    }
+  ]
+}

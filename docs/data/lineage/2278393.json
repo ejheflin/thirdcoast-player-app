@@ -1,0 +1,215 @@
+{
+  "programId": 2278393,
+  "teams": {
+    "3926614": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3926614,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "7 - Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 5,
+          "ties": 8
+        }
+      ]
+    },
+    "3931510": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3931510,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "8 - SofaKingGood Gunners (David T.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "3937210": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3937210,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "1 - Arsenal Gunners (David T.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 2,
+          "ties": 2
+        }
+      ]
+    },
+    "3944656": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3944656,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "3 - Can't Close (Heather B.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "3948409": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3948409,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "4 - IT'S THE SWEET ONE!! (Quentin B.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 10,
+          "ties": 4
+        }
+      ]
+    },
+    "3950134": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3950134,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "6 - Ooh... A Piece Of Candy! (Terry V.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 8,
+          "ties": 6
+        }
+      ]
+    },
+    "3950641": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3950641,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "10 - Balls Deep (Brooke H.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "3950785": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3950785,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "2 - Settin pretty (Elizabeth A.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 7,
+          "ties": 3
+        }
+      ]
+    },
+    "3952267": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3952267,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "9 - A team (Cathryn C.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 6,
+          "ties": 9
+        }
+      ]
+    },
+    "3957745": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2278393,
+          "teamId": 3957745,
+          "programName": "Tuesday Coed 4s Intermediate #2",
+          "teamName": "5 - Twin Peaks (Tracie D.)",
+          "endDate": 1626148800000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

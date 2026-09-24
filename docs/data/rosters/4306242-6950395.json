@@ -1,0 +1,17 @@
+{
+  "programId": 4306242,
+  "teamId": 6950395,
+  "teamName": "7. Scott S. and Chris H.",
+  "players": [
+    {
+      "userId": 14965486,
+      "firstName": "Chris",
+      "isCaptain": false
+    },
+    {
+      "userId": 14918455,
+      "firstName": "Scott",
+      "isCaptain": true
+    }
+  ]
+}

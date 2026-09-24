@@ -1,0 +1,18 @@
+{
+  "userId": 14583655,
+  "firstName": "Susan",
+  "appearances": [
+    {
+      "programId": 4379701,
+      "teamId": 7052153,
+      "teamName": "5. No Dig-ity! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6956157,
+      "teamName": "10. The Comebacks! (Joe R.)",
+      "isCaptain": false
+    }
+  ]
+}

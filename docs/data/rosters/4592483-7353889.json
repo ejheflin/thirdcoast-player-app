@@ -1,0 +1,17 @@
+{
+  "programId": 4592483,
+  "teamId": 7353889,
+  "teamName": "9. Erin F. and Isa T.",
+  "players": [
+    {
+      "userId": 52089397,
+      "firstName": "Erin",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

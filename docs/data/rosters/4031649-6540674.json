@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6540674,
+  "teamName": "8. Valaya N. & Jacob W.",
+  "players": [
+    {
+      "userId": 45825411,
+      "firstName": "Valaya",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

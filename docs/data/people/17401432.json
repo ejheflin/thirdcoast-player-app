@@ -7,6 +7,72 @@
       "teamId": 8008011,
       "teamName": "4. Joann L. and Jacob W.",
       "isCaptain": false
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7896738,
+      "teamName": "4. Joann L. and Jacob W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6561175,
+      "teamName": "9. Joann L. & Luis L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689104,
+      "teamName": "3. Joann L. & Connor K.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6813895,
+      "teamName": "6. Joann L. & Connor K.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6908455,
+      "teamName": "4. Joann L. and George C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6456664,
+      "teamName": "4. On Point (Dreco S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4182417,
+      "teamName": "2 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3939652,
+      "teamName": "1 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6449747,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4812609,
+      "teamName": "9 - Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3665539,
+      "teamName": "5 - Make-up Sets (Naomi L.)",
+      "isCaptain": false
     }
   ]
 }

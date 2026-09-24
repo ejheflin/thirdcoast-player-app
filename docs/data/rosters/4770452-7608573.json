@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7608573,
+  "teamName": "6. Maddie M. and Jacob J.",
+  "players": [
+    {
+      "userId": 54426683,
+      "firstName": "Jacob",
+      "isCaptain": false
+    },
+    {
+      "userId": 53316618,
+      "firstName": "Maddie",
+      "isCaptain": true
+    }
+  ]
+}

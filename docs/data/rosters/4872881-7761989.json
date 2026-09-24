@@ -1,0 +1,17 @@
+{
+  "programId": 4872881,
+  "teamId": 7761989,
+  "teamName": "2. Emily R. and Edwin F.",
+  "players": [
+    {
+      "userId": 14631478,
+      "firstName": "Edwin",
+      "isCaptain": false
+    },
+    {
+      "userId": 17299171,
+      "firstName": "Emily",
+      "isCaptain": true
+    }
+  ]
+}

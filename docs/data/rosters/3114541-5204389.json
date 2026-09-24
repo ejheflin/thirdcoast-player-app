@@ -1,0 +1,27 @@
+{
+  "programId": 3114541,
+  "teamId": 5204389,
+  "teamName": "2 - Latinos (Arturo M.)",
+  "players": [
+    {
+      "userId": 34919317,
+      "firstName": "Jackson",
+      "isCaptain": false
+    },
+    {
+      "userId": 34919395,
+      "firstName": "Ricardo",
+      "isCaptain": false
+    },
+    {
+      "userId": 18714571,
+      "firstName": "Aimee",
+      "isCaptain": false
+    },
+    {
+      "userId": 16252696,
+      "firstName": "Arturo",
+      "isCaptain": true
+    }
+  ]
+}

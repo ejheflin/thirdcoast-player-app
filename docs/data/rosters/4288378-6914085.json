@@ -1,0 +1,32 @@
+{
+  "programId": 4288378,
+  "teamId": 6914085,
+  "teamName": "10. Hitmen (Cristofer G.)",
+  "players": [
+    {
+      "userId": 42545037,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 49772326,
+      "firstName": "Osvaldo",
+      "isCaptain": false
+    },
+    {
+      "userId": 47111699,
+      "firstName": "Ray",
+      "isCaptain": false
+    },
+    {
+      "userId": 46627282,
+      "firstName": "Cristofer",
+      "isCaptain": true
+    },
+    {
+      "userId": 37886413,
+      "firstName": "Courtney",
+      "isCaptain": false
+    }
+  ]
+}

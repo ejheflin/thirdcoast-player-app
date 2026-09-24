@@ -1,0 +1,24 @@
+{
+  "userId": 48094594,
+  "firstName": "Paul",
+  "appearances": [
+    {
+      "programId": 4237992,
+      "teamId": 6848937,
+      "teamName": "8. Sandstorm (Leah V.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7049652,
+      "teamName": "9. Sandstorm (Leah V.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6952127,
+      "teamName": "8. Sandstorm (Leah V.)",
+      "isCaptain": false
+    }
+  ]
+}

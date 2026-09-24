@@ -1,0 +1,32 @@
+{
+  "programId": 3957859,
+  "teamId": 6456202,
+  "teamName": "8. Pedialyte (Calvin D.)",
+  "players": [
+    {
+      "userId": 33061706,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 18293119,
+      "firstName": "Calvin",
+      "isCaptain": true
+    },
+    {
+      "userId": 21012970,
+      "firstName": "Jonathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 28006170,
+      "firstName": "Mike",
+      "isCaptain": false
+    },
+    {
+      "userId": 39384516,
+      "firstName": "Emmanuel",
+      "isCaptain": false
+    }
+  ]
+}

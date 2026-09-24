@@ -1,0 +1,17 @@
+{
+  "programId": 4031651,
+  "teamId": 6546424,
+  "teamName": "2. Fran R. & Dan L.",
+  "players": [
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": true
+    },
+    {
+      "userId": 14770312,
+      "firstName": "Francesca",
+      "isCaptain": false
+    }
+  ]
+}

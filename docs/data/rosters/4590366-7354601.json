@@ -1,0 +1,17 @@
+{
+  "programId": 4590366,
+  "teamId": 7354601,
+  "teamName": "11. Jann D. and Hugo R.",
+  "players": [
+    {
+      "userId": 44414193,
+      "firstName": "Jann",
+      "isCaptain": true
+    },
+    {
+      "userId": 52239999,
+      "firstName": "Hugo",
+      "isCaptain": false
+    }
+  ]
+}

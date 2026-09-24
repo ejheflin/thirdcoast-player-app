@@ -1,0 +1,173 @@
+{
+  "programId": 1127839,
+  "teams": {
+    "2370199": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2370199,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "5 - Notorious D.I.G. (Jamie D.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 1,
+          "ties": 8
+        }
+      ]
+    },
+    "2371225": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2371225,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "4 - Just the Tip (William B.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 2
+        }
+      ]
+    },
+    "2371414": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2371414,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "1 - Beauty and the Beasts (Benet G.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "2375185": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2375185,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "2 - Sets on Fire (Callie P.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "2376295": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2376295,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "3 - Bumpin Uglies (Rolando F.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 4,
+          "ties": 3
+        }
+      ]
+    },
+    "2377630": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2377630,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "6 - Those Dog People (Megan M.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "2378239": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2378239,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "8 - PDR (Kelly S.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 14,
+          "ties": 2
+        }
+      ]
+    },
+    "2382949": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1127839,
+          "teamId": 2382949,
+          "programName": "Monday Coed 4s Upper Recreational",
+          "teamName": "7 - Right-mind Setters (Gaddi M.)",
+          "endDate": 1563768000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

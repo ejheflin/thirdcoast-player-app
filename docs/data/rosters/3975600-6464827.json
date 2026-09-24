@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6464827,
+  "teamName": "10. Sirena V. & Sam E.",
+  "players": [
+    {
+      "userId": 22195213,
+      "firstName": "Sam",
+      "isCaptain": true
+    },
+    {
+      "userId": 44129043,
+      "firstName": "Sirena",
+      "isCaptain": false
+    }
+  ]
+}

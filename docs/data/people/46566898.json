@@ -7,6 +7,36 @@
       "teamId": 8036844,
       "teamName": "2. Denise H. and Dreco S.",
       "isCaptain": true
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7442358,
+      "teamName": "1. Denise H. and Stu M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7351228,
+      "teamName": "9. Denise H. and Jason O.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7026690,
+      "teamName": "6. Denise H. and Stu M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7583155,
+      "teamName": "3. Denise H. and Sam E.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6646856,
+      "teamName": "1. Bang Ít (Denise H.)",
+      "isCaptain": true
     }
   ]
 }

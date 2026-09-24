@@ -1,0 +1,173 @@
+{
+  "programId": 2654979,
+  "teams": {
+    "4491027": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4491027,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "3 - The Spike Awakens (Ash B.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "4491186": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4491186,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "1 - New Tricks (Doug T.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 16,
+          "ties": 0
+        }
+      ]
+    },
+    "4494276": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4494276,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "2 - Ninja Turtles (Andrew B.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 12,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "4495659": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4495659,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "4 - The Volley Llamas (Jonathan P.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "4496439": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4496439,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "5 - Vomitive Triumvirate (John K.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "4498155": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4498155,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "6 - Court Jesters (Matt O.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "4498491": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4498491,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "7 - Arepas (Luis H.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 5
+        }
+      ]
+    },
+    "4499259": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2654979,
+          "teamId": 4499259,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "8 - Sandy Start (Tiffany S.)",
+          "endDate": 1639371600000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    }
+  }
+}

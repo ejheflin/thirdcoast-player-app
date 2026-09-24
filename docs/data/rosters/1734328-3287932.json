@@ -1,0 +1,27 @@
+{
+  "programId": 1734328,
+  "teamId": 3287932,
+  "teamName": "8 - Volley Fire (Benet G.)",
+  "players": [
+    {
+      "userId": 21231646,
+      "firstName": "Ash",
+      "isCaptain": false
+    },
+    {
+      "userId": 16051942,
+      "firstName": "Eric",
+      "isCaptain": false
+    },
+    {
+      "userId": 14625949,
+      "firstName": "benet",
+      "isCaptain": true
+    },
+    {
+      "userId": 21183061,
+      "firstName": "nels",
+      "isCaptain": false
+    }
+  ]
+}

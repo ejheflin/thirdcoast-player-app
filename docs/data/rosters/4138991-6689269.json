@@ -1,0 +1,17 @@
+{
+  "programId": 4138991,
+  "teamId": 6689269,
+  "teamName": "8. Shelby G. & Sam E.",
+  "players": [
+    {
+      "userId": 22195213,
+      "firstName": "Sam",
+      "isCaptain": true
+    },
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": false
+    }
+  ]
+}

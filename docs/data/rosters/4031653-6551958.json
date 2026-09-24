@@ -1,0 +1,22 @@
+{
+  "programId": 4031653,
+  "teamId": 6551958,
+  "teamName": "5. How I Set Your Mother (Preston O.)",
+  "players": [
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    },
+    {
+      "userId": 45881207,
+      "firstName": "Preston",
+      "isCaptain": true
+    },
+    {
+      "userId": 45884375,
+      "firstName": "Taylor",
+      "isCaptain": false
+    }
+  ]
+}

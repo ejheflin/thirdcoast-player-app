@@ -1,0 +1,18 @@
+{
+  "userId": 21263329,
+  "firstName": "Craig",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3454852,
+      "teamName": "5 - Just Here to Exercise (Craig W.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3256264,
+      "teamName": "2 - Sonova Beach (Evan G.)",
+      "isCaptain": false
+    }
+  ]
+}

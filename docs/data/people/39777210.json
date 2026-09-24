@@ -7,6 +7,42 @@
       "teamId": 8010968,
       "teamName": "12. Zach P. and Ben L.",
       "isCaptain": false
+    },
+    {
+      "programId": 4589133,
+      "teamId": 7345154,
+      "teamName": "7. Bumpin Uglies (Luke S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872943,
+      "teamId": 7799328,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7234938,
+      "teamName": "7. Hit Men (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7758832,
+      "teamName": "12. Zach P. and Ben L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7914865,
+      "teamName": "12. Zach P. and Ben L.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7033287,
+      "teamName": "2. Dreco S. and Benjamin L.",
+      "isCaptain": false
     }
   ]
 }

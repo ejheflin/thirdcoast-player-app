@@ -1,0 +1,27 @@
+{
+  "programId": 3981247,
+  "teamId": 6484054,
+  "teamName": "9. Ay mi madre (Daniel D.)",
+  "players": [
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": false
+    },
+    {
+      "userId": 39313353,
+      "firstName": "Jada",
+      "isCaptain": false
+    },
+    {
+      "userId": 42545037,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 21073315,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

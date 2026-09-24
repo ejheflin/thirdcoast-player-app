@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6846685,
+  "teamName": "2. Lauren H. & Andrew B.",
+  "players": [
+    {
+      "userId": 15557857,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "userId": 27944868,
+  "firstName": "Derek",
+  "appearances": [
+    {
+      "programId": 3957856,
+      "teamId": 6454965,
+      "teamName": "8. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6382693,
+      "teamName": "2. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7433180,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590320,
+      "teamId": 7347639,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362285,
+      "teamId": 7029278,
+      "teamName": "4. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6919342,
+      "teamName": "8. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488287,
+      "teamId": 7229856,
+      "teamName": "6. H-Town HardHitters (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6691456,
+      "teamName": "8. Practice Safe Sets (John O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6156249,
+      "teamName": "1. Practice Safe Sets (Gary C.)",
+      "isCaptain": false
+    }
+  ]
+}

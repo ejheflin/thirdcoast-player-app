@@ -1,0 +1,17 @@
+{
+  "programId": 4590324,
+  "teamId": 7347826,
+  "teamName": "3. Ali M. and Erin M.",
+  "players": [
+    {
+      "userId": 47034997,
+      "firstName": "Ali",
+      "isCaptain": true
+    },
+    {
+      "userId": 52171480,
+      "firstName": "Erin",
+      "isCaptain": false
+    }
+  ]
+}

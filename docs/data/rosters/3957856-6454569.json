@@ -1,0 +1,27 @@
+{
+  "programId": 3957856,
+  "teamId": 6454569,
+  "teamName": "7. Indoor Ballerz Turned Sand Junkies (Michael R.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 29606427,
+      "firstName": "Alfonso",
+      "isCaptain": false
+    },
+    {
+      "userId": 17342788,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 39305583,
+      "firstName": "Martin",
+      "isCaptain": false
+    }
+  ]
+}

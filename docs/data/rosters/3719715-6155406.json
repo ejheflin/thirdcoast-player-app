@@ -1,0 +1,17 @@
+{
+  "programId": 3719715,
+  "teamId": 6155406,
+  "teamName": "9. Alyssa M. & Adolph T.",
+  "players": [
+    {
+      "userId": 39390141,
+      "firstName": "Alyssa",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": true
+    }
+  ]
+}

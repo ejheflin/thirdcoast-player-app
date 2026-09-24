@@ -1,0 +1,17 @@
+{
+  "programId": 3719640,
+  "teamId": 6134430,
+  "teamName": "2. Diana F. & Yanni S.",
+  "players": [
+    {
+      "userId": 14944333,
+      "firstName": "Diana",
+      "isCaptain": false
+    },
+    {
+      "userId": 15314752,
+      "firstName": "Yanni",
+      "isCaptain": true
+    }
+  ]
+}

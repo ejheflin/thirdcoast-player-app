@@ -1,0 +1,27 @@
+{
+  "programId": 4288378,
+  "teamId": 6919631,
+  "teamName": "9. See You Next Tuesday (Quentin B.)",
+  "players": [
+    {
+      "userId": 14638129,
+      "firstName": "Quentin",
+      "isCaptain": true
+    },
+    {
+      "userId": 46623269,
+      "firstName": "Lola",
+      "isCaptain": false
+    },
+    {
+      "userId": 14574853,
+      "firstName": "Melissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": false
+    }
+  ]
+}

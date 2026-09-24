@@ -1,0 +1,48 @@
+{
+  "userId": 45176585,
+  "firstName": "Paige",
+  "appearances": [
+    {
+      "programId": 4319084,
+      "teamId": 6952675,
+      "teamName": "1. Paige D. and Michael A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7333228,
+      "teamName": "1. Paige D. and Jo P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7185031,
+      "teamName": "3. Paige D. and Jo P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7019376,
+      "teamName": "8. Paige D. and Jo P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7433345,
+      "teamName": "4. Paige D. and Jo P.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6449046,
+      "teamName": "5. Yanni S. & Paige D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7574382,
+      "teamName": "8. Paige D. and Jo P.",
+      "isCaptain": false
+    }
+  ]
+}

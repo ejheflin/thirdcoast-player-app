@@ -1,0 +1,17 @@
+{
+  "programId": 4379697,
+  "teamId": 7048707,
+  "teamName": "7. Brenna B. and Colby H.",
+  "players": [
+    {
+      "userId": 35098438,
+      "firstName": "Brenna",
+      "isCaptain": false
+    },
+    {
+      "userId": 46610862,
+      "firstName": "Colby",
+      "isCaptain": true
+    }
+  ]
+}

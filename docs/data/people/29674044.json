@@ -1,0 +1,24 @@
+{
+  "userId": 29674044,
+  "firstName": "Kimberly",
+  "appearances": [
+    {
+      "programId": 3114541,
+      "teamId": 5206018,
+      "teamName": "3 - Just4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5452434,
+      "teamName": "2 - Just for Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5711148,
+      "teamName": "3. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -13,6 +13,24 @@
       "teamId": 8153064,
       "teamName": "8. Sandy Patch Kids (Curtis J.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4661444,
+      "teamId": 7474305,
+      "teamName": "8. Preseason Strangers (Jean M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7585459,
+      "teamName": "5. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7780070,
+      "teamName": "10. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
     }
   ]
 }

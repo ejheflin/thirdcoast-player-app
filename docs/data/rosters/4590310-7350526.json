@@ -1,0 +1,37 @@
+{
+  "programId": 4590310,
+  "teamId": 7350526,
+  "teamName": "8. Twin Peaks (Traci D.)",
+  "players": [
+    {
+      "userId": 14670136,
+      "firstName": "Traci",
+      "isCaptain": true
+    },
+    {
+      "userId": 44346374,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 14672407,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 23106514,
+      "firstName": "Adrian",
+      "isCaptain": false
+    },
+    {
+      "userId": 14862112,
+      "firstName": "Sukumar",
+      "isCaptain": false
+    },
+    {
+      "userId": 42508029,
+      "firstName": "noman",
+      "isCaptain": false
+    }
+  ]
+}

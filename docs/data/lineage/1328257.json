@@ -1,0 +1,215 @@
+{
+  "programId": 1328257,
+  "teams": {
+    "2699302": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2699302,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "4 - Make-up Sets (Matt K.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 11,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "2701783": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2701783,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "2 - Four Play (Benjamin T.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "2703709": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2703709,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "7 - Volley Llamas (Daphne D.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "2705353": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2705353,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "5 - SofaKingGood Gunners (David T.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "2705407": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2705407,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "3 - I'd Hit That! (Victoria Q.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 9,
+          "ties": 5
+        }
+      ]
+    },
+    "2705611": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2705611,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "1 - E League Champs (Chris B.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 4,
+          "ties": 5
+        }
+      ]
+    },
+    "2707195": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2707195,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "10 - Settin Pretty (Elizabeth A.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 12,
+          "ties": 2
+        }
+      ]
+    },
+    "2708833": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2708833,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "8 - Beach Bunnies (Jimmy R.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 10,
+          "ties": 2
+        }
+      ]
+    },
+    "2709772": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2709772,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "9 - Dream Team (Julia L.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "2711575": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1328257,
+          "teamId": 2711575,
+          "programName": "Tuesday Coed 4s Intermediate #1",
+          "teamName": "6 - We Dig You (Lauren M.)",
+          "endDate": 1575349200000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

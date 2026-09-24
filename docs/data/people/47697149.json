@@ -1,0 +1,30 @@
+{
+  "userId": 47697149,
+  "firstName": "Kimberlee",
+  "appearances": [
+    {
+      "programId": 4288378,
+      "teamId": 6908387,
+      "teamName": "2. Gold Diggerz (Kimberlee S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7194065,
+      "teamName": "5. Gold Diggerz (JT N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7021169,
+      "teamName": "3. Gold Diggerz (Kimberlee S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6813413,
+      "teamName": "9. Gold Diggerz (Kimberlee S.)",
+      "isCaptain": true
+    }
+  ]
+}

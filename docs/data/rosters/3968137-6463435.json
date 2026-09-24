@@ -1,0 +1,17 @@
+{
+  "programId": 3968137,
+  "teamId": 6463435,
+  "teamName": "6. Johnny W. & Mike G.",
+  "players": [
+    {
+      "userId": 14866009,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 14567347,
+      "firstName": "Johnny",
+      "isCaptain": false
+    }
+  ]
+}

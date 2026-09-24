@@ -1,0 +1,17 @@
+{
+  "programId": 3981226,
+  "teamId": 6481649,
+  "teamName": "3. Alyssa M. & Stephen J.",
+  "players": [
+    {
+      "userId": 39404268,
+      "firstName": "Stephen",
+      "isCaptain": false
+    },
+    {
+      "userId": 39390141,
+      "firstName": "Alyssa",
+      "isCaptain": true
+    }
+  ]
+}

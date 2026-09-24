@@ -1,0 +1,18 @@
+{
+  "userId": 25333303,
+  "firstName": "Tara",
+  "appearances": [
+    {
+      "programId": 4369534,
+      "teamId": 7035506,
+      "teamName": "2. Tara C. and Aatir A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6155904,
+      "teamName": "8. Ay mi madre! (Daniel D.)",
+      "isCaptain": false
+    }
+  ]
+}

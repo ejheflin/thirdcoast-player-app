@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7602565,
+  "teamName": "2. Kyndal G. and Jason O.",
+  "players": [
+    {
+      "userId": 46001700,
+      "firstName": "Kyndal",
+      "isCaptain": false
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": true
+    }
+  ]
+}

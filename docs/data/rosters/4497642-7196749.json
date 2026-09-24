@@ -1,0 +1,17 @@
+{
+  "programId": 4497642,
+  "teamId": 7196749,
+  "teamName": "8. Becca W. and Matt B.",
+  "players": [
+    {
+      "userId": 14645944,
+      "firstName": "Mathieu",
+      "isCaptain": true
+    },
+    {
+      "userId": 18883024,
+      "firstName": "Becca",
+      "isCaptain": false
+    }
+  ]
+}

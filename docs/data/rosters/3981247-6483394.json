@@ -1,0 +1,27 @@
+{
+  "programId": 3981247,
+  "teamId": 6483394,
+  "teamName": "8. Saucy C U Next Thursdays (Branden B.)",
+  "players": [
+    {
+      "userId": 23712850,
+      "firstName": "Branden",
+      "isCaptain": true
+    },
+    {
+      "userId": 28045497,
+      "firstName": "Tori",
+      "isCaptain": false
+    },
+    {
+      "userId": 28281264,
+      "firstName": "Colin",
+      "isCaptain": false
+    },
+    {
+      "userId": 38410853,
+      "firstName": "Merilyn",
+      "isCaptain": false
+    }
+  ]
+}

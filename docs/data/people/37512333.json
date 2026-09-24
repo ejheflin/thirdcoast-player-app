@@ -1,0 +1,18 @@
+{
+  "userId": 37512333,
+  "firstName": "trey",
+  "appearances": [
+    {
+      "programId": 3257331,
+      "teamId": 5451927,
+      "teamName": "5 - Richies Revenge (Richard H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5717370,
+      "teamName": "10. Big Dig Energy (Richard H.)",
+      "isCaptain": false
+    }
+  ]
+}

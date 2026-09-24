@@ -1,0 +1,18 @@
+{
+  "userId": 14630392,
+  "firstName": "William",
+  "appearances": [
+    {
+      "programId": 3909678,
+      "teamId": 6393904,
+      "teamName": "3. Elaine L. & Bill K.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6154164,
+      "teamName": "9. Elaine L. & Bill K.",
+      "isCaptain": false
+    }
+  ]
+}

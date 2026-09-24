@@ -1,0 +1,27 @@
+{
+  "programId": 4222044,
+  "teamId": 6830413,
+  "teamName": "5. The Hardest Part (Jacob W.)",
+  "players": [
+    {
+      "userId": 47986675,
+      "firstName": "Jordan",
+      "isCaptain": false
+    },
+    {
+      "userId": 39574563,
+      "firstName": "Kylee",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    },
+    {
+      "userId": 35367179,
+      "firstName": "Jacob",
+      "isCaptain": false
+    }
+  ]
+}

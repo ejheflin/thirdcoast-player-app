@@ -19,6 +19,126 @@
       "teamId": 8135226,
       "teamName": "9. Ivy C. and Dreco S.",
       "isCaptain": true
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6541700,
+      "teamName": "3. Ivy C. & Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7445122,
+      "teamName": "5. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689127,
+      "teamName": "2. Ivy C. & Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7336494,
+      "teamName": "6. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6809547,
+      "teamName": "1. Ivy C. & Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7196706,
+      "teamName": "3. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6908250,
+      "teamName": "2. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7024074,
+      "teamName": "7. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872881,
+      "teamId": 7761992,
+      "teamName": "3. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756151,
+      "teamId": 7584902,
+      "teamName": "5. Ivy C. and Dreco S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6456664,
+      "teamName": "4. On Point (Dreco S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165189,
+      "teamName": "9. Sandpeople (Dan L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7914581,
+      "teamName": "3. Ivy C. and Dreco S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7477623,
+      "teamName": "9. Mikah M. and Dreco S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7582016,
+      "teamName": "3. Christine M. and Dreco S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7782918,
+      "teamName": "8. Mikah M. and Dreco S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4812609,
+      "teamName": "9 - Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6954516,
+      "teamName": "2. Dreco S. and Harrison S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7202987,
+      "teamName": "9. Dreco S. and Harrison S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7033287,
+      "teamName": "2. Dreco S. and Benjamin L.",
+      "isCaptain": true
     }
   ]
 }

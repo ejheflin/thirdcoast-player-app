@@ -1,0 +1,32 @@
+{
+  "programId": 4237992,
+  "teamId": 6849166,
+  "teamName": "10. We Here (Kumar S.)",
+  "players": [
+    {
+      "userId": 48345309,
+      "firstName": "Lucie",
+      "isCaptain": false
+    },
+    {
+      "userId": 48195308,
+      "firstName": "Joe",
+      "isCaptain": false
+    },
+    {
+      "userId": 48197016,
+      "firstName": "Cory",
+      "isCaptain": false
+    },
+    {
+      "userId": 48152022,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184927,
+      "firstName": "Kumar",
+      "isCaptain": true
+    }
+  ]
+}

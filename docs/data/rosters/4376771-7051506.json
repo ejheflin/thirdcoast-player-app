@@ -1,0 +1,17 @@
+{
+  "programId": 4376771,
+  "teamId": 7051506,
+  "teamName": "6. Matt B. and Alex J.",
+  "players": [
+    {
+      "userId": 23969914,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

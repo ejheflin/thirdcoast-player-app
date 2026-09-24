@@ -13,6 +13,72 @@
       "teamId": 8138261,
       "teamName": "2. Bump, Set, Dammit! (Michael G.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7196041,
+      "teamName": "7. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7463187,
+      "teamName": "2. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7588171,
+      "teamName": "3. Bump, Set… Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7353419,
+      "teamName": "10. Bump, Set… Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237992,
+      "teamId": 6849109,
+      "teamName": "9. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7050296,
+      "teamName": "3. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6954675,
+      "teamName": "5. Bump, Set... Dammit (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7772680,
+      "teamName": "5. Bump. set, dammit! (Michael G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975325,
+      "teamId": 7902595,
+      "teamName": "7. Bump Set Dammit! (Michael G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7467205,
+      "teamName": "10. Bump, set, dammit! (Michael G.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7564073,
+      "teamName": "1. Bump, set, dammit! (Michael G.)",
+      "isCaptain": true
     }
   ]
 }

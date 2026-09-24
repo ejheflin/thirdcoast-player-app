@@ -7,6 +7,78 @@
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
       "isCaptain": false
+    },
+    {
+      "programId": 3975600,
+      "teamId": 6463792,
+      "teamName": "7. Alexis T. & Gary C.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6384718,
+      "teamName": "6. Zombies (Daniel L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6155142,
+      "teamName": "7. Zombies (Brad F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6454965,
+      "teamName": "8. Practice Safe Sets (Gary C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6382693,
+      "teamName": "2. Practice Safe Sets (Gary C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7914109,
+      "teamName": "10. Twin Peaks (Dan F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7802928,
+      "teamName": "7. Twin Peaks (Traci D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6156249,
+      "teamName": "1. Practice Safe Sets (Gary C.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3947947,
+      "teamName": "4 - SKG D' Arsenal (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3460474,
+      "teamName": "7 - Hits Don't Lie (Dawn M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6469501,
+      "teamName": "12. Gary C. & Jeff S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6393771,
+      "teamName": "6. Mike G. & Gary C.",
+      "isCaptain": false
     }
   ]
 }

@@ -1,0 +1,257 @@
+{
+  "programId": 1875364,
+  "teams": {
+    "3414625": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3414625,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "10 - Michelle C. & Josman R.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 2,
+          "ties": 3
+        }
+      ]
+    },
+    "3416647": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3416647,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "2 - Julie V. & Leo Y.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 12,
+          "wins": 6,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "3419104": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3419104,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "3 - Alyson L. & David D.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 9,
+          "ties": 3
+        }
+      ]
+    },
+    "3419740": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3419740,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "4 - Taylor B. & Stefan W.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 12,
+          "wins": 8,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "3420301": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3420301,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "1 - Giselle L. & Emiliano T.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 12,
+          "wins": 13,
+          "losses": 0,
+          "ties": 1
+        }
+      ]
+    },
+    "3424546": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3424546,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "5 - Tina O. & Mark S.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 8,
+          "losses": 2,
+          "ties": 4
+        }
+      ]
+    },
+    "3431842": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3431842,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "6 - Lori G. & Robert D.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 11,
+          "teamCount": 12,
+          "wins": 0,
+          "losses": 8,
+          "ties": 2
+        }
+      ]
+    },
+    "3432601": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3432601,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "7 - Annie N. & Alex L.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 10,
+          "teamCount": 12,
+          "wins": 0,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "3432949": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3432949,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "8 - Jacky L. & Matt G.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "3434626": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3434626,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "9 - Tiffany S. & Will T.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 12,
+          "teamCount": 12,
+          "wins": 0,
+          "losses": 10,
+          "ties": 0
+        }
+      ]
+    },
+    "3436375": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3436375,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "11 - Marah F. & Isa T.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 8,
+          "ties": 2
+        }
+      ]
+    },
+    "3437257": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1875364,
+          "teamId": 3437257,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "12 - Tay D. & Wayne B.",
+          "endDate": 1606971600000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4379697,
+  "teamId": 7052254,
+  "teamName": "1. Lauren H. and Jake S.",
+  "players": [
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": true
+    },
+    {
+      "userId": 44170583,
+      "firstName": "Jake",
+      "isCaptain": false
+    }
+  ]
+}

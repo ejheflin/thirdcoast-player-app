@@ -7,6 +7,36 @@
       "teamId": 8003695,
       "teamName": "3. Charlie’s Angels (Jason O.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7607307,
+      "teamName": "5. Doria O. and Roy T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7472940,
+      "teamName": "11. The Habibiz (Roy T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7598385,
+      "teamName": "12. The Habibiz (Roy T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7360114,
+      "teamName": "9. The Habibiz (Roy T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7589105,
+      "teamName": "10. Jet 2 Holiday (Ruben R.)",
+      "isCaptain": false
     }
   ]
 }

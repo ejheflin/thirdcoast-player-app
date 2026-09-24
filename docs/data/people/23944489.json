@@ -13,6 +13,60 @@
       "teamId": 8153555,
       "teamName": "2. Big Dig Energy (Chad S.)",
       "isCaptain": true
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6382705,
+      "teamName": "6. IT'S THE S W E E T ONE! (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7441808,
+      "teamName": "3. See You Next Tuesday (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7795339,
+      "teamName": "8. Big Dig Energy (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7578478,
+      "teamName": "7. See You Next Tuesday (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7922253,
+      "teamName": "8. Big Dig Energy (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719520,
+      "teamId": 6144612,
+      "teamName": "6. IT'S THE SWEET ONE! (Quentin B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7212074,
+      "teamName": "8. See You Next Tuesday (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7346060,
+      "teamName": "7. See You Next Tuesday (Chad S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7026410,
+      "teamName": "6. See You Next Tuesday (Quentin B.)",
+      "isCaptain": false
     }
   ]
 }

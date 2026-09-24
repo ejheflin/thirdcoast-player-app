@@ -1,0 +1,17 @@
+{
+  "programId": 4031663,
+  "teamId": 6549800,
+  "teamName": "9. Liz C. & Dani D.",
+  "players": [
+    {
+      "userId": 14657086,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    }
+  ]
+}

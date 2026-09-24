@@ -1,0 +1,27 @@
+{
+  "programId": 4488296,
+  "teamId": 7233936,
+  "teamName": "8. Twin Peaks (Traci D.)",
+  "players": [
+    {
+      "userId": 14670136,
+      "firstName": "Traci",
+      "isCaptain": true
+    },
+    {
+      "userId": 14672407,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 39343026,
+      "firstName": "MICHAEL",
+      "isCaptain": false
+    },
+    {
+      "userId": 14668342,
+      "firstName": "Erika",
+      "isCaptain": false
+    }
+  ]
+}

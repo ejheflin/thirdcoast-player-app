@@ -1,0 +1,173 @@
+{
+  "programId": 3430560,
+  "teams": {
+    "5709882": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5709882,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "2. Toodles (Michael L.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 5,
+          "ties": 9
+        }
+      ]
+    },
+    "5715153": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5715153,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "3. Gabby & The Boys (Marshall C.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        }
+      ]
+    },
+    "5716275": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5716275,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "4. 3 OG's & Bae",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        }
+      ]
+    },
+    "5716842": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5716842,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "8. Hard Digs (Katelyn M.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "5717445": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5717445,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "5. I dink I love you (Diem P.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 2,
+          "ties": 9
+        }
+      ]
+    },
+    "5718321": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5718321,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "6. Twin Peaks (Tracie D.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 4,
+          "ties": 10
+        }
+      ]
+    },
+    "5720418": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5720418,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "7. Soft Serve (Zach P.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "5723328": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3430560,
+          "teamId": 5723328,
+          "programName": "Tuesday Coed 4s Upper Intermediate",
+          "teamName": "1. Tiff and the 3 musketeers (Adrian M.)",
+          "endDate": 1669698000000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 2,
+          "ties": 10
+        }
+      ]
+    }
+  }
+}

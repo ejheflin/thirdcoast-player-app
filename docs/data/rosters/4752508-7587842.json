@@ -1,0 +1,17 @@
+{
+  "programId": 4752508,
+  "teamId": 7587842,
+  "teamName": "4. Kylee G. and Jacob W.",
+  "players": [
+    {
+      "userId": 39574563,
+      "firstName": "Kylee",
+      "isCaptain": false
+    },
+    {
+      "userId": 35367179,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

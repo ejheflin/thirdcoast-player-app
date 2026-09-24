@@ -1,0 +1,32 @@
+{
+  "programId": 4105682,
+  "teamId": 6654874,
+  "teamName": "4. si papi si (Omair S.)",
+  "players": [
+    {
+      "userId": 46610318,
+      "firstName": "Madiha",
+      "isCaptain": false
+    },
+    {
+      "userId": 46629800,
+      "firstName": "Qasim",
+      "isCaptain": false
+    },
+    {
+      "userId": 46629626,
+      "firstName": "Abdullah",
+      "isCaptain": false
+    },
+    {
+      "userId": 46659270,
+      "firstName": "Naomi",
+      "isCaptain": false
+    },
+    {
+      "userId": 46610251,
+      "firstName": "omair",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 4319089,
+  "teamId": 6949898,
+  "teamName": "7. Just The Tip? (Doug B.)",
+  "players": [
+    {
+      "userId": 18441880,
+      "firstName": "Doug",
+      "isCaptain": true
+    },
+    {
+      "userId": 42501969,
+      "firstName": "Sakina",
+      "isCaptain": false
+    },
+    {
+      "userId": 42501642,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 42501114,
+      "firstName": "DEREK",
+      "isCaptain": false
+    },
+    {
+      "userId": 39384516,
+      "firstName": "Emmanuel",
+      "isCaptain": false
+    }
+  ]
+}

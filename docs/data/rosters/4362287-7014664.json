@@ -1,0 +1,17 @@
+{
+  "programId": 4362287,
+  "teamId": 7014664,
+  "teamName": "9. Savannah W. and Ali M.",
+  "players": [
+    {
+      "userId": 47034997,
+      "firstName": "Ali",
+      "isCaptain": false
+    },
+    {
+      "userId": 45871505,
+      "firstName": "Savannah",
+      "isCaptain": true
+    }
+  ]
+}

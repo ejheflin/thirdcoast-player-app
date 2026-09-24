@@ -1,0 +1,30 @@
+{
+  "userId": 28302753,
+  "firstName": "Jackson",
+  "appearances": [
+    {
+      "programId": 3719715,
+      "teamId": 6133884,
+      "teamName": "1. Lisa B. & Jackson K.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6549634,
+      "teamName": "5. BomBubz (Stefan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6726738,
+      "teamName": "1. BomDubz (Dominick W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6458784,
+      "teamName": "9. BomBubz (Stefan W.)",
+      "isCaptain": false
+    }
+  ]
+}

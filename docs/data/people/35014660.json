@@ -1,0 +1,54 @@
+{
+  "userId": 35014660,
+  "firstName": "Matthew",
+  "appearances": [
+    {
+      "programId": 4139252,
+      "teamId": 6689785,
+      "teamName": "5. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656364,
+      "teamId": 7430806,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6823891,
+      "teamName": "8. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6382144,
+      "teamName": "9. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6549437,
+      "teamName": "5. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6451225,
+      "teamName": "4. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7573040,
+      "teamName": "2. Net Ninjas (Nathan W.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6164856,
+      "teamName": "8. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    }
+  ]
+}

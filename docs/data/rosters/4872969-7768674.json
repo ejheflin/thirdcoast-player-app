@@ -1,0 +1,27 @@
+{
+  "programId": 4872969,
+  "teamId": 7768674,
+  "teamName": "6. The Replacements (Joe R.)",
+  "players": [
+    {
+      "userId": 55479882,
+      "firstName": "Leslie",
+      "isCaptain": false
+    },
+    {
+      "userId": 55481713,
+      "firstName": "Claire",
+      "isCaptain": false
+    },
+    {
+      "userId": 14582476,
+      "firstName": "Albert",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": true
+    }
+  ]
+}

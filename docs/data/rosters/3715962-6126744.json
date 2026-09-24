@@ -1,0 +1,17 @@
+{
+  "programId": 3715962,
+  "teamId": 6126744,
+  "teamName": "2. Megan L. & Brian C.",
+  "players": [
+    {
+      "userId": 16807747,
+      "firstName": "Brian",
+      "isCaptain": true
+    },
+    {
+      "userId": 14809633,
+      "firstName": "Megan",
+      "isCaptain": false
+    }
+  ]
+}

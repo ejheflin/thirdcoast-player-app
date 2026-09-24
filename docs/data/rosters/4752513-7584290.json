@@ -1,0 +1,47 @@
+{
+  "programId": 4752513,
+  "teamId": 7584290,
+  "teamName": "11. Beta Blockers (Mindy B.)",
+  "players": [
+    {
+      "userId": 53615354,
+      "firstName": "Mindy",
+      "isCaptain": true
+    },
+    {
+      "userId": 54273603,
+      "firstName": "Kate",
+      "isCaptain": false
+    },
+    {
+      "userId": 54323055,
+      "firstName": "Brooke",
+      "isCaptain": false
+    },
+    {
+      "userId": 54273084,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 54362563,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 54269634,
+      "firstName": "Martin",
+      "isCaptain": false
+    },
+    {
+      "userId": 54362750,
+      "firstName": "William",
+      "isCaptain": false
+    },
+    {
+      "userId": 54268683,
+      "firstName": "Anna",
+      "isCaptain": false
+    }
+  ]
+}

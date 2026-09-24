@@ -1,0 +1,72 @@
+{
+  "userId": 21326962,
+  "firstName": "Jose",
+  "appearances": [
+    {
+      "programId": 4756152,
+      "teamId": 7611151,
+      "teamName": "9. Notorious D.I.G. (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4192626,
+      "teamName": "5 - Getting it in (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4437741,
+      "teamName": "7 - Getting It In (Joey B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3948634,
+      "teamName": "3 - Getting It In (Ryan D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4811196,
+      "teamName": "8 - Getting It In (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 1886707,
+      "teamId": 3459337,
+      "teamName": "6 - Getting It In (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3626278,
+      "teamName": "4 - Getting It In (Ralph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5231119,
+      "teamName": "4 - Getting It In (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5449701,
+      "teamName": "1 - Getting It In (Jose B.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5699778,
+      "teamName": "1. Getting It In (Ryan D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3261073,
+      "teamName": "3 - Now Serving (Emma P.)",
+      "isCaptain": false
+    }
+  ]
+}

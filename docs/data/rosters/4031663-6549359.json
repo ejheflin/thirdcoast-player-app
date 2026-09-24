@@ -1,0 +1,17 @@
+{
+  "programId": 4031663,
+  "teamId": 6549359,
+  "teamName": "8. Christine M. & Erika P.",
+  "players": [
+    {
+      "userId": 14707600,
+      "firstName": "Christine",
+      "isCaptain": true
+    },
+    {
+      "userId": 14668342,
+      "firstName": "Erika",
+      "isCaptain": false
+    }
+  ]
+}

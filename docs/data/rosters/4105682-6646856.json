@@ -1,0 +1,32 @@
+{
+  "programId": 4105682,
+  "teamId": 6646856,
+  "teamName": "1. Bang Ít (Denise H.)",
+  "players": [
+    {
+      "userId": 16594543,
+      "firstName": "Kenneth",
+      "isCaptain": false
+    },
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 46566898,
+      "firstName": "Denise",
+      "isCaptain": true
+    },
+    {
+      "userId": 46568397,
+      "firstName": "William",
+      "isCaptain": false
+    },
+    {
+      "userId": 45935439,
+      "firstName": "Jason",
+      "isCaptain": false
+    }
+  ]
+}

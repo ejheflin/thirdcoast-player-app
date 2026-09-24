@@ -1,0 +1,22 @@
+{
+  "programId": 3719445,
+  "teamId": 6153246,
+  "teamName": "5. Sandy Start (Tiffany S.)",
+  "players": [
+    {
+      "userId": 42469380,
+      "firstName": "Matthew",
+      "isCaptain": false
+    },
+    {
+      "userId": 25251793,
+      "firstName": "Omar",
+      "isCaptain": false
+    },
+    {
+      "userId": 14744581,
+      "firstName": "Tiffany",
+      "isCaptain": true
+    }
+  ]
+}

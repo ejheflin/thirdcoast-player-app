@@ -1,0 +1,30 @@
+{
+  "userId": 42568275,
+  "firstName": "Jade",
+  "appearances": [
+    {
+      "programId": 4220826,
+      "teamId": 6819042,
+      "teamName": "10. Fam Jam (Sirena V.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6451260,
+      "teamName": "1. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139306,
+      "teamId": 6690556,
+      "teamName": "5. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6166983,
+      "teamName": "9. Milk & Cookies (Sam E.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4661450,
+  "teamId": 7468445,
+  "teamName": "7. Lauren H. and Matt B.",
+  "players": [
+    {
+      "userId": 23969914,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 18869206,
+      "firstName": "Lauren",
+      "isCaptain": false
+    }
+  ]
+}

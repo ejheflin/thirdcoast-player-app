@@ -1,0 +1,120 @@
+{
+  "userId": 23878906,
+  "firstName": "Jaimie",
+  "appearances": [
+    {
+      "programId": 3715962,
+      "teamId": 6126768,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7583145,
+      "teamName": "1. Jodie N. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6370145,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6444085,
+      "teamName": "3. Andrea M. & Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031649,
+      "teamId": 6539030,
+      "teamName": "4. Beth B. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7442327,
+      "teamName": "12. Jodie N. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689093,
+      "teamName": "5. Beth B. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7353414,
+      "teamName": "11. Jodie N. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288350,
+      "teamId": 6908141,
+      "teamName": "1. Beth B. and Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220824,
+      "teamId": 6812670,
+      "teamName": "3. Beth B. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6689520,
+      "teamName": "7. Melissa L. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7450769,
+      "teamName": "3. Holli D. and Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7353452,
+      "teamName": "8. Taylor H. and Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6568622,
+      "teamName": "7. Melissa L. & Jaimie G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196687,
+      "teamName": "4. Kyndra K. and Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6946061,
+      "teamName": "3. Kyndra K. and Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6835125,
+      "teamName": "3. Taylor H. & Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7597394,
+      "teamName": "8. Holli D. and Jaimie G.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7555232,
+      "teamName": "9. Jaimie G. and Zach P.",
+      "isCaptain": true
+    }
+  ]
+}

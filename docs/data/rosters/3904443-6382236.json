@@ -1,0 +1,27 @@
+{
+  "programId": 3904443,
+  "teamId": 6382236,
+  "teamName": "9. A Bit Rusty (Andrew L.)",
+  "players": [
+    {
+      "userId": 44289523,
+      "firstName": "Miguel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14925172,
+      "firstName": "Andrew",
+      "isCaptain": true
+    },
+    {
+      "userId": 14672230,
+      "firstName": "Debbie",
+      "isCaptain": false
+    },
+    {
+      "userId": 21183061,
+      "firstName": "nels",
+      "isCaptain": false
+    }
+  ]
+}

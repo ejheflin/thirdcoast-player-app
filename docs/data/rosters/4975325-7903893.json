@@ -1,0 +1,27 @@
+{
+  "programId": 4975325,
+  "teamId": 7903893,
+  "teamName": "1. JSAR (Sarah F.)",
+  "players": [
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": true
+    },
+    {
+      "userId": 55716045,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 56489831,
+      "firstName": "Akshay",
+      "isCaptain": false
+    },
+    {
+      "userId": 55716815,
+      "firstName": "Jackson",
+      "isCaptain": false
+    }
+  ]
+}

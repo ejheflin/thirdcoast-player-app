@@ -1,0 +1,27 @@
+{
+  "programId": 4139252,
+  "teamId": 6723045,
+  "teamName": "7. Kiss My Ace (Jessica C.)",
+  "players": [
+    {
+      "userId": 17338705,
+      "firstName": "Jessica",
+      "isCaptain": true
+    },
+    {
+      "userId": 23106514,
+      "firstName": "Adrian",
+      "isCaptain": false
+    },
+    {
+      "userId": 39343026,
+      "firstName": "MICHAEL",
+      "isCaptain": false
+    },
+    {
+      "userId": 25463803,
+      "firstName": "Cody",
+      "isCaptain": false
+    }
+  ]
+}

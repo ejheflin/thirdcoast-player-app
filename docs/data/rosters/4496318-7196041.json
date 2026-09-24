@@ -1,0 +1,37 @@
+{
+  "programId": 4496318,
+  "teamId": 7196041,
+  "teamName": "7. Bump, Set... Dammit! (Nathan G.)",
+  "players": [
+    {
+      "userId": 48184723,
+      "firstName": "Kathleen",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184594,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184584,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": true
+    },
+    {
+      "userId": 50010834,
+      "firstName": "Stavroula",
+      "isCaptain": false
+    },
+    {
+      "userId": 51016039,
+      "firstName": "Sara",
+      "isCaptain": false
+    }
+  ]
+}

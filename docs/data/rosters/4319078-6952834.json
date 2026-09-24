@@ -1,0 +1,17 @@
+{
+  "programId": 4319078,
+  "teamId": 6952834,
+  "teamName": "10. Taylor B. and Marty Z.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 49412550,
+      "firstName": "Marty",
+      "isCaptain": false
+    }
+  ]
+}

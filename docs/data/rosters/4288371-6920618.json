@@ -1,0 +1,32 @@
+{
+  "programId": 4288371,
+  "teamId": 6920618,
+  "teamName": "8. 3 OG’s and Bae (Johnny W.)",
+  "players": [
+    {
+      "userId": 14866009,
+      "firstName": "Michael",
+      "isCaptain": false
+    },
+    {
+      "userId": 15489367,
+      "firstName": "Shanna",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681206,
+      "firstName": "Josman",
+      "isCaptain": false
+    },
+    {
+      "userId": 14567347,
+      "firstName": "Johnny",
+      "isCaptain": true
+    }
+  ]
+}

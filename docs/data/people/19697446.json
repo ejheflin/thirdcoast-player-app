@@ -7,6 +7,60 @@
       "teamId": 8019966,
       "teamName": "11. Vince R. and Alfredo E.",
       "isCaptain": false
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6690123,
+      "teamName": "10. Taylor B. & Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7453264,
+      "teamName": "2. Taylor B. and Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7347837,
+      "teamName": "4. Taylor B. and Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6561838,
+      "teamName": "2. Taylor B. & Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6469340,
+      "teamName": "1. Taylor B. & Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196693,
+      "teamName": "10. Taylor B. and Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6838025,
+      "teamName": "5. Taylor B. & Alfredo E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384891,
+      "teamName": "3. The Hard Digs (Alfredo E.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719532,
+      "teamId": 6158907,
+      "teamName": "8. The Hard Digs (Alfredo E.)",
+      "isCaptain": true
     }
   ]
 }

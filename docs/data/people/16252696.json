@@ -1,0 +1,36 @@
+{
+  "userId": 16252696,
+  "firstName": "Arturo",
+  "appearances": [
+    {
+      "programId": 4656367,
+      "teamId": 7428527,
+      "teamName": "1. Bongos (Bradley E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743910,
+      "teamId": 7574318,
+      "teamName": "3. Bongos (Bradley E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7339565,
+      "teamName": "10. Bongos (Bradley E.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4732803,
+      "teamName": "6 - Shablam (Arturo P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5204389,
+      "teamName": "2 - Latinos (Arturo M.)",
+      "isCaptain": true
+    }
+  ]
+}

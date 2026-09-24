@@ -1,0 +1,17 @@
+{
+  "programId": 4360608,
+  "teamId": 7019501,
+  "teamName": "6. Holli D. and Dan L.",
+  "players": [
+    {
+      "userId": 45248311,
+      "firstName": "Holli",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

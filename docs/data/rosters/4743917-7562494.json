@@ -1,0 +1,17 @@
+{
+  "programId": 4743917,
+  "teamId": 7562494,
+  "teamName": "2. Ivy C. and Julia V.",
+  "players": [
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": true
+    },
+    {
+      "userId": 50025583,
+      "firstName": "Julia",
+      "isCaptain": false
+    }
+  ]
+}

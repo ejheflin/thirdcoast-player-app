@@ -1,0 +1,17 @@
+{
+  "programId": 4045339,
+  "teamId": 6565367,
+  "teamName": "3. Alexis T. & Matt G.",
+  "players": [
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 35126086,
+      "firstName": "Alexis",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4590366,
+  "teamId": 7339538,
+  "teamName": "2. Evan M. and Andrew F.",
+  "players": [
+    {
+      "userId": 51290793,
+      "firstName": "Andrew",
+      "isCaptain": false
+    },
+    {
+      "userId": 42557619,
+      "firstName": "Evan",
+      "isCaptain": true
+    }
+  ]
+}

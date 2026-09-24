@@ -1,0 +1,22 @@
+{
+  "programId": 4220826,
+  "teamId": 6819042,
+  "teamName": "10. Fam Jam (Sirena V.)",
+  "players": [
+    {
+      "userId": 42557619,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 42568275,
+      "firstName": "Jade",
+      "isCaptain": false
+    },
+    {
+      "userId": 44129043,
+      "firstName": "Sirena",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4139350,
+  "teamId": 6689520,
+  "teamName": "7. Melissa L. & Jaimie G.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14574853,
+      "firstName": "Melissa",
+      "isCaptain": true
+    }
+  ]
+}

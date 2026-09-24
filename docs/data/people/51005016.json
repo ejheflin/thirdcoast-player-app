@@ -1,0 +1,24 @@
+{
+  "userId": 51005016,
+  "firstName": "Chase",
+  "appearances": [
+    {
+      "programId": 4590317,
+      "teamId": 7350014,
+      "teamName": "4. Sandy Cheeks (Lauren D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7185804,
+      "teamName": "4. Sandy Cheeks (Lauren D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7440605,
+      "teamName": "3. Jann D. and Chase P.",
+      "isCaptain": false
+    }
+  ]
+}

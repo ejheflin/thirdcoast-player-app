@@ -1,0 +1,17 @@
+{
+  "programId": 4360608,
+  "teamId": 7021475,
+  "teamName": "8. Kim S. and Mike O.",
+  "players": [
+    {
+      "userId": 22327552,
+      "firstName": "Mike",
+      "isCaptain": false
+    },
+    {
+      "userId": 22327516,
+      "firstName": "Kim",
+      "isCaptain": true
+    }
+  ]
+}

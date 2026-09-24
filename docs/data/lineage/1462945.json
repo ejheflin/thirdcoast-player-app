@@ -1,0 +1,173 @@
+{
+  "programId": 1462945,
+  "teams": {
+    "2893546": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2893546,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "3 - Jo P. & Mike G.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 0,
+          "ties": 5
+        }
+      ]
+    },
+    "2893762": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2893762,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "2 - Jen A. & Jon N.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "2896063": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2896063,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "7 - Juliana A. & Adolph T.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 0,
+          "ties": 3
+        }
+      ]
+    },
+    "2898262": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2898262,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "4 - Marah F. & Isa T.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 0,
+          "ties": 2
+        }
+      ]
+    },
+    "2898745": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2898745,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "9 - Jaclyn L. & Steven H.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 3,
+          "ties": 0
+        }
+      ]
+    },
+    "2963965": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2963965,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "10 - Rohit S. & Marisela G.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 1,
+          "ties": 4
+        }
+      ]
+    },
+    "2967229": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2967229,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "11 - Tiffany S. & Will T.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      ]
+    },
+    "2980354": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1462945,
+          "teamId": 2980354,
+          "programName": "Thursday Coed 2s Upper Intermediate",
+          "teamName": "8 - Dani D. & Luis L.",
+          "endDate": 1588219200000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 0,
+          "losses": 1,
+          "ties": 1
+        }
+      ]
+    }
+  }
+}

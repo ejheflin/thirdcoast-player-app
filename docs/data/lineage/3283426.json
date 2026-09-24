@@ -1,0 +1,173 @@
+{
+  "programId": 3283426,
+  "teams": {
+    "5486332": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5486332,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "1. Settin pretty (Elizabeth A.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 8,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "5492233": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5492233,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "2. Third Coast Ball (Hector T.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    },
+    "5492929": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5492929,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "3. Volley Llamas (Jonathan P.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 8,
+          "ties": 3
+        }
+      ]
+    },
+    "5500850": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5500850,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "6. Scrappy Doo (Matt O.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "5500961": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5500961,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "5. Rickys Tricks (John K.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 10,
+          "ties": 4
+        }
+      ]
+    },
+    "5502521": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5502521,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "4. Ninja Turtles (Andrew B.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 13,
+          "losses": 2,
+          "ties": 1
+        }
+      ]
+    },
+    "5504051": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5504051,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "7. All Sets are Off (Omar S.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    },
+    "5506667": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3283426,
+          "teamId": 5506667,
+          "programName": "Monday Coed 3s Intermediate",
+          "teamName": "8. Sandy Start (Tiffany S.)",
+          "endDate": 1664769600000,
+          "level": "B",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    }
+  }
+}

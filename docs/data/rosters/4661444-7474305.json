@@ -1,0 +1,27 @@
+{
+  "programId": 4661444,
+  "teamId": 7474305,
+  "teamName": "8. Preseason Strangers (Jean M.)",
+  "players": [
+    {
+      "userId": 53558260,
+      "firstName": "Madi",
+      "isCaptain": false
+    },
+    {
+      "userId": 53567732,
+      "firstName": "Jean-Andre",
+      "isCaptain": true
+    },
+    {
+      "userId": 46628031,
+      "firstName": "kellye",
+      "isCaptain": false
+    },
+    {
+      "userId": 35791411,
+      "firstName": "john",
+      "isCaptain": false
+    }
+  ]
+}

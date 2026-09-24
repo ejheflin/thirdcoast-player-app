@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6542152,
+  "teamName": "1. Kim S. & Noman Z.",
+  "players": [
+    {
+      "userId": 22327516,
+      "firstName": "Kim",
+      "isCaptain": true
+    },
+    {
+      "userId": 42508029,
+      "firstName": "noman",
+      "isCaptain": false
+    }
+  ]
+}

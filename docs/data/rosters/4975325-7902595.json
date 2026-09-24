@@ -1,0 +1,27 @@
+{
+  "programId": 4975325,
+  "teamId": 7902595,
+  "teamName": "7. Bump Set Dammit! (Michael G.)",
+  "players": [
+    {
+      "userId": 48184594,
+      "firstName": "Casey",
+      "isCaptain": false
+    },
+    {
+      "userId": 48184584,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 46568397,
+      "firstName": "William",
+      "isCaptain": false
+    },
+    {
+      "userId": 53471968,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

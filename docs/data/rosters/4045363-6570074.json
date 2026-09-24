@@ -1,0 +1,37 @@
+{
+  "programId": 4045363,
+  "teamId": 6570074,
+  "teamName": "5. Over and Out (Annie L.)",
+  "players": [
+    {
+      "userId": 18293119,
+      "firstName": "Calvin",
+      "isCaptain": false
+    },
+    {
+      "userId": 27941982,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 29703738,
+      "firstName": "Patrick",
+      "isCaptain": false
+    },
+    {
+      "userId": 35491195,
+      "firstName": "Sean",
+      "isCaptain": false
+    },
+    {
+      "userId": 46570187,
+      "firstName": "Mike",
+      "isCaptain": false
+    },
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    }
+  ]
+}

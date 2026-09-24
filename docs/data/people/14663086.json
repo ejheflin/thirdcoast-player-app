@@ -1,0 +1,108 @@
+{
+  "userId": 14663086,
+  "firstName": "Adolph",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6462932,
+      "teamName": "2. Holli D. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7047233,
+      "teamName": "4. Krissy B. and Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6568644,
+      "teamName": "6. Ashlee S. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6482337,
+      "teamName": "4. Ashlee S. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6155406,
+      "teamName": "9. Alyssa M. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6956027,
+      "teamName": "2. Hayden S. and Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6381025,
+      "teamName": "4. Ashlee S. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6723973,
+      "teamName": "8. Couples Therapy (Katy S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6912844,
+      "teamName": "1. Calm Yo Tips (Adolph T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7027305,
+      "teamName": "6. Hitmen (Cristofer G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6717484,
+      "teamName": "2. Calm Yo Tips (Adolph T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6820519,
+      "teamName": "7. Calm Yo Tips (Adolph T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6553478,
+      "teamName": "9. Blue Balls (Alex L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6702050,
+      "teamName": "5. Mike A. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6561065,
+      "teamName": "11. Adolph T. & Mike A.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6834460,
+      "teamName": "12. Mike A. & Adolph T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6950679,
+      "teamName": "8. Mike A. and Adolph T.",
+      "isCaptain": true
+    }
+  ]
+}

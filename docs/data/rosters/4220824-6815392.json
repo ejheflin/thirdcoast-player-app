@@ -1,0 +1,17 @@
+{
+  "programId": 4220824,
+  "teamId": 6815392,
+  "teamName": "5. Cici A. & Leo Y.",
+  "players": [
+    {
+      "userId": 48583754,
+      "firstName": "Cici",
+      "isCaptain": false
+    },
+    {
+      "userId": 14709559,
+      "firstName": "Leo",
+      "isCaptain": true
+    }
+  ]
+}

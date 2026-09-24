@@ -1,0 +1,32 @@
+{
+  "programId": 4488296,
+  "teamId": 7242846,
+  "teamName": "5. Holy Blockamole 3.0 (Bryan M.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": false
+    },
+    {
+      "userId": 35098438,
+      "firstName": "Brenna",
+      "isCaptain": false
+    },
+    {
+      "userId": 42548046,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": true
+    },
+    {
+      "userId": 33123445,
+      "firstName": "Devin",
+      "isCaptain": false
+    }
+  ]
+}

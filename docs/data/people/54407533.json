@@ -7,6 +7,12 @@
       "teamId": 8038721,
       "teamName": "10. Randy J. and Hector T.",
       "isCaptain": false
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7606210,
+      "teamName": "7. Kassidy D. and Hector T.",
+      "isCaptain": true
     }
   ]
 }

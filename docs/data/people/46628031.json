@@ -1,0 +1,30 @@
+{
+  "userId": 46628031,
+  "firstName": "kellye",
+  "appearances": [
+    {
+      "programId": 4661444,
+      "teamId": 7474305,
+      "teamName": "8. Preseason Strangers (Jean M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756152,
+      "teamId": 7605095,
+      "teamName": "6. Chocolate City 25 (Kellye M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7433180,
+      "teamName": "2. Hit it from the Side (Mark M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6657165,
+      "teamName": "2. HAVOC (Lola H.)",
+      "isCaptain": false
+    }
+  ]
+}

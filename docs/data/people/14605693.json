@@ -1,0 +1,18 @@
+{
+  "userId": 14605693,
+  "firstName": "Hannah",
+  "appearances": [
+    {
+      "programId": 4770452,
+      "teamId": 7608887,
+      "teamName": "8. Hannah S. and Francisco S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6143493,
+      "teamName": "7. Hannah S. & Matt G.",
+      "isCaptain": false
+    }
+  ]
+}

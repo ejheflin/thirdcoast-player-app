@@ -1,0 +1,27 @@
+{
+  "programId": 4488296,
+  "teamId": 7233574,
+  "teamName": "4. Fam-bam (Jerri N.)",
+  "players": [
+    {
+      "userId": 46998677,
+      "firstName": "Cody",
+      "isCaptain": false
+    },
+    {
+      "userId": 46999370,
+      "firstName": "Jerri",
+      "isCaptain": true
+    },
+    {
+      "userId": 49092602,
+      "firstName": "Raymond",
+      "isCaptain": false
+    },
+    {
+      "userId": 27841302,
+      "firstName": "Ross",
+      "isCaptain": false
+    }
+  ]
+}

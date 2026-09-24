@@ -1,0 +1,27 @@
+{
+  "programId": 4743908,
+  "teamId": 7573668,
+  "teamName": "2. Toodles (Michael L.)",
+  "players": [
+    {
+      "userId": 14808136,
+      "firstName": "Scott",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798362,
+      "firstName": "Christian",
+      "isCaptain": false
+    },
+    {
+      "userId": 14804548,
+      "firstName": "Michael",
+      "isCaptain": true
+    },
+    {
+      "userId": 54079622,
+      "firstName": "Rebecca",
+      "isCaptain": false
+    }
+  ]
+}

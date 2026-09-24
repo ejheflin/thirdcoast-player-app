@@ -1,0 +1,17 @@
+{
+  "programId": 4743917,
+  "teamId": 7585260,
+  "teamName": "11. Liz C. and Madison P.",
+  "players": [
+    {
+      "userId": 14657086,
+      "firstName": "Liz",
+      "isCaptain": true
+    },
+    {
+      "userId": 54319380,
+      "firstName": "Madison",
+      "isCaptain": false
+    }
+  ]
+}

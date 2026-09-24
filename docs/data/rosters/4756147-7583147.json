@@ -1,0 +1,17 @@
+{
+  "programId": 4756147,
+  "teamId": 7583147,
+  "teamName": "3. Stephanie G. and Jacob W.",
+  "players": [
+    {
+      "userId": 49848064,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    },
+    {
+      "userId": 41817930,
+      "firstName": "Jacob",
+      "isCaptain": true
+    }
+  ]
+}

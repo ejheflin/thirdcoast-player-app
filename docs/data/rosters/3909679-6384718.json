@@ -1,0 +1,32 @@
+{
+  "programId": 3909679,
+  "teamId": 6384718,
+  "teamName": "6. Zombies (Daniel L.)",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": false
+    },
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14597449,
+      "firstName": "Brad",
+      "isCaptain": false
+    },
+    {
+      "userId": 14809633,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": true
+    }
+  ]
+}

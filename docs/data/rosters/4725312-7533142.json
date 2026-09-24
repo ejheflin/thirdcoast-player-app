@@ -1,0 +1,17 @@
+{
+  "programId": 4725312,
+  "teamId": 7533142,
+  "teamName": "1. Jann D. and Nathaniel C.",
+  "players": [
+    {
+      "userId": 49882653,
+      "firstName": "Nathaniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 44414193,
+      "firstName": "Jann",
+      "isCaptain": true
+    }
+  ]
+}

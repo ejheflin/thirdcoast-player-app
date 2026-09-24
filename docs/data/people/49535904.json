@@ -1,0 +1,24 @@
+{
+  "userId": 49535904,
+  "firstName": "Brian",
+  "appearances": [
+    {
+      "programId": 4496318,
+      "teamId": 7223745,
+      "teamName": "5. Passing Machines!! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7052153,
+      "teamName": "5. No Dig-ity! (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6956157,
+      "teamName": "10. The Comebacks! (Joe R.)",
+      "isCaptain": false
+    }
+  ]
+}

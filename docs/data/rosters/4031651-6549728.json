@@ -1,0 +1,17 @@
+{
+  "programId": 4031651,
+  "teamId": 6549728,
+  "teamName": "7. Diana F. & Jon N.",
+  "players": [
+    {
+      "userId": 14944333,
+      "firstName": "Diana",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

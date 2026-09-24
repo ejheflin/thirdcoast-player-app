@@ -1,0 +1,37 @@
+{
+  "programId": 2446767,
+  "teamId": 4206204,
+  "teamName": "3 - North American Volleyball Syndicate (Steve C.)",
+  "players": [
+    {
+      "userId": 24061723,
+      "firstName": "Kayla",
+      "isCaptain": false
+    },
+    {
+      "userId": 17612635,
+      "firstName": "Steve",
+      "isCaptain": true
+    },
+    {
+      "userId": 28076658,
+      "firstName": "Emily",
+      "isCaptain": false
+    },
+    {
+      "userId": 29384418,
+      "firstName": "Landon",
+      "isCaptain": false
+    },
+    {
+      "userId": 28113363,
+      "firstName": "Jesse",
+      "isCaptain": false
+    },
+    {
+      "userId": 28042629,
+      "firstName": "Derrick",
+      "isCaptain": false
+    }
+  ]
+}

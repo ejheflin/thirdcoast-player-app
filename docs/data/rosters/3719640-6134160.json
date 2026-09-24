@@ -1,0 +1,17 @@
+{
+  "programId": 3719640,
+  "teamId": 6134160,
+  "teamName": "3. Giselle L. & Jo P.",
+  "players": [
+    {
+      "userId": 14863684,
+      "firstName": "Giselle",
+      "isCaptain": false
+    },
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    }
+  ]
+}

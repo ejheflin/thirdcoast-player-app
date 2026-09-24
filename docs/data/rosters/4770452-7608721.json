@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7608721,
+  "teamName": "10. Maggie H. and Travis T.",
+  "players": [
+    {
+      "userId": 37966010,
+      "firstName": "Maggie",
+      "isCaptain": true
+    },
+    {
+      "userId": 54447949,
+      "firstName": "Travis",
+      "isCaptain": false
+    }
+  ]
+}

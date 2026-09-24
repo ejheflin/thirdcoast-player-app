@@ -13,6 +13,114 @@
       "teamId": 8139783,
       "teamName": "5. HIT FACED (Clark P.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7891785,
+      "teamName": "1. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761976,
+      "teamName": "1. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7600976,
+      "teamName": "10. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903855,
+      "teamId": 6377956,
+      "teamName": "8. Ivy C. & Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6444296,
+      "teamName": "2. Fran R. & Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661442,
+      "teamId": 7447484,
+      "teamName": "7. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689299,
+      "teamName": "7. Michelle E. & Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589129,
+      "teamId": 7336300,
+      "teamName": "5. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6811200,
+      "teamName": "4. Holli D. & Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497638,
+      "teamId": 7196705,
+      "teamName": "1. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6909127,
+      "teamName": "3. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7019501,
+      "teamName": "6. Holli D. and Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6546424,
+      "teamName": "2. Fran R. & Dan L.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165189,
+      "teamName": "9. Sandpeople (Dan L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6384718,
+      "teamName": "6. Zombies (Daniel L.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6155142,
+      "teamName": "7. Zombies (Brad F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2446767,
+      "teamId": 4191807,
+      "teamName": "7 - Spike It Harder (Brad O.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1462969,
+      "teamId": 2963434,
+      "teamName": "4 - Sand in all the Right Places (Jeanne B.)",
+      "isCaptain": false
     }
   ]
 }

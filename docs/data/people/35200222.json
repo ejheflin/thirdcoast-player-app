@@ -1,0 +1,84 @@
+{
+  "userId": 35200222,
+  "firstName": "Cabrina",
+  "appearances": [
+    {
+      "programId": 4319084,
+      "teamId": 6954538,
+      "teamName": "11. Cabrina B. and Philip A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196694,
+      "teamName": "7. Cabrina B. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7349030,
+      "teamName": "7. Cabrina B. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7053275,
+      "teamName": "11. Cabrina B. and Matt B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590324,
+      "teamId": 7339899,
+      "teamName": "10. Cabrina B. and Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7190108,
+      "teamName": "10. Cabrina B. and Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7021055,
+      "teamName": "1. Cabrina B. and Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288379,
+      "teamId": 6914123,
+      "teamName": "2. Cabrina B. and Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957863,
+      "teamId": 6452784,
+      "teamName": "9. Cabrina B. & Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6819151,
+      "teamName": "3. Cabrina B. & Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6689264,
+      "teamName": "2. Cabrina B. & Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904462,
+      "teamId": 6380546,
+      "teamName": "8. Molly J. & Cabrina B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719640,
+      "teamId": 6142950,
+      "teamName": "7. Molly J. & Cabrina B.",
+      "isCaptain": false
+    }
+  ]
+}

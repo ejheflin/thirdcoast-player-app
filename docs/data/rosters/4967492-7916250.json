@@ -1,0 +1,17 @@
+{
+  "programId": 4967492,
+  "teamId": 7916250,
+  "teamName": "8. Helen L. and George C.",
+  "players": [
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": true
+    },
+    {
+      "userId": 49869006,
+      "firstName": "Helen",
+      "isCaptain": false
+    }
+  ]
+}

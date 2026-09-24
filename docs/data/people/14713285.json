@@ -1,0 +1,36 @@
+{
+  "userId": 14713285,
+  "firstName": "Bryan",
+  "appearances": [
+    {
+      "programId": 3957858,
+      "teamId": 6455143,
+      "teamName": "9. Setters of Catan (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6924583,
+      "teamName": "7. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823787,
+      "teamName": "7. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6696431,
+      "teamName": "6. That's What She Set (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550058,
+      "teamName": "8. That's What She Set (Albert F.)",
+      "isCaptain": false
+    }
+  ]
+}

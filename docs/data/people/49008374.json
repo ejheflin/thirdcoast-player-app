@@ -13,6 +13,54 @@
       "teamId": 8159903,
       "teamName": "8. Gold Diggerz (JT N.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7926349,
+      "teamName": "1. Gold Diggerz (JT N.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6908387,
+      "teamName": "2. Gold Diggerz (Kimberlee S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872969,
+      "teamId": 7786737,
+      "teamName": "4. Gold Diggerz (JT N.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488258,
+      "teamId": 7194065,
+      "teamName": "5. Gold Diggerz (JT N.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7442557,
+      "teamName": "7. Gold Diggerz (JT N.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7340803,
+      "teamName": "3. Gold Diggerz (JT N.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4362286,
+      "teamId": 7021169,
+      "teamName": "3. Gold Diggerz (Kimberlee S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7580103,
+      "teamName": "8. Gold Diggerz (JT N.)",
+      "isCaptain": true
     }
   ]
 }

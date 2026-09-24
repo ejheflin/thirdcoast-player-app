@@ -1,0 +1,215 @@
+{
+  "programId": 2293768,
+  "teams": {
+    "3950320": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3950320,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "5 - Julia L. & Kevin N.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "3953131": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3953131,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "2 - Liz C. & Josman R.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 12,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "3953503": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3953503,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "8 - Taylor B. & Andrew D.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 6
+        }
+      ]
+    },
+    "3953887": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3953887,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "4 - Mia T. & Adolph T.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "3959626": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3959626,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "1 - Jess L. & Edwin F.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 1,
+          "ties": 10
+        }
+      ]
+    },
+    "3960712": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3960712,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "7 - Mckenzie F. & Travis B.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "3961360": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3961360,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "3 - Beth B. & Alex D.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 7,
+          "ties": 7
+        }
+      ]
+    },
+    "3966193": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3966193,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "6 - Megan E. & Rudy D.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        }
+      ]
+    },
+    "3967786": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3967786,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "9 - Lynn K. & Jaimie G.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 13,
+          "ties": 1
+        }
+      ]
+    },
+    "3976204": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2293768,
+          "teamId": 3976204,
+          "programName": "Monday Coed 2s Upper Intermediate",
+          "teamName": "10 - Sage H. & Jon N.",
+          "endDate": 1627272000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 3,
+          "ties": 8
+        }
+      ]
+    }
+  }
+}

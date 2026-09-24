@@ -1,0 +1,27 @@
+{
+  "programId": 3957853,
+  "teamId": 6456664,
+  "teamName": "4. On Point (Dreco S.)",
+  "players": [
+    {
+      "userId": 45223676,
+      "firstName": "Connor",
+      "isCaptain": false
+    },
+    {
+      "userId": 17401432,
+      "firstName": "Joann",
+      "isCaptain": false
+    },
+    {
+      "userId": 44414241,
+      "firstName": "Odette",
+      "isCaptain": false
+    },
+    {
+      "userId": 25371946,
+      "firstName": "Dreco",
+      "isCaptain": true
+    }
+  ]
+}

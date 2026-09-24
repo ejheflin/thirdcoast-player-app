@@ -1,0 +1,32 @@
+{
+  "programId": 4975325,
+  "teamId": 7909156,
+  "teamName": "4. Unprotected Sets (Tyler B.)",
+  "players": [
+    {
+      "userId": 54268790,
+      "firstName": "Hannah",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267814,
+      "firstName": "Tyler",
+      "isCaptain": true
+    },
+    {
+      "userId": 54222067,
+      "firstName": "Catalina",
+      "isCaptain": false
+    },
+    {
+      "userId": 54267817,
+      "firstName": "Samuel",
+      "isCaptain": false
+    },
+    {
+      "userId": 54319317,
+      "firstName": "chase",
+      "isCaptain": false
+    }
+  ]
+}

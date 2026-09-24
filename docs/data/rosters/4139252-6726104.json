@@ -1,0 +1,27 @@
+{
+  "programId": 4139252,
+  "teamId": 6726104,
+  "teamName": "3. Swag in a Bag (Phil A.)",
+  "players": [
+    {
+      "userId": 29624799,
+      "firstName": "Philip",
+      "isCaptain": true
+    },
+    {
+      "userId": 42548046,
+      "firstName": "Andy",
+      "isCaptain": false
+    },
+    {
+      "userId": 46852054,
+      "firstName": "Shelby",
+      "isCaptain": false
+    },
+    {
+      "userId": 44346405,
+      "firstName": "Trey",
+      "isCaptain": false
+    }
+  ]
+}

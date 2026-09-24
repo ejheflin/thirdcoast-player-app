@@ -1,0 +1,17 @@
+{
+  "programId": 3909727,
+  "teamId": 6393746,
+  "teamName": "11. Alex J. & Mikhail B.",
+  "players": [
+    {
+      "userId": 38401346,
+      "firstName": "Mikhail",
+      "isCaptain": false
+    },
+    {
+      "userId": 34923814,
+      "firstName": "Alex",
+      "isCaptain": true
+    }
+  ]
+}

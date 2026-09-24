@@ -1,0 +1,27 @@
+{
+  "programId": 4031662,
+  "teamId": 6548945,
+  "teamName": "7. Taking Back Tuesday (Lyndon Z.)",
+  "players": [
+    {
+      "userId": 38953784,
+      "firstName": "Nathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681509,
+      "firstName": "Lauren",
+      "isCaptain": false
+    },
+    {
+      "userId": 45868542,
+      "firstName": "Elena",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681506,
+      "firstName": "Lyndon",
+      "isCaptain": true
+    }
+  ]
+}

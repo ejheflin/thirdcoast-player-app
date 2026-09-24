@@ -1,0 +1,17 @@
+{
+  "programId": 4488344,
+  "teamId": 7185052,
+  "teamName": "3. Jeff S. and Josh K.",
+  "players": [
+    {
+      "userId": 29615565,
+      "firstName": "Joshua",
+      "isCaptain": false
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": true
+    }
+  ]
+}

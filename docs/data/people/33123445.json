@@ -1,0 +1,102 @@
+{
+  "userId": 33123445,
+  "firstName": "Devin",
+  "appearances": [
+    {
+      "programId": 4661442,
+      "teamId": 7462945,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756151,
+      "teamId": 7604877,
+      "teamName": "2. Shelby G. and Devin S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909678,
+      "teamId": 6380648,
+      "teamName": "2. Madison M. & Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719718,
+      "teamId": 6134433,
+      "teamName": "3. Madison M. & Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6481640,
+      "teamName": "4. Madison M. & Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6567344,
+      "teamName": "8. Savannah W. & Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6693440,
+      "teamName": "10. Savannah W. & Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4488296,
+      "teamId": 7242846,
+      "teamName": "5. Holy Blockamole 3.0 (Bryan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362247,
+      "teamId": 7029474,
+      "teamName": "5. Holy Blockamole (Devin S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6689785,
+      "teamName": "5. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6911644,
+      "teamName": "2. Holy Blockamole (Devin S.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6823891,
+      "teamName": "8. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6382144,
+      "teamName": "9. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031660,
+      "teamId": 6549437,
+      "teamName": "5. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6451225,
+      "teamName": "4. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6164856,
+      "teamName": "8. Ninja Turtles (Andrew B.)",
+      "isCaptain": false
+    }
+  ]
+}

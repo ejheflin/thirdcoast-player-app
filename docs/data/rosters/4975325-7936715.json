@@ -1,0 +1,32 @@
+{
+  "programId": 4975325,
+  "teamId": 7936715,
+  "teamName": "9. Milk (Sean M.)",
+  "players": [
+    {
+      "userId": 53178353,
+      "firstName": "Anna",
+      "isCaptain": false
+    },
+    {
+      "userId": 56718466,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 29703738,
+      "firstName": "Patrick",
+      "isCaptain": false
+    },
+    {
+      "userId": 35491195,
+      "firstName": "Sean",
+      "isCaptain": true
+    },
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    }
+  ]
+}

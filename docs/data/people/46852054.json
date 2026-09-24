@@ -1,0 +1,90 @@
+{
+  "userId": 46852054,
+  "firstName": "Shelby",
+  "appearances": [
+    {
+      "programId": 4661442,
+      "teamId": 7462945,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689269,
+      "teamName": "8. Shelby G. & Sam E.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6817729,
+      "teamName": "9. Shelby G. & Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7029366,
+      "teamName": "3. Shelby G. and Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288350,
+      "teamId": 6915077,
+      "teamName": "8. Shelby G. and Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7208284,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7340388,
+      "teamName": "8. Shelby G. and Dom W.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4756151,
+      "teamId": 7604877,
+      "teamName": "2. Shelby G. and Devin S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139364,
+      "teamId": 6716969,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139252,
+      "teamId": 6726104,
+      "teamName": "3. Swag in a Bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222035,
+      "teamId": 6820248,
+      "teamName": "6. Swag in a bag (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6920606,
+      "teamName": "7. My quads hurt (Phil A.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488152,
+      "teamId": 7190020,
+      "teamName": "5. Dani D. and Shelby G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7023018,
+      "teamName": "2. Dani D. and Shelby G.",
+      "isCaptain": false
+    }
+  ]
+}

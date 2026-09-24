@@ -1,0 +1,17 @@
+{
+  "programId": 4288379,
+  "teamId": 6909937,
+  "teamName": "5. Jackie J. and Dani D.",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": true
+    },
+    {
+      "userId": 35342981,
+      "firstName": "Jackie",
+      "isCaptain": false
+    }
+  ]
+}

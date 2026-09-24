@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6465320,
+  "teamName": "8. Anabel K. & Hector T.",
+  "players": [
+    {
+      "userId": 45347050,
+      "firstName": "Anabel",
+      "isCaptain": false
+    },
+    {
+      "userId": 35072617,
+      "firstName": "Hector",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "userId": 14923579,
+  "firstName": "Julia",
+  "appearances": [
+    {
+      "programId": 3719715,
+      "teamId": 6134460,
+      "teamName": "4. Julia L. & Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6377362,
+      "teamName": "1. Julia L. & Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6483215,
+      "teamName": "6. Julia L. & Son T.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6384618,
+      "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957859,
+      "teamId": 6450857,
+      "teamName": "3. Welcome to the Sonderdome (Son T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2278405,
+      "teamId": 3958873,
+      "teamName": "9 - Full Send (Julia L.)",
+      "isCaptain": true
+    }
+  ]
+}

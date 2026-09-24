@@ -1,0 +1,18 @@
+{
+  "userId": 48583754,
+  "firstName": "Cici",
+  "appearances": [
+    {
+      "programId": 4288350,
+      "teamId": 6911379,
+      "teamName": "2. Cici A. and Leo Y.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220824,
+      "teamId": 6815392,
+      "teamName": "5. Cici A. & Leo Y.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4872967,
+  "teamId": 7792238,
+  "teamName": "4. Bombaclat (Aatir A.)",
+  "players": [
+    {
+      "userId": 21071014,
+      "firstName": "Aatir",
+      "isCaptain": true
+    },
+    {
+      "userId": 49372007,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 54336214,
+      "firstName": "Logan",
+      "isCaptain": false
+    },
+    {
+      "userId": 52265111,
+      "firstName": "Chelsea",
+      "isCaptain": false
+    }
+  ]
+}

@@ -13,6 +13,114 @@
       "teamId": 8139645,
       "teamName": "8. Molly J. and Nicole B.",
       "isCaptain": false
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7019505,
+      "teamName": "6. Nicole B. and Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288350,
+      "teamId": 6908177,
+      "teamName": "4. Nicole B. and Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7194330,
+      "teamName": "2. Nicole B. and Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220824,
+      "teamId": 6809544,
+      "teamName": "2. Nicole B. & Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689133,
+      "teamName": "4. Nicole B. & Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7330617,
+      "teamName": "4. Nicole B. and Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6539329,
+      "teamName": "3. Nicole B. & Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7442401,
+      "teamName": "1. Nicole B. and Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957846,
+      "teamId": 6444657,
+      "teamName": "2. Nicole B. & Mark J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7051448,
+      "teamName": "9. Nicole B. and Phil A.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362287,
+      "teamId": 7011161,
+      "teamName": "3. Lauren H. and Nicole B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656563,
+      "teamId": 7440069,
+      "teamName": "12. Molly J. and Cabrina B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288379,
+      "teamId": 6908204,
+      "teamName": "6. Lauren H. and Nicole B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222046,
+      "teamId": 6812971,
+      "teamName": "7. Nicole B. & Lauren H.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4975326,
+      "teamId": 7922042,
+      "teamName": "10. Molly J. and Nicole B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139330,
+      "teamId": 6689950,
+      "teamName": "8. Tiffany S. & Nicole B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872983,
+      "teamId": 7761985,
+      "teamName": "7. Nicole B. and Molly J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743917,
+      "teamId": 7574543,
+      "teamName": "12. Molly J. and Nicole B.",
+      "isCaptain": false
     }
   ]
 }

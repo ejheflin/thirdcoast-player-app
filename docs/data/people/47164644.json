@@ -7,6 +7,48 @@
       "teamId": 8002313,
       "teamName": "1. Vanessa S. and Rudy D.",
       "isCaptain": false
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7593851,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6809685,
+      "teamName": "3. Vanessa S. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6908094,
+      "teamName": "8. Vanessa S. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7020601,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139004,
+      "teamId": 6689163,
+      "teamName": "5. Vanessa S. & Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7455718,
+      "teamName": "5. Vanessa S. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823003,
+      "teamName": "9. The Vacationers (Phil M.)",
+      "isCaptain": false
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "programId": 4497646,
+  "teamId": 7196885,
+  "teamName": "2. Jo P. and Austin J.",
+  "players": [
+    {
+      "userId": 49365824,
+      "firstName": "Jolene",
+      "isCaptain": true
+    },
+    {
+      "userId": 14567347,
+      "firstName": "Johnny",
+      "isCaptain": false
+    }
+  ]
+}

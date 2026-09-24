@@ -1,0 +1,27 @@
+{
+  "programId": 4975318,
+  "teamId": 7934436,
+  "teamName": "8. Back Door Bumpers (Taylor L.)",
+  "players": [
+    {
+      "userId": 47340236,
+      "firstName": "Christian",
+      "isCaptain": false
+    },
+    {
+      "userId": 56770721,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 53460609,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 55865743,
+      "firstName": "Kamil",
+      "isCaptain": false
+    }
+  ]
+}

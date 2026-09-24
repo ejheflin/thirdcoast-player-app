@@ -1,0 +1,18 @@
+{
+  "userId": 14597449,
+  "firstName": "Brad",
+  "appearances": [
+    {
+      "programId": 3909679,
+      "teamId": 6384718,
+      "teamName": "6. Zombies (Daniel L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6155142,
+      "teamName": "7. Zombies (Brad F.)",
+      "isCaptain": true
+    }
+  ]
+}

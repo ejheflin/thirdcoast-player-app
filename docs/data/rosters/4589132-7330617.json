@@ -1,0 +1,17 @@
+{
+  "programId": 4589132,
+  "teamId": 7330617,
+  "teamName": "4. Nicole B. and Mark J.",
+  "players": [
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 23555404,
+      "firstName": "Mark",
+      "isCaptain": true
+    }
+  ]
+}

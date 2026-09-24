@@ -1,0 +1,17 @@
+{
+  "programId": 3715962,
+  "teamId": 6126732,
+  "teamName": "4. Jess C. & Adrian M.",
+  "players": [
+    {
+      "userId": 17338705,
+      "firstName": "Jessica",
+      "isCaptain": true
+    },
+    {
+      "userId": 42341373,
+      "firstName": "Adrian",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 4967494,
+  "teamId": 7914623,
+  "teamName": "8. Beach Bums (Uilvim F.)",
+  "players": [
+    {
+      "userId": 56511154,
+      "firstName": "Uilvim",
+      "isCaptain": true
+    },
+    {
+      "userId": 53186427,
+      "firstName": "Jeni",
+      "isCaptain": false
+    },
+    {
+      "userId": 54284882,
+      "firstName": "Dennis",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 4031660,
+  "teamId": 6546982,
+  "teamName": "4. Good at Volleyball Puns (Daniel A.)",
+  "players": [
+    {
+      "userId": 17299156,
+      "firstName": "Daniel",
+      "isCaptain": true
+    },
+    {
+      "userId": 17315857,
+      "firstName": "Neil",
+      "isCaptain": false
+    },
+    {
+      "userId": 23657428,
+      "firstName": "Richard",
+      "isCaptain": false
+    },
+    {
+      "userId": 31689303,
+      "firstName": "Ashley",
+      "isCaptain": false
+    }
+  ]
+}

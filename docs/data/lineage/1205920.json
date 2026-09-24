@@ -1,0 +1,257 @@
+{
+  "programId": 1205920,
+  "teams": {
+    "2512636": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2512636,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "7 - Jo P. & Tay D.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 3,
+          "ties": 4
+        }
+      ]
+    },
+    "2512858": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2512858,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "3 - Susan L. & Helen E.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 12,
+          "wins": 9,
+          "losses": 5,
+          "ties": 2
+        }
+      ]
+    },
+    "2513002": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2513002,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "1 - Mili V. & Alyssa D.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 12,
+          "wins": 10,
+          "losses": 5,
+          "ties": 1
+        }
+      ]
+    },
+    "2513098": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2513098,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "10 - Sarah S. & Heysi B.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 12,
+          "wins": 5,
+          "losses": 6,
+          "ties": 4
+        }
+      ]
+    },
+    "2516056": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2516056,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "2 - Justyna B. & Keelie A.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 12,
+          "wins": 10,
+          "losses": 3,
+          "ties": 2
+        }
+      ]
+    },
+    "2516221": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2516221,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "4 - Melissa B. & Lindsay H.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 12,
+          "wins": 8,
+          "losses": 1,
+          "ties": 7
+        }
+      ]
+    },
+    "2516314": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2516314,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "12 - Tiffany S. & Tiare A.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 10,
+          "teamCount": 12,
+          "wins": 3,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "2516344": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2516344,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "6 - Michelle C. & Olivia J.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 12,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "2517838": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2517838,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "5 - Lisa B. & Tina O.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 9,
+          "ties": 3
+        }
+      ]
+    },
+    "2519854": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2519854,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "9 - Lina F. & Ashlee S.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 12,
+          "wins": 4,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "2521363": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2521363,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "8 - Emily M. & Haley J.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 12,
+          "teamCount": 12,
+          "wins": 0,
+          "losses": 12,
+          "ties": 4
+        }
+      ]
+    },
+    "2523064": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1205920,
+          "teamId": 2523064,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "11 - Rachael G. & Ashley S.",
+          "endDate": 1568692800000,
+          "level": "A",
+          "move": null,
+          "position": 11,
+          "teamCount": 12,
+          "wins": 2,
+          "losses": 11,
+          "ties": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "programId": 4045363,
+  "teamId": 6563462,
+  "teamName": "12. Team Tika (Rob B.)",
+  "players": [
+    {
+      "userId": 25295965,
+      "firstName": "Rob",
+      "isCaptain": true
+    },
+    {
+      "userId": 14632525,
+      "firstName": "Heather",
+      "isCaptain": false
+    },
+    {
+      "userId": 23626960,
+      "firstName": "Chad",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 3904443,
+  "teamId": 6386244,
+  "teamName": "1. Hit-Men (Justin C.)",
+  "players": [
+    {
+      "userId": 44334871,
+      "firstName": "Justin",
+      "isCaptain": true
+    },
+    {
+      "userId": 44346374,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 44346405,
+      "firstName": "Trey",
+      "isCaptain": false
+    },
+    {
+      "userId": 44346402,
+      "firstName": "Ransom",
+      "isCaptain": false
+    },
+    {
+      "userId": 44346388,
+      "firstName": "kalvin",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 2278405,
+  "teamId": 3958873,
+  "teamName": "9 - Full Send (Julia L.)",
+  "players": [
+    {
+      "userId": 25510621,
+      "firstName": "Khoa",
+      "isCaptain": false
+    },
+    {
+      "userId": 25508035,
+      "firstName": "Bobby",
+      "isCaptain": false
+    },
+    {
+      "userId": 14923579,
+      "firstName": "Julia",
+      "isCaptain": true
+    },
+    {
+      "userId": 14782789,
+      "firstName": "Thien",
+      "isCaptain": false
+    },
+    {
+      "userId": 25508305,
+      "firstName": "Andy",
+      "isCaptain": false
+    }
+  ]
+}

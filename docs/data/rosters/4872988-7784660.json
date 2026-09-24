@@ -1,0 +1,17 @@
+{
+  "programId": 4872988,
+  "teamId": 7784660,
+  "teamName": "1. Nathan G. and Jordan O.",
+  "players": [
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": true
+    },
+    {
+      "userId": 51314898,
+      "firstName": "Jordan",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 1886707,
+  "teamId": 3465310,
+  "teamName": "9 - One Hit Wonders (Evan G.)",
+  "players": [
+    {
+      "userId": 21017158,
+      "firstName": "Brian",
+      "isCaptain": false
+    },
+    {
+      "userId": 20568550,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 20950363,
+      "firstName": "Kally",
+      "isCaptain": false
+    },
+    {
+      "userId": 14775679,
+      "firstName": "Laura",
+      "isCaptain": false
+    }
+  ]
+}

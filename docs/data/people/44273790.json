@@ -1,0 +1,36 @@
+{
+  "userId": 44273790,
+  "firstName": "Cyan",
+  "appearances": [
+    {
+      "programId": 4220823,
+      "teamId": 6815219,
+      "teamName": "8. Cyan L. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6910495,
+      "teamName": "7. Cyan L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7027877,
+      "teamName": "3. Cyan L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6371371,
+      "teamName": "4. Sandpeople (Tyler J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6910497,
+      "teamName": "1. Victorious Secrets (Tyler J.)",
+      "isCaptain": false
+    }
+  ]
+}

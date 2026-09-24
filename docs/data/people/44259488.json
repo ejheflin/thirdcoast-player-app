@@ -1,0 +1,48 @@
+{
+  "userId": 44259488,
+  "firstName": "Catherine",
+  "appearances": [
+    {
+      "programId": 4496318,
+      "teamId": 7224514,
+      "teamName": "10. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981247,
+      "teamId": 6473366,
+      "teamName": "6. Trust Me, It Was In! (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7353416,
+      "teamName": "8. Sandy Patch Kids (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7048638,
+      "teamName": "10. Trust Me, It Was In... (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6378427,
+      "teamName": "5. Trust Me, It Was In... (Curtis J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6450792,
+      "teamName": "5. Sandy Cheeks (Dani D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6386884,
+      "teamName": "10. Sandy Cheeks (Dani D.)",
+      "isCaptain": false
+    }
+  ]
+}

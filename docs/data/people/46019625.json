@@ -1,0 +1,18 @@
+{
+  "userId": 46019625,
+  "firstName": "Beau",
+  "appearances": [
+    {
+      "programId": 4045339,
+      "teamId": 6562044,
+      "teamName": "1. Alyssa M. & Beau B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7047972,
+      "teamName": "11. Ryan S. and Beau B.",
+      "isCaptain": false
+    }
+  ]
+}

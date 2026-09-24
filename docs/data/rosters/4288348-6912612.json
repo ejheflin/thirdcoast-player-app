@@ -1,0 +1,17 @@
+{
+  "programId": 4288348,
+  "teamId": 6912612,
+  "teamName": "1. Abbie G. and Noman Z.",
+  "players": [
+    {
+      "userId": 48964709,
+      "firstName": "Abbie",
+      "isCaptain": false
+    },
+    {
+      "userId": 42508029,
+      "firstName": "noman",
+      "isCaptain": true
+    }
+  ]
+}

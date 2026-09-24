@@ -1,0 +1,17 @@
+{
+  "programId": 3719532,
+  "teamId": 6160668,
+  "teamName": "7. Will be back on top! (Adrian M.)",
+  "players": [
+    {
+      "userId": 17338705,
+      "firstName": "Jessica",
+      "isCaptain": false
+    },
+    {
+      "userId": 23106514,
+      "firstName": "Adrian",
+      "isCaptain": true
+    }
+  ]
+}

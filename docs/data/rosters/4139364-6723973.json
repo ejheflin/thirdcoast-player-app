@@ -1,0 +1,37 @@
+{
+  "programId": 4139364,
+  "teamId": 6723973,
+  "teamName": "8. Couples Therapy (Katy S.)",
+  "players": [
+    {
+      "userId": 47111699,
+      "firstName": "Ray",
+      "isCaptain": false
+    },
+    {
+      "userId": 37633644,
+      "firstName": "Brooke",
+      "isCaptain": false
+    },
+    {
+      "userId": 46659312,
+      "firstName": "Jose",
+      "isCaptain": false
+    },
+    {
+      "userId": 25389682,
+      "firstName": "Joe",
+      "isCaptain": false
+    },
+    {
+      "userId": 47111006,
+      "firstName": "Katy",
+      "isCaptain": true
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": false
+    }
+  ]
+}

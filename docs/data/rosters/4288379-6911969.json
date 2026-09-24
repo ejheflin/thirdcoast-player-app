@@ -1,0 +1,17 @@
+{
+  "programId": 4288379,
+  "teamId": 6911969,
+  "teamName": "10. Olivia J. and Emily F.",
+  "players": [
+    {
+      "userId": 37660606,
+      "firstName": "Emily",
+      "isCaptain": false
+    },
+    {
+      "userId": 14657521,
+      "firstName": "Olivia",
+      "isCaptain": true
+    }
+  ]
+}

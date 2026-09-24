@@ -1,0 +1,30 @@
+{
+  "userId": 50010834,
+  "firstName": "Stavroula",
+  "appearances": [
+    {
+      "programId": 4496318,
+      "teamId": 7196041,
+      "teamName": "7. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7463187,
+      "teamName": "2. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7353419,
+      "teamName": "10. Bump, Set… Dammit! (Nathan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379701,
+      "teamId": 7050296,
+      "teamName": "3. Bump, Set... Dammit! (Nathan G.)",
+      "isCaptain": false
+    }
+  ]
+}

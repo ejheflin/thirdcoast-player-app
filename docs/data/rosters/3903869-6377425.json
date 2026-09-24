@@ -1,0 +1,22 @@
+{
+  "programId": 3903869,
+  "teamId": 6377425,
+  "teamName": "10. Scrappy Doo (Matt O.)",
+  "players": [
+    {
+      "userId": 33471532,
+      "firstName": "Cody",
+      "isCaptain": false
+    },
+    {
+      "userId": 14704789,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14783344,
+      "firstName": "Matt",
+      "isCaptain": true
+    }
+  ]
+}

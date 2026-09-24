@@ -1,0 +1,27 @@
+{
+  "programId": 3719505,
+  "teamId": 6128973,
+  "teamName": "3. We Dig You (Lauren M.)",
+  "players": [
+    {
+      "userId": 15654655,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 14921479,
+      "firstName": "Brent",
+      "isCaptain": false
+    },
+    {
+      "userId": 39404268,
+      "firstName": "Stephen",
+      "isCaptain": true
+    },
+    {
+      "userId": 14731576,
+      "firstName": "Lauren",
+      "isCaptain": false
+    }
+  ]
+}

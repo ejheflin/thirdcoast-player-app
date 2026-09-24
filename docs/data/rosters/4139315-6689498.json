@@ -1,0 +1,27 @@
+{
+  "programId": 4139315,
+  "teamId": 6689498,
+  "teamName": "3. Kibbles N' Hits (Cody C.)",
+  "players": [
+    {
+      "userId": 33471532,
+      "firstName": "Cody",
+      "isCaptain": true
+    },
+    {
+      "userId": 14704789,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 47124115,
+      "firstName": "Adriel",
+      "isCaptain": false
+    },
+    {
+      "userId": 25611799,
+      "firstName": "Doug",
+      "isCaptain": false
+    }
+  ]
+}

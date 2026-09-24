@@ -1,0 +1,18 @@
+{
+  "userId": 45480785,
+  "firstName": "Alex",
+  "appearances": [
+    {
+      "programId": 4045339,
+      "teamId": 6568042,
+      "teamName": "9. Alex L. & Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484109,
+      "teamName": "8. Alex L. & Jon N.",
+      "isCaptain": false
+    }
+  ]
+}

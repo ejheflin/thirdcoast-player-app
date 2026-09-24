@@ -1,0 +1,27 @@
+{
+  "programId": 4872957,
+  "teamId": 7772312,
+  "teamName": "6. Carpe Dig Em (Eric H.)",
+  "players": [
+    {
+      "userId": 47047060,
+      "firstName": "Bethany",
+      "isCaptain": false
+    },
+    {
+      "userId": 46969143,
+      "firstName": "Eric",
+      "isCaptain": true
+    },
+    {
+      "userId": 46969102,
+      "firstName": "Miguel",
+      "isCaptain": false
+    },
+    {
+      "userId": 29652405,
+      "firstName": "Eduardo",
+      "isCaptain": false
+    }
+  ]
+}

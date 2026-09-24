@@ -1,0 +1,22 @@
+{
+  "programId": 4031655,
+  "teamId": 6549942,
+  "teamName": "7. Practice Safe Sets (John O.)",
+  "players": [
+    {
+      "userId": 39390141,
+      "firstName": "Alyssa",
+      "isCaptain": false
+    },
+    {
+      "userId": 22329109,
+      "firstName": "John",
+      "isCaptain": true
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    }
+  ]
+}

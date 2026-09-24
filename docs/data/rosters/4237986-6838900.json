@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6838900,
+  "teamName": "7. Nicole P. & Isa T.",
+  "players": [
+    {
+      "userId": 25501708,
+      "firstName": "nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 14646004,
+      "firstName": "isa",
+      "isCaptain": true
+    }
+  ]
+}

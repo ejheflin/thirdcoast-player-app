@@ -1,0 +1,17 @@
+{
+  "programId": 2609355,
+  "teamId": 4437090,
+  "teamName": "8 - Ev & The B's Szn 3 (Evan L.)",
+  "players": [
+    {
+      "userId": 25385380,
+      "firstName": "Evan",
+      "isCaptain": true
+    },
+    {
+      "userId": 25392457,
+      "firstName": "Rachel",
+      "isCaptain": false
+    }
+  ]
+}

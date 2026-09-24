@@ -1,0 +1,27 @@
+{
+  "programId": 4045363,
+  "teamId": 6562344,
+  "teamName": "2. Bumping Uglies (Clark P.)",
+  "players": [
+    {
+      "userId": 17338705,
+      "firstName": "Jessica",
+      "isCaptain": false
+    },
+    {
+      "userId": 45434480,
+      "firstName": "Ainsley",
+      "isCaptain": false
+    },
+    {
+      "userId": 17312980,
+      "firstName": "Clark",
+      "isCaptain": true
+    },
+    {
+      "userId": 19075195,
+      "firstName": "Bryce",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "programId": 4975324,
+  "teamId": 7906943,
+  "teamName": "5. Arsenal Gunners (Julianna T.)",
+  "players": [
+    {
+      "userId": 54415783,
+      "firstName": "Javier",
+      "isCaptain": false
+    },
+    {
+      "userId": 56429116,
+      "firstName": "Joe",
+      "isCaptain": false
+    },
+    {
+      "userId": 55938787,
+      "firstName": "Julianna",
+      "isCaptain": true
+    },
+    {
+      "userId": 17332996,
+      "firstName": "Leandro",
+      "isCaptain": false
+    },
+    {
+      "userId": 55642051,
+      "firstName": "Caleb",
+      "isCaptain": false
+    }
+  ]
+}

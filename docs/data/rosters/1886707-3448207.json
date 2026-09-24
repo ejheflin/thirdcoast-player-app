@@ -1,0 +1,27 @@
+{
+  "programId": 1886707,
+  "teamId": 3448207,
+  "teamName": "1 - A team (Brandon B.)",
+  "players": [
+    {
+      "userId": 16188796,
+      "firstName": "Brandon",
+      "isCaptain": true
+    },
+    {
+      "userId": 15220531,
+      "firstName": "Cathryn",
+      "isCaptain": false
+    },
+    {
+      "userId": 22392106,
+      "firstName": "Ryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 17313898,
+      "firstName": "Charles",
+      "isCaptain": false
+    }
+  ]
+}

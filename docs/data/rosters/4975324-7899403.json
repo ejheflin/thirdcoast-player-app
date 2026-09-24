@@ -1,0 +1,32 @@
+{
+  "programId": 4975324,
+  "teamId": 7899403,
+  "teamName": "2. Bongos (Bradley E.)",
+  "players": [
+    {
+      "userId": 57773660,
+      "firstName": "Bart",
+      "isCaptain": false
+    },
+    {
+      "userId": 15848623,
+      "firstName": "Bradley",
+      "isCaptain": true
+    },
+    {
+      "userId": 52392326,
+      "firstName": "Joseph",
+      "isCaptain": false
+    },
+    {
+      "userId": 52168777,
+      "firstName": "Eliza",
+      "isCaptain": false
+    },
+    {
+      "userId": 33333016,
+      "firstName": "Mark",
+      "isCaptain": false
+    }
+  ]
+}

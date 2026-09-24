@@ -1,0 +1,18 @@
+{
+  "userId": 37527783,
+  "firstName": "Colin",
+  "appearances": [
+    {
+      "programId": 3257331,
+      "teamId": 5451414,
+      "teamName": "3 - Kibbles 'n Hits (Doug T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5695602,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": false
+    }
+  ]
+}

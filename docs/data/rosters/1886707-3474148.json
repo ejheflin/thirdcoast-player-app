@@ -1,0 +1,27 @@
+{
+  "programId": 1886707,
+  "teamId": 3474148,
+  "teamName": "10 - To Be Determined (Rick G.)",
+  "players": [
+    {
+      "userId": 22397170,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
+      "userId": 17179564,
+      "firstName": "Rick",
+      "isCaptain": false
+    },
+    {
+      "userId": 22371148,
+      "firstName": "Allison",
+      "isCaptain": false
+    },
+    {
+      "userId": 22398865,
+      "firstName": "Eric",
+      "isCaptain": false
+    }
+  ]
+}

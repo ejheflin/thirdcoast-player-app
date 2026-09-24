@@ -13,6 +13,114 @@
       "teamId": 8139641,
       "teamName": "10. Viktoriya I. and John S.",
       "isCaptain": true
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6690474,
+      "teamName": "3. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7909233,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661449,
+      "teamId": 7455785,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7041911,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7589618,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7339981,
+      "teamName": "3. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6568251,
+      "teamName": "4. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484244,
+      "teamName": "6. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7759921,
+      "teamName": "2. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196624,
+      "teamName": "2. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6155859,
+      "teamName": "3. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6948342,
+      "teamName": "5. Tina O. and John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6394062,
+      "teamName": "6. Tina O. & John S.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6835152,
+      "teamName": "4. Tina O. & John S.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6912844,
+      "teamName": "1. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6717484,
+      "teamName": "2. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222041,
+      "teamId": 6820519,
+      "teamName": "7. Calm Yo Tips (Adolph T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6553478,
+      "teamName": "9. Blue Balls (Alex L.)",
+      "isCaptain": false
     }
   ]
 }

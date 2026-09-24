@@ -1,0 +1,17 @@
+{
+  "programId": 3903865,
+  "teamId": 6373526,
+  "teamName": "5. Taylor B. & Matt C.",
+  "players": [
+    {
+      "userId": 18976366,
+      "firstName": "Taylor",
+      "isCaptain": true
+    },
+    {
+      "userId": 14924182,
+      "firstName": "Matthew",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4237986,
+  "teamId": 6835152,
+  "teamName": "4. Tina O. & John S.",
+  "players": [
+    {
+      "userId": 14611279,
+      "firstName": "Tina",
+      "isCaptain": false
+    },
+    {
+      "userId": 42926049,
+      "firstName": "John",
+      "isCaptain": true
+    }
+  ]
+}

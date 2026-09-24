@@ -1,0 +1,383 @@
+{
+  "programId": 3957846,
+  "teams": {
+    "6444187": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6373526,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "5. Taylor B. & Matt C.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6126822,
+          "programName": "Monday Coed 2s B",
+          "teamName": "8. Taylor B. & Matt C.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 1,
+          "ties": 6
+        },
+        {
+          "programId": 3903865,
+          "teamId": 6373526,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "5. Taylor B. & Matt C.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": "up",
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6444187,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "1. Taylor B. & Matt C.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "6444657": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3957846,
+          "teamId": 6444657,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "2. Nicole B. & Mark J.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 6,
+          "ties": 6
+        }
+      ]
+    },
+    "6445617": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6370183,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "4. Liz C. & Josman R.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126756,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "3. Liz C. & Josman R.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        },
+        {
+          "programId": 3903865,
+          "teamId": 6370183,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "4. Liz C. & Josman R.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": "same",
+          "position": 1,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 0,
+          "ties": 9
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6445617,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "4. Liz C. & Josman R.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 1,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 0,
+          "ties": 10
+        }
+      ]
+    },
+    "6447185": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6370250,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "7. Kim M. & Travis B.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6126705,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "8. Travis B. & Kim M.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 5
+        },
+        {
+          "programId": 3903865,
+          "teamId": 6370250,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "7. Kim M. & Travis B.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": "same",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 10,
+          "ties": 4
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6447185,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "3. Kim M. & Travis B.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 8,
+          "teamCount": 8,
+          "wins": 1,
+          "losses": 6,
+          "ties": 9
+        }
+      ]
+    },
+    "6449317": {
+      "seasons": 2,
+      "move": "up",
+      "from": {
+        "programId": 3903855,
+        "teamId": 6370118,
+        "programName": "Monday Coed 2s B",
+        "teamName": "1. Emily R. & Jake S.",
+        "level": "B"
+      },
+      "history": [
+        {
+          "programId": 3903855,
+          "teamId": 6370118,
+          "programName": "Monday Coed 2s B",
+          "teamName": "1. Emily R. & Jake S.",
+          "endDate": 1687752000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 0,
+          "ties": 7
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6449317,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "5. Emily R. & Jake S.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "up",
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "6450714": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6373155,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "2. Lauren H. & Kumar R.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3715962,
+          "teamId": 6127719,
+          "programName": "Monday Coed 2s B",
+          "teamName": "5. Lauren H. & Kumar R.",
+          "endDate": 1681704000000,
+          "level": "B",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 11,
+          "losses": 0,
+          "ties": 5
+        },
+        {
+          "programId": 3903865,
+          "teamId": 6373155,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "2. Lauren H. & Kumar R.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": "up",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 3,
+          "ties": 9
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6450714,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "6. Lauren H. & Kumar R.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 2,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 3,
+          "ties": 6
+        }
+      ]
+    },
+    "6453739": {
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6373259,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "3. Jess L. & Edwin F.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3716070,
+          "teamId": 6165111,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "4. Jess L. & Edwin F.",
+          "endDate": 1681704000000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 1,
+          "ties": 4
+        },
+        {
+          "programId": 3903865,
+          "teamId": 6373259,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "3. Jess L. & Edwin F.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": "same",
+          "position": 2,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 1,
+          "ties": 9
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6453739,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "7. Jess L. & Edwin F.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 2,
+          "ties": 10
+        }
+      ]
+    },
+    "6455418": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 3903865,
+        "teamId": 6376497,
+        "programName": "Monday Coed 2s BB",
+        "teamName": "8. Diana F. & Jon N.",
+        "level": "BB"
+      },
+      "history": [
+        {
+          "programId": 3903865,
+          "teamId": 6376497,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "8. Diana F. & Jon N.",
+          "endDate": 1687752000000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 0,
+          "ties": 12
+        },
+        {
+          "programId": 3957846,
+          "teamId": 6455418,
+          "programName": "Monday Coed 2s BB",
+          "teamName": "8. Diana F. & Jon N.",
+          "endDate": 1694404800000,
+          "level": "BB",
+          "move": "same",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 5,
+          "ties": 7
+        }
+      ]
+    }
+  }
+}

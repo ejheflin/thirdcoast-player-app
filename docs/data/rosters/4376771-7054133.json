@@ -1,0 +1,17 @@
+{
+  "programId": 4376771,
+  "teamId": 7054133,
+  "teamName": "12. Imran G. and Danylo V.",
+  "players": [
+    {
+      "userId": 49655385,
+      "firstName": "Imran",
+      "isCaptain": false
+    },
+    {
+      "userId": 50040179,
+      "firstName": "Danylo",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 2446767,
+  "teamId": 4204467,
+  "teamName": "10 - Thrown Together (Omar S.)",
+  "players": [
+    {
+      "userId": 17272057,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 16172593,
+      "firstName": "Luis",
+      "isCaptain": false
+    },
+    {
+      "userId": 25251793,
+      "firstName": "Omar",
+      "isCaptain": true
+    },
+    {
+      "userId": 28052346,
+      "firstName": "Cecilia",
+      "isCaptain": false
+    }
+  ]
+}

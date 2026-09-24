@@ -1,0 +1,32 @@
+{
+  "programId": 4743913,
+  "teamId": 7569992,
+  "teamName": "5. Sets Pistols (Christina Z.)",
+  "players": [
+    {
+      "userId": 47095625,
+      "firstName": "Camden",
+      "isCaptain": false
+    },
+    {
+      "userId": 54260372,
+      "firstName": "Nick",
+      "isCaptain": false
+    },
+    {
+      "userId": 54265534,
+      "firstName": "Robert",
+      "isCaptain": false
+    },
+    {
+      "userId": 54264965,
+      "firstName": "Davin",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887623,
+      "firstName": "Christina",
+      "isCaptain": true
+    }
+  ]
+}

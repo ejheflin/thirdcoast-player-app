@@ -1,0 +1,27 @@
+{
+  "programId": 1886707,
+  "teamId": 3454852,
+  "teamName": "5 - Just Here to Exercise (Craig W.)",
+  "players": [
+    {
+      "userId": 22308820,
+      "firstName": "Matt",
+      "isCaptain": false
+    },
+    {
+      "userId": 19541173,
+      "firstName": "Kaylee",
+      "isCaptain": false
+    },
+    {
+      "userId": 21017800,
+      "firstName": "Nate",
+      "isCaptain": false
+    },
+    {
+      "userId": 21263329,
+      "firstName": "Craig",
+      "isCaptain": true
+    }
+  ]
+}

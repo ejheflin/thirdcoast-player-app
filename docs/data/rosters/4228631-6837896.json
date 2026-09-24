@@ -1,0 +1,17 @@
+{
+  "programId": 4228631,
+  "teamId": 6837896,
+  "teamName": "11. Zach P. & Matt B.",
+  "players": [
+    {
+      "userId": 23969914,
+      "firstName": "Matt",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": true
+    }
+  ]
+}

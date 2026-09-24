@@ -1,0 +1,17 @@
+{
+  "programId": 4369534,
+  "teamId": 7029080,
+  "teamName": "5. Megan C. and Gordon P.",
+  "players": [
+    {
+      "userId": 47137459,
+      "firstName": "Megan",
+      "isCaptain": false
+    },
+    {
+      "userId": 49818955,
+      "firstName": "Gordon",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "userId": 18449212,
+  "firstName": "Gabriel",
+  "appearances": [
+    {
+      "programId": 2278405,
+      "teamId": 3944392,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2083774,
+      "teamId": 3691234,
+      "teamName": "6 - Rancho Carne Toros (Lyndon Z.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -13,6 +13,90 @@
       "teamId": 8106388,
       "teamName": "1. Eric W. and Dan M.",
       "isCaptain": false
+    },
+    {
+      "programId": 4872988,
+      "teamId": 7757939,
+      "teamName": "2. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4725312,
+      "teamId": 7542156,
+      "teamName": "11. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6689882,
+      "teamName": "2. Eric W. & Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976964,
+      "teamId": 7902212,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6551943,
+      "teamName": "9. Eric W. & Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6824412,
+      "teamName": "1. Eric W. & Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4306242,
+      "teamId": 6945036,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3968137,
+      "teamId": 6465304,
+      "teamName": "5. Eric W. & Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488344,
+      "teamId": 7196869,
+      "teamName": "7. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719661,
+      "teamId": 6132576,
+      "teamName": "2. Eric W. & Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590366,
+      "teamId": 7333667,
+      "teamName": "1. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4376771,
+      "teamId": 7040609,
+      "teamName": "3. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4653860,
+      "teamId": 7431440,
+      "teamName": "2. Eric W. and Dan M.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909727,
+      "teamId": 6391161,
+      "teamName": "1. Eric W. & Dan M.",
+      "isCaptain": false
     }
   ]
 }

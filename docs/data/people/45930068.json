@@ -1,0 +1,18 @@
+{
+  "userId": 45930068,
+  "firstName": "Zack",
+  "appearances": [
+    {
+      "programId": 4288371,
+      "teamId": 6911644,
+      "teamName": "2. Holy Blockamole (Devin S.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4033201,
+      "teamId": 6558276,
+      "teamName": "12. Jeff S. & Zack B.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "teamId": 8142399,
       "teamName": "1. Beach Please (Annie L.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4872925,
+      "teamId": 7792977,
+      "teamName": "8. Tri-Angels (Johnny P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4967494,
+      "teamId": 7909257,
+      "teamName": "6. Tri-Angels (Johnny P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7448723,
+      "teamName": "1. Soju My Soul (Johnny P.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7360113,
+      "teamName": "11. Soju My Soul (Johnny P.)",
+      "isCaptain": false
     }
   ]
 }

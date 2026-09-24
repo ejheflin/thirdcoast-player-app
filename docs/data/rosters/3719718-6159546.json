@@ -1,0 +1,17 @@
+{
+  "programId": 3719718,
+  "teamId": 6159546,
+  "teamName": "12. Julia D. & Caleb B.",
+  "players": [
+    {
+      "userId": 38355629,
+      "firstName": "Caleb",
+      "isCaptain": false
+    },
+    {
+      "userId": 29506803,
+      "firstName": "Julia",
+      "isCaptain": true
+    }
+  ]
+}

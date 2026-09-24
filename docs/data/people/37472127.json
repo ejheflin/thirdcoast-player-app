@@ -1,0 +1,42 @@
+{
+  "userId": 37472127,
+  "firstName": "Macey",
+  "appearances": [
+    {
+      "programId": 3903855,
+      "teamId": 6370177,
+      "teamName": "5. Macey C. & Branden B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6444438,
+      "teamName": "1. Macey C. & Branden B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4138991,
+      "teamId": 6689370,
+      "teamName": "1. Macey C. & Branden B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220824,
+      "teamId": 6811702,
+      "teamName": "8. Macey C. & Branden B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6545058,
+      "teamName": "9. Macey C. & Branden B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6126702,
+      "teamName": "7. Macey C. & Branden B.",
+      "isCaptain": true
+    }
+  ]
+}

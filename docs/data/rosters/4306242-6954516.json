@@ -1,0 +1,17 @@
+{
+  "programId": 4306242,
+  "teamId": 6954516,
+  "teamName": "2. Dreco S. and Harrison S.",
+  "players": [
+    {
+      "userId": 25371946,
+      "firstName": "Dreco",
+      "isCaptain": true
+    },
+    {
+      "userId": 49383197,
+      "firstName": "Harrison",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4770452,
+  "teamId": 7603040,
+  "teamName": "1. Lucie A. and Christopher M.",
+  "players": [
+    {
+      "userId": 48345309,
+      "firstName": "Lucie",
+      "isCaptain": false
+    },
+    {
+      "userId": 48592102,
+      "firstName": "Christopher",
+      "isCaptain": true
+    }
+  ]
+}

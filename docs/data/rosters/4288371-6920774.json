@@ -1,0 +1,27 @@
+{
+  "programId": 4288371,
+  "teamId": 6920774,
+  "teamName": "7. Fam Bam (Abby N.)",
+  "players": [
+    {
+      "userId": 47111761,
+      "firstName": "Keegan",
+      "isCaptain": false
+    },
+    {
+      "userId": 17174326,
+      "firstName": "Abby",
+      "isCaptain": true
+    },
+    {
+      "userId": 46998677,
+      "firstName": "Cody",
+      "isCaptain": false
+    },
+    {
+      "userId": 49092602,
+      "firstName": "Raymond",
+      "isCaptain": false
+    }
+  ]
+}

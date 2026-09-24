@@ -1,0 +1,27 @@
+{
+  "programId": 4045363,
+  "teamId": 6562221,
+  "teamName": "6. Trust Me, It Was In (Curtis J.)",
+  "players": [
+    {
+      "userId": 44249011,
+      "firstName": "Josh",
+      "isCaptain": false
+    },
+    {
+      "userId": 16391512,
+      "firstName": "Curtis",
+      "isCaptain": true
+    },
+    {
+      "userId": 46001619,
+      "firstName": "Taylor",
+      "isCaptain": false
+    },
+    {
+      "userId": 20029030,
+      "firstName": "Haley",
+      "isCaptain": false
+    }
+  ]
+}

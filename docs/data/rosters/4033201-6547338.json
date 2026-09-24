@@ -1,0 +1,17 @@
+{
+  "programId": 4033201,
+  "teamId": 6547338,
+  "teamName": "4. Blake C. & Leo Y.",
+  "players": [
+    {
+      "userId": 14758468,
+      "firstName": "Blake",
+      "isCaptain": true
+    },
+    {
+      "userId": 14709559,
+      "firstName": "Leo",
+      "isCaptain": false
+    }
+  ]
+}

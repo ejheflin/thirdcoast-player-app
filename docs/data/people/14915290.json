@@ -31,6 +31,210 @@
       "teamId": 8159639,
       "teamName": "5. Vacacioners (Phil M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6817729,
+      "teamName": "9. Shelby G. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360609,
+      "teamId": 7029366,
+      "teamName": "3. Shelby G. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288350,
+      "teamId": 6915077,
+      "teamName": "8. Shelby G. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7210856,
+      "teamName": "7. Ashleigh P. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4967493,
+      "teamId": 7909287,
+      "teamName": "4. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7336171,
+      "teamName": "3. Abi J. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4872881,
+      "teamId": 7762020,
+      "teamName": "5. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6549728,
+      "teamName": "7. Diana F. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661443,
+      "teamId": 7445236,
+      "teamName": "3. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756151,
+      "teamId": 7592942,
+      "teamName": "3. Kaegan W. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3716070,
+      "teamId": 6162747,
+      "teamName": "2. Julia W. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3957846,
+      "teamId": 6455418,
+      "teamName": "8. Diana F. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3903865,
+      "teamId": 6376497,
+      "teamName": "8. Diana F. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139350,
+      "teamId": 6689451,
+      "teamName": "4. Shelby L. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7050297,
+      "teamName": "11. Shelby L. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6568042,
+      "teamName": "9. Alex L. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6484109,
+      "teamName": "8. Alex L. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719715,
+      "teamId": 6154887,
+      "teamName": "8. Morgan M. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6953521,
+      "teamName": "9. Shelby L. and Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 3909677,
+      "teamId": 6394045,
+      "teamName": "11. Cat D. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4237986,
+      "teamId": 6839027,
+      "teamName": "8. Shelby L. & Jon N.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7914380,
+      "teamName": "1. Elaine L. and Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975318,
+      "teamId": 7932339,
+      "teamName": "5. Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590317,
+      "teamId": 7350007,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7224345,
+      "teamName": "9. Vacation (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656367,
+      "teamId": 7445182,
+      "teamName": "10. The Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4362250,
+      "teamId": 7027821,
+      "teamName": "8. The Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288373,
+      "teamId": 6913095,
+      "teamName": "5. The Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4222036,
+      "teamId": 6823003,
+      "teamName": "9. The Vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4743909,
+      "teamId": 7585209,
+      "teamName": "9. Substitute (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872967,
+      "teamId": 7799335,
+      "teamName": "8. Vacacioners (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6453502,
+      "teamName": "8. The vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6719991,
+      "teamName": "6. The vacationers (Phil M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6549240,
+      "teamName": "8. The Vacationers (Philip M.)",
+      "isCaptain": false
     }
   ]
 }

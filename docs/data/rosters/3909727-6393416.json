@@ -1,0 +1,17 @@
+{
+  "programId": 3909727,
+  "teamId": 6393416,
+  "teamName": "9. Luis L. & Riley F.",
+  "players": [
+    {
+      "userId": 22184167,
+      "firstName": "Riley",
+      "isCaptain": false
+    },
+    {
+      "userId": 16172593,
+      "firstName": "Luis",
+      "isCaptain": true
+    }
+  ]
+}

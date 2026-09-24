@@ -7,6 +7,30 @@
       "teamId": 8023891,
       "teamName": "12. Bag of digs (Christopher M.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4770452,
+      "teamId": 7603040,
+      "teamName": "1. Lucie A. and Christopher M.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497641,
+      "teamId": 7228119,
+      "teamName": "7. Bag of digs (Christopher M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4656550,
+      "teamId": 7465779,
+      "teamName": "9. Bag of digs (Christopher M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4743913,
+      "teamId": 7576790,
+      "teamName": "7. Eli and the goon squad (Christopher M.)",
+      "isCaptain": true
     }
   ]
 }

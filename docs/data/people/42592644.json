@@ -7,6 +7,150 @@
       "teamId": 8002322,
       "teamName": "5. Holli D. and Tyler J.",
       "isCaptain": false
+    },
+    {
+      "programId": 3957842,
+      "teamId": 6450028,
+      "teamName": "7. Ivy C. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220823,
+      "teamId": 6815219,
+      "teamName": "8. Cyan L. & Tyler J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288348,
+      "teamId": 6910495,
+      "teamName": "7. Cyan L. and Tyler J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360608,
+      "teamId": 7027877,
+      "teamName": "3. Cyan L. and Tyler J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6548646,
+      "teamName": "12. Alexis T. & Tyler J.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6689165,
+      "teamName": "5. Sets on the Beach (Kerry C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3903869,
+      "teamId": 6371371,
+      "teamName": "4. Sandpeople (Tyler J.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165189,
+      "teamName": "9. Sandpeople (Dan L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319084,
+      "teamId": 6947279,
+      "teamName": "3. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4497646,
+      "teamId": 7196689,
+      "teamName": "3. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981244,
+      "teamId": 6477654,
+      "teamName": "1. Elaine L. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752512,
+      "teamId": 7589685,
+      "teamName": "1. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045355,
+      "teamId": 6562373,
+      "teamName": "2. Elaine L. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7341985,
+      "teamName": "10. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4976995,
+      "teamId": 7906117,
+      "teamName": "2. Holli D. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139359,
+      "teamId": 6691423,
+      "teamName": "3. Elaine L. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7457290,
+      "teamName": "2. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4237988,
+      "teamId": 6844688,
+      "teamName": "1. Elaine L. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4379700,
+      "teamId": 7049009,
+      "teamName": "2. Elaine L. and Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031655,
+      "teamId": 6549625,
+      "teamName": "5. Kiss my Ace (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957856,
+      "teamId": 6450755,
+      "teamName": "6. Here for the exercise (Jessica C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904327,
+      "teamId": 6380156,
+      "teamName": "8. The Set Masters (Ivan M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6910497,
+      "teamName": "1. Victorious Secrets (Tyler J.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6153867,
+      "teamName": "7. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
     }
   ]
 }

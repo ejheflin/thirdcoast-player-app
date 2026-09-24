@@ -1,0 +1,18 @@
+{
+  "userId": 20950363,
+  "firstName": "Kally",
+  "appearances": [
+    {
+      "programId": 1886707,
+      "teamId": 3465310,
+      "teamName": "9 - One Hit Wonders (Evan G.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 1734328,
+      "teamId": 3256264,
+      "teamName": "2 - Sonova Beach (Evan G.)",
+      "isCaptain": false
+    }
+  ]
+}

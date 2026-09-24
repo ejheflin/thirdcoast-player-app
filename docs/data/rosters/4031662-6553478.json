@@ -1,0 +1,27 @@
+{
+  "programId": 4031662,
+  "teamId": 6553478,
+  "teamName": "9. Blue Balls (Alex L.)",
+  "players": [
+    {
+      "userId": 32670543,
+      "firstName": "Alexis",
+      "isCaptain": false
+    },
+    {
+      "userId": 14681317,
+      "firstName": "Alex",
+      "isCaptain": true
+    },
+    {
+      "userId": 42926049,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663086,
+      "firstName": "Adolph",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "programId": 2278405,
+  "teamId": 3949078,
+  "teamName": "2 - Booze Cruise (Jack S.)",
+  "players": [
+    {
+      "userId": 25397986,
+      "firstName": "Mark",
+      "isCaptain": false
+    },
+    {
+      "userId": 22289107,
+      "firstName": "Mary",
+      "isCaptain": false
+    },
+    {
+      "userId": 23452489,
+      "firstName": "Jack",
+      "isCaptain": true
+    },
+    {
+      "userId": 23470234,
+      "firstName": "Ellie",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "userId": 42535980,
+  "firstName": "Osalodion",
+  "appearances": [
+    {
+      "programId": 4360610,
+      "teamId": 7025455,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719445,
+      "teamId": 6165186,
+      "teamName": "8. Big Dig Energy (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6658719,
+      "teamName": "3. Setting Ducks (Glenn S.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "userId": 25611799,
+  "firstName": "Doug",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6447059,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6375876,
+      "teamName": "3. Kibbles n Hits (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4756548,
+      "teamName": "3 - Newer Tricks (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4222044,
+      "teamId": 6821233,
+      "teamName": "3. Kibbles n Hits (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6129255,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5225233,
+      "teamName": "8 - Ruff Sets (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6689498,
+      "teamName": "3. Kibbles N' Hits (Cody C.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5451414,
+      "teamName": "3 - Kibbles 'n Hits (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 3430566,
+      "teamId": 5695602,
+      "teamName": "2. Kibbles n Hits (Doug T.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4031662,
+      "teamId": 6548152,
+      "teamName": "5. Kibbles n Hits (Doug T.)",
+      "isCaptain": true
+    }
+  ]
+}

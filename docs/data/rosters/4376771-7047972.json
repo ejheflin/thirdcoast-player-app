@@ -1,0 +1,17 @@
+{
+  "programId": 4376771,
+  "teamId": 7047972,
+  "teamName": "11. Ryan S. and Beau B.",
+  "players": [
+    {
+      "userId": 46019625,
+      "firstName": "Beau",
+      "isCaptain": false
+    },
+    {
+      "userId": 27881085,
+      "firstName": "Ryan",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4872983,
+  "teamId": 7761985,
+  "teamName": "7. Nicole B. and Molly J.",
+  "players": [
+    {
+      "userId": 16183681,
+      "firstName": "Nicole",
+      "isCaptain": false
+    },
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    }
+  ]
+}

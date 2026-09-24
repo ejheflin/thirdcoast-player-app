@@ -1,0 +1,335 @@
+{
+  "programId": 1886707,
+  "teams": {
+    "3428917": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1462969,
+        "teamId": 2895298,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "1 - Not Good at Volleyball Puns (Daniel A.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1462969,
+          "teamId": 2895298,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "1 - Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1594094400000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 6,
+          "wins": 0,
+          "losses": 1,
+          "ties": 3
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3428917,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "4 - Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 9,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "3437308": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1734328,
+        "teamId": 3275572,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "7 - All Sets are Off (Naomi L.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3275572,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7 - All Sets are Off (Naomi L.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 5,
+          "ties": 3
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3437308,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "3 - Bump SET Attack! (Naomi L.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 3,
+          "ties": 5
+        }
+      ]
+    },
+    "3439867": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1734328,
+        "teamId": 3287932,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "8 - Volley Fire (Benet G.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3287932,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8 - Volley Fire (Benet G.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 4,
+          "losses": 7,
+          "ties": 2
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3439867,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Beer, Bongs, & Balls (Benet G.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 4,
+          "ties": 3
+        }
+      ]
+    },
+    "3448207": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1886707,
+          "teamId": 3448207,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "1 - A team (Brandon B.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 1,
+          "ties": 3
+        }
+      ]
+    },
+    "3454852": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1886707,
+          "teamId": 3454852,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Just Here to Exercise (Craig W.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 1,
+          "losses": 8,
+          "ties": 4
+        }
+      ]
+    },
+    "3459337": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1886707,
+          "teamId": 3459337,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "6 - Getting It In (Jose B.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 4,
+          "ties": 5
+        }
+      ]
+    },
+    "3460474": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1734328,
+        "teamId": 3263737,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "5 - Hits Don't Lie (Dawn M.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3263737,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "5 - Hits Don't Lie (Dawn M.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 9,
+          "losses": 1,
+          "ties": 4
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3460474,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "7 - Hits Don't Lie (Dawn M.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 4,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "3461371": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1734328,
+        "teamId": 3261073,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "3 - Now Serving (Emma P.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3261073,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "3 - Now Serving (Emma P.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 7,
+          "ties": 2
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3461371,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "8 - Soft Serves (Emma P.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 2,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 1,
+          "ties": 6
+        }
+      ]
+    },
+    "3465310": {
+      "seasons": 2,
+      "move": "same",
+      "from": {
+        "programId": 1734328,
+        "teamId": 3256264,
+        "programName": "Tuesday Coed 4s Upper Recreational",
+        "teamName": "2 - Sonova Beach (Evan G.)",
+        "level": "Upper Rec"
+      },
+      "history": [
+        {
+          "programId": 1734328,
+          "teamId": 3256264,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "2 - Sonova Beach (Evan G.)",
+          "endDate": 1601352000000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 2,
+          "losses": 10,
+          "ties": 2
+        },
+        {
+          "programId": 1886707,
+          "teamId": 3465310,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "9 - One Hit Wonders (Evan G.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": "same",
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 2,
+          "ties": 5
+        }
+      ]
+    },
+    "3474148": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 1886707,
+          "teamId": 3474148,
+          "programName": "Tuesday Coed 4s Upper Recreational",
+          "teamName": "10 - To Be Determined (Rick G.)",
+          "endDate": 1607403600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 9,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

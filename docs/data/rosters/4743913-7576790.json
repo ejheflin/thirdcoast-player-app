@@ -1,0 +1,27 @@
+{
+  "programId": 4743913,
+  "teamId": 7576790,
+  "teamName": "7. Eli and the goon squad (Christopher M.)",
+  "players": [
+    {
+      "userId": 45887885,
+      "firstName": "Homero",
+      "isCaptain": false
+    },
+    {
+      "userId": 48592102,
+      "firstName": "Christopher",
+      "isCaptain": true
+    },
+    {
+      "userId": 53471525,
+      "firstName": "Eli",
+      "isCaptain": false
+    },
+    {
+      "userId": 53471968,
+      "firstName": "Andrew",
+      "isCaptain": false
+    }
+  ]
+}

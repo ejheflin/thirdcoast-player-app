@@ -1,0 +1,30 @@
+{
+  "userId": 46972527,
+  "firstName": "Stephany",
+  "appearances": [
+    {
+      "programId": 4222036,
+      "teamId": 6819520,
+      "teamName": "10. Rolling Thunder (Alex M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288378,
+      "teamId": 6912574,
+      "teamName": "3. Hammer Time (Alex M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4590322,
+      "teamId": 7341128,
+      "teamName": "9. SMoores (Alex M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139315,
+      "teamId": 6704985,
+      "teamName": "9. No Sets on the Beach (Alex M.)",
+      "isCaptain": false
+    }
+  ]
+}

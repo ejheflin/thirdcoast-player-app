@@ -1,0 +1,18 @@
+{
+  "userId": 44350203,
+  "firstName": "Olivia",
+  "appearances": [
+    {
+      "programId": 3957861,
+      "teamId": 6456025,
+      "teamName": "7. Notorious D.I.G. (Connor D.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904443,
+      "teamId": 6383720,
+      "teamName": "4. Sets on the Beach (Connor D.)",
+      "isCaptain": false
+    }
+  ]
+}

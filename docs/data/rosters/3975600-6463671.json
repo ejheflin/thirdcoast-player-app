@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6463671,
+  "teamName": "9. Melissa L. & Noman Z.",
+  "players": [
+    {
+      "userId": 14574853,
+      "firstName": "Melissa",
+      "isCaptain": false
+    },
+    {
+      "userId": 42508029,
+      "firstName": "noman",
+      "isCaptain": true
+    }
+  ]
+}

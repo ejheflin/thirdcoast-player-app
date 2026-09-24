@@ -1,0 +1,17 @@
+{
+  "programId": 3968137,
+  "teamId": 6469501,
+  "teamName": "12. Gary C. & Jeff S.",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "isCaptain": true
+    },
+    {
+      "userId": 39155898,
+      "firstName": "Jeffrey",
+      "isCaptain": false
+    }
+  ]
+}

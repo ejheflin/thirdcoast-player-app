@@ -19,6 +19,114 @@
       "teamId": 8142462,
       "teamName": "7. Sarah U. and Kumar R.",
       "isCaptain": true
+    },
+    {
+      "programId": 4872859,
+      "teamId": 7761984,
+      "teamName": "6. Sarah U. and Brent B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4756147,
+      "teamId": 7607093,
+      "teamName": "4. Sarah U. and Brent B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4369534,
+      "teamId": 7027756,
+      "teamName": "4. Sarah U. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4496299,
+      "teamId": 7196634,
+      "teamName": "6. Sarah U. and Rudy D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4967493,
+      "teamId": 7899708,
+      "teamName": "8. Sarah U. and Brent B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4589132,
+      "teamId": 7337993,
+      "teamName": "1. Sarah U. and Rudy. D.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031653,
+      "teamId": 6554611,
+      "teamName": "9. Block Party (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6690270,
+      "teamName": "2. Block Party (Jeremy M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6817840,
+      "teamName": "7. Diggin’ Divas (Sarah U.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6917537,
+      "teamName": "8. Diggin’ Divas (Sarah U.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4976992,
+      "teamId": 7911545,
+      "teamName": "8. Sarah U. and Kumar R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4379697,
+      "teamId": 7045893,
+      "teamName": "9. Sarah U. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752508,
+      "teamId": 7599164,
+      "teamName": "10. Sarah U. and Kumar R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4592483,
+      "teamId": 7336310,
+      "teamName": "2. Sarah U. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872999,
+      "teamId": 7758411,
+      "teamName": "4. Sarah U. and Kumar R.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497642,
+      "teamId": 7196683,
+      "teamName": "5. Sarah U. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319078,
+      "teamId": 6952921,
+      "teamName": "4. Sarah U. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4319089,
+      "teamId": 6949442,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
     }
   ]
 }

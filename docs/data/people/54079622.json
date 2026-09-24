@@ -1,0 +1,18 @@
+{
+  "userId": 54079622,
+  "firstName": "Rebecca",
+  "appearances": [
+    {
+      "programId": 4743908,
+      "teamId": 7573668,
+      "teamName": "2. Toodles (Michael L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4656536,
+      "teamId": 7436596,
+      "teamName": "4. Toodles (Michael L.)",
+      "isCaptain": false
+    }
+  ]
+}

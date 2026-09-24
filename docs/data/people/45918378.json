@@ -1,0 +1,42 @@
+{
+  "userId": 45918378,
+  "firstName": "Eric",
+  "appearances": [
+    {
+      "programId": 4031653,
+      "teamId": 6556401,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4139007,
+      "teamId": 6689277,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4497641,
+      "teamId": 7201467,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4220826,
+      "teamId": 6816526,
+      "teamName": "6. Ace Windu (Eric M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4288354,
+      "teamId": 6912288,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "isCaptain": true
+    },
+    {
+      "programId": 4360610,
+      "teamId": 7016441,
+      "teamName": "1. Ace Windu (Eric M.)",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4976964,
+  "teamId": 7925296,
+  "teamName": "11. Nathan G. and Zach B.",
+  "players": [
+    {
+      "userId": 39297390,
+      "firstName": "Nathan",
+      "isCaptain": true
+    },
+    {
+      "userId": 48952483,
+      "firstName": "Luke",
+      "isCaptain": false
+    }
+  ]
+}

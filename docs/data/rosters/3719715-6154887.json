@@ -1,0 +1,17 @@
+{
+  "programId": 3719715,
+  "teamId": 6154887,
+  "teamName": "8. Morgan M. & Jon N.",
+  "players": [
+    {
+      "userId": 42479466,
+      "firstName": "Morgan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

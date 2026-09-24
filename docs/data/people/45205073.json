@@ -1,0 +1,42 @@
+{
+  "userId": 45205073,
+  "firstName": "Grace",
+  "appearances": [
+    {
+      "programId": 4222036,
+      "teamId": 6813378,
+      "teamName": "6. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139257,
+      "teamId": 6721468,
+      "teamName": "5. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6545105,
+      "teamName": "9. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288375,
+      "teamId": 6912180,
+      "teamName": "4. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957861,
+      "teamId": 6459047,
+      "teamName": "10. Team Jacob (Mark J.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4105682,
+      "teamId": 6657815,
+      "teamName": "5. Team (Mark J.)",
+      "isCaptain": false
+    }
+  ]
+}

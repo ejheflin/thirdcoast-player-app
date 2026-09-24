@@ -1,0 +1,17 @@
+{
+  "programId": 4872983,
+  "teamId": 7761994,
+  "teamName": "2. Erika P. and Danielle F.",
+  "players": [
+    {
+      "userId": 45964525,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 14668342,
+      "firstName": "Erika",
+      "isCaptain": true
+    }
+  ]
+}

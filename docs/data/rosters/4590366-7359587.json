@@ -1,0 +1,17 @@
+{
+  "programId": 4590366,
+  "teamId": 7359587,
+  "teamName": "7. Ross N. and Bryan M.",
+  "players": [
+    {
+      "userId": 23674771,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 27841302,
+      "firstName": "Ross",
+      "isCaptain": true
+    }
+  ]
+}

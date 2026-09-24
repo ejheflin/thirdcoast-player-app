@@ -1,0 +1,32 @@
+{
+  "programId": 2083774,
+  "teamId": 3710554,
+  "teamName": "8 - SKG Arsenal (David T.)",
+  "players": [
+    {
+      "userId": 22333882,
+      "firstName": "Rachel",
+      "isCaptain": false
+    },
+    {
+      "userId": 20960389,
+      "firstName": "Randy",
+      "isCaptain": false
+    },
+    {
+      "userId": 22329109,
+      "firstName": "John",
+      "isCaptain": false
+    },
+    {
+      "userId": 24156160,
+      "firstName": "Eddie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14576317,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

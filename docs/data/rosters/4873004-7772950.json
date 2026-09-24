@@ -1,0 +1,17 @@
+{
+  "programId": 4873004,
+  "teamId": 7772950,
+  "teamName": "5. Molly J. and Clayton B.",
+  "players": [
+    {
+      "userId": 46898895,
+      "firstName": "Clayton",
+      "isCaptain": false
+    },
+    {
+      "userId": 35155099,
+      "firstName": "Molly",
+      "isCaptain": true
+    }
+  ]
+}

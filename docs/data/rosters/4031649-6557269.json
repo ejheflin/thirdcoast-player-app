@@ -1,0 +1,17 @@
+{
+  "programId": 4031649,
+  "teamId": 6557269,
+  "teamName": "2. Brie S. & Ben T.",
+  "players": [
+    {
+      "userId": 14960650,
+      "firstName": "Brie",
+      "isCaptain": false
+    },
+    {
+      "userId": 14625931,
+      "firstName": "Benjamin",
+      "isCaptain": true
+    }
+  ]
+}

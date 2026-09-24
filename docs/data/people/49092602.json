@@ -1,0 +1,18 @@
+{
+  "userId": 49092602,
+  "firstName": "Raymond",
+  "appearances": [
+    {
+      "programId": 4488296,
+      "teamId": 7233574,
+      "teamName": "4. Fam-bam (Jerri N.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4288371,
+      "teamId": 6920774,
+      "teamName": "7. Fam Bam (Abby N.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 3975600,
+  "teamId": 6463022,
+  "teamName": "1. Alexis B. & Alex L.",
+  "players": [
+    {
+      "userId": 32670543,
+      "firstName": "Alexis",
+      "isCaptain": true
+    },
+    {
+      "userId": 14681317,
+      "firstName": "Alex",
+      "isCaptain": false
+    }
+  ]
+}

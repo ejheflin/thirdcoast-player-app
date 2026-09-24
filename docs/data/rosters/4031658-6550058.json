@@ -1,0 +1,32 @@
+{
+  "programId": 4031658,
+  "teamId": 6550058,
+  "teamName": "8. That's What She Set (Albert F.)",
+  "players": [
+    {
+      "userId": 45461911,
+      "firstName": "Nicklas",
+      "isCaptain": false
+    },
+    {
+      "userId": 14582476,
+      "firstName": "Albert",
+      "isCaptain": true
+    },
+    {
+      "userId": 14713285,
+      "firstName": "Bryan",
+      "isCaptain": false
+    },
+    {
+      "userId": 17331427,
+      "firstName": "Jaclyn",
+      "isCaptain": false
+    },
+    {
+      "userId": 45873301,
+      "firstName": "SARAH",
+      "isCaptain": false
+    }
+  ]
+}

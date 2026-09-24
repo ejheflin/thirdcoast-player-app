@@ -1,0 +1,17 @@
+{
+  "programId": 4590324,
+  "teamId": 7356166,
+  "teamName": "11. Ivy C. and Mikah M.",
+  "players": [
+    {
+      "userId": 32972420,
+      "firstName": "Ivy",
+      "isCaptain": true
+    },
+    {
+      "userId": 45106113,
+      "firstName": "Mikah",
+      "isCaptain": false
+    }
+  ]
+}

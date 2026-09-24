@@ -1,0 +1,30 @@
+{
+  "userId": 27850194,
+  "firstName": "Alan",
+  "appearances": [
+    {
+      "programId": 2609355,
+      "teamId": 4434978,
+      "teamName": "5 - Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2821746,
+      "teamId": 4785060,
+      "teamName": "7 - Ginger and the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3114541,
+      "teamId": 5228893,
+      "teamName": "5 - Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3257331,
+      "teamId": 5461917,
+      "teamName": "10 - Ginger & the Giants (Allan K.)",
+      "isCaptain": false
+    }
+  ]
+}

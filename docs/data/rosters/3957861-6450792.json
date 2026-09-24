@@ -1,0 +1,37 @@
+{
+  "programId": 3957861,
+  "teamId": 6450792,
+  "teamName": "5. Sandy Cheeks (Dani D.)",
+  "players": [
+    {
+      "userId": 44349644,
+      "firstName": "Yash",
+      "isCaptain": false
+    },
+    {
+      "userId": 44196629,
+      "firstName": "Dani",
+      "isCaptain": true
+    },
+    {
+      "userId": 20029030,
+      "firstName": "Haley",
+      "isCaptain": false
+    },
+    {
+      "userId": 45124486,
+      "firstName": "Taylor",
+      "isCaptain": false
+    },
+    {
+      "userId": 22243606,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
+      "userId": 44259488,
+      "firstName": "Catherine",
+      "isCaptain": false
+    }
+  ]
+}

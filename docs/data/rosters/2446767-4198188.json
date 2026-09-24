@@ -1,0 +1,27 @@
+{
+  "programId": 2446767,
+  "teamId": 4198188,
+  "teamName": "6 - Sets on the Beach (Annie L.)",
+  "players": [
+    {
+      "userId": 27966399,
+      "firstName": "Audrey",
+      "isCaptain": false
+    },
+    {
+      "userId": 27941982,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 27966189,
+      "firstName": "Parker",
+      "isCaptain": false
+    },
+    {
+      "userId": 27966321,
+      "firstName": "Caleb",
+      "isCaptain": false
+    }
+  ]
+}

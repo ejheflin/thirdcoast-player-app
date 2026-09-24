@@ -1,0 +1,22 @@
+{
+  "programId": 4220826,
+  "teamId": 6816526,
+  "teamName": "6. Ace Windu (Eric M.)",
+  "players": [
+    {
+      "userId": 47864154,
+      "firstName": "Cameron",
+      "isCaptain": false
+    },
+    {
+      "userId": 45918378,
+      "firstName": "Eric",
+      "isCaptain": true
+    },
+    {
+      "userId": 45918904,
+      "firstName": "Alicia",
+      "isCaptain": false
+    }
+  ]
+}

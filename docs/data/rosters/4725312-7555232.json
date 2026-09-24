@@ -1,0 +1,17 @@
+{
+  "programId": 4725312,
+  "teamId": 7555232,
+  "teamName": "9. Jaimie G. and Zach P.",
+  "players": [
+    {
+      "userId": 23878906,
+      "firstName": "Jaimie",
+      "isCaptain": true
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    }
+  ]
+}

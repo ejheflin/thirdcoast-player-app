@@ -1,0 +1,18 @@
+{
+  "userId": 42556359,
+  "firstName": "Thomas",
+  "appearances": [
+    {
+      "programId": 3904443,
+      "teamId": 6381551,
+      "teamName": "5. Just 4 Fun (Naomi L.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719592,
+      "teamId": 6151995,
+      "teamName": "6. JUST 4FUN (Naomi L.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "userId": 49945661,
+  "firstName": "Brent",
+  "appearances": [
+    {
+      "programId": 4319078,
+      "teamId": 6945595,
+      "teamName": "6. Lisa B. and Brent B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592484,
+      "teamId": 7344380,
+      "teamName": "3. Julia D. and Brent B.",
+      "isCaptain": true
+    },
+    {
+      "programId": 4661450,
+      "teamId": 7474289,
+      "teamName": "1. Alyssa D. and Brent B.",
+      "isCaptain": true
+    }
+  ]
+}

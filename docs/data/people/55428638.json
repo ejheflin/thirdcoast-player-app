@@ -7,6 +7,18 @@
       "teamId": 8018011,
       "teamName": "3. Ellie B. and Matt G.",
       "isCaptain": false
+    },
+    {
+      "programId": 4967492,
+      "teamId": 7905533,
+      "teamName": "2. Ellie B. and Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7760672,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
     }
   ]
 }

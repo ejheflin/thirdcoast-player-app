@@ -1,0 +1,215 @@
+{
+  "programId": 2609376,
+  "teams": {
+    "4423671": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4423671,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "5 - Candice C. & Raven J.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 6,
+          "ties": 3
+        }
+      ]
+    },
+    "4424847": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4424847,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "4 - Giselle L. & Jo P.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 0,
+          "ties": 8
+        }
+      ]
+    },
+    "4431975": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4431975,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "8 - Millie V. & Stacia P.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 7,
+          "losses": 5,
+          "ties": 4
+        }
+      ]
+    },
+    "4431993": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4431993,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "6 - Christine M. & Jessica B.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 9,
+          "ties": 4
+        }
+      ]
+    },
+    "4432026": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4432026,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "1 - Lisa B. & Tina O.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 5,
+          "ties": 5
+        }
+      ]
+    },
+    "4432635": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4432635,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "7 - Tiffany S. & Kim M.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 6
+        }
+      ]
+    },
+    "4434810": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4434810,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "3 - Melissa B. & Lindsay K.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 2,
+          "losses": 6,
+          "ties": 8
+        }
+      ]
+    },
+    "4434837": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4434837,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "2 - Olivia J. & Tori H.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 2,
+          "ties": 7
+        }
+      ]
+    },
+    "4435431": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4435431,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "9 - Molly J. & Becca W.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 2,
+          "ties": 8
+        }
+      ]
+    },
+    "4436049": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 2609376,
+          "teamId": 4436049,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "10 - Yanni S. & Dani D.",
+          "endDate": 1638248400000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 7,
+          "ties": 5
+        }
+      ]
+    }
+  }
+}

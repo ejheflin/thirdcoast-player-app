@@ -1,0 +1,27 @@
+{
+  "programId": 4661451,
+  "teamId": 7448723,
+  "teamName": "1. Soju My Soul (Johnny P.)",
+  "players": [
+    {
+      "userId": 52227316,
+      "firstName": "Guang",
+      "isCaptain": false
+    },
+    {
+      "userId": 52227345,
+      "firstName": "jun",
+      "isCaptain": false
+    },
+    {
+      "userId": 46933884,
+      "firstName": "Johnny",
+      "isCaptain": true
+    },
+    {
+      "userId": 48970466,
+      "firstName": "Emily",
+      "isCaptain": false
+    }
+  ]
+}

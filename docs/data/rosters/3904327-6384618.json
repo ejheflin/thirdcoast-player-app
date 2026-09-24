@@ -1,0 +1,32 @@
+{
+  "programId": 3904327,
+  "teamId": 6384618,
+  "teamName": "7. Welcome to the Son-derdome (Zach P.)",
+  "players": [
+    {
+      "userId": 44340152,
+      "firstName": "Tom",
+      "isCaptain": false
+    },
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": false
+    },
+    {
+      "userId": 14923579,
+      "firstName": "Julia",
+      "isCaptain": false
+    },
+    {
+      "userId": 14798164,
+      "firstName": "Zach",
+      "isCaptain": false
+    },
+    {
+      "userId": 15220915,
+      "firstName": "Son",
+      "isCaptain": true
+    }
+  ]
+}

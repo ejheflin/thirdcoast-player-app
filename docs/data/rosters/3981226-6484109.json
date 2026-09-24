@@ -1,0 +1,17 @@
+{
+  "programId": 3981226,
+  "teamId": 6484109,
+  "teamName": "8. Alex L. & Jon N.",
+  "players": [
+    {
+      "userId": 45480785,
+      "firstName": "Alex",
+      "isCaptain": false
+    },
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    }
+  ]
+}

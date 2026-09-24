@@ -19,6 +19,36 @@
       "teamId": 8162254,
       "teamName": "4. The Replacements (Joe R.)",
       "isCaptain": false
+    },
+    {
+      "programId": 4496318,
+      "teamId": 7220716,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6452238,
+      "teamName": "1. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4872957,
+      "teamId": 7772312,
+      "teamName": "6. Carpe Dig Em (Eric H.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4975323,
+      "teamId": 7921750,
+      "teamName": "6. The Replacements (Joe R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 2609355,
+      "teamId": 4434633,
+      "teamName": "4 - Spike It Harder (Brad O.)",
+      "isCaptain": false
     }
   ]
 }

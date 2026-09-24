@@ -1,0 +1,18 @@
+{
+  "userId": 51244394,
+  "firstName": "Abigail",
+  "appearances": [
+    {
+      "programId": 4589132,
+      "teamId": 7336171,
+      "teamName": "3. Abi J. and Jon N.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4488291,
+      "teamId": 7220715,
+      "teamName": "6. Arsenal Gunners (David T.)",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 4653860,
+  "teamId": 7440605,
+  "teamName": "3. Jann D. and Chase P.",
+  "players": [
+    {
+      "userId": 44414193,
+      "firstName": "Jann",
+      "isCaptain": true
+    },
+    {
+      "userId": 51005016,
+      "firstName": "Chase",
+      "isCaptain": false
+    }
+  ]
+}

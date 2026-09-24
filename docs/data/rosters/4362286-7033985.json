@@ -1,0 +1,47 @@
+{
+  "programId": 4362286,
+  "teamId": 7033985,
+  "teamName": "10. Big Dig Energy (Christina Z.)",
+  "players": [
+    {
+      "userId": 49889706,
+      "firstName": "Joshua",
+      "isCaptain": false
+    },
+    {
+      "userId": 49897397,
+      "firstName": "Benjamin",
+      "isCaptain": false
+    },
+    {
+      "userId": 49915942,
+      "firstName": "Susanna",
+      "isCaptain": false
+    },
+    {
+      "userId": 49890393,
+      "firstName": "Danielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 49910846,
+      "firstName": "Valerie",
+      "isCaptain": false
+    },
+    {
+      "userId": 49911502,
+      "firstName": "Dusheena",
+      "isCaptain": false
+    },
+    {
+      "userId": 49887623,
+      "firstName": "Christina",
+      "isCaptain": true
+    },
+    {
+      "userId": 49890873,
+      "firstName": "Stephanie",
+      "isCaptain": false
+    }
+  ]
+}

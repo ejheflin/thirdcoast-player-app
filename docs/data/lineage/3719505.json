@@ -1,0 +1,173 @@
+{
+  "programId": 3719505,
+  "teams": {
+    "6128973": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6128973,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "3. We Dig You (Lauren M.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 6,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 7,
+          "ties": 6
+        }
+      ]
+    },
+    "6130299": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6130299,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 4,
+          "teamCount": 8,
+          "wins": 5,
+          "losses": 7,
+          "ties": 4
+        }
+      ]
+    },
+    "6131601": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6131601,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "6. Makeup Sets (Matt K.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 8,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 10,
+          "ties": 3
+        }
+      ]
+    },
+    "6133749": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6133749,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "7. River Oaks VC (Tom K.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 7,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 8,
+          "ties": 5
+        }
+      ]
+    },
+    "6138315": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6138315,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "5. Beach Bunnies (Jimmy R.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 5,
+          "teamCount": 8,
+          "wins": 3,
+          "losses": 6,
+          "ties": 7
+        }
+      ]
+    },
+    "6140196": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6140196,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "4. Arsenal Gunners (David T.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 3,
+          "teamCount": 8,
+          "wins": 6,
+          "losses": 1,
+          "ties": 9
+        }
+      ]
+    },
+    "6156249": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6156249,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "1. Practice Safe Sets (Gary C.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 1,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 1,
+          "ties": 5
+        }
+      ]
+    },
+    "6159372": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 3719505,
+          "teamId": 6159372,
+          "programName": "Tuesday Coed 4s BB (formerly Intermediate #1)",
+          "teamName": "8. Twin Peaks (Tracie D.)",
+          "endDate": 1682395200000,
+          "level": "BB",
+          "move": null,
+          "position": 2,
+          "teamCount": 8,
+          "wins": 10,
+          "losses": 3,
+          "ties": 3
+        }
+      ]
+    }
+  }
+}

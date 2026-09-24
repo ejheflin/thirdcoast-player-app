@@ -1,0 +1,27 @@
+{
+  "programId": 4656550,
+  "teamId": 7442367,
+  "teamName": "4. S’Moores (Alex M.)",
+  "players": [
+    {
+      "userId": 46969143,
+      "firstName": "Eric",
+      "isCaptain": false
+    },
+    {
+      "userId": 47040026,
+      "firstName": "Tara",
+      "isCaptain": false
+    },
+    {
+      "userId": 46969102,
+      "firstName": "Miguel",
+      "isCaptain": false
+    },
+    {
+      "userId": 46966327,
+      "firstName": "Alex",
+      "isCaptain": true
+    }
+  ]
+}

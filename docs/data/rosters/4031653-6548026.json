@@ -1,0 +1,22 @@
+{
+  "programId": 4031653,
+  "teamId": 6548026,
+  "teamName": "2. Chino Gambino (David N.)",
+  "players": [
+    {
+      "userId": 14772262,
+      "firstName": "George",
+      "isCaptain": false
+    },
+    {
+      "userId": 42478986,
+      "firstName": "Sue-Lynn",
+      "isCaptain": false
+    },
+    {
+      "userId": 42323817,
+      "firstName": "David",
+      "isCaptain": true
+    }
+  ]
+}

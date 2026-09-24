@@ -1,0 +1,17 @@
+{
+  "programId": 4496299,
+  "teamId": 7210856,
+  "teamName": "7. Ashleigh P. and Jon N.",
+  "players": [
+    {
+      "userId": 14915290,
+      "firstName": "Jon",
+      "isCaptain": true
+    },
+    {
+      "userId": 35135665,
+      "firstName": "Ashleigh",
+      "isCaptain": false
+    }
+  ]
+}

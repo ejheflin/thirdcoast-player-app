@@ -1,0 +1,17 @@
+{
+  "programId": 3716070,
+  "teamId": 6126720,
+  "teamName": "1. Gabriela C. & Erik H.",
+  "players": [
+    {
+      "userId": 23969023,
+      "firstName": "Erik",
+      "isCaptain": false
+    },
+    {
+      "userId": 16165165,
+      "firstName": "Gabriella",
+      "isCaptain": true
+    }
+  ]
+}

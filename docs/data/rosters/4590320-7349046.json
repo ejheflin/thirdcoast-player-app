@@ -1,0 +1,17 @@
+{
+  "programId": 4590320,
+  "teamId": 7349046,
+  "teamName": "6. Beach Bunnies (Jimmy R.)",
+  "players": [
+    {
+      "userId": 14722816,
+      "firstName": "Nathan",
+      "isCaptain": false
+    },
+    {
+      "userId": 14663194,
+      "firstName": "Jimmy",
+      "isCaptain": true
+    }
+  ]
+}

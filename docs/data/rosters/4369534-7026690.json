@@ -1,0 +1,17 @@
+{
+  "programId": 4369534,
+  "teamId": 7026690,
+  "teamName": "6. Denise H. and Stu M.",
+  "players": [
+    {
+      "userId": 46566898,
+      "firstName": "Denise",
+      "isCaptain": true
+    },
+    {
+      "userId": 19162183,
+      "firstName": "Stu",
+      "isCaptain": false
+    }
+  ]
+}

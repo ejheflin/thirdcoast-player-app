@@ -1,0 +1,96 @@
+{
+  "userId": 35126086,
+  "firstName": "Alexis",
+  "appearances": [
+    {
+      "programId": 3975600,
+      "teamId": 6463792,
+      "teamName": "7. Alexis T. & Gary C.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031651,
+      "teamId": 6548646,
+      "teamName": "12. Alexis T. & Tyler J.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957853,
+      "teamId": 6456179,
+      "teamName": "9. The Monday Blues (Benjamin T.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4045339,
+      "teamId": 6565367,
+      "teamName": "3. Alexis T. & Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 3981226,
+      "teamId": 6480767,
+      "teamName": "2. Alexis T. & Matt G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4661451,
+      "teamId": 7463141,
+      "teamName": "9. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4752513,
+      "teamId": 7587823,
+      "teamName": "8. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4873012,
+      "teamId": 7760455,
+      "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4592485,
+      "teamId": 7348050,
+      "teamName": "12. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3909679,
+      "teamId": 6392708,
+      "teamName": "10. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719727,
+      "teamId": 6153882,
+      "teamName": "10. FlyBallers ShotCallers (Albert F.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3904384,
+      "teamId": 6380870,
+      "teamName": "8. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3957858,
+      "teamId": 6454892,
+      "teamName": "8. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 4031658,
+      "teamId": 6550230,
+      "teamName": "7. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 3719505,
+      "teamId": 6133749,
+      "teamName": "7. River Oaks VC (Tom K.)",
+      "isCaptain": false
+    }
+  ]
+}

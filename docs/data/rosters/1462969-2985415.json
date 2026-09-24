@@ -1,0 +1,27 @@
+{
+  "programId": 1462969,
+  "teamId": 2985415,
+  "teamName": "2 - Dirty Sets (Brian C.)",
+  "players": [
+    {
+      "userId": 16807747,
+      "firstName": "Brian",
+      "isCaptain": true
+    },
+    {
+      "userId": 16217626,
+      "firstName": "Tommy",
+      "isCaptain": false
+    },
+    {
+      "userId": 14706961,
+      "firstName": "Lindsay",
+      "isCaptain": false
+    },
+    {
+      "userId": 16667098,
+      "firstName": "Erin",
+      "isCaptain": false
+    }
+  ]
+}

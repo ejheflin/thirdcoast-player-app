@@ -1,0 +1,17 @@
+{
+  "programId": 3909727,
+  "teamId": 6382624,
+  "teamName": "12. Marshall C. & Caleb B.",
+  "players": [
+    {
+      "userId": 38355629,
+      "firstName": "Caleb",
+      "isCaptain": false
+    },
+    {
+      "userId": 14607730,
+      "firstName": "Marshall",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "userId": 14567269,
+  "firstName": "Charlie",
+  "appearances": [
+    {
+      "programId": 4139359,
+      "teamId": 6689158,
+      "teamName": "12. Sarah H. & Charlie B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4139339,
+      "teamId": 6739353,
+      "teamName": "12. Mikhail B. & Charlie B.",
+      "isCaptain": false
+    },
+    {
+      "programId": 4228631,
+      "teamId": 6838936,
+      "teamName": "5. Charlie B. & Mikhail B.",
+      "isCaptain": true
+    }
+  ]
+}

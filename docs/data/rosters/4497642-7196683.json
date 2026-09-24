@@ -1,0 +1,17 @@
+{
+  "programId": 4497642,
+  "teamId": 7196683,
+  "teamName": "5. Sarah U. and Matt G.",
+  "players": [
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": false
+    }
+  ]
+}

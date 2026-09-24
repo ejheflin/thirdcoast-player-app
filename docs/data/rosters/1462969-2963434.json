@@ -1,0 +1,32 @@
+{
+  "programId": 1462969,
+  "teamId": 2963434,
+  "teamName": "4 - Sand in all the Right Places (Jeanne B.)",
+  "players": [
+    {
+      "userId": 14668366,
+      "firstName": "Jeanne",
+      "isCaptain": true
+    },
+    {
+      "userId": 14611366,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 16051942,
+      "firstName": "Eric",
+      "isCaptain": false
+    },
+    {
+      "userId": 18918892,
+      "firstName": "Daniel",
+      "isCaptain": false
+    },
+    {
+      "userId": 14605465,
+      "firstName": "ROHIT",
+      "isCaptain": false
+    }
+  ]
+}
