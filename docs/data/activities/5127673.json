@@ -360,6 +360,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13946787,
+      "date": "2026-09-16",
+      "teams": [
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946798,
+      "date": "2026-09-23",
+      "teams": [
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946802,
+      "date": "2026-09-23",
+      "teams": [
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946803,
+      "date": "2026-09-23",
+      "teams": [
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
