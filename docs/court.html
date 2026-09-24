@@ -314,11 +314,38 @@ async function main() {
 
   // Roll the highlight forward as the night runs -- but never over a slot
   // the player chose themselves.
-  setInterval(() => {
-    if (userPickedSlot) return;
+  //
+  // A timer alone is not enough: iOS suspends timers while the phone is
+  // locked, so a player who opened this at 7:30 and unlocks at 9:30 would
+  // see the 7:30 dot until the next tick happened to fire. So the clock
+  // is also re-read the instant the page is visible again. (A LONG
+  // absence reloads the page outright -- see app.js' freshness check.)
+  setInterval(tickClock, 30000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) tickClock(); });
+  window.addEventListener('pageshow', tickClock);
+  window.addEventListener('focus', tickClock);
+}
+
+let lastLive = null;
+function tickClock() {
+  if (!NIGHT) return;
+  const live = liveSlotIndex(NIGHT);
+  if (!userPickedSlot) {
     const next = defaultSlotIndex(NIGHT);
-    if (next !== slotIndex) { slotIndex = next; openCourt = null; render(); }
-  }, 60000);
+    if (next !== slotIndex) {
+      slotIndex = next;
+      openCourt = null;
+      lastLive = live;
+      render();
+      return;
+    }
+  }
+  // Even on a slot the player picked, the live dot itself must move --
+  // it answers "what is on right now", which a manual pick doesn't change.
+  if (live !== lastLive) {
+    lastLive = live;
+    renderSlotbar();
+  }
 }
 
 main();
