@@ -62,6 +62,12 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
+    "teamId": 8124126,
+    "teamName": "6. Molly J. and Phil A."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
     "teamId": 8136201,
     "teamName": "5. Shelbita L. and Michael A."
   },
@@ -104,12 +110,6 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8124126,
-    "teamName": "6. Molly J. and Phil A."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
     "teamId": 8139641,
     "teamName": "10. Viktoriya I. and John S."
   },
@@ -146,14 +146,20 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
+    "teamId": 8152547,
+    "teamName": "6. Injured Reserve! (Joe R.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
     "teamId": 8139038,
     "teamName": "2. Ay Mi Madre (Daniel D.)"
   },
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8152547,
-    "teamName": "6. Injured Reserve! (Joe R.)"
+    "teamId": 8153064,
+    "teamName": "8. Sandy Patch Kids (Curtis J.)"
   },
   {
     "programId": 5143200,
@@ -172,12 +178,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8142664,
     "teamName": "4. FlyBallers ShotCallers (Albert F.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8153064,
-    "teamName": "8. Sandy Patch Kids (Curtis J.)"
   },
   {
     "programId": 5143200,

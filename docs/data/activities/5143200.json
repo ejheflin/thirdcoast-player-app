@@ -306,6 +306,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048369,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048374,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

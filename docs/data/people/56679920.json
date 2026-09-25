@@ -19,6 +19,12 @@
       "teamId": 7934955,
       "teamName": "8. Bad Hombres (Jaimie M.)",
       "isCaptain": true
+    },
+    {
+      "programId": 4976996,
+      "teamId": 7928996,
+      "teamName": "10. Spike Wazowski (Sarah F.)",
+      "isCaptain": false
     }
   ]
 }

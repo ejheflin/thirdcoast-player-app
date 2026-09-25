@@ -2,7 +2,7 @@
   "programId": 4743913,
   "teams": {
     "7564073": {
-      "seasons": 7,
+      "seasons": 6,
       "move": "same",
       "from": {
         "programId": 4656550,
@@ -25,20 +25,6 @@
           "wins": 1,
           "losses": 8,
           "ties": 2
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6954675,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "5. Bump, Set... Dammit (Nathan G.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 9,
-          "teamCount": 10,
-          "wins": 0,
-          "losses": 11,
-          "ties": 4
         },
         {
           "programId": 4379701,

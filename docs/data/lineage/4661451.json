@@ -43,7 +43,7 @@
       ]
     },
     "7456113": {
-      "seasons": 11,
+      "seasons": 9,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -110,20 +110,6 @@
           "ties": 5
         },
         {
-          "programId": 4139364,
-          "teamId": 6696591,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "3. Bumping Uglies (Clark P.)",
-          "endDate": 1715227200000,
-          "level": "B",
-          "move": "same",
-          "position": 8,
-          "teamCount": 10,
-          "wins": 3,
-          "losses": 9,
-          "ties": 4
-        },
-        {
           "programId": 4237992,
           "teamId": 6839964,
           "programName": "Thursday Coed 4s B",
@@ -136,20 +122,6 @@
           "wins": 6,
           "losses": 5,
           "ties": 2
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6945299,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "2. Bumping Uglies (Clark P.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 6,
-          "teamCount": 10,
-          "wins": 3,
-          "losses": 3,
-          "ties": 10
         },
         {
           "programId": 4379701,
@@ -210,7 +182,7 @@
       ]
     },
     "7461613": {
-      "seasons": 11,
+      "seasons": 9,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -277,20 +249,6 @@
           "ties": 4
         },
         {
-          "programId": 4139364,
-          "teamId": 6716969,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "1. Arsenal Gunners (David T.)",
-          "endDate": 1715227200000,
-          "level": "B",
-          "move": "same",
-          "position": 5,
-          "teamCount": 10,
-          "wins": 4,
-          "losses": 3,
-          "ties": 9
-        },
-        {
           "programId": 4237992,
           "teamId": 6847029,
           "programName": "Thursday Coed 4s B",
@@ -303,20 +261,6 @@
           "wins": 10,
           "losses": 2,
           "ties": 4
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6949442,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "6. Arsenal Gunners (David T.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 5,
-          "teamCount": 10,
-          "wins": 6,
-          "losses": 3,
-          "ties": 7
         },
         {
           "programId": 4379701,
@@ -418,7 +362,7 @@
       ]
     },
     "7462631": {
-      "seasons": 5,
+      "seasons": 4,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -429,27 +373,13 @@
       },
       "history": [
         {
-          "programId": 4319089,
-          "teamId": 6956157,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "10. The Comebacks! (Joe R.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": null,
-          "position": 10,
-          "teamCount": 10,
-          "wins": 0,
-          "losses": 10,
-          "ties": 4
-        },
-        {
           "programId": 4379701,
           "teamId": 7052153,
           "programName": "Thursday Coed 4s B",
           "teamName": "5. No Dig-ity! (Joe R.)",
           "endDate": 1733979600000,
           "level": "B",
-          "move": "same",
+          "move": null,
           "position": 9,
           "teamCount": 10,
           "wins": 0,
@@ -570,7 +500,7 @@
       ]
     },
     "7463187": {
-      "seasons": 6,
+      "seasons": 5,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -593,20 +523,6 @@
           "wins": 1,
           "losses": 8,
           "ties": 2
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6954675,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "5. Bump, Set... Dammit (Nathan G.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 9,
-          "teamCount": 10,
-          "wins": 0,
-          "losses": 11,
-          "ties": 4
         },
         {
           "programId": 4379701,
@@ -667,7 +583,7 @@
       ]
     },
     "7464226": {
-      "seasons": 11,
+      "seasons": 9,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -734,20 +650,6 @@
           "ties": 2
         },
         {
-          "programId": 4139364,
-          "teamId": 6689367,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "5. Just The Tip (Doug B.)",
-          "endDate": 1715227200000,
-          "level": "B",
-          "move": "same",
-          "position": 6,
-          "teamCount": 10,
-          "wins": 4,
-          "losses": 4,
-          "ties": 8
-        },
-        {
           "programId": 4237992,
           "teamId": 6838934,
           "programName": "Thursday Coed 4s B",
@@ -760,20 +662,6 @@
           "wins": 11,
           "losses": 0,
           "ties": 2
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6949898,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "7. Just The Tip? (Doug B.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 1,
-          "teamCount": 10,
-          "wins": 12,
-          "losses": 0,
-          "ties": 4
         },
         {
           "programId": 4379701,
@@ -834,7 +722,7 @@
       ]
     },
     "7467429": {
-      "seasons": 10,
+      "seasons": 8,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -887,20 +775,6 @@
           "ties": 3
         },
         {
-          "programId": 4139364,
-          "teamId": 6726777,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "9. Trust Me It Was In! (Curtis J.)",
-          "endDate": 1715227200000,
-          "level": "B",
-          "move": "same",
-          "position": 3,
-          "teamCount": 10,
-          "wins": 6,
-          "losses": 3,
-          "ties": 7
-        },
-        {
           "programId": 4237992,
           "teamId": 6838901,
           "programName": "Thursday Coed 4s B",
@@ -913,20 +787,6 @@
           "wins": 8,
           "losses": 2,
           "ties": 4
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6951252,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "9. Trust Me, It Was Out! (Curtis J.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 4,
-          "teamCount": 10,
-          "wins": 8,
-          "losses": 3,
-          "ties": 5
         },
         {
           "programId": 4379701,
@@ -987,7 +847,7 @@
       ]
     },
     "7468634": {
-      "seasons": 11,
+      "seasons": 9,
       "move": "same",
       "from": {
         "programId": 4592485,
@@ -1054,20 +914,6 @@
           "ties": 7
         },
         {
-          "programId": 4139364,
-          "teamId": 6721894,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "2. Ay mi madre (Daniel D.)",
-          "endDate": 1715227200000,
-          "level": "B",
-          "move": "same",
-          "position": 1,
-          "teamCount": 10,
-          "wins": 10,
-          "losses": 0,
-          "ties": 6
-        },
-        {
           "programId": 4237992,
           "teamId": 6844749,
           "programName": "Thursday Coed 4s B",
@@ -1080,20 +926,6 @@
           "wins": 6,
           "losses": 4,
           "ties": 5
-        },
-        {
-          "programId": 4319089,
-          "teamId": 6953282,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "4. Ay mi madre (Daniel D.)",
-          "endDate": 1728014400000,
-          "level": "B",
-          "move": "same",
-          "position": 2,
-          "teamCount": 10,
-          "wins": 9,
-          "losses": 1,
-          "ties": 6
         },
         {
           "programId": 4379701,
