@@ -162,6 +162,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048762,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048763,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048764,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048765,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048766,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048767,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

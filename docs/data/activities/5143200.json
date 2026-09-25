@@ -270,6 +270,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048377,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048380,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

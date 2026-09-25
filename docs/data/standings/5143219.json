@@ -14,16 +14,26 @@
     },
     {
       "position": 2,
-      "teamId": 8135226,
-      "teamName": "9. Ivy C. and Dreco S.",
-      "gamesPlayed": 2,
+      "teamId": 8136865,
+      "teamName": "8. Sarah D. and Matt B.",
+      "gamesPlayed": 3,
       "wins": 2,
       "losses": 0,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 3,
+      "teamId": 8135226,
+      "teamName": "9. Ivy C. and Dreco S.",
+      "gamesPlayed": 3,
+      "wins": 2,
+      "losses": 1,
       "ties": 0,
       "points": 4
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8154115,
       "teamName": "2. Mili V. and Isa T.",
       "gamesPlayed": 2,
@@ -33,7 +43,7 @@
       "points": 4
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8137644,
       "teamName": "4. Taylor B. and Luigi H.",
       "gamesPlayed": 2,
@@ -43,7 +53,7 @@
       "points": 2
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8126546,
       "teamName": "3. Kylee G. and Jacob W.",
       "gamesPlayed": 4,
@@ -53,7 +63,7 @@
       "points": 2
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8161236,
       "teamName": "10. Delaney Z. and Dane R.",
       "gamesPlayed": 4,
@@ -63,7 +73,7 @@
       "points": 2
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8146244,
       "teamName": "5. Tina O. and Aatir A.",
       "gamesPlayed": 2,
@@ -73,22 +83,12 @@
       "points": 1
     },
     {
-      "position": 8,
-      "teamId": 8136865,
-      "teamName": "8. Sarah D. and Matt B.",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 0,
-      "ties": 1,
-      "points": 1
-    },
-    {
       "position": 9,
       "teamId": 8152486,
       "teamName": "6. Lisa B. and Rudy D.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 1
     },
