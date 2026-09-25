@@ -216,6 +216,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048370,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048371,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048372,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

@@ -144,6 +144,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048574,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048575,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8125615,
+          "teamName": "1. Michelle C. and Josman R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048578,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048579,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
