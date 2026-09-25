@@ -342,6 +342,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048376,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048378,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
