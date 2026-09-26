@@ -252,6 +252,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048576,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048577,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8125615,
+          "teamName": "1. Michelle C. and Josman R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048583,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8152486,
+          "teamName": "6. Lisa B. and Rudy D.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
