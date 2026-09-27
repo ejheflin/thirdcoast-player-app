@@ -530,6 +530,12 @@
   {
     "programId": 5127673,
     "programName": "Wednesday Mens 2s AA",
+    "teamId": 8135529,
+    "teamName": "6. Ruslan A. and Ryan S."
+  },
+  {
+    "programId": 5127673,
+    "programName": "Wednesday Mens 2s AA",
     "teamId": 8138298,
     "teamName": "7. Jacob J. and Jake S."
   },
@@ -544,11 +550,5 @@
     "programName": "Wednesday Mens 2s AA",
     "teamId": 8136903,
     "teamName": "11. Zach P. and Luke S."
-  },
-  {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
-    "teamId": 8135529,
-    "teamName": "6. Ruslan A. and Ryan S."
   }
 ]

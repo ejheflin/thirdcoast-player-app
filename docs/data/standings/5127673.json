@@ -84,8 +84,28 @@
     },
     {
       "position": 9,
+      "teamId": 8135529,
+      "teamName": "6. Ruslan A. and Ryan S.",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 3,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 10,
       "teamId": 8138298,
       "teamName": "7. Jacob J. and Jake S.",
+      "gamesPlayed": 6,
+      "wins": 0,
+      "losses": 3,
+      "ties": 3,
+      "points": 3
+    },
+    {
+      "position": 11,
+      "teamId": 8138988,
+      "teamName": "8. Scott S. and Chris H.",
       "gamesPlayed": 5,
       "wins": 0,
       "losses": 2,
@@ -93,17 +113,7 @@
       "points": 3
     },
     {
-      "position": 10,
-      "teamId": 8138988,
-      "teamName": "8. Scott S. and Chris H.",
-      "gamesPlayed": 4,
-      "wins": 0,
-      "losses": 2,
-      "ties": 2,
-      "points": 2
-    },
-    {
-      "position": 11,
+      "position": 12,
       "teamId": 8136903,
       "teamName": "11. Zach P. and Luke S.",
       "gamesPlayed": 4,
@@ -111,16 +121,6 @@
       "losses": 3,
       "ties": 1,
       "points": 1
-    },
-    {
-      "position": 12,
-      "teamId": 8135529,
-      "teamName": "6. Ruslan A. and Ryan S.",
-      "gamesPlayed": 3,
-      "wins": 0,
-      "losses": 3,
-      "ties": 0,
-      "points": 0
     }
   ]
 }
