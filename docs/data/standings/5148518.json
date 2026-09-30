@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8148743,
+      "teamName": "1. Olivia J. and Emily S.",
+      "gamesPlayed": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "points": 8
+    },
+    {
+      "position": 2,
       "teamId": 8150354,
       "teamName": "4. Yanni S. and Ali. M.",
       "gamesPlayed": 4,
@@ -13,22 +23,12 @@
       "points": 6
     },
     {
-      "position": 2,
-      "teamId": 8148743,
-      "teamName": "1. Olivia J. and Emily S.",
-      "gamesPlayed": 2,
-      "wins": 2,
-      "losses": 0,
-      "ties": 0,
-      "points": 4
-    },
-    {
       "position": 3,
       "teamId": 8161616,
       "teamName": "5. Juliana T. and Lauren W.",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 4
     },
@@ -44,6 +44,16 @@
     },
     {
       "position": 5,
+      "teamId": 8143348,
+      "teamName": "3. Melissa B. and Lindsay K.",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 0,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 6,
       "teamId": 8156795,
       "teamName": "9. Liz C. and Madison P.",
       "gamesPlayed": 4,
@@ -53,7 +63,7 @@
       "points": 3
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8150898,
       "teamName": "2. Erika P. and Becca W.",
       "gamesPlayed": 4,
@@ -63,32 +73,22 @@
       "points": 3
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8167966,
       "teamName": "10. Kat H. and Julia V.",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
-      "points": 2
-    },
-    {
-      "position": 8,
-      "teamId": 8143348,
-      "teamName": "3. Melissa B. and Lindsay K.",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 0,
-      "ties": 2,
       "points": 2
     },
     {
       "position": 9,
       "teamId": 8138562,
       "teamName": "7. Sarah S. and Jo P.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 1
     },

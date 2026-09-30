@@ -14,26 +14,36 @@
     },
     {
       "position": 2,
-      "teamId": 8142715,
-      "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 2,
-      "wins": 1,
+      "teamId": 8163816,
+      "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+      "gamesPlayed": 4,
+      "wins": 2,
       "losses": 0,
-      "ties": 1,
-      "points": 3
+      "ties": 2,
+      "points": 6
     },
     {
       "position": 3,
-      "teamId": 8163816,
-      "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
-      "gamesPlayed": 2,
+      "teamId": 8163520,
+      "teamName": "6. Bombaclat! (Aatir A.)",
+      "gamesPlayed": 4,
       "wins": 1,
-      "losses": 0,
-      "ties": 1,
-      "points": 3
+      "losses": 1,
+      "ties": 2,
+      "points": 4
     },
     {
       "position": 4,
+      "teamId": 8142715,
+      "teamName": "4. Toodles (Michael L.)",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 1,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 5,
       "teamId": 8150950,
       "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
       "gamesPlayed": 3,
@@ -41,16 +51,6 @@
       "losses": 1,
       "ties": 1,
       "points": 3
-    },
-    {
-      "position": 5,
-      "teamId": 8163520,
-      "teamName": "6. Bombaclat! (Aatir A.)",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 1,
-      "ties": 1,
-      "points": 1
     },
     {
       "position": 6,
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8150721,
       "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
-      "gamesPlayed": 0,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
+      "losses": 1,
+      "ties": 1,
+      "points": 1
     },
     {
       "position": 8,

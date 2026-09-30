@@ -162,6 +162,78 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077459,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077460,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8142715,
+          "teamName": "4. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077461,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077462,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8142715,
+          "teamName": "4. Toodles (Michael L.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

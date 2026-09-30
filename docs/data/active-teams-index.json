@@ -128,6 +128,12 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
+    "teamId": 8152547,
+    "teamName": "6. Injured Reserve! (Joe R.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
     "teamId": 8139783,
     "teamName": "5. HIT FACED (Clark P.)"
   },
@@ -148,12 +154,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8156585,
     "teamName": "11. I Dunno (Matt G.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8152547,
-    "teamName": "6. Injured Reserve! (Joe R.)"
   },
   {
     "programId": 5143200,
@@ -200,26 +200,26 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8142715,
-    "teamName": "4. Toodles (Michael L.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
     "teamId": 8163816,
     "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8150950,
-    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
+    "teamId": 8163520,
+    "teamName": "6. Bombaclat! (Aatir A.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8163520,
-    "teamName": "6. Bombaclat! (Aatir A.)"
+    "teamId": 8142715,
+    "teamName": "4. Toodles (Michael L.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
+    "teamId": 8150950,
+    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
   },
   {
     "programId": 5148506,
@@ -422,14 +422,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150354,
-    "teamName": "4. Yanni S. and Ali. M."
+    "teamId": 8148743,
+    "teamName": "1. Olivia J. and Emily S."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8148743,
-    "teamName": "1. Olivia J. and Emily S."
+    "teamId": 8150354,
+    "teamName": "4. Yanni S. and Ali. M."
   },
   {
     "programId": 5148518,
@@ -442,6 +442,12 @@
     "programName": "Tuesday Womens 2s A",
     "teamId": 8150634,
     "teamName": "6. Tina O. and Elaine L."
+  },
+  {
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
+    "teamId": 8143348,
+    "teamName": "3. Melissa B. and Lindsay K."
   },
   {
     "programId": 5148518,
@@ -460,12 +466,6 @@
     "programName": "Tuesday Womens 2s A",
     "teamId": 8167966,
     "teamName": "10. Kat H. and Julia V."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
-    "teamId": 8143348,
-    "teamName": "3. Melissa B. and Lindsay K."
   },
   {
     "programId": 5148518,

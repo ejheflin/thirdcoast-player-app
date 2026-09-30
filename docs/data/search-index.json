@@ -13,6 +13,12 @@
       "COMPLETED"
     ],
     [
+      5154234,
+      "Monday Coed 2s BB",
+      1796014800000,
+      "LIVE"
+    ],
+    [
       5154233,
       "Monday Coed 2s B",
       1796014800000,
@@ -23,12 +29,6 @@
       "Monday Coed 3s B",
       1796014800000,
       "UPCOMING"
-    ],
-    [
-      5154234,
-      "Monday Coed 2s BB",
-      1795410000000,
-      "LIVE"
     ],
     [
       5148518,
@@ -2566,15 +2566,15 @@
   "teams": [
     [
       5,
-      8150354,
-      "4. Yanni S. and Ali. M.",
-      4
-    ],
-    [
-      5,
       8148743,
       "1. Olivia J. and Emily S.",
       3
+    ],
+    [
+      5,
+      8150354,
+      "4. Yanni S. and Ali. M.",
+      4
     ],
     [
       5,
@@ -2587,6 +2587,12 @@
       8150634,
       "6. Tina O. and Elaine L.",
       2
+    ],
+    [
+      5,
+      8143348,
+      "3. Melissa B. and Lindsay K.",
+      15
     ],
     [
       5,
@@ -2605,12 +2611,6 @@
       8167966,
       "10. Kat H. and Julia V.",
       1
-    ],
-    [
-      5,
-      8143348,
-      "3. Melissa B. and Lindsay K.",
-      15
     ],
     [
       5,
@@ -2812,27 +2812,27 @@
     ],
     [
       9,
-      8142715,
-      "4. Toodles (Michael L.)",
-      16
-    ],
-    [
-      9,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       10
     ],
     [
       9,
-      8150950,
-      "2. Not Good at Volleyball Puns (Daniel A.)",
+      8163520,
+      "6. Bombaclat! (Aatir A.)",
+      9
+    ],
+    [
+      9,
+      8142715,
+      "4. Toodles (Michael L.)",
       16
     ],
     [
       9,
-      8163520,
-      "6. Bombaclat! (Aatir A.)",
-      9
+      8150950,
+      "2. Not Good at Volleyball Puns (Daniel A.)",
+      16
     ],
     [
       9,
@@ -2980,6 +2980,12 @@
     ],
     [
       12,
+      8152547,
+      "6. Injured Reserve! (Joe R.)",
+      9
+    ],
+    [
+      12,
       8139783,
       "5. HIT FACED (Clark P.)",
       14
@@ -3001,12 +3007,6 @@
       8156585,
       "11. I Dunno (Matt G.)",
       2
-    ],
-    [
-      12,
-      8152547,
-      "6. Injured Reserve! (Joe R.)",
-      9
     ],
     [
       12,
