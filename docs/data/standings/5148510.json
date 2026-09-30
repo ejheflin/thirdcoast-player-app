@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8135728,
+      "teamName": "6. Volley Llamas (Daphne D.)",
+      "gamesPlayed": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "points": 8
+    },
+    {
+      "position": 2,
       "teamId": 8136555,
       "teamName": "3. The Empire Spikes Back (Ash C.)",
       "gamesPlayed": 2,
@@ -13,22 +23,12 @@
       "points": 4
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8159903,
       "teamName": "8. Gold Diggerz (JT N.)",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 2,
-      "losses": 0,
-      "ties": 0,
-      "points": 4
-    },
-    {
-      "position": 3,
-      "teamId": 8135728,
-      "teamName": "6. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 2,
-      "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 4
     },
@@ -36,9 +36,9 @@
       "position": 4,
       "teamId": 8153555,
       "teamName": "2. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 4
     },

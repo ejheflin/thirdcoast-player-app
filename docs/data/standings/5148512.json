@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
-      "gamesPlayed": 2,
-      "wins": 2,
+      "gamesPlayed": 3,
+      "wins": 3,
       "losses": 0,
       "ties": 0,
-      "points": 4
+      "points": 6
     },
     {
       "position": 2,
@@ -26,11 +26,11 @@
       "position": 3,
       "teamId": 8159110,
       "teamName": "5. Watermelon (Lauren K.)",
-      "gamesPlayed": 2,
-      "wins": 1,
+      "gamesPlayed": 3,
+      "wins": 2,
       "losses": 1,
       "ties": 0,
-      "points": 2
+      "points": 4
     },
     {
       "position": 4,
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 1
     },
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8148853,
       "teamName": "1. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "points": 0
     }
