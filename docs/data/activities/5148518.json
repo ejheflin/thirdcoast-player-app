@@ -324,6 +324,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077689,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Melissa B. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

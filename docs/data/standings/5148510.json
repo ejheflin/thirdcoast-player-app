@@ -24,26 +24,36 @@
     },
     {
       "position": 3,
-      "teamId": 8159903,
-      "teamName": "8. Gold Diggerz (JT N.)",
-      "gamesPlayed": 3,
-      "wins": 2,
+      "teamId": 8146380,
+      "teamName": "9. Holy Balls (Jacob Y.)",
+      "gamesPlayed": 4,
+      "wins": 3,
       "losses": 1,
       "ties": 0,
-      "points": 4
+      "points": 6
     },
     {
       "position": 4,
-      "teamId": 8153555,
-      "teamName": "2. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 3,
+      "teamId": 8159903,
+      "teamName": "8. Gold Diggerz (JT N.)",
+      "gamesPlayed": 4,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 4
     },
     {
       "position": 5,
+      "teamId": 8153555,
+      "teamName": "2. Big Dig Energy (Chad S.)",
+      "gamesPlayed": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "points": 4
+    },
+    {
+      "position": 6,
       "teamId": 8148877,
       "teamName": "7. Can You Dig It? (Marc S.)",
       "gamesPlayed": 4,
@@ -51,16 +61,6 @@
       "losses": 2,
       "ties": 1,
       "points": 3
-    },
-    {
-      "position": 6,
-      "teamId": 8146380,
-      "teamName": "9. Holy Balls (Jacob Y.)",
-      "gamesPlayed": 2,
-      "wins": 1,
-      "losses": 1,
-      "ties": 0,
-      "points": 2
     },
     {
       "position": 7,

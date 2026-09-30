@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8143348,
+      "teamName": "3. Melissa B. and Lindsay K.",
+      "gamesPlayed": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 4,
       "teamId": 8161616,
       "teamName": "5. Juliana T. and Lauren W.",
       "gamesPlayed": 4,
@@ -33,19 +43,9 @@
       "points": 4
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8150634,
       "teamName": "6. Tina O. and Elaine L.",
-      "gamesPlayed": 3,
-      "wins": 1,
-      "losses": 0,
-      "ties": 2,
-      "points": 4
-    },
-    {
-      "position": 5,
-      "teamId": 8143348,
-      "teamName": "3. Melissa B. and Lindsay K.",
       "gamesPlayed": 3,
       "wins": 1,
       "losses": 0,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8138562,
       "teamName": "7. Sarah S. and Jo P.",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "ties": 1,
       "points": 1
     },
