@@ -648,6 +648,96 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 13946812,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13946814,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946816,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946818,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8111500,
+          "teamName": "2. Jason O. and Dominick W.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13946820,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
