@@ -576,6 +576,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13946811,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136903,
+          "teamName": "11. Zach P. and Luke S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946815,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

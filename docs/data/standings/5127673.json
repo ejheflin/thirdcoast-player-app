@@ -4,28 +4,28 @@
   "rows": [
     {
       "position": 1,
-      "teamId": 8122145,
-      "teamName": "3. Gordon P. and Harley G.",
-      "gamesPlayed": 6,
-      "wins": 3,
-      "losses": 0,
+      "teamId": 8139630,
+      "teamName": "9. Dane R. and Carson S.",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 1,
       "ties": 3,
-      "points": 9
+      "points": 11
     },
     {
       "position": 2,
-      "teamId": 8139630,
-      "teamName": "9. Dane R. and Carson S.",
-      "gamesPlayed": 6,
-      "wins": 4,
-      "losses": 1,
-      "ties": 1,
-      "points": 9
+      "teamId": 8139578,
+      "teamName": "12. Riley W. and Jacob W.",
+      "gamesPlayed": 7,
+      "wins": 3,
+      "losses": 0,
+      "ties": 4,
+      "points": 10
     },
     {
       "position": 3,
-      "teamId": 8139578,
-      "teamName": "12. Riley W. and Jacob W.",
+      "teamId": 8122145,
+      "teamName": "3. Gordon P. and Harley G.",
       "gamesPlayed": 6,
       "wins": 3,
       "losses": 0,
@@ -116,11 +116,11 @@
       "position": 12,
       "teamId": 8136903,
       "teamName": "11. Zach P. and Luke S.",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 0,
       "losses": 3,
-      "ties": 1,
-      "points": 1
+      "ties": 2,
+      "points": 2
     }
   ]
 }

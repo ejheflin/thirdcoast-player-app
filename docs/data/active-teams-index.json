@@ -278,26 +278,26 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8148116,
-    "teamName": "5. Shank You Very Much (Jaimie M.)"
-  },
-  {
-    "programId": 5148510,
-    "programName": "Tuesday Coed 4s B",
     "teamId": 8164493,
     "teamName": "1. Gold Star for Effort (Merilyn V.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8162254,
-    "teamName": "4. The Replacements (Joe R.)"
+    "teamId": 8148116,
+    "teamName": "5. Shank You Very Much (Jaimie M.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
     "teamId": 8164233,
     "teamName": "10. Carpe Digem (Eric H.)"
+  },
+  {
+    "programId": 5148510,
+    "programName": "Tuesday Coed 4s B",
+    "teamId": 8162254,
+    "teamName": "4. The Replacements (Joe R.)"
   },
   {
     "programId": 5148512,
@@ -440,14 +440,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8161616,
-    "teamName": "5. Juliana T. and Lauren W."
+    "teamId": 8150634,
+    "teamName": "6. Tina O. and Elaine L."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150634,
-    "teamName": "6. Tina O. and Elaine L."
+    "teamId": 8161616,
+    "teamName": "5. Juliana T. and Lauren W."
   },
   {
     "programId": 5148518,
@@ -470,20 +470,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8138562,
-    "teamName": "7. Sarah S. and Jo P."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
     "teamId": 8139645,
     "teamName": "8. Molly J. and Nicole B."
   },
   {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
-    "teamId": 8122145,
-    "teamName": "3. Gordon P. and Harley G."
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
+    "teamId": 8138562,
+    "teamName": "7. Sarah S. and Jo P."
   },
   {
     "programId": 5127673,
@@ -496,6 +490,12 @@
     "programName": "Wednesday Mens 2s AA",
     "teamId": 8139578,
     "teamName": "12. Riley W. and Jacob W."
+  },
+  {
+    "programId": 5127673,
+    "programName": "Wednesday Mens 2s AA",
+    "teamId": 8122145,
+    "teamName": "3. Gordon P. and Harley G."
   },
   {
     "programId": 5127673,
