@@ -8,6 +8,12 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
+    "teamId": 8161236,
+    "teamName": "10. Delaney Z. and Dane R."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
     "teamId": 8154115,
     "teamName": "2. Mili V. and Isa T."
   },
@@ -44,12 +50,6 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8161236,
-    "teamName": "10. Delaney Z. and Dane R."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
     "teamId": 8152486,
     "teamName": "6. Lisa B. and Rudy D."
   },
@@ -80,14 +80,8 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8146294,
-    "teamName": "1. Ali M. and Andrew B."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8139636,
-    "teamName": "2. Danielle F. and Jeff S."
+    "teamId": 8142462,
+    "teamName": "7. Sarah U. and Kumar R."
   },
   {
     "programId": 5143224,
@@ -98,14 +92,20 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8142462,
-    "teamName": "7. Sarah U. and Kumar R."
+    "teamId": 8146294,
+    "teamName": "1. Ali M. and Andrew B."
   },
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
     "teamId": 8138556,
     "teamName": "4. Jo P. and Leo Y."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8139636,
+    "teamName": "2. Danielle F. and Jeff S."
   },
   {
     "programId": 5143224,
@@ -122,6 +122,18 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
+    "teamId": 8143230,
+    "teamName": "3. Charlies Angels (Jason O.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8156585,
+    "teamName": "11. I Dunno (Matt G.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
     "teamId": 8139038,
     "teamName": "2. Ay Mi Madre (Daniel D.)"
   },
@@ -130,6 +142,12 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8152547,
     "teamName": "6. Injured Reserve! (Joe R.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8153064,
+    "teamName": "8. Sandy Patch Kids (Curtis J.)"
   },
   {
     "programId": 5143200,
@@ -148,24 +166,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8127097,
     "teamName": "1. Crab (Collin W.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8156585,
-    "teamName": "11. I Dunno (Matt G.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8153064,
-    "teamName": "8. Sandy Patch Kids (Curtis J.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8143230,
-    "teamName": "3. Charlies Angels (Jason O.)"
   },
   {
     "programId": 5143200,
