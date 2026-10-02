@@ -20,6 +20,12 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
+    "teamId": 8135226,
+    "teamName": "9. Ivy C. and Dreco S."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
     "teamId": 8161236,
     "teamName": "10. Delaney Z. and Dane R."
   },
@@ -34,12 +40,6 @@
     "programName": "Thursday Coed 2s A",
     "teamId": 8136865,
     "teamName": "8. Sarah D. and Matt B."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
-    "teamId": 8135226,
-    "teamName": "9. Ivy C. and Dreco S."
   },
   {
     "programId": 5143219,
@@ -74,6 +74,12 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
+    "teamId": 8139641,
+    "teamName": "10. Viktoriya I. and John S."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
     "teamId": 8141319,
     "teamName": "3. Elaine L. and Eric W."
   },
@@ -92,6 +98,12 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
+    "teamId": 8139636,
+    "teamName": "2. Danielle F. and Jeff S."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
     "teamId": 8146294,
     "teamName": "1. Ali M. and Andrew B."
   },
@@ -100,18 +112,6 @@
     "programName": "Thursday Coed 2s AA",
     "teamId": 8138556,
     "teamName": "4. Jo P. and Leo Y."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8139636,
-    "teamName": "2. Danielle F. and Jeff S."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
-    "teamId": 8139641,
-    "teamName": "10. Viktoriya I. and John S."
   },
   {
     "programId": 5143224,
@@ -128,12 +128,6 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8156585,
-    "teamName": "11. I Dunno (Matt G.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
     "teamId": 8139038,
     "teamName": "2. Ay Mi Madre (Daniel D.)"
   },
@@ -142,6 +136,12 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8152547,
     "teamName": "6. Injured Reserve! (Joe R.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
+    "teamId": 8156585,
+    "teamName": "11. I Dunno (Matt G.)"
   },
   {
     "programId": 5143200,

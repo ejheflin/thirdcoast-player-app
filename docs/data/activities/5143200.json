@@ -522,6 +522,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048388,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048389,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048390,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
