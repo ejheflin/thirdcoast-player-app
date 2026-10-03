@@ -1,0 +1,17 @@
+{
+  "programId": 5154233,
+  "teamId": 8190694,
+  "teamName": "10. Lauren V. and Hector T.",
+  "players": [
+    {
+      "userId": 54407533,
+      "firstName": "Hector",
+      "isCaptain": true
+    },
+    {
+      "userId": 57799613,
+      "firstName": "lauren",
+      "isCaptain": false
+    }
+  ]
+}

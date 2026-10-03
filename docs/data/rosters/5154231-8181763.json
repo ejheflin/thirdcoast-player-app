@@ -1,0 +1,22 @@
+{
+  "programId": 5154231,
+  "teamId": 8181763,
+  "teamName": "1. Gold Diggers (Gabriela C.)",
+  "players": [
+    {
+      "userId": 58558118,
+      "firstName": "Gabriela",
+      "isCaptain": true
+    },
+    {
+      "userId": 58702035,
+      "firstName": "Gregorio",
+      "isCaptain": false
+    },
+    {
+      "userId": 58692789,
+      "firstName": "DeWitt",
+      "isCaptain": false
+    }
+  ]
+}

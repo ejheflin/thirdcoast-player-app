@@ -121,6 +121,12 @@
       "teamId": 7909535,
       "teamName": "3. Charlie’s Angels (Jason O.)",
       "isCaptain": true
+    },
+    {
+      "programId": 5154233,
+      "teamId": 8148465,
+      "teamName": "1. Olivia E. and Jason O.",
+      "isCaptain": true
     }
   ]
 }

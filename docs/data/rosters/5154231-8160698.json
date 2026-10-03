@@ -1,0 +1,22 @@
+{
+  "programId": 5154231,
+  "teamId": 8160698,
+  "teamName": "6. Settin Pretty (Elizabeth A.)",
+  "players": [
+    {
+      "userId": 14752150,
+      "firstName": "Elizabeth",
+      "isCaptain": true
+    },
+    {
+      "userId": 14820583,
+      "firstName": "David",
+      "isCaptain": false
+    },
+    {
+      "userId": 14822965,
+      "firstName": "Sean",
+      "isCaptain": false
+    }
+  ]
+}

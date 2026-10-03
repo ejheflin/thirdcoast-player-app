@@ -121,6 +121,12 @@
       "teamId": 3665539,
       "teamName": "5 - Make-up Sets (Naomi L.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154234,
+      "teamId": 8159552,
+      "teamName": "8. Helen L. and George C.",
+      "isCaptain": true
     }
   ]
 }

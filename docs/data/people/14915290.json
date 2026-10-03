@@ -235,6 +235,12 @@
       "teamId": 6549240,
       "teamName": "8. The Vacationers (Philip M.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154234,
+      "teamId": 8173044,
+      "teamName": "7. Kaegan W. and Jon N.",
+      "isCaptain": true
     }
   ]
 }

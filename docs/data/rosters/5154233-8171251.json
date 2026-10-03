@@ -1,0 +1,17 @@
+{
+  "programId": 5154233,
+  "teamId": 8171251,
+  "teamName": "6. Ellie B. and Matt G.",
+  "players": [
+    {
+      "userId": 55428638,
+      "firstName": "Ellie",
+      "isCaptain": false
+    },
+    {
+      "userId": 37927784,
+      "firstName": "Matt",
+      "isCaptain": true
+    }
+  ]
+}

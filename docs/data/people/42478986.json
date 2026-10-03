@@ -79,6 +79,12 @@
       "teamId": 6136911,
       "teamName": "7. Sandy Cheeks (David N.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154233,
+      "teamId": 8176028,
+      "teamName": "3. Sue L. and David N.",
+      "isCaptain": true
     }
   ]
 }

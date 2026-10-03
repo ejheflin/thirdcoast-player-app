@@ -1,0 +1,17 @@
+{
+  "programId": 5154233,
+  "teamId": 8148865,
+  "teamName": "4. Jodie N. and Joel G.",
+  "players": [
+    {
+      "userId": 45960347,
+      "firstName": "Joel",
+      "isCaptain": false
+    },
+    {
+      "userId": 49879219,
+      "firstName": "Jodie",
+      "isCaptain": true
+    }
+  ]
+}

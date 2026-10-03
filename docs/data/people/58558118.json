@@ -7,6 +7,12 @@
       "teamId": 8155956,
       "teamName": "10. Sandy Cheeks (Stephanie D.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154231,
+      "teamId": 8181763,
+      "teamName": "1. Gold Diggers (Gabriela C.)",
+      "isCaptain": true
     }
   ]
 }

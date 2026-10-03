@@ -1,0 +1,22 @@
+{
+  "programId": 5154231,
+  "teamId": 8190678,
+  "teamName": "10. Free Agent 2",
+  "players": [
+    {
+      "userId": 27842592,
+      "firstName": "Greg",
+      "isCaptain": false
+    },
+    {
+      "userId": 53615950,
+      "firstName": "Sarah",
+      "isCaptain": false
+    },
+    {
+      "userId": 23612125,
+      "firstName": "Jason",
+      "isCaptain": false
+    }
+  ]
+}

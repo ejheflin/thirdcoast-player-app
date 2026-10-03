@@ -1,0 +1,22 @@
+{
+  "programId": 5154231,
+  "teamId": 8173279,
+  "teamName": "7. Sandy Cheeks (Mica R.)",
+  "players": [
+    {
+      "userId": 39325206,
+      "firstName": "Mica",
+      "isCaptain": false
+    },
+    {
+      "userId": 58671854,
+      "firstName": "Raul",
+      "isCaptain": false
+    },
+    {
+      "userId": 41062593,
+      "firstName": "Jordan",
+      "isCaptain": false
+    }
+  ]
+}

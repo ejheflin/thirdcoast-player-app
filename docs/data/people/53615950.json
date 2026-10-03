@@ -43,6 +43,12 @@
       "teamId": 7928996,
       "teamName": "10. Spike Wazowski (Sarah F.)",
       "isCaptain": true
+    },
+    {
+      "programId": 5154231,
+      "teamId": 8190678,
+      "teamName": "10. Free Agent 2",
+      "isCaptain": false
     }
   ]
 }

@@ -163,6 +163,12 @@
       "teamId": 6159372,
       "teamName": "8. Twin Peaks (Tracie D.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154233,
+      "teamId": 8171251,
+      "teamName": "6. Ellie B. and Matt G.",
+      "isCaptain": true
     }
   ]
 }

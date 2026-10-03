@@ -43,6 +43,12 @@
       "teamId": 7360113,
       "teamName": "11. Soju My Soul (Johnny P.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154231,
+      "teamId": 8172362,
+      "teamName": "5. Tri-Angels (Johnny P.)",
+      "isCaptain": true
     }
   ]
 }

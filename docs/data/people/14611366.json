@@ -121,6 +121,12 @@
       "teamId": 2963434,
       "teamName": "4 - Sand in all the Right Places (Jeanne B.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154233,
+      "teamId": 8148569,
+      "teamName": "2. Holli D. and Dan L.",
+      "isCaptain": true
     }
   ]
 }

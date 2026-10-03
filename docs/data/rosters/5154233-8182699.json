@@ -1,0 +1,17 @@
+{
+  "programId": 5154233,
+  "teamId": 8182699,
+  "teamName": "9. Vanessa M. and Miguel M.",
+  "players": [
+    {
+      "userId": 58696742,
+      "firstName": "Vanessa",
+      "isCaptain": false
+    },
+    {
+      "userId": 58686396,
+      "firstName": "Miguel",
+      "isCaptain": true
+    }
+  ]
+}

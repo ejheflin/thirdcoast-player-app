@@ -211,6 +211,12 @@
       "teamId": 3287932,
       "teamName": "8 - Volley Fire (Benet G.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154231,
+      "teamId": 8148416,
+      "teamName": "9. May the Spike Be With You (Ash C.)",
+      "isCaptain": true
     }
   ]
 }

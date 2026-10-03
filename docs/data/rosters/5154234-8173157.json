@@ -1,0 +1,17 @@
+{
+  "programId": 5154234,
+  "teamId": 8173157,
+  "teamName": "5. Emily R. and Dreco S.",
+  "players": [
+    {
+      "userId": 17299171,
+      "firstName": "Emily",
+      "isCaptain": true
+    },
+    {
+      "userId": 25371946,
+      "firstName": "Dreco",
+      "isCaptain": false
+    }
+  ]
+}

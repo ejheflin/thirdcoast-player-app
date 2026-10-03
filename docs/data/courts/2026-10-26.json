@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-26",
+  "slots": [
+    {
+      "time": "18:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8160252,
+              "teamName": "7. Kim M. and Travis B."
+            },
+            {
+              "teamId": 8190694,
+              "teamName": "10. Lauren V. and Hector T."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148569,
+              "teamName": "2. Holli D. and Dan L."
+            },
+            {
+              "teamId": 8176028,
+              "teamName": "3. Sue L. and David N."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8152686,
+              "teamName": "2. Sydney Z. and Manny A."
+            },
+            {
+              "teamId": 8156793,
+              "teamName": "4. Liz C. and Josman R."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8148910,
+              "teamName": "6. Caroline J. and Mark J."
+            },
+            {
+              "teamId": 8159552,
+              "teamName": "8. Helen L. and George C."
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8173279,
+              "teamName": "7. Sandy Cheeks (Mica R.)"
+            },
+            {
+              "teamId": 8190678,
+              "teamName": "10. Free Agent 2"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8153216,
+              "teamName": "2. Volley Llamas (Jamie D.)"
+            },
+            {
+              "teamId": 8158925,
+              "teamName": "3. Respect Your Elders (Heather B.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8176028,
+              "teamName": "3. Sue L. and David N."
+            },
+            {
+              "teamId": 8190694,
+              "teamName": "10. Lauren V. and Hector T."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148569,
+              "teamName": "2. Holli D. and Dan L."
+            },
+            {
+              "teamId": 8160252,
+              "teamName": "7. Kim M. and Travis B."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8152686,
+              "teamName": "2. Sydney Z. and Manny A."
+            },
+            {
+              "teamId": 8148910,
+              "teamName": "6. Caroline J. and Mark J."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8156793,
+              "teamName": "4. Liz C. and Josman R."
+            },
+            {
+              "teamId": 8159552,
+              "teamName": "8. Helen L. and George C."
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8158925,
+              "teamName": "3. Respect Your Elders (Heather B.)"
+            },
+            {
+              "teamId": 8190678,
+              "teamName": "10. Free Agent 2"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8153216,
+              "teamName": "2. Volley Llamas (Jamie D.)"
+            },
+            {
+              "teamId": 8173279,
+              "teamName": "7. Sandy Cheeks (Mica R.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148465,
+              "teamName": "1. Olivia E. and Jason O."
+            },
+            {
+              "teamId": 8171251,
+              "teamName": "6. Ellie B. and Matt G."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148865,
+              "teamName": "4. Jodie N. and Joel G."
+            },
+            {
+              "teamId": 8170440,
+              "teamName": "8. Jenny S. and Nate G."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8159362,
+              "teamName": "5. Joann L. and Jacob W."
+            },
+            {
+              "teamId": 8182699,
+              "teamName": "9. Vanessa M. and Miguel M."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8173157,
+              "teamName": "5. Emily R. and Dreco S."
+            },
+            {
+              "teamId": 8173044,
+              "teamName": "7. Kaegan W. and Jon N."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8153805,
+              "teamName": "1. Sarah U. and Logan C."
+            },
+            {
+              "teamId": 8161071,
+              "teamName": "3. Taylor P. and Carson S."
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8181763,
+              "teamName": "1. Gold Diggers (Gabriela C.)"
+            },
+            {
+              "teamId": 8160698,
+              "teamName": "6. Settin Pretty (Elizabeth A.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8175870,
+              "teamName": "4. No Faith (Donald P.)"
+            },
+            {
+              "teamId": 8179731,
+              "teamName": "8. Third Wheel Energy (Isa T.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8172362,
+              "teamName": "5. Tri-Angels (Johnny P.)"
+            },
+            {
+              "teamId": 8148416,
+              "teamName": "9. May the Spike Be With You (Ash C.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8171251,
+              "teamName": "6. Ellie B. and Matt G."
+            },
+            {
+              "teamId": 8170440,
+              "teamName": "8. Jenny S. and Nate G."
+            }
+          ]
+        },
+        {
+          "court": 2,
+          "courtName": "Court 2",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148465,
+              "teamName": "1. Olivia E. and Jason O."
+            },
+            {
+              "teamId": 8159362,
+              "teamName": "5. Joann L. and Jacob W."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5154233,
+          "programName": "Monday Coed 2s B",
+          "teams": [
+            {
+              "teamId": 8148865,
+              "teamName": "4. Jodie N. and Joel G."
+            },
+            {
+              "teamId": 8182699,
+              "teamName": "9. Vanessa M. and Miguel M."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8153805,
+              "teamName": "1. Sarah U. and Logan C."
+            },
+            {
+              "teamId": 8173157,
+              "teamName": "5. Emily R. and Dreco S."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5154234,
+          "programName": "Monday Coed 2s BB",
+          "teams": [
+            {
+              "teamId": 8161071,
+              "teamName": "3. Taylor P. and Carson S."
+            },
+            {
+              "teamId": 8173044,
+              "teamName": "7. Kaegan W. and Jon N."
+            }
+          ]
+        },
+        {
+          "court": 9,
+          "courtName": "Court 9",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8160698,
+              "teamName": "6. Settin Pretty (Elizabeth A.)"
+            },
+            {
+              "teamId": 8179731,
+              "teamName": "8. Third Wheel Energy (Isa T.)"
+            }
+          ]
+        },
+        {
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8181763,
+              "teamName": "1. Gold Diggers (Gabriela C.)"
+            },
+            {
+              "teamId": 8172362,
+              "teamName": "5. Tri-Angels (Johnny P.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8175870,
+              "teamName": "4. No Faith (Donald P.)"
+            },
+            {
+              "teamId": 8148416,
+              "teamName": "9. May the Spike Be With You (Ash C.)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

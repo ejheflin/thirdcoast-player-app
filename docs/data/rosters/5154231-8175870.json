@@ -1,0 +1,22 @@
+{
+  "programId": 5154231,
+  "teamId": 8175870,
+  "teamName": "4. No Faith (Donald P.)",
+  "players": [
+    {
+      "userId": 58654058,
+      "firstName": "Gabrielle",
+      "isCaptain": false
+    },
+    {
+      "userId": 58655683,
+      "firstName": "Amari",
+      "isCaptain": false
+    },
+    {
+      "userId": 45244686,
+      "firstName": "Donald",
+      "isCaptain": true
+    }
+  ]
+}

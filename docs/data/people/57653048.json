@@ -25,6 +25,12 @@
       "teamId": 8124115,
       "teamName": "7. Tiffany S. and Carson S.",
       "isCaptain": false
+    },
+    {
+      "programId": 5154234,
+      "teamId": 8161071,
+      "teamName": "3. Taylor P. and Carson S.",
+      "isCaptain": true
     }
   ]
 }

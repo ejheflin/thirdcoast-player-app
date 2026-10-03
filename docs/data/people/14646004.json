@@ -133,6 +133,12 @@
       "teamId": 6726015,
       "teamName": "7. It's the Sweet One! (Quentin B.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5154231,
+      "teamId": 8179731,
+      "teamName": "8. Third Wheel Energy (Isa T.)",
+      "isCaptain": true
     }
   ]
 }

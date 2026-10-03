@@ -139,6 +139,12 @@
       "teamId": 7033287,
       "teamName": "2. Dreco S. and Benjamin L.",
       "isCaptain": true
+    },
+    {
+      "programId": 5154234,
+      "teamId": 8173157,
+      "teamName": "5. Emily R. and Dreco S.",
+      "isCaptain": false
     }
   ]
 }

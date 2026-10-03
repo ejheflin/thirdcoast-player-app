@@ -1,0 +1,17 @@
+{
+  "programId": 5154234,
+  "teamId": 8153805,
+  "teamName": "1. Sarah U. and Logan C.",
+  "players": [
+    {
+      "userId": 54336214,
+      "firstName": "Logan",
+      "isCaptain": false
+    },
+    {
+      "userId": 45906751,
+      "firstName": "Sarah",
+      "isCaptain": true
+    }
+  ]
+}
