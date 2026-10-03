@@ -468,6 +468,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048587,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
