@@ -54,6 +54,16 @@
     },
     {
       "position": 6,
+      "teamId": 8163533,
+      "teamName": "3. Hustle Gang (Calvin D.)",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "points": 2
+    },
+    {
+      "position": 7,
       "teamId": 8159639,
       "teamName": "5. Vacacioners (Phil M.)",
       "gamesPlayed": 2,
@@ -63,24 +73,14 @@
       "points": 1
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8150721,
       "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 1,
-      "ties": 1,
-      "points": 1
-    },
-    {
-      "position": 8,
-      "teamId": 8163533,
-      "teamName": "3. Hustle Gang (Calvin D.)",
       "gamesPlayed": 3,
       "wins": 0,
-      "losses": 3,
-      "ties": 0,
-      "points": 0
+      "losses": 2,
+      "ties": 1,
+      "points": 1
     }
   ]
 }
