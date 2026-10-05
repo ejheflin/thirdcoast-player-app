@@ -123,7 +123,7 @@ await go('search.html');
 
     // Identity shape.
     localStorage.clear();
-    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [team, other], primary: team });
+    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [other, team], primary: team });
     const ident = { team: getMyTeam(), teams: getMyTeams(), id: getMyIdentity() };
 
     // Declining is durable.
