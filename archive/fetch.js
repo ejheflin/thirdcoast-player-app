@@ -8,7 +8,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import * as leagueapps from './leagueapps.js';
-import { firstNameOf, mergePersonRecord } from './people.js';
+import { firstNameOf, lastInitialOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
 import { extractUpcomingGame, extractTournamentMarker } from './schedule.js';
 import { buildLineage } from './lineage.js';
@@ -104,6 +104,7 @@ export async function runArchive(deps) {
     const roster = players.map((p) => ({
       userId: p.userId,
       firstName: firstNameOf(p.fullName),
+      lastInitial: lastInitialOf(p.fullName),
       isCaptain: p.isCaptain,
     }));
     await writeJSON(`docs/data/rosters/${program.id}-${row.teamId}.json`, {
@@ -119,6 +120,7 @@ export async function runArchive(deps) {
       const record = mergePersonRecord(existing, {
         userId: player.userId,
         firstName: firstNameOf(player.fullName),
+        lastInitial: lastInitialOf(player.fullName),
         programId: program.id,
         teamId: row.teamId,
         teamName: row.teamName,

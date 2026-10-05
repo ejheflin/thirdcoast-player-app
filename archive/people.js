@@ -25,13 +25,16 @@ export function lastInitialOf(fullName) {
 }
 
 export function mergePersonRecord(existing, appearance) {
-  const { userId, firstName, programId, teamId, teamName, isCaptain } = appearance;
-  const base = existing ?? { userId, firstName, appearances: [] };
+  const { userId, firstName, lastInitial, programId, teamId, teamName, isCaptain } = appearance;
+  const base = existing ?? { userId, firstName, lastInitial, appearances: [] };
   const alreadySeen = base.appearances.some(
     (a) => a.programId === programId && a.teamId === teamId,
   );
   const appearances = alreadySeen
     ? base.appearances
     : [...base.appearances, { programId, teamId, teamName, isCaptain }];
-  return { userId, firstName, appearances };
+  // lastInitial is a late addition: a record written before it existed has
+  // none, so a fresh appearance is allowed to fill it in, but never to
+  // blank out one already stored.
+  return { userId, firstName, lastInitial: lastInitial || base.lastInitial || '', appearances };
 }
