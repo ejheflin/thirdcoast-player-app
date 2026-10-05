@@ -17,6 +17,11 @@
       "userId": 46933884,
       "firstName": "Johnny",
       "isCaptain": true
+    },
+    {
+      "userId": 58759859,
+      "firstName": "yvette",
+      "isCaptain": false
     }
   ]
 }
