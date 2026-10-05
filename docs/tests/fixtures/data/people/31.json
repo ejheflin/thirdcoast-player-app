@@ -1,0 +1,9 @@
+{
+  "userId": 31,
+  "firstName": "Mika",
+  "lastInitial": "T.",
+  "appearances": [
+    {"programId":9301,"teamId":601,"teamName":"1. Dual Leaguers","isCaptain":true},
+    {"programId":9302,"teamId":611,"teamName":"3. Thursday Thunder","isCaptain":false}
+  ]
+}

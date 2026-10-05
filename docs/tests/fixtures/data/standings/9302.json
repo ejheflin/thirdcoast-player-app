@@ -1,0 +1,8 @@
+{
+  "programId": 9302,
+  "programName": "Identity Thursday League",
+  "rows": [
+    {"position":1,"teamId":611,"teamName":"3. Thursday Thunder","gamesPlayed":4,"wins":4,"losses":0,"ties":0,"points":8},
+    {"position":2,"teamId":612,"teamName":"5. Late Night Lobs","gamesPlayed":4,"wins":0,"losses":4,"ties":0,"points":0}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "programId": 9302,
+  "games": [
+    {
+      "activityId": 9302001,
+      "date": "2027-03-08",
+      "time": "18:30",
+      "courtName": "Court 7",
+      "teams": [
+        {"teamId": 611, "teamName": "3. Thursday Thunder"},
+        {"teamId": 612, "teamName": "5. Late Night Lobs"}
+      ]
+    }
+  ],
+  "tournaments": []
+}

@@ -1,0 +1,26 @@
+{
+  "programId": 9301,
+  "games": [
+    {
+      "activityId": 9301001,
+      "date": "2027-03-01",
+      "time": "19:00",
+      "courtName": "Court 3",
+      "teams": [
+        {"teamId": 601, "teamName": "1. Dual Leaguers"},
+        {"teamId": 602, "teamName": "2. Monday Mashers"}
+      ]
+    },
+    {
+      "activityId": 9301002,
+      "date": "2027-03-15",
+      "time": "20:00",
+      "courtName": "Court 1",
+      "teams": [
+        {"teamId": 601, "teamName": "1. Dual Leaguers"},
+        {"teamId": 603, "teamName": "3. Setters Club"}
+      ]
+    }
+  ],
+  "tournaments": []
+}

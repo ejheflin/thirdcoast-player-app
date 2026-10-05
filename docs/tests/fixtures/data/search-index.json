@@ -13,6 +13,11 @@
     [1, "Sam", 0, 501, "1. Testers United", 2],
     [2, "Robin", 0, 501, "1. Testers United", 1],
     [3, "Samira", 1, 401, "Testers United (Sam T.)", 1],
-    [4, "Isam", 0, 506, "4. Net Prophets", 1]
+    [4, "Isam", 0, 506, "4. Net Prophets", 1],
+    [31, "Mika", 0, 601, "1. Dual Leaguers", 5],
+    [32, "Oren", 0, 601, "1. Dual Leaguers", 1],
+    [33, "Sean", 0, 601, "1. Dual Leaguers", 4],
+    [34, "Sean", 0, 601, "1. Dual Leaguers", 1],
+    [35, "Cher", 0, 601, "1. Dual Leaguers", 2]
   ]
 }

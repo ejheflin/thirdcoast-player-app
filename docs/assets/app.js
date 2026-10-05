@@ -109,6 +109,83 @@ async function fetchJSON(path) {
   return res.json();
 }
 
+// ---------------------------------------------------------------------
+// Re-derivation.
+//
+// This is the entire season-rollover mechanism, and it is deliberately
+// not a mechanism: nothing here detects a rollover, prompts about one, or
+// repairs anything. Last season's programs simply drop out of
+// LIVE/UPCOMING, the new one appears in the person's appearances, and the
+// derived list changes. season.html's roster-voting never runs for an
+// identity user -- which is the whole reason the app stores a person.
+
+// Null means THE FETCH FAILED. An empty array means the person genuinely
+// has no active league right now (the off-season). Conflating the two
+// would turn one bad network call into a wiped identity.
+async function deriveTeamsFor(userId) {
+  const [person, programs] = await Promise.all([
+    fetchJSON(`data/people/${encodeURIComponent(userId)}.json`),
+    fetchJSON('data/programs-index.json'),
+  ]);
+  if (!person || !programs) return null;
+  const active = new Map(
+    programs
+      .filter((p) => p.state === 'LIVE' || p.state === 'UPCOMING')
+      .map((p) => [p.programId, p.programName]),
+  );
+  return (person.appearances ?? [])
+    .filter((a) => active.has(a.programId))
+    .map((a) => ({
+      programId: a.programId,
+      programName: active.get(a.programId),
+      teamId: a.teamId,
+      teamName: a.teamName,
+    }))
+    // Sorted so the stringify comparison below is stable: appearance order
+    // is archiver insertion order and must not be allowed to look like a
+    // change.
+    .sort((a, b) => a.programId - b.programId);
+}
+
+async function refreshMyTeams() {
+  const rec = getMyRecord();
+  if (rec?.userId == null) return;
+
+  let teams;
+  try {
+    teams = await deriveTeamsFor(rec.userId);
+  } catch (err) {
+    console.error('refreshMyTeams: derivation failed, keeping the cache', err);
+    return;
+  }
+  // Keep the cache on failure. A failed refresh must never degrade a
+  // screen that has already rendered perfectly well from it.
+  if (teams === null) return;
+
+  const cached = rec.teams ?? [];
+  if (JSON.stringify(cached) === JSON.stringify(teams)) return;
+
+  // Hold the primary where it still exists, so a player who saved their
+  // Monday team does not silently get moved to their Thursday one.
+  // Falling back to rec.primary (not null) when teams is empty is what
+  // keeps the identity alive through the off-season.
+  const primary =
+    teams.find((t) => t.programId === rec.primary?.programId && t.teamId === rec.primary?.teamId)
+    ?? teams[0]
+    ?? rec.primary
+    ?? null;
+
+  setMyTeam({ ...rec, teams, primary, derivedAt: Date.now() });
+  // The page already rendered from the stale cache, so it is now wrong.
+  // Same remedy reloadIfStale() uses below, for the same reason. It cannot
+  // loop: the write above means the next load's comparison matches.
+  location.reload();
+}
+
+// Fire-and-forget on every page. Only a genuine change to the player's
+// league set costs a reload, which is roughly once a season.
+refreshMyTeams();
+
 // Escape user-controlled strings before inserting into innerHTML to prevent XSS.
 // Team and program names come from LeagueApps and are not sanitized, so they must
 // be escaped whenever inserted into the DOM via innerHTML.

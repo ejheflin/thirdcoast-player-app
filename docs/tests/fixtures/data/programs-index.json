@@ -46,5 +46,17 @@
     "programName": "Test Waiting League",
     "state": "UPCOMING",
     "endDate": 1787000000000
+  },
+  {
+    "programId": 9301,
+    "programName": "Identity Monday League",
+    "state": "LIVE",
+    "endDate": 1810000000000
+  },
+  {
+    "programId": 9302,
+    "programName": "Identity Thursday League",
+    "state": "LIVE",
+    "endDate": 1810000000000
   }
 ]

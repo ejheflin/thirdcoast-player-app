@@ -151,6 +151,58 @@ await go('search.html');
   check('identityDeclined flips and persists', r.before === false && r.after === true);
 }
 
+// ---- re-derivation (app.js) ---------------------------------------------
+await go('search.html');
+{
+  const derived = await page.evaluate(() => deriveTeamsFor(31));
+  check(`deriveTeamsFor finds both active leagues for a two-league person, got ${JSON.stringify(derived)}`,
+    Array.isArray(derived) && derived.length === 2
+    && derived[0].programId === 9301 && derived[1].programId === 9302
+    && derived[0].programName === 'Identity Monday League');
+
+  const single = await page.evaluate(() => deriveTeamsFor(32));
+  check(`deriveTeamsFor finds one league for a single-league person, got ${JSON.stringify(single)}`,
+    Array.isArray(single) && single.length === 1 && single[0].teamId === 601);
+
+  const missing = await page.evaluate(() => deriveTeamsFor(999999));
+  check('deriveTeamsFor returns null (not []) when the person record is missing',
+    missing === null);
+
+  // A cache naming a league that is no longer active gets corrected, and
+  // the identity survives.
+  const corrected = await page.evaluate(async () => {
+    setMyIdentity({
+      userId: 32, firstName: 'Oren',
+      teams: [
+        { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+        { programId: 8888, programName: 'Long Dead League', teamId: 888, teamName: 'Ghost Team' },
+      ],
+      primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+    });
+    // Called directly, not via load, so the reload can be observed by its
+    // absence of effect on this record rather than by navigating.
+    const teams = await deriveTeamsFor(32);
+    return { teams, stored: getMyTeams().length };
+  });
+  check(`stale league is dropped on re-derivation, got ${JSON.stringify(corrected.teams)}`,
+    corrected.teams.length === 1 && corrected.teams[0].programId === 9301);
+
+  // A failed fetch must never wipe a working cache.
+  const kept = await page.evaluate(async () => {
+    setMyIdentity({
+      userId: 999999, firstName: 'Ghost',
+      teams: [{ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' }],
+      primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+    });
+    await refreshMyTeams();
+    return getMyTeams();
+  });
+  check(`a 404 on the people record leaves the cached teams intact, got ${JSON.stringify(kept)}`,
+    kept.length === 1 && kept[0].teamId === 601);
+
+  await page.evaluate(() => localStorage.clear());
+}
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {
