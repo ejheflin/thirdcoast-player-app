@@ -444,6 +444,59 @@ await go('schedule.html?program=9301');
 }
 await page.evaluate(() => localStorage.clear());
 
+// ---- gamenight.html, multi-league ---------------------------------------
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await go('gamenight.html?program=9301&team=601');
+{
+  check('game night greets an identity player by first name, not by league',
+    (await page.$eval('#greet', (el) => el.textContent.trim())) === 'Mika');
+
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  // 2026-09-15 (Monday league) is the earliest date across both leagues,
+  // so that is the night shown -- and it must be labelled with its league.
+  // Team names and .sec-lbl headers render through CSS text-transform:
+  // uppercase, and innerText reflects what's actually rendered rather than
+  // the raw DOM text -- so the comparison is case-insensitive rather than
+  // chasing that styling detail here.
+  const upper = rendered.toUpperCase();
+  check(`the earliest night across BOTH leagues is the one shown, got: ${rendered.slice(0, 200)}`,
+    upper.includes('MONDAY MASHERS') && !upper.includes('LATE NIGHT LOBS'));
+  check('the night is labelled with the league it belongs to',
+    upper.includes('IDENTITY MONDAY LEAGUE'));
+}
+
+// A one-league identity player's game night is unchanged: league name in
+// the greeting is replaced by their own name, and nothing else moves.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 32, firstName: 'Oren',
+    teams: [{ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' }],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await go('gamenight.html?program=9301&team=601');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('a one-league player still sees their single next game',
+    rendered.toUpperCase().includes('MONDAY MASHERS'));
+  check('a one-league player gets no league label cluttering the card',
+    !rendered.toUpperCase().includes('IDENTITY MONDAY LEAGUE'));
+}
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {

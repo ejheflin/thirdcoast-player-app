@@ -42,23 +42,37 @@ if (!saved) {
 }
 
 async function main(saved) {
+  const myTeams = getMyTeams();
+  const multi = myTeams.length > 1;
   const programId = saved.programId;
   const teamId = Number(saved.teamId);
   // Own home feed, so Home is the tab you're on -- no other tab applies here.
   wireTabs({ active: 'home', programId, teamId });
 
   const bodyEl = document.getElementById('body');
-  const [schedule, standings, activities] = await Promise.all([
-    fetchJSON(`data/schedule/${programId}.json`),
-    fetchJSON(`data/standings/${programId}.json`),
-    fetchJSON(`data/activities/${programId}.json`),
-  ]);
 
+  // One fetch trio per league the player is in.
+  const programIds = [...new Set(myTeams.map((t) => t.programId))];
+  const loaded = new Map(await Promise.all(programIds.map(async (pid) => {
+    const [schedule, standings, activities] = await Promise.all([
+      fetchJSON(`data/schedule/${pid}.json`),
+      fetchJSON(`data/standings/${pid}.json`),
+      fetchJSON(`data/activities/${pid}.json`),
+    ]);
+    return [pid, { schedule, standings, activities }];
+  })));
+
+  const mine = loaded.get(programId) ?? { schedule: null, standings: null, activities: null };
+  const standings = mine.standings;
   const programName = standings?.programName ?? saved.programName ?? '';
-  document.getElementById('greet').textContent = programName;
+
+  // The greeting finally names the player, which is what an element called
+  // `greet` was always for -- the app has simply never known until now.
+  const me = getMyIdentity();
+  document.getElementById('greet').textContent = me ? me.firstName : programName;
 
   const myRow = standings?.rows?.find((r) => r.teamId === teamId);
-  const games = activities?.games ?? [];
+  const games = mine.activities?.games ?? [];
   const myGames = games.filter((g) => g.teams.some((t) => t.teamId === teamId));
 
   const seasonStatsLink =
@@ -74,40 +88,59 @@ async function main(saved) {
     'style="color:var(--app-faint);font-size:11.5px;text-decoration:underline">' +
     'Not your team? Search again</a></p>';
 
-  // A real league night can put one team on court more than once, so this
-  // finds the earliest DATE the team appears on and then takes EVERY game
-  // it plays on that date -- however many are real, not a hardcoded two.
-  // (The array's own natural ascending order already makes the first
-  // matching date the earliest, but min-by-date says so explicitly and
-  // survives a schedule that ever arrives unsorted.)
-  const myUpcoming = (schedule?.games ?? []).filter((g) => g.teams.some((t) => t.teamId === teamId));
-  const nextDate = myUpcoming.reduce((earliest, g) => (earliest === null || g.date < earliest ? g.date : earliest), null);
-  const nextGames = nextDate === null
+  // A real league night can put one team on court more than once, and a
+  // player in two leagues can have a night in either. So: collect every
+  // upcoming game across every league, take the earliest DATE among them,
+  // and show every game on that date -- from whichever leagues it falls
+  // in. Same rule as before, one league wider.
+  const upcoming = [];
+  for (const team of myTeams) {
+    const src = loaded.get(team.programId);
+    const tid = Number(team.teamId);
+    for (const g of src?.schedule?.games ?? []) {
+      if (!g.teams.some((t) => t.teamId === tid)) continue;
+      upcoming.push({ game: g, teamId: tid, programId: team.programId, programName: team.programName, standings: src?.standings, games: src?.activities?.games ?? [] });
+    }
+  }
+  const nextDate = upcoming.reduce((earliest, e) => (earliest === null || e.game.date < earliest ? e.game.date : earliest), null);
+  const nextEntries = nextDate === null
     ? []
-    : myUpcoming.filter((g) => g.date === nextDate)
-      .sort((a, b) => String(a.time ?? '').localeCompare(String(b.time ?? '')));
+    : upcoming.filter((e) => e.game.date === nextDate)
+      .sort((a, b) => String(a.game.time ?? '').localeCompare(String(b.game.time ?? '')));
 
-  if (nextGames.length > 0) {
-    // One fetch per game: two games on the same night are normally against
-    // two different opponents, so the roster is per-game, not per-page.
-    const rosters = await Promise.all(nextGames.map((g) => {
-      const opp = g.teams.find((t) => t.teamId !== teamId);
+  if (nextEntries.length > 0) {
+    const rosters = await Promise.all(nextEntries.map((e) => {
+      const opp = e.game.teams.find((t) => t.teamId !== e.teamId);
       return opp
-        ? fetchJSON(`data/rosters/${encodeURIComponent(programId)}-${encodeURIComponent(opp.teamId)}.json`)
+        ? fetchJSON(`data/rosters/${encodeURIComponent(e.programId)}-${encodeURIComponent(opp.teamId)}.json`)
         : Promise.resolve(null);
     }));
 
-    const myName = myRow?.teamName ?? saved.teamName ?? 'Your team';
-    const myRecord = myRow ? `${myRow.wins}-${myRow.losses}-${myRow.ties}` : '';
+    // Grouped under a per-league .sec-lbl when the player is in more than
+    // one, which reuses the section-header idiom every other screen uses
+    // rather than threading a league name through matchCardHTML (which
+    // court.html also calls).
+    const groups = [];
+    for (let i = 0; i < nextEntries.length; i++) {
+      const e = nextEntries[i];
+      let g = groups.find((x) => x.programId === e.programId);
+      if (!g) { g = { programId: e.programId, programName: e.programName, items: [] }; groups.push(g); }
+      g.items.push({ entry: e, roster: rosters[i] });
+    }
 
-    const label = nextGames.length > 1 ? `Next game night · ${nextGames.length} matches` : 'Next game';
+    const countLabel = nextEntries.length > 1 ? `Next game night · ${nextEntries.length} matches` : 'Next game';
     bodyEl.innerHTML = `
-      <div class="sec-lbl" style="margin-top:2px">${label}</div>
-      ${nextGames.map((game, i) => matchCardHTML({
-        game, programId, standings, games,
-        focusTeamId: teamId,
-        rosters: rosters[i] ? { [rosters[i].teamId]: rosters[i] } : {},
-      })).join('')}
+      <div class="sec-lbl" style="margin-top:2px">${escapeHTML(countLabel)}</div>
+      ${groups.map((g) => `
+        ${multi ? `<div class="sec-lbl">${escapeHTML(g.programName ?? '')}</div>` : ''}
+        ${g.items.map(({ entry, roster }) => matchCardHTML({
+          game: entry.game,
+          programId: entry.programId,
+          standings: entry.standings,
+          games: entry.games,
+          focusTeamId: entry.teamId,
+          rosters: roster ? { [roster.teamId]: roster } : {},
+        })).join('')}`).join('')}
       ${seasonStatsLink}
       ${searchAgainLink}
     `;
