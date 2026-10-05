@@ -22,5 +22,17 @@
     "programName": "Test Rollover League",
     "teamId": 952,
     "teamName": "2. New Partners"
+  },
+  {
+    "programId": 9301,
+    "programName": "Identity Monday League",
+    "teamId": 601,
+    "teamName": "1. Dual Leaguers"
+  },
+  {
+    "programId": 9302,
+    "programName": "Identity Thursday League",
+    "teamId": 611,
+    "teamName": "3. Thursday Thunder"
   }
 ]

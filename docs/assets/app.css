@@ -362,6 +362,18 @@ body{background:#101A2C}
 .result span{font-size:12px;color:var(--app-faint)}
 .empty{color:var(--app-faint);font-size:13px;margin-top:16px}
 
+/* The player picker (search.html). Close kin to .result, but a row rather
+   than a card: a roster is 8-12 entries and has to fit one screen. */
+.pick-row{display:flex;align-items:center;gap:11px;width:100%;text-align:left;
+  padding:11px 6px;border:0;background:none;color:var(--app-ink);cursor:pointer}
+.pick-row + .pick-row{border-top:1px solid var(--app-line)}
+.pick-row:active{background:var(--app-raised)}
+.pick-meta{flex:1;min-width:0}
+.pick-name{display:block;font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-sub{display:block;font-size:12.5px;color:var(--app-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick-cap{font-style:normal;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--app-faint);margin-left:6px}
+
 /* ── the match card ──────────────────────────────────────────────────
    A real port of the broadcast board's own court card, not a new
    component: the rules below descend from the ones in the brackets

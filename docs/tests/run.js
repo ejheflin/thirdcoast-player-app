@@ -229,6 +229,78 @@ await go('search.html');
   await page.evaluate(() => localStorage.clear());
 }
 
+// ---- the player picker (search.html) ------------------------------------
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await page.type('#q', 'Dual', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+await page.click('.result');
+await page.waitForSelector('#picker .pick-row', { timeout: 5000 });
+{
+  const rows = await page.$$eval('#picker .pick-row', (els) => els.map((el) => ({
+    name: el.querySelector('.pick-name')?.textContent.trim() ?? '',
+    sub: el.querySelector('.pick-sub')?.textContent.trim() ?? '',
+  })));
+  check(`picker lists all 5 roster members, got ${rows.length}`, rows.length === 5);
+  check('picker shows first name plus last initial, which is what disambiguates two Seans',
+    rows.some((r) => r.name === 'Sean F.') && rows.some((r) => r.name === 'Sean M.'));
+  check(`picker renders a one-token name with no stray period, got ${JSON.stringify(rows.find((r) => r.name.startsWith('Cher')))}`,
+    rows.some((r) => r.name === 'Cher'));
+  check('picker subline carries seasons played',
+    rows.some((r) => /5 seasons/.test(r.sub)));
+  check('picker offers an explicit way out', await page.$('#pickNone') !== null);
+}
+
+// A two-league pick confirms both leagues before saving.
+await page.click('#picker .pick-row[data-user="31"]');
+await page.waitForSelector('#confirmId', { timeout: 5000 });
+{
+  const body = await page.$eval('#body', (el) => el.innerText);
+  check('two-league pick names BOTH leagues for confirmation',
+    body.includes('Identity Monday League') && body.includes('Identity Thursday League'));
+  check('nothing is saved until the player confirms',
+    await page.evaluate(() => localStorage.getItem('thirdcoast-my-team')) === null);
+}
+await clickThrough('#confirmId');
+{
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`confirming saves the identity shape, got ${JSON.stringify(rec)}`,
+    rec.userId === 31 && rec.firstName === 'Mika' && rec.teams.length === 2);
+  check('confirming saves the picked team as primary', rec.primary.teamId === 601);
+  check('confirming routes onward, not back to search', !path().startsWith('/search.html'));
+}
+
+// A single-league pick skips the confirmation step entirely.
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await page.type('#q', 'Dual', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+await page.click('.result');
+await page.waitForSelector('#picker .pick-row', { timeout: 5000 });
+await page.click('#picker .pick-row[data-user="32"]');
+await new Promise((r) => setTimeout(r, 600));
+{
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`a one-league player is saved with no confirmation screen, got ${JSON.stringify(rec)}`,
+    rec && rec.userId === 32 && rec.teams.length === 1);
+}
+
+// Skipping stores the team-only shape plus the durable declined flag.
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await page.type('#q', 'Dual', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+await page.click('.result');
+await page.waitForSelector('#pickNone', { timeout: 5000 });
+await clickThrough('#pickNone');
+{
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`skipping the picker stores the team-only shape, got ${JSON.stringify(rec)}`,
+    rec && rec.userId === undefined && rec.teamId === 601);
+  check('skipping is durable', await page.evaluate(() => identityDeclined()) === true);
+}
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {
