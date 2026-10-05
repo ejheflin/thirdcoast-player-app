@@ -1320,8 +1320,11 @@ await page.evaluate(() => localStorage.clear());
 await go('search.html');
 await page.type('#q', 'testers', { delay: 20 });
 await new Promise((r) => setTimeout(r, 300));
-await clickThrough('.result');
-check('search result -> team page', path().startsWith('/team.html') && path().includes('team=501'));
+await page.click('.result');
+await page.waitForSelector('#pickNone', { timeout: 5000 });
+await clickThrough('#pickNone');
+check('search result -> player picker -> "none of these" -> team page',
+  path().startsWith('/team.html') && path().includes('team=501'));
 
 // team.html is NOT Home any more -- Home is index.html, the router, which
 // lands a regular-season player on gamenight.html, the next-game feed.
@@ -1392,7 +1395,9 @@ await page.evaluate(() => localStorage.clear());
 await go('search.html');
 await page.type('#q', 'testers', { delay: 20 });
 await new Promise((r) => setTimeout(r, 300));
-await clickThrough('.result'); // a real save, made by a real click
+await page.click('.result');
+await page.waitForSelector('#pickNone', { timeout: 5000 });
+await clickThrough('#pickNone'); // a real team-only save, made by real clicks
 
 // The device state a returning player actually shows up with months later:
 // the pointer they saved, to a program that has since gone away. Only the
