@@ -159,8 +159,11 @@ async function main() {
       }).join('')}
     </div>`).join('');
 
-  // The playoff marker stays per-league and is only shown for the league
-  // in context, which is the one the tab bar points at.
+  // The playoff marker stays per-league, and it follows the player's
+  // PRIMARY league specifically, not whichever program happens to be in
+  // the URL -- a merged list has no single "current" league to hang a
+  // one-off announcement on, so it defaults to the one the player
+  // actually calls theirs.
   const marker = (primary?.schedule?.tournaments ?? [])[0];
   const markerHtml = marker
     ? `<div class="sec-lbl">${escapeHTML(dayLabel(marker.date))}</div>

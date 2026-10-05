@@ -421,6 +421,27 @@ await go('schedule.html?program=9301');
 await clickThrough('.sched-row a, a.row-link');
 check(`a merged row links to its own league's team page, landed on ${path()}`,
   path().startsWith('/team.html') && path().includes('program=9301'));
+
+// The check above only ever exercises the first chronological row, which
+// belongs to the PRIMARY league and happens to share the page's own
+// ?program=9301 -- so it would pass even if every row borrowed the
+// outer programId instead of carrying its own. Drilling into the OTHER
+// league's row, and asserting it lands on ITS program (9302, not the
+// page's 9301), is the only thing that actually proves each row carries
+// its own league through.
+await go('schedule.html?program=9301');
+{
+  const oppNames = await page.$$eval('.sched-opp-name', (els) => els.map((el) => el.textContent.trim()));
+  const idx = oppNames.indexOf('Late Night Lobs');
+  check(`found the Thursday-league row to drill into, got index ${idx} of ${JSON.stringify(oppNames)}`,
+    idx !== -1);
+  await Promise.all([
+    page.waitForNavigation({ waitUntil: 'networkidle0' }),
+    page.$$eval('a.row-link', (els, i) => els[i].click(), idx),
+  ]);
+  check(`a merged row for the OTHER league links to ITS OWN program/team, not the page's, landed on ${path()}`,
+    path().startsWith('/team.html') && path().includes('program=9302') && path().includes('team=612'));
+}
 await page.evaluate(() => localStorage.clear());
 
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
