@@ -32,8 +32,6 @@
 <script src="assets/app.js"></script>
 <script>
 const programId = new URLSearchParams(location.search).get('program');
-const saved = getMyTeam();
-const teamId = saved ? Number(saved.teamId) : null;
 wireTabs({ active: 'schedule', programId });
 
 // COURT, courtNumberOf and shortTime used to be duplicated here verbatim
@@ -61,38 +59,73 @@ function dayLabel(dateISO) {
 
 async function main() {
   const bodyEl = document.getElementById('body');
-  if (!saved || programId == null) {
+  const myTeams = getMyTeams();
+  if (myTeams.length === 0) {
     bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We can\'t find a saved team — <a href="search.html" style="color:var(--app-data)">search again</a>.</p>';
     return;
   }
 
-  const [schedule, standings] = await Promise.all([
-    fetchJSON(`data/schedule/${programId}.json`),
-    fetchJSON(`data/standings/${programId}.json`),
-  ]);
+  // One league is the overwhelmingly common case, and it must render
+  // exactly as it always has -- no league labels, same markup. Every
+  // multi-league branch below is gated on this.
+  const multi = myTeams.length > 1;
 
-  document.getElementById('greet').textContent = standings?.programName ?? saved.programName ?? '';
+  // One fetch pair per LEAGUE, not per team: a player is on one team per
+  // program, but asking by team would double-fetch if that ever changed.
+  const programIds = [...new Set(myTeams.map((t) => t.programId))];
+  const fetched = await Promise.all(programIds.map(async (pid) => {
+    const [schedule, standings] = await Promise.all([
+      fetchJSON(`data/schedule/${pid}.json`),
+      fetchJSON(`data/standings/${pid}.json`),
+    ]);
+    return { programId: pid, schedule, standings };
+  }));
+  const byProgram = new Map(fetched.map((f) => [f.programId, f]));
 
-  const myGames = (schedule?.games ?? [])
-    .filter((g) => g.teams.some((t) => t.teamId === teamId))
-    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  // The greeting names the player when the app knows them, and otherwise
+  // keeps naming the league exactly as before.
+  // getMyTeam(), not myTeams[0]: deriveTeamsFor sorts by programId, so the
+  // first element of the array is NOT necessarily the player's primary
+  // league. The greeting and the playoff marker below both follow the
+  // primary.
+  const me = getMyIdentity();
+  const primaryTeam = getMyTeam() ?? myTeams[0];
+  const primary = byProgram.get(primaryTeam.programId);
+  document.getElementById('greet').textContent = multi && me
+    ? me.firstName
+    : (primary?.standings?.programName ?? primaryTeam.programName ?? '');
+
+  // Every game the player is in, from every league, tagged with which of
+  // their teams is playing it and which league it belongs to.
+  const myGames = [];
+  for (const team of myTeams) {
+    const src = byProgram.get(team.programId);
+    const teamId = Number(team.teamId);
+    for (const g of src?.schedule?.games ?? []) {
+      if (!g.teams.some((t) => t.teamId === teamId)) continue;
+      myGames.push({ game: g, teamId, programId: team.programId, programName: team.programName, standings: src?.standings });
+    }
+  }
+  myGames.sort((a, b) => (a.game.date + a.game.time).localeCompare(b.game.date + b.game.time));
 
   if (myGames.length === 0) {
     bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">No games left on the schedule.</p>';
     return;
   }
 
+  // Grouped by DATE across leagues, not by league then date: the player's
+  // week is one week, however many leagues it spans.
   const byDate = [];
-  for (const g of myGames) {
-    let group = byDate.find((x) => x.date === g.date);
-    if (!group) { group = { date: g.date, games: [] }; byDate.push(group); }
-    group.games.push(g);
+  for (const entry of myGames) {
+    let group = byDate.find((x) => x.date === entry.game.date);
+    if (!group) { group = { date: entry.game.date, entries: [] }; byDate.push(group); }
+    group.entries.push(entry);
   }
 
   const rowsHtml = byDate.map((group) => `
     <div class="sec-lbl">${escapeHTML(dayLabel(group.date))}</div>
     <div class="card" style="padding:2px 8px">
-      ${group.games.map((g) => {
+      ${group.entries.map(({ game: g, teamId, programId, programName, standings }) => {
         const opp = g.teams.find((t) => t.teamId !== teamId);
         const oppRow = opp ? standings?.rows?.find((r) => r.teamId === opp.teamId) : null;
         const oppName = opp ? displayTeamName(opp.teamName, { stripCaptain: true }) : 'TBD';
@@ -106,19 +139,29 @@ async function main() {
         const ctInk = paint ? paint.ink : 'var(--app-ink)';
         const badgeText = courtNum === null ? '—' : String(courtNum);
 
+        // Single league: the flat text node it has always been, so the
+        // markup is unchanged. Two leagues: a name over a league label,
+        // because .sched-opp is a nowrap ellipsis cell and a fifth
+        // sibling column would not survive a phone's width.
+        const oppCell = multi
+          ? `<div class="sched-opp"><div class="sched-opp-name">${escapeHTML(oppName)}</div><div class="sched-opp-league">${escapeHTML(programName ?? '')}</div></div>`
+          : `<div class="sched-opp">${escapeHTML(oppName)}</div>`;
+
         return `
           <a class="row-link" href="team.html?team=${encodeURIComponent(opp?.teamId ?? '')}&program=${encodeURIComponent(programId)}">
             <div class="sched-row">
               <div class="sched-court-badge${paint?.faint ? ' faint' : ''}" style="--ct:${ct};--ct-ink:${ctInk}" title="${escapeHTML(paint ? paint.name : (g.courtName ?? 'court TBD'))}">${escapeHTML(badgeText)}</div>
               <div class="sched-when">${escapeHTML(shortTime(g.time))}</div>
-              <div class="sched-opp">${escapeHTML(oppName)}</div>
+              ${oppCell}
               <div class="sched-rec">${escapeHTML(oppRecord)}</div>
             </div>
           </a>`;
       }).join('')}
     </div>`).join('');
 
-  const marker = (schedule?.tournaments ?? [])[0];
+  // The playoff marker stays per-league and is only shown for the league
+  // in context, which is the one the tab bar points at.
+  const marker = (primary?.schedule?.tournaments ?? [])[0];
   const markerHtml = marker
     ? `<div class="sec-lbl">${escapeHTML(dayLabel(marker.date))}</div>
        <div class="card" style="padding:14px 12px;text-align:center">

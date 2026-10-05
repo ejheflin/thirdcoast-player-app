@@ -353,6 +353,76 @@ check(`an identity user is never sent to the picker, landed on ${path()}`,
   !path().includes('identify=1'));
 await page.evaluate(() => localStorage.clear());
 
+// ---- schedule.html, multi-league ----------------------------------------
+// A single-league player's schedule must be byte-identical to the
+// team-only baseline. This is the guard on "invisible to the 85%".
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyTeam({ programId: 9010, teamId: 701, teamName: '1. Spike Force', programName: 'Schedule Test League' });
+});
+await go('schedule.html?program=9010');
+const teamOnlyScheduleHTML = await page.$eval('#body', (el) => el.innerHTML);
+
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 40, firstName: 'Solo',
+    teams: [{ programId: 9010, programName: 'Schedule Test League', teamId: 701, teamName: '1. Spike Force' }],
+    primary: { programId: 9010, programName: 'Schedule Test League', teamId: 701, teamName: '1. Spike Force' },
+  });
+});
+await go('schedule.html?program=9010');
+{
+  const identityScheduleHTML = await page.$eval('#body', (el) => el.innerHTML);
+  check('a one-league identity player gets the exact same schedule markup as a team-only player',
+    identityScheduleHTML === teamOnlyScheduleHTML);
+  check('a one-league player sees no league labels at all',
+    (await page.$('.sched-opp-league')) === null);
+}
+
+// Two leagues: one chronological list, interleaved, each row labelled.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await go('schedule.html?program=9301');
+{
+  const rows = await page.$$eval('.sched-row', (els) => els.map((el) => ({
+    opp: el.querySelector('.sched-opp-name')?.textContent.trim() ?? el.querySelector('.sched-opp')?.textContent.trim() ?? '',
+    league: el.querySelector('.sched-opp-league')?.textContent.trim() ?? '',
+    rec: el.querySelector('.sched-rec')?.textContent.trim() ?? '',
+  })));
+  check(`a two-league schedule lists all 3 games across both leagues, got ${rows.length}`,
+    rows.length === 3);
+  check('each row names its league',
+    rows.filter((r) => r.league === 'Identity Monday League').length === 2
+    && rows.filter((r) => r.league === 'Identity Thursday League').length === 1);
+  check(`the two leagues interleave in date order, got ${JSON.stringify(rows.map((r) => r.opp))}`,
+    rows[0].opp === 'Monday Mashers' && rows[1].opp === 'Late Night Lobs' && rows[2].opp === 'Setters Club');
+  check('opponent records come from the right league\'s standings',
+    rows.some((r) => r.opp === 'Late Night Lobs' && r.rec === '0-4-0')
+    && rows.some((r) => r.opp === 'Monday Mashers' && r.rec === '2-2-0'));
+
+  const headers = await page.$$eval('.sec-lbl', (els) => els.map((el) => el.textContent.trim()));
+  check(`date headers span leagues rather than repeating per league, got ${JSON.stringify(headers)}`,
+    headers.length === 3);
+}
+// A row still drills into the right league's team page.
+await clickThrough('.sched-row a, a.row-link');
+check(`a merged row links to its own league's team page, landed on ${path()}`,
+  path().startsWith('/team.html') && path().includes('program=9301'));
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {

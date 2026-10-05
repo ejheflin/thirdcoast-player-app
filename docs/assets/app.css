@@ -348,6 +348,9 @@ body{background:#101A2C}
 .sched-court-badge.faint{box-shadow:inset 0 0 0 1px rgba(217,201,163,.45)}
 .sched-when{flex:none;width:44px;font-size:13px;font-weight:700;color:var(--app-dim)}
 .sched-opp{flex:1;min-width:0;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sched-opp-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sched-opp-league{font-size:11.5px;font-weight:700;color:var(--app-faint);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sched-rec{flex:none;font-size:13px;font-weight:700;color:var(--app-dim)}
 
 /* entry-point search (index.html) */
