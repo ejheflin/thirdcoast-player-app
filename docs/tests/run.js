@@ -107,6 +107,50 @@ await page.evaluate(() => localStorage.clear());
     typeof results[4] === 'string');
 }
 
+// ---- identity storage (app.js) ------------------------------------------
+await go('search.html');
+{
+  const r = await page.evaluate(() => {
+    const team = { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' };
+    const other = { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' };
+
+    localStorage.clear();
+    const none = { team: getMyTeam(), teams: getMyTeams(), id: getMyIdentity() };
+
+    // Team-only shape: exactly today's record, written by search.html.
+    setMyTeam(team);
+    const teamOnly = { team: getMyTeam(), teams: getMyTeams(), id: getMyIdentity() };
+
+    // Identity shape.
+    localStorage.clear();
+    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [team, other], primary: team });
+    const ident = { team: getMyTeam(), teams: getMyTeams(), id: getMyIdentity() };
+
+    // Declining is durable.
+    const before = identityDeclined();
+    declineIdentity();
+    const after = identityDeclined();
+
+    localStorage.clear();
+    return { none, teamOnly, ident, before, after };
+  });
+
+  check('no saved record: getMyTeam() is null and getMyTeams() is empty',
+    r.none.team === null && r.none.teams.length === 0 && r.none.id === null);
+  check(`team-only record: getMyTeam() returns it unchanged, got ${JSON.stringify(r.teamOnly.team)}`,
+    r.teamOnly.team.teamId === 601 && r.teamOnly.team.programId === 9301);
+  check('team-only record: getMyTeams() returns exactly one team, so callers never special-case',
+    r.teamOnly.teams.length === 1 && r.teamOnly.teams[0].teamId === 601);
+  check('team-only record: getMyIdentity() is null', r.teamOnly.id === null);
+  check(`identity record: getMyTeam() returns the PRIMARY team, got ${JSON.stringify(r.ident.team)}`,
+    r.ident.team.teamId === 601 && r.ident.team.programName === 'Identity Monday League');
+  check(`identity record: getMyTeams() returns both leagues, got ${r.ident.teams.length}`,
+    r.ident.teams.length === 2 && r.ident.teams.some((t) => t.teamId === 611));
+  check('identity record: getMyIdentity() returns userId and firstName',
+    r.ident.id.userId === 31 && r.ident.id.firstName === 'Mika');
+  check('identityDeclined flips and persists', r.before === false && r.after === true);
+}
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {

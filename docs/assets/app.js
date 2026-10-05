@@ -10,8 +10,27 @@ async function injectIcons() {
 }
 
 const TEAM_KEY = 'thirdcoast-my-team';
+const DECLINED_KEY = 'thirdcoast-identity-declined';
 
-function getMyTeam() {
+// Two shapes live under TEAM_KEY, and the accessors below are the ONLY
+// place that difference is handled -- which is what keeps this change off
+// the other six pages that read a saved team.
+//
+//   team-only  { programId, programName, teamId, teamName }
+//              what search.html has always written, still written when a
+//              player skips the "which one is you?" step or is not on an
+//              archived roster.
+//
+//   identity   { userId, firstName, primary, teams[], derivedAt }
+//              `teams` is a CACHE. The source of truth is
+//              people/{userId}.json ∩ programs-index.json, recomputed by
+//              refreshMyTeams() on every load -- that recomputation is the
+//              whole season-rollover mechanism. The cache exists so pages
+//              paint from localStorage instead of waiting on two fetches.
+//
+// An identity record is told apart by `userId`, nothing else.
+
+function getMyRecord() {
   try {
     const raw = localStorage.getItem(TEAM_KEY);
     return raw ? JSON.parse(raw) : null;
@@ -20,12 +39,64 @@ function getMyTeam() {
   }
 }
 
+// Unchanged contract, deliberately: six pages call this and must keep
+// working untouched. An identity record answers with its primary team,
+// which has exactly the team-only shape.
+function getMyTeam() {
+  const rec = getMyRecord();
+  if (!rec) return null;
+  if (rec.userId == null) return rec;
+  return rec.primary ?? rec.teams?.[0] ?? null;
+}
+
+// Always an array, so no caller needs to know which shape is stored. A
+// team-only record is simply a one-league player.
+function getMyTeams() {
+  const rec = getMyRecord();
+  if (!rec) return [];
+  if (rec.userId == null) return [rec];
+  return rec.teams ?? [];
+}
+
+function getMyIdentity() {
+  const rec = getMyRecord();
+  return rec?.userId == null ? null : { userId: rec.userId, firstName: rec.firstName };
+}
+
 function setMyTeam(team) {
   localStorage.setItem(TEAM_KEY, JSON.stringify(team));
 }
 
+function setMyIdentity({ userId, firstName, teams, primary }) {
+  setMyTeam({
+    userId,
+    firstName,
+    primary: primary ?? teams?.[0] ?? null,
+    teams: teams ?? [],
+    derivedAt: Date.now(),
+  });
+}
+
 function clearMyTeam() {
   localStorage.removeItem(TEAM_KEY);
+}
+
+// Durable, not the install nag's sliding 30-minute quiet (nagQuiet, below):
+// the player is asked who they are exactly once. This app already has one
+// recurring full-screen nag, and a second would be the wrong trade for a
+// feature that is entirely optional.
+function identityDeclined() {
+  try {
+    return localStorage.getItem(DECLINED_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function declineIdentity() {
+  try {
+    localStorage.setItem(DECLINED_KEY, '1');
+  } catch { /* private mode: they'll be asked again, which is survivable */ }
 }
 
 // fetchJSON never throws on a 404 -- "no data yet" is a normal state for
