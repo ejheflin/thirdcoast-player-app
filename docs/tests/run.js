@@ -463,16 +463,47 @@ await go('gamenight.html?program=9301&team=601');
     (await page.$eval('#greet', (el) => el.textContent.trim())) === 'Mika');
 
   const rendered = await page.$eval('#body', (el) => el.innerText);
-  // 2026-09-15 (Monday league) is the earliest date across both leagues,
-  // so that is the night shown -- and it must be labelled with its league.
-  // Team names and .sec-lbl headers render through CSS text-transform:
-  // uppercase, and innerText reflects what's actually rendered rather than
-  // the raw DOM text -- so the comparison is case-insensitive rather than
-  // chasing that styling detail here.
+  // 2027-03-01 (Monday league) is the earliest date across both leagues --
+  // 2027-03-08 (Thursday league) is later -- so that is the night shown,
+  // and it must be labelled with its league. Team names and .sec-lbl
+  // headers render through CSS text-transform:uppercase, and innerText
+  // reflects what's actually rendered rather than the raw DOM text -- so
+  // the comparison is case-insensitive rather than chasing that styling
+  // detail here.
   const upper = rendered.toUpperCase();
   check(`the earliest night across BOTH leagues is the one shown, got: ${rendered.slice(0, 200)}`,
     upper.includes('MONDAY MASHERS') && !upper.includes('LATE NIGHT LOBS'));
   check('the night is labelled with the league it belongs to',
+    upper.includes('IDENTITY MONDAY LEAGUE'));
+}
+
+// The check above saves the Monday league (9301) as PRIMARY, which is also
+// the earlier league -- so it would pass identically even if the merge
+// only ever looked at the primary and never reached into a second league.
+// Flip which league is primary and load game night FROM the Thursday
+// program: only genuine cross-league logic reaches past its own primary
+// league to find the Monday league's earlier night.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+  });
+});
+await go('gamenight.html?program=9302&team=611');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  const upper = rendered.toUpperCase();
+  check(
+    `game night shows the earliest night across leagues even when it is NOT the primary league's, got: ${rendered.slice(0, 200)}`,
+    upper.includes('MONDAY MASHERS') && !upper.includes('LATE NIGHT LOBS'),
+  );
+  check('the night is labelled with the Monday league, not the primary Thursday league',
     upper.includes('IDENTITY MONDAY LEAGUE'));
 }
 
