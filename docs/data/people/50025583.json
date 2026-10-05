@@ -55,6 +55,12 @@
       "teamId": 7562494,
       "teamName": "2. Ivy C. and Julia V.",
       "isCaptain": false
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8178840,
+      "teamName": "10. Julia V. and Beth B.",
+      "isCaptain": true
     }
   ]
 }

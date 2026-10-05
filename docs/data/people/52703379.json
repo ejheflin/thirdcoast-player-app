@@ -13,6 +13,12 @@
       "teamId": 7760672,
       "teamName": "1. Arsenal Gunners (David T.)",
       "isCaptain": false
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8179595,
+      "teamName": "1. Brooke F. and Angel H.",
+      "isCaptain": true
     }
   ]
 }

@@ -145,6 +145,12 @@
       "teamId": 6545914,
       "teamName": "3. Susan P. & Beth B.",
       "isCaptain": true
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8178840,
+      "teamName": "10. Julia V. and Beth B.",
+      "isCaptain": false
     }
   ]
 }

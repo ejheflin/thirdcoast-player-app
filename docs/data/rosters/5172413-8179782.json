@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8179782,
+  "teamName": "8. Cat H. and Deanna V.",
+  "players": [
+    {
+      "userId": 58681232,
+      "firstName": "Catherine",
+      "isCaptain": true
+    },
+    {
+      "userId": 58683629,
+      "firstName": "Deanna",
+      "isCaptain": false
+    }
+  ]
+}

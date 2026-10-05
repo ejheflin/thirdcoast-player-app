@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8178867,
+  "teamName": "4. Fran R. and Kat H.",
+  "players": [
+    {
+      "userId": 46560615,
+      "firstName": "Kat",
+      "isCaptain": false
+    },
+    {
+      "userId": 14770312,
+      "firstName": "Fran",
+      "isCaptain": true
+    }
+  ]
+}

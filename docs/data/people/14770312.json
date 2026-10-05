@@ -1,6 +1,6 @@
 {
   "userId": 14770312,
-  "firstName": "Francesca",
+  "firstName": "Fran",
   "appearances": [
     {
       "programId": 3957842,
@@ -13,6 +13,12 @@
       "teamId": 6546424,
       "teamName": "2. Fran R. & Dan L.",
       "isCaptain": false
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
+      "isCaptain": true
     }
   ]
 }

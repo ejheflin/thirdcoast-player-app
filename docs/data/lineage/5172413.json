@@ -1,0 +1,235 @@
+{
+  "programId": 5172413,
+  "teams": {
+    "8178840": {
+      "seasons": 2,
+      "move": null,
+      "from": {
+        "programId": 5062087,
+        "teamId": 8016497,
+        "programName": "Tuesday Womens 2s A",
+        "teamName": "5. Beth B. and Julia V.",
+        "level": "A"
+      },
+      "history": [
+        {
+          "programId": 5062087,
+          "teamId": 8016497,
+          "programName": "Tuesday Womens 2s A",
+          "teamName": "5. Beth B. and Julia V.",
+          "endDate": 1789444800000,
+          "level": "A",
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 9,
+          "ties": 3
+        },
+        {
+          "programId": 5172413,
+          "teamId": 8178840,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "10. Julia V. and Beth B.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 1,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8178846": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8178846,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "7. Mili V. and Tiffany S.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 2,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8178867": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8178867,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "4. Fran R. and Kat H.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8179406": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8179406,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "5. Doria O. and Anna S.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 4,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8179595": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8179595,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "1. Brooke F. and Angel H.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 5,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8179782": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8179782,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "8. Cat H. and Deanna V.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 6,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8179958": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8179958,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "3. Denise H. and Kim S.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 7,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8185977": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8185977,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "9. Gabby T. and Mikah M.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 8,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8186968": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8186968,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "2. Annie J. and Anna C.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 9,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    },
+    "8191327": {
+      "seasons": 1,
+      "move": null,
+      "from": null,
+      "history": [
+        {
+          "programId": 5172413,
+          "teamId": 8191327,
+          "programName": "Monday Womens 2s Pop Up",
+          "teamName": "6. Annie H. and Jordan W.",
+          "endDate": 1796014800000,
+          "level": null,
+          "move": null,
+          "position": 10,
+          "teamCount": 10,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8185977,
+  "teamName": "9. Gabby T. and Mikah M.",
+  "players": [
+    {
+      "userId": 45106113,
+      "firstName": "Mikah",
+      "isCaptain": false
+    },
+    {
+      "userId": 47994805,
+      "firstName": "Gabby",
+      "isCaptain": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8178846,
+  "teamName": "7. Mili V. and Tiffany S.",
+  "players": [
+    {
+      "userId": 14760175,
+      "firstName": "Tiffany",
+      "isCaptain": false
+    },
+    {
+      "userId": 14608675,
+      "firstName": "Milica",
+      "isCaptain": true
+    }
+  ]
+}

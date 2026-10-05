@@ -37,6 +37,54 @@
           ]
         },
         {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8178867,
+              "teamName": "4. Fran R. and Kat H."
+            },
+            {
+              "teamId": 8179406,
+              "teamName": "5. Doria O. and Anna S."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8179958,
+              "teamName": "3. Denise H. and Kim S."
+            },
+            {
+              "teamId": 8178840,
+              "teamName": "10. Julia V. and Beth B."
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8179595,
+              "teamName": "1. Brooke F. and Angel H."
+            },
+            {
+              "teamId": 8178846,
+              "teamName": "7. Mili V. and Tiffany S."
+            }
+          ]
+        },
+        {
           "court": 6,
           "courtName": "Court 6",
           "programId": 5154234,
@@ -134,6 +182,54 @@
             {
               "teamId": 8170440,
               "teamName": "8. Jenny S. and Nate G."
+            }
+          ]
+        },
+        {
+          "court": 3,
+          "courtName": "Court 3",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8179958,
+              "teamName": "3. Denise H. and Kim S."
+            },
+            {
+              "teamId": 8178846,
+              "teamName": "7. Mili V. and Tiffany S."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8179595,
+              "teamName": "1. Brooke F. and Angel H."
+            },
+            {
+              "teamId": 8179406,
+              "teamName": "5. Doria O. and Anna S."
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8178867,
+              "teamName": "4. Fran R. and Kat H."
+            },
+            {
+              "teamId": 8178840,
+              "teamName": "10. Julia V. and Beth B."
             }
           ]
         },
@@ -251,6 +347,38 @@
             {
               "teamId": 8160252,
               "teamName": "7. Kim M. and Travis B."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8186968,
+              "teamName": "2. Annie J. and Anna C."
+            },
+            {
+              "teamId": 8185977,
+              "teamName": "9. Gabby T. and Mikah M."
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8191327,
+              "teamName": "6. Annie H. and Jordan W."
+            },
+            {
+              "teamId": 8179782,
+              "teamName": "8. Cat H. and Deanna V."
             }
           ]
         },
@@ -384,6 +512,38 @@
             {
               "teamId": 8159362,
               "teamName": "5. Joann L. and Jacob W."
+            }
+          ]
+        },
+        {
+          "court": 4,
+          "courtName": "Court 4",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8179782,
+              "teamName": "8. Cat H. and Deanna V."
+            },
+            {
+              "teamId": 8185977,
+              "teamName": "9. Gabby T. and Mikah M."
+            }
+          ]
+        },
+        {
+          "court": 5,
+          "courtName": "Court 5",
+          "programId": 5172413,
+          "programName": "Monday Womens 2s Pop Up",
+          "teams": [
+            {
+              "teamId": 8186968,
+              "teamName": "2. Annie J. and Anna C."
+            },
+            {
+              "teamId": 8191327,
+              "teamName": "6. Annie H. and Jordan W."
             }
           ]
         },

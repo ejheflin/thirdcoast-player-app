@@ -1,5 +1,106 @@
 {
   "programId": 5172413,
   "programName": "Monday Womens 2s Pop Up",
-  "rows": []
+  "rows": [
+    {
+      "position": 1,
+      "teamId": 8178840,
+      "teamName": "10. Julia V. and Beth B.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 2,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 3,
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 4,
+      "teamId": 8179406,
+      "teamName": "5. Doria O. and Anna S.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 5,
+      "teamId": 8179595,
+      "teamName": "1. Brooke F. and Angel H.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 6,
+      "teamId": 8179782,
+      "teamName": "8. Cat H. and Deanna V.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 7,
+      "teamId": 8179958,
+      "teamName": "3. Denise H. and Kim S.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 8,
+      "teamId": 8185977,
+      "teamName": "9. Gabby T. and Mikah M.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 9,
+      "teamId": 8186968,
+      "teamName": "2. Annie J. and Anna C.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    },
+    {
+      "position": 10,
+      "teamId": 8191327,
+      "teamName": "6. Annie H. and Jordan W.",
+      "gamesPlayed": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "points": 0
+    }
+  ]
 }

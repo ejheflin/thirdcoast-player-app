@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8179595,
+  "teamName": "1. Brooke F. and Angel H.",
+  "players": [
+    {
+      "userId": 52703379,
+      "firstName": "Brooke",
+      "isCaptain": true
+    },
+    {
+      "userId": 57827553,
+      "firstName": "Angel",
+      "isCaptain": false
+    }
+  ]
+}

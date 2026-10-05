@@ -49,6 +49,12 @@
       "teamId": 6551663,
       "teamName": "10. Tiffany S. & Brittney G.",
       "isCaptain": true
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "isCaptain": false
     }
   ]
 }

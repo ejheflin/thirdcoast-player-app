@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8186968,
+  "teamName": "2. Annie J. and Anna C.",
+  "players": [
+    {
+      "userId": 58713874,
+      "firstName": "Anna",
+      "isCaptain": false
+    },
+    {
+      "userId": 58721068,
+      "firstName": "Annie",
+      "isCaptain": true
+    }
+  ]
+}

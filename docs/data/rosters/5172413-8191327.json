@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8191327,
+  "teamName": "6. Annie H. and Jordan W.",
+  "players": [
+    {
+      "userId": 58573685,
+      "firstName": "Annie",
+      "isCaptain": true
+    },
+    {
+      "userId": 41062593,
+      "firstName": "Jordan",
+      "isCaptain": false
+    }
+  ]
+}

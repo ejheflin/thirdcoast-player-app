@@ -1,0 +1,17 @@
+{
+  "programId": 5172413,
+  "teamId": 8179406,
+  "teamName": "5. Doria O. and Anna S.",
+  "players": [
+    {
+      "userId": 53587344,
+      "firstName": "Doria",
+      "isCaptain": true
+    },
+    {
+      "userId": 53615881,
+      "firstName": "Anna",
+      "isCaptain": false
+    }
+  ]
+}

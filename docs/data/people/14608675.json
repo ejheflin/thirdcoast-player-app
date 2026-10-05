@@ -31,6 +31,12 @@
       "teamId": 6144468,
       "teamName": "1. Mili V. & Brian T.",
       "isCaptain": false
+    },
+    {
+      "programId": 5172413,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "isCaptain": true
     }
   ]
 }
