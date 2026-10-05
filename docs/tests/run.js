@@ -169,8 +169,13 @@ await go('search.html');
     missing === null);
 
   // A cache naming a league that is no longer active gets corrected, and
-  // the identity survives.
-  const corrected = await page.evaluate(async () => {
+  // the identity survives. Driven through the real module-level
+  // refreshMyTeams() by navigating, not by calling it directly, so the
+  // cache-rewrite + reload path that IS the rollover mechanism actually
+  // runs (location.reload() resists stubbing, so this is the only honest
+  // way to exercise it).
+  await page.evaluate(() => {
+    localStorage.clear();
     setMyIdentity({
       userId: 32, firstName: 'Oren',
       teams: [
@@ -179,13 +184,34 @@ await go('search.html');
       ],
       primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
     });
-    // Called directly, not via load, so the reload can be observed by its
-    // absence of effect on this record rather than by navigating.
-    const teams = await deriveTeamsFor(32);
-    return { teams, stored: getMyTeams().length };
   });
-  check(`stale league is dropped on re-derivation, got ${JSON.stringify(corrected.teams)}`,
-    corrected.teams.length === 1 && corrected.teams[0].programId === 9301);
+  await go('search.html');
+  await new Promise((r) => setTimeout(r, 800));
+  {
+    const rec = await page.evaluate(() => getMyRecord());
+    check(`stale league is dropped on re-derivation and the identity survives, got ${JSON.stringify(rec)}`,
+      rec.userId === 32 && rec.teams.length === 1 && rec.teams[0].programId === 9301
+      && rec.primary.teamId === 601);
+  }
+
+  // A primary pointing at a league that no longer exists falls back to the
+  // one team that survived, rather than vanishing along with the ghost
+  // league it used to point at.
+  await page.evaluate(() => {
+    localStorage.clear();
+    setMyIdentity({
+      userId: 32, firstName: 'Oren',
+      teams: [{ programId: 8888, programName: 'Long Dead League', teamId: 888, teamName: 'Ghost Team' }],
+      primary: { programId: 8888, programName: 'Long Dead League', teamId: 888, teamName: 'Ghost Team' },
+    });
+  });
+  await go('search.html');
+  await new Promise((r) => setTimeout(r, 800));
+  {
+    const rec = await page.evaluate(() => getMyRecord());
+    check(`a primary pointing at a dead league falls back to the surviving team, got ${JSON.stringify(rec)}`,
+      rec.teams.length === 1 && rec.teams[0].programId === 9301 && rec.primary.teamId === 601);
+  }
 
   // A failed fetch must never wipe a working cache.
   const kept = await page.evaluate(async () => {
