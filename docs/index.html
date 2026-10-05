@@ -99,10 +99,60 @@ function isPlayoffNight(schedule, today) {
   return earliest(tournaments) <= earliest(games);
 }
 
-// Filled in by Task 9. For now an identity user routes exactly as a
-// team-only one does, off their primary team.
+// An identity user needs no season check at all. refreshMyTeams() in
+// app.js has already recomputed their active leagues from
+// people/{userId}.json -- a rollover is not detected here, it simply
+// already happened. So resolveSeason's roster voting, and the
+// confirmation screen it exists to ask for, never run.
 async function routeIdentity(rec) {
-  return route(rec.primary ?? rec.teams?.[0] ?? rec);
+  const q = encodeURIComponent;
+  const teams = rec.teams ?? [];
+
+  // No active league. NOT a dead pointer: a person does not expire the way
+  // a {programId, teamId} pair does, and wiping the identity to "fix" a
+  // state that resolves itself on the archiver's next run would throw away
+  // exactly what makes next season automatic.
+  if (teams.length === 0) {
+    location.replace('season.html');
+    return;
+  }
+
+  // Which league's screen? The one holding the player's next game, found
+  // across all of them -- so a player whose Monday season has finished but
+  // whose Thursday season is live lands on Thursday without touching
+  // anything.
+  const schedules = new Map(await Promise.all(
+    [...new Set(teams.map((t) => t.programId))].map(async (pid) => {
+      let schedule = null;
+      try {
+        schedule = await fetchJSON(`data/schedule/${pid}.json`);
+      } catch (err) {
+        console.error('router: schedule fetch failed for program', pid, err);
+      }
+      return [pid, schedule];
+    }),
+  ));
+
+  const today = todayISO();
+  let best = null;
+  for (const team of teams) {
+    const games = (schedules.get(team.programId)?.games ?? [])
+      .filter((g) => g.date >= today && g.teams.some((t) => t.teamId === Number(team.teamId)));
+    for (const g of games) {
+      if (best === null || g.date < best.date) best = { date: g.date, team };
+    }
+  }
+
+  // Nothing upcoming anywhere, but the leagues are live -- between
+  // seasons' schedules, or a week off. gamenight.html owns that state, on
+  // the primary league.
+  const target = best?.team ?? rec.primary ?? teams[0];
+
+  // The playoff decision stays per-league, applied to whichever league the
+  // next game is in: a playoff night in one league says nothing about the
+  // other.
+  const page = isPlayoffNight(schedules.get(target.programId), today) ? 'playoffs' : 'gamenight';
+  location.replace(`${page}.html?program=${q(target.programId)}&team=${q(target.teamId)}`);
 }
 
 async function route(saved) {

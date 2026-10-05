@@ -48,14 +48,26 @@
 // made silently is invisible to the player, who would simply be shown
 // someone else's games. So a guess is always posed as a question.
 
+const bodyEl = () => document.getElementById('body');
+
 const saved = getMyTeam();
-if (!saved) {
+const rec = getMyRecord();
+// An identity player with no active league has no saved team at all --
+// getMyTeam() returns null for them -- but they are NOT the same as a
+// player who never saved anything: they have a userId, and main() has its
+// own branch for exactly this case. Only a truly empty record (no team,
+// no identity) belongs on search.html.
+//
+// bodyEl must be declared above this call: main() uses it synchronously,
+// before its first await, in the off-season branch below -- and a plain
+// function call runs inline on the caller's turn, so anything declared
+// later in this same top-level script would still be in its temporal
+// dead zone when that branch reads it.
+if (!saved && rec?.userId == null) {
   location.replace('search.html');
 } else {
   main(saved);
 }
-
-const bodyEl = () => document.getElementById('body');
 
 // Moving the pointer forward writes exactly the shape search.html writes,
 // so nothing downstream can tell a rolled-over pointer from a hand-picked
@@ -96,8 +108,27 @@ async function main(saved) {
   // resolve, then again once the successor league is known, so Ranks and
   // Schedule point at the season the player is being moved INTO rather
   // than the one that just ended.
-  wireTabs({ programId: saved.programId, teamId: saved.teamId });
-  document.getElementById('greet').textContent = saved.programName ?? '';
+  wireTabs({ programId: saved?.programId, teamId: saved?.teamId });
+
+  // An identity user with no active league. There is nothing to resolve
+  // and nobody to vote for: the archiver will put them on a team again,
+  // and refreshMyTeams() will pick it up with no action from the player.
+  // Deliberately does NOT clear the identity -- see routeIdentity().
+  const rec = getMyRecord();
+  if (rec?.userId != null && (rec.teams ?? []).length === 0) {
+    document.getElementById('greet').textContent = rec.firstName ?? '';
+    bodyEl().innerHTML =
+      '<div class="sec-lbl">Between seasons</div>' +
+      '<div class="card">' +
+      '<div class="season-team" style="font-size:20px">No league on right now</div>' +
+      '<div class="season-sub">Nothing to do — the archive refreshes every few hours, ' +
+      'and your next season gets picked up automatically once your team lands in it.</div>' +
+      '</div>' +
+      searchLink('Playing somewhere already? Search →');
+    return;
+  }
+
+  document.getElementById('greet').textContent = saved?.programName ?? '';
 
   const outcome = await resolveSeason(saved);
   if (outcome.league) wireTabs({ programId: outcome.league.programId });

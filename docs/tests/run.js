@@ -528,6 +528,53 @@ await go('gamenight.html?program=9301&team=601');
 }
 await page.evaluate(() => localStorage.clear());
 
+// ---- identity routing and the off-season --------------------------------
+// An identity user never goes through season.html's roster voting.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await goHome();
+check(`an identity user routes to a real screen without season.html, landed on ${path()}`,
+  path().startsWith('/gamenight.html') || path().startsWith('/playoffs.html'));
+
+// Off-season: every league ended. The identity must SURVIVE -- today's
+// equivalent drops a dead pointer and bounces the player to search.html,
+// which would delete the one thing that makes next season automatic.
+//
+// Person 41 and not 31, deliberately: refreshMyTeams() runs on every page
+// load, and person 31 has two ACTIVE appearances -- derivation would find
+// them, rewrite the record and reload, destroying the very state this
+// test exists to check. Person 41's only appearance is in program 9000,
+// which is absent from programs-index.json, so derivation returns [] with
+// nothing having failed.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({ userId: 41, firstName: 'Dormant', teams: [], primary: null });
+});
+await go('index.html');
+await new Promise((r) => setTimeout(r, 900));
+{
+  check(`an identity user with no active league is not bounced to search, landed on ${path()}`,
+    !path().startsWith('/search.html'));
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`the identity survives the off-season, got ${JSON.stringify(rec)}`,
+    rec && rec.userId === 41);
+  const rendered = await page.evaluate(() => document.body.innerText);
+  check('the off-season screen explains that next season is picked up automatically',
+    /automatic|refresh/i.test(rendered));
+}
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {
