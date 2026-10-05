@@ -321,6 +321,38 @@ await clickThrough('.result');
 }
 await page.evaluate(() => localStorage.clear());
 
+// ---- prompt-once for an existing team-only pointer ----------------------
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyTeam({ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' });
+});
+await go('index.html');
+await page.waitForSelector('#picker .pick-row, .result', { timeout: 5000 }).catch(() => {});
+check(`an existing team-only pointer is sent to the picker once, landed on ${path()}`,
+  path().startsWith('/search.html') && path().includes('identify=1'));
+
+// Declining, then returning, must route normally and never ask again.
+await page.evaluate(() => declineIdentity());
+await goHome();
+check(`a declined player routes normally on the next visit, landed on ${path()}`,
+  !path().includes('identify=1') && ROUTED.includes(new URL(page.url()).pathname));
+
+// An identity user is never sent to the picker.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 32, firstName: 'Oren',
+    teams: [{ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' }],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await goHome();
+check(`an identity user is never sent to the picker, landed on ${path()}`,
+  !path().includes('identify=1'));
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {
@@ -460,10 +492,13 @@ check('team page lists its roster by first name', (await page.content()).include
   // fixtures/data/schedule/9001.json (one game vs. 502, dated LATER than
   // 501's existing games so it can't affect any test that counts cards on
   // 501's earliest date, or change 502's own next-game date elsewhere).
-  await page.evaluate(() => localStorage.setItem(
-    'thirdcoast-my-team',
-    JSON.stringify({ programId: 9001, teamId: 508, teamName: '6. Understrength Squad', programName: 'Test Tuesday League' }),
-  ));
+  await page.evaluate(() => {
+    declineIdentity(); // Decline identity prompt so router routes normally
+    localStorage.setItem(
+      'thirdcoast-my-team',
+      JSON.stringify({ programId: 9001, teamId: 508, teamName: '6. Understrength Squad', programName: 'Test Tuesday League' }),
+    );
+  });
   await goHome();
   const rendered0Game = await page.$eval('#body', (el) => el.innerText);
   check('Home never renders NaN for a 0-game team\'s own match card', !rendered0Game.includes('NaN'));
@@ -484,7 +519,11 @@ await go('player.html?person=1');
 // Reached only through index.html below, never by typing its URL: the
 // router is the real entry point and this suite's rule is to walk the
 // path a player walks.
-await page.evaluate(() => localStorage.clear());
+await page.evaluate(() => {
+  localStorage.clear();
+  // Decline the identity prompt so the router routes normally for these tests.
+  declineIdentity();
+});
 
 // (c) No saved team -> straight to search, not a blank/broken state.
 await goHome();

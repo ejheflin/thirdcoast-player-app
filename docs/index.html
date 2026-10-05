@@ -49,9 +49,17 @@
 // location.replace, not location.href: a router in the history stack is
 // a back-button trap -- back from gamenight.html lands on index.html,
 // which immediately routes forward to gamenight.html again.
-const saved = getMyTeam();
+const saved = getMyRecord();
 if (!saved) {
   location.replace('search.html');
+} else if (saved.userId != null) {
+  routeIdentity(saved);
+} else if (!identityDeclined()) {
+  // A player who saved a team before identity existed. Asked exactly once,
+  // and only from here -- onboarding asks new players inline, so this
+  // branch is purely the migration path. declineIdentity() is durable, so
+  // "no" is final.
+  location.replace('search.html?identify=1');
 } else {
   route(saved);
 }
@@ -89,6 +97,12 @@ function isPlayoffNight(schedule, today) {
   // marker and that night's own games on the SAME date, and on that date
   // it is playoff night.
   return earliest(tournaments) <= earliest(games);
+}
+
+// Filled in by Task 9. For now an identity user routes exactly as a
+// team-only one does, off their primary team.
+async function routeIdentity(rec) {
+  return route(rec.primary ?? rec.teams?.[0] ?? rec);
 }
 
 async function route(saved) {
