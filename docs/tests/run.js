@@ -546,6 +546,29 @@ await goHome();
 check(`an identity user routes to a real screen without season.html, landed on ${path()}`,
   path().startsWith('/gamenight.html') || path().startsWith('/playoffs.html'));
 
+// The check above would pass identically against an implementation that
+// ignored every league but the primary: 9301 (Monday) is both the
+// player's primary AND the league holding the earliest game. Flip which
+// league is primary -- same flip used to prove the equivalent behaviour
+// on gamenight.html itself -- so only genuine cross-league selection
+// produces the right answer. 9301 plays 2027-03-01, 9302 plays
+// 2027-03-08; a primary-only router would land on 9302.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+  });
+});
+await goHome();
+check(`the router picks the league holding the next game, not the primary league, landed on ${path()}`,
+  path().startsWith('/gamenight.html') && path().includes('program=9301') && path().includes('team=601'));
+
 // Off-season: every league ended. The identity must SURVIVE -- today's
 // equivalent drops a dead pointer and bounces the player to search.html,
 // which would delete the one thing that makes next season automatic.
