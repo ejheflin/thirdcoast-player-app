@@ -4,6 +4,7 @@
   "rows": [
     {"position":1,"teamId":601,"teamName":"1. Dual Leaguers","gamesPlayed":4,"wins":3,"losses":1,"ties":0,"points":6},
     {"position":2,"teamId":602,"teamName":"2. Monday Mashers","gamesPlayed":4,"wins":2,"losses":2,"ties":0,"points":4},
-    {"position":3,"teamId":603,"teamName":"3. Setters Club","gamesPlayed":4,"wins":1,"losses":3,"ties":0,"points":2}
+    {"position":3,"teamId":603,"teamName":"3. Setters Club","gamesPlayed":4,"wins":1,"losses":3,"ties":0,"points":2},
+    {"position":4,"teamId":604,"teamName":"7. Unarchived Newcomers","gamesPlayed":0,"wins":0,"losses":0,"ties":0,"points":0}
   ]
 }

@@ -301,6 +301,26 @@ await clickThrough('#pickNone');
 }
 await page.evaluate(() => localStorage.clear());
 
+// A team with no roster archived yet -- a brand-new signup the archiver
+// hasn't reached -- skips straight to a team-only save with no picker and
+// no error. clickThrough is correct here, unlike the other results above:
+// this branch navigates immediately, with no picker in between.
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await page.type('#q', 'Unarchived', { delay: 20 });
+await new Promise((r) => setTimeout(r, 300));
+await clickThrough('.result');
+{
+  check('an unarchived roster skips the picker and lands on the team page',
+    path().startsWith('/team.html') && path().includes('team=604'));
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`an unarchived roster saves the team-only shape, got ${JSON.stringify(rec)}`,
+    rec && rec.teamId === 604 && rec.userId === undefined);
+  check('an unarchived roster is also durable, so this player is not re-asked every visit',
+    await page.evaluate(() => identityDeclined()) === true);
+}
+await page.evaluate(() => localStorage.clear());
+
 // ---- tab bar shape (3 tabs: home / ranks / schedule) ---------------------
 await go('rankings.html?program=9001');
 {
