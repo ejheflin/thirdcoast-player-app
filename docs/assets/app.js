@@ -10,8 +10,28 @@ async function injectIcons() {
 }
 
 const TEAM_KEY = 'thirdcoast-my-team';
+const DECLINED_KEY = 'thirdcoast-identity-declined';
+const ASKED_KEY = 'thirdcoast-identity-asked';
 
-function getMyTeam() {
+// Two shapes live under TEAM_KEY, and the accessors below are the ONLY
+// place that difference is handled -- which is what keeps this change off
+// the other six pages that read a saved team.
+//
+//   team-only  { programId, programName, teamId, teamName }
+//              what search.html has always written, still written when a
+//              player skips the "which one is you?" step or is not on an
+//              archived roster.
+//
+//   identity   { userId, firstName, primary, teams[], derivedAt }
+//              `teams` is a CACHE. The source of truth is
+//              people/{userId}.json ∩ programs-index.json, recomputed by
+//              refreshMyTeams() on every load -- that recomputation is the
+//              whole season-rollover mechanism. The cache exists so pages
+//              paint from localStorage instead of waiting on two fetches.
+//
+// An identity record is told apart by `userId`, nothing else.
+
+function getMyRecord() {
   try {
     const raw = localStorage.getItem(TEAM_KEY);
     return raw ? JSON.parse(raw) : null;
@@ -20,12 +40,131 @@ function getMyTeam() {
   }
 }
 
+// Unchanged contract, deliberately: six pages call this and must keep
+// working untouched. An identity record answers with its primary team,
+// which has exactly the team-only shape.
+function getMyTeam() {
+  const rec = getMyRecord();
+  if (!rec) return null;
+  if (rec.userId == null) return rec;
+  return rec.primary ?? rec.teams?.[0] ?? null;
+}
+
+// Always an array, so no caller needs to know which shape is stored. A
+// team-only record is simply a one-league player.
+function getMyTeams() {
+  const rec = getMyRecord();
+  if (!rec) return [];
+  if (rec.userId == null) return [rec];
+  return rec.teams ?? [];
+}
+
+function getMyIdentity() {
+  const rec = getMyRecord();
+  return rec?.userId == null ? null : { userId: rec.userId, firstName: rec.firstName };
+}
+
+// Reports whether the write actually landed. Almost every caller can
+// ignore that -- a storage write the browser refuses just means the
+// player's choice does not survive the tab -- but refreshMyTeams() below
+// cannot: it reloads to repaint from the corrected cache, and a reload
+// after a write that never happened would re-run the same comparison
+// against the same stale cache and reload again, forever.
 function setMyTeam(team) {
-  localStorage.setItem(TEAM_KEY, JSON.stringify(team));
+  try {
+    localStorage.setItem(TEAM_KEY, JSON.stringify(team));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function setMyIdentity({ userId, firstName, teams, primary }) {
+  setMyTeam({
+    userId,
+    firstName,
+    primary: primary ?? teams?.[0] ?? null,
+    teams: teams ?? [],
+    derivedAt: Date.now(),
+  });
 }
 
 function clearMyTeam() {
   localStorage.removeItem(TEAM_KEY);
+}
+
+// What a page means when it discovers that ONE of the player's teams has
+// gone away -- withdrawn, or a pointer left over from a season that
+// ended. For a team-only record that team is everything the app knows, so
+// this is still today's behaviour: drop the lot. For an identity record
+// it must not be. `userId` is the entire reason next season needs no
+// action from the player, and a single dead team is no reason to throw it
+// away -- especially since for an identity player the dead team is
+// usually their `primary`, which is exactly what every caller's guard
+// compares against.
+//
+// clearMyTeam() stays for the one caller that genuinely wants everything
+// gone.
+function forgetTeam(team) {
+  const rec = getMyRecord();
+  if (!rec) return;
+  if (rec.userId == null) {
+    clearMyTeam();
+    return;
+  }
+  // String comparison, like every other program-id comparison in this
+  // file: these ids cross a JSON boundary and reach here from query
+  // strings, so nothing assumes they are numbers.
+  const isDead = (t) => String(t?.programId) === String(team?.programId)
+    && String(t?.teamId) === String(team?.teamId);
+  const teams = (rec.teams ?? []).filter((t) => !isDead(t));
+  // A surviving team makes a better primary than null even when the one
+  // being dropped WAS the primary: the player still plays somewhere, and
+  // a null primary would send them to the off-season screen while a live
+  // league of theirs is running.
+  const primary = rec.primary && !isDead(rec.primary) ? rec.primary : (teams[0] ?? null);
+  setMyTeam({ ...rec, teams, primary });
+}
+
+// Durable, not the install nag's sliding 30-minute quiet (nagQuiet, below):
+// the player is asked who they are exactly once. This app already has one
+// recurring full-screen nag, and a second would be the wrong trade for a
+// feature that is entirely optional.
+function identityDeclined() {
+  try {
+    return localStorage.getItem(DECLINED_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function declineIdentity() {
+  try {
+    localStorage.setItem(DECLINED_KEY, '1');
+  } catch { /* private mode: they'll be asked again, which is survivable */ }
+}
+
+// Having been ASKED is not the same as having declined, and the divert on
+// index.html has to respect the weaker one. A player who was shown the
+// picker and then closed the app, or tapped away from it, answered
+// nothing -- but they were interrupted, and search.html has no tab bar,
+// so showing them the same full-screen interstitial on every single visit
+// leaves them no way out but answering it or fighting a location.replace
+// with the back button. So the ask fires once; declining stays its own
+// durable flag because it is the player's explicit "no", not an inference
+// from a dismissal.
+function identityAsked() {
+  try {
+    return localStorage.getItem(ASKED_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function markIdentityAsked() {
+  try {
+    localStorage.setItem(ASKED_KEY, '1');
+  } catch { /* private mode: they may be asked again, which is survivable */ }
 }
 
 // fetchJSON never throws on a 404 -- "no data yet" is a normal state for
@@ -37,6 +176,90 @@ async function fetchJSON(path) {
   if (!res.ok) throw new Error(`fetchJSON ${path}: unexpected status ${res.status}`);
   return res.json();
 }
+
+// ---------------------------------------------------------------------
+// Re-derivation.
+//
+// This is the entire season-rollover mechanism, and it is deliberately
+// not a mechanism: nothing here detects a rollover, prompts about one, or
+// repairs anything. Last season's programs simply drop out of
+// LIVE/UPCOMING, the new one appears in the person's appearances, and the
+// derived list changes. season.html's roster-voting never runs for an
+// identity user -- which is the whole reason the app stores a person.
+
+// Null means THE FETCH FAILED. An empty array means the person genuinely
+// has no active league right now (the off-season). Conflating the two
+// would turn one bad network call into a wiped identity.
+async function deriveTeamsFor(userId) {
+  const [person, programs] = await Promise.all([
+    fetchJSON(`data/people/${encodeURIComponent(userId)}.json`),
+    fetchJSON('data/programs-index.json'),
+  ]);
+  if (!person || !programs) return null;
+  const active = new Map(
+    programs
+      .filter((p) => p.state === 'LIVE' || p.state === 'UPCOMING')
+      .map((p) => [p.programId, p.programName]),
+  );
+  return (person.appearances ?? [])
+    .filter((a) => active.has(a.programId))
+    .map((a) => ({
+      programId: a.programId,
+      programName: active.get(a.programId),
+      teamId: a.teamId,
+      teamName: a.teamName,
+    }))
+    // Sorted so the stringify comparison below is stable: appearance order
+    // is archiver insertion order and must not be allowed to look like a
+    // change.
+    .sort((a, b) => a.programId - b.programId);
+}
+
+async function refreshMyTeams() {
+  const rec = getMyRecord();
+  if (rec?.userId == null) return;
+
+  let teams;
+  try {
+    teams = await deriveTeamsFor(rec.userId);
+  } catch (err) {
+    console.error('refreshMyTeams: derivation failed, keeping the cache', err);
+    return;
+  }
+  // Keep the cache on failure. A failed refresh must never degrade a
+  // screen that has already rendered perfectly well from it.
+  if (teams === null) return;
+
+  const cached = rec.teams ?? [];
+  if (JSON.stringify(cached) === JSON.stringify(teams)) return;
+
+  // Hold the primary where it still exists, so a player who saved their
+  // Monday team does not silently get moved to their Thursday one.
+  // Falling back to rec.primary (not null) when teams is empty is what
+  // keeps the identity alive through the off-season.
+  const primary =
+    teams.find((t) => t.programId === rec.primary?.programId && t.teamId === rec.primary?.teamId)
+    ?? teams[0]
+    ?? rec.primary
+    ?? null;
+
+  if (!setMyTeam({ ...rec, teams, primary, derivedAt: Date.now() })) {
+    // The write was refused (private mode, quota). The "cannot loop"
+    // guarantee below rests entirely on that write having landed, so
+    // reloading now would reload on every single page load forever. A
+    // stale render is survivable; that is not.
+    console.error('refreshMyTeams: the refreshed cache could not be stored, so not reloading');
+    return;
+  }
+  // The page already rendered from the stale cache, so it is now wrong.
+  // Same remedy reloadIfStale() uses below, for the same reason. It cannot
+  // loop: the write above means the next load's comparison matches.
+  location.reload();
+}
+
+// Fire-and-forget on every page. Only a genuine change to the player's
+// league set costs a reload, which is roughly once a season.
+refreshMyTeams();
 
 // Escape user-controlled strings before inserting into innerHTML to prevent XSS.
 // Team and program names come from LeagueApps and are not sanitized, so they must

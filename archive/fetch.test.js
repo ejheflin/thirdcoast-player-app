@@ -93,7 +93,7 @@ test('runArchive writes standings and rosters for every program, activities only
   // The team -> people index the site needs to reach a player card at all.
   const roster = writes.get('docs/data/rosters/2-10.json');
   assert.ok(roster, 'an active team gets a roster file');
-  assert.deepEqual(roster.players, [{ userId: 555, firstName: 'Real', isCaptain: true }]);
+  assert.deepEqual(roster.players, [{ userId: 555, firstName: 'Real', lastInitial: 'N.', isCaptain: true }]);
   assert.equal(JSON.stringify(roster).includes('Real Name'), false, 'a roster file must never carry a full name');
   // A finished season's roster IS archived now -- once -- because team and
   // player history across seasons is built out of it.
@@ -434,4 +434,71 @@ test('runArchive leaves a game with no court or no time out of the court map', a
   // ...but it is still in the program's own schedule, not lost.
   const sched = writes.get('docs/data/schedule/12.json');
   assert.equal(sched.games.length, 3, 'all three remain in the program schedule');
+});
+
+// --- lastInitial -------------------------------------------------------
+//
+// Built from the deps literal of the first roster-exercising test above
+// (one COMPLETED program, one LIVE program, one roster player with a real
+// full name) so every lastInitial test below drives the same roster and
+// people-merge code paths that test already covers, with only the bit
+// each test cares about overridden.
+const rosterDeps = (overrides = {}) => ({
+  fetchPrograms: async () => [
+    { id: 1, name: 'Old League', state: 'COMPLETED' },
+    { id: 2, name: 'Live League', state: 'LIVE' },
+  ],
+  fetchActivities: async () => [],
+  fetchStandingsHTML: async (id) => `<standings-for-${id}>`,
+  parseStandings: () => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
+  fetchRosterHTML: async (programId, teamId) => `<roster-for-${programId}-${teamId}>`,
+  parseRoster: () => [{ userId: 555, fullName: 'Real Name', isCaptain: true }],
+  fetchLocations: async () => [],
+  readJSON: async () => null,
+  writeJSON: async () => {},
+  ...overrides,
+});
+
+test('a roster player carries a lastInitial beside firstName', async () => {
+  const written = new Map();
+  await runArchive(rosterDeps({ writeJSON: (p, d) => { written.set(p, d); } }));
+  const roster = [...written.entries()].find(([p]) => p.includes('/rosters/'))[1];
+  const player = roster.players[0];
+  assert.equal(typeof player.lastInitial, 'string', 'lastInitial must be present');
+  assert.ok(!/\s/.test(player.lastInitial), 'lastInitial must be an initial, never a word');
+  assert.ok(player.lastInitial === '' || /^[A-Z]\.$/.test(player.lastInitial));
+});
+
+test('a people record carries lastInitial', async () => {
+  const written = new Map();
+  await runArchive(rosterDeps({ writeJSON: (p, d) => { written.set(p, d); } }));
+  const person = [...written.entries()].find(([p]) => p.includes('/people/'))[1];
+  assert.equal(typeof person.lastInitial, 'string');
+});
+
+test('no written record ever contains a full surname', async () => {
+  // The project's core guarantee, asserted rather than assumed.
+  const written = new Map();
+  await runArchive(rosterDeps({ writeJSON: (p, d) => { written.set(p, d); } }));
+  for (const [path, data] of written) {
+    if (!path.includes('/rosters/') && !path.includes('/people/')) continue;
+    const blob = JSON.stringify(data);
+    assert.ok(!/"lastName"/.test(blob), `${path} must not carry a lastName field`);
+    assert.ok(!/"fullName"/.test(blob), `${path} must not carry a fullName field`);
+  }
+});
+
+test('a cached finished-season roster without lastInitial still loads', async () => {
+  // Finished-season rosters are fetched once and read back forever
+  // (fetch.js:160), so the ~3,855 already-archived files will never gain
+  // the field. The read-back path must not assume it.
+  const legacy = {
+    programId: 1122541, teamId: 2362435, teamName: '4 - Old Team',
+    players: [{ userId: 7, firstName: 'Starr', isCaptain: true }],
+  };
+  const deps = rosterDeps({
+    readJSON: async (p) => (p.includes('/rosters/') ? legacy : null),
+    writeJSON: () => {},
+  });
+  await assert.doesNotReject(runArchive(deps));
 });

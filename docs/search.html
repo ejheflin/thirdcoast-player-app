@@ -53,8 +53,10 @@ function performSearch(q) {
     btn.className = 'result';
     btn.innerHTML = `<b>${escapeHTML(m.teamName)}</b><span>${escapeHTML(m.programName)}</span>`;
     btn.addEventListener('click', () => {
-      setMyTeam(m);
-      location.href = `team.html?team=${encodeURIComponent(m.teamId)}&program=${encodeURIComponent(m.programId)}`;
+      // No longer saves here: renderPicker owns every write, because
+      // whether this ends as an identity record or a team-only one is not
+      // known until the player answers.
+      renderPicker(m);
     });
     results.appendChild(btn);
   }
@@ -70,6 +72,153 @@ document.getElementById('q').addEventListener('input', (e) => {
   currentQuery = e.target.value.trim().toLowerCase();
   performSearch(currentQuery);
 });
+
+// Onboarding is two steps now: pick your team (team names are
+// distinctive, so searching them is a good way in), then pick yourself
+// off its roster. The app stores the PERSON -- see the identity block in
+// app.js for why that is the thing worth storing.
+//
+// Reached two ways: straight through from a team result, and via
+// ?identify=1 for a returning player who already has a team-only pointer
+// saved (index.html sends them here exactly once).
+const identifyMode = new URLSearchParams(location.search).get('identify') === '1';
+
+function pickerRowsHTML(players, seasonsBy) {
+  return players.map((p) => {
+    // firstName + lastInitial. Rosters archived before lastInitial existed
+    // (every finished season) simply have no initial, and a bare first
+    // name is the correct render -- never "Cher .".
+    const name = [p.firstName, p.lastInitial].filter(Boolean).join(' ');
+    const seasons = seasonsBy.get(p.userId);
+    const bits = [];
+    if (seasons) bits.push(seasons === 1 ? '1 season' : `${seasons} seasons`);
+    return `
+      <button class="pick-row" data-user="${escapeHTML(String(p.userId))}">
+        <div class="ini">${escapeHTML(String(p.firstName).slice(0, 2).toUpperCase())}</div>
+        <div class="pick-meta">
+          <b class="pick-name">${escapeHTML(name)}${p.isCaptain ? '<i class="pick-cap">captain</i>' : ''}</b>
+          <span class="pick-sub">${escapeHTML(bits.join(' · '))}</span>
+        </div>
+      </button>`;
+  }).join('');
+}
+
+async function renderPicker(team) {
+  const results = document.getElementById('results');
+  const teamLabel = displayTeamName(team.teamName, { stripCaptain: true });
+  results.innerHTML = '<p class="empty">Loading roster…</p>';
+
+  const roster = await fetchJSON(
+    `data/rosters/${encodeURIComponent(team.programId)}-${encodeURIComponent(team.teamId)}.json`,
+  );
+  const players = roster?.players ?? [];
+
+  // No roster archived yet -- a real, normal state for a team the archiver
+  // has not reached. The player wanted to save a team; give them that and
+  // say nothing about identity.
+  //
+  // Deliberately sets NEITHER flag. Nobody declined anything and no picker
+  // was shown, and these brand-new signups are precisely the players
+  // identity is meant to stay available for: burning a durable flag here
+  // would mean never offering it again once the archiver catches up.
+  if (players.length === 0) {
+    setMyTeam(team);
+    location.href = `team.html?team=${encodeURIComponent(team.teamId)}&program=${encodeURIComponent(team.programId)}`;
+    return;
+  }
+
+  // One already-lazy file for every player's season count, rather than one
+  // fetch per roster row.
+  const seasonsBy = new Map();
+  try {
+    const index = await loadSearchIndex();
+    for (const p of index?.people ?? []) seasonsBy.set(p.userId, p.seasons);
+  } catch { /* the subline is decoration; the picker works without it */ }
+
+  // The ask has now been MADE, whatever comes of it. index.html reads this
+  // to keep its one-time divert one-time even when the player answers by
+  // closing the app.
+  markIdentityAsked();
+
+  results.innerHTML = `
+    <div class="sec-lbl">${escapeHTML(teamLabel)}</div>
+    <p style="color:var(--app-dim);font-size:13px;margin:0 2px 6px">Which one is you?</p>
+    <div id="picker" class="card" style="padding:2px 8px">${pickerRowsHTML(players, seasonsBy)}</div>
+    <p style="margin:14px 0 4px"><a class="textlink" id="pickNone" href="#">None of these — just save the team →</a></p>`;
+
+  for (const el of results.querySelectorAll('.pick-row')) {
+    el.addEventListener('click', () => {
+      const player = players.find((p) => String(p.userId) === el.dataset.user);
+      if (player) confirmIdentity(team, player);
+    });
+  }
+  document.getElementById('pickNone').addEventListener('click', (e) => {
+    e.preventDefault();
+    setMyTeam(team);
+    declineIdentity();
+    location.href = `team.html?team=${encodeURIComponent(team.teamId)}&program=${encodeURIComponent(team.programId)}`;
+  });
+}
+
+async function confirmIdentity(team, player) {
+  // Falls back on EMPTY as well as null. deriveTeamsFor returns [] when
+  // the person record exists but programs-index.json has not caught up
+  // with a program active-teams-index.json already lists -- the two files
+  // are built from different sources, so that gap is real -- and saving
+  // teams: [] would drop the player on the "Between seasons" screen
+  // seconds after they picked a team that is playing tonight.
+  const derived = await deriveTeamsFor(player.userId);
+  const teams = derived?.length ? derived : [team];
+
+  const save = () => {
+    setMyIdentity({
+      userId: player.userId,
+      firstName: player.firstName,
+      teams,
+      // The team they searched for stays primary, so a player who came in
+      // looking for their Monday team is not silently moved to Thursday.
+      primary: teams.find((t) => String(t.teamId) === String(team.teamId)) ?? team,
+    });
+    location.href = 'index.html';
+  };
+
+  const others = teams.filter((t) => String(t.teamId) !== String(team.teamId));
+  // Only one league: there is nothing to confirm, and a screen that says
+  // "we found the thing you just picked" is noise.
+  if (others.length === 0) { save(); return; }
+
+  // Read-only on purpose. Letting the player UNCHECK a league would store
+  // an exclusion that the next load's re-derivation would silently undo,
+  // since derivation returns every active appearance. An unfamiliar league
+  // here means the wrong name was tapped, and the remedy is to pick again.
+  const results = document.getElementById('results');
+  results.innerHTML = `
+    <div id="body">
+      <div class="sec-lbl">Got it, ${escapeHTML(player.firstName)}</div>
+      <p style="color:var(--app-dim);font-size:13px;margin:0 2px 10px">
+        Looks like you're playing in ${teams.length} leagues:</p>
+      <div class="card">
+        ${teams.map((t) => `
+          <div class="season-team" style="font-size:17px">${escapeHTML(displayTeamName(t.teamName, { stripCaptain: true }))}</div>
+          <div class="season-sub" style="margin-bottom:10px">${escapeHTML(t.programName)}</div>`).join('')}
+      </div>
+      <button class="cta" id="confirmId">That's me — show them all</button>
+      <p style="margin:14px 0 4px"><a class="textlink" id="pickAgain" href="#">Not me? Pick again →</a></p>
+    </div>`;
+  document.getElementById('confirmId').addEventListener('click', save);
+  document.getElementById('pickAgain').addEventListener('click', (e) => {
+    e.preventDefault();
+    renderPicker(team);
+  });
+}
+
+// A returning player who already has a team-only pointer. index.html sends
+// them here once; the team is known, so skip the search and go straight to
+// the roster.
+if (identifyMode) {
+  const saved = getMyTeam();
+  if (saved) renderPicker(saved);
+}
 </script>
 </body>
 </html>

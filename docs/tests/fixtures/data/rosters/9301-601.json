@@ -1,0 +1,12 @@
+{
+  "programId": 9301,
+  "teamId": 601,
+  "teamName": "1. Dual Leaguers",
+  "players": [
+    {"userId":31,"firstName":"Mika","lastInitial":"T.","isCaptain":true},
+    {"userId":32,"firstName":"Oren","lastInitial":"B.","isCaptain":false},
+    {"userId":33,"firstName":"Sean","lastInitial":"F.","isCaptain":false},
+    {"userId":34,"firstName":"Sean","lastInitial":"M.","isCaptain":false},
+    {"userId":35,"firstName":"Cher","lastInitial":"","isCaptain":false}
+  ]
+}
