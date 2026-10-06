@@ -502,3 +502,76 @@ test('a cached finished-season roster without lastInitial still loads', async ()
   });
   await assert.doesNotReject(runArchive(deps));
 });
+
+// --- per-person calendar feeds -----------------------------------------
+//
+// Built from the same roster-exercising deps literal as rosterDeps above
+// (one COMPLETED program, one LIVE program with an active roster), with
+// overrides spread last.
+const icsDeps = (overrides = {}) => ({
+  fetchPrograms: async () => [
+    { id: 1, name: 'Old League', state: 'COMPLETED' },
+    { id: 2, name: 'Live League', state: 'LIVE' },
+  ],
+  fetchActivities: async () => [],
+  fetchStandingsHTML: async (id) => `<standings-for-${id}>`,
+  parseStandings: () => [{ position: 1, teamId: 10, teamName: 'Team A', gamesPlayed: 1, wins: 1, losses: 0, ties: 0, points: 2 }],
+  fetchRosterHTML: async (programId, teamId) => `<roster-for-${programId}-${teamId}>`,
+  parseRoster: () => [{ userId: 555, fullName: 'Real Name', isCaptain: true }],
+  fetchLocations: async () => [],
+  readJSON: async () => null,
+  writeJSON: async () => {},
+  ...overrides,
+});
+
+test('a run writes one ics feed per active person, plus the ledger', async () => {
+  const written = new Map();
+  await runArchive(icsDeps({ writeJSON: (p, d) => { written.set(p, d); } }));
+  const feeds = [...written.keys()].filter((p) => p.includes('/ics/person-'));
+  assert.ok(feeds.length > 0, 'at least one feed written');
+  assert.ok(feeds.every((p) => p.endsWith('.ics')));
+  const ledger = written.get('docs/data/ics/index.json');
+  assert.ok(Array.isArray(ledger.userIds));
+  assert.equal(ledger.userIds.length, feeds.length);
+});
+
+test('a feed is written as iCalendar TEXT, not as JSON', async () => {
+  // writeJSON would wrap it in quotes and escape every CRLF, producing a
+  // file no calendar client can read. The ics files need a raw writer.
+  const written = new Map();
+  await runArchive(icsDeps({
+    writeJSON: (p, d) => { written.set(p, d); },
+    writeText: (p, d) => { written.set(p, d); },
+  }));
+  const entry = [...written.entries()].find(([p]) => p.includes('/ics/person-'));
+  assert.equal(typeof entry[1], 'string');
+  assert.ok(entry[1].startsWith('BEGIN:VCALENDAR\r\n'));
+});
+
+test('a userId in the previous ledger but no longer active gets an EMPTY feed', async () => {
+  // The retirement path, and the guard on the whole off-season promise.
+  // Deleting the file would 404, and subscription clients can disable a
+  // feed that keeps failing -- so it is rewritten empty instead.
+  const written = new Map();
+  await runArchive(icsDeps({
+    readJSON: async (p) => (p === 'docs/data/ics/index.json'
+      ? { userIds: [777777] }
+      : null),
+    writeJSON: (p, d) => { written.set(p, d); },
+    writeText: (p, d) => { written.set(p, d); },
+  }));
+  const retired = written.get('docs/data/ics/person-777777.ics');
+  assert.ok(retired, 'the retired person still gets a file');
+  assert.ok(retired.startsWith('BEGIN:VCALENDAR\r\n'));
+  assert.ok(!retired.includes('BEGIN:VEVENT'), 'and it is empty');
+  assert.ok(written.get('docs/data/ics/index.json').userIds.includes(777777),
+    'and stays in the ledger, so the feed keeps being maintained');
+});
+
+test('a missing ledger on the first ever run is not an error', async () => {
+  await assert.doesNotReject(runArchive(icsDeps({
+    readJSON: async () => null,
+    writeJSON: () => {},
+    writeText: () => {},
+  })));
+});

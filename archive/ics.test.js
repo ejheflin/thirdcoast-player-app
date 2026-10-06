@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { icsUTC, escapeICSText, foldICSLine, buildCalendar } from './ics.js';
+import { icsUTC, escapeICSText, foldICSLine, buildCalendar, collectPersonFeeds } from './ics.js';
 
 // --- timezone ---------------------------------------------------------
 //
@@ -167,4 +167,85 @@ test('buildCalendar escapes a comma-bearing opponent name in SUMMARY', () => {
     games: [{ ...GAME, opponentName: 'Save a Horse, Dig a Volleyball' }],
   });
   assert.ok(ics.includes('Save a Horse\\, Dig a Volleyball'));
+});
+
+// --- collectPersonFeeds -------------------------------------------------
+
+// Mirrors the real in-memory shapes at the point fetch.js calls this.
+const COLLECT_DEPS = () => ({
+  activePrograms: [
+    { id: 9301, name: 'Identity Monday League' },
+    { id: 9302, name: 'Identity Thursday League' },
+  ],
+  rostersByTeam: new Map([
+    ['9301|601', [
+      { userId: 31, firstName: 'Mika', isCaptain: true },
+      { userId: 32, firstName: 'Oren', isCaptain: false },
+    ]],
+    ['9302|611', [{ userId: 31, firstName: 'Mika', isCaptain: false }]],
+  ]),
+  upcomingByProgram: new Map([
+    [9301, [{
+      activityId: 9301001, date: '2027-03-01', time: '19:00', courtName: 'Court 3',
+      teams: [
+        { teamId: 601, teamName: '1. Dual Leaguers' },
+        { teamId: 602, teamName: '2. Monday Mashers' },
+      ],
+    }]],
+    [9302, [{
+      activityId: 9302001, date: '2027-03-08', time: '18:30', courtName: 'Court 7',
+      teams: [
+        { teamId: 611, teamName: '3. Thursday Thunder' },
+        { teamId: 612, teamName: '5. Late Night Lobs' },
+      ],
+    }]],
+  ]),
+  standingsByProgram: new Map([
+    [9301, [{ teamId: 601, teamName: '1. Dual Leaguers' }, { teamId: 602, teamName: '2. Monday Mashers' }]],
+    [9302, [{ teamId: 611, teamName: '3. Thursday Thunder' }, { teamId: 612, teamName: '5. Late Night Lobs' }]],
+  ]),
+});
+
+test('collectPersonFeeds merges every league a person is in', () => {
+  const feeds = collectPersonFeeds(COLLECT_DEPS());
+  const mika = feeds.get(31);
+  assert.equal(mika.firstName, 'Mika');
+  assert.equal(mika.games.length, 2, 'both leagues');
+  assert.deepEqual(mika.games.map((g) => g.programId).sort(), [9301, 9302]);
+});
+
+test('collectPersonFeeds gives a one-league person only their own games', () => {
+  const oren = collectPersonFeeds(COLLECT_DEPS()).get(32);
+  assert.equal(oren.games.length, 1);
+  assert.equal(oren.games[0].programId, 9301);
+});
+
+test('collectPersonFeeds names the opponent, not the player\'s own team', () => {
+  const game = collectPersonFeeds(COLLECT_DEPS()).get(31).games
+    .find((g) => g.programId === 9301);
+  // Seed number and captain suffix both stripped, as every screen does.
+  assert.equal(game.opponentName, 'Monday Mashers');
+  assert.equal(game.oppTeamId, 602);
+});
+
+test('collectPersonFeeds sorts a person\'s games by date then time', () => {
+  const games = collectPersonFeeds(COLLECT_DEPS()).get(31).games;
+  const keys = games.map((g) => `${g.date}${g.time}`);
+  assert.deepEqual(keys, [...keys].sort(), 'chronological across leagues');
+});
+
+test('collectPersonFeeds yields an entry with no games rather than skipping', () => {
+  // A player on an active roster whose program has no upcoming games left
+  // must still get a (valid, empty) feed, not be dropped from the ledger.
+  const deps = COLLECT_DEPS();
+  deps.upcomingByProgram = new Map();
+  const feeds = collectPersonFeeds(deps);
+  assert.ok(feeds.has(31));
+  assert.deepEqual(feeds.get(31).games, []);
+});
+
+test('collectPersonFeeds ignores rosters of programs that are not active', () => {
+  const deps = COLLECT_DEPS();
+  deps.rostersByTeam.set('1122541|2362435', [{ userId: 999, firstName: 'Ancient' }]);
+  assert.ok(!collectPersonFeeds(deps).has(999));
 });

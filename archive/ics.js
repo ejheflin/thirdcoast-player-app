@@ -155,3 +155,69 @@ export function buildCalendar({ userId, firstName, games }) {
   lines.push('END:VCALENDAR');
   return `${lines.map(foldICSLine).join('\r\n')}\r\n`;
 }
+
+// Which people get a feed, and what is on it.
+//
+// Everything here is already in memory when fetch.js calls it -- the same
+// maps the schedule files and the court map are built from -- so no
+// person's record has to be fetched or read back to decide this.
+//
+// The captain-suffix strip is duplicated from displayTeamName() in
+// docs/assets/app.js, which is a classic browser script with no exports
+// that Node cannot import. Restructuring it into a module, or adding a
+// build step, are both far outside this feature; ten lines is the cheaper
+// mistake. Keep the two in step.
+const SEED_PREFIX = /^\s*\d+\s*[.\-–)]\s*/;
+const CAPTAIN_SUFFIX = /\s*\([^)]*\)\s*$/;
+
+function cleanTeamName(raw) {
+  const stripped = String(raw ?? '').replace(SEED_PREFIX, '').replace(CAPTAIN_SUFFIX, '').trim();
+  // Guard the same way app.js does: a parenthetical-only name must not
+  // become empty.
+  return stripped || String(raw ?? '').trim();
+}
+
+export function collectPersonFeeds({
+  activePrograms, rostersByTeam, upcomingByProgram, standingsByProgram,
+}) {
+  const programName = new Map((activePrograms ?? []).map((p) => [p.id, p.name]));
+  const feeds = new Map();
+
+  for (const [key, players] of rostersByTeam ?? []) {
+    const [programId, teamId] = key.split('|').map(Number);
+    // Rosters for finished seasons are in this map too (read back from
+    // disk and never re-fetched); only active programs get feeds.
+    if (!programName.has(programId)) continue;
+
+    const rows = standingsByProgram?.get(programId) ?? [];
+    const games = (upcomingByProgram?.get(programId) ?? [])
+      .filter((g) => g.teams.some((t) => t.teamId === teamId))
+      .map((g) => {
+        const opp = g.teams.find((t) => t.teamId !== teamId);
+        const oppRow = opp ? rows.find((r) => r.teamId === opp.teamId) : null;
+        return {
+          activityId: g.activityId,
+          date: g.date,
+          time: g.time,
+          courtName: g.courtName,
+          opponentName: opp ? cleanTeamName(oppRow?.teamName ?? opp.teamName) : null,
+          oppTeamId: opp?.teamId ?? null,
+          programId,
+          programName: programName.get(programId),
+        };
+      });
+
+    for (const player of players ?? []) {
+      if (!feeds.has(player.userId)) {
+        feeds.set(player.userId, { firstName: player.firstName, games: [] });
+      }
+      feeds.get(player.userId).games.push(...games);
+    }
+  }
+
+  // Chronological across leagues, so a merged feed reads as one season.
+  for (const feed of feeds.values()) {
+    feed.games.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
+  }
+  return feeds;
+}
