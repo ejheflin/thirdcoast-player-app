@@ -57,6 +57,46 @@ function dayLabel(dateISO) {
   return game.toLocaleDateString(undefined, { month: 'long', day: 'numeric' });
 }
 
+// The feed's absolute URL. Derived from location rather than hardcoded to
+// the Pages domain so the same code works under
+// archive/_serve-repo-root.js in local development -- and so a fork
+// serves its own feeds rather than this repo's.
+function feedURL(userId, scheme) {
+  const dir = location.pathname.replace(/[^/]*$/, '');
+  return `${scheme}//${location.host}${dir}data/ics/person-${encodeURIComponent(userId)}.ics`;
+}
+
+// Identity is optional and declining it is final, so this screen has to
+// handle a saved player with no userId at all. They get no feed -- feeds
+// are per-person, and a team-keyed fallback is the exact design the
+// feature rejects, since it would die every season. What they get is a
+// quiet way in, which does nothing unless they tap it: no re-prompt, no
+// nag, the promise that "no" is final stays kept.
+function calendarHTML() {
+  const me = getMyIdentity();
+  if (!me) {
+    return '<p class="cal-hint">Add to calendar — '
+      + '<a id="calIdentify" href="search.html?identify=1">we need to know which player you are →</a></p>';
+  }
+  return '<button class="cal-btn" id="addCal">'
+    + '<svg class="icon"><use href="#i-calendar"/></svg> Add to calendar</button>';
+}
+
+// Built only once the button is tapped, not up front and merely hidden:
+// the two feed links do not exist in the DOM at all until the player
+// asks for them.
+function calendarActionsHTML(me) {
+  return `
+    <div class="card" id="calActions" style="padding:2px 12px">
+      <a class="cal-act" id="calSubscribe" href="${escapeHTML(feedURL(me.userId, 'webcal:'))}">
+        <b>Subscribe</b><span>Stays up to date on its own, including next season.</span>
+      </a>
+      <a class="cal-act" id="calDownload" download href="${escapeHTML(feedURL(me.userId, location.protocol))}">
+        <b>Download .ics</b><span>A one-time copy — it won't follow later changes.</span>
+      </a>
+    </div>`;
+}
+
 async function main() {
   const bodyEl = document.getElementById('body');
   const myTeams = getMyTeams();
@@ -172,7 +212,15 @@ async function main() {
        </div>`
     : '';
 
-  bodyEl.innerHTML = rowsHtml + markerHtml;
+  bodyEl.innerHTML = calendarHTML() + rowsHtml + markerHtml;
+
+  const addCal = document.getElementById('addCal');
+  if (addCal) {
+    addCal.addEventListener('click', () => {
+      addCal.insertAdjacentHTML('afterend', calendarActionsHTML(me));
+      addCal.hidden = true;
+    });
+  }
 }
 
 main();

@@ -337,6 +337,23 @@ body{background:#101A2C}
    force-fit into either. */
 .sched-row{display:flex;align-items:center;gap:12px;padding:11px 6px}
 .sched-row + .sched-row,.row-link + .row-link .sched-row{border-top:1px solid var(--app-line)}
+
+/* Add to Calendar (schedule.html). A button that reveals two links, not
+   an overlay: with identity already known there are exactly two things
+   to show, and a full-screen sheet is the wrong weight for two links. */
+.cal-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;
+  margin:2px 0 12px;padding:13px;border:1px solid var(--app-line);border-radius:12px;
+  background:var(--app-surface);color:var(--app-ink);
+  font:700 14px "Barlow Condensed",sans-serif;letter-spacing:.06em;text-transform:uppercase;
+  cursor:pointer}
+.cal-btn .icon{width:17px;height:17px;vertical-align:0}
+.cal-btn:active{background:var(--app-raised)}
+.cal-act{display:block;padding:12px 2px;color:var(--app-ink);text-decoration:none}
+.cal-act + .cal-act{border-top:1px solid var(--app-line)}
+.cal-act b{display:block;font-size:15px;color:var(--app-data)}
+.cal-act span{display:block;font-size:12.5px;color:var(--app-dim);margin-top:2px}
+.cal-hint{font-size:12.5px;color:var(--app-faint);margin:2px 2px 12px}
+.cal-hint a{color:var(--app-dim)}
 /* the same per-court paint the match card's .slab uses (--ct/--ct-ink,
    set inline from schedule.html's own copy of the COURT table), just as
    a small flat badge instead of a full-height slab -- there's no card

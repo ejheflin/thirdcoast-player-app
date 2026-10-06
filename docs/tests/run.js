@@ -512,7 +512,9 @@ await page.evaluate(() => {
   setMyTeam({ programId: 9010, teamId: 701, teamName: '1. Spike Force', programName: 'Schedule Test League' });
 });
 await go('schedule.html?program=9010');
-const teamOnlyScheduleHTML = await page.$eval('#body', (el) => el.innerHTML);
+const teamOnlyScheduleShape = await page.evaluate(() => [
+  ...document.querySelectorAll('.sec-lbl, .sched-row'),
+].map((el) => el.outerHTML).join(''));
 
 await go('search.html');
 await page.evaluate(() => {
@@ -525,9 +527,12 @@ await page.evaluate(() => {
 });
 await go('schedule.html?program=9010');
 {
-  const identityScheduleHTML = await page.$eval('#body', (el) => el.innerHTML);
-  check('a one-league identity player gets the exact same schedule markup as a team-only player',
-    identityScheduleHTML === teamOnlyScheduleHTML);
+  const scheduleShape = () => page.evaluate(() => [
+    ...document.querySelectorAll('.sec-lbl, .sched-row'),
+  ].map((el) => el.outerHTML).join(''));
+  const identityScheduleShape = await scheduleShape();
+  check('a one-league identity player\'s schedule ROWS are identical to a team-only player\'s',
+    identityScheduleShape === teamOnlyScheduleShape);
   check('a one-league player sees no league labels at all',
     (await page.$('.sched-opp-league')) === null);
 }
@@ -592,6 +597,72 @@ await go('schedule.html?program=9301');
   check(`a merged row for the OTHER league links to ITS OWN program/team, not the page's, landed on ${path()}`,
     path().startsWith('/team.html') && path().includes('program=9302') && path().includes('team=612'));
 }
+await page.evaluate(() => localStorage.clear());
+
+// ---- add to calendar (schedule.html) ------------------------------------
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [{ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' }],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await go('schedule.html?program=9301');
+{
+  check('an identity player gets an Add to Calendar button', await page.$('#addCal') !== null);
+  check('the calendar actions are hidden until the button is tapped',
+    await page.$('#calSubscribe') === null);
+
+  await page.click('#addCal');
+  await page.waitForSelector('#calSubscribe', { timeout: 5000 });
+
+  const links = await page.evaluate(() => ({
+    sub: document.getElementById('calSubscribe')?.getAttribute('href') ?? '',
+    dl: document.getElementById('calDownload')?.getAttribute('href') ?? '',
+    dlAttr: document.getElementById('calDownload')?.hasAttribute('download') ?? false,
+    host: location.host,
+  }));
+  // Asserted against the userId, not merely non-empty: a feed URL built
+  // from the wrong person is the one failure here that looks completely
+  // normal on screen.
+  check(`Subscribe is a webcal:// link to this player's own feed, got ${links.sub}`,
+    links.sub.startsWith('webcal://') && links.sub.includes('person-31.ics'));
+  check(`the webcal host is the page's own host, not a hardcoded domain, got ${links.sub}`,
+    links.sub.includes(links.host));
+  check(`Download points at the same feed and is a download, got ${links.dl}`,
+    links.dl.includes('data/ics/person-31.ics') && links.dlAttr === true);
+}
+
+// A team-only player has no userId, so there is no feed for them.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  declineIdentity();
+  setMyTeam({ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' });
+});
+await go('schedule.html?program=9301');
+{
+  check('a team-only player gets no calendar button', await page.$('#addCal') === null);
+  const html = await page.content();
+  check('...and no webcal link anywhere on the page', !html.includes('webcal://'));
+  check('...but is offered a route to identify themselves',
+    await page.$('#calIdentify') !== null);
+  const href = await page.$eval('#calIdentify', (el) => el.getAttribute('href'));
+  check(`...pointing at the picker, got ${href}`, href.includes('identify=1'));
+}
+
+// The branches that return before the button must not render it.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 41, firstName: 'Dormant', teams: [], primary: null,
+  });
+});
+await go('schedule.html?program=9301');
+check('no calendar button on the "no saved team" branch', await page.$('#addCal') === null);
 await page.evaluate(() => localStorage.clear());
 
 // ---- gamenight.html, multi-league ---------------------------------------
