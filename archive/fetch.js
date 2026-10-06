@@ -326,7 +326,13 @@ export async function runArchive(deps) {
   // published for last time: a person whose season just ended has no
   // active appearance, so the loop above never visits them and their feed
   // would sit frozen with last season's games forever.
-  const previous = (await readJSON('docs/data/ics/index.json'))?.userIds ?? [];
+  // Array.isArray, not just a null/undefined guard: a malformed userIds
+  // (e.g. a string, from a hand-edited or corrupted ledger) would make
+  // `for...of` below iterate characters and seed garbage ids into the
+  // ledger -- ids that then persist forever, since the union below only
+  // ever adds, never prunes.
+  const previousLedger = await readJSON('docs/data/ics/index.json');
+  const previous = Array.isArray(previousLedger?.userIds) ? previousLedger.userIds : [];
   for (const userId of previous) {
     if (feeds.has(userId)) continue;
     await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, games: [] }));

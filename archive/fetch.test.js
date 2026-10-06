@@ -575,3 +575,21 @@ test('a missing ledger on the first ever run is not an error', async () => {
     writeText: () => {},
   })));
 });
+
+test('a malformed ledger (userIds not an array) is ignored rather than iterated', async () => {
+  // A string userIds would make `for...of` walk its characters and seed
+  // garbage ids into the ledger -- ids that then persist forever, since
+  // the union that rebuilds the ledger only ever adds, never prunes.
+  const written = new Map();
+  await runArchive(icsDeps({
+    readJSON: async (p) => (p === 'docs/data/ics/index.json'
+      ? { userIds: 'not-an-array' }
+      : null),
+    writeJSON: (p, d) => { written.set(p, d); },
+    writeText: (p, d) => { written.set(p, d); },
+  }));
+  const ledger = written.get('docs/data/ics/index.json');
+  assert.ok(Array.isArray(ledger.userIds));
+  assert.ok(ledger.userIds.every((id) => typeof id === 'number'),
+    'no character codes or other garbage leaked in from the malformed value');
+});

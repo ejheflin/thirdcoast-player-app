@@ -168,13 +168,28 @@ export function buildCalendar({ userId, firstName, games }) {
 // build step, are both far outside this feature; ten lines is the cheaper
 // mistake. Keep the two in step.
 const SEED_PREFIX = /^\s*\d+\s*[.\-–)]\s*/;
-const CAPTAIN_SUFFIX = /\s*\([^)]*\)\s*$/;
+const CAPTAIN_SUFFIX = /\(([^)]+)\)\s*$/;
 
+// Mirrors displayTeamName()'s shape exactly, not just its intent: the seed
+// strip and the captain strip are two INDEPENDENTLY guarded steps, each
+// reverting only its own removal if that removal would leave nothing. A
+// combined guard over both steps at once agrees with this on ordinary
+// names but disagrees on something like "5. (Captain)" -- app.js returns
+// "(Captain)" (only the seed strip is reverted, since the seed alone would
+// leave nothing, while the captain strip's own result is non-empty), and a
+// combined guard would instead keep the seed and return "5. (Captain)".
+// Divergence here is a calendar event's title disagreeing with the same
+// opponent's name on screen.
 function cleanTeamName(raw) {
-  const stripped = String(raw ?? '').replace(SEED_PREFIX, '').replace(CAPTAIN_SUFFIX, '').trim();
-  // Guard the same way app.js does: a parenthetical-only name must not
-  // become empty.
-  return stripped || String(raw ?? '').trim();
+  let name = String(raw ?? '');
+  const withoutSeed = name.replace(SEED_PREFIX, '');
+  if (withoutSeed.trim()) name = withoutSeed;
+  const captain = CAPTAIN_SUFFIX.exec(name);
+  if (captain) {
+    const before = name.slice(0, captain.index).trim();
+    if (before) name = before;
+  }
+  return name;
 }
 
 export function collectPersonFeeds({
@@ -215,8 +230,21 @@ export function collectPersonFeeds({
     }
   }
 
-  // Chronological across leagues, so a merged feed reads as one season.
   for (const feed of feeds.values()) {
+    // A person rostered on two teams within the same active program (an
+    // admin artifact, not a real second roster spot) would otherwise carry
+    // that pair's own matchup twice if those two teams play each other --
+    // once from each team's perspective, same activityId, opposite
+    // opponentName. UID is derived from activityId, so calendar clients
+    // would see two VEVENTs claiming the same UID and dedupe to whichever
+    // one they feel like keeping. Keep the first seen and drop the rest.
+    const seenActivities = new Set();
+    feed.games = feed.games.filter((g) => {
+      if (seenActivities.has(g.activityId)) return false;
+      seenActivities.add(g.activityId);
+      return true;
+    });
+    // Chronological across leagues, so a merged feed reads as one season.
     feed.games.sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
   }
   return feeds;

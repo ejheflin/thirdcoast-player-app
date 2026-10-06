@@ -201,7 +201,12 @@ const COLLECT_DEPS = () => ({
     }]],
   ]),
   standingsByProgram: new Map([
-    [9301, [{ teamId: 601, teamName: '1. Dual Leaguers' }, { teamId: 602, teamName: '2. Monday Mashers' }]],
+    // Team 602's standings name deliberately DIVERGES from its embedded
+    // schedule name above ('2. Monday Mashers'): standings is canonical
+    // and the schedule's embedded copy can be stale, so a test that wants
+    // to prove which one wins needs them to disagree, not just happen to
+    // match.
+    [9301, [{ teamId: 601, teamName: '1. Dual Leaguers' }, { teamId: 602, teamName: '2. Monday Mashers United' }]],
     [9302, [{ teamId: 611, teamName: '3. Thursday Thunder' }, { teamId: 612, teamName: '5. Late Night Lobs' }]],
   ]),
 });
@@ -224,8 +229,18 @@ test('collectPersonFeeds names the opponent, not the player\'s own team', () => 
   const game = collectPersonFeeds(COLLECT_DEPS()).get(31).games
     .find((g) => g.programId === 9301);
   // Seed number and captain suffix both stripped, as every screen does.
-  assert.equal(game.opponentName, 'Monday Mashers');
+  assert.equal(game.opponentName, 'Monday Mashers United');
   assert.equal(game.oppTeamId, 602);
+});
+
+test('collectPersonFeeds prefers the canonical standings name over the schedule\'s embedded (possibly stale) copy', () => {
+  // The fixture's two sources deliberately disagree (standings:
+  // 'Monday Mashers United', schedule: 'Monday Mashers'), so this test
+  // cannot pass just because both sources happened to agree.
+  const game = collectPersonFeeds(COLLECT_DEPS()).get(31).games
+    .find((g) => g.programId === 9301);
+  assert.equal(game.opponentName, 'Monday Mashers United');
+  assert.notEqual(game.opponentName, 'Monday Mashers', 'must not fall back to the schedule\'s embedded name');
 });
 
 test('collectPersonFeeds sorts a person\'s games by date then time', () => {
@@ -248,4 +263,48 @@ test('collectPersonFeeds ignores rosters of programs that are not active', () =>
   const deps = COLLECT_DEPS();
   deps.rostersByTeam.set('1122541|2362435', [{ userId: 999, firstName: 'Ancient' }]);
   assert.ok(!collectPersonFeeds(deps).has(999));
+});
+
+test('collectPersonFeeds drops the duplicate event when a person is rostered on both teams of their own matchup, and the built feed carries no repeated UID', () => {
+  // An administrative artifact (one person rostered on two teams of the
+  // SAME active program), not a real second roster spot. If those two
+  // teams play each other, the naive per-team accumulation would carry
+  // that activity twice -- same activityId, opposite opponentName -- and
+  // since UID is derived from activityId, a calendar client would see two
+  // VEVENTs claiming one UID and dedupe to whichever it felt like keeping.
+  const deps = {
+    activePrograms: [{ id: 9401, name: 'Identity Wednesday League' }],
+    rostersByTeam: new Map([
+      ['9401|701', [{ userId: 41, firstName: 'Sam', isCaptain: false }]],
+      ['9401|702', [{ userId: 41, firstName: 'Sam', isCaptain: false }]],
+    ]),
+    upcomingByProgram: new Map([
+      [9401, [{
+        activityId: 9401001, date: '2027-04-01', time: '19:00', courtName: 'Court 2',
+        teams: [{ teamId: 701, teamName: 'Team A' }, { teamId: 702, teamName: 'Team B' }],
+      }]],
+    ]),
+    standingsByProgram: new Map([
+      [9401, [{ teamId: 701, teamName: 'Team A' }, { teamId: 702, teamName: 'Team B' }]],
+    ]),
+  };
+  const feed = collectPersonFeeds(deps).get(41);
+  assert.equal(feed.games.length, 1, 'one event for the shared activity, not two');
+  const ics = buildCalendar({ userId: 41, ...feed });
+  const uidMatches = ics.match(/UID:9401001-41@thirdcoast/g) ?? [];
+  assert.equal(uidMatches.length, 1, 'exactly one VEVENT for this activity, never a duplicate sharing the UID');
+});
+
+test('collectPersonFeeds keeps the captain suffix when stripping the seed number alone would leave nothing', () => {
+  // Mirrors displayTeamName()'s two INDEPENDENTLY guarded strips: "5.
+  // (Captain)" has nothing left after the seed strip would normally apply
+  // ("(Captain)" is already non-empty), so the captain strip proceeds and
+  // then the seed strip is irrelevant to what's left. A single guard over
+  // the COMBINED result of both strips would see "" and revert all the
+  // way back to the raw, seed-and-all string -- which is the bug this
+  // pins against regressing to.
+  const deps = COLLECT_DEPS();
+  deps.standingsByProgram.get(9301).find((r) => r.teamId === 602).teamName = '5. (Captain)';
+  const game = collectPersonFeeds(deps).get(31).games.find((g) => g.programId === 9301);
+  assert.equal(game.opponentName, '(Captain)');
 });
