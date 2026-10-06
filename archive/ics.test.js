@@ -115,6 +115,12 @@ test('buildCalendar prefixes the league ONLY when the person is in several', () 
   const two = buildCalendar({ userId: 31, firstName: 'Mika', games: [GAME, other] });
   assert.ok(two.includes('SUMMARY:Identity Monday League — vs Monday Mashers\r\n'));
   assert.ok(two.includes('SUMMARY:Identity Thursday League — vs Late Night Lobs\r\n'));
+  // Pins the DERIVATION, not one date's value: a second game on a
+  // different date must get a different DTSTAMP, matching its own
+  // UTC start date. A single hardcoded constant would pass the literal
+  // assertion in the byte-identical test below but fail this one.
+  assert.ok(two.includes('DTSTAMP:20270302T000000Z'), 'DTSTAMP for the 2027-03-01 game');
+  assert.ok(two.includes('DTSTAMP:20270309T000000Z'), 'DTSTAMP for the 2027-03-08 game');
 });
 
 test('buildCalendar falls back to Volleyball when the opponent is unassigned', () => {
@@ -140,10 +146,19 @@ test('buildCalendar output is byte-identical across two calls', () => {
   // timestamp would make all ~259 files differ on every archive run, so
   // the archiver would commit 259 changed files twice a day forever into
   // a repo that is also the published website.
+  //
+  // The a === b check alone cannot catch a `new Date()` regression: both
+  // calls happen within the same second, so a clock-read DTSTAMP formatted
+  // to seconds resolution would agree with itself here and this test would
+  // pass anyway. The literal assertion below is what actually has bite --
+  // it pins DTSTAMP to the value derived from the game's own date
+  // (2027-03-01 local, which is 2027-03-02 once converted to its UTC
+  // start), which a clock read would not produce.
   const a = buildCalendar({ userId: 31, firstName: 'Mika', games: [GAME] });
   const b = buildCalendar({ userId: 31, firstName: 'Mika', games: [GAME] });
   assert.equal(a, b);
   assert.ok(/DTSTAMP:\d{8}T\d{6}Z/.test(a), 'DTSTAMP is still present and well-formed');
+  assert.ok(a.includes('DTSTAMP:20270302T000000Z'), 'DTSTAMP is derived from the game date, not read from the clock');
 });
 
 test('buildCalendar escapes a comma-bearing opponent name in SUMMARY', () => {
