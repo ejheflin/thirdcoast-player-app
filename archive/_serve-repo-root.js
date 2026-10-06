@@ -11,7 +11,7 @@ import { join, dirname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const DOCS_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
-const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
+const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.ics': 'text/calendar' };
 
 createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');

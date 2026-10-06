@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOCS_ROOT = join(__dirname, '..'); // docs/
 const FIXTURE_DATA = join(__dirname, 'fixtures', 'data');
 
-const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
+const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.ics': 'text/calendar' };
 
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
@@ -513,7 +513,7 @@ await page.evaluate(() => {
 });
 await go('schedule.html?program=9010');
 const teamOnlyScheduleShape = await page.evaluate(() => [
-  ...document.querySelectorAll('.sec-lbl, .sched-row'),
+  ...document.querySelectorAll('.sec-lbl, .row-link'),
 ].map((el) => el.outerHTML).join(''));
 
 await go('search.html');
@@ -528,10 +528,16 @@ await page.evaluate(() => {
 await go('schedule.html?program=9010');
 {
   const scheduleShape = () => page.evaluate(() => [
-    ...document.querySelectorAll('.sec-lbl, .sched-row'),
+    ...document.querySelectorAll('.sec-lbl, .row-link'),
   ].map((el) => el.outerHTML).join(''));
   const identityScheduleShape = await scheduleShape();
-  check('a one-league identity player\'s schedule ROWS are identical to a team-only player\'s',
+  // .row-link, not .sched-row: .row-link WRAPS .sched-row, so comparing
+  // the wrapper covers the opponent deep link's
+  // href="team.html?team=…&program=…" as well as the row markup inside
+  // it, without double-counting either -- and still excludes the calendar
+  // button, which is the one thing an identity player legitimately has
+  // and a team-only player does not.
+  check('a one-league identity player\'s schedule ROWS AND DEEP LINKS are identical to a team-only player\'s',
     identityScheduleShape === teamOnlyScheduleShape);
   check('a one-league player sees no league labels at all',
     (await page.$('.sched-opp-league')) === null);
@@ -653,7 +659,13 @@ await go('schedule.html?program=9301');
   check(`...pointing at the picker, got ${href}`, href.includes('identify=1'));
 }
 
-// The branches that return before the button must not render it.
+// The three branches that return before the button is ever rendered must
+// not render it. All three reach the SAME early return in different ways,
+// and the spec names each one separately, so each is pinned separately.
+
+// (1) An identified player whose every team has ended: the off-season
+// path. getMyTeams() is empty, so this lands on the "can't find a saved
+// team" copy even though the app does know who they are.
 await go('search.html');
 await page.evaluate(() => {
   localStorage.clear();
@@ -662,7 +674,48 @@ await page.evaluate(() => {
   });
 });
 await go('schedule.html?program=9301');
-check('no calendar button on the "no saved team" branch', await page.$('#addCal') === null);
+check('no calendar button for an identified player whose teams have all ended (teams: [])',
+  await page.$('#addCal') === null);
+{
+  const html = await page.content();
+  check('...and no webcal link on that branch either', !html.includes('webcal://'));
+}
+
+// (2) A genuinely unknown device: nothing in localStorage at all, no
+// identity and no team. The case above cannot cover this one -- it still
+// has a saved identity record, so a bug that renders the button from the
+// identity alone would pass there and fail here.
+await go('search.html');
+await page.evaluate(() => localStorage.clear());
+await go('schedule.html?program=9301');
+check('no calendar button on the genuine "no saved team" branch (empty storage)',
+  await page.$('#addCal') === null);
+{
+  const html = await page.content();
+  check('...and no webcal link anywhere on it', !html.includes('webcal://'));
+}
+
+// (3) No games left on the schedule. Team 604 is in 9301's standings but
+// appears in none of its games, so an identified player on it gets past
+// the saved-team check and falls out at the empty-myGames return.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 42, firstName: 'Benched',
+    teams: [{ programId: 9301, programName: 'Identity Monday League', teamId: 604, teamName: '4. Bench Warmers' }],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 604, teamName: '4. Bench Warmers' },
+  });
+});
+await go('schedule.html?program=9301');
+{
+  const rendered = await page.$eval('#body', (el) => el.textContent);
+  check(`the no-games-left branch really is the one under test, got "${rendered.trim()}"`,
+    rendered.includes('No games left'));
+  check('no calendar button on the "no games left" branch', await page.$('#addCal') === null);
+  const html = await page.content();
+  check('...and no webcal link on it', !html.includes('webcal://'));
+}
 await page.evaluate(() => localStorage.clear());
 
 // ---- gamenight.html, multi-league ---------------------------------------

@@ -311,6 +311,60 @@ export async function runArchive(deps) {
   const feeds = collectPersonFeeds({
     activePrograms, rostersByTeam, upcomingByProgram, standingsByProgram,
   });
+
+  // The ledger exists because this run otherwise has no way to know who it
+  // published for last time: a person whose season just ended has no
+  // active appearance, so the feed loop below never visits them and their
+  // feed would sit frozen with last season's games forever.
+  //
+  // Array.isArray, not just a null/undefined guard: a malformed userIds
+  // (e.g. a string, from a hand-edited or corrupted ledger) would make
+  // `for...of` below iterate characters and seed garbage ids into the
+  // ledger -- ids that then persist forever, since the union below only
+  // ever adds, never prunes. The per-ELEMENT coercion matters just as
+  // much: a string "555" survives Array.isArray, but `feeds` is keyed by
+  // NUMBER, so feeds.has("555") is false and the retirement pass would
+  // write an empty calendar straight over the feed this same run just
+  // built correctly for an active player -- silently wiping their real
+  // games out of their phone. It also keeps the numeric sort below from
+  // degrading on mixed types.
+  const previousLedger = await readJSON('docs/data/ics/index.json');
+  const previous = Array.isArray(previousLedger?.userIds)
+    ? previousLedger.userIds.map(Number).filter(Number.isInteger)
+    : [];
+
+  // "We knew about people, we have active programs, and yet we found
+  // nobody" is a data fault, not an off-season. Rosters only exist for
+  // teams present in PARSED standings, and a LIVE/UPCOMING program with
+  // zero standings rows is a verified real state (see the
+  // programs-index.json note above) -- an upstream error page parses to
+  // [] and this archiver treats that as normal. If that happens to a
+  // program that previously had standings, every one of its players falls
+  // out of `feeds`, the retirement pass empties their calendars, and
+  // three hours later the next run refills them: subscribers watch their
+  // whole season vanish and come back. So on that combination the
+  // retirement pass is skipped outright and the ledger is left exactly as
+  // it was, which keeps every id maintained for the next good run.
+  //
+  // Deliberately whole-run, not per-program: distinguishing "this one
+  // program genuinely ended" from "this one program failed to parse"
+  // needs an absent-for-N-runs counter, which is a bigger thing than this.
+  const dataFault = previous.length > 0 && feeds.size === 0 && activePrograms.length > 0;
+
+  // The ledger is written BEFORE the feeds, and the asymmetry is the whole
+  // point. A ledger entry with no file behind it is a transient 404 that
+  // the next run heals by writing that file. A FILE with no ledger entry
+  // never heals: no future run visits that id, so a real subscriber keeps
+  // a frozen calendar of last season's games forever -- precisely the
+  // failure the retirement path exists to prevent. On CI a crash between
+  // the two commits nothing and is harmless either way, but the README
+  // documents by-hand runs, and a hand-committed orphan is permanent.
+  if (!dataFault) {
+    await writeJSON('docs/data/ics/index.json', {
+      userIds: [...new Set([...previous, ...feeds.keys()])].sort((a, b) => a - b),
+    });
+  }
+
   for (const [userId, feed] of feeds) {
     await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, ...feed }));
   }
@@ -321,25 +375,12 @@ export async function runArchive(deps) {
   // calendar sits quietly through the off-season and refills itself on the
   // first run after they appear on a new roster -- which is exactly what
   // they were promised when they tapped Subscribe.
-  //
-  // The ledger exists because this run otherwise has no way to know who it
-  // published for last time: a person whose season just ended has no
-  // active appearance, so the loop above never visits them and their feed
-  // would sit frozen with last season's games forever.
-  // Array.isArray, not just a null/undefined guard: a malformed userIds
-  // (e.g. a string, from a hand-edited or corrupted ledger) would make
-  // `for...of` below iterate characters and seed garbage ids into the
-  // ledger -- ids that then persist forever, since the union below only
-  // ever adds, never prunes.
-  const previousLedger = await readJSON('docs/data/ics/index.json');
-  const previous = Array.isArray(previousLedger?.userIds) ? previousLedger.userIds : [];
-  for (const userId of previous) {
-    if (feeds.has(userId)) continue;
-    await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, games: [] }));
+  if (!dataFault) {
+    for (const userId of previous) {
+      if (feeds.has(userId)) continue;
+      await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, games: [] }));
+    }
   }
-  await writeJSON('docs/data/ics/index.json', {
-    userIds: [...new Set([...previous, ...feeds.keys()])].sort((a, b) => a - b),
-  });
 
   // Team history: which team last season each team is, and whether it
   // came up or down a level to get here. Built here, over every roster in

@@ -3,7 +3,7 @@
 A free, static companion site for Third Coast Volleyball players: power
 rankings, team pages, a matchup predictor, player dynasty cards, and
 playoff odds — all computed client-side from data a GitHub Actions
-workflow archives from LeagueApps every 12 hours.
+workflow archives from LeagueApps every three hours.
 
 ## Layout
 
@@ -111,11 +111,13 @@ workflow archives from LeagueApps every 12 hours.
     calendar would quietly stop updating. A person's URL never changes,
     and a player in two leagues gets both merged into one calendar.
 
-    Two details that look odd and are deliberate. `DTSTAMP` is derived
-    from each game's own date rather than the clock, so an unchanged feed
-    is byte-identical between runs and the archiver's commit stays quiet —
-    a live timestamp would rewrite every feed twice a day in a repo that
-    is also the published site. And a player who leaves every active
+    Two details that look odd and are deliberate. `DTSTAMP` is midnight
+    UTC on the date of that game's own UTC-converted start — so for an
+    evening game it is the *following* day — rather than the clock, so an
+    unchanged feed is byte-identical between runs and the archiver's
+    commit stays quiet; a live timestamp would rewrite every feed every
+    three hours in a repo that is also the published site. And a player
+    who leaves every active
     roster has their feed rewritten as an **empty** calendar rather than
     deleted: a 404 is a hard failure subscription clients can give up on
     permanently, while an empty calendar waits out the off-season and

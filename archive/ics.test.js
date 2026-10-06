@@ -88,7 +88,11 @@ test('buildCalendar emits a well-formed, CRLF-terminated VCALENDAR', () => {
   assert.ok(ics.includes('CALSCALE:GREGORIAN\r\n'));
   assert.ok(ics.includes('METHOD:PUBLISH\r\n'));
   assert.ok(ics.includes('X-WR-TIMEZONE:America/Chicago\r\n'));
-  assert.ok(/REFRESH-INTERVAL;VALUE=DURATION:PT12H/.test(ics));
+  // PT3H, matching .github/workflows/archive.yml's cron '0 */3 * * *'. A
+  // declared interval longer than the real cadence leaves a rescheduled
+  // game stale in a subscriber's calendar after the feed was corrected.
+  assert.ok(/REFRESH-INTERVAL;VALUE=DURATION:PT3H/.test(ics));
+  assert.ok(ics.includes('X-PUBLISHED-TTL:PT3H\r\n'));
   // Every line ends CRLF and no bare LF survives anywhere.
   assert.equal(ics.split('\n').length - 1, ics.split('\r\n').length - 1);
 });
@@ -307,4 +311,41 @@ test('collectPersonFeeds keeps the captain suffix when stripping the seed number
   deps.standingsByProgram.get(9301).find((r) => r.teamId === 602).teamName = '5. (Captain)';
   const game = collectPersonFeeds(deps).get(31).games.find((g) => g.programId === 9301);
   assert.equal(game.opponentName, '(Captain)');
+});
+
+test('collectPersonFeeds skips a game with no assigned start time rather than throwing', () => {
+  // schedule.js emits `time: null` whenever LeagueApps has not assigned a
+  // slot yet -- a real, normal state early in a season. icsUTC(date, null)
+  // would build Date.UTC(..., NaN), and formatToParts on that throws
+  // RangeError, rejecting runArchive and stopping the ENTIRE run from
+  // publishing anything: no feeds, but also no standings, no lineage and
+  // no search index, on every run until that game's date passed.
+  const deps = COLLECT_DEPS();
+  deps.upcomingByProgram.get(9301).push({
+    activityId: 9301099, date: '2027-03-02', time: null, courtName: null,
+    teams: [
+      { teamId: 601, teamName: '1. Dual Leaguers' },
+      { teamId: 604, teamName: '4. Timeless Wonders' },
+    ],
+  });
+  const mika = collectPersonFeeds(deps).get(31);
+  assert.ok(!mika.games.some((g) => g.activityId === 9301099),
+    'the timeless game never reaches icsUTC');
+  assert.equal(mika.games.length, 2, 'the real games are untouched');
+  // Carried all the way to the text, which is where it threw.
+  assert.doesNotThrow(() => buildCalendar({ userId: 31, ...mika }));
+  assert.ok(!buildCalendar({ userId: 31, ...mika }).includes('NaN'));
+});
+
+test('collectPersonFeeds skips a game with no date', () => {
+  const deps = COLLECT_DEPS();
+  deps.upcomingByProgram.get(9302).push({
+    activityId: 9302099, date: null, time: '19:00', courtName: 'Court 1',
+    teams: [
+      { teamId: 611, teamName: '3. Thursday Thunder' },
+      { teamId: 612, teamName: '5. Late Night Lobs' },
+    ],
+  });
+  const games = collectPersonFeeds(deps).get(31).games;
+  assert.ok(!games.some((g) => g.activityId === 9302099));
 });

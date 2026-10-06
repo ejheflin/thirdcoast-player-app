@@ -115,9 +115,12 @@ export function buildCalendar({ userId, firstName, games }) {
     `X-WR-CALNAME:${escapeICSText(`Third Coast — ${firstName ?? 'Volleyball'}`)}`,
     `X-WR-TIMEZONE:${VENUE_TZ}`,
     // Both spellings: Apple honours REFRESH-INTERVAL, Outlook and others
-    // read X-PUBLISHED-TTL. Matched to the archiver's own 12-hour cadence.
-    'REFRESH-INTERVAL;VALUE=DURATION:PT12H',
-    'X-PUBLISHED-TTL:PT12H',
+    // read X-PUBLISHED-TTL. Matched to the archiver's own three-hour
+    // cadence (.github/workflows/archive.yml: cron '0 */3 * * *') -- a
+    // longer declared interval would let a rescheduled game sit stale in
+    // a subscriber's calendar long after the feed itself was corrected.
+    'REFRESH-INTERVAL;VALUE=DURATION:PT3H',
+    'X-PUBLISHED-TTL:PT3H',
   ];
 
   for (const game of list) {
@@ -139,7 +142,15 @@ export function buildCalendar({ userId, firstName, games }) {
 
     lines.push(
       'BEGIN:VEVENT',
-      `UID:${game.activityId}-${userId}@thirdcoast`,
+      // The one iCalendar value here that is not run through
+      // escapeICSText, because it must not be: RFC 5545 UIDs are opaque
+      // identifiers and a client that has already stored one has to see
+      // the same bytes next run. Both halves are numeric upstream
+      // (activityId is a JSON number, userId is coerced by the caller),
+      // so Number() keeps the property true by construction rather than
+      // by assumption -- anything non-numeric becomes NaN, which cannot
+      // carry a semicolon, comma, backslash or newline into the line.
+      `UID:${Number(game.activityId)}-${Number(userId)}@thirdcoast`,
       // Deliberately NOT the current time. See the byte-identical test:
       // a live DTSTAMP would make every feed differ on every archive run.
       `DTSTAMP:${start.slice(0, 8)}T000000Z`,
@@ -207,6 +218,17 @@ export function collectPersonFeeds({
     const rows = standingsByProgram?.get(programId) ?? [];
     const games = (upcomingByProgram?.get(programId) ?? [])
       .filter((g) => g.teams.some((t) => t.teamId === teamId))
+      // A game needs both a date and a start time before it can become a
+      // correctly-timed event, and schedule.js emits `time: null`
+      // whenever LeagueApps has not assigned a slot yet -- a real, normal
+      // state early in a season. The court map in fetch.js drops those
+      // same games for exactly this reason: an event with no real start
+      // cannot be placed, and inventing one would put a wrong time in
+      // somebody's actual calendar. Dropped here too, and not merely for
+      // correctness: icsUTC(date, null) builds Date.UTC(..., NaN), whose
+      // formatToParts throws RangeError, which rejects runArchive and
+      // stops the whole run from publishing anything at all.
+      .filter((g) => g.date && g.time)
       .map((g) => {
         const opp = g.teams.find((t) => t.teamId !== teamId);
         const oppRow = opp ? rows.find((r) => r.teamId === opp.teamId) : null;
