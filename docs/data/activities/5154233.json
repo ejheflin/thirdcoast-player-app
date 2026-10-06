@@ -72,6 +72,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14205706,
+      "date": "2026-10-05",
+      "teams": [
+        {
+          "teamId": 8159362,
+          "teamName": "5. Joann L. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205708,
+      "date": "2026-10-05",
+      "teams": [
+        {
+          "teamId": 8182699,
+          "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
