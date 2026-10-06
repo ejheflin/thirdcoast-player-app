@@ -3,7 +3,7 @@
 A free, static companion site for Third Coast Volleyball players: power
 rankings, team pages, a matchup predictor, player dynasty cards, and
 playoff odds — all computed client-side from data a GitHub Actions
-workflow archives from LeagueApps every 12 hours.
+workflow archives from LeagueApps every three hours.
 
 ## Layout
 
@@ -98,6 +98,33 @@ workflow archives from LeagueApps every 12 hours.
     can open "Add to Home Screen" for the user. Desktop never sees it, and
     neither does the Puppeteer suite (`navigator.webdriver`) unless a test
     forces a platform with `window.__installNag`.
+    **Calendar feeds.** `data/ics/person-{userId}.ics` is one iCalendar
+    file per player on an active roster, written by `archive/ics.js`. The
+    Schedule tab offers it two ways: a `webcal://` link, which iOS
+    subscribes to in one tap and then refreshes by itself, and the same
+    file with a `download` attribute, for Android — where Google Calendar
+    cannot add a calendar by URL from the phone at all.
+
+    Keyed by **person**, not team, for the same reason the saved pointer
+    is: LeagueApps reissues `programId` and `teamId` every season, so a
+    team-keyed URL would go dead every few months and a subscribed
+    calendar would quietly stop updating. A person's URL never changes,
+    and a player in two leagues gets both merged into one calendar.
+
+    Two details that look odd and are deliberate. `DTSTAMP` is midnight
+    UTC on the date of that game's own UTC-converted start — so for an
+    evening game it is the *following* day — rather than the clock, so an
+    unchanged feed is byte-identical between runs and the archiver's
+    commit stays quiet; a live timestamp would rewrite every feed every
+    three hours in a repo that is also the published site. And a player
+    who leaves every active
+    roster has their feed rewritten as an **empty** calendar rather than
+    deleted: a 404 is a hard failure subscription clients can give up on
+    permanently, while an empty calendar waits out the off-season and
+    refills itself. That is what `data/ics/index.json` is for — without a
+    ledger of who was published last run, a person whose season just
+    ended would never be visited again and their feed would sit frozen
+    with last season's games.
   - `/docs/tests` — the local Puppeteer UI suite and its fixture data.
   - `/docs/.nojekyll` — tells Pages to serve these files as-is instead of
     running them through Jekyll.

@@ -12,6 +12,7 @@ import { firstNameOf, lastInitialOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
 import { extractUpcomingGame, extractTournamentMarker } from './schedule.js';
 import { buildLineage } from './lineage.js';
+import { buildCalendar, collectPersonFeeds } from './ics.js';
 
 async function realReadJSON(path) {
   try {
@@ -25,6 +26,14 @@ async function realReadJSON(path) {
 async function realWriteJSON(path, data) {
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(data, null, 2) + '\n', 'utf8');
+}
+
+// writeJSON cannot carry iCalendar text -- JSON.stringify would turn a
+// feed into one quoted line with every CRLF escaped, a file no calendar
+// client can read. This writes raw text instead.
+async function realWriteText(path, text) {
+  await mkdir(dirname(path), { recursive: true });
+  await writeFile(path, text, 'utf8');
 }
 
 // A small delay between per-program requests -- good-citizen pacing
@@ -46,6 +55,11 @@ export async function runArchive(deps) {
     parseStandings = leagueapps.parseStandings,
     parseRoster = leagueapps.parseRoster,
     readJSON, writeJSON,
+    // Falls back to writeJSON, not a no-op: a test that only stubs
+    // writeJSON (the common case, since most of this run's output is
+    // JSON) still sees its feed writes land somewhere observable instead
+    // of silently vanishing or hitting real disk.
+    writeText = writeJSON,
     historyRosterBudget = HISTORY_ROSTER_BUDGET,
   } = deps;
   let historyBudget = historyRosterBudget;
@@ -87,6 +101,11 @@ export async function runArchive(deps) {
   // not -- the team-history pass after the loop needs all of them at once.
   const standingsByProgram = new Map();
   const rostersByTeam = new Map();
+  // Hoisted out of the "any active program" block below: the per-person
+  // feed hook after this function's main loop needs it too, and it is an
+  // empty-but-present Map rather than undefined when there is no active
+  // program at all.
+  const upcomingByProgram = new Map();
 
   // Fetches one team's roster and writes the two files that come out of
   // it: the team -> people index, and each person's own record. Returns
@@ -203,7 +222,6 @@ export async function runArchive(deps) {
     // are the same thing (this program's upcoming calendar), and the
     // router reads both together to decide which is next.
     const todayISO = new Date().toISOString().slice(0, 10);
-    const upcomingByProgram = new Map();
     const tournamentsByProgram = new Map();
     const pushTo = (map, programId, value) => {
       if (!map.has(programId)) map.set(programId, []);
@@ -284,6 +302,86 @@ export async function runArchive(deps) {
 
   await writeJSON('docs/data/active-teams-index.json', activeTeamsIndex);
 
+  // Per-person calendar feeds.
+  //
+  // Keyed by PERSON, not team: LeagueApps reissues both programId and
+  // teamId every season, so a team-keyed webcal:// URL would go dead
+  // every few months and a subscribed calendar would quietly stop
+  // updating. A person's feed URL never changes.
+  const feeds = collectPersonFeeds({
+    activePrograms, rostersByTeam, upcomingByProgram, standingsByProgram,
+  });
+
+  // The ledger exists because this run otherwise has no way to know who it
+  // published for last time: a person whose season just ended has no
+  // active appearance, so the feed loop below never visits them and their
+  // feed would sit frozen with last season's games forever.
+  //
+  // Array.isArray, not just a null/undefined guard: a malformed userIds
+  // (e.g. a string, from a hand-edited or corrupted ledger) would make
+  // `for...of` below iterate characters and seed garbage ids into the
+  // ledger -- ids that then persist forever, since the union below only
+  // ever adds, never prunes. The per-ELEMENT coercion matters just as
+  // much: a string "555" survives Array.isArray, but `feeds` is keyed by
+  // NUMBER, so feeds.has("555") is false and the retirement pass would
+  // write an empty calendar straight over the feed this same run just
+  // built correctly for an active player -- silently wiping their real
+  // games out of their phone. It also keeps the numeric sort below from
+  // degrading on mixed types.
+  const previousLedger = await readJSON('docs/data/ics/index.json');
+  const previous = Array.isArray(previousLedger?.userIds)
+    ? previousLedger.userIds.map(Number).filter(Number.isInteger)
+    : [];
+
+  // "We knew about people, we have active programs, and yet we found
+  // nobody" is a data fault, not an off-season. Rosters only exist for
+  // teams present in PARSED standings, and a LIVE/UPCOMING program with
+  // zero standings rows is a verified real state (see the
+  // programs-index.json note above) -- an upstream error page parses to
+  // [] and this archiver treats that as normal. If that happens to a
+  // program that previously had standings, every one of its players falls
+  // out of `feeds`, the retirement pass empties their calendars, and
+  // three hours later the next run refills them: subscribers watch their
+  // whole season vanish and come back. So on that combination the
+  // retirement pass is skipped outright and the ledger is left exactly as
+  // it was, which keeps every id maintained for the next good run.
+  //
+  // Deliberately whole-run, not per-program: distinguishing "this one
+  // program genuinely ended" from "this one program failed to parse"
+  // needs an absent-for-N-runs counter, which is a bigger thing than this.
+  const dataFault = previous.length > 0 && feeds.size === 0 && activePrograms.length > 0;
+
+  // The ledger is written BEFORE the feeds, and the asymmetry is the whole
+  // point. A ledger entry with no file behind it is a transient 404 that
+  // the next run heals by writing that file. A FILE with no ledger entry
+  // never heals: no future run visits that id, so a real subscriber keeps
+  // a frozen calendar of last season's games forever -- precisely the
+  // failure the retirement path exists to prevent. On CI a crash between
+  // the two commits nothing and is harmless either way, but the README
+  // documents by-hand runs, and a hand-committed orphan is permanent.
+  if (!dataFault) {
+    await writeJSON('docs/data/ics/index.json', {
+      userIds: [...new Set([...previous, ...feeds.keys()])].sort((a, b) => a - b),
+    });
+  }
+
+  for (const [userId, feed] of feeds) {
+    await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, ...feed }));
+  }
+
+  // Anyone published last run who is no longer on an active roster gets an
+  // EMPTY calendar rather than a deleted file. A 404 is a hard failure
+  // that subscription clients can give up on permanently; an empty
+  // calendar sits quietly through the off-season and refills itself on the
+  // first run after they appear on a new roster -- which is exactly what
+  // they were promised when they tapped Subscribe.
+  if (!dataFault) {
+    for (const userId of previous) {
+      if (feeds.has(userId)) continue;
+      await writeText(`docs/data/ics/person-${userId}.ics`, buildCalendar({ userId, games: [] }));
+    }
+  }
+
   // Team history: which team last season each team is, and whether it
   // came up or down a level to get here. Built here, over every roster in
   // the catalog, because no page could afford to: answering it in the
@@ -363,6 +461,7 @@ if (import.meta.filename === process.argv[1]) {
     parseRoster: leagueapps.parseRoster,
     readJSON: realReadJSON,
     writeJSON: realWriteJSON,
+    writeText: realWriteText,
     // A by-hand backfill can lift the per-run cap: ARCHIVE_HISTORY_BUDGET=5000.
     ...(process.env.ARCHIVE_HISTORY_BUDGET
       ? { historyRosterBudget: Number(process.env.ARCHIVE_HISTORY_BUDGET) }
