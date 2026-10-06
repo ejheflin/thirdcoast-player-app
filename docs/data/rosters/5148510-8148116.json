@@ -6,21 +6,25 @@
     {
       "userId": 58492570,
       "firstName": "Nikheel",
+      "lastInitial": "A.",
       "isCaptain": false
     },
     {
       "userId": 56679920,
       "firstName": "Jaimie",
+      "lastInitial": "M.",
       "isCaptain": true
     },
     {
       "userId": 57699748,
       "firstName": "Morgan",
+      "lastInitial": "S.",
       "isCaptain": false
     },
     {
       "userId": 56640764,
       "firstName": "Matthew",
+      "lastInitial": "V.",
       "isCaptain": false
     }
   ]

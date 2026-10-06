@@ -2566,9 +2566,39 @@
   "teams": [
     [
       0,
+      8179406,
+      "5. Doria O. and Anna S.",
+      1
+    ],
+    [
+      0,
+      8179958,
+      "3. Denise H. and Kim S.",
+      1
+    ],
+    [
+      0,
       8178840,
       "10. Julia V. and Beth B.",
       2
+    ],
+    [
+      0,
+      8185977,
+      "9. Gabby T. and Mikah M.",
+      1
+    ],
+    [
+      0,
+      8179782,
+      "8. Cat H. and Deanna V.",
+      1
+    ],
+    [
+      0,
+      8186968,
+      "2. Annie J. and Anna C.",
+      1
     ],
     [
       0,
@@ -2584,38 +2614,8 @@
     ],
     [
       0,
-      8179406,
-      "5. Doria O. and Anna S.",
-      1
-    ],
-    [
-      0,
       8179595,
       "1. Brooke F. and Angel H.",
-      1
-    ],
-    [
-      0,
-      8179782,
-      "8. Cat H. and Deanna V.",
-      1
-    ],
-    [
-      0,
-      8179958,
-      "3. Denise H. and Kim S.",
-      1
-    ],
-    [
-      0,
-      8185977,
-      "9. Gabby T. and Mikah M.",
-      1
-    ],
-    [
-      0,
-      8186968,
-      "2. Annie J. and Anna C.",
       1
     ],
     [
@@ -2623,6 +2623,24 @@
       8191327,
       "6. Annie H. and Jordan W.",
       1
+    ],
+    [
+      2,
+      8173044,
+      "7. Kaegan W. and Jon N.",
+      6
+    ],
+    [
+      2,
+      8153805,
+      "1. Sarah U. and Logan C.",
+      1
+    ],
+    [
+      2,
+      8161071,
+      "3. Taylor P. and Carson S.",
+      2
     ],
     [
       2,
@@ -2638,12 +2656,6 @@
     ],
     [
       2,
-      8153805,
-      "1. Sarah U. and Logan C.",
-      1
-    ],
-    [
-      2,
       8156793,
       "4. Liz C. and Josman R.",
       16
@@ -2656,18 +2668,6 @@
     ],
     [
       2,
-      8161071,
-      "3. Taylor P. and Carson S.",
-      2
-    ],
-    [
-      2,
-      8173044,
-      "7. Kaegan W. and Jon N.",
-      6
-    ],
-    [
-      2,
       8173157,
       "5. Emily R. and Dreco S.",
       1
@@ -2677,6 +2677,18 @@
       8148465,
       "1. Olivia E. and Jason O.",
       1
+    ],
+    [
+      3,
+      8160252,
+      "7. Kim M. and Travis B.",
+      6
+    ],
+    [
+      3,
+      8170440,
+      "8. Jenny S. and Nate G.",
+      7
     ],
     [
       3,
@@ -2695,18 +2707,6 @@
       8159362,
       "5. Joann L. and Jacob W.",
       3
-    ],
-    [
-      3,
-      8160252,
-      "7. Kim M. and Travis B.",
-      6
-    ],
-    [
-      3,
-      8170440,
-      "8. Jenny S. and Nate G.",
-      7
     ],
     [
       3,
@@ -2734,21 +2734,27 @@
     ],
     [
       4,
+      8158925,
+      "3. Respect Your Elders (Heather B.)",
+      6
+    ],
+    [
+      4,
+      8172362,
+      "5. Tri-Angels (Johnny P.)",
+      4
+    ],
+    [
+      4,
       8148416,
       "9. May the Spike Be With You (Ash C.)",
       13
     ],
     [
       4,
-      8153216,
-      "2. Volley Llamas (Jamie D.)",
-      16
-    ],
-    [
-      4,
-      8158925,
-      "3. Respect Your Elders (Heather B.)",
-      6
+      8190678,
+      "10. Free Agent 2",
+      1
     ],
     [
       4,
@@ -2758,9 +2764,9 @@
     ],
     [
       4,
-      8172362,
-      "5. Tri-Angels (Johnny P.)",
-      4
+      8153216,
+      "2. Volley Llamas (Jamie D.)",
+      16
     ],
     [
       4,
@@ -2784,12 +2790,6 @@
       4,
       8181763,
       "1. Gold Diggers (Gabriela C.)",
-      1
-    ],
-    [
-      4,
-      8190678,
-      "10. Free Agent 2",
       1
     ],
     [

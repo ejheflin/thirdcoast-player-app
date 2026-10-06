@@ -6,11 +6,13 @@
     {
       "userId": 47034997,
       "firstName": "Ali",
+      "lastInitial": "M.",
       "isCaptain": false
     },
     {
       "userId": 15314752,
       "firstName": "Yanni",
+      "lastInitial": "S.",
       "isCaptain": true
     }
   ]

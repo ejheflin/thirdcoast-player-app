@@ -6,14 +6,34 @@
       "position": 1,
       "teamId": 8148465,
       "teamName": "1. Olivia E. and Jason O.",
-      "gamesPlayed": 0,
-      "wins": 0,
+      "gamesPlayed": 2,
+      "wins": 2,
       "losses": 0,
       "ties": 0,
-      "points": 0
+      "points": 4
     },
     {
       "position": 2,
+      "teamId": 8160252,
+      "teamName": "7. Kim M. and Travis B.",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 0,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 3,
+      "teamId": 8170440,
+      "teamName": "8. Jenny S. and Nate G.",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 1,
+      "points": 1
+    },
+    {
+      "position": 4,
       "teamId": 8148569,
       "teamName": "2. Holli D. and Dan L.",
       "gamesPlayed": 0,
@@ -23,7 +43,7 @@
       "points": 0
     },
     {
-      "position": 3,
+      "position": 5,
       "teamId": 8148865,
       "teamName": "4. Jodie N. and Joel G.",
       "gamesPlayed": 0,
@@ -33,29 +53,9 @@
       "points": 0
     },
     {
-      "position": 4,
+      "position": 6,
       "teamId": 8159362,
       "teamName": "5. Joann L. and Jacob W.",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 5,
-      "teamId": 8160252,
-      "teamName": "7. Kim M. and Travis B.",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
-    },
-    {
-      "position": 6,
-      "teamId": 8170440,
-      "teamName": "8. Jenny S. and Nate G.",
       "gamesPlayed": 0,
       "wins": 0,
       "losses": 0,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8176028,
       "teamName": "3. Sue L. and David N.",
-      "gamesPlayed": 0,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 2,
       "ties": 0,
       "points": 0
     },

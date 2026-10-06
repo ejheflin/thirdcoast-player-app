@@ -8,6 +8,18 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8160252,
+    "teamName": "7. Kim M. and Travis B."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
+    "teamId": 8170440,
+    "teamName": "8. Jenny S. and Nate G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8148569,
     "teamName": "2. Holli D. and Dan L."
   },
@@ -22,18 +34,6 @@
     "programName": "Monday Coed 2s B",
     "teamId": 8159362,
     "teamName": "5. Joann L. and Jacob W."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8160252,
-    "teamName": "7. Kim M. and Travis B."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8170440,
-    "teamName": "8. Jenny S. and Nate G."
   },
   {
     "programId": 5154233,
@@ -62,6 +62,24 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8173044,
+    "teamName": "7. Kaegan W. and Jon N."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
+    "teamId": 8153805,
+    "teamName": "1. Sarah U. and Logan C."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
+    "teamId": 8161071,
+    "teamName": "3. Taylor P. and Carson S."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8148910,
     "teamName": "6. Caroline J. and Mark J."
   },
@@ -70,12 +88,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8152686,
     "teamName": "2. Sydney Z. and Manny A."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8153805,
-    "teamName": "1. Sarah U. and Logan C."
   },
   {
     "programId": 5154234,
@@ -92,32 +104,8 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8161071,
-    "teamName": "3. Taylor P. and Carson S."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8173044,
-    "teamName": "7. Kaegan W. and Jon N."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
     "teamId": 8173157,
     "teamName": "5. Emily R. and Dreco S."
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8148416,
-    "teamName": "9. May the Spike Be With You (Ash C.)"
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8153216,
-    "teamName": "2. Volley Llamas (Jamie D.)"
   },
   {
     "programId": 5154231,
@@ -128,14 +116,32 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
+    "teamId": 8172362,
+    "teamName": "5. Tri-Angels (Johnny P.)"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
+    "teamId": 8148416,
+    "teamName": "9. May the Spike Be With You (Ash C.)"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
+    "teamId": 8190678,
+    "teamName": "10. Free Agent 2"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
     "teamId": 8160698,
     "teamName": "6. Settin Pretty (Elizabeth A.)"
   },
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8172362,
-    "teamName": "5. Tri-Angels (Johnny P.)"
+    "teamId": 8153216,
+    "teamName": "2. Volley Llamas (Jamie D.)"
   },
   {
     "programId": 5154231,
@@ -162,16 +168,40 @@
     "teamName": "1. Gold Diggers (Gabriela C.)"
   },
   {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8190678,
-    "teamName": "10. Free Agent 2"
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8179406,
+    "teamName": "5. Doria O. and Anna S."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8179958,
+    "teamName": "3. Denise H. and Kim S."
   },
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
     "teamId": 8178840,
     "teamName": "10. Julia V. and Beth B."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8185977,
+    "teamName": "9. Gabby T. and Mikah M."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8179782,
+    "teamName": "8. Cat H. and Deanna V."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8186968,
+    "teamName": "2. Annie J. and Anna C."
   },
   {
     "programId": 5172413,
@@ -188,38 +218,8 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179406,
-    "teamName": "5. Doria O. and Anna S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8179595,
     "teamName": "1. Brooke F. and Angel H."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179782,
-    "teamName": "8. Cat H. and Deanna V."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179958,
-    "teamName": "3. Denise H. and Kim S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8185977,
-    "teamName": "9. Gabby T. and Mikah M."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8186968,
-    "teamName": "2. Annie J. and Anna C."
   },
   {
     "programId": 5172413,
