@@ -828,6 +828,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13946810,
+      "date": "2026-09-30",
+      "teams": [
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

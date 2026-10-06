@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8139578,
+      "teamName": "12. Riley W. and Jacob W.",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 0,
+      "ties": 4,
+      "points": 12
+    },
+    {
+      "position": 3,
       "teamId": 8139630,
       "teamName": "9. Dane R. and Carson S.",
       "gamesPlayed": 8,
@@ -21,16 +31,6 @@
       "losses": 1,
       "ties": 3,
       "points": 11
-    },
-    {
-      "position": 3,
-      "teamId": 8139578,
-      "teamName": "12. Riley W. and Jacob W.",
-      "gamesPlayed": 7,
-      "wins": 3,
-      "losses": 0,
-      "ties": 4,
-      "points": 10
     },
     {
       "position": 4,
@@ -64,18 +64,8 @@
     },
     {
       "position": 7,
-      "teamId": 8122077,
-      "teamName": "10. Nate G. and Zach B.",
-      "gamesPlayed": 6,
-      "wins": 2,
-      "losses": 2,
-      "ties": 2,
-      "points": 6
-    },
-    {
-      "position": 8,
-      "teamId": 8138298,
-      "teamName": "7. Jacob J. and Jake S.",
+      "teamId": 8136903,
+      "teamName": "11. Zach P. and Luke S.",
       "gamesPlayed": 8,
       "wins": 1,
       "losses": 3,
@@ -83,9 +73,19 @@
       "points": 6
     },
     {
+      "position": 8,
+      "teamId": 8122077,
+      "teamName": "10. Nate G. and Zach B.",
+      "gamesPlayed": 7,
+      "wins": 2,
+      "losses": 3,
+      "ties": 2,
+      "points": 6
+    },
+    {
       "position": 9,
-      "teamId": 8136903,
-      "teamName": "11. Zach P. and Luke S.",
+      "teamId": 8138298,
+      "teamName": "7. Jacob J. and Jake S.",
       "gamesPlayed": 8,
       "wins": 1,
       "losses": 3,
