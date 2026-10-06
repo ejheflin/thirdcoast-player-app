@@ -116,9 +116,13 @@ async function renderPicker(team) {
   // No roster archived yet -- a real, normal state for a team the archiver
   // has not reached. The player wanted to save a team; give them that and
   // say nothing about identity.
+  //
+  // Deliberately sets NEITHER flag. Nobody declined anything and no picker
+  // was shown, and these brand-new signups are precisely the players
+  // identity is meant to stay available for: burning a durable flag here
+  // would mean never offering it again once the archiver catches up.
   if (players.length === 0) {
     setMyTeam(team);
-    declineIdentity();
     location.href = `team.html?team=${encodeURIComponent(team.teamId)}&program=${encodeURIComponent(team.programId)}`;
     return;
   }
@@ -130,6 +134,11 @@ async function renderPicker(team) {
     const index = await loadSearchIndex();
     for (const p of index?.people ?? []) seasonsBy.set(p.userId, p.seasons);
   } catch { /* the subline is decoration; the picker works without it */ }
+
+  // The ask has now been MADE, whatever comes of it. index.html reads this
+  // to keep its one-time divert one-time even when the player answers by
+  // closing the app.
+  markIdentityAsked();
 
   results.innerHTML = `
     <div class="sec-lbl">${escapeHTML(teamLabel)}</div>
@@ -152,7 +161,14 @@ async function renderPicker(team) {
 }
 
 async function confirmIdentity(team, player) {
-  const teams = (await deriveTeamsFor(player.userId)) ?? [team];
+  // Falls back on EMPTY as well as null. deriveTeamsFor returns [] when
+  // the person record exists but programs-index.json has not caught up
+  // with a program active-teams-index.json already lists -- the two files
+  // are built from different sources, so that gap is real -- and saving
+  // teams: [] would drop the player on the "Between seasons" screen
+  // seconds after they picked a team that is playing tonight.
+  const derived = await deriveTeamsFor(player.userId);
+  const teams = derived?.length ? derived : [team];
 
   const save = () => {
     setMyIdentity({
@@ -186,7 +202,7 @@ async function confirmIdentity(team, player) {
           <div class="season-team" style="font-size:17px">${escapeHTML(displayTeamName(t.teamName, { stripCaptain: true }))}</div>
           <div class="season-sub" style="margin-bottom:10px">${escapeHTML(t.programName)}</div>`).join('')}
       </div>
-      <button class="cta" id="confirmId">That's me — show both</button>
+      <button class="cta" id="confirmId">That's me — show them all</button>
       <p style="margin:14px 0 4px"><a class="textlink" id="pickAgain" href="#">Not me? Pick again →</a></p>
     </div>`;
   document.getElementById('confirmId').addEventListener('click', save);

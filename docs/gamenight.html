@@ -34,7 +34,28 @@
 // Returning player only: index.html is the "next game" home feed, so
 // there's nothing to show without a saved team. search.html owns the
 // opposite direction (it no longer redirects a returning player away).
-const saved = getMyTeam();
+// index.html routes a player to the league holding their NEXT game, which
+// for a two-league player is not necessarily their primary -- and
+// everything on this screen that is not the cross-league match merge (the
+// tab bar, the stat grid, set diff, "Last result", the Season stats link)
+// follows one single league. That league has to be the one whose game is
+// on the card, or a player routed into their Thursday league reads their
+// Monday record underneath their Thursday game.
+//
+// Validated against getMyTeams() rather than trusted: a query string is
+// typed by anyone, and this screen must never render a team the player is
+// not actually on. Anything that does not match falls back to the saved
+// primary, which is also what a bare gamenight.html gets.
+function routedTeam() {
+  const params = new URLSearchParams(location.search);
+  const programId = params.get('program');
+  const teamId = params.get('team');
+  if (programId === null || teamId === null) return null;
+  return getMyTeams().find((t) => String(t.programId) === programId
+    && String(t.teamId) === teamId) ?? null;
+}
+
+const saved = routedTeam() ?? getMyTeam();
 if (!saved) {
   location.href = 'search.html';
 } else {
@@ -68,8 +89,13 @@ async function main(saved) {
 
   // The greeting finally names the player, which is what an element called
   // `greet` was always for -- the app has simply never known until now.
+  //
+  // Only when there is more than one league, matching schedule.html
+  // exactly: with a single league the league's own name is still the more
+  // useful heading, and a one-league identity player's screen has to stay
+  // indistinguishable from the team-only baseline.
   const me = getMyIdentity();
-  document.getElementById('greet').textContent = me ? me.firstName : programName;
+  document.getElementById('greet').textContent = multi && me ? me.firstName : programName;
 
   const myRow = standings?.rows?.find((r) => r.teamId === teamId);
   const games = mine.activities?.games ?? [];
@@ -164,9 +190,13 @@ async function main(saved) {
     // Same treatment team.html already gives this exact situation: drop the
     // pointer here rather than leaving the player to discover it four hops
     // away behind "Season stats", and offer the way out on this screen.
+    // forgetTeam, not clearMyTeam: an identity player's dead team is only
+    // one of their leagues (and is usually the primary, which is what the
+    // guard above matched), so the userId and any surviving league have to
+    // outlive it.
     const stillSaved = getMyTeam();
     if (stillSaved && String(stillSaved.programId) === String(programId) && String(stillSaved.teamId) === String(teamId)) {
-      clearMyTeam();
+      forgetTeam(stillSaved);
     }
     bodyEl.innerHTML = `
       <p style="color:var(--app-faint);font-size:13px">We can't find this team anymore —

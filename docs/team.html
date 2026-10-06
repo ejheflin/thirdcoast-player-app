@@ -58,9 +58,14 @@ Promise.all([
     // state with no way out but clearing site data by hand. Only clear it
     // when it's THIS team that's missing, so browsing to some other dead
     // team's URL doesn't wipe a good pointer.
+    //
+    // forgetTeam, not clearMyTeam: for an identity player the team this
+    // guard just matched is their `primary`, and dropping a dead primary
+    // must not take the userId -- the thing that makes next season
+    // automatic -- with it.
     const saved = getMyTeam();
     if (saved && String(saved.programId) === String(programId) && String(saved.teamId) === String(teamId)) {
-      clearMyTeam();
+      forgetTeam(saved);
     }
     bodyEl.innerHTML = '<p style="color:var(--app-faint);font-size:13px">We can\'t find this team anymore — <a href="index.html" style="color:var(--app-data)">search again</a>.</p>';
     return;

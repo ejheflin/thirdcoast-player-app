@@ -11,6 +11,7 @@ async function injectIcons() {
 
 const TEAM_KEY = 'thirdcoast-my-team';
 const DECLINED_KEY = 'thirdcoast-identity-declined';
+const ASKED_KEY = 'thirdcoast-identity-asked';
 
 // Two shapes live under TEAM_KEY, and the accessors below are the ONLY
 // place that difference is handled -- which is what keeps this change off
@@ -63,8 +64,19 @@ function getMyIdentity() {
   return rec?.userId == null ? null : { userId: rec.userId, firstName: rec.firstName };
 }
 
+// Reports whether the write actually landed. Almost every caller can
+// ignore that -- a storage write the browser refuses just means the
+// player's choice does not survive the tab -- but refreshMyTeams() below
+// cannot: it reloads to repaint from the corrected cache, and a reload
+// after a write that never happened would re-run the same comparison
+// against the same stale cache and reload again, forever.
 function setMyTeam(team) {
-  localStorage.setItem(TEAM_KEY, JSON.stringify(team));
+  try {
+    localStorage.setItem(TEAM_KEY, JSON.stringify(team));
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 function setMyIdentity({ userId, firstName, teams, primary }) {
@@ -79,6 +91,39 @@ function setMyIdentity({ userId, firstName, teams, primary }) {
 
 function clearMyTeam() {
   localStorage.removeItem(TEAM_KEY);
+}
+
+// What a page means when it discovers that ONE of the player's teams has
+// gone away -- withdrawn, or a pointer left over from a season that
+// ended. For a team-only record that team is everything the app knows, so
+// this is still today's behaviour: drop the lot. For an identity record
+// it must not be. `userId` is the entire reason next season needs no
+// action from the player, and a single dead team is no reason to throw it
+// away -- especially since for an identity player the dead team is
+// usually their `primary`, which is exactly what every caller's guard
+// compares against.
+//
+// clearMyTeam() stays for the one caller that genuinely wants everything
+// gone.
+function forgetTeam(team) {
+  const rec = getMyRecord();
+  if (!rec) return;
+  if (rec.userId == null) {
+    clearMyTeam();
+    return;
+  }
+  // String comparison, like every other program-id comparison in this
+  // file: these ids cross a JSON boundary and reach here from query
+  // strings, so nothing assumes they are numbers.
+  const isDead = (t) => String(t?.programId) === String(team?.programId)
+    && String(t?.teamId) === String(team?.teamId);
+  const teams = (rec.teams ?? []).filter((t) => !isDead(t));
+  // A surviving team makes a better primary than null even when the one
+  // being dropped WAS the primary: the player still plays somewhere, and
+  // a null primary would send them to the off-season screen while a live
+  // league of theirs is running.
+  const primary = rec.primary && !isDead(rec.primary) ? rec.primary : (teams[0] ?? null);
+  setMyTeam({ ...rec, teams, primary });
 }
 
 // Durable, not the install nag's sliding 30-minute quiet (nagQuiet, below):
@@ -97,6 +142,29 @@ function declineIdentity() {
   try {
     localStorage.setItem(DECLINED_KEY, '1');
   } catch { /* private mode: they'll be asked again, which is survivable */ }
+}
+
+// Having been ASKED is not the same as having declined, and the divert on
+// index.html has to respect the weaker one. A player who was shown the
+// picker and then closed the app, or tapped away from it, answered
+// nothing -- but they were interrupted, and search.html has no tab bar,
+// so showing them the same full-screen interstitial on every single visit
+// leaves them no way out but answering it or fighting a location.replace
+// with the back button. So the ask fires once; declining stays its own
+// durable flag because it is the player's explicit "no", not an inference
+// from a dismissal.
+function identityAsked() {
+  try {
+    return localStorage.getItem(ASKED_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function markIdentityAsked() {
+  try {
+    localStorage.setItem(ASKED_KEY, '1');
+  } catch { /* private mode: they may be asked again, which is survivable */ }
 }
 
 // fetchJSON never throws on a 404 -- "no data yet" is a normal state for
@@ -175,7 +243,14 @@ async function refreshMyTeams() {
     ?? rec.primary
     ?? null;
 
-  setMyTeam({ ...rec, teams, primary, derivedAt: Date.now() });
+  if (!setMyTeam({ ...rec, teams, primary, derivedAt: Date.now() })) {
+    // The write was refused (private mode, quota). The "cannot loop"
+    // guarantee below rests entirely on that write having landed, so
+    // reloading now would reload on every single page load forever. A
+    // stale render is survivable; that is not.
+    console.error('refreshMyTeams: the refreshed cache could not be stored, so not reloading');
+    return;
+  }
   // The page already rendered from the stale cache, so it is now wrong.
   // Same remedy reloadIfStale() uses below, for the same reason. It cannot
   // loop: the write above means the next load's comparison matches.

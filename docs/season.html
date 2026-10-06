@@ -52,11 +52,13 @@ const bodyEl = () => document.getElementById('body');
 
 const saved = getMyTeam();
 const rec = getMyRecord();
-// An identity player with no active league has no saved team at all --
-// getMyTeam() returns null for them -- but they are NOT the same as a
-// player who never saved anything: they have a userId, and main() has its
-// own branch for exactly this case. Only a truly empty record (no team,
-// no identity) belongs on search.html.
+// An identity player with no active league still gets a team back from
+// getMyTeam(): refreshMyTeams() deliberately keeps rec.primary when
+// derivation comes back empty -- that is what carries the identity
+// through the off-season -- so `saved` here is their last season's team,
+// not null. The guard holds on its SECOND half instead: a record with a
+// userId has a main() branch of its own for exactly this case. Only a
+// truly empty record (no team, no identity) belongs on search.html.
 //
 // bodyEl must be declared above this call: main() uses it synchronously,
 // before its first await, in the off-season branch below -- and a plain
@@ -215,7 +217,11 @@ async function main(saved) {
   // first place (a program with no archived data at all), which is the
   // stale-pointer cleanup gamenight.html used to own -- same contract,
   // one click to search, now handled where the decision is actually made.
-  clearMyTeam();
+  //
+  // forgetTeam, not clearMyTeam: the pointer is what died, not the
+  // player. An identity record keeps its userId (and any other league)
+  // and lands on the off-season branch above next time instead.
+  forgetTeam(saved);
   bodyEl().innerHTML =
     '<p style="color:var(--app-dim);font-size:13px;margin:2px 0 0">' + oldLeague +
     ' wrapped up, and there\'s no new season of it on the calendar yet.</p>' +

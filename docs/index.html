@@ -54,11 +54,17 @@ if (!saved) {
   location.replace('search.html');
 } else if (saved.userId != null) {
   routeIdentity(saved);
-} else if (!identityDeclined()) {
+} else if (!identityAsked() && !identityDeclined()) {
   // A player who saved a team before identity existed. Asked exactly once,
   // and only from here -- onboarding asks new players inline, so this
-  // branch is purely the migration path. declineIdentity() is durable, so
-  // "no" is final.
+  // branch is purely the migration path.
+  //
+  // Both flags, because the two ways out of the picker are different
+  // facts. "None of these" is an answer and sets the durable declined
+  // flag; closing the app at the picker answers nothing, but search.html
+  // marks that the ask was MADE as soon as it renders, and a full-screen
+  // interstitial on a page with no tab bar does not get to reappear on
+  // every visit just because it was walked away from.
   location.replace('search.html?identify=1');
 } else {
   route(saved);

@@ -151,6 +151,96 @@ await go('search.html');
   check('identityDeclined flips and persists', r.before === false && r.after === true);
 }
 
+// ---- forgetTeam (app.js) ------------------------------------------------
+// A dead TEAM is not a dead PLAYER. Three screens drop the saved pointer
+// when they find its team has gone away, and every one of them matches on
+// getMyTeam() -- which for an identity player is their primary. Removing
+// the whole storage key there would take the userId with it, and the
+// userId is the entire reason next season needs no action from them.
+await go('search.html');
+{
+  const r = await page.evaluate(() => {
+    const monday = { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' };
+    const thursday = { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' };
+
+    localStorage.clear();
+    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [monday, thursday], primary: monday });
+    forgetTeam(monday);
+    const lostPrimary = getMyRecord();
+
+    localStorage.clear();
+    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [monday, thursday], primary: monday });
+    forgetTeam(thursday);
+    const lostOther = getMyRecord();
+
+    localStorage.clear();
+    setMyIdentity({ userId: 32, firstName: 'Oren', teams: [monday], primary: monday });
+    forgetTeam(monday);
+    const lostOnly = getMyRecord();
+
+    // Ids reach forgetTeam from query strings as often as from storage, so
+    // a string id must drop the same team a numeric one does.
+    localStorage.clear();
+    setMyIdentity({ userId: 31, firstName: 'Mika', teams: [monday, thursday], primary: monday });
+    forgetTeam({ programId: '9301', teamId: '601' });
+    const stringIds = getMyRecord();
+
+    localStorage.clear();
+    setMyTeam(monday);
+    forgetTeam(monday);
+    const teamOnly = localStorage.getItem('thirdcoast-my-team');
+
+    localStorage.clear();
+    return { lostPrimary, lostOther, lostOnly, stringIds, teamOnly };
+  });
+
+  check(`forgetTeam keeps the identity when the team that died was the primary, got ${JSON.stringify(r.lostPrimary)}`,
+    r.lostPrimary.userId === 31 && r.lostPrimary.firstName === 'Mika');
+  check('forgetTeam keeps the player\'s other league and moves the primary onto it',
+    r.lostPrimary.teams.length === 1 && r.lostPrimary.teams[0].teamId === 611
+    && r.lostPrimary.primary.teamId === 611);
+  check('forgetTeam leaves the primary alone when some OTHER league is the one that died',
+    r.lostOther.teams.length === 1 && r.lostOther.teams[0].teamId === 601
+    && r.lostOther.primary.teamId === 601);
+  check(`forgetTeam on a one-league identity player keeps the person with no teams, got ${JSON.stringify(r.lostOnly)}`,
+    r.lostOnly.userId === 32 && r.lostOnly.teams.length === 0 && r.lostOnly.primary === null);
+  check(`forgetTeam matches string ids against numeric ones, got ${JSON.stringify(r.stringIds)}`,
+    r.stringIds.userId === 31 && r.stringIds.teams.length === 1 && r.stringIds.teams[0].teamId === 611);
+  check('forgetTeam on a team-only record still removes the whole thing, exactly as before',
+    r.teamOnly === null);
+}
+
+// And through a real call site. team.html drops the saved pointer when the
+// team has no standings row; for an identity player that pointer is the
+// primary, and everything else about them has to outlive it.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31,
+    firstName: 'Mika',
+    // Exactly what deriveTeamsFor(31) returns, field order included, so
+    // refreshMyTeams() finds nothing to correct and leaves the
+    // deliberately-dead primary below in place for team.html to find.
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9300, programName: 'Test Defunct League', teamId: 999, teamName: 'Withdrawn Team' },
+  });
+});
+await go('team.html?team=999&program=9300');
+{
+  const rendered = await page.$eval('#body', (el) => el.innerText);
+  check('team.html still tells an identity player the dead team is gone',
+    rendered.includes('find this team'));
+  const rec = await page.evaluate(() => getMyRecord());
+  check(`team.html drops an identity player's dead primary without dropping the identity, got ${JSON.stringify(rec)}`,
+    rec && rec.userId === 31 && rec.firstName === 'Mika'
+    && rec.teams.length === 2 && rec.primary.programId === 9301);
+}
+await page.evaluate(() => localStorage.clear());
+
 // ---- re-derivation (app.js) ---------------------------------------------
 await go('search.html');
 {
@@ -285,6 +375,48 @@ await new Promise((r) => setTimeout(r, 600));
     rec && rec.userId === 32 && rec.teams.length === 1);
 }
 
+// deriveTeamsFor answers [] -- not null -- when the person record exists
+// but programs-index.json has not caught up with a program that
+// active-teams-index.json already lists. The two files are built from
+// different sources, so that window is real, and falling back only on
+// null would save teams: [] and drop the player on the "Between seasons"
+// screen seconds after they picked a team that plays tonight.
+//
+// Driven through the real confirmIdentity with derivation stubbed to the
+// empty answer, and halted at the write so this reads what was actually
+// saved instead of racing the navigation that normally follows it.
+await go('search.html');
+{
+  const r = await page.evaluate(async () => {
+    localStorage.clear();
+    const realSave = window.setMyIdentity;
+    const realDerive = window.deriveTeamsFor;
+    let captured = null;
+    window.deriveTeamsFor = async () => [];
+    window.setMyIdentity = (arg) => {
+      captured = arg;
+      realSave(arg);
+      throw new Error('halt before navigating');
+    };
+    try {
+      await confirmIdentity(
+        { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+        { userId: 31, firstName: 'Mika' },
+      );
+    } catch { /* the halt above, so the page stays put */ }
+    window.setMyIdentity = realSave;
+    window.deriveTeamsFor = realDerive;
+    const stored = getMyRecord();
+    localStorage.clear();
+    return { captured, stored };
+  });
+  check(`an empty derivation falls back to the team the player just picked, got ${JSON.stringify(r.captured)}`,
+    r.captured && r.captured.teams.length === 1 && r.captured.teams[0].teamId === 601);
+  check(`and the record that lands in storage is never a teamless identity, got ${JSON.stringify(r.stored)}`,
+    r.stored && r.stored.userId === 31 && r.stored.teams.length === 1
+    && r.stored.primary && r.stored.primary.teamId === 601);
+}
+
 // Skipping stores the team-only shape plus the durable declined flag.
 await go('search.html');
 await page.evaluate(() => localStorage.clear());
@@ -316,8 +448,13 @@ await clickThrough('.result');
   const rec = await page.evaluate(() => getMyRecord());
   check(`an unarchived roster saves the team-only shape, got ${JSON.stringify(rec)}`,
     rec && rec.teamId === 604 && rec.userId === undefined);
-  check('an unarchived roster is also durable, so this player is not re-asked every visit',
-    await page.evaluate(() => identityDeclined()) === true);
+  // Deliberately NOT durable, which is a change: no picker was shown and
+  // nobody declined anything, so neither flag has any business being set.
+  // A brand-new signup whose roster the archiver has not reached yet is
+  // exactly the player identity must stay available for once it does.
+  const flags = await page.evaluate(() => ({ declined: identityDeclined(), asked: identityAsked() }));
+  check(`an unarchived roster leaves identity available for when the archiver catches up, got ${JSON.stringify(flags)}`,
+    flags.declined === false && flags.asked === false);
 }
 await page.evaluate(() => localStorage.clear());
 
@@ -331,6 +468,19 @@ await go('index.html');
 await page.waitForSelector('#picker .pick-row, .result', { timeout: 5000 }).catch(() => {});
 check(`an existing team-only pointer is sent to the picker once, landed on ${path()}`,
   path().startsWith('/search.html') && path().includes('identify=1'));
+
+// ...and ONCE is the whole promise. Walking away from the picker --
+// closing the app, tapping back -- answers nothing, but search.html has
+// no tab bar, so re-arming a full-screen interstitial for a player who
+// already dismissed it leaves them no exit but answering it. The ask is
+// recorded the moment the picker renders, separately from declining.
+check('being shown the picker is recorded even though nothing was answered',
+  await page.evaluate(() => identityAsked()) === true);
+await goHome();
+check(`a player who left the picker without answering is not asked again, landed on ${path()}`,
+  !path().includes('identify=1') && ROUTED.includes(new URL(page.url()).pathname));
+check('and that is "asked", not a decline the player never actually made',
+  await page.evaluate(() => identityDeclined()) === false);
 
 // Declining, then returning, must route normally and never ask again.
 await page.evaluate(() => declineIdentity());
@@ -507,8 +657,60 @@ await go('gamenight.html?program=9302&team=611');
     upper.includes('IDENTITY MONDAY LEAGUE'));
 }
 
-// A one-league identity player's game night is unchanged: league name in
-// the greeting is replaced by their own name, and nothing else moves.
+// The match cards merge across leagues on their own, but everything else
+// on this screen follows ONE league -- and it has to be the league the
+// router sent the player to, not whichever one happens to be primary.
+// Loading the Thursday league's URL for a player whose primary is Monday
+// is the only way to tell those two apart.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyIdentity({
+    userId: 31, firstName: 'Mika',
+    teams: [
+      { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+      { programId: 9302, programName: 'Identity Thursday League', teamId: 611, teamName: '3. Thursday Thunder' },
+    ],
+    primary: { programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' },
+  });
+});
+await go('gamenight.html?program=9302&team=611');
+{
+  const link = await page.$eval('a.textlink[href^="team.html"]', (el) => el.getAttribute('href'));
+  check(`the Season stats link follows the league the router chose, not the primary, got ${link}`,
+    link.includes('program=9302') && link.includes('team=611'));
+}
+// The tab bar follows it too -- Ranks has to mean the league whose game is
+// on the card, not the primary league's.
+await clickThrough('.tabbar .tab[data-tab="ranks"]');
+check(`the Ranks tab follows the routed league, landed on ${path()}`,
+  path() === '/rankings.html?program=9302');
+
+// A query string naming a team the player is not on is not a team they get
+// to see: it falls back to the saved primary rather than rendering it.
+await go('gamenight.html?program=9001&team=501');
+{
+  const link = await page.$eval('a.textlink[href^="team.html"]', (el) => el.getAttribute('href'));
+  check(`an unowned team in the query string falls back to the saved primary, got ${link}`,
+    link.includes('program=9301') && link.includes('team=601'));
+}
+
+// A one-league identity player's game night must be indistinguishable
+// from the team-only baseline -- the GREETING included. The greeting is
+// the one thing identity could visibly change for the 85% who play in a
+// single league, and a #body-only comparison is blind to it, which is
+// exactly how the two pages came to disagree about the rule.
+await go('search.html');
+await page.evaluate(() => {
+  localStorage.clear();
+  setMyTeam({ programId: 9301, programName: 'Identity Monday League', teamId: 601, teamName: '1. Dual Leaguers' });
+});
+await go('gamenight.html?program=9301&team=601');
+const teamOnlyNight = await page.evaluate(() => ({
+  greet: document.getElementById('greet').textContent,
+  body: document.getElementById('body').innerHTML,
+}));
+
 await go('search.html');
 await page.evaluate(() => {
   localStorage.clear();
@@ -520,6 +722,15 @@ await page.evaluate(() => {
 });
 await go('gamenight.html?program=9301&team=601');
 {
+  const identityNight = await page.evaluate(() => ({
+    greet: document.getElementById('greet').textContent,
+    body: document.getElementById('body').innerHTML,
+  }));
+  check(`a one-league identity player is greeted by LEAGUE, same as the team-only baseline, got ${JSON.stringify(identityNight.greet)} vs ${JSON.stringify(teamOnlyNight.greet)}`,
+    identityNight.greet === teamOnlyNight.greet && identityNight.greet === 'Identity Monday League');
+  check('a one-league identity player gets the exact same game-night markup as a team-only player',
+    identityNight.body === teamOnlyNight.body);
+
   const rendered = await page.$eval('#body', (el) => el.innerText);
   check('a one-league player still sees their single next game',
     rendered.toUpperCase().includes('MONDAY MASHERS'));
@@ -587,8 +798,11 @@ await page.evaluate(() => {
 await go('index.html');
 await new Promise((r) => setTimeout(r, 900));
 {
-  check(`an identity user with no active league is not bounced to search, landed on ${path()}`,
-    !path().startsWith('/search.html'));
+  // The off-season screen specifically, not merely "not search.html":
+  // that weaker assertion also passes when routeIdentity throws and leaves
+  // the player parked on index.html's loading frame.
+  check(`an identity user with no active league lands on the off-season screen, landed on ${path()}`,
+    path().startsWith('/season.html'));
   const rec = await page.evaluate(() => getMyRecord());
   check(`the identity survives the off-season, got ${JSON.stringify(rec)}`,
     rec && rec.userId === 41);
