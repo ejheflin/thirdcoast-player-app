@@ -20,6 +20,12 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8171251,
+    "teamName": "6. Ellie B. and Matt G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8170440,
     "teamName": "8. Jenny S. and Nate G."
   },
@@ -32,14 +38,14 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8148569,
-    "teamName": "2. Holli D. and Dan L."
+    "teamId": 8148865,
+    "teamName": "4. Jodie N. and Joel G."
   },
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8148865,
-    "teamName": "4. Jodie N. and Joel G."
+    "teamId": 8148569,
+    "teamName": "2. Holli D. and Dan L."
   },
   {
     "programId": 5154233,
@@ -50,14 +56,14 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8171251,
-    "teamName": "6. Ellie B. and Matt G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
     "teamId": 8176028,
     "teamName": "3. Sue L. and David N."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
+    "teamId": 8148910,
+    "teamName": "6. Caroline J. and Mark J."
   },
   {
     "programId": 5154234,
@@ -82,12 +88,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8173157,
     "teamName": "5. Emily R. and Dreco S."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8148910,
-    "teamName": "6. Caroline J. and Mark J."
   },
   {
     "programId": 5154234,

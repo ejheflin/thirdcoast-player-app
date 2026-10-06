@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8148910,
+      "teamName": "6. Caroline J. and Mark J.",
+      "gamesPlayed": 2,
+      "wins": 1,
+      "losses": 0,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 2,
       "teamId": 8173044,
       "teamName": "7. Kaegan W. and Jon N.",
       "gamesPlayed": 1,
@@ -13,7 +23,7 @@
       "points": 2
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8153805,
       "teamName": "1. Sarah U. and Logan C.",
       "gamesPlayed": 2,
@@ -23,7 +33,7 @@
       "points": 2
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8161071,
       "teamName": "3. Taylor P. and Carson S.",
       "gamesPlayed": 2,
@@ -33,7 +43,7 @@
       "points": 1
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8173157,
       "teamName": "5. Emily R. and Dreco S.",
       "gamesPlayed": 1,
@@ -43,24 +53,14 @@
       "points": 1
     },
     {
-      "position": 5,
-      "teamId": 8148910,
-      "teamName": "6. Caroline J. and Mark J.",
-      "gamesPlayed": 0,
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "points": 0
-    },
-    {
       "position": 6,
       "teamId": 8152686,
       "teamName": "2. Sydney Z. and Manny A.",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
       "losses": 0,
-      "ties": 0,
-      "points": 0
+      "ties": 1,
+      "points": 1
     },
     {
       "position": 7,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8159552,
       "teamName": "8. Helen L. and George C.",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "points": 0
     }
