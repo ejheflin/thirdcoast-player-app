@@ -639,6 +639,31 @@ await go('schedule.html?program=9301');
     links.sub.includes(links.host));
   check(`Download points at the same feed and is a download, got ${links.dl}`,
     links.dl.includes('data/ics/person-31.ics') && links.dlAttr === true);
+
+  // The button has to be GONE, not merely flagged hidden. `.cal-btn` sets
+  // its own display:flex, and an author class beats the UA stylesheet's
+  // [hidden]{display:none} outright -- so `addCal.hidden = true` left a
+  // fully visible, fully clickable button on screen, and every further tap
+  // inserted another copy of the actions card.
+  const after = await page.evaluate(() => {
+    const el = document.getElementById('addCal');
+    return {
+      visible: el !== null && getComputedStyle(el).display !== 'none',
+      cards: document.querySelectorAll('#calActions').length,
+    };
+  });
+  check('the Add to calendar button is not left visible after it is tapped', !after.visible);
+  check(`one tap makes exactly one actions card, got ${after.cards}`, after.cards === 1);
+
+  // Belt and braces: even a tap that somehow still reaches the button --
+  // a double-tap landing before the first handler finished, say -- must
+  // not stack a second card.
+  const cardsAfterSecond = await page.evaluate(() => {
+    document.getElementById('addCal')?.click();
+    return document.querySelectorAll('#calActions').length;
+  });
+  check(`a second tap cannot stack a second actions card, got ${cardsAfterSecond}`,
+    cardsAfterSecond === 1);
 }
 
 // A team-only player has no userId, so there is no feed for them.

@@ -216,9 +216,16 @@ async function main() {
 
   const addCal = document.getElementById('addCal');
   if (addCal) {
+    // remove(), not `hidden = true`. The hidden ATTRIBUTE is only
+    // display:none by way of the UA stylesheet, and .cal-btn sets its own
+    // display:flex -- an author rule, which beats the UA origin outright.
+    // So the button stayed fully visible and fully tappable, and every
+    // further tap inserted another copy of the actions card. Taking it out
+    // of the DOM is also the honest shape: this is a one-way door, and the
+    // button has nothing left to do once it has been through it.
     addCal.addEventListener('click', () => {
       addCal.insertAdjacentHTML('afterend', calendarActionsHTML(me));
-      addCal.hidden = true;
+      addCal.remove();
     });
   }
 }
