@@ -11,6 +11,7 @@ import * as leagueapps from './leagueapps.js';
 import { firstNameOf, lastInitialOf, mergePersonRecord } from './people.js';
 import { extractGame, appendGames } from './activities.js';
 import { extractUpcomingGame, extractTournamentMarker } from './schedule.js';
+import { venueTodayISO } from './venue.js';
 import { buildLineage } from './lineage.js';
 import { buildCalendar, collectPersonFeeds } from './ics.js';
 
@@ -61,6 +62,12 @@ export async function runArchive(deps) {
     // of silently vanishing or hitting real disk.
     writeText = writeJSON,
     historyRosterBudget = HISTORY_ROSTER_BUDGET,
+    // The run's clock, injected for the same reason every fetch is: the
+    // one decision that reads it (which games are still upcoming) is the
+    // one that silently deleted tonight's game night when it got the
+    // timezone wrong, and a test cannot pin that without choosing the
+    // instant.
+    now = () => new Date(),
   } = deps;
   let historyBudget = historyRosterBudget;
 
@@ -221,7 +228,11 @@ export async function runArchive(deps) {
     // markers live in the SAME schedule file as the games because they
     // are the same thing (this program's upcoming calendar), and the
     // router reads both together to decide which is next.
-    const todayISO = new Date().toISOString().slice(0, 10);
+    // The VENUE's day, not the runner's. This job runs on GitHub Actions
+    // in UTC and its cron fires at 00:00 UTC, which is 19:00 in Houston --
+    // so a UTC date here called that evening "yesterday" and dropped
+    // games that had not been played yet.
+    const todayISO = venueTodayISO(now());
     const tournamentsByProgram = new Map();
     const pushTo = (map, programId, value) => {
       if (!map.has(programId)) map.set(programId, []);

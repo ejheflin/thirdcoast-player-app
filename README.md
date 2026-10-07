@@ -135,6 +135,18 @@ workflow archives from LeagueApps every three hours.
   keeping them out of `/docs` means they can never be served as live web
   pages.
 
+    **"Today" is the venue's day, never the runner's.** Everything
+    upcoming — `data/schedule/`, `data/courts/`, the per-person `.ics`
+    feeds — is gated on a `date >= todayISO` comparison, and `todayISO`
+    comes from `venueTodayISO()` in `archive/venue.js`, which asks
+    `America/Chicago`. A UTC date here is a real bug, not a rounding
+    error: the workflow's cron fires at 00:00 UTC, which is 19:00 in
+    Houston, so a UTC `todayISO` dates that evening into the past and
+    deletes the 19:30/20:30/21:30 games that have not been played yet.
+    It did exactly that on 2026-10-01, which is how the home screen came
+    to show next week's game to players forty minutes before their own
+    match.
+
 ## Deploying to GitHub Pages
 
 1. Push this repo to GitHub.

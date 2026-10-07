@@ -718,3 +718,67 @@ test('with no active program at all, a non-empty ledger still retires normally',
   assert.ok(retired && !retired.includes('BEGIN:VEVENT'), 'emptied, as promised');
   assert.deepEqual(written.get('docs/data/ics/index.json').userIds, [777777]);
 });
+
+// --- "today" is the venue's day, never UTC's ---------------------------
+//
+// The bug these pin: todayISO came from new Date().toISOString(), the UTC
+// date. The archiver's cron fires at 00:00 UTC, which is 19:00 in Houston
+// with that evening's 19:30/20:30/21:30 games still to be played -- so the
+// run dropped them from the schedule file and the home screen rotated to
+// next week minutes before the match started. The court map and every
+// per-person .ics feed are built from the same `upcomingByProgram` map, so
+// they lost the night too.
+const tonightDeps = (overrides = {}) => ({
+  fetchPrograms: async () => [{ id: 20, name: 'Wednesday Coed 6s', state: 'LIVE' }],
+  fetchActivities: async () => [
+    // Tonight, still to be played.
+    { id: 1, programId: 20, state: 'scheduled', type: 'game_season',
+      start: { date: '2026-10-07', time: '20:30' }, subLocationId: 70288,
+      teams: [{ teamId: 1, teamName: 'A' }, { teamId: 2, teamName: 'B' }] },
+    // Next week.
+    { id: 2, programId: 20, state: 'scheduled', type: 'game_season',
+      start: { date: '2026-10-14', time: '20:30' }, subLocationId: 70288,
+      teams: [{ teamId: 1, teamName: 'A' }, { teamId: 3, teamName: 'C' }] },
+    // Last week, long over.
+    { id: 3, programId: 20, state: 'scheduled', type: 'game_season',
+      start: { date: '2026-09-30', time: '20:30' }, subLocationId: 70288,
+      teams: [{ teamId: 1, teamName: 'A' }, { teamId: 4, teamName: 'D' }] },
+    { id: 4, programId: 20, state: 'scheduled', type: 'event_tournament',
+      title: 'PLAYOFFS', start: { date: '2026-10-07', time: '18:30' }, teams: [] },
+  ],
+  fetchStandingsHTML: async () => '<standings>',
+  parseStandings: () => [],
+  fetchRosterHTML: async () => '<roster>',
+  parseRoster: () => [],
+  fetchLocations: async () => [{ id: 1, name: 'V', subLocations: [{ id: 70288, name: 'Court 1' }] }],
+  readJSON: async () => null,
+  ...overrides,
+});
+
+test('a game still to be played tonight survives a run made after 00:00 UTC', async () => {
+  const writes = new Map();
+  await runArchive(tonightDeps({
+    now: () => new Date('2026-10-08T00:30:00Z'), // 19:30 CDT, Oct 7
+    writeJSON: async (path, data) => writes.set(path, data),
+  }));
+  const sched = writes.get('docs/data/schedule/20.json');
+  assert.deepEqual(sched.games.map((g) => g.date), ['2026-10-07', '2026-10-14'],
+    "tonight is still upcoming at 19:30 local, and last week's game is still gone");
+  assert.deepEqual(sched.tournaments.map((t) => t.date), ['2026-10-07'],
+    "and tonight's playoff marker survives with it");
+  // The court screen reads this, and it rotated for the same reason.
+  assert.ok(writes.get('docs/data/courts/2026-10-07.json'), 'tonight still has a court map');
+  assert.deepEqual(writes.get('docs/data/courts/index.json').dates,
+    ['2026-10-07', '2026-10-14']);
+});
+
+test('a game played yesterday is dropped once the venue day has actually rolled over', async () => {
+  const writes = new Map();
+  await runArchive(tonightDeps({
+    now: () => new Date('2026-10-08T12:00:00Z'), // 07:00 CDT, Oct 8
+    writeJSON: async (path, data) => writes.set(path, data),
+  }));
+  const sched = writes.get('docs/data/schedule/20.json');
+  assert.deepEqual(sched.games.map((g) => g.date), ['2026-10-14'], 'Oct 7 is genuinely over now');
+  assert.deepEqual(sched.tournaments, []);
+});

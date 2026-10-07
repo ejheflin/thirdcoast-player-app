@@ -4,11 +4,11 @@
 // which people exist. fetch.js gathers the games and calls buildCalendar
 // once per person, the same division archive/lineage.js already uses.
 
-// The venue. Both constants are deliberately here rather than in the
-// data: nothing in docs/data records a timezone or an address, because
-// every program this site has ever archived is played in one building.
-const VENUE_TZ = 'America/Chicago';
-const VENUE_ADDRESS = 'Third Coast Volleyball, 5652 Forney Dr, Houston, TX 77036';
+// The venue's timezone and address. They moved to venue.js once fetch.js
+// needed the timezone too, to work out which games are still upcoming
+// without asking UTC -- see the note there.
+import { VENUE_TZ, VENUE_ADDRESS } from './venue.js';
+
 // One slot at this venue is an hour -- the same assumption court.html
 // makes to lay out its 18:30/19:30/20:30/21:30 columns.
 const SLOT_MINUTES = 60;
