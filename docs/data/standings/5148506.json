@@ -6,21 +6,21 @@
       "position": 1,
       "teamId": 8148916,
       "teamName": "8. Team Jacob (Mark J.)",
-      "gamesPlayed": 4,
-      "wins": 3,
+      "gamesPlayed": 6,
+      "wins": 4,
       "losses": 0,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 10
     },
     {
       "position": 2,
       "teamId": 8163816,
       "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
-      "gamesPlayed": 4,
-      "wins": 2,
+      "gamesPlayed": 6,
+      "wins": 3,
       "losses": 0,
-      "ties": 2,
-      "points": 6
+      "ties": 3,
+      "points": 9
     },
     {
       "position": 3,
@@ -44,8 +44,28 @@
     },
     {
       "position": 5,
+      "teamId": 8150721,
+      "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 4,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 6,
       "teamId": 8150950,
       "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 5,
+      "wins": 1,
+      "losses": 3,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 7,
+      "teamId": 8159639,
+      "teamName": "5. Vacacioners (Phil M.)",
       "gamesPlayed": 3,
       "wins": 1,
       "losses": 1,
@@ -53,7 +73,7 @@
       "points": 3
     },
     {
-      "position": 6,
+      "position": 8,
       "teamId": 8163533,
       "teamName": "3. Hustle Gang (Calvin D.)",
       "gamesPlayed": 4,
@@ -61,26 +81,6 @@
       "losses": 3,
       "ties": 0,
       "points": 2
-    },
-    {
-      "position": 7,
-      "teamId": 8159639,
-      "teamName": "5. Vacacioners (Phil M.)",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 1,
-      "ties": 1,
-      "points": 1
-    },
-    {
-      "position": 8,
-      "teamId": 8150721,
-      "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
-      "gamesPlayed": 3,
-      "wins": 0,
-      "losses": 2,
-      "ties": 1,
-      "points": 1
     }
   ]
 }

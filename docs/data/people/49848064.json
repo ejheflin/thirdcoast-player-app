@@ -1,6 +1,7 @@
 {
   "userId": 49848064,
   "firstName": "Stephanie",
+  "lastInitial": "G.",
   "appearances": [
     {
       "programId": 4756147,
@@ -48,6 +49,12 @@
       "programId": 4975325,
       "teamId": 7934955,
       "teamName": "8. Bad Hombres (Jaimie M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5148515,
+      "teamId": 8167138,
+      "teamName": "3. Feeling Setsy (Corey M.)",
       "isCaptain": false
     }
   ]
