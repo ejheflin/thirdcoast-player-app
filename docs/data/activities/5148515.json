@@ -396,6 +396,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14095442,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8138261,
+          "teamName": "2. Bump, Set, Dammit! (Michael G.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8169638,
+          "teamName": "12. Bump Buddies (Mitch L.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
