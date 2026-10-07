@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8150354,
+      "teamName": "4. Yanni S. and Ali. M.",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 1,
+      "ties": 1,
+      "points": 9
+    },
+    {
+      "position": 3,
       "teamId": 8161616,
       "teamName": "5. Juliana T. and Lauren W.",
       "gamesPlayed": 6,
@@ -23,34 +33,24 @@
       "points": 7
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8143348,
       "teamName": "3. Melissa B. and Lindsay K.",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 2,
-      "losses": 0,
+      "losses": 1,
       "ties": 3,
       "points": 7
-    },
-    {
-      "position": 4,
-      "teamId": 8150354,
-      "teamName": "4. Yanni S. and Ali. M.",
-      "gamesPlayed": 4,
-      "wins": 3,
-      "losses": 1,
-      "ties": 0,
-      "points": 6
     },
     {
       "position": 5,
       "teamId": 8150634,
       "teamName": "6. Tina O. and Elaine L.",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 1,
       "losses": 1,
-      "ties": 3,
-      "points": 5
+      "ties": 4,
+      "points": 6
     },
     {
       "position": 6,

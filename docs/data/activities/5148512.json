@@ -378,6 +378,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14094992,
+      "date": "2026-10-06",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
