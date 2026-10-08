@@ -632,6 +632,24 @@
       ]
     },
     {
+      "activityId": 13946800,
+      "date": "2026-09-23",
+      "teams": [
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13946811,
       "date": "2026-09-30",
       "teams": [
@@ -1006,6 +1024,24 @@
           "teamName": "9. Dane R. and Carson S.",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13946825,
+      "date": "2026-10-07",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8122077,
+          "teamName": "10. Nate G. and Zach B.",
+          "result": "draw",
+          "score": 1
         }
       ]
     }

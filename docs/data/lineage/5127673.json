@@ -234,7 +234,7 @@
           "teamCount": 12,
           "wins": 3,
           "losses": 1,
-          "ties": 5
+          "ties": 6
         }
       ]
     },
@@ -354,11 +354,11 @@
           "endDate": 1793768400000,
           "level": "AA",
           "move": "same",
-          "position": 8,
+          "position": 7,
           "teamCount": 12,
           "wins": 2,
           "losses": 3,
-          "ties": 3
+          "ties": 5
         }
       ]
     },
@@ -911,7 +911,7 @@
           "endDate": 1793768400000,
           "level": "AA",
           "move": "same",
-          "position": 7,
+          "position": 8,
           "teamCount": 12,
           "wins": 1,
           "losses": 2,
@@ -1353,7 +1353,7 @@
           "teamCount": 12,
           "wins": 0,
           "losses": 4,
-          "ties": 4
+          "ties": 5
         }
       ]
     },

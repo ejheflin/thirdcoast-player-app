@@ -46,11 +46,11 @@
       "position": 5,
       "teamId": 8106388,
       "teamName": "1. Eric W. and Dan M.",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 3,
       "losses": 1,
-      "ties": 5,
-      "points": 11
+      "ties": 6,
+      "points": 12
     },
     {
       "position": 6,
@@ -64,6 +64,16 @@
     },
     {
       "position": 7,
+      "teamId": 8122077,
+      "teamName": "10. Nate G. and Zach B.",
+      "gamesPlayed": 10,
+      "wins": 2,
+      "losses": 3,
+      "ties": 5,
+      "points": 9
+    },
+    {
+      "position": 8,
       "teamId": 8129277,
       "teamName": "5. Blake C. and Leo Y.",
       "gamesPlayed": 9,
@@ -71,16 +81,6 @@
       "losses": 2,
       "ties": 6,
       "points": 8
-    },
-    {
-      "position": 8,
-      "teamId": 8122077,
-      "teamName": "10. Nate G. and Zach B.",
-      "gamesPlayed": 8,
-      "wins": 2,
-      "losses": 3,
-      "ties": 3,
-      "points": 7
     },
     {
       "position": 9,
@@ -116,11 +116,11 @@
       "position": 12,
       "teamId": 8138988,
       "teamName": "8. Scott S. and Chris H.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 0,
       "losses": 4,
-      "ties": 4,
-      "points": 4
+      "ties": 5,
+      "points": 5
     }
   ]
 }
