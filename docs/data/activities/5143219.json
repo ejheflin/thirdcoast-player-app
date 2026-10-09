@@ -558,6 +558,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048595,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

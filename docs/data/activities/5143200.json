@@ -810,6 +810,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048396,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8156585,
+      "teamName": "11. I Dunno (Matt G.)",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 1,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 4,
       "teamId": 8143230,
       "teamName": "3. Charlies Angels (Jason O.)",
       "gamesPlayed": 7,
@@ -33,23 +43,13 @@
       "points": 10
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
       "gamesPlayed": 6,
       "wins": 5,
       "losses": 1,
       "ties": 0,
-      "points": 10
-    },
-    {
-      "position": 5,
-      "teamId": 8156585,
-      "teamName": "11. I Dunno (Matt G.)",
-      "gamesPlayed": 7,
-      "wins": 4,
-      "losses": 1,
-      "ties": 2,
       "points": 10
     },
     {
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8153064,
       "teamName": "8. Sandy Patch Kids (Curtis J.)",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 3,
       "losses": 3,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 8
     },
     {
       "position": 9,
