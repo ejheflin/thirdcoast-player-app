@@ -576,6 +576,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095446,
+      "date": "2026-10-06",
+      "teams": [
+        {
+          "teamId": 8148907,
+          "teamName": "11. What Court Are We On (Bear S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8169638,
+          "teamName": "12. Bump Buddies (Mitch L.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

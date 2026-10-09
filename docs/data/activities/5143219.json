@@ -576,6 +576,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048603,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8125615,
+          "teamName": "1. Michelle C. and Josman R.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
