@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8148743,
       "teamName": "1. Olivia J. and Emily S.",
-      "gamesPlayed": 5,
-      "wins": 5,
+      "gamesPlayed": 6,
+      "wins": 6,
       "losses": 0,
       "ties": 0,
-      "points": 10
+      "points": 12
     },
     {
       "position": 2,
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8156795,
       "teamName": "9. Liz C. and Madison P.",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "ties": 2,
       "points": 4
     },

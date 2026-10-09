@@ -416,6 +416,24 @@
       ]
     },
     {
+      "activityId": 14048373,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048382,
       "date": "2026-10-01",
       "teams": [
@@ -578,6 +596,60 @@
       ]
     },
     {
+      "activityId": 14048381,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048386,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048392,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048394,
       "date": "2026-10-08",
       "teams": [
@@ -592,6 +664,150 @@
           "teamName": "11. I Dunno (Matt G.)",
           "result": "draw",
           "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048393,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048395,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048397,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048398,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048400,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048401,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048402,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048403,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
         }
       ]
     }

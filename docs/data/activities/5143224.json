@@ -504,6 +504,114 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048779,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048780,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048782,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8124126,
+          "teamName": "6. Molly J. and Phil A.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048783,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048786,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048787,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
