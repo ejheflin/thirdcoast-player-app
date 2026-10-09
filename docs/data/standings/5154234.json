@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8152686,
+      "teamName": "2. Sydney Z. and Manny A.",
+      "gamesPlayed": 2,
+      "wins": 0,
+      "losses": 0,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 5,
       "teamId": 8161071,
       "teamName": "3. Taylor P. and Carson S.",
       "gamesPlayed": 2,
@@ -43,19 +53,9 @@
       "points": 1
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8173157,
       "teamName": "5. Emily R. and Dreco S.",
-      "gamesPlayed": 1,
-      "wins": 0,
-      "losses": 0,
-      "ties": 1,
-      "points": 1
-    },
-    {
-      "position": 6,
-      "teamId": 8152686,
-      "teamName": "2. Sydney Z. and Manny A.",
       "gamesPlayed": 1,
       "wins": 0,
       "losses": 0,
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8156793,
       "teamName": "4. Liz C. and Josman R.",
-      "gamesPlayed": 0,
+      "gamesPlayed": 1,
       "wins": 0,
       "losses": 0,
-      "ties": 0,
-      "points": 0
+      "ties": 1,
+      "points": 1
     },
     {
       "position": 8,

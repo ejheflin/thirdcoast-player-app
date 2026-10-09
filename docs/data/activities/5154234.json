@@ -90,6 +90,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14205640,
+      "date": "2026-10-05",
+      "teams": [
+        {
+          "teamId": 8152686,
+          "teamName": "2. Sydney Z. and Manny A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156793,
+          "teamName": "4. Liz C. and Josman R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
