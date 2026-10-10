@@ -612,6 +612,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048778,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048781,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
