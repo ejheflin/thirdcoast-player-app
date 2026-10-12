@@ -594,6 +594,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048594,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048599,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
