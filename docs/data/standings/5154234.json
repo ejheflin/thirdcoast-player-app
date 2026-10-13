@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8148910,
+      "teamName": "6. Caroline J. and Mark J.",
+      "gamesPlayed": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 2,
       "teamId": 8161071,
       "teamName": "3. Taylor P. and Carson S.",
       "gamesPlayed": 4,
@@ -11,16 +21,6 @@
       "losses": 1,
       "ties": 2,
       "points": 4
-    },
-    {
-      "position": 2,
-      "teamId": 8148910,
-      "teamName": "6. Caroline J. and Mark J.",
-      "gamesPlayed": 2,
-      "wins": 1,
-      "losses": 0,
-      "ties": 1,
-      "points": 3
     },
     {
       "position": 3,
@@ -36,9 +36,9 @@
       "position": 4,
       "teamId": 8153805,
       "teamName": "1. Sarah U. and Logan C.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 2,
       "points": 2
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8156793,
       "teamName": "4. Liz C. and Josman R.",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 1,
       "points": 1
     },

@@ -2572,6 +2572,12 @@
     ],
     [
       0,
+      8178840,
+      "10. Julia V. and Beth B.",
+      2
+    ],
+    [
+      0,
       8179406,
       "5. Doria O. and Anna S.",
       1
@@ -2581,12 +2587,6 @@
       8178846,
       "7. Mili V. and Tiffany S.",
       1
-    ],
-    [
-      0,
-      8178840,
-      "10. Julia V. and Beth B.",
-      2
     ],
     [
       0,
@@ -2626,15 +2626,15 @@
     ],
     [
       2,
-      8161071,
-      "3. Taylor P. and Carson S.",
-      2
-    ],
-    [
-      2,
       8148910,
       "6. Caroline J. and Mark J.",
       5
+    ],
+    [
+      2,
+      8161071,
+      "3. Taylor P. and Carson S.",
+      2
     ],
     [
       2,
@@ -3142,15 +3142,15 @@
     ],
     [
       11,
-      8124115,
-      "7. Tiffany S. and Carson S.",
-      2
+      8125615,
+      "1. Olivia J. and Josman R.",
+      1
     ],
     [
       11,
-      8125615,
-      "1. Michelle C. and Josman R.",
-      15
+      8124115,
+      "7. Tiffany S. and Carson S.",
+      2
     ],
     [
       11,
@@ -26053,10 +26053,10 @@
     [
       14589721,
       "Michelle",
-      11,
-      8125615,
+      37,
+      7900732,
       "1. Michelle C. and Josman R.",
-      15
+      14
     ],
     [
       14594053,
@@ -26352,7 +26352,7 @@
       5,
       8148743,
       "1. Olivia J. and Emily S.",
-      29
+      30
     ],
     [
       14658568,
