@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8179406,
+      "teamName": "5. Doria O. and Anna S.",
+      "gamesPlayed": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "points": 6
+    },
+    {
+      "position": 3,
       "teamId": 8178846,
       "teamName": "7. Mili V. and Tiffany S.",
       "gamesPlayed": 4,
@@ -23,7 +33,17 @@
       "points": 5
     },
     {
-      "position": 3,
+      "position": 4,
+      "teamId": 8178840,
+      "teamName": "10. Julia V. and Beth B.",
+      "gamesPlayed": 3,
+      "wins": 2,
+      "losses": 0,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 5,
       "teamId": 8185977,
       "teamName": "9. Gabby T. and Mikah M.",
       "gamesPlayed": 4,
@@ -33,17 +53,7 @@
       "points": 4
     },
     {
-      "position": 4,
-      "teamId": 8179406,
-      "teamName": "5. Doria O. and Anna S.",
-      "gamesPlayed": 2,
-      "wins": 1,
-      "losses": 0,
-      "ties": 1,
-      "points": 3
-    },
-    {
-      "position": 5,
+      "position": 6,
       "teamId": 8179958,
       "teamName": "3. Denise H. and Kim S.",
       "gamesPlayed": 3,
@@ -53,22 +63,12 @@
       "points": 3
     },
     {
-      "position": 6,
-      "teamId": 8178840,
-      "teamName": "10. Julia V. and Beth B.",
-      "gamesPlayed": 2,
-      "wins": 1,
-      "losses": 0,
-      "ties": 1,
-      "points": 3
-    },
-    {
       "position": 7,
       "teamId": 8178867,
       "teamName": "4. Fran R. and Kat H.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 4,
       "wins": 1,
-      "losses": 0,
+      "losses": 2,
       "ties": 1,
       "points": 3
     },
@@ -84,21 +84,21 @@
     },
     {
       "position": 9,
+      "teamId": 8179595,
+      "teamName": "1. Brooke F. and Angel H.",
+      "gamesPlayed": 4,
+      "wins": 0,
+      "losses": 2,
+      "ties": 2,
+      "points": 2
+    },
+    {
+      "position": 10,
       "teamId": 8186968,
       "teamName": "2. Annie J. and Anna C.",
       "gamesPlayed": 4,
       "wins": 0,
       "losses": 3,
-      "ties": 1,
-      "points": 1
-    },
-    {
-      "position": 10,
-      "teamId": 8179595,
-      "teamName": "1. Brooke F. and Angel H.",
-      "gamesPlayed": 3,
-      "wins": 0,
-      "losses": 2,
       "ties": 1,
       "points": 1
     }

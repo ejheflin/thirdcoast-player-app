@@ -216,6 +216,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205716,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8176028,
+          "teamName": "3. Sue L. and David N.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

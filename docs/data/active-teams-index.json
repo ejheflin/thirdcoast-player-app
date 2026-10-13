@@ -8,14 +8,14 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8160252,
-    "teamName": "7. Kim M. and Travis B."
+    "teamId": 8190694,
+    "teamName": "10. Lauren V. and Hector T."
   },
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8190694,
-    "teamName": "10. Lauren V. and Hector T."
+    "teamId": 8160252,
+    "teamName": "7. Kim M. and Travis B."
   },
   {
     "programId": 5154233,
@@ -62,6 +62,12 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8161071,
+    "teamName": "3. Taylor P. and Carson S."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8148910,
     "teamName": "6. Caroline J. and Mark J."
   },
@@ -82,12 +88,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8152686,
     "teamName": "2. Sydney Z. and Manny A."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8161071,
-    "teamName": "3. Taylor P. and Carson S."
   },
   {
     "programId": 5154234,
@@ -176,8 +176,20 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8179406,
+    "teamName": "5. Doria O. and Anna S."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8178846,
     "teamName": "7. Mili V. and Tiffany S."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8178840,
+    "teamName": "10. Julia V. and Beth B."
   },
   {
     "programId": 5172413,
@@ -188,20 +200,8 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179406,
-    "teamName": "5. Doria O. and Anna S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8179958,
     "teamName": "3. Denise H. and Kim S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178840,
-    "teamName": "10. Julia V. and Beth B."
   },
   {
     "programId": 5172413,
@@ -218,14 +218,14 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8186968,
-    "teamName": "2. Annie J. and Anna C."
+    "teamId": 8179595,
+    "teamName": "1. Brooke F. and Angel H."
   },
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179595,
-    "teamName": "1. Brooke F. and Angel H."
+    "teamId": 8186968,
+    "teamName": "2. Annie J. and Anna C."
   },
   {
     "programId": 5143219,

@@ -288,6 +288,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212002,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212003,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8179595,
+          "teamName": "1. Brooke F. and Angel H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212004,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

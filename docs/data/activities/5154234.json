@@ -108,6 +108,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14205644,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8152686,
+          "teamName": "2. Sydney Z. and Manny A.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8161071,
+          "teamName": "3. Taylor P. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205646,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8161071,
+          "teamName": "3. Taylor P. and Carson S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8159552,
+          "teamName": "8. Helen L. and George C.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
