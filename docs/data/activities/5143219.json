@@ -630,6 +630,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048597,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

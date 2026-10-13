@@ -116,14 +116,14 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8179731,
-    "teamName": "8. Third Wheel Energy (Isa T.)"
+    "teamId": 8172362,
+    "teamName": "5. Tri-Angels (Johnny P.)"
   },
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8172362,
-    "teamName": "5. Tri-Angels (Johnny P.)"
+    "teamId": 8179731,
+    "teamName": "8. Third Wheel Energy (Isa T.)"
   },
   {
     "programId": 5154231,
@@ -170,6 +170,24 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8179782,
+    "teamName": "8. Cat H. and Deanna V."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8178846,
+    "teamName": "7. Mili V. and Tiffany S."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8185977,
+    "teamName": "9. Gabby T. and Mikah M."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8179406,
     "teamName": "5. Doria O. and Anna S."
   },
@@ -194,14 +212,8 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179782,
-    "teamName": "8. Cat H. and Deanna V."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8185977,
-    "teamName": "9. Gabby T. and Mikah M."
+    "teamId": 8191327,
+    "teamName": "6. Annie H. and Jordan W."
   },
   {
     "programId": 5172413,
@@ -214,18 +226,6 @@
     "programName": "Monday Womens 2s Pop Up",
     "teamId": 8179595,
     "teamName": "1. Brooke F. and Angel H."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178846,
-    "teamName": "7. Mili V. and Tiffany S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8191327,
-    "teamName": "6. Annie H. and Jordan W."
   },
   {
     "programId": 5143219,
@@ -248,14 +248,14 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8136865,
-    "teamName": "8. Sarah D. and Matt B."
+    "teamId": 8135226,
+    "teamName": "9. Ivy C. and Dreco S."
   },
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8135226,
-    "teamName": "9. Ivy C. and Dreco S."
+    "teamId": 8136865,
+    "teamName": "8. Sarah D. and Matt B."
   },
   {
     "programId": 5143219,

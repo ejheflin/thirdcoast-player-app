@@ -34,21 +34,21 @@
     },
     {
       "position": 4,
+      "teamId": 8135226,
+      "teamName": "9. Ivy C. and Dreco S.",
+      "gamesPlayed": 7,
+      "wins": 4,
+      "losses": 2,
+      "ties": 1,
+      "points": 9
+    },
+    {
+      "position": 5,
       "teamId": 8136865,
       "teamName": "8. Sarah D. and Matt B.",
       "gamesPlayed": 8,
       "wins": 3,
       "losses": 4,
-      "ties": 1,
-      "points": 7
-    },
-    {
-      "position": 5,
-      "teamId": 8135226,
-      "teamName": "9. Ivy C. and Dreco S.",
-      "gamesPlayed": 6,
-      "wins": 3,
-      "losses": 2,
       "ties": 1,
       "points": 7
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8137644,
       "teamName": "4. Taylor B. and Luigi H.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 3,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "points": 6
     },
