@@ -8,6 +8,12 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8171251,
+    "teamName": "6. Ellie B. and Matt G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8190694,
     "teamName": "10. Lauren V. and Hector T."
   },
@@ -16,12 +22,6 @@
     "programName": "Monday Coed 2s B",
     "teamId": 8160252,
     "teamName": "7. Kim M. and Travis B."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8171251,
-    "teamName": "6. Ellie B. and Matt G."
   },
   {
     "programId": 5154233,
@@ -116,14 +116,14 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8172362,
-    "teamName": "5. Tri-Angels (Johnny P.)"
+    "teamId": 8179731,
+    "teamName": "8. Third Wheel Energy (Isa T.)"
   },
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8179731,
-    "teamName": "8. Third Wheel Energy (Isa T.)"
+    "teamId": 8172362,
+    "teamName": "5. Tri-Angels (Johnny P.)"
   },
   {
     "programId": 5154231,
@@ -140,6 +140,12 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
+    "teamId": 8153216,
+    "teamName": "2. Volley Llamas (Jamie D.)"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
     "teamId": 8160698,
     "teamName": "6. Settin Pretty (Elizabeth A.)"
   },
@@ -148,12 +154,6 @@
     "programName": "Monday Coed 3s B",
     "teamId": 8190678,
     "teamName": "10. Free Agent 2"
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8153216,
-    "teamName": "2. Volley Llamas (Jamie D.)"
   },
   {
     "programId": 5154231,
@@ -446,6 +446,12 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
+    "teamId": 8150950,
+    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
     "teamId": 8163533,
     "teamName": "3. Hustle Gang (Calvin D.)"
   },
@@ -460,12 +466,6 @@
     "programName": "Tuesday Coed 4s A",
     "teamId": 8150721,
     "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
-    "teamId": 8150950,
-    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
   },
   {
     "programId": 5148510,
@@ -494,6 +494,12 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
+    "teamId": 8148116,
+    "teamName": "5. Shank You Very Much (Jaimie M.)"
+  },
+  {
+    "programId": 5148510,
+    "programName": "Tuesday Coed 4s B",
     "teamId": 8146380,
     "teamName": "9. Holy Balls (Jacob Y.)"
   },
@@ -502,12 +508,6 @@
     "programName": "Tuesday Coed 4s B",
     "teamId": 8153555,
     "teamName": "2. Big Dig Energy (Chad S.)"
-  },
-  {
-    "programId": 5148510,
-    "programName": "Tuesday Coed 4s B",
-    "teamId": 8148116,
-    "teamName": "5. Shank You Very Much (Jaimie M.)"
   },
   {
     "programId": 5148510,

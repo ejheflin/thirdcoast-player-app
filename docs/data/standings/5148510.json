@@ -36,24 +36,34 @@
       "position": 4,
       "teamId": 8164493,
       "teamName": "1. Gold Star for Effort (Merilyn V.)",
-      "gamesPlayed": 7,
-      "wins": 2,
+      "gamesPlayed": 8,
+      "wins": 3,
       "losses": 3,
       "ties": 2,
-      "points": 6
+      "points": 8
     },
     {
       "position": 5,
+      "teamId": 8148116,
+      "teamName": "5. Shank You Very Much (Jaimie M.)",
+      "gamesPlayed": 8,
+      "wins": 3,
+      "losses": 4,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 6,
       "teamId": 8146380,
       "teamName": "9. Holy Balls (Jacob Y.)",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "ties": 0,
       "points": 6
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8153555,
       "teamName": "2. Big Dig Energy (Chad S.)",
       "gamesPlayed": 6,
@@ -61,16 +71,6 @@
       "losses": 2,
       "ties": 2,
       "points": 6
-    },
-    {
-      "position": 7,
-      "teamId": 8148116,
-      "teamName": "5. Shank You Very Much (Jaimie M.)",
-      "gamesPlayed": 6,
-      "wins": 2,
-      "losses": 3,
-      "ties": 1,
-      "points": 5
     },
     {
       "position": 8,

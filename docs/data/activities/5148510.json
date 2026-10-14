@@ -594,6 +594,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14095102,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8148116,
+          "teamName": "5. Shank You Very Much (Jaimie M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8146380,
+          "teamName": "9. Holy Balls (Jacob Y.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095104,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8164493,
+          "teamName": "1. Gold Star for Effort (Merilyn V.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8148116,
+          "teamName": "5. Shank You Very Much (Jaimie M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095105,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8162254,
+          "teamName": "4. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8146380,
+          "teamName": "9. Holy Balls (Jacob Y.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

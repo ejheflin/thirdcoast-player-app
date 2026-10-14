@@ -486,6 +486,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077473,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150950,
+          "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

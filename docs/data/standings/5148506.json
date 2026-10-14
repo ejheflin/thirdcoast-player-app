@@ -26,9 +26,9 @@
       "position": 3,
       "teamId": 8163520,
       "teamName": "6. Bombaclat! (Aatir A.)",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 3,
-      "losses": 2,
+      "losses": 3,
       "ties": 2,
       "points": 8
     },
@@ -44,6 +44,16 @@
     },
     {
       "position": 5,
+      "teamId": 8150950,
+      "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+      "gamesPlayed": 6,
+      "wins": 2,
+      "losses": 3,
+      "ties": 1,
+      "points": 5
+    },
+    {
+      "position": 6,
       "teamId": 8163533,
       "teamName": "3. Hustle Gang (Calvin D.)",
       "gamesPlayed": 7,
@@ -53,7 +63,7 @@
       "points": 4
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8142715,
       "teamName": "4. Toodles (Michael L.)",
       "gamesPlayed": 5,
@@ -63,22 +73,12 @@
       "points": 4
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8150721,
       "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
       "gamesPlayed": 8,
       "wins": 1,
       "losses": 6,
-      "ties": 1,
-      "points": 3
-    },
-    {
-      "position": 8,
-      "teamId": 8150950,
-      "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
-      "gamesPlayed": 5,
-      "wins": 1,
-      "losses": 3,
       "ties": 1,
       "points": 3
     }

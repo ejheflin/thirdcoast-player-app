@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8179731,
+      "teamName": "8. Third Wheel Energy (Isa T.)",
+      "gamesPlayed": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "points": 7
+    },
+    {
+      "position": 3,
       "teamId": 8172362,
       "teamName": "5. Tri-Angels (Johnny P.)",
       "gamesPlayed": 4,
@@ -21,16 +31,6 @@
       "losses": 0,
       "ties": 2,
       "points": 6
-    },
-    {
-      "position": 3,
-      "teamId": 8179731,
-      "teamName": "8. Third Wheel Energy (Isa T.)",
-      "gamesPlayed": 3,
-      "wins": 2,
-      "losses": 0,
-      "ties": 1,
-      "points": 5
     },
     {
       "position": 4,
@@ -54,31 +54,31 @@
     },
     {
       "position": 6,
-      "teamId": 8160698,
-      "teamName": "6. Settin Pretty (Elizabeth A.)",
-      "gamesPlayed": 2,
+      "teamId": 8153216,
+      "teamName": "2. Volley Llamas (Jamie D.)",
+      "gamesPlayed": 4,
       "wins": 0,
-      "losses": 0,
-      "ties": 2,
-      "points": 2
+      "losses": 1,
+      "ties": 3,
+      "points": 3
     },
     {
       "position": 7,
+      "teamId": 8160698,
+      "teamName": "6. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 4,
+      "wins": 0,
+      "losses": 1,
+      "ties": 3,
+      "points": 3
+    },
+    {
+      "position": 8,
       "teamId": 8190678,
       "teamName": "10. Free Agent 2",
       "gamesPlayed": 4,
       "wins": 0,
       "losses": 2,
-      "ties": 2,
-      "points": 2
-    },
-    {
-      "position": 8,
-      "teamId": 8153216,
-      "teamName": "2. Volley Llamas (Jamie D.)",
-      "gamesPlayed": 3,
-      "wins": 0,
-      "losses": 1,
       "ties": 2,
       "points": 2
     },
