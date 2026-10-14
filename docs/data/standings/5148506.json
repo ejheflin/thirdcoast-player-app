@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8148916,
+      "teamName": "8. Team Jacob (Mark J.)",
+      "gamesPlayed": 8,
+      "wins": 6,
+      "losses": 0,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 2,
       "teamId": 8163816,
       "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
       "gamesPlayed": 8,
@@ -13,22 +23,12 @@
       "points": 13
     },
     {
-      "position": 2,
-      "teamId": 8148916,
-      "teamName": "8. Team Jacob (Mark J.)",
-      "gamesPlayed": 6,
-      "wins": 4,
-      "losses": 0,
-      "ties": 2,
-      "points": 10
-    },
-    {
       "position": 3,
       "teamId": 8163520,
       "teamName": "6. Bombaclat! (Aatir A.)",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "ties": 2,
       "points": 8
     },
@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8142715,
       "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 1,
-      "losses": 1,
+      "losses": 2,
       "ties": 2,
       "points": 4
     },

@@ -594,6 +594,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077709,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150898,
+          "teamName": "2. Erika P. and Becca W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
