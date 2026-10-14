@@ -488,9 +488,9 @@
           "endDate": 1794891600000,
           "level": "B",
           "move": null,
-          "position": 6,
+          "position": 5,
           "teamCount": 10,
-          "wins": 3,
+          "wins": 4,
           "losses": 3,
           "ties": 0
         }
@@ -509,7 +509,7 @@
           "endDate": 1794891600000,
           "level": "B",
           "move": null,
-          "position": 5,
+          "position": 6,
           "teamCount": 10,
           "wins": 3,
           "losses": 4,
@@ -1222,7 +1222,7 @@
           "position": 10,
           "teamCount": 10,
           "wins": 0,
-          "losses": 7,
+          "losses": 8,
           "ties": 0
         }
       ]
