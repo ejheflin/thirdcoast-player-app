@@ -378,6 +378,78 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077475,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8159639,
+          "teamName": "5. Vacacioners (Phil M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077476,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077477,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159639,
+          "teamName": "5. Vacacioners (Phil M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077478,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

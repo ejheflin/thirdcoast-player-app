@@ -504,6 +504,96 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095097,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8153555,
+          "teamName": "2. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136555,
+          "teamName": "3. The Empire Spikes Back (Ash C.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095098,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8136555,
+          "teamName": "3. The Empire Spikes Back (Ash C.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8164233,
+          "teamName": "10. Carpe Digem (Eric H.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095100,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8164493,
+          "teamName": "1. Gold Star for Effort (Merilyn V.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135728,
+          "teamName": "6. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14095101,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8162254,
+          "teamName": "4. The Replacements (Joe R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159903,
+          "teamName": "8. Gold Diggerz (JT N.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14095103,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8135728,
+          "teamName": "6. Volley Llamas (Daphne D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8159903,
+          "teamName": "8. Gold Diggerz (JT N.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

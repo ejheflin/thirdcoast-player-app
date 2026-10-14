@@ -540,6 +540,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077705,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077706,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150354,
+          "teamName": "4. Yanni S. and Ali. M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077708,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

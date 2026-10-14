@@ -6,39 +6,39 @@
       "position": 1,
       "teamId": 8167138,
       "teamName": "3. Feeling Setsy (Corey M.)",
-      "gamesPlayed": 6,
-      "wins": 6,
+      "gamesPlayed": 8,
+      "wins": 8,
       "losses": 0,
       "ties": 0,
-      "points": 12
+      "points": 16
     },
     {
       "position": 2,
-      "teamId": 8171848,
-      "teamName": "9. Get diggy wit it (Rudy G.)",
-      "gamesPlayed": 6,
-      "wins": 5,
+      "teamId": 8159435,
+      "teamName": "10. 50/50 (Oscar G.)",
+      "gamesPlayed": 8,
+      "wins": 6,
       "losses": 1,
-      "ties": 0,
-      "points": 10
+      "ties": 1,
+      "points": 13
     },
     {
       "position": 3,
-      "teamId": 8159435,
-      "teamName": "10. 50/50 (Oscar G.)",
-      "gamesPlayed": 6,
-      "wins": 4,
-      "losses": 1,
-      "ties": 1,
-      "points": 9
+      "teamId": 8171848,
+      "teamName": "9. Get diggy wit it (Rudy G.)",
+      "gamesPlayed": 8,
+      "wins": 5,
+      "losses": 3,
+      "ties": 0,
+      "points": 10
     },
     {
       "position": 4,
       "teamId": 8155575,
       "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 9
     },
@@ -46,69 +46,69 @@
       "position": 5,
       "teamId": 8142399,
       "teamName": "1. Beach Please (Annie L.)",
-      "gamesPlayed": 6,
+      "gamesPlayed": 8,
       "wins": 2,
       "losses": 2,
-      "ties": 2,
-      "points": 6
+      "ties": 4,
+      "points": 8
     },
     {
       "position": 6,
       "teamId": 8150563,
       "teamName": "7. The Thurmanators (David Z.)",
-      "gamesPlayed": 6,
-      "wins": 2,
-      "losses": 3,
+      "gamesPlayed": 8,
+      "wins": 3,
+      "losses": 4,
       "ties": 1,
-      "points": 5
+      "points": 7
     },
     {
       "position": 7,
       "teamId": 8148907,
       "teamName": "11. What Court Are We On (Bear S.)",
-      "gamesPlayed": 6,
-      "wins": 1,
+      "gamesPlayed": 7,
+      "wins": 2,
       "losses": 2,
       "ties": 3,
-      "points": 5
+      "points": 7
     },
     {
       "position": 8,
       "teamId": 8169638,
       "teamName": "12. Bump Buddies (Mitch L.)",
-      "gamesPlayed": 6,
-      "wins": 1,
-      "losses": 2,
+      "gamesPlayed": 8,
+      "wins": 2,
+      "losses": 3,
       "ties": 3,
-      "points": 5
+      "points": 7
     },
     {
       "position": 9,
       "teamId": 8138261,
       "teamName": "2. Bump, Set, Dammit! (Michael G.)",
-      "gamesPlayed": 5,
+      "gamesPlayed": 7,
       "wins": 1,
       "losses": 3,
-      "ties": 1,
-      "points": 3
+      "ties": 3,
+      "points": 5
     },
     {
       "position": 10,
       "teamId": 8137762,
       "teamName": "4. Notorious DIG (Connor D.)",
-      "gamesPlayed": 3,
+      "gamesPlayed": 5,
       "wins": 0,
       "losses": 1,
-      "ties": 2,
-      "points": 2
+      "ties": 4,
+      "points": 4
     },
     {
       "position": 11,
       "teamId": 8137775,
       "teamName": "5. Sets Pistols (Christina Z.)",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
       "points": 0
     },
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8147602,
       "teamName": "8. Unprotected Sets (Catalina P.)",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
       "points": 0
     }

@@ -244,10 +244,10 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "up",
-          "position": 5,
+          "position": 6,
           "teamCount": 8,
           "wins": 1,
-          "losses": 3,
+          "losses": 4,
           "ties": 2
         }
       ]
@@ -481,11 +481,11 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "up",
-          "position": 6,
+          "position": 5,
           "teamCount": 8,
           "wins": 1,
           "losses": 4,
-          "ties": 1
+          "ties": 3
         }
       ]
     },
@@ -718,9 +718,9 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "down",
-          "position": 3,
+          "position": 2,
           "teamCount": 8,
-          "wins": 4,
+          "wins": 6,
           "losses": 2,
           "ties": 0
         }
@@ -831,9 +831,9 @@
           "move": "same",
           "position": 1,
           "teamCount": 8,
-          "wins": 6,
+          "wins": 7,
           "losses": 0,
-          "ties": 0
+          "ties": 1
         }
       ]
     },
@@ -1069,8 +1069,8 @@
           "position": 4,
           "teamCount": 8,
           "wins": 2,
-          "losses": 3,
-          "ties": 1
+          "losses": 4,
+          "ties": 2
         }
       ]
     },
@@ -1303,10 +1303,10 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "same",
-          "position": 2,
+          "position": 3,
           "teamCount": 8,
           "wins": 5,
-          "losses": 0,
+          "losses": 1,
           "ties": 1
         }
       ]
@@ -1544,7 +1544,7 @@
           "teamCount": 8,
           "wins": 1,
           "losses": 4,
-          "ties": 0
+          "ties": 2
         }
       ]
     },
