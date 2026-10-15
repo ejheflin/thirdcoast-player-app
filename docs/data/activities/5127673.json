@@ -1044,6 +1044,60 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13946830,
+      "date": "2026-10-07",
+      "teams": [
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946841,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8111500,
+          "teamName": "2. Jason O. and Dominick W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946842,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
