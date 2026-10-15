@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8143230,
+      "teamName": "3. Charlies Angels (Jason O.)",
+      "gamesPlayed": 8,
+      "wins": 6,
+      "losses": 2,
+      "ties": 0,
+      "points": 12
+    },
+    {
+      "position": 3,
       "teamId": 8139038,
       "teamName": "2. Ay Mi Madre (Daniel D.)",
       "gamesPlayed": 8,
@@ -23,7 +33,7 @@
       "points": 12
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
       "gamesPlayed": 8,
@@ -33,22 +43,12 @@
       "points": 11
     },
     {
-      "position": 4,
-      "teamId": 8143230,
-      "teamName": "3. Charlies Angels (Jason O.)",
-      "gamesPlayed": 7,
-      "wins": 5,
-      "losses": 2,
-      "ties": 0,
-      "points": 10
-    },
-    {
       "position": 5,
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 5,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "points": 10
     },

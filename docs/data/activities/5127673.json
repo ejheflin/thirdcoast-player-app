@@ -1098,6 +1098,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 13946834,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136903,
+          "teamName": "11. Zach P. and Luke S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946836,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946837,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136903,
+          "teamName": "11. Zach P. and Luke S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946840,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8122145,
+          "teamName": "3. Gordon P. and Harley G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13946843,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8122145,
+          "teamName": "3. Gordon P. and Harley G.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8138298,
+          "teamName": "7. Jacob J. and Jake S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946844,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8111500,
+          "teamName": "2. Jason O. and Dominick W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139630,
+          "teamName": "9. Dane R. and Carson S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
