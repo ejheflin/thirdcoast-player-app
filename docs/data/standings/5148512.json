@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8159128,
+      "teamName": "6. Twin Peaks (Dan F.)",
+      "gamesPlayed": 8,
+      "wins": 6,
+      "losses": 1,
+      "ties": 1,
+      "points": 13
+    },
+    {
+      "position": 3,
       "teamId": 8151238,
       "teamName": "2. Score Check (Julianna T.)",
       "gamesPlayed": 8,
@@ -21,16 +31,6 @@
       "losses": 2,
       "ties": 0,
       "points": 12
-    },
-    {
-      "position": 3,
-      "teamId": 8159128,
-      "teamName": "6. Twin Peaks (Dan F.)",
-      "gamesPlayed": 7,
-      "wins": 5,
-      "losses": 1,
-      "ties": 1,
-      "points": 11
     },
     {
       "position": 4,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 0,
-      "losses": 4,
+      "losses": 5,
       "ties": 1,
       "points": 1
     }

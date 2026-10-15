@@ -32,6 +32,12 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8159362,
+    "teamName": "5. Joann L. and Jacob W."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8170440,
     "teamName": "8. Jenny S. and Nate G."
   },
@@ -46,12 +52,6 @@
     "programName": "Monday Coed 2s B",
     "teamId": 8148865,
     "teamName": "4. Jodie N. and Joel G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8159362,
-    "teamName": "5. Joann L. and Jacob W."
   },
   {
     "programId": 5154233,
@@ -536,14 +536,14 @@
   {
     "programId": 5148512,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8151238,
-    "teamName": "2. Score Check (Julianna T.)"
+    "teamId": 8159128,
+    "teamName": "6. Twin Peaks (Dan F.)"
   },
   {
     "programId": 5148512,
     "programName": "Tuesday Coed 4s BB",
-    "teamId": 8159128,
-    "teamName": "6. Twin Peaks (Dan F.)"
+    "teamId": 8151238,
+    "teamName": "2. Score Check (Julianna T.)"
   },
   {
     "programId": 5148512,

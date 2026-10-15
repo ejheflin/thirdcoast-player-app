@@ -718,7 +718,7 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "down",
-          "position": 2,
+          "position": 3,
           "teamCount": 8,
           "wins": 6,
           "losses": 2,
@@ -1303,9 +1303,9 @@
           "endDate": 1794891600000,
           "level": "BB",
           "move": "same",
-          "position": 3,
+          "position": 2,
           "teamCount": 8,
-          "wins": 5,
+          "wins": 6,
           "losses": 1,
           "ties": 1
         }
@@ -1724,7 +1724,7 @@
           "position": 8,
           "teamCount": 8,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 1
         }
       ]

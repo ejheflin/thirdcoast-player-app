@@ -666,6 +666,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14077711,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150634,
+          "teamName": "6. Tina O. and Elaine L.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8167966,
+          "teamName": "10. Kat H. and Julia V.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

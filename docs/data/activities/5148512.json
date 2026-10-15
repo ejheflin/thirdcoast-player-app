@@ -522,6 +522,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14094996,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
