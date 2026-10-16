@@ -810,6 +810,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048610,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

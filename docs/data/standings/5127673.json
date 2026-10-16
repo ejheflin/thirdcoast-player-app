@@ -24,32 +24,32 @@
     },
     {
       "position": 3,
-      "teamId": 8139578,
-      "teamName": "12. Riley W. and Jacob W.",
-      "gamesPlayed": 11,
+      "teamId": 8106388,
+      "teamName": "1. Eric W. and Dan M.",
+      "gamesPlayed": 12,
       "wins": 4,
       "losses": 1,
-      "ties": 6,
-      "points": 14
+      "ties": 7,
+      "points": 15
     },
     {
       "position": 4,
-      "teamId": 8106388,
-      "teamName": "1. Eric W. and Dan M.",
-      "gamesPlayed": 11,
-      "wins": 4,
-      "losses": 1,
-      "ties": 6,
-      "points": 14
-    },
-    {
-      "position": 5,
       "teamId": 8139630,
       "teamName": "9. Dane R. and Carson S.",
       "gamesPlayed": 12,
       "wins": 5,
       "losses": 3,
       "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 8139578,
+      "teamName": "12. Riley W. and Jacob W.",
+      "gamesPlayed": 11,
+      "wins": 4,
+      "losses": 1,
+      "ties": 6,
       "points": 14
     },
     {
@@ -116,11 +116,11 @@
       "position": 12,
       "teamId": 8138988,
       "teamName": "8. Scott S. and Chris H.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 0,
       "losses": 5,
-      "ties": 5,
-      "points": 5
+      "ties": 6,
+      "points": 6
     }
   ]
 }
