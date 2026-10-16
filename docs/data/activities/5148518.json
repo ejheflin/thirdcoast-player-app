@@ -684,6 +684,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14077712,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Melissa B. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8150634,
+          "teamName": "6. Tina O. and Elaine L.",
+          "result": "loss",
+          "score": 1
+        }
+      ]
     }
   ]
 }
