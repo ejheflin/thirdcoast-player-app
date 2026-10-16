@@ -792,6 +792,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048788,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
