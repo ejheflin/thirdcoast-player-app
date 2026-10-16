@@ -236,26 +236,26 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8135226,
-    "teamName": "9. Ivy C. and Dreco S."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
     "teamId": 8124115,
     "teamName": "7. Tiffany S. and Carson S."
   },
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
-    "teamId": 8136865,
-    "teamName": "8. Sarah D. and Matt B."
+    "teamId": 8135226,
+    "teamName": "9. Ivy C. and Dreco S."
   },
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
     "teamId": 8154115,
     "teamName": "2. Mili V. and Isa T."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
+    "teamId": 8136865,
+    "teamName": "8. Sarah D. and Matt B."
   },
   {
     "programId": 5143219,
@@ -296,26 +296,26 @@
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8146294,
-    "teamName": "1. Ali M. and Andrew B."
-  },
-  {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
     "teamId": 8142462,
     "teamName": "7. Sarah U. and Kumar R."
   },
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8141319,
-    "teamName": "3. Elaine L. and Eric W."
+    "teamId": 8138556,
+    "teamName": "4. Jo P. and Leo Y."
   },
   {
     "programId": 5143224,
     "programName": "Thursday Coed 2s AA",
-    "teamId": 8138556,
-    "teamName": "4. Jo P. and Leo Y."
+    "teamId": 8146294,
+    "teamName": "1. Ali M. and Andrew B."
+  },
+  {
+    "programId": 5143224,
+    "programName": "Thursday Coed 2s AA",
+    "teamId": 8141319,
+    "teamName": "3. Elaine L. and Eric W."
   },
   {
     "programId": 5143224,
@@ -374,6 +374,12 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
+    "teamId": 8139783,
+    "teamName": "5. HIT FACED (Clark P.)"
+  },
+  {
+    "programId": 5143200,
+    "programName": "Thursday Coed 4s B",
     "teamId": 8156585,
     "teamName": "11. I Dunno (Matt G.)"
   },
@@ -382,12 +388,6 @@
     "programName": "Thursday Coed 4s B",
     "teamId": 8152547,
     "teamName": "6. Injured Reserve! (Joe R.)"
-  },
-  {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
-    "teamId": 8139783,
-    "teamName": "5. HIT FACED (Clark P.)"
   },
   {
     "programId": 5143200,
