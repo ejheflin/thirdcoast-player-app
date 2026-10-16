@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8124126,
       "teamName": "6. Molly J. and Phil A.",
-      "gamesPlayed": 7,
-      "wins": 5,
+      "gamesPlayed": 9,
+      "wins": 6,
       "losses": 0,
-      "ties": 2,
-      "points": 12
+      "ties": 3,
+      "points": 15
     },
     {
       "position": 2,
@@ -44,6 +44,16 @@
     },
     {
       "position": 5,
+      "teamId": 8138556,
+      "teamName": "4. Jo P. and Leo Y.",
+      "gamesPlayed": 9,
+      "wins": 1,
+      "losses": 2,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 6,
       "teamId": 8136201,
       "teamName": "5. Shelbita L. and Michael A.",
       "gamesPlayed": 7,
@@ -53,22 +63,12 @@
       "points": 7
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8139641,
       "teamName": "10. Viktoriya I. and John S.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 1,
-      "losses": 2,
-      "ties": 5,
-      "points": 7
-    },
-    {
-      "position": 7,
-      "teamId": 8138556,
-      "teamName": "4. Jo P. and Leo Y.",
-      "gamesPlayed": 8,
-      "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "ties": 5,
       "points": 7
     },

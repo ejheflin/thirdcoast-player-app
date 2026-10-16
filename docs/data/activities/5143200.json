@@ -846,6 +846,96 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048405,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048406,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048407,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048408,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048409,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

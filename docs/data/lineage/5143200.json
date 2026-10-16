@@ -118,9 +118,9 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 7,
+          "position": 4,
           "teamCount": 12,
-          "wins": 3,
+          "wins": 5,
           "losses": 3,
           "ties": 2
         }
@@ -317,7 +317,7 @@
           "teamCount": 12,
           "wins": 5,
           "losses": 1,
-          "ties": 2
+          "ties": 3
         }
       ]
     },
@@ -522,7 +522,7 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 6,
+          "position": 7,
           "teamCount": 12,
           "wins": 4,
           "losses": 2,
@@ -772,9 +772,9 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 2,
+          "position": 1,
           "teamCount": 12,
-          "wins": 6,
+          "wins": 8,
           "losses": 2,
           "ties": 0
         }
@@ -981,7 +981,7 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 1,
+          "position": 2,
           "teamCount": 12,
           "wins": 6,
           "losses": 0,
@@ -1120,7 +1120,7 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 5,
+          "position": 6,
           "teamCount": 12,
           "wins": 5,
           "losses": 2,
@@ -1359,7 +1359,7 @@
           "position": 12,
           "teamCount": 12,
           "wins": 0,
-          "losses": 8,
+          "losses": 10,
           "ties": 0
         }
       ]
@@ -1418,10 +1418,10 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 4,
+          "position": 5,
           "teamCount": 12,
           "wins": 4,
-          "losses": 1,
+          "losses": 2,
           "ties": 3
         }
       ]
@@ -1442,8 +1442,8 @@
           "position": 9,
           "teamCount": 12,
           "wins": 2,
-          "losses": 6,
-          "ties": 0
+          "losses": 7,
+          "ties": 1
         }
       ]
     }
