@@ -990,6 +990,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14048413,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048415,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8152547,
+          "teamName": "6. Injured Reserve! (Joe R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

@@ -16,14 +16,24 @@
       "position": 2,
       "teamId": 8152314,
       "teamName": "7. Patty 4 the People (Doug B.)",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 6,
       "losses": 0,
-      "ties": 2,
-      "points": 14
+      "ties": 3,
+      "points": 15
     },
     {
       "position": 3,
+      "teamId": 8152547,
+      "teamName": "6. Injured Reserve! (Joe R.)",
+      "gamesPlayed": 9,
+      "wins": 6,
+      "losses": 2,
+      "ties": 1,
+      "points": 13
+    },
+    {
+      "position": 4,
       "teamId": 8139038,
       "teamName": "2. Ay Mi Madre (Daniel D.)",
       "gamesPlayed": 9,
@@ -33,7 +43,7 @@
       "points": 13
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8127097,
       "teamName": "1. Crab (Collin W.)",
       "gamesPlayed": 10,
@@ -43,7 +53,7 @@
       "points": 12
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8153064,
       "teamName": "8. Sandy Patch Kids (Curtis J.)",
       "gamesPlayed": 10,
@@ -53,7 +63,7 @@
       "points": 12
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8139783,
       "teamName": "5. HIT FACED (Clark P.)",
       "gamesPlayed": 10,
@@ -63,7 +73,7 @@
       "points": 12
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
       "gamesPlayed": 9,
@@ -71,16 +81,6 @@
       "losses": 2,
       "ties": 3,
       "points": 11
-    },
-    {
-      "position": 8,
-      "teamId": 8152547,
-      "teamName": "6. Injured Reserve! (Joe R.)",
-      "gamesPlayed": 7,
-      "wins": 5,
-      "losses": 2,
-      "ties": 0,
-      "points": 10
     },
     {
       "position": 9,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8156531,
       "teamName": "9. Dont Dink and Dive (Sarah F.)",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 1,
       "points": 3
     },
