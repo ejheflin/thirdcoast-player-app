@@ -36,11 +36,11 @@
       "position": 4,
       "teamId": 8160252,
       "teamName": "7. Kim M. and Travis B.",
-      "gamesPlayed": 3,
-      "wins": 1,
+      "gamesPlayed": 4,
+      "wins": 2,
       "losses": 1,
       "ties": 1,
-      "points": 3
+      "points": 5
     },
     {
       "position": 5,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8148865,
       "teamName": "4. Jodie N. and Joel G.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 1
     },

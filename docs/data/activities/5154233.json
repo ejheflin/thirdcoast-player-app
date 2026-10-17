@@ -288,6 +288,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14205717,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8148865,
+          "teamName": "4. Jodie N. and Joel G.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8160252,
+          "teamName": "7. Kim M. and Travis B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
