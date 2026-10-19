@@ -4,6 +4,12 @@
   "teamName": "8. Third Wheel Energy (Isa T.)",
   "players": [
     {
+      "userId": 14882443,
+      "firstName": "Coco",
+      "lastInitial": "G.",
+      "isCaptain": false
+    },
+    {
       "userId": 46628031,
       "firstName": "kellye",
       "lastInitial": "M.",
