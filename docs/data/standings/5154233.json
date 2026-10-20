@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8148569,
+      "teamName": "2. Holli D. and Dan L.",
+      "gamesPlayed": 6,
+      "wins": 3,
+      "losses": 1,
+      "ties": 2,
+      "points": 8
+    },
+    {
+      "position": 5,
       "teamId": 8148865,
       "teamName": "4. Jodie N. and Joel G.",
       "gamesPlayed": 6,
@@ -43,22 +53,12 @@
       "points": 7
     },
     {
-      "position": 5,
-      "teamId": 8148569,
-      "teamName": "2. Holli D. and Dan L.",
-      "gamesPlayed": 5,
-      "wins": 2,
-      "losses": 1,
-      "ties": 2,
-      "points": 6
-    },
-    {
       "position": 6,
       "teamId": 8190694,
       "teamName": "10. Lauren V. and Hector T.",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 5
     },

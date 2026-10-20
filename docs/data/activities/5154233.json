@@ -486,6 +486,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205726,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8148569,
+          "teamName": "2. Holli D. and Dan L.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
