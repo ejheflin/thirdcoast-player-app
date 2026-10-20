@@ -4,16 +4,6 @@
   "rows": [
     {
       "position": 1,
-      "teamId": 8143230,
-      "teamName": "3. Charlies Angels (Jason O.)",
-      "gamesPlayed": 10,
-      "wins": 8,
-      "losses": 2,
-      "ties": 0,
-      "points": 16
-    },
-    {
-      "position": 2,
       "teamId": 8152314,
       "teamName": "7. Patty 4 the People (Doug B.)",
       "gamesPlayed": 9,
@@ -23,14 +13,24 @@
       "points": 15
     },
     {
+      "position": 2,
+      "teamId": 8143230,
+      "teamName": "3. Charlies Angels (Jason O.)",
+      "gamesPlayed": 10,
+      "wins": 7,
+      "losses": 2,
+      "ties": 1,
+      "points": 15
+    },
+    {
       "position": 3,
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
       "gamesPlayed": 9,
       "wins": 6,
-      "losses": 2,
-      "ties": 1,
-      "points": 13
+      "losses": 1,
+      "ties": 2,
+      "points": 14
     },
     {
       "position": 4,

@@ -396,6 +396,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205807,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8158925,
+          "teamName": "3. Respect Your Elders (Heather B.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8160698,
+          "teamName": "6. Settin Pretty (Elizabeth A.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14205809,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8158925,
+          "teamName": "3. Respect Your Elders (Heather B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8175870,
+          "teamName": "4. No Faith (Donald P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14205812,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8181763,
+          "teamName": "1. Gold Diggers (Gabriela C.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148416,
+          "teamName": "9. May the Spike Be With You (Ash C.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205814,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8173279,
+          "teamName": "7. Sandy Cheeks (Mica R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148416,
+          "teamName": "9. May the Spike Be With You (Ash C.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

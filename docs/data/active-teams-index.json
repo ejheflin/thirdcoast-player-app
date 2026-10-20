@@ -2,26 +2,14 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8171251,
-    "teamName": "6. Ellie B. and Matt G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
     "teamId": 8148465,
     "teamName": "1. Olivia E. and Jason O."
   },
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8148865,
-    "teamName": "4. Jodie N. and Joel G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8190694,
-    "teamName": "10. Lauren V. and Hector T."
+    "teamId": 8171251,
+    "teamName": "6. Ellie B. and Matt G."
   },
   {
     "programId": 5154233,
@@ -32,8 +20,20 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8148865,
+    "teamName": "4. Jodie N. and Joel G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8148569,
     "teamName": "2. Holli D. and Dan L."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
+    "teamId": 8190694,
+    "teamName": "10. Lauren V. and Hector T."
   },
   {
     "programId": 5154233,
@@ -74,6 +74,12 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8152686,
+    "teamName": "2. Sydney Z. and Manny A."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8156793,
     "teamName": "4. Liz C. and Josman R."
   },
@@ -92,20 +98,14 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8152686,
-    "teamName": "2. Sydney Z. and Manny A."
+    "teamId": 8159552,
+    "teamName": "8. Helen L. and George C."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
     "teamId": 8173157,
     "teamName": "5. Emily R. and Dreco S."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8159552,
-    "teamName": "8. Helen L. and George C."
   },
   {
     "programId": 5154231,
@@ -122,6 +122,12 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
+    "teamId": 8148416,
+    "teamName": "9. May the Spike Be With You (Ash C.)"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
     "teamId": 8179731,
     "teamName": "8. Third Wheel Energy (Isa T.)"
   },
@@ -134,20 +140,14 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8148416,
-    "teamName": "9. May the Spike Be With You (Ash C.)"
+    "teamId": 8160698,
+    "teamName": "6. Settin Pretty (Elizabeth A.)"
   },
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
     "teamId": 8153216,
     "teamName": "2. Volley Llamas (Jamie D.)"
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8160698,
-    "teamName": "6. Settin Pretty (Elizabeth A.)"
   },
   {
     "programId": 5154231,
@@ -350,14 +350,14 @@
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8143230,
-    "teamName": "3. Charlies Angels (Jason O.)"
+    "teamId": 8152314,
+    "teamName": "7. Patty 4 the People (Doug B.)"
   },
   {
     "programId": 5143200,
     "programName": "Thursday Coed 4s B",
-    "teamId": 8152314,
-    "teamName": "7. Patty 4 the People (Doug B.)"
+    "teamId": 8143230,
+    "teamName": "3. Charlies Angels (Jason O.)"
   },
   {
     "programId": 5143200,

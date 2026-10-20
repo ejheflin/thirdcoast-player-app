@@ -216,6 +216,60 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14205657,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8153805,
+          "teamName": "1. Sarah U. and Logan C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8152686,
+          "teamName": "2. Sydney Z. and Manny A.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205658,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8153805,
+          "teamName": "1. Sarah U. and Logan C.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8159552,
+          "teamName": "8. Helen L. and George C.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14205659,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8152686,
+          "teamName": "2. Sydney Z. and Manny A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8173044,
+          "teamName": "7. Kaegan W. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

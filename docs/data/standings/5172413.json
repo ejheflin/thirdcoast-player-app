@@ -6,21 +6,21 @@
       "position": 1,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 4,
-      "wins": 3,
+      "gamesPlayed": 6,
+      "wins": 4,
       "losses": 0,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 10
     },
     {
       "position": 2,
       "teamId": 8178840,
       "teamName": "10. Julia V. and Beth B.",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 3,
       "losses": 0,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 8
     },
     {
       "position": 3,
@@ -36,9 +36,9 @@
       "position": 4,
       "teamId": 8178846,
       "teamName": "7. Mili V. and Tiffany S.",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 2,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 5
     },
