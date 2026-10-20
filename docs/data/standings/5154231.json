@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8172362,
+      "teamName": "5. Tri-Angels (Johnny P.)",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 0,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 2,
       "teamId": 8158925,
       "teamName": "3. Respect Your Elders (Heather B.)",
       "gamesPlayed": 4,
@@ -13,7 +23,7 @@
       "points": 7
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8179731,
       "teamName": "8. Third Wheel Energy (Isa T.)",
       "gamesPlayed": 4,
@@ -23,22 +33,12 @@
       "points": 7
     },
     {
-      "position": 3,
-      "teamId": 8172362,
-      "teamName": "5. Tri-Angels (Johnny P.)",
-      "gamesPlayed": 4,
-      "wins": 2,
-      "losses": 0,
-      "ties": 2,
-      "points": 6
-    },
-    {
       "position": 4,
       "teamId": 8175870,
       "teamName": "4. No Faith (Donald P.)",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 3,
       "points": 5
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8160698,
       "teamName": "6. Settin Pretty (Elizabeth A.)",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 3,
       "points": 3
     },

@@ -360,6 +360,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14205806,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8175870,
+          "teamName": "4. No Faith (Donald P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8172362,
+          "teamName": "5. Tri-Angels (Johnny P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205808,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8172362,
+          "teamName": "5. Tri-Angels (Johnny P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8160698,
+          "teamName": "6. Settin Pretty (Elizabeth A.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

@@ -2,14 +2,20 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8171251,
+    "teamName": "6. Ellie B. and Matt G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8148465,
     "teamName": "1. Olivia E. and Jason O."
   },
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8171251,
-    "teamName": "6. Ellie B. and Matt G."
+    "teamId": 8148865,
+    "teamName": "4. Jodie N. and Joel G."
   },
   {
     "programId": 5154233,
@@ -50,12 +56,6 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
-    "teamId": 8148865,
-    "teamName": "4. Jodie N. and Joel G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
     "teamId": 8176028,
     "teamName": "3. Sue L. and David N."
   },
@@ -70,6 +70,12 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8161071,
     "teamName": "3. Taylor P. and Carson S."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
+    "teamId": 8156793,
+    "teamName": "4. Liz C. and Josman R."
   },
   {
     "programId": 5154234,
@@ -98,14 +104,14 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8156793,
-    "teamName": "4. Liz C. and Josman R."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
     "teamId": 8159552,
     "teamName": "8. Helen L. and George C."
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
+    "teamId": 8172362,
+    "teamName": "5. Tri-Angels (Johnny P.)"
   },
   {
     "programId": 5154231,
@@ -118,12 +124,6 @@
     "programName": "Monday Coed 3s B",
     "teamId": 8179731,
     "teamName": "8. Third Wheel Energy (Isa T.)"
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8172362,
-    "teamName": "5. Tri-Angels (Johnny P.)"
   },
   {
     "programId": 5154231,
