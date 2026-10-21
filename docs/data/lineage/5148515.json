@@ -480,11 +480,11 @@
           "endDate": 1794891600000,
           "level": "Upper Rec",
           "move": "same",
-          "position": 9,
+          "position": 6,
           "teamCount": 12,
           "wins": 2,
           "losses": 3,
-          "ties": 3
+          "ties": 5
         }
       ]
     },
@@ -539,7 +539,7 @@
           "teamCount": 12,
           "wins": 2,
           "losses": 2,
-          "ties": 4
+          "ties": 6
         }
       ]
     },
@@ -663,7 +663,7 @@
           "teamCount": 12,
           "wins": 2,
           "losses": 2,
-          "ties": 3
+          "ties": 5
         }
       ]
     },
@@ -770,10 +770,10 @@
           "endDate": 1794891600000,
           "level": "Upper Rec",
           "move": "same",
-          "position": 6,
+          "position": 9,
           "teamCount": 12,
           "wins": 3,
-          "losses": 4,
+          "losses": 5,
           "ties": 1
         }
       ]
@@ -839,9 +839,9 @@
           "endDate": 1794891600000,
           "level": "Upper Rec",
           "move": "same",
-          "position": 4,
+          "position": 3,
           "teamCount": 12,
-          "wins": 4,
+          "wins": 5,
           "losses": 2,
           "ties": 1
         }
@@ -863,8 +863,8 @@
           "position": 2,
           "teamCount": 12,
           "wins": 6,
-          "losses": 1,
-          "ties": 1
+          "losses": 2,
+          "ties": 2
         }
       ]
     },
@@ -883,7 +883,7 @@
           "move": null,
           "position": 1,
           "teamCount": 12,
-          "wins": 8,
+          "wins": 10,
           "losses": 0,
           "ties": 0
         }
@@ -905,8 +905,8 @@
           "position": 8,
           "teamCount": 12,
           "wins": 2,
-          "losses": 3,
-          "ties": 3
+          "losses": 4,
+          "ties": 4
         }
       ]
     },
@@ -923,7 +923,7 @@
           "endDate": 1794891600000,
           "level": "Upper Rec",
           "move": null,
-          "position": 3,
+          "position": 4,
           "teamCount": 12,
           "wins": 5,
           "losses": 3,

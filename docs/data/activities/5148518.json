@@ -702,6 +702,96 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14077704,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8150898,
+          "teamName": "2. Erika P. and Becca W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8156795,
+          "teamName": "9. Liz C. and Madison P.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077714,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Melissa B. and Lindsay K.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156795,
+          "teamName": "9. Liz C. and Madison P.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077717,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156795,
+          "teamName": "9. Liz C. and Madison P.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077719,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Melissa B. and Lindsay K.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077721,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8150898,
+          "teamName": "2. Erika P. and Becca W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

@@ -6,19 +6,19 @@
       "position": 1,
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
-      "gamesPlayed": 8,
-      "wins": 7,
+      "gamesPlayed": 10,
+      "wins": 9,
       "losses": 0,
       "ties": 1,
-      "points": 15
+      "points": 19
     },
     {
       "position": 2,
       "teamId": 8159128,
       "teamName": "6. Twin Peaks (Dan F.)",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 6,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "points": 13
     },
@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8137254,
       "teamName": "4. Milk (Sean M.)",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 2,
       "points": 4
     },

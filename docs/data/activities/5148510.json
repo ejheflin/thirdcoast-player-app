@@ -648,6 +648,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095106,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8164493,
+          "teamName": "1. Gold Star for Effort (Merilyn V.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8164233,
+          "teamName": "10. Carpe Digem (Eric H.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095108,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8164493,
+          "teamName": "1. Gold Star for Effort (Merilyn V.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8162254,
+          "teamName": "4. The Replacements (Joe R.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095112,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8153555,
+          "teamName": "2. Big Dig Energy (Chad S.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159903,
+          "teamName": "8. Gold Diggerz (JT N.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

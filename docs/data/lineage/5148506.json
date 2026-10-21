@@ -230,10 +230,10 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 7,
+          "position": 5,
           "teamCount": 8,
-          "wins": 1,
-          "losses": 2,
+          "wins": 2,
+          "losses": 4,
           "ties": 2
         }
       ]
@@ -439,7 +439,7 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 1,
+          "position": 2,
           "teamCount": 8,
           "wins": 6,
           "losses": 0,
@@ -606,9 +606,9 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 8,
+          "position": 4,
           "teamCount": 8,
-          "wins": 1,
+          "wins": 3,
           "losses": 6,
           "ties": 1
         }
@@ -843,10 +843,10 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "up",
-          "position": 5,
+          "position": 7,
           "teamCount": 8,
           "wins": 2,
-          "losses": 3,
+          "losses": 4,
           "ties": 1
         }
       ]
@@ -898,7 +898,7 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "up",
-          "position": 4,
+          "position": 6,
           "teamCount": 8,
           "wins": 2,
           "losses": 3,
@@ -1040,7 +1040,7 @@
           "position": 3,
           "teamCount": 8,
           "wins": 3,
-          "losses": 3,
+          "losses": 5,
           "ties": 2
         }
       ]
@@ -1274,7 +1274,7 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 6,
+          "position": 8,
           "teamCount": 8,
           "wins": 2,
           "losses": 5,
@@ -1427,9 +1427,9 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 2,
+          "position": 1,
           "teamCount": 8,
-          "wins": 5,
+          "wins": 7,
           "losses": 0,
           "ties": 3
         }

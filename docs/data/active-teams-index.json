@@ -68,6 +68,12 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8156793,
+    "teamName": "4. Liz C. and Josman R."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8161071,
     "teamName": "3. Taylor P. and Carson S."
   },
@@ -80,14 +86,14 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8156793,
-    "teamName": "4. Liz C. and Josman R."
+    "teamId": 8173044,
+    "teamName": "7. Kaegan W. and Jon N."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8173044,
-    "teamName": "7. Kaegan W. and Jon N."
+    "teamId": 8173157,
+    "teamName": "5. Emily R. and Dreco S."
   },
   {
     "programId": 5154234,
@@ -100,12 +106,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8159552,
     "teamName": "8. Helen L. and George C."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8173157,
-    "teamName": "5. Emily R. and Dreco S."
   },
   {
     "programId": 5154231,
@@ -188,6 +188,18 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8185977,
+    "teamName": "9. Gabby T. and Mikah M."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8178846,
+    "teamName": "7. Mili V. and Tiffany S."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8191327,
     "teamName": "6. Annie H. and Jordan W."
   },
@@ -200,26 +212,14 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178846,
-    "teamName": "7. Mili V. and Tiffany S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8185977,
-    "teamName": "9. Gabby T. and Mikah M."
+    "teamId": 8179595,
+    "teamName": "1. Brooke F. and Angel H."
   },
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
     "teamId": 8179958,
     "teamName": "3. Denise H. and Kim S."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179595,
-    "teamName": "1. Brooke F. and Angel H."
   },
   {
     "programId": 5172413,
@@ -422,20 +422,32 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8148916,
-    "teamName": "8. Team Jacob (Mark J.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
     "teamId": 8163816,
     "teamName": "7. Holy Blockamole Infinity (Bryan M.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
+    "teamId": 8148916,
+    "teamName": "8. Team Jacob (Mark J.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
     "teamId": 8163520,
     "teamName": "6. Bombaclat! (Aatir A.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
+    "teamId": 8150721,
+    "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
+    "teamId": 8142715,
+    "teamName": "4. Toodles (Michael L.)"
   },
   {
     "programId": 5148506,
@@ -454,18 +466,6 @@
     "programName": "Tuesday Coed 4s A",
     "teamId": 8163533,
     "teamName": "3. Hustle Gang (Calvin D.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
-    "teamId": 8142715,
-    "teamName": "4. Toodles (Michael L.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
-    "teamId": 8150721,
-    "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
   },
   {
     "programId": 5148510,
@@ -590,14 +590,14 @@
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8171848,
-    "teamName": "9. Get diggy wit it (Rudy G.)"
+    "teamId": 8155575,
+    "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
   },
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8155575,
-    "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)"
+    "teamId": 8171848,
+    "teamName": "9. Get diggy wit it (Rudy G.)"
   },
   {
     "programId": 5148515,
@@ -608,8 +608,8 @@
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8150563,
-    "teamName": "7. The Thurmanators (David Z.)"
+    "teamId": 8138261,
+    "teamName": "2. Bump, Set, Dammit! (Michael G.)"
   },
   {
     "programId": 5148515,
@@ -626,8 +626,8 @@
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8138261,
-    "teamName": "2. Bump, Set, Dammit! (Michael G.)"
+    "teamId": 8150563,
+    "teamName": "7. The Thurmanators (David Z.)"
   },
   {
     "programId": 5148515,
@@ -674,14 +674,20 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150634,
-    "teamName": "6. Tina O. and Elaine L."
+    "teamId": 8161616,
+    "teamName": "5. Juliana T. and Lauren W."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8161616,
-    "teamName": "5. Juliana T. and Lauren W."
+    "teamId": 8156795,
+    "teamName": "9. Liz C. and Madison P."
+  },
+  {
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
+    "teamId": 8150634,
+    "teamName": "6. Tina O. and Elaine L."
   },
   {
     "programId": 5148518,
@@ -694,12 +700,6 @@
     "programName": "Tuesday Womens 2s A",
     "teamId": 8167966,
     "teamName": "10. Kat H. and Julia V."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
-    "teamId": 8156795,
-    "teamName": "9. Liz C. and Madison P."
   },
   {
     "programId": 5148518,
