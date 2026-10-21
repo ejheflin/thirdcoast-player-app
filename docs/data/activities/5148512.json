@@ -648,6 +648,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14095004,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095006,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
