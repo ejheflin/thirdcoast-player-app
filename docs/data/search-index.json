@@ -2818,6 +2818,12 @@
     ],
     [
       5,
+      8138562,
+      "7. Sarah S. and Jo P.",
+      4
+    ],
+    [
+      5,
       8161616,
       "5. Juliana T. and Lauren W.",
       8
@@ -2833,12 +2839,6 @@
       8150634,
       "6. Tina O. and Elaine L.",
       2
-    ],
-    [
-      5,
-      8138562,
-      "7. Sarah S. and Jo P.",
-      4
     ],
     [
       5,
@@ -2896,15 +2896,15 @@
     ],
     [
       6,
-      8169638,
-      "12. Bump Buddies (Mitch L.)",
-      1
-    ],
-    [
-      6,
       8150563,
       "7. The Thurmanators (David Z.)",
       7
+    ],
+    [
+      6,
+      8169638,
+      "12. Bump Buddies (Mitch L.)",
+      1
     ],
     [
       6,
@@ -2932,20 +2932,26 @@
     ],
     [
       7,
-      8159128,
-      "6. Twin Peaks (Dan F.)",
-      16
-    ],
-    [
-      7,
       8151238,
       "2. Score Check (Julianna T.)",
       16
     ],
     [
       7,
+      8159128,
+      "6. Twin Peaks (Dan F.)",
+      16
+    ],
+    [
+      7,
       8159110,
       "5. Watermelon (Lauren K.)",
+      16
+    ],
+    [
+      7,
+      8160228,
+      "3. 3 OGs and Bae (Johnny W.)",
       16
     ],
     [
@@ -2959,12 +2965,6 @@
       8137254,
       "4. Milk (Sean M.)",
       17
-    ],
-    [
-      7,
-      8160228,
-      "3. 3 OGs and Bae (Johnny W.)",
-      16
     ],
     [
       7,
@@ -3004,9 +3004,9 @@
     ],
     [
       8,
-      8148116,
-      "5. Shank You Very Much (Jaimie M.)",
-      1
+      8148877,
+      "7. Can You Dig It? (Marc S.)",
+      16
     ],
     [
       8,
@@ -3016,9 +3016,9 @@
     ],
     [
       8,
-      8148877,
-      "7. Can You Dig It? (Marc S.)",
-      16
+      8148116,
+      "5. Shank You Very Much (Jaimie M.)",
+      1
     ],
     [
       8,
@@ -3058,18 +3058,6 @@
     ],
     [
       9,
-      8142715,
-      "4. Toodles (Michael L.)",
-      16
-    ],
-    [
-      9,
-      8159639,
-      "5. Vacacioners (Phil M.)",
-      3
-    ],
-    [
-      9,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       16
@@ -3079,6 +3067,18 @@
       8163533,
       "3. Hustle Gang (Calvin D.)",
       16
+    ],
+    [
+      9,
+      8142715,
+      "4. Toodles (Michael L.)",
+      16
+    ],
+    [
+      9,
+      8159639,
+      "5. Vacacioners (Phil M.)",
+      3
     ],
     [
       10,
