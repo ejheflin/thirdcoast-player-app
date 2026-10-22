@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8179731,
+      "teamName": "8. Third Wheel Energy (Isa T.)",
+      "gamesPlayed": 6,
+      "wins": 4,
+      "losses": 0,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 4,
       "teamId": 8148416,
       "teamName": "9. May the Spike Be With You (Ash C.)",
       "gamesPlayed": 6,
@@ -31,16 +41,6 @@
       "losses": 0,
       "ties": 3,
       "points": 9
-    },
-    {
-      "position": 4,
-      "teamId": 8179731,
-      "teamName": "8. Third Wheel Energy (Isa T.)",
-      "gamesPlayed": 4,
-      "wins": 3,
-      "losses": 0,
-      "ties": 1,
-      "points": 7
     },
     {
       "position": 5,
@@ -74,22 +74,22 @@
     },
     {
       "position": 8,
-      "teamId": 8173279,
-      "teamName": "7. Sandy Cheeks (Mica R.)",
+      "teamId": 8190678,
+      "teamName": "10. Free Agent 2",
       "gamesPlayed": 5,
-      "wins": 1,
-      "losses": 4,
-      "ties": 0,
-      "points": 2
+      "wins": 0,
+      "losses": 2,
+      "ties": 3,
+      "points": 3
     },
     {
       "position": 9,
-      "teamId": 8190678,
-      "teamName": "10. Free Agent 2",
-      "gamesPlayed": 4,
-      "wins": 0,
-      "losses": 2,
-      "ties": 2,
+      "teamId": 8173279,
+      "teamName": "7. Sandy Cheeks (Mica R.)",
+      "gamesPlayed": 6,
+      "wins": 1,
+      "losses": 5,
+      "ties": 0,
       "points": 2
     },
     {
