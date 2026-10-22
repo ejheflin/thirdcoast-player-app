@@ -794,6 +794,24 @@
       ]
     },
     {
+      "activityId": 14095463,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8137762,
+          "teamName": "4. Notorious DIG (Connor D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155575,
+          "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14095469,
       "date": "2026-10-20",
       "teams": [
