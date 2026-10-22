@@ -1260,6 +1260,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 13946846,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8111500,
+          "teamName": "2. Jason O. and Dominick W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 13946848,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8122145,
+          "teamName": "3. Gordon P. and Harley G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 13946849,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8122145,
+          "teamName": "3. Gordon P. and Harley G.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946851,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8111500,
+          "teamName": "2. Jason O. and Dominick W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8122266,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

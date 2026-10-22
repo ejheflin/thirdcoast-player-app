@@ -542,6 +542,24 @@
       ]
     },
     {
+      "activityId": 14094998,
+      "date": "2026-10-13",
+      "teams": [
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14095003,
       "date": "2026-10-20",
       "teams": [
