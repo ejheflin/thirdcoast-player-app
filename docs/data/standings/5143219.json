@@ -34,22 +34,22 @@
     },
     {
       "position": 4,
+      "teamId": 8136865,
+      "teamName": "8. Sarah D. and Matt B.",
+      "gamesPlayed": 12,
+      "wins": 5,
+      "losses": 4,
+      "ties": 3,
+      "points": 13
+    },
+    {
+      "position": 5,
       "teamId": 8154115,
       "teamName": "2. Mili V. and Isa T.",
       "gamesPlayed": 10,
       "wins": 4,
       "losses": 2,
       "ties": 4,
-      "points": 12
-    },
-    {
-      "position": 5,
-      "teamId": 8136865,
-      "teamName": "8. Sarah D. and Matt B.",
-      "gamesPlayed": 11,
-      "wins": 5,
-      "losses": 4,
-      "ties": 2,
       "points": 12
     },
     {
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8137644,
       "teamName": "4. Taylor B. and Luigi H.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 3,
       "losses": 4,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 8
     },
     {
       "position": 8,

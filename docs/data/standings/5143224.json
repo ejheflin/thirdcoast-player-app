@@ -54,6 +54,16 @@
     },
     {
       "position": 6,
+      "teamId": 8139641,
+      "teamName": "10. Viktoriya I. and John S.",
+      "gamesPlayed": 12,
+      "wins": 2,
+      "losses": 3,
+      "ties": 7,
+      "points": 11
+    },
+    {
+      "position": 7,
       "teamId": 8136201,
       "teamName": "5. Shelbita L. and Michael A.",
       "gamesPlayed": 11,
@@ -61,16 +71,6 @@
       "losses": 3,
       "ties": 6,
       "points": 10
-    },
-    {
-      "position": 7,
-      "teamId": 8139641,
-      "teamName": "10. Viktoriya I. and John S.",
-      "gamesPlayed": 11,
-      "wins": 1,
-      "losses": 3,
-      "ties": 7,
-      "points": 9
     },
     {
       "position": 8,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8139636,
       "teamName": "2. Danielle F. and Jeff S.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 5,
       "points": 7
     },

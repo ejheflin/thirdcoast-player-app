@@ -972,6 +972,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048804,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
