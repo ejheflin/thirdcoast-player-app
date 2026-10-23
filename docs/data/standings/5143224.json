@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8124126,
       "teamName": "6. Molly J. and Phil A.",
-      "gamesPlayed": 9,
-      "wins": 6,
+      "gamesPlayed": 11,
+      "wins": 8,
       "losses": 0,
       "ties": 3,
-      "points": 15
+      "points": 19
     },
     {
       "position": 2,
@@ -24,22 +24,22 @@
     },
     {
       "position": 3,
-      "teamId": 8146294,
-      "teamName": "1. Ali M. and Andrew B.",
-      "gamesPlayed": 10,
-      "wins": 3,
+      "teamId": 8142462,
+      "teamName": "7. Sarah U. and Kumar R.",
+      "gamesPlayed": 12,
+      "wins": 2,
       "losses": 2,
-      "ties": 5,
-      "points": 11
+      "ties": 8,
+      "points": 12
     },
     {
       "position": 4,
-      "teamId": 8142462,
-      "teamName": "7. Sarah U. and Kumar R.",
-      "gamesPlayed": 10,
-      "wins": 2,
-      "losses": 1,
-      "ties": 7,
+      "teamId": 8146294,
+      "teamName": "1. Ali M. and Andrew B.",
+      "gamesPlayed": 11,
+      "wins": 3,
+      "losses": 3,
+      "ties": 5,
       "points": 11
     },
     {
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8139641,
       "teamName": "10. Viktoriya I. and John S.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 1,
       "losses": 3,
-      "ties": 6,
-      "points": 8
+      "ties": 7,
+      "points": 9
     },
     {
       "position": 8,

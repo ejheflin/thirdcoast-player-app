@@ -864,6 +864,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048619,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8125615,
+          "teamName": "1. Olivia J. and Josman R.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
