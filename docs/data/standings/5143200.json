@@ -4,16 +4,36 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8139038,
+      "teamName": "2. Ay Mi Madre (Daniel D.)",
+      "gamesPlayed": 11,
+      "wins": 7,
+      "losses": 1,
+      "ties": 3,
+      "points": 17
+    },
+    {
+      "position": 2,
+      "teamId": 8139783,
+      "teamName": "5. HIT FACED (Clark P.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 3,
+      "ties": 2,
+      "points": 16
+    },
+    {
+      "position": 3,
       "teamId": 8152314,
       "teamName": "7. Patty 4 the People (Doug B.)",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 6,
-      "losses": 0,
+      "losses": 1,
       "ties": 3,
       "points": 15
     },
     {
-      "position": 2,
+      "position": 4,
       "teamId": 8143230,
       "teamName": "3. Charlies Angels (Jason O.)",
       "gamesPlayed": 10,
@@ -23,7 +43,7 @@
       "points": 15
     },
     {
-      "position": 3,
+      "position": 5,
       "teamId": 8152547,
       "teamName": "6. Injured Reserve! (Joe R.)",
       "gamesPlayed": 9,
@@ -33,17 +53,7 @@
       "points": 14
     },
     {
-      "position": 4,
-      "teamId": 8139038,
-      "teamName": "2. Ay Mi Madre (Daniel D.)",
-      "gamesPlayed": 9,
-      "wins": 5,
-      "losses": 1,
-      "ties": 3,
-      "points": 13
-    },
-    {
-      "position": 5,
+      "position": 6,
       "teamId": 8127097,
       "teamName": "1. Crab (Collin W.)",
       "gamesPlayed": 10,
@@ -53,19 +63,9 @@
       "points": 12
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8153064,
       "teamName": "8. Sandy Patch Kids (Curtis J.)",
-      "gamesPlayed": 10,
-      "wins": 5,
-      "losses": 3,
-      "ties": 2,
-      "points": 12
-    },
-    {
-      "position": 7,
-      "teamId": 8139783,
-      "teamName": "5. HIT FACED (Clark P.)",
       "gamesPlayed": 10,
       "wins": 5,
       "losses": 3,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 4,
-      "losses": 2,
+      "losses": 3,
       "ties": 3,
       "points": 11
     },
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8157248,
       "teamName": "12. Weekend Warmups (Liz P.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 1,
       "points": 5
     },
@@ -116,9 +116,9 @@
       "position": 12,
       "teamId": 8155956,
       "teamName": "10. Sandy Cheeks (Stephanie D.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
       "points": 0
     }

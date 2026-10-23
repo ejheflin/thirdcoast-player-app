@@ -1026,6 +1026,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048410,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156585,
+          "teamName": "11. I Dunno (Matt G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048418,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048421,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8139783,
+          "teamName": "5. HIT FACED (Clark P.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048424,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

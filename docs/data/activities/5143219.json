@@ -828,6 +828,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048614,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8125615,
+          "teamName": "1. Olivia J. and Josman R.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048618,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

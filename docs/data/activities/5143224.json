@@ -810,6 +810,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048796,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048798,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048800,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048801,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

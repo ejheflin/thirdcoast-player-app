@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8138556,
+      "teamName": "4. Jo P. and Leo Y.",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 2,
+      "ties": 6,
+      "points": 14
+    },
+    {
+      "position": 3,
       "teamId": 8146294,
       "teamName": "1. Ali M. and Andrew B.",
       "gamesPlayed": 10,
@@ -23,7 +33,7 @@
       "points": 11
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8142462,
       "teamName": "7. Sarah U. and Kumar R.",
       "gamesPlayed": 10,
@@ -33,17 +43,17 @@
       "points": 11
     },
     {
-      "position": 4,
-      "teamId": 8138556,
-      "teamName": "4. Jo P. and Leo Y.",
-      "gamesPlayed": 10,
+      "position": 5,
+      "teamId": 8136201,
+      "teamName": "5. Shelbita L. and Michael A.",
+      "gamesPlayed": 11,
       "wins": 2,
-      "losses": 2,
+      "losses": 3,
       "ties": 6,
       "points": 10
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8141319,
       "teamName": "3. Elaine L. and Eric W.",
       "gamesPlayed": 10,
@@ -51,16 +61,6 @@
       "losses": 1,
       "ties": 8,
       "points": 10
-    },
-    {
-      "position": 6,
-      "teamId": 8136201,
-      "teamName": "5. Shelbita L. and Michael A.",
-      "gamesPlayed": 8,
-      "wins": 2,
-      "losses": 2,
-      "ties": 4,
-      "points": 8
     },
     {
       "position": 7,
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8149530,
       "teamName": "8. Avery E. and Jon N.",
-      "gamesPlayed": 7,
+      "gamesPlayed": 9,
       "wins": 1,
       "losses": 2,
-      "ties": 4,
-      "points": 6
+      "ties": 6,
+      "points": 8
     },
     {
       "position": 9,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8157013,
       "teamName": "9. Lauren H. and Clayton B.",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "ties": 5,
       "points": 5
     }
