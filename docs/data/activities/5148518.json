@@ -882,6 +882,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077715,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8150634,
+          "teamName": "6. Tina O. and Elaine L.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
