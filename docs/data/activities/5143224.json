@@ -936,6 +936,42 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048803,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048807,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

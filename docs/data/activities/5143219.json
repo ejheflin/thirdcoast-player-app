@@ -882,6 +882,96 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048615,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048620,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048621,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048622,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048623,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
