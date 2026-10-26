@@ -1,6 +1,7 @@
 {
   "userId": 54298552,
   "firstName": "Jonatan",
+  "lastInitial": "A.",
   "appearances": [
     {
       "programId": 4872925,
@@ -18,6 +19,12 @@
       "programId": 4743913,
       "teamId": 7589105,
       "teamName": "10. Jet 2 Holiday (Ruben R.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5148515,
+      "teamId": 8142399,
+      "teamName": "1. Beach Please (Annie L.)",
       "isCaptain": false
     }
   ]

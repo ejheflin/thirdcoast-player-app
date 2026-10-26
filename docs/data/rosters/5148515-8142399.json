@@ -4,6 +4,12 @@
   "teamName": "1. Beach Please (Annie L.)",
   "players": [
     {
+      "userId": 54298552,
+      "firstName": "Jonatan",
+      "lastInitial": "A.",
+      "isCaptain": false
+    },
+    {
       "userId": 56689950,
       "firstName": "Daniel",
       "lastInitial": "L.",
