@@ -1,11 +1,18 @@
 {
   "userId": 58318135,
   "firstName": "Daniel",
+  "lastInitial": "M.",
   "appearances": [
     {
       "programId": 5056676,
       "teamId": 8018572,
       "teamName": "1. Bad Hombres (Jaimie M.)",
+      "isCaptain": false
+    },
+    {
+      "programId": 5148510,
+      "teamId": 8148116,
+      "teamName": "5. Shank You Very Much (Jaimie M.)",
       "isCaptain": false
     }
   ]

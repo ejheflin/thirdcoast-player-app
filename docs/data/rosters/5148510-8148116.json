@@ -16,6 +16,12 @@
       "isCaptain": true
     },
     {
+      "userId": 58318135,
+      "firstName": "Daniel",
+      "lastInitial": "M.",
+      "isCaptain": false
+    },
+    {
       "userId": 57699748,
       "firstName": "Morgan",
       "lastInitial": "S.",

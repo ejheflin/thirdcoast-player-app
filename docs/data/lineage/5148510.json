@@ -497,10 +497,44 @@
       ]
     },
     "8148116": {
-      "seasons": 1,
-      "move": null,
-      "from": null,
+      "seasons": 3,
+      "move": "same",
+      "from": {
+        "programId": 5056676,
+        "teamId": 8018572,
+        "programName": "Tuesday Coed 4s B",
+        "teamName": "1. Bad Hombres (Jaimie M.)",
+        "level": "B"
+      },
       "history": [
+        {
+          "programId": 4975325,
+          "teamId": 7934955,
+          "programName": "Tuesday Coed 4s Upper Rec",
+          "teamName": "8. Bad Hombres (Jaimie M.)",
+          "endDate": 1784001600000,
+          "level": "Upper Rec",
+          "move": null,
+          "position": 3,
+          "teamCount": 10,
+          "wins": 8,
+          "losses": 1,
+          "ties": 6
+        },
+        {
+          "programId": 5056676,
+          "teamId": 8018572,
+          "programName": "Tuesday Coed 4s B",
+          "teamName": "1. Bad Hombres (Jaimie M.)",
+          "endDate": 1789444800000,
+          "level": "B",
+          "move": "up",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 5,
+          "losses": 6,
+          "ties": 5
+        },
         {
           "programId": 5148510,
           "teamId": 8148116,
@@ -508,7 +542,7 @@
           "teamName": "5. Shank You Very Much (Jaimie M.)",
           "endDate": 1794891600000,
           "level": "B",
-          "move": null,
+          "move": "same",
           "position": 8,
           "teamCount": 10,
           "wins": 3,
