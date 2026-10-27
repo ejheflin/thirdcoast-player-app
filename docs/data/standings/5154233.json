@@ -6,21 +6,21 @@
       "position": 1,
       "teamId": 8148465,
       "teamName": "1. Olivia E. and Jason O.",
-      "gamesPlayed": 6,
-      "wins": 5,
-      "losses": 0,
+      "gamesPlayed": 8,
+      "wins": 6,
+      "losses": 1,
       "ties": 1,
-      "points": 11
+      "points": 13
     },
     {
       "position": 2,
       "teamId": 8171251,
       "teamName": "6. Ellie B. and Matt G.",
-      "gamesPlayed": 6,
-      "wins": 4,
+      "gamesPlayed": 7,
+      "wins": 5,
       "losses": 0,
       "ties": 2,
-      "points": 10
+      "points": 12
     },
     {
       "position": 3,
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8159362,
       "teamName": "5. Joann L. and Jacob W.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 1,
       "points": 3
     },

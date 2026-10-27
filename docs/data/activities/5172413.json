@@ -540,6 +540,150 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212020,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8185977,
+          "teamName": "9. Gabby T. and Mikah M.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212021,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212022,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212023,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8185977,
+          "teamName": "9. Gabby T. and Mikah M.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212024,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14212025,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212027,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8191327,
+          "teamName": "6. Annie H. and Jordan W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212029,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8179595,
+          "teamName": "1. Brooke F. and Angel H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

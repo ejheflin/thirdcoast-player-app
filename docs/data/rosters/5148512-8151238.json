@@ -4,6 +4,12 @@
   "teamName": "2. Score Check (Julianna T.)",
   "players": [
     {
+      "userId": 58987827,
+      "firstName": "Josh",
+      "lastInitial": "B.",
+      "isCaptain": false
+    },
+    {
       "userId": 56429116,
       "firstName": "Joe",
       "lastInitial": "M.",

@@ -6,69 +6,69 @@
       "position": 1,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 6,
-      "wins": 4,
+      "gamesPlayed": 8,
+      "wins": 6,
       "losses": 0,
       "ties": 2,
-      "points": 10
+      "points": 14
     },
     {
       "position": 2,
       "teamId": 8178840,
       "teamName": "10. Julia V. and Beth B.",
-      "gamesPlayed": 6,
-      "wins": 4,
+      "gamesPlayed": 8,
+      "wins": 5,
       "losses": 0,
-      "ties": 2,
-      "points": 10
+      "ties": 3,
+      "points": 13
     },
     {
       "position": 3,
       "teamId": 8179406,
       "teamName": "5. Doria O. and Anna S.",
-      "gamesPlayed": 6,
-      "wins": 3,
-      "losses": 0,
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 1,
       "ties": 3,
-      "points": 9
+      "points": 11
     },
     {
       "position": 4,
       "teamId": 8185977,
       "teamName": "9. Gabby T. and Mikah M.",
-      "gamesPlayed": 6,
-      "wins": 3,
+      "gamesPlayed": 8,
+      "wins": 4,
       "losses": 2,
-      "ties": 1,
-      "points": 7
+      "ties": 2,
+      "points": 10
     },
     {
       "position": 5,
-      "teamId": 8178846,
-      "teamName": "7. Mili V. and Tiffany S.",
-      "gamesPlayed": 6,
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
+      "gamesPlayed": 8,
       "wins": 2,
-      "losses": 2,
-      "ties": 2,
-      "points": 6
+      "losses": 3,
+      "ties": 3,
+      "points": 7
     },
     {
       "position": 6,
-      "teamId": 8191327,
-      "teamName": "6. Annie H. and Jordan W.",
-      "gamesPlayed": 6,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "gamesPlayed": 8,
       "wins": 2,
       "losses": 3,
-      "ties": 1,
-      "points": 5
+      "ties": 3,
+      "points": 7
     },
     {
       "position": 7,
-      "teamId": 8178867,
-      "teamName": "4. Fran R. and Kat H.",
-      "gamesPlayed": 6,
+      "teamId": 8191327,
+      "teamName": "6. Annie H. and Jordan W.",
+      "gamesPlayed": 7,
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 1,
       "points": 5
     },
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8179595,
       "teamName": "1. Brooke F. and Angel H.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 1,
       "losses": 3,
-      "ties": 2,
-      "points": 4
+      "ties": 3,
+      "points": 5
     },
     {
       "position": 9,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8186968,
       "teamName": "2. Annie J. and Anna C.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 8,
       "wins": 0,
-      "losses": 5,
+      "losses": 7,
       "ties": 1,
       "points": 1
     }

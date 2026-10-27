@@ -1,6 +1,7 @@
 {
   "userId": 31687011,
   "firstName": "Brittney",
+  "lastInitial": "G.",
   "appearances": [
     {
       "programId": 4139350,
@@ -60,6 +61,12 @@
       "programId": 4031663,
       "teamId": 6551663,
       "teamName": "10. Tiffany S. & Brittney G.",
+      "isCaptain": false
+    },
+    {
+      "programId": 5148518,
+      "teamId": 8143348,
+      "teamName": "3. Brittney G. and Lindsay K.",
       "isCaptain": false
     }
   ]

@@ -2590,6 +2590,12 @@
     ],
     [
       0,
+      8178867,
+      "4. Fran R. and Kat H.",
+      1
+    ],
+    [
+      0,
       8178846,
       "7. Mili V. and Tiffany S.",
       1
@@ -2598,12 +2604,6 @@
       0,
       8191327,
       "6. Annie H. and Jordan W.",
-      1
-    ],
-    [
-      0,
-      8178867,
-      "4. Fran R. and Kat H.",
       1
     ],
     [
@@ -2638,6 +2638,12 @@
     ],
     [
       2,
+      8153805,
+      "1. Sarah U. and Logan C.",
+      1
+    ],
+    [
+      2,
       8161071,
       "3. Taylor P. and Carson S.",
       2
@@ -2658,12 +2664,6 @@
       2,
       8173157,
       "5. Emily R. and Dreco S.",
-      1
-    ],
-    [
-      2,
-      8153805,
-      "1. Sarah U. and Logan C.",
       1
     ],
     [
@@ -2734,15 +2734,21 @@
     ],
     [
       4,
-      8172362,
-      "5. Tri-Angels (Johnny P.)",
-      4
-    ],
-    [
-      4,
       8158925,
       "3. Respect Your Elders (Heather B.)",
       6
+    ],
+    [
+      4,
+      8148416,
+      "9. May the Spike Be With You (Ash C.)",
+      13
+    ],
+    [
+      4,
+      8172362,
+      "5. Tri-Angels (Johnny P.)",
+      4
     ],
     [
       4,
@@ -2752,9 +2758,9 @@
     ],
     [
       4,
-      8148416,
-      "9. May the Spike Be With You (Ash C.)",
-      13
+      8153216,
+      "2. Volley Llamas (Jamie D.)",
+      16
     ],
     [
       4,
@@ -2766,12 +2772,6 @@
       4,
       8160698,
       "6. Settin Pretty (Elizabeth A.)",
-      16
-    ],
-    [
-      4,
-      8153216,
-      "2. Volley Llamas (Jamie D.)",
       16
     ],
     [
@@ -2807,8 +2807,8 @@
     [
       5,
       8143348,
-      "3. Melissa B. and Lindsay K.",
-      15
+      "3. Brittney G. and Lindsay K.",
+      1
     ],
     [
       5,
@@ -26837,10 +26837,10 @@
     [
       14785066,
       "Melissa",
-      5,
-      8143348,
-      "3. Melissa B. and Lindsay K.",
-      15
+      18,
+      8017347,
+      "7. Melissa B. and Lindsay K.",
+      14
     ],
     [
       14798164,
@@ -26895,7 +26895,7 @@
       "Lindsay",
       5,
       8143348,
-      "3. Melissa B. and Lindsay K.",
+      "3. Brittney G. and Lindsay K.",
       16
     ],
     [
@@ -29301,10 +29301,10 @@
     [
       31687011,
       "Brittney",
-      74,
-      7436963,
-      "7. Olivia J. and Brittney G.",
-      10
+      5,
+      8143348,
+      "3. Brittney G. and Lindsay K.",
+      11
     ],
     [
       31689303,
@@ -34728,6 +34728,14 @@
       6,
       8142399,
       "1. Beach Please (Annie L.)",
+      1
+    ],
+    [
+      58987827,
+      "Josh",
+      7,
+      8151238,
+      "2. Score Check (Julianna T.)",
       1
     ]
   ]
