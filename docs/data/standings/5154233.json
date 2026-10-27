@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8159362,
       "teamName": "5. Joann L. and Jacob W.",
-      "gamesPlayed": 7,
-      "wins": 1,
+      "gamesPlayed": 8,
+      "wins": 2,
       "losses": 5,
       "ties": 1,
-      "points": 3
+      "points": 5
     },
     {
       "position": 8,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8182699,
       "teamName": "9. Vanessa M. and Miguel M.",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 0,
-      "losses": 4,
+      "losses": 5,
       "ties": 1,
       "points": 1
     },

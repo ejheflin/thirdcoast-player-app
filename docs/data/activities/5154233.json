@@ -540,6 +540,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205737,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8159362,
+          "teamName": "5. Joann L. and Jacob W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8182699,
+          "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
