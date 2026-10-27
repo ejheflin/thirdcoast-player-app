@@ -612,6 +612,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14205824,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8181763,
+          "teamName": "1. Gold Diggers (Gabriela C.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8172362,
+          "teamName": "5. Tri-Angels (Johnny P.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205825,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8175870,
+          "teamName": "4. No Faith (Donald P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148416,
+          "teamName": "9. May the Spike Be With You (Ash C.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

@@ -64,6 +64,16 @@
     },
     {
       "position": 7,
+      "teamId": 8179595,
+      "teamName": "1. Brooke F. and Angel H.",
+      "gamesPlayed": 8,
+      "wins": 2,
+      "losses": 3,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 8,
       "teamId": 8191327,
       "teamName": "6. Annie H. and Jordan W.",
       "gamesPlayed": 7,
@@ -73,22 +83,12 @@
       "points": 5
     },
     {
-      "position": 8,
-      "teamId": 8179595,
-      "teamName": "1. Brooke F. and Angel H.",
-      "gamesPlayed": 7,
-      "wins": 1,
-      "losses": 3,
-      "ties": 3,
-      "points": 5
-    },
-    {
       "position": 9,
       "teamId": 8179958,
       "teamName": "3. Denise H. and Kim S.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 1,
       "points": 3
     },
