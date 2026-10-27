@@ -46,11 +46,11 @@
       "position": 5,
       "teamId": 8153216,
       "teamName": "2. Volley Llamas (Jamie D.)",
-      "gamesPlayed": 7,
-      "wins": 2,
+      "gamesPlayed": 8,
+      "wins": 3,
       "losses": 2,
       "ties": 3,
-      "points": 7
+      "points": 9
     },
     {
       "position": 6,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8173279,
       "teamName": "7. Sandy Cheeks (Mica R.)",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
       "points": 2
     },
