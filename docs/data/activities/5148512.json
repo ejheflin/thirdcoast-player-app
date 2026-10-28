@@ -774,6 +774,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095013,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8148853,
+          "teamName": "1. Beach Bunnies (Jimmy R.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095016,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8160228,
+          "teamName": "3. 3 OGs and Bae (Johnny W.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8137254,
+          "teamName": "4. Milk (Sean M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095017,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8160228,
+          "teamName": "3. 3 OGs and Bae (Johnny W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159128,
+          "teamName": "6. Twin Peaks (Dan F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

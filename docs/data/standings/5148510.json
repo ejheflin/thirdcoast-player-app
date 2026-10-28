@@ -6,24 +6,14 @@
       "position": 1,
       "teamId": 8135728,
       "teamName": "6. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 10,
-      "wins": 9,
+      "gamesPlayed": 12,
+      "wins": 11,
       "losses": 0,
       "ties": 1,
-      "points": 19
+      "points": 23
     },
     {
       "position": 2,
-      "teamId": 8159903,
-      "teamName": "8. Gold Diggerz (JT N.)",
-      "gamesPlayed": 12,
-      "wins": 9,
-      "losses": 3,
-      "ties": 0,
-      "points": 18
-    },
-    {
-      "position": 3,
       "teamId": 8136555,
       "teamName": "3. The Empire Spikes Back (Ash C.)",
       "gamesPlayed": 11,
@@ -33,22 +23,32 @@
       "points": 17
     },
     {
-      "position": 4,
+      "position": 3,
       "teamId": 8146380,
       "teamName": "9. Holy Balls (Jacob Y.)",
       "gamesPlayed": 12,
-      "wins": 6,
-      "losses": 4,
+      "wins": 7,
+      "losses": 3,
       "ties": 2,
-      "points": 14
+      "points": 16
+    },
+    {
+      "position": 4,
+      "teamId": 8159903,
+      "teamName": "8. Gold Diggerz (JT N.)",
+      "gamesPlayed": 12,
+      "wins": 8,
+      "losses": 4,
+      "ties": 0,
+      "points": 16
     },
     {
       "position": 5,
       "teamId": 8164493,
       "teamName": "1. Gold Star for Effort (Merilyn V.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 3,
-      "losses": 3,
+      "losses": 4,
       "ties": 4,
       "points": 10
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8148877,
       "teamName": "7. Can You Dig It? (Marc S.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 3,
-      "losses": 5,
+      "losses": 6,
       "ties": 2,
       "points": 8
     },

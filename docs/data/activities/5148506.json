@@ -702,6 +702,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077488,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8148916,
+          "teamName": "8. Team Jacob (Mark J.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077490,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8150950,
+          "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163816,
+          "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

@@ -1098,6 +1098,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095487,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8167138,
+          "teamName": "3. Feeling Setsy (Corey M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8147602,
+          "teamName": "8. Unprotected Sets (Catalina P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095488,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8138261,
+          "teamName": "2. Bump, Set, Dammit! (Michael G.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8150563,
+          "teamName": "7. The Thurmanators (David Z.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14095489,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8142399,
+          "teamName": "1. Beach Please (Annie L.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8171848,
+          "teamName": "9. Get diggy wit it (Rudy G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095490,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8167138,
+          "teamName": "3. Feeling Setsy (Corey M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8150563,
+          "teamName": "7. The Thurmanators (David Z.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095491,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8138261,
+          "teamName": "2. Bump, Set, Dammit! (Michael G.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8171848,
+          "teamName": "9. Get diggy wit it (Rudy G.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095492,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8142399,
+          "teamName": "1. Beach Please (Annie L.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8147602,
+          "teamName": "8. Unprotected Sets (Catalina P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
