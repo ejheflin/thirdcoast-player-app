@@ -64,16 +64,26 @@
     },
     {
       "position": 7,
-      "teamId": 8137762,
-      "teamName": "4. Notorious DIG (Connor D.)",
-      "gamesPlayed": 9,
+      "teamId": 8148907,
+      "teamName": "11. What Court Are We On (Bear S.)",
+      "gamesPlayed": 10,
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "ties": 5,
       "points": 11
     },
     {
       "position": 8,
+      "teamId": 8137762,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "gamesPlayed": 10,
+      "wins": 3,
+      "losses": 2,
+      "ties": 5,
+      "points": 11
+    },
+    {
+      "position": 9,
       "teamId": 8150563,
       "teamName": "7. The Thurmanators (David Z.)",
       "gamesPlayed": 12,
@@ -81,16 +91,6 @@
       "losses": 6,
       "ties": 2,
       "points": 10
-    },
-    {
-      "position": 9,
-      "teamId": 8148907,
-      "teamName": "11. What Court Are We On (Bear S.)",
-      "gamesPlayed": 9,
-      "wins": 2,
-      "losses": 2,
-      "ties": 5,
-      "points": 9
     },
     {
       "position": 10,

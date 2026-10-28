@@ -40,12 +40,12 @@
       "courtName": "Court 6",
       "teams": [
         {
-          "teamId": 8124126,
-          "teamName": "6. Molly J. and Phil A."
-        },
-        {
           "teamId": 8157013,
           "teamName": "9. Lauren H. and Clayton B."
+        },
+        {
+          "teamId": 8124126,
+          "teamName": "6. Molly J. and Phil A."
         }
       ]
     },

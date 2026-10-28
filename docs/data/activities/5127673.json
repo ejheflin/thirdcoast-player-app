@@ -1064,6 +1064,24 @@
       ]
     },
     {
+      "activityId": 13946833,
+      "date": "2026-10-07",
+      "teams": [
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8138988,
+          "teamName": "8. Scott S. and Chris H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 13946841,
       "date": "2026-10-14",
       "teams": [
@@ -1262,6 +1280,24 @@
       ]
     },
     {
+      "activityId": 13946838,
+      "date": "2026-10-14",
+      "teams": [
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139578,
+          "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 13946846,
       "date": "2026-10-21",
       "teams": [
@@ -1400,6 +1436,42 @@
         {
           "teamId": 8139578,
           "teamName": "12. Riley W. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946847,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8106388,
+          "teamName": "1. Eric W. and Dan M.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 13946850,
+      "date": "2026-10-21",
+      "teams": [
+        {
+          "teamId": 8129277,
+          "teamName": "5. Blake C. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8135529,
+          "teamName": "6. Ruslan A. and Ryan S.",
           "result": "draw",
           "score": 1
         }

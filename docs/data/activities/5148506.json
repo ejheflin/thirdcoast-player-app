@@ -738,6 +738,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077491,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8159639,
+          "teamName": "5. Vacacioners (Phil M.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077493,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

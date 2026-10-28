@@ -64,6 +64,16 @@
     },
     {
       "position": 7,
+      "teamId": 8148116,
+      "teamName": "5. Shank You Very Much (Jaimie M.)",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 7,
+      "ties": 1,
+      "points": 9
+    },
+    {
+      "position": 8,
       "teamId": 8148877,
       "teamName": "7. Can You Dig It? (Marc S.)",
       "gamesPlayed": 11,
@@ -71,16 +81,6 @@
       "losses": 6,
       "ties": 2,
       "points": 8
-    },
-    {
-      "position": 8,
-      "teamId": 8148116,
-      "teamName": "5. Shank You Very Much (Jaimie M.)",
-      "gamesPlayed": 11,
-      "wins": 3,
-      "losses": 7,
-      "ties": 1,
-      "points": 7
     },
     {
       "position": 9,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8162254,
       "teamName": "4. The Replacements (Joe R.)",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 1,
       "points": 1
     }
