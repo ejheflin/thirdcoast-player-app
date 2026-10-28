@@ -434,26 +434,26 @@
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8163520,
-    "teamName": "6. Bombaclat! (Aatir A.)"
-  },
-  {
-    "programId": 5148506,
-    "programName": "Tuesday Coed 4s A",
     "teamId": 8150721,
     "teamName": "1. Carolina Beach Bumpers (Ashton M.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8150950,
-    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
+    "teamId": 8163533,
+    "teamName": "3. Hustle Gang (Calvin D.)"
   },
   {
     "programId": 5148506,
     "programName": "Tuesday Coed 4s A",
-    "teamId": 8163533,
-    "teamName": "3. Hustle Gang (Calvin D.)"
+    "teamId": 8163520,
+    "teamName": "6. Bombaclat! (Aatir A.)"
+  },
+  {
+    "programId": 5148506,
+    "programName": "Tuesday Coed 4s A",
+    "teamId": 8150950,
+    "teamName": "2. Not Good at Volleyball Puns (Daniel A.)"
   },
   {
     "programId": 5148506,
@@ -476,20 +476,14 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8136555,
-    "teamName": "3. The Empire Spikes Back (Ash C.)"
-  },
-  {
-    "programId": 5148510,
-    "programName": "Tuesday Coed 4s B",
     "teamId": 8159903,
     "teamName": "8. Gold Diggerz (JT N.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8164493,
-    "teamName": "1. Gold Star for Effort (Merilyn V.)"
+    "teamId": 8136555,
+    "teamName": "3. The Empire Spikes Back (Ash C.)"
   },
   {
     "programId": 5148510,
@@ -500,14 +494,20 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8148877,
-    "teamName": "7. Can You Dig It? (Marc S.)"
+    "teamId": 8164493,
+    "teamName": "1. Gold Star for Effort (Merilyn V.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
     "teamId": 8153555,
     "teamName": "2. Big Dig Energy (Chad S.)"
+  },
+  {
+    "programId": 5148510,
+    "programName": "Tuesday Coed 4s B",
+    "teamId": 8148877,
+    "teamName": "7. Can You Dig It? (Marc S.)"
   },
   {
     "programId": 5148510,
@@ -602,6 +602,12 @@
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
+    "teamId": 8137762,
+    "teamName": "4. Notorious DIG (Connor D.)"
+  },
+  {
+    "programId": 5148515,
+    "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8142399,
     "teamName": "1. Beach Please (Annie L.)"
   },
@@ -620,20 +626,14 @@
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8137762,
-    "teamName": "4. Notorious DIG (Connor D.)"
+    "teamId": 8169638,
+    "teamName": "12. Bump Buddies (Mitch L.)"
   },
   {
     "programId": 5148515,
     "programName": "Tuesday Coed 4s Upper Rec",
     "teamId": 8150563,
     "teamName": "7. The Thurmanators (David Z.)"
-  },
-  {
-    "programId": 5148515,
-    "programName": "Tuesday Coed 4s Upper Rec",
-    "teamId": 8169638,
-    "teamName": "12. Bump Buddies (Mitch L.)"
   },
   {
     "programId": 5148515,
@@ -668,20 +668,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8139645,
-    "teamName": "8. Molly J. and Nicole B."
-  },
-  {
-    "programId": 5148518,
-    "programName": "Tuesday Womens 2s A",
     "teamId": 8138562,
     "teamName": "7. Sarah S. and Jo P."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150634,
-    "teamName": "6. Tina O. and Elaine L."
+    "teamId": 8139645,
+    "teamName": "8. Molly J. and Nicole B."
   },
   {
     "programId": 5148518,
@@ -692,20 +686,26 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
+    "teamId": 8150634,
+    "teamName": "6. Tina O. and Elaine L."
+  },
+  {
+    "programId": 5148518,
+    "programName": "Tuesday Womens 2s A",
     "teamId": 8156795,
     "teamName": "9. Liz C. and Madison P."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8167966,
-    "teamName": "10. Kat H. and Julia V."
+    "teamId": 8150898,
+    "teamName": "2. Erika P. and Becca W."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150898,
-    "teamName": "2. Erika P. and Becca W."
+    "teamId": 8167966,
+    "teamName": "10. Kat H. and Julia V."
   },
   {
     "programId": 5127673,

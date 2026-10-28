@@ -1026,6 +1026,78 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14095482,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8137775,
+          "teamName": "5. Sets Pistols (Christina Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159435,
+          "teamName": "10. 50/50 (Oscar G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14095483,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8137762,
+          "teamName": "4. Notorious DIG (Connor D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8169638,
+          "teamName": "12. Bump Buddies (Mitch L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095485,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8137775,
+          "teamName": "5. Sets Pistols (Christina Z.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8169638,
+          "teamName": "12. Bump Buddies (Mitch L.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095486,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8155575,
+          "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159435,
+          "teamName": "10. 50/50 (Oscar G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

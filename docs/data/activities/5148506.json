@@ -380,6 +380,24 @@
       ]
     },
     {
+      "activityId": 14077463,
+      "date": "2026-10-06",
+      "teams": [
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8142715,
+          "teamName": "4. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14077475,
       "date": "2026-10-13",
       "teams": [
@@ -620,6 +638,60 @@
         {
           "teamId": 8150950,
           "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8148916,
+          "teamName": "8. Team Jacob (Mark J.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14077486,
+      "date": "2026-10-20",
+      "teams": [
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8159639,
+          "teamName": "5. Vacacioners (Phil M.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14077487,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8150950,
+          "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14077489,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
           "result": "win",
           "score": 2
         },
