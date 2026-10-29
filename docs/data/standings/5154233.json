@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8148865,
+      "teamName": "4. Jodie N. and Joel G.",
+      "gamesPlayed": 8,
+      "wins": 4,
+      "losses": 2,
+      "ties": 2,
+      "points": 10
+    },
+    {
+      "position": 5,
       "teamId": 8160252,
       "teamName": "7. Kim M. and Travis B.",
       "gamesPlayed": 6,
@@ -41,16 +51,6 @@
       "losses": 1,
       "ties": 1,
       "points": 9
-    },
-    {
-      "position": 5,
-      "teamId": 8148865,
-      "teamName": "4. Jodie N. and Joel G.",
-      "gamesPlayed": 6,
-      "wins": 3,
-      "losses": 2,
-      "ties": 1,
-      "points": 7
     },
     {
       "position": 6,
@@ -76,19 +76,19 @@
       "position": 8,
       "teamId": 8170440,
       "teamName": "8. Jenny S. and Nate G.",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "wins": 0,
       "losses": 2,
-      "ties": 2,
-      "points": 2
+      "ties": 3,
+      "points": 3
     },
     {
       "position": 9,
       "teamId": 8182699,
       "teamName": "9. Vanessa M. and Miguel M.",
-      "gamesPlayed": 6,
+      "gamesPlayed": 7,
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "ties": 1,
       "points": 1
     },

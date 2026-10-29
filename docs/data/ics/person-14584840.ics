@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:13946860-14584840@thirdcoast
-DTSTAMP:20261028T000000Z
-DTSTART:20261028T233000Z
-DTEND:20261029T003000Z
-SUMMARY:Wednesday Mens 2s AA — vs Jason O. and Dominick W.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 1 · Wednesday Mens 2s AA\nteam.html?team=8111500&program
- =5127673
-END:VEVENT
-BEGIN:VEVENT
-UID:13946861-14584840@thirdcoast
-DTSTAMP:20261029T000000Z
-DTSTART:20261029T003000Z
-DTEND:20261029T013000Z
-SUMMARY:Wednesday Mens 2s AA — vs Jacob J. and Jake S.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 6 · Wednesday Mens 2s AA\nteam.html?team=8138298&program
- =5127673
-END:VEVENT
-BEGIN:VEVENT
 UID:14048814-14584840@thirdcoast
 DTSTAMP:20261030T000000Z
 DTSTART:20261030T013000Z
 DTEND:20261030T023000Z
-SUMMARY:Thursday Coed 2s AA — vs Jo P. and Leo Y.
+SUMMARY:vs Jo P. and Leo Y.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Thursday Coed 2s AA\nteam.html?team=8138556&program=
  5143224
@@ -42,7 +22,7 @@ UID:14048816-14584840@thirdcoast
 DTSTAMP:20261030T000000Z
 DTSTART:20261030T023000Z
 DTEND:20261030T033000Z
-SUMMARY:Thursday Coed 2s AA — vs Avery E. and Jon N.
+SUMMARY:vs Avery E. and Jon N.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 7 · Thursday Coed 2s AA\nteam.html?team=8149530&program=
  5143224
@@ -52,7 +32,7 @@ UID:14048823-14584840@thirdcoast
 DTSTAMP:20261106T000000Z
 DTSTART:20261106T023000Z
 DTEND:20261106T033000Z
-SUMMARY:Thursday Coed 2s AA — vs Avery E. and Jon N.
+SUMMARY:vs Avery E. and Jon N.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 7 · Thursday Coed 2s AA\nteam.html?team=8149530&program=
  5143224
@@ -62,7 +42,7 @@ UID:14048825-14584840@thirdcoast
 DTSTAMP:20261106T000000Z
 DTSTART:20261106T033000Z
 DTEND:20261106T043000Z
-SUMMARY:Thursday Coed 2s AA — vs Lauren H. and Clayton B.
+SUMMARY:vs Lauren H. and Clayton B.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 6 · Thursday Coed 2s AA\nteam.html?team=8157013&program=
  5143224

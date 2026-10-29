@@ -576,6 +576,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205736,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8148865,
+          "teamName": "4. Jodie N. and Joel G.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8170440,
+          "teamName": "8. Jenny S. and Nate G.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14205740,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8148865,
+          "teamName": "4. Jodie N. and Joel G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8182699,
+          "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

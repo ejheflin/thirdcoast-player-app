@@ -702,6 +702,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14212028,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8179958,
+          "teamName": "3. Denise H. and Kim S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8191327,
+          "teamName": "6. Annie H. and Jordan W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
