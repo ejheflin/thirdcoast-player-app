@@ -344,6 +344,24 @@
       ]
     },
     {
+      "activityId": 14205711,
+      "date": "2026-10-12",
+      "teams": [
+        {
+          "teamId": 8170440,
+          "teamName": "8. Jenny S. and Nate G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8182699,
+          "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14205721,
       "date": "2026-10-19",
       "teams": [
@@ -506,6 +524,24 @@
       ]
     },
     {
+      "activityId": 14205730,
+      "date": "2026-10-19",
+      "teams": [
+        {
+          "teamId": 8170440,
+          "teamName": "8. Jenny S. and Nate G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14205735,
       "date": "2026-10-26",
       "teams": [
@@ -608,6 +644,24 @@
         {
           "teamId": 8182699,
           "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14205738,
+      "date": "2026-10-26",
+      "teams": [
+        {
+          "teamId": 8171251,
+          "teamName": "6. Ellie B. and Matt G.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8170440,
+          "teamName": "8. Jenny S. and Nate G.",
           "result": "loss",
           "score": 0
         }

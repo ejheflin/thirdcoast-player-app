@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8171251,
+      "teamName": "6. Ellie B. and Matt G.",
+      "gamesPlayed": 8,
+      "wins": 6,
+      "losses": 0,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 2,
       "teamId": 8148465,
       "teamName": "1. Olivia E. and Jason O.",
       "gamesPlayed": 8,
@@ -11,16 +21,6 @@
       "losses": 1,
       "ties": 1,
       "points": 13
-    },
-    {
-      "position": 2,
-      "teamId": 8171251,
-      "teamName": "6. Ellie B. and Matt G.",
-      "gamesPlayed": 7,
-      "wins": 5,
-      "losses": 0,
-      "ties": 2,
-      "points": 12
     },
     {
       "position": 3,
@@ -54,16 +54,26 @@
     },
     {
       "position": 6,
+      "teamId": 8170440,
+      "teamName": "8. Jenny S. and Nate G.",
+      "gamesPlayed": 8,
+      "wins": 2,
+      "losses": 3,
+      "ties": 3,
+      "points": 7
+    },
+    {
+      "position": 7,
       "teamId": 8190694,
       "teamName": "10. Lauren V. and Hector T.",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "wins": 2,
-      "losses": 2,
+      "losses": 3,
       "ties": 1,
       "points": 5
     },
     {
-      "position": 7,
+      "position": 8,
       "teamId": 8159362,
       "teamName": "5. Joann L. and Jacob W.",
       "gamesPlayed": 8,
@@ -73,22 +83,12 @@
       "points": 5
     },
     {
-      "position": 8,
-      "teamId": 8170440,
-      "teamName": "8. Jenny S. and Nate G.",
-      "gamesPlayed": 5,
-      "wins": 0,
-      "losses": 2,
-      "ties": 3,
-      "points": 3
-    },
-    {
       "position": 9,
       "teamId": 8182699,
       "teamName": "9. Vanessa M. and Miguel M.",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 0,
-      "losses": 6,
+      "losses": 7,
       "ties": 1,
       "points": 1
     },
