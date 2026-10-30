@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8124115,
+      "teamName": "7. Tiffany S. and Carson S.",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 2,
+      "ties": 4,
+      "points": 20
+    },
+    {
+      "position": 2,
       "teamId": 8125615,
       "teamName": "1. Olivia J. and Josman R.",
       "gamesPlayed": 12,
@@ -13,7 +23,7 @@
       "points": 19
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8135226,
       "teamName": "9. Ivy C. and Dreco S.",
       "gamesPlayed": 11,
@@ -23,9 +33,9 @@
       "points": 17
     },
     {
-      "position": 3,
-      "teamId": 8124115,
-      "teamName": "7. Tiffany S. and Carson S.",
+      "position": 4,
+      "teamId": 8154115,
+      "teamName": "2. Mili V. and Isa T.",
       "gamesPlayed": 12,
       "wins": 6,
       "losses": 2,
@@ -33,7 +43,7 @@
       "points": 16
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8136865,
       "teamName": "8. Sarah D. and Matt B.",
       "gamesPlayed": 12,
@@ -43,22 +53,12 @@
       "points": 13
     },
     {
-      "position": 5,
-      "teamId": 8154115,
-      "teamName": "2. Mili V. and Isa T.",
-      "gamesPlayed": 10,
-      "wins": 4,
-      "losses": 2,
-      "ties": 4,
-      "points": 12
-    },
-    {
       "position": 6,
       "teamId": 8152486,
       "teamName": "6. Vanessa S. and Rudy D.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 3,
-      "losses": 6,
+      "losses": 7,
       "ties": 3,
       "points": 9
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8137644,
       "teamName": "4. Taylor B. and Luigi H.",
-      "gamesPlayed": 9,
+      "gamesPlayed": 10,
       "wins": 3,
-      "losses": 4,
+      "losses": 5,
       "ties": 2,
       "points": 8
     },
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8161236,
       "teamName": "10. Delaney Z. and Dane R.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 7,
+      "losses": 9,
       "ties": 3,
       "points": 7
     },

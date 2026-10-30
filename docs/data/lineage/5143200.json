@@ -118,11 +118,11 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 6,
+          "position": 4,
           "teamCount": 12,
-          "wins": 7,
+          "wins": 8,
           "losses": 3,
-          "ties": 2
+          "ties": 3
         }
       ]
     },
@@ -315,9 +315,9 @@
           "move": "same",
           "position": 1,
           "teamCount": 12,
-          "wins": 8,
+          "wins": 9,
           "losses": 1,
-          "ties": 3
+          "ties": 4
         }
       ]
     },
@@ -522,11 +522,11 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 4,
+          "position": 6,
           "teamCount": 12,
           "wins": 7,
           "losses": 3,
-          "ties": 2
+          "ties": 3
         }
       ]
     },
@@ -664,7 +664,7 @@
           "position": 11,
           "teamCount": 12,
           "wins": 1,
-          "losses": 7,
+          "losses": 10,
           "ties": 0
         }
       ]
@@ -774,8 +774,8 @@
           "move": "same",
           "position": 2,
           "teamCount": 12,
-          "wins": 8,
-          "losses": 2,
+          "wins": 9,
+          "losses": 3,
           "ties": 2
         }
       ]
@@ -981,11 +981,11 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 5,
+          "position": 3,
           "teamCount": 12,
-          "wins": 6,
+          "wins": 7,
           "losses": 1,
-          "ties": 4
+          "ties": 5
         }
       ]
     },
@@ -1120,11 +1120,11 @@
           "endDate": 1794459600000,
           "level": "B",
           "move": "same",
-          "position": 3,
+          "position": 5,
           "teamCount": 12,
           "wins": 7,
           "losses": 1,
-          "ties": 3
+          "ties": 4
         }
       ]
     },
@@ -1317,7 +1317,7 @@
           "move": "same",
           "position": 7,
           "teamCount": 12,
-          "wins": 5,
+          "wins": 7,
           "losses": 5,
           "ties": 2
         }
@@ -1359,7 +1359,7 @@
           "position": 12,
           "teamCount": 12,
           "wins": 0,
-          "losses": 12,
+          "losses": 13,
           "ties": 0
         }
       ]
@@ -1422,7 +1422,7 @@
           "teamCount": 12,
           "wins": 4,
           "losses": 3,
-          "ties": 4
+          "ties": 5
         }
       ]
     },
@@ -1442,7 +1442,7 @@
           "position": 9,
           "teamCount": 12,
           "wins": 2,
-          "losses": 8,
+          "losses": 9,
           "ties": 1
         }
       ]

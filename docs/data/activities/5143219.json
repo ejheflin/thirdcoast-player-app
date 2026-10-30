@@ -1008,6 +1008,78 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14048624,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048625,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048627,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048629,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
