@@ -1044,6 +1044,60 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048812,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8142462,
+          "teamName": "7. Sarah U. and Kumar R.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048813,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048815,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8146294,
+          "teamName": "1. Ali M. and Andrew B.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139641,
+          "teamName": "10. Viktoriya I. and John S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
