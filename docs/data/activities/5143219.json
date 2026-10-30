@@ -506,6 +506,24 @@
       ]
     },
     {
+      "activityId": 14048591,
+      "date": "2026-10-01",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048596,
       "date": "2026-10-08",
       "teams": [
@@ -848,6 +866,24 @@
       ]
     },
     {
+      "activityId": 14048613,
+      "date": "2026-10-15",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048614,
       "date": "2026-10-22",
       "teams": [
@@ -1132,6 +1168,24 @@
           "teamName": "1. Olivia J. and Josman R.",
           "result": "win",
           "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048626,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8125615,
+          "teamName": "1. Olivia J. and Josman R.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "loss",
+          "score": 0
         }
       ]
     }
