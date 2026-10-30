@@ -1116,6 +1116,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048628,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8125615,
+          "teamName": "1. Olivia J. and Josman R.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }
