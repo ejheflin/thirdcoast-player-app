@@ -76,19 +76,19 @@
       "position": 8,
       "teamId": 8190678,
       "teamName": "10. Free Agent 2",
-      "gamesPlayed": 7,
-      "wins": 0,
+      "gamesPlayed": 8,
+      "wins": 1,
       "losses": 3,
       "ties": 4,
-      "points": 4
+      "points": 6
     },
     {
       "position": 9,
       "teamId": 8173279,
       "teamName": "7. Sandy Cheeks (Mica R.)",
-      "gamesPlayed": 7,
+      "gamesPlayed": 8,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
       "points": 2
     },
