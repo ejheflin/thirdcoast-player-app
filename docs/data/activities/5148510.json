@@ -1008,6 +1008,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095122,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8153555,
+          "teamName": "2. Big Dig Energy (Chad S.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8164233,
+          "teamName": "10. Carpe Digem (Eric H.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
