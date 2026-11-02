@@ -1520,14 +1520,14 @@
         {
           "teamId": 8138298,
           "teamName": "7. Jacob J. and Jake S.",
-          "result": "win",
-          "score": 2
+          "result": "loss",
+          "score": 0
         },
         {
           "teamId": 8122077,
           "teamName": "10. Nate G. and Zach B.",
-          "result": "loss",
-          "score": 0
+          "result": "win",
+          "score": 2
         }
       ]
     },
