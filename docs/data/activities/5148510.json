@@ -1026,6 +1026,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14095121,
+      "date": "2026-10-27",
+      "teams": [
+        {
+          "teamId": 8164493,
+          "teamName": "1. Gold Star for Effort (Merilyn V.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8136555,
+          "teamName": "3. The Empire Spikes Back (Ash C.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

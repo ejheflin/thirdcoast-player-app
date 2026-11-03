@@ -774,6 +774,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212036,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212038,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212039,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

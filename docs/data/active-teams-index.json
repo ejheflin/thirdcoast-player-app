@@ -62,6 +62,12 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8173157,
+    "teamName": "5. Emily R. and Dreco S."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8148910,
     "teamName": "6. Caroline J. and Mark J."
   },
@@ -74,8 +80,8 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8156793,
-    "teamName": "4. Liz C. and Josman R."
+    "teamId": 8152686,
+    "teamName": "2. Sydney Z. and Manny A."
   },
   {
     "programId": 5154234,
@@ -86,20 +92,14 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8152686,
-    "teamName": "2. Sydney Z. and Manny A."
+    "teamId": 8156793,
+    "teamName": "4. Liz C. and Josman R."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
     "teamId": 8173044,
     "teamName": "7. Kaegan W. and Jon N."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8173157,
-    "teamName": "5. Emily R. and Dreco S."
   },
   {
     "programId": 5154234,
@@ -194,14 +194,14 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178846,
-    "teamName": "7. Mili V. and Tiffany S."
+    "teamId": 8178867,
+    "teamName": "4. Fran R. and Kat H."
   },
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178867,
-    "teamName": "4. Fran R. and Kat H."
+    "teamId": 8178846,
+    "teamName": "7. Mili V. and Tiffany S."
   },
   {
     "programId": 5172413,
