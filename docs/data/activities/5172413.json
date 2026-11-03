@@ -828,6 +828,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212032,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8179595,
+          "teamName": "1. Brooke F. and Angel H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212033,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8185977,
+          "teamName": "9. Gabby T. and Mikah M.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

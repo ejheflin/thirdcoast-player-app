@@ -1034,14 +1034,14 @@
         {
           "teamId": 8150634,
           "teamName": "6. Tina O. and Elaine L.",
-          "result": "draw",
-          "score": 1
+          "result": "win",
+          "score": 2
         },
         {
           "teamId": 8156795,
           "teamName": "9. Liz C. and Madison P.",
-          "result": "draw",
-          "score": 1
+          "result": "loss",
+          "score": 0
         }
       ]
     }

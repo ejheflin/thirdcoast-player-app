@@ -1,5 +1,12 @@
 {
   "programId": 5127673,
   "games": [],
-  "tournaments": []
+  "tournaments": [
+    {
+      "activityId": 13959562,
+      "date": "2026-11-04",
+      "time": "18:30",
+      "title": "PLAYOFFS - DOUBLE ELIMINATION"
+    }
+  ]
 }

@@ -49,7 +49,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "draw",
           "score": 1
         }
@@ -85,7 +85,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "loss",
           "score": 0
         }
@@ -211,7 +211,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "loss",
           "score": 0
         }
@@ -301,7 +301,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "draw",
           "score": 1
         }
@@ -499,7 +499,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "draw",
           "score": 1
         }
@@ -517,7 +517,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "loss",
           "score": 0
         }
@@ -571,7 +571,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "draw",
           "score": 1
         }
@@ -715,7 +715,7 @@
         },
         {
           "teamId": 8190678,
-          "teamName": "10. Free Agent 2",
+          "teamName": "10. Free Agents (Jason T.)",
           "result": "win",
           "score": 2
         }
@@ -824,6 +824,42 @@
         {
           "teamId": 8173279,
           "teamName": "7. Sandy Cheeks (Mica R.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14205826,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8181763,
+          "teamName": "1. Gold Diggers (Gabriela C.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8190678,
+          "teamName": "10. Free Agents (Jason T.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14205829,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8190678,
+          "teamName": "10. Free Agents (Jason T.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8160698,
+          "teamName": "6. Settin Pretty (Elizabeth A.)",
           "result": "loss",
           "score": 0
         }

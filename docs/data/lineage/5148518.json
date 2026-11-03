@@ -345,11 +345,11 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 7,
+          "position": 6,
           "teamCount": 10,
-          "wins": 1,
+          "wins": 2,
           "losses": 4,
-          "ties": 7
+          "ties": 6
         }
       ]
     },
@@ -472,8 +472,8 @@
           "position": 8,
           "teamCount": 10,
           "wins": 2,
-          "losses": 4,
-          "ties": 5
+          "losses": 5,
+          "ties": 4
         }
       ]
     },
@@ -594,7 +594,7 @@
           "endDate": 1794891600000,
           "level": "A",
           "move": "same",
-          "position": 6,
+          "position": 7,
           "teamCount": 10,
           "wins": 4,
           "losses": 5,

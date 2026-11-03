@@ -24,23 +24,23 @@
     },
     {
       "position": 3,
-      "teamId": 8185977,
-      "teamName": "9. Gabby T. and Mikah M.",
-      "gamesPlayed": 9,
+      "teamId": 8179406,
+      "teamName": "5. Doria O. and Anna S.",
+      "gamesPlayed": 10,
       "wins": 5,
-      "losses": 2,
-      "ties": 2,
-      "points": 12
+      "losses": 1,
+      "ties": 4,
+      "points": 14
     },
     {
       "position": 4,
-      "teamId": 8179406,
-      "teamName": "5. Doria O. and Anna S.",
-      "gamesPlayed": 8,
-      "wins": 4,
-      "losses": 1,
+      "teamId": 8185977,
+      "teamName": "9. Gabby T. and Mikah M.",
+      "gamesPlayed": 10,
+      "wins": 5,
+      "losses": 2,
       "ties": 3,
-      "points": 11
+      "points": 13
     },
     {
       "position": 5,
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8179595,
       "teamName": "1. Brooke F. and Angel H.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 3,
       "points": 7
     },

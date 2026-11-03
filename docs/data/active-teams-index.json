@@ -140,6 +140,12 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
+    "teamId": 8190678,
+    "teamName": "10. Free Agents (Jason T.)"
+  },
+  {
+    "programId": 5154231,
+    "programName": "Monday Coed 3s B",
     "teamId": 8175870,
     "teamName": "4. No Faith (Donald P.)"
   },
@@ -148,12 +154,6 @@
     "programName": "Monday Coed 3s B",
     "teamId": 8160698,
     "teamName": "6. Settin Pretty (Elizabeth A.)"
-  },
-  {
-    "programId": 5154231,
-    "programName": "Monday Coed 3s B",
-    "teamId": 8190678,
-    "teamName": "10. Free Agent 2"
   },
   {
     "programId": 5154231,
@@ -182,14 +182,14 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8185977,
-    "teamName": "9. Gabby T. and Mikah M."
+    "teamId": 8179406,
+    "teamName": "5. Doria O. and Anna S."
   },
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8179406,
-    "teamName": "5. Doria O. and Anna S."
+    "teamId": 8185977,
+    "teamName": "9. Gabby T. and Mikah M."
   },
   {
     "programId": 5172413,
@@ -680,14 +680,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8161616,
-    "teamName": "5. Juliana T. and Lauren W."
+    "teamId": 8150634,
+    "teamName": "6. Tina O. and Elaine L."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150634,
-    "teamName": "6. Tina O. and Elaine L."
+    "teamId": 8161616,
+    "teamName": "5. Juliana T. and Lauren W."
   },
   {
     "programId": 5148518,

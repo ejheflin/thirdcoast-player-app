@@ -810,6 +810,24 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14205742,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8148865,
+          "teamName": "4. Jodie N. and Joel G.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8171251,
+          "teamName": "6. Ellie B. and Matt G.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
