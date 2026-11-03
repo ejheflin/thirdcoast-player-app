@@ -720,6 +720,60 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14212030,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8179958,
+          "teamName": "3. Denise H. and Kim S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8185977,
+          "teamName": "9. Gabby T. and Mikah M.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212035,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8179958,
+          "teamName": "3. Denise H. and Kim S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212037,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

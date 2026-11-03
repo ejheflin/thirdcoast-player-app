@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 6,
       "losses": 0,
-      "ties": 2,
-      "points": 14
+      "ties": 3,
+      "points": 15
     },
     {
       "position": 2,
@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8185977,
+      "teamName": "9. Gabby T. and Mikah M.",
+      "gamesPlayed": 9,
+      "wins": 5,
+      "losses": 2,
+      "ties": 2,
+      "points": 12
+    },
+    {
+      "position": 4,
       "teamId": 8179406,
       "teamName": "5. Doria O. and Anna S.",
       "gamesPlayed": 8,
@@ -33,29 +43,19 @@
       "points": 11
     },
     {
-      "position": 4,
-      "teamId": 8185977,
-      "teamName": "9. Gabby T. and Mikah M.",
-      "gamesPlayed": 8,
-      "wins": 4,
-      "losses": 2,
-      "ties": 2,
-      "points": 10
-    },
-    {
       "position": 5,
-      "teamId": 8178867,
-      "teamName": "4. Fran R. and Kat H.",
-      "gamesPlayed": 8,
-      "wins": 2,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "gamesPlayed": 9,
+      "wins": 3,
       "losses": 3,
       "ties": 3,
-      "points": 7
+      "points": 9
     },
     {
       "position": 6,
-      "teamId": 8178846,
-      "teamName": "7. Mili V. and Tiffany S.",
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
       "gamesPlayed": 8,
       "wins": 2,
       "losses": 3,
@@ -86,19 +86,19 @@
       "position": 9,
       "teamId": 8179958,
       "teamName": "3. Denise H. and Kim S.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 10,
       "wins": 1,
-      "losses": 5,
-      "ties": 2,
-      "points": 4
+      "losses": 6,
+      "ties": 3,
+      "points": 5
     },
     {
       "position": 10,
       "teamId": 8186968,
       "teamName": "2. Annie J. and Anna C.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "ties": 1,
       "points": 1
     }

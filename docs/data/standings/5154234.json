@@ -6,30 +6,30 @@
       "position": 1,
       "teamId": 8148910,
       "teamName": "6. Caroline J. and Mark J.",
-      "gamesPlayed": 8,
+      "gamesPlayed": 9,
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "ties": 3,
       "points": 11
     },
     {
       "position": 2,
-      "teamId": 8156793,
-      "teamName": "4. Liz C. and Josman R.",
-      "gamesPlayed": 6,
-      "wins": 2,
+      "teamId": 8153805,
+      "teamName": "1. Sarah U. and Logan C.",
+      "gamesPlayed": 9,
+      "wins": 3,
       "losses": 2,
-      "ties": 2,
-      "points": 6
+      "ties": 4,
+      "points": 10
     },
     {
       "position": 3,
-      "teamId": 8153805,
-      "teamName": "1. Sarah U. and Logan C.",
+      "teamId": 8156793,
+      "teamName": "4. Liz C. and Josman R.",
       "gamesPlayed": 7,
-      "wins": 1,
-      "losses": 2,
-      "ties": 4,
+      "wins": 2,
+      "losses": 3,
+      "ties": 2,
       "points": 6
     },
     {
