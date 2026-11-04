@@ -8,33 +8,13 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14095132-21231646@thirdcoast
-DTSTAMP:20261104T000000Z
-DTSTART:20261104T023000Z
-DTEND:20261104T033000Z
-SUMMARY:Tuesday Coed 4s B — vs The Replacements
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 1 · Tuesday Coed 4s B\nteam.html?team=8162254&program=51
- 48510
-END:VEVENT
-BEGIN:VEVENT
-UID:14095134-21231646@thirdcoast
-DTSTAMP:20261104T000000Z
-DTSTART:20261104T033000Z
-DTEND:20261104T043000Z
-SUMMARY:Tuesday Coed 4s B — vs Gold Diggerz
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Tuesday Coed 4s B\nteam.html?team=8159903&program=51
- 48510
-END:VEVENT
-BEGIN:VEVENT
 UID:14205837-21231646@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T003000Z
 DTEND:20261110T013000Z
 SUMMARY:Monday Coed 3s B — vs Third Wheel Energy
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 10 · Monday Coed 3s B\nteam.html?team=8179731&program=51
+DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8179731&program=51
  54231
 END:VEVENT
 BEGIN:VEVENT
@@ -44,7 +24,7 @@ DTSTART:20261110T013000Z
 DTEND:20261110T023000Z
 SUMMARY:Monday Coed 3s B — vs No Faith
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 10 · Monday Coed 3s B\nteam.html?team=8175870&program=51
+DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8175870&program=51
  54231
 END:VEVENT
 BEGIN:VEVENT
@@ -74,7 +54,7 @@ DTSTART:20261117T003000Z
 DTEND:20261117T013000Z
 SUMMARY:Monday Coed 3s B — vs Tri-Angels
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 10 · Monday Coed 3s B\nteam.html?team=8172362&program=51
+DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8172362&program=51
  54231
 END:VEVENT
 BEGIN:VEVENT
@@ -84,8 +64,8 @@ DTSTART:20261117T013000Z
 DTEND:20261117T023000Z
 SUMMARY:Monday Coed 3s B — vs Settin Pretty
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8160698&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8160698&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205860-21231646@thirdcoast
@@ -94,8 +74,8 @@ DTSTART:20261124T023000Z
 DTEND:20261124T033000Z
 SUMMARY:Monday Coed 3s B — vs Gold Diggers
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8181763&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8181763&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205863-21231646@thirdcoast
@@ -104,7 +84,7 @@ DTSTART:20261124T033000Z
 DTEND:20261124T043000Z
 SUMMARY:Monday Coed 3s B — vs Respect Your Elders
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8158925&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8158925&program=51
+ 54231
 END:VEVENT
 END:VCALENDAR

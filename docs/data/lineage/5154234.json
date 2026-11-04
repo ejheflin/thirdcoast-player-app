@@ -76,10 +76,10 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": "up",
-          "position": 2,
+          "position": 3,
           "teamCount": 8,
           "wins": 4,
-          "losses": 2,
+          "losses": 3,
           "ties": 3
         }
       ]
@@ -215,7 +215,7 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": "same",
-          "position": 4,
+          "position": 5,
           "teamCount": 8,
           "wins": 2,
           "losses": 2,
@@ -236,10 +236,10 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": null,
-          "position": 3,
+          "position": 4,
           "teamCount": 8,
           "wins": 3,
-          "losses": 2,
+          "losses": 3,
           "ties": 4
         }
       ]
@@ -473,10 +473,10 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": "same",
-          "position": 6,
+          "position": 7,
           "teamCount": 8,
           "wins": 2,
-          "losses": 4,
+          "losses": 5,
           "ties": 2
         }
       ]
@@ -602,7 +602,7 @@
           "teamCount": 8,
           "wins": 1,
           "losses": 5,
-          "ties": 3
+          "ties": 4
         }
       ]
     },
@@ -639,7 +639,7 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": "up",
-          "position": 5,
+          "position": 6,
           "teamCount": 8,
           "wins": 1,
           "losses": 4,
@@ -736,11 +736,11 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": "same",
-          "position": 7,
+          "position": 1,
           "teamCount": 8,
-          "wins": 1,
+          "wins": 5,
           "losses": 0,
-          "ties": 3
+          "ties": 4
         }
       ]
     },
@@ -757,10 +757,10 @@
           "endDate": 1796014800000,
           "level": "BB",
           "move": null,
-          "position": 1,
+          "position": 2,
           "teamCount": 8,
           "wins": 5,
-          "losses": 0,
+          "losses": 1,
           "ties": 3
         }
       ]

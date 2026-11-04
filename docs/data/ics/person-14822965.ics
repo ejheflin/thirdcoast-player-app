@@ -34,8 +34,8 @@ DTSTART:20261110T023000Z
 DTEND:20261110T033000Z
 SUMMARY:Monday Coed 3s B — vs Sandy Cheeks
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8173279&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8173279&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205843-14822965@thirdcoast
@@ -44,8 +44,8 @@ DTSTART:20261110T033000Z
 DTEND:20261110T043000Z
 SUMMARY:Monday Coed 3s B — vs Gold Diggers
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8181763&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8181763&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205846-14822965@thirdcoast
@@ -54,8 +54,8 @@ DTSTART:20261117T003000Z
 DTEND:20261117T013000Z
 SUMMARY:Monday Coed 3s B — vs Volley Llamas
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8153216&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8153216&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205848-14822965@thirdcoast
@@ -64,8 +64,8 @@ DTSTART:20261117T013000Z
 DTEND:20261117T023000Z
 SUMMARY:Monday Coed 3s B — vs May the Spike Be With You
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8148416&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8148416&program=51
+ 54231
 END:VEVENT
 BEGIN:VEVENT
 UID:14205857-14822965@thirdcoast
@@ -74,7 +74,7 @@ DTSTART:20261124T003000Z
 DTEND:20261124T013000Z
 SUMMARY:Monday Coed 3s B — vs Sandy Cheeks
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 10 · Monday Coed 3s B\nteam.html?team=8173279&program=51
+DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8173279&program=51
  54231
 END:VEVENT
 BEGIN:VEVENT
@@ -84,7 +84,7 @@ DTSTART:20261124T013000Z
 DTEND:20261124T023000Z
 SUMMARY:Monday Coed 3s B — vs Free Agents
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 9 · Monday Coed 3s B\nteam.html?team=8190678&program=515
- 4231
+DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8190678&program=51
+ 54231
 END:VEVENT
 END:VCALENDAR

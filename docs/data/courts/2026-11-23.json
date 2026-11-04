@@ -117,8 +117,8 @@
           ]
         },
         {
-          "court": 9,
-          "courtName": "Court 9",
+          "court": 11,
+          "courtName": "Court 11",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -133,8 +133,8 @@
           ]
         },
         {
-          "court": 10,
-          "courtName": "Court 10",
+          "court": 12,
+          "courtName": "Court 12",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -266,8 +266,8 @@
           ]
         },
         {
-          "court": 9,
-          "courtName": "Court 9",
+          "court": 11,
+          "courtName": "Court 11",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -282,8 +282,8 @@
           ]
         },
         {
-          "court": 10,
-          "courtName": "Court 10",
+          "court": 12,
+          "courtName": "Court 12",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -415,8 +415,24 @@
           ]
         },
         {
-          "court": 9,
-          "courtName": "Court 9",
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8153216,
+              "teamName": "2. Volley Llamas (Jamie D.)"
+            },
+            {
+              "teamId": 8175870,
+              "teamName": "4. No Faith (Donald P.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -431,8 +447,8 @@
           ]
         },
         {
-          "court": 10,
-          "courtName": "Court 10",
+          "court": 12,
+          "courtName": "Court 12",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -443,22 +459,6 @@
             {
               "teamId": 8179731,
               "teamName": "8. Third Wheel Energy (Isa T.)"
-            }
-          ]
-        },
-        {
-          "court": 11,
-          "courtName": "Court 11",
-          "programId": 5154231,
-          "programName": "Monday Coed 3s B",
-          "teams": [
-            {
-              "teamId": 8153216,
-              "teamName": "2. Volley Llamas (Jamie D.)"
-            },
-            {
-              "teamId": 8175870,
-              "teamName": "4. No Faith (Donald P.)"
             }
           ]
         }
@@ -580,8 +580,24 @@
           ]
         },
         {
-          "court": 9,
-          "courtName": "Court 9",
+          "court": 10,
+          "courtName": "Court 10",
+          "programId": 5154231,
+          "programName": "Monday Coed 3s B",
+          "teams": [
+            {
+              "teamId": 8175870,
+              "teamName": "4. No Faith (Donald P.)"
+            },
+            {
+              "teamId": 8179731,
+              "teamName": "8. Third Wheel Energy (Isa T.)"
+            }
+          ]
+        },
+        {
+          "court": 11,
+          "courtName": "Court 11",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -596,8 +612,8 @@
           ]
         },
         {
-          "court": 10,
-          "courtName": "Court 10",
+          "court": 12,
+          "courtName": "Court 12",
           "programId": 5154231,
           "programName": "Monday Coed 3s B",
           "teams": [
@@ -608,22 +624,6 @@
             {
               "teamId": 8153216,
               "teamName": "2. Volley Llamas (Jamie D.)"
-            }
-          ]
-        },
-        {
-          "court": 11,
-          "courtName": "Court 11",
-          "programId": 5154231,
-          "programName": "Monday Coed 3s B",
-          "teams": [
-            {
-              "teamId": 8175870,
-              "teamName": "4. No Faith (Donald P.)"
-            },
-            {
-              "teamId": 8179731,
-              "teamName": "8. Third Wheel Energy (Isa T.)"
             }
           ]
         }
