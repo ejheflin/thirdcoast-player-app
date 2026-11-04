@@ -6,19 +6,19 @@
       "position": 1,
       "teamId": 8148743,
       "teamName": "1. Olivia J. and Emily S.",
-      "gamesPlayed": 12,
-      "wins": 9,
+      "gamesPlayed": 14,
+      "wins": 11,
       "losses": 0,
       "ties": 3,
-      "points": 21
+      "points": 25
     },
     {
       "position": 2,
       "teamId": 8150354,
       "teamName": "4. Yanni S. and Ali. M.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 9,
-      "losses": 1,
+      "losses": 2,
       "ties": 3,
       "points": 21
     },
@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8150634,
       "teamName": "6. Tina O. and Elaine L.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 5,
+      "losses": 6,
       "ties": 6,
       "points": 11
     },

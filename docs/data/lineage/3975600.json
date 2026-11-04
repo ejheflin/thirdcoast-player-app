@@ -86,13 +86,13 @@
       ]
     },
     "6463022": {
-      "seasons": 3,
+      "seasons": 2,
       "move": null,
       "from": {
-        "programId": 3909679,
-        "teamId": 6392893,
-        "programName": "Thursday Coed 4s B",
-        "teamName": "9. Blue Balls (Alexis B.)",
+        "programId": 3719727,
+        "teamId": 6136728,
+        "programName": "Thursday Coed 4s B (formerly Intermediate)",
+        "teamName": "4. Blue Balls (Alex L.)",
         "level": "B"
       },
       "history": [
@@ -109,20 +109,6 @@
           "wins": 12,
           "losses": 0,
           "ties": 4
-        },
-        {
-          "programId": 3909679,
-          "teamId": 6392893,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "9. Blue Balls (Alexis B.)",
-          "endDate": 1689825600000,
-          "level": "B",
-          "move": "same",
-          "position": 1,
-          "teamCount": 12,
-          "wins": 13,
-          "losses": 0,
-          "ties": 3
         },
         {
           "programId": 3975600,

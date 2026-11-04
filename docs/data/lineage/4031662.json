@@ -814,7 +814,7 @@
       ]
     },
     "6553478": {
-      "seasons": 4,
+      "seasons": 3,
       "move": "down",
       "from": {
         "programId": 3981247,
@@ -837,20 +837,6 @@
           "wins": 12,
           "losses": 0,
           "ties": 4
-        },
-        {
-          "programId": 3909679,
-          "teamId": 6392893,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "9. Blue Balls (Alexis B.)",
-          "endDate": 1689825600000,
-          "level": "B",
-          "move": "same",
-          "position": 1,
-          "teamCount": 12,
-          "wins": 13,
-          "losses": 0,
-          "ties": 3
         },
         {
           "programId": 3981247,

@@ -64,22 +64,22 @@
     },
     {
       "position": 7,
-      "teamId": 8175870,
-      "teamName": "4. No Faith (Donald P.)",
-      "gamesPlayed": 8,
+      "teamId": 8160698,
+      "teamName": "6. Settin Pretty (Elizabeth A.)",
+      "gamesPlayed": 10,
       "wins": 2,
       "losses": 3,
-      "ties": 3,
-      "points": 7
+      "ties": 5,
+      "points": 9
     },
     {
       "position": 8,
-      "teamId": 8160698,
-      "teamName": "6. Settin Pretty (Elizabeth A.)",
+      "teamId": 8175870,
+      "teamName": "4. No Faith (Donald P.)",
       "gamesPlayed": 9,
-      "wins": 1,
-      "losses": 3,
-      "ties": 5,
+      "wins": 2,
+      "losses": 4,
+      "ties": 3,
       "points": 7
     },
     {

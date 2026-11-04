@@ -250,13 +250,13 @@
       ]
     },
     "6456460": {
-      "seasons": 3,
+      "seasons": 2,
       "move": null,
       "from": {
-        "programId": 3909679,
-        "teamId": 6393254,
-        "programName": "Thursday Coed 4s B",
-        "teamName": "11. Team Tika (Heather F.)",
+        "programId": 3719727,
+        "teamId": 6158631,
+        "programName": "Thursday Coed 4s B (formerly Intermediate)",
+        "teamName": "9. Team Tika (Heather F.)",
         "level": "B"
       },
       "history": [
@@ -273,20 +273,6 @@
           "wins": 0,
           "losses": 9,
           "ties": 2
-        },
-        {
-          "programId": 3909679,
-          "teamId": 6393254,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "11. Team Tika (Heather F.)",
-          "endDate": 1689825600000,
-          "level": "B",
-          "move": "same",
-          "position": 7,
-          "teamCount": 12,
-          "wins": 3,
-          "losses": 6,
-          "ties": 7
         },
         {
           "programId": 3957842,

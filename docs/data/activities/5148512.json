@@ -954,6 +954,42 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14095024,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095026,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8151238,
+          "teamName": "2. Score Check (Julianna T.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8160228,
+          "teamName": "3. 3 OGs and Bae (Johnny W.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
