@@ -6,40 +6,40 @@
       "position": 1,
       "teamId": 8135728,
       "teamName": "6. Volley Llamas (Daphne D.)",
-      "gamesPlayed": 12,
-      "wins": 11,
+      "gamesPlayed": 13,
+      "wins": 12,
       "losses": 0,
       "ties": 1,
-      "points": 23
+      "points": 25
     },
     {
       "position": 2,
       "teamId": 8136555,
       "teamName": "3. The Empire Spikes Back (Ash C.)",
-      "gamesPlayed": 12,
-      "wins": 7,
+      "gamesPlayed": 14,
+      "wins": 9,
       "losses": 2,
       "ties": 3,
-      "points": 17
+      "points": 21
     },
     {
       "position": 3,
+      "teamId": 8159903,
+      "teamName": "8. Gold Diggerz (JT N.)",
+      "gamesPlayed": 14,
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "points": 18
+    },
+    {
+      "position": 4,
       "teamId": 8146380,
       "teamName": "9. Holy Balls (Jacob Y.)",
       "gamesPlayed": 12,
       "wins": 7,
       "losses": 3,
       "ties": 2,
-      "points": 16
-    },
-    {
-      "position": 4,
-      "teamId": 8159903,
-      "teamName": "8. Gold Diggerz (JT N.)",
-      "gamesPlayed": 12,
-      "wins": 8,
-      "losses": 4,
-      "ties": 0,
       "points": 16
     },
     {
@@ -56,19 +56,19 @@
       "position": 6,
       "teamId": 8153555,
       "teamName": "2. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 11,
-      "wins": 2,
-      "losses": 3,
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 4,
       "ties": 6,
-      "points": 10
+      "points": 12
     },
     {
       "position": 7,
       "teamId": 8148116,
       "teamName": "5. Shank You Very Much (Jaimie M.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 4,
-      "losses": 7,
+      "losses": 8,
       "ties": 1,
       "points": 9
     },
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8164233,
       "teamName": "10. Carpe Digem (Eric H.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 2,
       "points": 4
     },
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8162254,
       "teamName": "4. The Replacements (Joe R.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 1,
       "points": 1
     }

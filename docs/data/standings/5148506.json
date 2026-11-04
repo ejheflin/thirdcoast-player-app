@@ -6,81 +6,81 @@
       "position": 1,
       "teamId": 8163816,
       "teamName": "7. Holy Blockamole Infinity (Bryan M.)",
-      "gamesPlayed": 12,
-      "wins": 8,
+      "gamesPlayed": 14,
+      "wins": 9,
       "losses": 0,
-      "ties": 4,
-      "points": 20
+      "ties": 5,
+      "points": 23
     },
     {
       "position": 2,
       "teamId": 8148916,
       "teamName": "8. Team Jacob (Mark J.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 6,
       "losses": 3,
-      "ties": 3,
-      "points": 15
+      "ties": 5,
+      "points": 17
     },
     {
       "position": 3,
       "teamId": 8163533,
       "teamName": "3. Hustle Gang (Calvin D.)",
-      "gamesPlayed": 11,
-      "wins": 5,
+      "gamesPlayed": 14,
+      "wins": 7,
       "losses": 5,
-      "ties": 1,
-      "points": 11
+      "ties": 2,
+      "points": 16
     },
     {
       "position": 4,
       "teamId": 8150721,
       "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
-      "gamesPlayed": 12,
-      "wins": 5,
-      "losses": 6,
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 7,
       "ties": 1,
-      "points": 11
+      "points": 13
     },
     {
       "position": 5,
       "teamId": 8163520,
       "teamName": "6. Bombaclat! (Aatir A.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 4,
       "losses": 5,
-      "ties": 3,
-      "points": 11
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 6,
       "teamId": 8150950,
       "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 12,
       "wins": 3,
-      "losses": 6,
-      "ties": 1,
-      "points": 7
+      "losses": 7,
+      "ties": 2,
+      "points": 8
     },
     {
       "position": 7,
-      "teamId": 8142715,
-      "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 9,
+      "teamId": 8159639,
+      "teamName": "5. Vacacioners (Phil M.)",
+      "gamesPlayed": 10,
       "wins": 2,
       "losses": 5,
-      "ties": 2,
-      "points": 6
+      "ties": 3,
+      "points": 7
     },
     {
       "position": 8,
-      "teamId": 8159639,
-      "teamName": "5. Vacacioners (Phil M.)",
-      "gamesPlayed": 8,
+      "teamId": 8142715,
+      "teamName": "4. Toodles (Michael L.)",
+      "gamesPlayed": 12,
       "wins": 2,
-      "losses": 5,
-      "ties": 1,
-      "points": 5
+      "losses": 7,
+      "ties": 3,
+      "points": 7
     }
   ]
 }

@@ -1044,6 +1044,132 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14077734,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8150898,
+          "teamName": "2. Erika P. and Becca W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8150354,
+          "teamName": "4. Yanni S. and Ali. M.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077735,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8167966,
+          "teamName": "10. Kat H. and Julia V.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14077737,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8150634,
+          "teamName": "6. Tina O. and Elaine L.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8138562,
+          "teamName": "7. Sarah S. and Jo P.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077739,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8150898,
+          "teamName": "2. Erika P. and Becca W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8167966,
+          "teamName": "10. Kat H. and Julia V.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14077740,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8139645,
+          "teamName": "8. Molly J. and Nicole B.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077741,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Brittney G. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8156795,
+          "teamName": "9. Liz C. and Madison P.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14077742,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8143348,
+          "teamName": "3. Brittney G. and Lindsay K.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161616,
+          "teamName": "5. Juliana T. and Lauren W.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }

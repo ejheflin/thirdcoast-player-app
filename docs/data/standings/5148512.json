@@ -6,59 +6,59 @@
       "position": 1,
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 10,
       "losses": 0,
-      "ties": 2,
-      "points": 22
+      "ties": 4,
+      "points": 24
     },
     {
       "position": 2,
       "teamId": 8159128,
       "teamName": "6. Twin Peaks (Dan F.)",
-      "gamesPlayed": 12,
-      "wins": 8,
+      "gamesPlayed": 14,
+      "wins": 9,
       "losses": 2,
-      "ties": 2,
-      "points": 18
+      "ties": 3,
+      "points": 21
     },
     {
       "position": 3,
       "teamId": 8151238,
       "teamName": "2. Score Check (Julianna T.)",
-      "gamesPlayed": 11,
-      "wins": 8,
+      "gamesPlayed": 12,
+      "wins": 9,
       "losses": 2,
       "ties": 1,
-      "points": 17
+      "points": 19
     },
     {
       "position": 4,
       "teamId": 8159110,
       "teamName": "5. Watermelon (Lauren K.)",
-      "gamesPlayed": 12,
-      "wins": 3,
+      "gamesPlayed": 14,
+      "wins": 5,
       "losses": 5,
       "ties": 4,
-      "points": 10
+      "points": 14
     },
     {
       "position": 5,
-      "teamId": 8160228,
-      "teamName": "3. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 11,
+      "teamId": 8148853,
+      "teamName": "1. Beach Bunnies (Jimmy R.)",
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 5,
-      "ties": 4,
-      "points": 8
+      "losses": 6,
+      "ties": 6,
+      "points": 10
     },
     {
       "position": 6,
-      "teamId": 8148853,
-      "teamName": "1. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 11,
+      "teamId": 8160228,
+      "teamName": "3. 3 OGs and Bae (Johnny W.)",
+      "gamesPlayed": 12,
       "wins": 2,
-      "losses": 5,
+      "losses": 6,
       "ties": 4,
       "points": 8
     },
@@ -66,19 +66,19 @@
       "position": 7,
       "teamId": 8137254,
       "teamName": "4. Milk (Sean M.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 1,
-      "losses": 7,
-      "ties": 4,
-      "points": 6
+      "losses": 8,
+      "ties": 5,
+      "points": 7
     },
     {
       "position": 8,
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 0,
-      "losses": 8,
+      "losses": 9,
       "ties": 3,
       "points": 3
     }

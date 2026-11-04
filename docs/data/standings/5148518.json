@@ -16,49 +16,49 @@
       "position": 2,
       "teamId": 8150354,
       "teamName": "4. Yanni S. and Ali. M.",
-      "gamesPlayed": 12,
-      "wins": 8,
+      "gamesPlayed": 13,
+      "wins": 9,
       "losses": 1,
       "ties": 3,
-      "points": 19
+      "points": 21
     },
     {
       "position": 3,
-      "teamId": 8143348,
-      "teamName": "3. Brittney G. and Lindsay K.",
-      "gamesPlayed": 12,
-      "wins": 3,
+      "teamId": 8138562,
+      "teamName": "7. Sarah S. and Jo P.",
+      "gamesPlayed": 14,
+      "wins": 5,
       "losses": 3,
       "ties": 6,
-      "points": 12
+      "points": 16
     },
     {
       "position": 4,
-      "teamId": 8138562,
-      "teamName": "7. Sarah S. and Jo P.",
-      "gamesPlayed": 12,
-      "wins": 3,
+      "teamId": 8143348,
+      "teamName": "3. Brittney G. and Lindsay K.",
+      "gamesPlayed": 14,
+      "wins": 5,
       "losses": 3,
       "ties": 6,
-      "points": 12
+      "points": 16
     },
     {
       "position": 5,
       "teamId": 8139645,
       "teamName": "8. Molly J. and Nicole B.",
-      "gamesPlayed": 11,
-      "wins": 2,
+      "gamesPlayed": 12,
+      "wins": 3,
       "losses": 2,
       "ties": 7,
-      "points": 11
+      "points": 13
     },
     {
       "position": 6,
       "teamId": 8150634,
       "teamName": "6. Tina O. and Elaine L.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 2,
-      "losses": 4,
+      "losses": 5,
       "ties": 6,
       "points": 11
     },
@@ -66,9 +66,9 @@
       "position": 7,
       "teamId": 8161616,
       "teamName": "5. Juliana T. and Lauren W.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 13,
       "wins": 4,
-      "losses": 5,
+      "losses": 7,
       "ties": 2,
       "points": 10
     },
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8156795,
       "teamName": "9. Liz C. and Madison P.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 2,
-      "losses": 5,
+      "losses": 6,
       "ties": 4,
       "points": 8
     },
@@ -86,21 +86,21 @@
       "position": 9,
       "teamId": 8150898,
       "teamName": "2. Erika P. and Becca W.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 1,
-      "losses": 6,
-      "ties": 5,
-      "points": 7
+      "losses": 7,
+      "ties": 6,
+      "points": 8
     },
     {
       "position": 10,
       "teamId": 8167966,
       "teamName": "10. Kat H. and Julia V.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 13,
       "wins": 1,
-      "losses": 6,
-      "ties": 4,
-      "points": 6
+      "losses": 7,
+      "ties": 5,
+      "points": 7
     }
   ]
 }
