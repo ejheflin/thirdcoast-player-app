@@ -864,6 +864,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14212034,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8179595,
+          "teamName": "1. Brooke F. and Angel H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8191327,
+          "teamName": "6. Annie H. and Jordan W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
