@@ -1046,6 +1046,24 @@
       ]
     },
     {
+      "activityId": 14048617,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14048624,
       "date": "2026-10-29",
       "teams": [
@@ -1186,6 +1204,114 @@
           "teamName": "6. Vanessa S. and Rudy D.",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048632,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048636,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048639,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136865,
+          "teamName": "8. Sarah D. and Matt B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048640,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048642,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8146244,
+          "teamName": "5. Tina O. and Aatir A.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8161236,
+          "teamName": "10. Delaney Z. and Dane R.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048643,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8152486,
+          "teamName": "6. Vanessa S. and Rudy D.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8124115,
+          "teamName": "7. Tiffany S. and Carson S.",
+          "result": "win",
+          "score": 2
         }
       ]
     }

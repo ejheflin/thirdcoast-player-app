@@ -1404,6 +1404,150 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14048437,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048441,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048442,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048443,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048444,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8127097,
+          "teamName": "1. Crab (Collin W.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8152314,
+          "teamName": "7. Patty 4 the People (Doug B.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048446,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8139038,
+          "teamName": "2. Ay Mi Madre (Daniel D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8143230,
+          "teamName": "3. Charlies Angels (Jason O.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048447,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048451,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8153064,
+          "teamName": "8. Sandy Patch Kids (Curtis J.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8156531,
+          "teamName": "9. Dont Dink and Dive (Sarah F.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

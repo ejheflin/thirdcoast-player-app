@@ -882,6 +882,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14212031,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8191327,
+          "teamName": "6. Annie H. and Jordan W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
