@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8152314,
+      "teamName": "7. Patty 4 the People (Doug B.)",
+      "gamesPlayed": 14,
+      "wins": 8,
+      "losses": 1,
+      "ties": 5,
+      "points": 21
+    },
+    {
+      "position": 3,
       "teamId": 8143230,
       "teamName": "3. Charlies Angels (Jason O.)",
       "gamesPlayed": 14,
@@ -21,16 +31,6 @@
       "losses": 3,
       "ties": 2,
       "points": 20
-    },
-    {
-      "position": 3,
-      "teamId": 8152314,
-      "teamName": "7. Patty 4 the People (Doug B.)",
-      "gamesPlayed": 13,
-      "wins": 7,
-      "losses": 1,
-      "ties": 5,
-      "points": 19
     },
     {
       "position": 4,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8156531,
       "teamName": "9. Dont Dink and Dive (Sarah F.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 1,
       "points": 3
     },

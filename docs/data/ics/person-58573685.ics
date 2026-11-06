@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14048442-58573685@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T003000Z
-DTEND:20261106T013000Z
-SUMMARY:Thursday Coed 4s B — vs Patty 4 the People
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 5 · Thursday Coed 4s B\nteam.html?team=8152314&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
-UID:14048445-58573685@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T013000Z
-DTEND:20261106T023000Z
-SUMMARY:Thursday Coed 4s B — vs Weekend Warmups
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 5 · Thursday Coed 4s B\nteam.html?team=8157248&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
 UID:14212046-58573685@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T023000Z
 DTEND:20261110T033000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Gabby T. and Mikah M.
+SUMMARY:vs Gabby T. and Mikah M.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 4 · Monday Womens 2s Pop Up\nteam.html?team=8185977&prog
  ram=5172413
@@ -42,7 +22,7 @@ UID:14212048-58573685@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T033000Z
 DTEND:20261110T043000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Annie J. and Anna C.
+SUMMARY:vs Annie J. and Anna C.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 4 · Monday Womens 2s Pop Up\nteam.html?team=8186968&prog
  ram=5172413
@@ -52,7 +32,7 @@ UID:14212052-58573685@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T003000Z
 DTEND:20261117T013000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Brooke F. and Angel H.
+SUMMARY:vs Brooke F. and Angel H.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 3 · Monday Womens 2s Pop Up\nteam.html?team=8179595&prog
  ram=5172413
@@ -62,7 +42,7 @@ UID:14212053-58573685@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T013000Z
 DTEND:20261117T023000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Mili V. and Tiffany S.
+SUMMARY:vs Mili V. and Tiffany S.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 4 · Monday Womens 2s Pop Up\nteam.html?team=8178846&prog
  ram=5172413
@@ -72,7 +52,7 @@ UID:14212066-58573685@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T023000Z
 DTEND:20261124T033000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Julia V. and Beth B.
+SUMMARY:vs Julia V. and Beth B.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 4 · Monday Womens 2s Pop Up\nteam.html?team=8178840&prog
  ram=5172413
@@ -82,7 +62,7 @@ UID:14212069-58573685@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T033000Z
 DTEND:20261124T043000Z
-SUMMARY:Monday Womens 2s Pop Up — vs Mili V. and Tiffany S.
+SUMMARY:vs Mili V. and Tiffany S.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 5 · Monday Womens 2s Pop Up\nteam.html?team=8178846&prog
  ram=5172413

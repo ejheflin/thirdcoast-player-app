@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14048442-58558118@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T003000Z
-DTEND:20261106T013000Z
-SUMMARY:Thursday Coed 4s B — vs Patty 4 the People
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 5 · Thursday Coed 4s B\nteam.html?team=8152314&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
-UID:14048445-58558118@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T013000Z
-DTEND:20261106T023000Z
-SUMMARY:Thursday Coed 4s B — vs Weekend Warmups
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 5 · Thursday Coed 4s B\nteam.html?team=8157248&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
 UID:14205841-58558118@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T023000Z
 DTEND:20261110T033000Z
-SUMMARY:Monday Coed 3s B — vs Respect Your Elders
+SUMMARY:vs Respect Your Elders
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8158925&program=51
  54231
@@ -42,7 +22,7 @@ UID:14205843-58558118@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T033000Z
 DTEND:20261110T043000Z
-SUMMARY:Monday Coed 3s B — vs Settin Pretty
+SUMMARY:vs Settin Pretty
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8160698&program=51
  54231
@@ -52,7 +32,7 @@ UID:14205850-58558118@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T023000Z
 DTEND:20261117T033000Z
-SUMMARY:Monday Coed 3s B — vs Sandy Cheeks
+SUMMARY:vs Sandy Cheeks
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8173279&program=51
  54231
@@ -62,7 +42,7 @@ UID:14205853-58558118@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T033000Z
 DTEND:20261117T043000Z
-SUMMARY:Monday Coed 3s B — vs Free Agents
+SUMMARY:vs Free Agents
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8190678&program=51
  54231
@@ -72,7 +52,7 @@ UID:14205860-58558118@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T023000Z
 DTEND:20261124T033000Z
-SUMMARY:Monday Coed 3s B — vs May the Spike Be With You
+SUMMARY:vs May the Spike Be With You
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 11 · Monday Coed 3s B\nteam.html?team=8148416&program=51
  54231
@@ -82,7 +62,7 @@ UID:14205864-58558118@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T033000Z
 DTEND:20261124T043000Z
-SUMMARY:Monday Coed 3s B — vs Volley Llamas
+SUMMARY:vs Volley Llamas
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 12 · Monday Coed 3s B\nteam.html?team=8153216&program=51
  54231

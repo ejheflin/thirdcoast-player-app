@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14048448-14611366@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T023000Z
-DTEND:20261106T033000Z
-SUMMARY:Thursday Coed 4s B — vs I Dunno
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 5 · Thursday Coed 4s B\nteam.html?team=8156585&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
-UID:14048450-14611366@thirdcoast
-DTSTAMP:20261106T000000Z
-DTSTART:20261106T033000Z
-DTEND:20261106T043000Z
-SUMMARY:Thursday Coed 4s B — vs FlyBallers ShotCallers
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 4 · Thursday Coed 4s B\nteam.html?team=8142664&program=5
- 143200
-END:VEVENT
-BEGIN:VEVENT
 UID:14205757-14611366@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T023000Z
 DTEND:20261110T033000Z
-SUMMARY:Monday Coed 2s B — vs Lauren V. and Hector T.
+SUMMARY:vs Lauren V. and Hector T.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 3 · Monday Coed 2s B\nteam.html?team=8190694&program=515
  4233
@@ -42,7 +22,7 @@ UID:14205760-14611366@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T033000Z
 DTEND:20261110T043000Z
-SUMMARY:Monday Coed 2s B — vs Sue L. and David N.
+SUMMARY:vs Sue L. and David N.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 3 · Monday Coed 2s B\nteam.html?team=8176028&program=515
  4233
@@ -52,7 +32,7 @@ UID:14205761-14611366@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T003000Z
 DTEND:20261117T013000Z
-SUMMARY:Monday Coed 2s B — vs Ellie B. and Matt G.
+SUMMARY:vs Ellie B. and Matt G.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Monday Coed 2s B\nteam.html?team=8171251&program=515
  4233
@@ -62,7 +42,7 @@ UID:14205764-14611366@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T013000Z
 DTEND:20261117T023000Z
-SUMMARY:Monday Coed 2s B — vs Joann L. and Jacob W.
+SUMMARY:vs Joann L. and Jacob W.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8159362&program=515
  4233
@@ -72,7 +52,7 @@ UID:14205777-14611366@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T023000Z
 DTEND:20261124T033000Z
-SUMMARY:Monday Coed 2s B — vs Jodie N. and Joel G.
+SUMMARY:vs Jodie N. and Joel G.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 3 · Monday Coed 2s B\nteam.html?team=8148865&program=515
  4233
@@ -82,7 +62,7 @@ UID:14205779-14611366@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T033000Z
 DTEND:20261124T043000Z
-SUMMARY:Monday Coed 2s B — vs Olivia E. and Jason O.
+SUMMARY:vs Olivia E. and Jason O.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8148465&program=515
  4233
