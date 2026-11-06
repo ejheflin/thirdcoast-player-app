@@ -828,6 +828,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14205744,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8171251,
+          "teamName": "6. Ellie B. and Matt G.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8190694,
+          "teamName": "10. Lauren V. and Hector T.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }

@@ -992,6 +992,24 @@
       ]
     },
     {
+      "activityId": 14048799,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14048808,
       "date": "2026-10-29",
       "teams": [
@@ -1100,6 +1118,42 @@
       ]
     },
     {
+      "activityId": 14048810,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8124126,
+          "teamName": "6. Molly J. and Phil A.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048816,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048819,
       "date": "2026-11-05",
       "teams": [
@@ -1186,6 +1240,78 @@
           "teamName": "2. Danielle F. and Jeff S.",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048823,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048824,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048825,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8141319,
+          "teamName": "3. Elaine L. and Eric W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048827,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8138556,
+          "teamName": "4. Jo P. and Leo Y.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "draw",
+          "score": 1
         }
       ]
     }
