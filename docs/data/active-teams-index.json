@@ -80,26 +80,26 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8153805,
-    "teamName": "1. Sarah U. and Logan C."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
     "teamId": 8152686,
     "teamName": "2. Sydney Z. and Manny A."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8161071,
-    "teamName": "3. Taylor P. and Carson S."
+    "teamId": 8153805,
+    "teamName": "1. Sarah U. and Logan C."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
     "teamId": 8156793,
     "teamName": "4. Liz C. and Josman R."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
+    "teamId": 8161071,
+    "teamName": "3. Taylor P. and Carson S."
   },
   {
     "programId": 5154234,
@@ -242,6 +242,12 @@
   {
     "programId": 5143219,
     "programName": "Thursday Coed 2s A",
+    "teamId": 8154115,
+    "teamName": "2. Mili V. and Isa T."
+  },
+  {
+    "programId": 5143219,
+    "programName": "Thursday Coed 2s A",
     "teamId": 8136865,
     "teamName": "8. Sarah D. and Matt B."
   },
@@ -250,12 +256,6 @@
     "programName": "Thursday Coed 2s A",
     "teamId": 8135226,
     "teamName": "9. Ivy C. and Dreco S."
-  },
-  {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
-    "teamId": 8154115,
-    "teamName": "2. Mili V. and Isa T."
   },
   {
     "programId": 5143219,
@@ -680,14 +680,14 @@
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8150634,
-    "teamName": "6. Tina O. and Elaine L."
+    "teamId": 8161616,
+    "teamName": "5. Juliana T. and Lauren W."
   },
   {
     "programId": 5148518,
     "programName": "Tuesday Womens 2s A",
-    "teamId": 8161616,
-    "teamName": "5. Juliana T. and Lauren W."
+    "teamId": 8150634,
+    "teamName": "6. Tina O. and Elaine L."
   },
   {
     "programId": 5148518,

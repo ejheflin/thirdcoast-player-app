@@ -344,6 +344,24 @@
       ]
     },
     {
+      "activityId": 14048580,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14048586,
       "date": "2026-10-01",
       "teams": [
@@ -1366,6 +1384,24 @@
           "teamName": "7. Tiffany S. and Carson S.",
           "result": "loss",
           "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14048638,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8154115,
+          "teamName": "2. Mili V. and Isa T.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8137644,
+          "teamName": "4. Taylor B. and Luigi H.",
+          "result": "draw",
+          "score": 1
         }
       ]
     }
