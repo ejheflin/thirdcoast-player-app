@@ -163,7 +163,7 @@
           "teamCount": 10,
           "wins": 3,
           "losses": 3,
-          "ties": 6
+          "ties": 7
         }
       ]
     },
@@ -440,7 +440,7 @@
           "teamCount": 10,
           "wins": 2,
           "losses": 4,
-          "ties": 9
+          "ties": 10
         }
       ]
     },
