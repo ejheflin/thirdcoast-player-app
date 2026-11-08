@@ -1244,6 +1244,24 @@
       ]
     },
     {
+      "activityId": 14048631,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14048636,
       "date": "2026-11-05",
       "teams": [
@@ -1402,6 +1420,24 @@
           "teamName": "4. Taylor B. and Luigi H.",
           "result": "draw",
           "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048635,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8126546,
+          "teamName": "3. Kylee G. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8135226,
+          "teamName": "9. Ivy C. and Dreco S.",
+          "result": "win",
+          "score": 2
         }
       ]
     }
