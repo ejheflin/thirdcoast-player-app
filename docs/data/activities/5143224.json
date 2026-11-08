@@ -1154,6 +1154,24 @@
       ]
     },
     {
+      "activityId": 14048811,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8139636,
+          "teamName": "2. Danielle F. and Jeff S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14048819,
       "date": "2026-11-05",
       "teams": [
