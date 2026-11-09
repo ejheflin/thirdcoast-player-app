@@ -128,6 +128,24 @@
       ]
     },
     {
+      "activityId": 14205637,
+      "date": "2026-10-05",
+      "teams": [
+        {
+          "teamId": 8173157,
+          "teamName": "5. Emily R. and Dreco S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8173044,
+          "teamName": "7. Kaegan W. and Jon N.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14205644,
       "date": "2026-10-12",
       "teams": [

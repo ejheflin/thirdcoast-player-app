@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8149530,
+      "teamName": "8. Avery E. and Jon N.",
+      "gamesPlayed": 15,
+      "wins": 4,
+      "losses": 2,
+      "ties": 9,
+      "points": 17
+    },
+    {
+      "position": 5,
       "teamId": 8141319,
       "teamName": "3. Elaine L. and Eric W.",
       "gamesPlayed": 16,
@@ -41,16 +51,6 @@
       "losses": 2,
       "ties": 11,
       "points": 17
-    },
-    {
-      "position": 5,
-      "teamId": 8149530,
-      "teamName": "8. Avery E. and Jon N.",
-      "gamesPlayed": 14,
-      "wins": 3,
-      "losses": 2,
-      "ties": 9,
-      "points": 15
     },
     {
       "position": 6,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8157013,
       "teamName": "9. Lauren H. and Clayton B.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "ties": 5,
       "points": 7
     }

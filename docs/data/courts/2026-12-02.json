@@ -1,0 +1,217 @@
+{
+  "date": "2026-12-02",
+  "slots": [
+    {
+      "time": "18:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8245448,
+              "teamName": "8. Gary C. and Chris H."
+            },
+            {
+              "teamId": 8241030,
+              "teamName": "10. Jason O. and Dom W."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8243033,
+              "teamName": "7. Riley W. and Jacob W."
+            },
+            {
+              "teamId": 8241620,
+              "teamName": "9. Gordon P. and Harley G."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8245277,
+              "teamName": "11. Nate G. and Zach B."
+            },
+            {
+              "teamId": 8245343,
+              "teamName": "12. Zach P. and Luke S."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "19:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8243033,
+              "teamName": "7. Riley W. and Jacob W."
+            },
+            {
+              "teamId": 8245343,
+              "teamName": "12. Zach P. and Luke S."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8241030,
+              "teamName": "10. Jason O. and Dom W."
+            },
+            {
+              "teamId": 8245277,
+              "teamName": "11. Nate G. and Zach B."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8245448,
+              "teamName": "8. Gary C. and Chris H."
+            },
+            {
+              "teamId": 8241620,
+              "teamName": "9. Gordon P. and Harley G."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "20:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8243715,
+              "teamName": "2. Dreco S. and Harrison S."
+            },
+            {
+              "teamId": 8240542,
+              "teamName": "4. Michael G. and Daniel A."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8241711,
+              "teamName": "1. Dane R. and Carson S."
+            },
+            {
+              "teamId": 8240909,
+              "teamName": "3. Eric W. and Brandon W."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8245676,
+              "teamName": "5. Blake C. and Leo Y."
+            },
+            {
+              "teamId": 8243650,
+              "teamName": "6. Rus A. and Ryan S."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "courts": [
+        {
+          "court": 1,
+          "courtName": "Court 1",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8240542,
+              "teamName": "4. Michael G. and Daniel A."
+            },
+            {
+              "teamId": 8245676,
+              "teamName": "5. Blake C. and Leo Y."
+            }
+          ]
+        },
+        {
+          "court": 6,
+          "courtName": "Court 6",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8241711,
+              "teamName": "1. Dane R. and Carson S."
+            },
+            {
+              "teamId": 8243650,
+              "teamName": "6. Rus A. and Ryan S."
+            }
+          ]
+        },
+        {
+          "court": 7,
+          "courtName": "Court 7",
+          "programId": 5221493,
+          "programName": "Wednesday Mens 2s AA Mini League",
+          "teams": [
+            {
+              "teamId": 8243715,
+              "teamName": "2. Dreco S. and Harrison S."
+            },
+            {
+              "teamId": 8240909,
+              "teamName": "3. Eric W. and Brandon W."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

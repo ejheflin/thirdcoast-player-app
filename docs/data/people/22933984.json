@@ -80,6 +80,12 @@
       "teamId": 6393771,
       "teamName": "6. Mike G. & Gary C.",
       "isCaptain": false
+    },
+    {
+      "programId": 5221493,
+      "teamId": 8245448,
+      "teamName": "8. Gary C. and Chris H.",
+      "isCaptain": true
     }
   ]
 }

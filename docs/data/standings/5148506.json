@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8159639,
+      "teamName": "5. Vacacioners (Phil M.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 5,
+      "ties": 4,
+      "points": 14
+    },
+    {
+      "position": 5,
       "teamId": 8150721,
       "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
       "gamesPlayed": 14,
@@ -43,7 +53,7 @@
       "points": 13
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8163520,
       "teamName": "6. Bombaclat! (Aatir A.)",
       "gamesPlayed": 14,
@@ -53,32 +63,22 @@
       "points": 13
     },
     {
-      "position": 6,
+      "position": 7,
       "teamId": 8150950,
       "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 3,
-      "losses": 7,
-      "ties": 2,
-      "points": 8
-    },
-    {
-      "position": 7,
-      "teamId": 8159639,
-      "teamName": "5. Vacacioners (Phil M.)",
-      "gamesPlayed": 10,
-      "wins": 2,
-      "losses": 5,
+      "losses": 8,
       "ties": 3,
-      "points": 7
+      "points": 9
     },
     {
       "position": 8,
       "teamId": 8142715,
       "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 7,
+      "losses": 9,
       "ties": 3,
       "points": 7
     }

@@ -32,6 +32,12 @@
       "teamId": 8161071,
       "teamName": "3. Taylor P. and Carson S.",
       "isCaptain": true
+    },
+    {
+      "programId": 5221493,
+      "teamId": 8241711,
+      "teamName": "1. Dane R. and Carson S.",
+      "isCaptain": false
     }
   ]
 }

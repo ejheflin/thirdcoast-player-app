@@ -72,15 +72,9 @@
     "endDate": 1794891600000
   },
   {
-    "programId": 5127673,
-    "programName": "Wednesday Mens 2s AA",
-    "state": "LIVE",
-    "endDate": 1793768400000
-  },
-  {
     "programId": 5221493,
     "programName": "Wednesday Mens 2s AA Mini League",
-    "state": "UPCOMING",
+    "state": "LIVE",
     "endDate": 1797397200000
   }
 ]

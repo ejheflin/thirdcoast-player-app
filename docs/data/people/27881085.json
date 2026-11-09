@@ -140,6 +140,12 @@
       "teamId": 6389556,
       "teamName": "5. Ryan S. & Cole C.",
       "isCaptain": true
+    },
+    {
+      "programId": 5221493,
+      "teamId": 8243650,
+      "teamName": "6. Rus A. and Ryan S.",
+      "isCaptain": false
     }
   ]
 }

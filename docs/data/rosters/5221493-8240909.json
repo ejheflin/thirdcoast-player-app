@@ -1,0 +1,19 @@
+{
+  "programId": 5221493,
+  "teamId": 8240909,
+  "teamName": "3. Eric W. and Brandon W.",
+  "players": [
+    {
+      "userId": 57815430,
+      "firstName": "Brandon",
+      "lastInitial": "W.",
+      "isCaptain": false
+    },
+    {
+      "userId": 14584840,
+      "firstName": "Eric",
+      "lastInitial": "W.",
+      "isCaptain": true
+    }
+  ]
+}

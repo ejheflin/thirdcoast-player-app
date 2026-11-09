@@ -326,6 +326,24 @@
       ]
     },
     {
+      "activityId": 14048758,
+      "date": "2026-09-24",
+      "teams": [
+        {
+          "teamId": 8149530,
+          "teamName": "8. Avery E. and Jon N.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
       "activityId": 14048769,
       "date": "2026-10-01",
       "teams": [

@@ -1,0 +1,19 @@
+{
+  "programId": 5221493,
+  "teamId": 8241620,
+  "teamName": "9. Gordon P. and Harley G.",
+  "players": [
+    {
+      "userId": 45440198,
+      "firstName": "Harley",
+      "lastInitial": "G.",
+      "isCaptain": false
+    },
+    {
+      "userId": 49818955,
+      "firstName": "Gordon",
+      "lastInitial": "P.",
+      "isCaptain": true
+    }
+  ]
+}

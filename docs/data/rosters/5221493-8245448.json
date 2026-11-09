@@ -1,0 +1,19 @@
+{
+  "programId": 5221493,
+  "teamId": 8245448,
+  "teamName": "8. Gary C. and Chris H.",
+  "players": [
+    {
+      "userId": 22933984,
+      "firstName": "Gary",
+      "lastInitial": "C.",
+      "isCaptain": true
+    },
+    {
+      "userId": 14965486,
+      "firstName": "Chris",
+      "lastInitial": "H.",
+      "isCaptain": false
+    }
+  ]
+}

@@ -1,12 +1,19 @@
 {
   "userId": 57815430,
   "firstName": "Brandon",
+  "lastInitial": "W.",
   "appearances": [
     {
       "programId": 5080936,
       "teamId": 8041292,
       "teamName": "6. Julie V. and Brandon W.",
       "isCaptain": true
+    },
+    {
+      "programId": 5221493,
+      "teamId": 8240909,
+      "teamName": "3. Eric W. and Brandon W.",
+      "isCaptain": false
     }
   ]
 }

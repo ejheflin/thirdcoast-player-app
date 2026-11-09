@@ -738,7 +738,7 @@
           "move": "same",
           "position": 1,
           "teamCount": 8,
-          "wins": 5,
+          "wins": 6,
           "losses": 0,
           "ties": 4
         }
@@ -760,7 +760,7 @@
           "position": 2,
           "teamCount": 8,
           "wins": 5,
-          "losses": 1,
+          "losses": 2,
           "ties": 3
         }
       ]

@@ -92,6 +92,12 @@
       "teamId": 6392066,
       "teamName": "7. Chris H. & Scott S.",
       "isCaptain": true
+    },
+    {
+      "programId": 5221493,
+      "teamId": 8245448,
+      "teamName": "8. Gary C. and Chris H.",
+      "isCaptain": false
     }
   ]
 }

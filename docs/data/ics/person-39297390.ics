@@ -12,7 +12,7 @@ UID:14205752-39297390@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T003000Z
 DTEND:20261110T013000Z
-SUMMARY:vs Vanessa M. and Miguel M.
+SUMMARY:Monday Coed 2s B — vs Vanessa M. and Miguel M.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8182699&program=515
  4233
@@ -22,17 +22,37 @@ UID:14205753-39297390@thirdcoast
 DTSTAMP:20261110T000000Z
 DTSTART:20261110T013000Z
 DTEND:20261110T023000Z
-SUMMARY:vs Joann L. and Jacob W.
+SUMMARY:Monday Coed 2s B — vs Joann L. and Jacob W.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Monday Coed 2s B\nteam.html?team=8159362&program=515
  4233
+END:VEVENT
+BEGIN:VEVENT
+UID:14503541-39297390@thirdcoast
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T023000Z
+DTEND:20261112T033000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Michael G. and Daniel A.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 7 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 0542&program=5221493
+END:VEVENT
+BEGIN:VEVENT
+UID:14503545-39297390@thirdcoast
+DTSTAMP:20261112T000000Z
+DTSTART:20261112T033000Z
+DTEND:20261112T043000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Blake C. and Leo Y.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 1 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 5676&program=5221493
 END:VEVENT
 BEGIN:VEVENT
 UID:14205766-39297390@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T023000Z
 DTEND:20261117T033000Z
-SUMMARY:vs Lauren V. and Hector T.
+SUMMARY:Monday Coed 2s B — vs Lauren V. and Hector T.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8190694&program=515
  4233
@@ -42,17 +62,37 @@ UID:14205769-39297390@thirdcoast
 DTSTAMP:20261117T000000Z
 DTSTART:20261117T033000Z
 DTEND:20261117T043000Z
-SUMMARY:vs Sue L. and David N.
+SUMMARY:Monday Coed 2s B — vs Sue L. and David N.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8176028&program=515
  4233
+END:VEVENT
+BEGIN:VEVENT
+UID:14503552-39297390@thirdcoast
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T023000Z
+DTEND:20261119T033000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Eric W. and Brandon W.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 0909&program=5221493
+END:VEVENT
+BEGIN:VEVENT
+UID:14503557-39297390@thirdcoast
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T033000Z
+DTEND:20261119T043000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Dane R. and Carson S.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 1 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 1711&program=5221493
 END:VEVENT
 BEGIN:VEVENT
 UID:14205776-39297390@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T023000Z
 DTEND:20261124T033000Z
-SUMMARY:vs Sue L. and David N.
+SUMMARY:Monday Coed 2s B — vs Sue L. and David N.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8176028&program=515
  4233
@@ -62,9 +102,49 @@ UID:14205780-39297390@thirdcoast
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T033000Z
 DTEND:20261124T043000Z
-SUMMARY:vs Jodie N. and Joel G.
+SUMMARY:Monday Coed 2s B — vs Jodie N. and Joel G.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 3 · Monday Coed 2s B\nteam.html?team=8148865&program=515
  4233
+END:VEVENT
+BEGIN:VEVENT
+UID:14503559-39297390@thirdcoast
+DTSTAMP:20261203T000000Z
+DTSTART:20261203T003000Z
+DTEND:20261203T013000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Zach P. and Luke S.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 7 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 5343&program=5221493
+END:VEVENT
+BEGIN:VEVENT
+UID:14503561-39297390@thirdcoast
+DTSTAMP:20261203T000000Z
+DTSTART:20261203T013000Z
+DTEND:20261203T023000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Jason O. and Dom W.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 1030&program=5221493
+END:VEVENT
+BEGIN:VEVENT
+UID:14503571-39297390@thirdcoast
+DTSTAMP:20261210T000000Z
+DTSTART:20261210T003000Z
+DTEND:20261210T013000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Gordon P. and Harley G.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 7 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 1620&program=5221493
+END:VEVENT
+BEGIN:VEVENT
+UID:14503573-39297390@thirdcoast
+DTSTAMP:20261210T000000Z
+DTSTART:20261210T013000Z
+DTEND:20261210T023000Z
+SUMMARY:Wednesday Mens 2s AA Mini League — vs Gary C. and Chris H.
+LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
+DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
+ 5448&program=5221493
 END:VEVENT
 END:VCALENDAR
