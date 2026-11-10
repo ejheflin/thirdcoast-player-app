@@ -26,11 +26,11 @@
       "position": 3,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 6,
       "losses": 0,
-      "ties": 4,
-      "points": 16
+      "ties": 5,
+      "points": 17
     },
     {
       "position": 4,
@@ -44,8 +44,8 @@
     },
     {
       "position": 5,
-      "teamId": 8178846,
-      "teamName": "7. Mili V. and Tiffany S.",
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
       "gamesPlayed": 12,
       "wins": 4,
       "losses": 3,
@@ -54,13 +54,13 @@
     },
     {
       "position": 6,
-      "teamId": 8178867,
-      "teamName": "4. Fran R. and Kat H.",
-      "gamesPlayed": 10,
-      "wins": 3,
+      "teamId": 8178846,
+      "teamName": "7. Mili V. and Tiffany S.",
+      "gamesPlayed": 12,
+      "wins": 4,
       "losses": 3,
-      "ties": 4,
-      "points": 10
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 7,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8179958,
       "teamName": "3. Denise H. and Kim S.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 3,
       "points": 5
     },

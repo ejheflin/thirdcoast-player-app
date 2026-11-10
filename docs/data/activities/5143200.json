@@ -1262,6 +1262,24 @@
       ]
     },
     {
+      "activityId": 14048419,
+      "date": "2026-10-22",
+      "teams": [
+        {
+          "teamId": 8142664,
+          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14048429,
       "date": "2026-10-29",
       "teams": [
@@ -1670,6 +1688,24 @@
         {
           "teamId": 8156585,
           "teamName": "11. I Dunno (Matt G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14048445,
+      "date": "2026-11-05",
+      "teams": [
+        {
+          "teamId": 8155956,
+          "teamName": "10. Sandy Cheeks (Stephanie D.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8157248,
+          "teamName": "12. Weekend Warmups (Liz P.)",
           "result": "win",
           "score": 2
         }
