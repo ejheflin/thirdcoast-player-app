@@ -16,44 +16,54 @@
       "position": 2,
       "teamId": 8173157,
       "teamName": "5. Emily R. and Dreco S.",
-      "gamesPlayed": 10,
-      "wins": 5,
+      "gamesPlayed": 11,
+      "wins": 6,
       "losses": 2,
       "ties": 3,
-      "points": 13
+      "points": 15
     },
     {
       "position": 3,
-      "teamId": 8148910,
-      "teamName": "6. Caroline J. and Mark J.",
-      "gamesPlayed": 10,
+      "teamId": 8153805,
+      "teamName": "1. Sarah U. and Logan C.",
+      "gamesPlayed": 12,
       "wins": 4,
       "losses": 3,
-      "ties": 3,
-      "points": 11
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 4,
-      "teamId": 8152686,
-      "teamName": "2. Sydney Z. and Manny A.",
-      "gamesPlayed": 10,
-      "wins": 2,
-      "losses": 2,
-      "ties": 6,
-      "points": 10
+      "teamId": 8148910,
+      "teamName": "6. Caroline J. and Mark J.",
+      "gamesPlayed": 12,
+      "wins": 4,
+      "losses": 4,
+      "ties": 4,
+      "points": 12
     },
     {
       "position": 5,
-      "teamId": 8153805,
-      "teamName": "1. Sarah U. and Logan C.",
-      "gamesPlayed": 10,
-      "wins": 3,
-      "losses": 3,
-      "ties": 4,
-      "points": 10
+      "teamId": 8152686,
+      "teamName": "2. Sydney Z. and Manny A.",
+      "gamesPlayed": 11,
+      "wins": 2,
+      "losses": 2,
+      "ties": 7,
+      "points": 11
     },
     {
       "position": 6,
+      "teamId": 8161071,
+      "teamName": "3. Taylor P. and Carson S.",
+      "gamesPlayed": 11,
+      "wins": 1,
+      "losses": 4,
+      "ties": 6,
+      "points": 8
+    },
+    {
+      "position": 7,
       "teamId": 8156793,
       "teamName": "4. Liz C. and Josman R.",
       "gamesPlayed": 10,
@@ -63,22 +73,12 @@
       "points": 7
     },
     {
-      "position": 7,
-      "teamId": 8161071,
-      "teamName": "3. Taylor P. and Carson S.",
-      "gamesPlayed": 10,
-      "wins": 1,
-      "losses": 4,
-      "ties": 5,
-      "points": 7
-    },
-    {
       "position": 8,
       "teamId": 8159552,
       "teamName": "8. Helen L. and George C.",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "ties": 4,
       "points": 6
     }

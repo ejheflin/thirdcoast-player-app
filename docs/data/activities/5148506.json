@@ -854,14 +854,14 @@
         {
           "teamId": 8142715,
           "teamName": "4. Toodles (Michael L.)",
-          "result": "loss",
-          "score": 0
+          "result": "draw",
+          "score": 1
         },
         {
           "teamId": 8159639,
           "teamName": "5. Vacacioners (Phil M.)",
-          "result": "win",
-          "score": 2
+          "result": "draw",
+          "score": 1
         }
       ]
     },

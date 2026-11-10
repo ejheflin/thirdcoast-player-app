@@ -668,6 +668,24 @@
       ]
     },
     {
+      "activityId": 14048784,
+      "date": "2026-10-08",
+      "teams": [
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
       "activityId": 14048789,
       "date": "2026-10-15",
       "teams": [
@@ -1186,6 +1204,24 @@
           "teamName": "5. Shelbita L. and Michael A.",
           "result": "draw",
           "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14048809,
+      "date": "2026-10-29",
+      "teams": [
+        {
+          "teamId": 8136201,
+          "teamName": "5. Shelbita L. and Michael A.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8157013,
+          "teamName": "9. Lauren H. and Clayton B.",
+          "result": "win",
+          "score": 2
         }
       ]
     },

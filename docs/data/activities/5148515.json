@@ -1440,6 +1440,24 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14095504,
+      "date": "2026-11-03",
+      "teams": [
+        {
+          "teamId": 8147602,
+          "teamName": "8. Unprotected Sets (Catalina P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159435,
+          "teamName": "10. 50/50 (Oscar G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

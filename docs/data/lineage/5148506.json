@@ -233,8 +233,8 @@
           "position": 8,
           "teamCount": 8,
           "wins": 2,
-          "losses": 9,
-          "ties": 3
+          "losses": 8,
+          "ties": 4
         }
       ]
     },
@@ -900,9 +900,9 @@
           "move": "up",
           "position": 4,
           "teamCount": 8,
-          "wins": 5,
+          "wins": 4,
           "losses": 5,
-          "ties": 4
+          "ties": 5
         }
       ]
     },

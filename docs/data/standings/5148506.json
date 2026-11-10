@@ -37,10 +37,10 @@
       "teamId": 8159639,
       "teamName": "5. Vacacioners (Phil M.)",
       "gamesPlayed": 14,
-      "wins": 5,
+      "wins": 4,
       "losses": 5,
-      "ties": 4,
-      "points": 14
+      "ties": 5,
+      "points": 13
     },
     {
       "position": 5,
@@ -78,9 +78,9 @@
       "teamName": "4. Toodles (Michael L.)",
       "gamesPlayed": 14,
       "wins": 2,
-      "losses": 9,
-      "ties": 3,
-      "points": 7
+      "losses": 8,
+      "ties": 4,
+      "points": 8
     }
   ]
 }
