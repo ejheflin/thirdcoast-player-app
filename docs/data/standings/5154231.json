@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8158925,
+      "teamName": "3. Respect Your Elders (Heather B.)",
+      "gamesPlayed": 12,
+      "wins": 7,
+      "losses": 0,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 2,
       "teamId": 8148416,
       "teamName": "9. May the Spike Be With You (Ash C.)",
       "gamesPlayed": 12,
@@ -13,7 +23,7 @@
       "points": 18
     },
     {
-      "position": 2,
+      "position": 3,
       "teamId": 8172362,
       "teamName": "5. Tri-Angels (Johnny P.)",
       "gamesPlayed": 12,
@@ -21,16 +31,6 @@
       "losses": 2,
       "ties": 2,
       "points": 18
-    },
-    {
-      "position": 3,
-      "teamId": 8158925,
-      "teamName": "3. Respect Your Elders (Heather B.)",
-      "gamesPlayed": 11,
-      "wins": 6,
-      "losses": 0,
-      "ties": 5,
-      "points": 17
     },
     {
       "position": 4,
@@ -96,9 +96,9 @@
       "position": 10,
       "teamId": 8181763,
       "teamName": "1. Gold Diggers (Gabriela C.)",
-      "gamesPlayed": 10,
+      "gamesPlayed": 11,
       "wins": 0,
-      "losses": 10,
+      "losses": 11,
       "ties": 0,
       "points": 0
     }
