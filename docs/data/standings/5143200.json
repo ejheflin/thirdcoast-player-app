@@ -34,6 +34,16 @@
     },
     {
       "position": 4,
+      "teamId": 8152547,
+      "teamName": "6. Injured Reserve! (Joe R.)",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 2,
+      "ties": 6,
+      "points": 22
+    },
+    {
+      "position": 5,
       "teamId": 8127097,
       "teamName": "1. Crab (Collin W.)",
       "gamesPlayed": 16,
@@ -43,22 +53,12 @@
       "points": 21
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8156585,
       "teamName": "11. I Dunno (Matt G.)",
       "gamesPlayed": 16,
       "wins": 8,
       "losses": 3,
-      "ties": 5,
-      "points": 21
-    },
-    {
-      "position": 6,
-      "teamId": 8152547,
-      "teamName": "6. Injured Reserve! (Joe R.)",
-      "gamesPlayed": 15,
-      "wins": 8,
-      "losses": 2,
       "ties": 5,
       "points": 21
     },
@@ -106,11 +106,11 @@
       "position": 11,
       "teamId": 8142664,
       "teamName": "4. FlyBallers ShotCallers (Albert F.)",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 1,
       "losses": 13,
-      "ties": 1,
-      "points": 3
+      "ties": 2,
+      "points": 4
     },
     {
       "position": 12,

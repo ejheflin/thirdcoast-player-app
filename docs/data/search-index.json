@@ -7,6 +7,36 @@
       "LIVE"
     ],
     [
+      5148518,
+      "Tuesday Womens 2s A",
+      1796101200000,
+      "LIVE"
+    ],
+    [
+      5148515,
+      "Tuesday Coed 4s Upper Rec",
+      1796101200000,
+      "LIVE"
+    ],
+    [
+      5148512,
+      "Tuesday Coed 4s BB",
+      1796101200000,
+      "LIVE"
+    ],
+    [
+      5148510,
+      "Tuesday Coed 4s B",
+      1796101200000,
+      "LIVE"
+    ],
+    [
+      5148506,
+      "Tuesday Coed 4s A",
+      1796101200000,
+      "LIVE"
+    ],
+    [
       5172413,
       "Monday Womens 2s Pop Up",
       1796014800000,
@@ -34,36 +64,6 @@
       5154231,
       "Monday Coed 3s B",
       1796014800000,
-      "LIVE"
-    ],
-    [
-      5148518,
-      "Tuesday Womens 2s A",
-      1794891600000,
-      "LIVE"
-    ],
-    [
-      5148515,
-      "Tuesday Coed 4s Upper Rec",
-      1794891600000,
-      "LIVE"
-    ],
-    [
-      5148512,
-      "Tuesday Coed 4s BB",
-      1794891600000,
-      "LIVE"
-    ],
-    [
-      5148510,
-      "Tuesday Coed 4s B",
-      1794891600000,
-      "LIVE"
-    ],
-    [
-      5148506,
-      "Tuesday Coed 4s A",
-      1794891600000,
       "LIVE"
     ],
     [
@@ -2644,519 +2644,519 @@
     ],
     [
       1,
-      8179406,
-      "5. Doria O. and Anna S.",
-      1
-    ],
-    [
-      1,
-      8178840,
-      "10. Julia V. and Beth B.",
-      2
-    ],
-    [
-      1,
-      8179782,
-      "8. Cat H. and Deanna V.",
-      1
-    ],
-    [
-      1,
-      8185977,
-      "9. Gabby T. and Mikah M.",
-      1
-    ],
-    [
-      1,
-      8178867,
-      "4. Fran R. and Kat H.",
-      1
-    ],
-    [
-      1,
-      8178846,
-      "7. Mili V. and Tiffany S.",
-      1
-    ],
-    [
-      1,
-      8179595,
-      "1. Brooke F. and Angel H.",
-      1
-    ],
-    [
-      1,
-      8191327,
-      "6. Annie H. and Jordan W.",
-      1
-    ],
-    [
-      1,
-      8179958,
-      "3. Denise H. and Kim S.",
-      1
-    ],
-    [
-      1,
-      8186968,
-      "2. Annie J. and Anna C.",
-      1
-    ],
-    [
-      3,
-      8173044,
-      "7. Kaegan W. and Jon N.",
-      6
-    ],
-    [
-      3,
-      8173157,
-      "5. Emily R. and Dreco S.",
-      1
-    ],
-    [
-      3,
-      8153805,
-      "1. Sarah U. and Logan C.",
-      1
-    ],
-    [
-      3,
-      8148910,
-      "6. Caroline J. and Mark J.",
-      5
-    ],
-    [
-      3,
-      8152686,
-      "2. Sydney Z. and Manny A.",
-      9
-    ],
-    [
-      3,
-      8161071,
-      "3. Taylor P. and Carson S.",
-      2
-    ],
-    [
-      3,
-      8156793,
-      "4. Liz C. and Josman R.",
-      16
-    ],
-    [
-      3,
-      8159552,
-      "8. Helen L. and George C.",
-      8
-    ],
-    [
-      4,
-      8148465,
-      "1. Olivia E. and Jason O.",
-      1
-    ],
-    [
-      4,
-      8160252,
-      "7. Kim M. and Travis B.",
-      6
-    ],
-    [
-      4,
-      8148569,
-      "2. Holli D. and Dan L.",
-      11
-    ],
-    [
-      4,
-      8171251,
-      "6. Ellie B. and Matt G.",
-      3
-    ],
-    [
-      4,
-      8148865,
-      "4. Jodie N. and Joel G.",
-      1
-    ],
-    [
-      4,
-      8170440,
-      "8. Jenny S. and Nate G.",
-      7
-    ],
-    [
-      4,
-      8190694,
-      "10. Lauren V. and Hector T.",
-      1
-    ],
-    [
-      4,
-      8159362,
-      "5. Joann L. and Jacob W.",
-      3
-    ],
-    [
-      4,
-      8182699,
-      "9. Vanessa M. and Miguel M.",
-      1
-    ],
-    [
-      4,
-      8176028,
-      "3. Sue L. and David N.",
-      7
-    ],
-    [
-      5,
-      8158925,
-      "3. Respect Your Elders (Heather B.)",
-      6
-    ],
-    [
-      5,
-      8148416,
-      "9. May the Spike Be With You (Ash C.)",
-      13
-    ],
-    [
-      5,
-      8172362,
-      "5. Tri-Angels (Johnny P.)",
-      4
-    ],
-    [
-      5,
-      8153216,
-      "2. Volley Llamas (Jamie D.)",
-      16
-    ],
-    [
-      5,
-      8179731,
-      "8. Third Wheel Energy (Isa T.)",
-      1
-    ],
-    [
-      5,
-      8160698,
-      "6. Settin Pretty (Elizabeth A.)",
-      16
-    ],
-    [
-      5,
-      8190678,
-      "10. Free Agents (Jason T.)",
-      1
-    ],
-    [
-      5,
-      8175870,
-      "4. No Faith (Donald P.)",
-      1
-    ],
-    [
-      5,
-      8173279,
-      "7. Sandy Cheeks (Mica R.)",
-      2
-    ],
-    [
-      5,
-      8181763,
-      "1. Gold Diggers (Gabriela C.)",
-      1
-    ],
-    [
-      6,
       8148743,
       "1. Olivia J. and Emily S.",
       3
     ],
     [
-      6,
+      1,
       8150354,
       "4. Yanni S. and Ali. M.",
       4
     ],
     [
-      6,
+      1,
       8138562,
       "7. Sarah S. and Jo P.",
       4
     ],
     [
-      6,
+      1,
       8143348,
       "3. Brittney G. and Lindsay K.",
       1
     ],
     [
-      6,
+      1,
       8139645,
       "8. Molly J. and Nicole B.",
       6
     ],
     [
-      6,
+      1,
       8161616,
       "5. Juliana T. and Lauren W.",
       8
     ],
     [
-      6,
+      1,
       8150634,
       "6. Tina O. and Elaine L.",
       2
     ],
     [
-      6,
+      1,
       8156795,
       "9. Liz C. and Madison P.",
       5
     ],
     [
-      6,
+      1,
       8150898,
       "2. Erika P. and Becca W.",
       2
     ],
     [
-      6,
+      1,
       8167966,
       "10. Kat H. and Julia V.",
       1
     ],
     [
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       1
     ],
     [
-      7,
+      2,
       8159435,
       "10. 50/50 (Oscar G.)",
       1
     ],
     [
-      7,
+      2,
       8148907,
       "11. What Court Are We On (Bear S.)",
       2
     ],
     [
-      7,
+      2,
       8155575,
       "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       4
     ],
     [
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       3
     ],
     [
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       1
     ],
     [
-      7,
+      2,
       8137762,
       "4. Notorious DIG (Connor D.)",
       13
     ],
     [
-      7,
+      2,
       8150563,
       "7. The Thurmanators (David Z.)",
       7
     ],
     [
-      7,
+      2,
       8138261,
       "2. Bump, Set, Dammit! (Michael G.)",
       11
     ],
     [
-      7,
+      2,
       8169638,
       "12. Bump Buddies (Mitch L.)",
       1
     ],
     [
-      7,
+      2,
       8137775,
       "5. Sets Pistols (Christina Z.)",
       9
     ],
     [
-      7,
+      2,
       8147602,
       "8. Unprotected Sets (Catalina P.)",
       5
     ],
     [
-      8,
+      3,
       8154126,
       "7. Bongos (Joseph M.)",
       7
     ],
     [
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       16
     ],
     [
-      8,
+      3,
       8159128,
       "6. Twin Peaks (Dan F.)",
       16
     ],
     [
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       16
     ],
     [
-      8,
+      3,
       8148853,
       "1. Beach Bunnies (Jimmy R.)",
       16
     ],
     [
-      8,
+      3,
       8160228,
       "3. 3 OGs and Bae (Johnny W.)",
       16
     ],
     [
-      8,
+      3,
       8137254,
       "4. Milk (Sean M.)",
       17
     ],
     [
-      8,
+      3,
       8165690,
       "8. Net Ninjas (Ali F.)",
       12
     ],
     [
-      9,
+      4,
       8135728,
       "6. Volley Llamas (Daphne D.)",
       16
     ],
     [
-      9,
+      4,
       8136555,
       "3. The Empire Spikes Back (Ash C.)",
       16
     ],
     [
-      9,
+      4,
       8146380,
       "9. Holy Balls (Jacob Y.)",
       1
     ],
     [
-      9,
+      4,
       8159903,
       "8. Gold Diggerz (JT N.)",
       11
     ],
     [
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       16
     ],
     [
-      9,
+      4,
       8164493,
       "1. Gold Star for Effort (Merilyn V.)",
       3
     ],
     [
-      9,
+      4,
       8153555,
       "2. Big Dig Energy (Chad S.)",
       16
     ],
     [
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       3
     ],
     [
-      9,
+      4,
       8164233,
       "10. Carpe Digem (Eric H.)",
       12
     ],
     [
-      9,
+      4,
       8162254,
       "4. The Replacements (Joe R.)",
       4
     ],
     [
-      10,
+      5,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       10
     ],
     [
-      10,
+      5,
       8148916,
       "8. Team Jacob (Mark J.)",
       14
     ],
     [
-      10,
+      5,
       8163533,
       "3. Hustle Gang (Calvin D.)",
       16
     ],
     [
-      10,
+      5,
       8159639,
       "5. Vacacioners (Phil M.)",
       3
     ],
     [
-      10,
+      5,
       8150721,
       "1. Carolina Beach Bumpers (Ashton M.)",
       11
     ],
     [
-      10,
+      5,
       8163520,
       "6. Bombaclat! (Aatir A.)",
       9
     ],
     [
-      10,
+      5,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       16
     ],
     [
-      10,
+      5,
       8142715,
       "4. Toodles (Michael L.)",
       16
+    ],
+    [
+      6,
+      8179406,
+      "5. Doria O. and Anna S.",
+      1
+    ],
+    [
+      6,
+      8178840,
+      "10. Julia V. and Beth B.",
+      2
+    ],
+    [
+      6,
+      8179782,
+      "8. Cat H. and Deanna V.",
+      1
+    ],
+    [
+      6,
+      8185977,
+      "9. Gabby T. and Mikah M.",
+      1
+    ],
+    [
+      6,
+      8178867,
+      "4. Fran R. and Kat H.",
+      1
+    ],
+    [
+      6,
+      8178846,
+      "7. Mili V. and Tiffany S.",
+      1
+    ],
+    [
+      6,
+      8179595,
+      "1. Brooke F. and Angel H.",
+      1
+    ],
+    [
+      6,
+      8191327,
+      "6. Annie H. and Jordan W.",
+      1
+    ],
+    [
+      6,
+      8179958,
+      "3. Denise H. and Kim S.",
+      1
+    ],
+    [
+      6,
+      8186968,
+      "2. Annie J. and Anna C.",
+      1
+    ],
+    [
+      8,
+      8173044,
+      "7. Kaegan W. and Jon N.",
+      6
+    ],
+    [
+      8,
+      8173157,
+      "5. Emily R. and Dreco S.",
+      1
+    ],
+    [
+      8,
+      8153805,
+      "1. Sarah U. and Logan C.",
+      1
+    ],
+    [
+      8,
+      8148910,
+      "6. Caroline J. and Mark J.",
+      5
+    ],
+    [
+      8,
+      8152686,
+      "2. Sydney Z. and Manny A.",
+      9
+    ],
+    [
+      8,
+      8161071,
+      "3. Taylor P. and Carson S.",
+      2
+    ],
+    [
+      8,
+      8156793,
+      "4. Liz C. and Josman R.",
+      16
+    ],
+    [
+      8,
+      8159552,
+      "8. Helen L. and George C.",
+      8
+    ],
+    [
+      9,
+      8148465,
+      "1. Olivia E. and Jason O.",
+      1
+    ],
+    [
+      9,
+      8160252,
+      "7. Kim M. and Travis B.",
+      6
+    ],
+    [
+      9,
+      8148569,
+      "2. Holli D. and Dan L.",
+      11
+    ],
+    [
+      9,
+      8171251,
+      "6. Ellie B. and Matt G.",
+      3
+    ],
+    [
+      9,
+      8148865,
+      "4. Jodie N. and Joel G.",
+      1
+    ],
+    [
+      9,
+      8170440,
+      "8. Jenny S. and Nate G.",
+      7
+    ],
+    [
+      9,
+      8190694,
+      "10. Lauren V. and Hector T.",
+      1
+    ],
+    [
+      9,
+      8159362,
+      "5. Joann L. and Jacob W.",
+      3
+    ],
+    [
+      9,
+      8182699,
+      "9. Vanessa M. and Miguel M.",
+      1
+    ],
+    [
+      9,
+      8176028,
+      "3. Sue L. and David N.",
+      7
+    ],
+    [
+      10,
+      8158925,
+      "3. Respect Your Elders (Heather B.)",
+      6
+    ],
+    [
+      10,
+      8148416,
+      "9. May the Spike Be With You (Ash C.)",
+      13
+    ],
+    [
+      10,
+      8172362,
+      "5. Tri-Angels (Johnny P.)",
+      4
+    ],
+    [
+      10,
+      8153216,
+      "2. Volley Llamas (Jamie D.)",
+      16
+    ],
+    [
+      10,
+      8179731,
+      "8. Third Wheel Energy (Isa T.)",
+      1
+    ],
+    [
+      10,
+      8160698,
+      "6. Settin Pretty (Elizabeth A.)",
+      16
+    ],
+    [
+      10,
+      8190678,
+      "10. Free Agents (Jason T.)",
+      1
+    ],
+    [
+      10,
+      8175870,
+      "4. No Faith (Donald P.)",
+      1
+    ],
+    [
+      10,
+      8173279,
+      "7. Sandy Cheeks (Mica R.)",
+      2
+    ],
+    [
+      10,
+      8181763,
+      "1. Gold Diggers (Gabriela C.)",
+      1
     ],
     [
       11,
@@ -3298,6 +3298,12 @@
     ],
     [
       13,
+      8152547,
+      "6. Injured Reserve! (Joe R.)",
+      10
+    ],
+    [
+      13,
       8127097,
       "1. Crab (Collin W.)",
       8
@@ -3307,12 +3313,6 @@
       8156585,
       "11. I Dunno (Matt G.)",
       2
-    ],
-    [
-      13,
-      8152547,
-      "6. Injured Reserve! (Joe R.)",
-      10
     ],
     [
       13,
@@ -26063,7 +26063,7 @@
     [
       14567347,
       "Johnny",
-      8,
+      3,
       8160228,
       "3. 3 OGs and Bae (Johnny W.)",
       27
@@ -26087,7 +26087,7 @@
     [
       14578171,
       "Sarah",
-      6,
+      1,
       8138562,
       "7. Sarah S. and Jo P.",
       11
@@ -26095,7 +26095,7 @@
     [
       14582476,
       "Albert",
-      9,
+      4,
       8162254,
       "4. The Replacements (Joe R.)",
       29
@@ -26135,7 +26135,7 @@
     [
       14595709,
       "Elaine",
-      6,
+      1,
       8150634,
       "6. Tina O. and Elaine L.",
       21
@@ -26175,7 +26175,7 @@
     [
       14605978,
       "Philip",
-      10,
+      5,
       8159639,
       "5. Vacacioners (Phil M.)",
       18
@@ -26191,7 +26191,7 @@
     [
       14608675,
       "Milica",
-      1,
+      6,
       8178846,
       "7. Mili V. and Tiffany S.",
       6
@@ -26207,7 +26207,7 @@
     [
       14611279,
       "Tina",
-      6,
+      1,
       8150634,
       "6. Tina O. and Elaine L.",
       31
@@ -26215,7 +26215,7 @@
     [
       14611366,
       "Daniel",
-      4,
+      9,
       8148569,
       "2. Holli D. and Dan L.",
       20
@@ -26343,7 +26343,7 @@
     [
       14641990,
       "Jamie",
-      5,
+      10,
       8153216,
       "2. Volley Llamas (Jamie D.)",
       16
@@ -26351,7 +26351,7 @@
     [
       14645212,
       "Marc",
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       16
@@ -26367,7 +26367,7 @@
     [
       14645653,
       "Theresa",
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       16
@@ -26391,7 +26391,7 @@
     [
       14646004,
       "isa",
-      5,
+      10,
       8179731,
       "8. Third Wheel Energy (Isa T.)",
       23
@@ -26399,7 +26399,7 @@
     [
       14647747,
       "Jonathan",
-      5,
+      10,
       8153216,
       "2. Volley Llamas (Jamie D.)",
       28
@@ -26407,15 +26407,15 @@
     [
       14657086,
       "Liz",
-      3,
-      8156793,
-      "4. Liz C. and Josman R.",
+      1,
+      8156795,
+      "9. Liz C. and Madison P.",
       31
     ],
     [
       14657521,
       "Olivia",
-      6,
+      1,
       8148743,
       "1. Olivia J. and Emily S.",
       30
@@ -26423,7 +26423,7 @@
     [
       14658568,
       "Katelyn",
-      10,
+      5,
       8142715,
       "4. Toodles (Michael L.)",
       10
@@ -26431,7 +26431,7 @@
     [
       14662834,
       "Beth",
-      1,
+      6,
       8178840,
       "10. Julia V. and Beth B.",
       25
@@ -26447,7 +26447,7 @@
     [
       14663194,
       "Jimmy",
-      8,
+      3,
       8148853,
       "1. Beach Bunnies (Jimmy R.)",
       16
@@ -26463,7 +26463,7 @@
     [
       14668342,
       "Erika",
-      6,
+      1,
       8150898,
       "2. Erika P. and Becca W.",
       14
@@ -26487,7 +26487,7 @@
     [
       14668864,
       "Daphne",
-      9,
+      4,
       8135728,
       "6. Volley Llamas (Daphne D.)",
       16
@@ -26503,7 +26503,7 @@
     [
       14670136,
       "Traci",
-      8,
+      3,
       8159128,
       "6. Twin Peaks (Dan F.)",
       16
@@ -26519,15 +26519,15 @@
     [
       14672281,
       "Brian",
-      5,
-      8148416,
-      "9. May the Spike Be With You (Ash C.)",
+      4,
+      8135728,
+      "6. Volley Llamas (Daphne D.)",
       29
     ],
     [
       14672407,
       "Daniel",
-      8,
+      3,
       8159128,
       "6. Twin Peaks (Dan F.)",
       16
@@ -26552,8 +26552,8 @@
       14681206,
       "Josman",
       3,
-      8156793,
-      "4. Liz C. and Josman R.",
+      8160228,
+      "3. 3 OGs and Bae (Johnny W.)",
       48
     ],
     [
@@ -26607,7 +26607,7 @@
     [
       14684353,
       "Heather",
-      5,
+      10,
       8158925,
       "3. Respect Your Elders (Heather B.)",
       7
@@ -26639,7 +26639,7 @@
     [
       14703736,
       "Jesse",
-      5,
+      10,
       8158925,
       "3. Respect Your Elders (Heather B.)",
       7
@@ -26687,7 +26687,7 @@
     [
       14707129,
       "Emiliano",
-      8,
+      3,
       8165690,
       "8. Net Ninjas (Ali F.)",
       16
@@ -26695,7 +26695,7 @@
     [
       14707312,
       "Jenny",
-      4,
+      9,
       8170440,
       "8. Jenny S. and Nate G.",
       8
@@ -26735,7 +26735,7 @@
     [
       14722816,
       "Nathan",
-      8,
+      3,
       8148853,
       "1. Beach Bunnies (Jimmy R.)",
       11
@@ -26791,7 +26791,7 @@
     [
       14741917,
       "Darren",
-      8,
+      3,
       8148853,
       "1. Beach Bunnies (Jimmy R.)",
       4
@@ -26815,7 +26815,7 @@
     [
       14752150,
       "Elizabeth",
-      5,
+      10,
       8160698,
       "6. Settin Pretty (Elizabeth A.)",
       16
@@ -26839,7 +26839,7 @@
     [
       14760175,
       "Tiffany",
-      1,
+      6,
       8178846,
       "7. Mili V. and Tiffany S.",
       9
@@ -26863,7 +26863,7 @@
     [
       14770312,
       "Francesca",
-      1,
+      6,
       8178867,
       "4. Fran R. and Kat H.",
       3
@@ -26871,7 +26871,7 @@
     [
       14772262,
       "George",
-      3,
+      8,
       8159552,
       "8. Helen L. and George C.",
       20
@@ -26927,7 +26927,7 @@
     [
       14798362,
       "Christian",
-      10,
+      5,
       8142715,
       "4. Toodles (Michael L.)",
       14
@@ -26935,7 +26935,7 @@
     [
       14804548,
       "Michael",
-      10,
+      5,
       8142715,
       "4. Toodles (Michael L.)",
       16
@@ -26951,7 +26951,7 @@
     [
       14808136,
       "Scott",
-      10,
+      5,
       8142715,
       "4. Toodles (Michael L.)",
       15
@@ -26967,7 +26967,7 @@
     [
       14817949,
       "Lindsay",
-      6,
+      1,
       8143348,
       "3. Brittney G. and Lindsay K.",
       16
@@ -26975,7 +26975,7 @@
     [
       14820583,
       "David",
-      5,
+      10,
       8160698,
       "6. Settin Pretty (Elizabeth A.)",
       16
@@ -26991,7 +26991,7 @@
     [
       14822965,
       "Sean",
-      5,
+      10,
       8160698,
       "6. Settin Pretty (Elizabeth A.)",
       24
@@ -27007,7 +27007,7 @@
     [
       14862112,
       "Sukumar",
-      8,
+      3,
       8159128,
       "6. Twin Peaks (Dan F.)",
       34
@@ -27031,7 +27031,7 @@
     [
       14866009,
       "Michael",
-      8,
+      3,
       8160228,
       "3. 3 OGs and Bae (Johnny W.)",
       21
@@ -27063,7 +27063,7 @@
     [
       14882443,
       "Coco",
-      5,
+      10,
       8179731,
       "8. Third Wheel Energy (Isa T.)",
       1
@@ -27079,9 +27079,9 @@
     [
       14915290,
       "Jon",
-      3,
-      8173044,
-      "7. Kaegan W. and Jon N.",
+      5,
+      8159639,
+      "5. Vacacioners (Phil M.)",
       40
     ],
     [
@@ -27095,7 +27095,7 @@
     [
       14921479,
       "Brent",
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       16
@@ -27135,7 +27135,7 @@
     [
       14943529,
       "Samantha",
-      8,
+      3,
       8148853,
       "1. Beach Bunnies (Jimmy R.)",
       13
@@ -27215,7 +27215,7 @@
     [
       15223006,
       "Brandon",
-      9,
+      4,
       8153555,
       "2. Big Dig Energy (Chad S.)",
       2
@@ -27231,7 +27231,7 @@
     [
       15314752,
       "Yanni",
-      6,
+      1,
       8150354,
       "4. Yanni S. and Ali. M.",
       16
@@ -27239,7 +27239,7 @@
     [
       15489367,
       "Shanna",
-      8,
+      3,
       8160228,
       "3. 3 OGs and Bae (Johnny W.)",
       16
@@ -27303,7 +27303,7 @@
     [
       16172593,
       "Luis",
-      10,
+      5,
       8148916,
       "8. Team Jacob (Mark J.)",
       18
@@ -27311,7 +27311,7 @@
     [
       16183681,
       "Nicole",
-      6,
+      1,
       8139645,
       "8. Molly J. and Nicole B.",
       20
@@ -27367,7 +27367,7 @@
     [
       16226119,
       "Travis",
-      4,
+      9,
       8160252,
       "7. Kim M. and Travis B.",
       15
@@ -27527,7 +27527,7 @@
     [
       17299156,
       "Daniel",
-      10,
+      5,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       18
@@ -27535,7 +27535,7 @@
     [
       17299171,
       "Emily",
-      3,
+      8,
       8173157,
       "5. Emily R. and Dreco S.",
       15
@@ -27591,7 +27591,7 @@
     [
       17332996,
       "Leandro",
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       9
@@ -27623,7 +27623,7 @@
     [
       17401432,
       "Joann",
-      4,
+      9,
       8159362,
       "5. Joann L. and Jacob W.",
       13
@@ -27639,7 +27639,7 @@
     [
       18293119,
       "Calvin",
-      10,
+      5,
       8163533,
       "3. Hustle Gang (Calvin D.)",
       18
@@ -27647,7 +27647,7 @@
     [
       18312439,
       "Joshua",
-      5,
+      10,
       8173279,
       "7. Sandy Cheeks (Mica R.)",
       2
@@ -27655,7 +27655,7 @@
     [
       18431188,
       "Daniel",
-      9,
+      4,
       8135728,
       "6. Volley Llamas (Daphne D.)",
       14
@@ -27767,7 +27767,7 @@
     [
       18883024,
       "Becca",
-      6,
+      1,
       8150898,
       "2. Erika P. and Becca W.",
       6
@@ -28007,7 +28007,7 @@
     [
       21071014,
       "Aatir",
-      10,
+      5,
       8163520,
       "6. Bombaclat! (Aatir A.)",
       33
@@ -28031,7 +28031,7 @@
     [
       21101914,
       "Lauren",
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       18
@@ -28087,9 +28087,9 @@
     [
       21231646,
       "Ash",
-      5,
-      8148416,
-      "9. May the Spike Be With You (Ash C.)",
+      4,
+      8136555,
+      "3. The Empire Spikes Back (Ash C.)",
       36
     ],
     [
@@ -28199,7 +28199,7 @@
     [
       22293661,
       "Ian",
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       8
@@ -28207,9 +28207,9 @@
     [
       22297144,
       "Caroline",
-      3,
-      8148910,
-      "6. Caroline J. and Mark J.",
+      5,
+      8148916,
+      "8. Team Jacob (Mark J.)",
       16
     ],
     [
@@ -28239,7 +28239,7 @@
     [
       22320031,
       "Eduardo",
-      9,
+      4,
       8164493,
       "1. Gold Star for Effort (Merilyn V.)",
       1
@@ -28431,15 +28431,15 @@
     [
       23555404,
       "Mark",
-      3,
-      8148910,
-      "6. Caroline J. and Mark J.",
+      5,
+      8148916,
+      "8. Team Jacob (Mark J.)",
       31
     ],
     [
       23612125,
       "Jason",
-      5,
+      10,
       8190678,
       "10. Free Agents (Jason T.)",
       1
@@ -28463,7 +28463,7 @@
     [
       23674771,
       "Bryan",
-      10,
+      5,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       18
@@ -28519,7 +28519,7 @@
     [
       23944489,
       "Chad",
-      9,
+      4,
       8153555,
       "2. Big Dig Energy (Chad S.)",
       11
@@ -28639,7 +28639,7 @@
     [
       25389682,
       "Joe",
-      9,
+      4,
       8162254,
       "4. The Replacements (Joe R.)",
       18
@@ -28823,7 +28823,7 @@
     [
       25729899,
       "Kim",
-      1,
+      6,
       8179958,
       "3. Denise H. and Kim S.",
       1
@@ -28847,7 +28847,7 @@
     [
       27842592,
       "Greg",
-      5,
+      10,
       8190678,
       "10. Free Agents (Jason T.)",
       2
@@ -28903,7 +28903,7 @@
     [
       27941982,
       "Annie",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       20
@@ -28919,7 +28919,7 @@
     [
       27966189,
       "Parker",
-      8,
+      3,
       8137254,
       "4. Milk (Sean M.)",
       21
@@ -29135,7 +29135,7 @@
     [
       29586969,
       "Matthew",
-      9,
+      4,
       8136555,
       "3. The Empire Spikes Back (Ash C.)",
       19
@@ -29143,7 +29143,7 @@
     [
       29603115,
       "Manny",
-      3,
+      8,
       8152686,
       "2. Sydney Z. and Manny A.",
       10
@@ -29167,7 +29167,7 @@
     [
       29624799,
       "Philip",
-      10,
+      5,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       29
@@ -29191,7 +29191,7 @@
     [
       29652405,
       "Eduardo",
-      9,
+      4,
       8162254,
       "4. The Replacements (Joe R.)",
       7
@@ -29239,7 +29239,7 @@
     [
       29703738,
       "Patrick",
-      8,
+      3,
       8137254,
       "4. Milk (Sean M.)",
       19
@@ -29327,7 +29327,7 @@
     [
       29916075,
       "Kim",
-      4,
+      9,
       8160252,
       "7. Kim M. and Travis B.",
       12
@@ -29375,7 +29375,7 @@
     [
       31687011,
       "Brittney",
-      6,
+      1,
       8143348,
       "3. Brittney G. and Lindsay K.",
       11
@@ -29399,7 +29399,7 @@
     [
       31727040,
       "Andrew",
-      9,
+      4,
       8136555,
       "3. The Empire Spikes Back (Ash C.)",
       18
@@ -29439,7 +29439,7 @@
     [
       33061706,
       "Sarah",
-      10,
+      5,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       11
@@ -29559,7 +29559,7 @@
     [
       35077900,
       "David",
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       16
@@ -29663,7 +29663,7 @@
     [
       35155099,
       "Molly",
-      6,
+      1,
       8139645,
       "8. Molly J. and Nicole B.",
       32
@@ -29719,7 +29719,7 @@
     [
       35491195,
       "Sean",
-      8,
+      3,
       8137254,
       "4. Milk (Sean M.)",
       18
@@ -29823,7 +29823,7 @@
     [
       37660606,
       "Emily",
-      6,
+      1,
       8148743,
       "1. Olivia J. and Emily S.",
       20
@@ -29847,7 +29847,7 @@
     [
       37927784,
       "Matt",
-      4,
+      9,
       8171251,
       "6. Ellie B. and Matt G.",
       28
@@ -29895,9 +29895,9 @@
     [
       38194146,
       "Brett",
-      5,
-      8148416,
-      "9. May the Spike Be With You (Ash C.)",
+      4,
+      8136555,
+      "3. The Empire Spikes Back (Ash C.)",
       26
     ],
     [
@@ -29911,7 +29911,7 @@
     [
       38361803,
       "Casey",
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       15
@@ -29935,7 +29935,7 @@
     [
       38410853,
       "Merilyn",
-      9,
+      4,
       8164493,
       "1. Gold Star for Effort (Merilyn V.)",
       7
@@ -29959,7 +29959,7 @@
     [
       39155898,
       "Jeffrey",
-      10,
+      5,
       8148916,
       "8. Team Jacob (Mark J.)",
       31
@@ -29999,7 +29999,7 @@
     [
       39325206,
       "Mica",
-      5,
+      10,
       8173279,
       "7. Sandy Cheeks (Mica R.)",
       2
@@ -30127,7 +30127,7 @@
     [
       39777216,
       "Yaya",
-      10,
+      5,
       8163533,
       "3. Hustle Gang (Calvin D.)",
       19
@@ -30135,7 +30135,7 @@
     [
       41062593,
       "Jordan",
-      1,
+      6,
       8191327,
       "6. Annie H. and Jordan W.",
       1
@@ -30143,7 +30143,7 @@
     [
       41817930,
       "Jacob",
-      4,
+      9,
       8159362,
       "5. Joann L. and Jacob W.",
       15
@@ -30159,7 +30159,7 @@
     [
       42323817,
       "David",
-      4,
+      9,
       8176028,
       "3. Sue L. and David N.",
       14
@@ -30207,7 +30207,7 @@
     [
       42478986,
       "Sue-Lynn",
-      4,
+      9,
       8176028,
       "3. Sue L. and David N.",
       14
@@ -30295,7 +30295,7 @@
     [
       42548046,
       "Andy",
-      10,
+      5,
       8163816,
       "7. Holy Blockamole Infinity (Bryan M.)",
       14
@@ -30351,7 +30351,7 @@
     [
       42581307,
       "Connor",
-      7,
+      2,
       8137762,
       "4. Notorious DIG (Connor D.)",
       16
@@ -30511,7 +30511,7 @@
     [
       44346374,
       "Nicole",
-      8,
+      3,
       8159128,
       "6. Twin Peaks (Dan F.)",
       13
@@ -30527,7 +30527,7 @@
     [
       44346402,
       "Ransom",
-      10,
+      5,
       8150721,
       "1. Carolina Beach Bumpers (Ashton M.)",
       9
@@ -30615,7 +30615,7 @@
     [
       45106113,
       "Mikah",
-      1,
+      6,
       8185977,
       "9. Gabby T. and Mikah M.",
       6
@@ -30639,7 +30639,7 @@
     [
       45168284,
       "Faith",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       7
@@ -30671,7 +30671,7 @@
     [
       45223676,
       "Connor",
-      9,
+      4,
       8135728,
       "6. Volley Llamas (Daphne D.)",
       8
@@ -30687,7 +30687,7 @@
     [
       45244686,
       "Donald",
-      5,
+      10,
       8175870,
       "4. No Faith (Donald P.)",
       2
@@ -30695,7 +30695,7 @@
     [
       45248311,
       "Holli",
-      4,
+      9,
       8148569,
       "2. Holli D. and Dan L.",
       17
@@ -30783,7 +30783,7 @@
     [
       45495747,
       "Aj",
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       18
@@ -30959,7 +30959,7 @@
     [
       45906751,
       "Sarah",
-      3,
+      8,
       8153805,
       "1. Sarah U. and Logan C.",
       22
@@ -31031,7 +31031,7 @@
     [
       45960347,
       "Joel",
-      4,
+      9,
       8148865,
       "4. Jodie N. and Joel G.",
       1
@@ -31055,7 +31055,7 @@
     [
       45979100,
       "Olivia",
-      4,
+      9,
       8148465,
       "1. Olivia E. and Jason O.",
       10
@@ -31119,7 +31119,7 @@
     [
       46065529,
       "Ashton",
-      10,
+      5,
       8150721,
       "1. Carolina Beach Bumpers (Ashton M.)",
       13
@@ -31144,14 +31144,14 @@
       46560615,
       "Kat",
       1,
-      8178867,
-      "4. Fran R. and Kat H.",
+      8167966,
+      "10. Kat H. and Julia V.",
       2
     ],
     [
       46566898,
       "Denise",
-      1,
+      6,
       8179958,
       "3. Denise H. and Kim S.",
       7
@@ -31159,7 +31159,7 @@
     [
       46568397,
       "William",
-      7,
+      2,
       8138261,
       "2. Bump, Set, Dammit! (Michael G.)",
       7
@@ -31215,7 +31215,7 @@
     [
       46623269,
       "Lola",
-      9,
+      4,
       8153555,
       "2. Big Dig Energy (Chad S.)",
       11
@@ -31239,7 +31239,7 @@
     [
       46627282,
       "Cristofer",
-      10,
+      5,
       8159639,
       "5. Vacacioners (Phil M.)",
       9
@@ -31247,7 +31247,7 @@
     [
       46628031,
       "kellye",
-      5,
+      10,
       8179731,
       "8. Third Wheel Energy (Isa T.)",
       5
@@ -31359,7 +31359,7 @@
     [
       46867934,
       "Sydney",
-      3,
+      8,
       8152686,
       "2. Sydney Z. and Manny A.",
       13
@@ -31367,7 +31367,7 @@
     [
       46898895,
       "Clayton",
-      10,
+      5,
       8163533,
       "3. Hustle Gang (Calvin D.)",
       21
@@ -31375,9 +31375,9 @@
     [
       46933884,
       "Johnny",
-      5,
-      8172362,
-      "5. Tri-Angels (Johnny P.)",
+      2,
+      8142399,
+      "1. Beach Please (Annie L.)",
       8
     ],
     [
@@ -31391,7 +31391,7 @@
     [
       46969102,
       "Miguel",
-      9,
+      4,
       8164233,
       "10. Carpe Digem (Eric H.)",
       13
@@ -31399,7 +31399,7 @@
     [
       46969143,
       "Eric",
-      9,
+      4,
       8164233,
       "10. Carpe Digem (Eric H.)",
       10
@@ -31439,7 +31439,7 @@
     [
       47034997,
       "Ali",
-      6,
+      1,
       8150354,
       "4. Yanni S. and Ali. M.",
       17
@@ -31455,7 +31455,7 @@
     [
       47047060,
       "Bethany",
-      9,
+      4,
       8164233,
       "10. Carpe Digem (Eric H.)",
       12
@@ -31767,9 +31767,9 @@
     [
       47994805,
       "Gabby",
-      1,
-      8185977,
-      "9. Gabby T. and Mikah M.",
+      4,
+      8164493,
+      "1. Gold Star for Effort (Merilyn V.)",
       5
     ],
     [
@@ -31815,7 +31815,7 @@
     [
       48184584,
       "Michael",
-      7,
+      2,
       8138261,
       "2. Bump, Set, Dammit! (Michael G.)",
       13
@@ -31823,7 +31823,7 @@
     [
       48184594,
       "Casey",
-      7,
+      2,
       8138261,
       "2. Bump, Set, Dammit! (Michael G.)",
       13
@@ -31975,7 +31975,7 @@
     [
       49007140,
       "Jalen",
-      10,
+      5,
       8163533,
       "3. Hustle Gang (Calvin D.)",
       10
@@ -31983,7 +31983,7 @@
     [
       49008374,
       "JT",
-      9,
+      4,
       8159903,
       "8. Gold Diggerz (JT N.)",
       10
@@ -32015,7 +32015,7 @@
     [
       49305252,
       "Brittany",
-      7,
+      2,
       8148907,
       "11. What Court Are We On (Bear S.)",
       11
@@ -32023,7 +32023,7 @@
     [
       49365824,
       "Jolene",
-      6,
+      1,
       8138562,
       "7. Sarah S. and Jo P.",
       32
@@ -32055,7 +32055,7 @@
     [
       49397436,
       "Juliana",
-      6,
+      1,
       8161616,
       "5. Juliana T. and Lauren W.",
       13
@@ -32119,7 +32119,7 @@
     [
       49754764,
       "Lauren",
-      6,
+      1,
       8161616,
       "5. Juliana T. and Lauren W.",
       16
@@ -32167,7 +32167,7 @@
     [
       49848064,
       "Stephanie",
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       9
@@ -32199,7 +32199,7 @@
     [
       49859817,
       "David",
-      7,
+      2,
       8150563,
       "7. The Thurmanators (David Z.)",
       8
@@ -32247,9 +32247,9 @@
     [
       49869006,
       "Helen",
-      3,
-      8159552,
-      "8. Helen L. and George C.",
+      4,
+      8146380,
+      "9. Holy Balls (Jacob Y.)",
       10
     ],
     [
@@ -32271,7 +32271,7 @@
     [
       49879219,
       "Jodie",
-      4,
+      9,
       8148865,
       "4. Jodie N. and Joel G.",
       8
@@ -32287,7 +32287,7 @@
     [
       49887623,
       "Christina",
-      7,
+      2,
       8137775,
       "5. Sets Pistols (Christina Z.)",
       9
@@ -32480,8 +32480,8 @@
       50025583,
       "Julia",
       1,
-      8178840,
-      "10. Julia V. and Beth B.",
+      8167966,
+      "10. Kat H. and Julia V.",
       10
     ],
     [
@@ -32567,7 +32567,7 @@
     [
       51016581,
       "Carl",
-      5,
+      10,
       8153216,
       "2. Volley Llamas (Jamie D.)",
       8
@@ -32583,7 +32583,7 @@
     [
       51139908,
       "Sarah",
-      7,
+      2,
       8169638,
       "12. Bump Buddies (Mitch L.)",
       2
@@ -32591,7 +32591,7 @@
     [
       51140157,
       "Mitch",
-      7,
+      2,
       8169638,
       "12. Bump Buddies (Mitch L.)",
       2
@@ -32615,7 +32615,7 @@
     [
       51141663,
       "Inah",
-      7,
+      2,
       8169638,
       "12. Bump Buddies (Mitch L.)",
       2
@@ -32663,7 +32663,7 @@
     [
       51263976,
       "Collin",
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       15
@@ -32719,7 +32719,7 @@
     [
       51314898,
       "Jordan",
-      10,
+      5,
       8150721,
       "1. Carolina Beach Bumpers (Ashton M.)",
       9
@@ -32759,7 +32759,7 @@
     [
       51413808,
       "Carlo",
-      7,
+      2,
       8137762,
       "4. Notorious DIG (Connor D.)",
       8
@@ -32767,7 +32767,7 @@
     [
       51435336,
       "Blake",
-      8,
+      3,
       8159110,
       "5. Watermelon (Lauren K.)",
       8
@@ -32839,7 +32839,7 @@
     [
       51852223,
       "Bear",
-      7,
+      2,
       8148907,
       "11. What Court Are We On (Bear S.)",
       8
@@ -32903,7 +32903,7 @@
     [
       52168777,
       "Eliza",
-      8,
+      3,
       8154126,
       "7. Bongos (Joseph M.)",
       8
@@ -32943,7 +32943,7 @@
     [
       52192931,
       "SEAN",
-      9,
+      4,
       8153555,
       "2. Big Dig Energy (Chad S.)",
       8
@@ -32999,7 +32999,7 @@
     [
       52234319,
       "Brittany",
-      7,
+      2,
       8150563,
       "7. The Thurmanators (David Z.)",
       7
@@ -33031,7 +33031,7 @@
     [
       52256129,
       "Faith",
-      10,
+      5,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       4
@@ -33047,7 +33047,7 @@
     [
       52265111,
       "Chelsea",
-      10,
+      5,
       8163520,
       "6. Bombaclat! (Aatir A.)",
       6
@@ -33111,7 +33111,7 @@
     [
       52392326,
       "Joseph",
-      8,
+      3,
       8154126,
       "7. Bongos (Joseph M.)",
       8
@@ -33127,7 +33127,7 @@
     [
       52703379,
       "Brooke",
-      1,
+      6,
       8179595,
       "1. Brooke F. and Angel H.",
       3
@@ -33135,7 +33135,7 @@
     [
       53178353,
       "Anna",
-      8,
+      3,
       8137254,
       "4. Milk (Sean M.)",
       7
@@ -33143,7 +33143,7 @@
     [
       53185400,
       "Daniel",
-      10,
+      5,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       7
@@ -33175,7 +33175,7 @@
     [
       53277253,
       "Kaegan",
-      3,
+      8,
       8173044,
       "7. Kaegan W. and Jon N.",
       11
@@ -33231,7 +33231,7 @@
     [
       53474081,
       "Ali",
-      8,
+      3,
       8165690,
       "8. Net Ninjas (Ali F.)",
       4
@@ -33239,7 +33239,7 @@
     [
       53477234,
       "Manav",
-      7,
+      2,
       8150563,
       "7. The Thurmanators (David Z.)",
       4
@@ -33247,7 +33247,7 @@
     [
       53529639,
       "Phil",
-      5,
+      10,
       8158925,
       "3. Respect Your Elders (Heather B.)",
       6
@@ -33287,7 +33287,7 @@
     [
       53567732,
       "Jean-Andre",
-      7,
+      2,
       8155575,
       "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       3
@@ -33303,7 +33303,7 @@
     [
       53587344,
       "Doria",
-      1,
+      6,
       8179406,
       "5. Doria O. and Anna S.",
       5
@@ -33327,7 +33327,7 @@
     [
       53615881,
       "Anna",
-      1,
+      6,
       8179406,
       "5. Doria O. and Anna S.",
       6
@@ -33335,9 +33335,9 @@
     [
       53615950,
       "Sarah",
-      5,
-      8190678,
-      "10. Free Agents (Jason T.)",
+      2,
+      8155575,
+      "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       8
     ],
     [
@@ -33375,7 +33375,7 @@
     [
       53966997,
       "Maddison",
-      7,
+      2,
       8148907,
       "11. What Court Are We On (Bear S.)",
       3
@@ -33399,7 +33399,7 @@
     [
       54222067,
       "Catalina",
-      7,
+      2,
       8147602,
       "8. Unprotected Sets (Catalina P.)",
       5
@@ -33423,7 +33423,7 @@
     [
       54260372,
       "Nick",
-      7,
+      2,
       8137775,
       "5. Sets Pistols (Christina Z.)",
       5
@@ -33447,7 +33447,7 @@
     [
       54267814,
       "Tyler",
-      7,
+      2,
       8147602,
       "8. Unprotected Sets (Catalina P.)",
       5
@@ -33455,7 +33455,7 @@
     [
       54267817,
       "Samuel",
-      7,
+      2,
       8147602,
       "8. Unprotected Sets (Catalina P.)",
       5
@@ -33471,7 +33471,7 @@
     [
       54268790,
       "Hannah",
-      7,
+      2,
       8147602,
       "8. Unprotected Sets (Catalina P.)",
       5
@@ -33511,7 +33511,7 @@
     [
       54284882,
       "Dennis",
-      7,
+      2,
       8159435,
       "10. 50/50 (Oscar G.)",
       4
@@ -33527,7 +33527,7 @@
     [
       54298552,
       "Jonatan",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       4
@@ -33543,7 +33543,7 @@
     [
       54319380,
       "Madison",
-      6,
+      1,
       8156795,
       "9. Liz C. and Madison P.",
       5
@@ -33583,9 +33583,9 @@
     [
       54336214,
       "Logan",
-      3,
-      8153805,
-      "1. Sarah U. and Logan C.",
+      5,
+      8163520,
+      "6. Bombaclat! (Aatir A.)",
       6
     ],
     [
@@ -33623,7 +33623,7 @@
     [
       54407533,
       "Hector",
-      4,
+      9,
       8190694,
       "10. Lauren V. and Hector T.",
       3
@@ -33631,7 +33631,7 @@
     [
       54415783,
       "Javier",
-      8,
+      3,
       8165690,
       "8. Net Ninjas (Ali F.)",
       4
@@ -33647,7 +33647,7 @@
     [
       54426683,
       "Jacob",
-      10,
+      5,
       8150950,
       "2. Not Good at Volleyball Puns (Daniel A.)",
       10
@@ -33727,7 +33727,7 @@
     [
       55428638,
       "Ellie",
-      4,
+      9,
       8171251,
       "6. Ellie B. and Matt G.",
       4
@@ -33751,7 +33751,7 @@
     [
       55479882,
       "Leslie",
-      9,
+      4,
       8162254,
       "4. The Replacements (Joe R.)",
       3
@@ -33775,7 +33775,7 @@
     [
       55558468,
       "Thanh",
-      7,
+      2,
       8137775,
       "5. Sets Pistols (Christina Z.)",
       4
@@ -33807,7 +33807,7 @@
     [
       55630518,
       "Grayson",
-      9,
+      4,
       8159903,
       "8. Gold Diggerz (JT N.)",
       4
@@ -33823,7 +33823,7 @@
     [
       55642051,
       "Caleb",
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       4
@@ -33831,7 +33831,7 @@
     [
       55675120,
       "Isabel",
-      9,
+      4,
       8148877,
       "7. Can You Dig It? (Marc S.)",
       4
@@ -33855,7 +33855,7 @@
     [
       55716045,
       "Rachel",
-      7,
+      2,
       8155575,
       "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       5
@@ -33879,7 +33879,7 @@
     [
       55737640,
       "Paolo",
-      7,
+      2,
       8137762,
       "4. Notorious DIG (Connor D.)",
       4
@@ -33903,7 +33903,7 @@
     [
       55938787,
       "Julianna",
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       4
@@ -33911,7 +33911,7 @@
     [
       56429116,
       "Joe",
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       5
@@ -33951,7 +33951,7 @@
     [
       56640764,
       "Matthew",
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       3
@@ -33991,7 +33991,7 @@
     [
       56679920,
       "Jaimie",
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       4
@@ -34007,7 +34007,7 @@
     [
       56689950,
       "Daniel",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       3
@@ -34039,7 +34039,7 @@
     [
       56707771,
       "Joshua",
-      10,
+      5,
       8159639,
       "5. Vacacioners (Phil M.)",
       2
@@ -34055,7 +34055,7 @@
     [
       56719587,
       "Will",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       3
@@ -34063,7 +34063,7 @@
     [
       56720825,
       "Rudy",
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       1
@@ -34071,7 +34071,7 @@
     [
       56723759,
       "Sam",
-      9,
+      4,
       8164493,
       "1. Gold Star for Effort (Merilyn V.)",
       3
@@ -34199,7 +34199,7 @@
     [
       57693595,
       "Lexi",
-      7,
+      2,
       8137762,
       "4. Notorious DIG (Connor D.)",
       2
@@ -34215,7 +34215,7 @@
     [
       57699748,
       "Morgan",
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       2
@@ -34223,7 +34223,7 @@
     [
       57705359,
       "Amanda",
-      7,
+      2,
       8137775,
       "5. Sets Pistols (Christina Z.)",
       2
@@ -34239,7 +34239,7 @@
     [
       57712885,
       "Chris",
-      5,
+      10,
       8172362,
       "5. Tri-Angels (Johnny P.)",
       2
@@ -34263,7 +34263,7 @@
     [
       57727430,
       "Jacob",
-      9,
+      4,
       8146380,
       "9. Holy Balls (Jacob Y.)",
       2
@@ -34287,7 +34287,7 @@
     [
       57744675,
       "Delaney",
-      10,
+      5,
       8159639,
       "5. Vacacioners (Phil M.)",
       3
@@ -34295,7 +34295,7 @@
     [
       57749870,
       "Taylor",
-      3,
+      8,
       8161071,
       "3. Taylor P. and Carson S.",
       2
@@ -34351,7 +34351,7 @@
     [
       57799613,
       "lauren",
-      4,
+      9,
       8190694,
       "10. Lauren V. and Hector T.",
       2
@@ -34383,7 +34383,7 @@
     [
       57810251,
       "Nathaniel",
-      7,
+      2,
       8148907,
       "11. What Court Are We On (Bear S.)",
       2
@@ -34399,7 +34399,7 @@
     [
       57812964,
       "Oscar",
-      7,
+      2,
       8159435,
       "10. 50/50 (Oscar G.)",
       2
@@ -34415,7 +34415,7 @@
     [
       57827553,
       "Angel",
-      1,
+      6,
       8179595,
       "1. Brooke F. and Angel H.",
       2
@@ -34439,7 +34439,7 @@
     [
       57850164,
       "Ryan",
-      9,
+      4,
       8159903,
       "8. Gold Diggerz (JT N.)",
       2
@@ -34463,7 +34463,7 @@
     [
       58318135,
       "Daniel",
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       2
@@ -34471,7 +34471,7 @@
     [
       58469200,
       "Steven",
-      9,
+      4,
       8146380,
       "9. Holy Balls (Jacob Y.)",
       1
@@ -34479,7 +34479,7 @@
     [
       58476420,
       "Andrew",
-      9,
+      4,
       8146380,
       "9. Holy Balls (Jacob Y.)",
       1
@@ -34487,7 +34487,7 @@
     [
       58487459,
       "Mohan",
-      7,
+      2,
       8150563,
       "7. The Thurmanators (David Z.)",
       1
@@ -34495,7 +34495,7 @@
     [
       58492570,
       "Nikheel",
-      9,
+      4,
       8148116,
       "5. Shank You Very Much (Jaimie M.)",
       1
@@ -34503,7 +34503,7 @@
     [
       58527656,
       "Payden",
-      7,
+      2,
       8155575,
       "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       2
@@ -34519,7 +34519,7 @@
     [
       58528101,
       "Zen",
-      7,
+      2,
       8155575,
       "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       2
@@ -34567,7 +34567,7 @@
     [
       58551386,
       "Cami",
-      7,
+      2,
       8159435,
       "10. 50/50 (Oscar G.)",
       1
@@ -34575,7 +34575,7 @@
     [
       58551394,
       "Daniel",
-      7,
+      2,
       8159435,
       "10. 50/50 (Oscar G.)",
       1
@@ -34583,7 +34583,7 @@
     [
       58556586,
       "Paige",
-      9,
+      4,
       8159903,
       "8. Gold Diggerz (JT N.)",
       1
@@ -34591,7 +34591,7 @@
     [
       58558118,
       "Gabriela",
-      5,
+      10,
       8181763,
       "1. Gold Diggers (Gabriela C.)",
       2
@@ -34607,7 +34607,7 @@
     [
       58573685,
       "Annie",
-      1,
+      6,
       8191327,
       "6. Annie H. and Jordan W.",
       2
@@ -34615,7 +34615,7 @@
     [
       58578750,
       "Steven",
-      9,
+      4,
       8164233,
       "10. Carpe Digem (Eric H.)",
       1
@@ -34623,7 +34623,7 @@
     [
       58592062,
       "Corey",
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       1
@@ -34631,7 +34631,7 @@
     [
       58594223,
       "Amber",
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       1
@@ -34639,7 +34639,7 @@
     [
       58595399,
       "Nicholas",
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       1
@@ -34647,7 +34647,7 @@
     [
       58596833,
       "Keegan",
-      7,
+      2,
       8167138,
       "3. Feeling Setsy (Corey M.)",
       1
@@ -34655,7 +34655,7 @@
     [
       58605089,
       "Oscar",
-      7,
+      2,
       8138261,
       "2. Bump, Set, Dammit! (Michael G.)",
       1
@@ -34663,7 +34663,7 @@
     [
       58611963,
       "Jason",
-      7,
+      2,
       8169638,
       "12. Bump Buddies (Mitch L.)",
       1
@@ -34671,7 +34671,7 @@
     [
       58627962,
       "Matthew",
-      10,
+      5,
       8163520,
       "6. Bombaclat! (Aatir A.)",
       1
@@ -34679,7 +34679,7 @@
     [
       58629997,
       "Kelly",
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       1
@@ -34687,7 +34687,7 @@
     [
       58630015,
       "Adam",
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       1
@@ -34695,7 +34695,7 @@
     [
       58630124,
       "Kara",
-      7,
+      2,
       8171848,
       "9. Get diggy wit it (Rudy G.)",
       1
@@ -34703,7 +34703,7 @@
     [
       58654058,
       "Gabrielle",
-      5,
+      10,
       8175870,
       "4. No Faith (Donald P.)",
       1
@@ -34711,7 +34711,7 @@
     [
       58655683,
       "Amari",
-      5,
+      10,
       8175870,
       "4. No Faith (Donald P.)",
       1
@@ -34719,7 +34719,7 @@
     [
       58671854,
       "Raul",
-      5,
+      10,
       8173279,
       "7. Sandy Cheeks (Mica R.)",
       1
@@ -34727,7 +34727,7 @@
     [
       58681232,
       "Catherine",
-      1,
+      6,
       8179782,
       "8. Cat H. and Deanna V.",
       1
@@ -34735,7 +34735,7 @@
     [
       58683629,
       "Deanna",
-      1,
+      6,
       8179782,
       "8. Cat H. and Deanna V.",
       1
@@ -34743,7 +34743,7 @@
     [
       58686396,
       "Miguel",
-      4,
+      9,
       8182699,
       "9. Vanessa M. and Miguel M.",
       1
@@ -34751,7 +34751,7 @@
     [
       58692789,
       "DeWitt",
-      5,
+      10,
       8181763,
       "1. Gold Diggers (Gabriela C.)",
       1
@@ -34759,7 +34759,7 @@
     [
       58696742,
       "Vanessa",
-      4,
+      9,
       8182699,
       "9. Vanessa M. and Miguel M.",
       1
@@ -34767,7 +34767,7 @@
     [
       58702035,
       "Gregorio",
-      5,
+      10,
       8181763,
       "1. Gold Diggers (Gabriela C.)",
       1
@@ -34775,7 +34775,7 @@
     [
       58713874,
       "Anna",
-      1,
+      6,
       8186968,
       "2. Annie J. and Anna C.",
       1
@@ -34783,7 +34783,7 @@
     [
       58721068,
       "Annie",
-      1,
+      6,
       8186968,
       "2. Annie J. and Anna C.",
       1
@@ -34791,7 +34791,7 @@
     [
       58759859,
       "yvette",
-      5,
+      10,
       8172362,
       "5. Tri-Angels (Johnny P.)",
       1
@@ -34799,7 +34799,7 @@
     [
       58977329,
       "Krystyna",
-      7,
+      2,
       8142399,
       "1. Beach Please (Annie L.)",
       1
@@ -34807,7 +34807,7 @@
     [
       58987827,
       "Josh",
-      8,
+      3,
       8151238,
       "2. Score Check (Julianna T.)",
       1
