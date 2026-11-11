@@ -8,6 +8,12 @@
       "firstName": "Jason",
       "lastInitial": "O.",
       "isCaptain": true
+    },
+    {
+      "userId": 38366792,
+      "firstName": "Dominick",
+      "lastInitial": "W.",
+      "isCaptain": false
     }
   ]
 }
