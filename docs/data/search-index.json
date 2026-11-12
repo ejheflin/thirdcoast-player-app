@@ -2572,6 +2572,48 @@
   "teams": [
     [
       0,
+      8243715,
+      "2. Dreco S. and Harrison S.",
+      1
+    ],
+    [
+      0,
+      8243033,
+      "7. Riley W. and Jacob W.",
+      13
+    ],
+    [
+      0,
+      8241620,
+      "9. Gordon P. and Harley G.",
+      6
+    ],
+    [
+      0,
+      8241030,
+      "10. Jason O. and Dom W.",
+      4
+    ],
+    [
+      0,
+      8241711,
+      "1. Dane R. and Carson S.",
+      1
+    ],
+    [
+      0,
+      8245448,
+      "8. Gary C. and Chris H.",
+      1
+    ],
+    [
+      0,
+      8243650,
+      "6. Rus A. and Ryan S.",
+      8
+    ],
+    [
+      0,
       8240542,
       "4. Michael G. and Daniel A.",
       16
@@ -2584,42 +2626,6 @@
     ],
     [
       0,
-      8241030,
-      "10. Jason O. and Dom W.",
-      4
-    ],
-    [
-      0,
-      8241620,
-      "9. Gordon P. and Harley G.",
-      6
-    ],
-    [
-      0,
-      8241711,
-      "1. Dane R. and Carson S.",
-      1
-    ],
-    [
-      0,
-      8243033,
-      "7. Riley W. and Jacob W.",
-      13
-    ],
-    [
-      0,
-      8243650,
-      "6. Rus A. and Ryan S.",
-      8
-    ],
-    [
-      0,
-      8243715,
-      "2. Dreco S. and Harrison S.",
-      1
-    ],
-    [
-      0,
       8245277,
       "11. Nate G. and Zach B.",
       3
@@ -2628,12 +2634,6 @@
       0,
       8245343,
       "12. Zach P. and Luke S.",
-      1
-    ],
-    [
-      0,
-      8245448,
-      "8. Gary C. and Chris H.",
       1
     ],
     [
@@ -3022,15 +3022,15 @@
     ],
     [
       8,
-      8161071,
-      "3. Taylor P. and Carson S.",
-      2
-    ],
-    [
-      8,
       8156793,
       "4. Liz C. and Josman R.",
       16
+    ],
+    [
+      8,
+      8161071,
+      "3. Taylor P. and Carson S.",
+      2
     ],
     [
       8,

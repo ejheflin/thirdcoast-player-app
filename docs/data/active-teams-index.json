@@ -92,14 +92,14 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8161071,
-    "teamName": "3. Taylor P. and Carson S."
+    "teamId": 8156793,
+    "teamName": "4. Liz C. and Josman R."
   },
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
-    "teamId": 8156793,
-    "teamName": "4. Liz C. and Josman R."
+    "teamId": 8161071,
+    "teamName": "3. Taylor P. and Carson S."
   },
   {
     "programId": 5154234,
@@ -710,6 +710,48 @@
   {
     "programId": 5221493,
     "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8243715,
+    "teamName": "2. Dreco S. and Harrison S."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8243033,
+    "teamName": "7. Riley W. and Jacob W."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8241620,
+    "teamName": "9. Gordon P. and Harley G."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8241030,
+    "teamName": "10. Jason O. and Dom W."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8241711,
+    "teamName": "1. Dane R. and Carson S."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8245448,
+    "teamName": "8. Gary C. and Chris H."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
+    "teamId": 8243650,
+    "teamName": "6. Rus A. and Ryan S."
+  },
+  {
+    "programId": 5221493,
+    "programName": "Wednesday Mens 2s AA Mini League",
     "teamId": 8240542,
     "teamName": "4. Michael G. and Daniel A."
   },
@@ -722,42 +764,6 @@
   {
     "programId": 5221493,
     "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8241030,
-    "teamName": "10. Jason O. and Dom W."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8241620,
-    "teamName": "9. Gordon P. and Harley G."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8241711,
-    "teamName": "1. Dane R. and Carson S."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8243033,
-    "teamName": "7. Riley W. and Jacob W."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8243650,
-    "teamName": "6. Rus A. and Ryan S."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8243715,
-    "teamName": "2. Dreco S. and Harrison S."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
     "teamId": 8245277,
     "teamName": "11. Nate G. and Zach B."
   },
@@ -766,12 +772,6 @@
     "programName": "Wednesday Mens 2s AA Mini League",
     "teamId": 8245343,
     "teamName": "12. Zach P. and Luke S."
-  },
-  {
-    "programId": 5221493,
-    "programName": "Wednesday Mens 2s AA Mini League",
-    "teamId": 8245448,
-    "teamName": "8. Gary C. and Chris H."
   },
   {
     "programId": 5221493,
