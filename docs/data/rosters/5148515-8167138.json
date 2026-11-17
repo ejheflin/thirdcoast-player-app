@@ -4,6 +4,12 @@
   "teamName": "3. Feeling Setsy (Corey M.)",
   "players": [
     {
+      "userId": 59234717,
+      "firstName": "Kenneth",
+      "lastInitial": "C.",
+      "isCaptain": false
+    },
+    {
       "userId": 49848064,
       "firstName": "Stephanie",
       "lastInitial": "G.",

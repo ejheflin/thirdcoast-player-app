@@ -1044,6 +1044,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212050,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212051,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8178840,
+          "teamName": "10. Julia V. and Beth B.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14212053,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8191327,
+          "teamName": "6. Annie H. and Jordan W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178846,
+          "teamName": "7. Mili V. and Tiffany S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212054,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8179595,
+          "teamName": "1. Brooke F. and Angel H.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14212056,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14212058,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8179958,
+          "teamName": "3. Denise H. and Kim S.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8179406,
+          "teamName": "5. Doria O. and Anna S.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

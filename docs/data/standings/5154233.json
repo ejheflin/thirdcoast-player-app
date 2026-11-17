@@ -6,19 +6,19 @@
       "position": 1,
       "teamId": 8148465,
       "teamName": "1. Olivia E. and Jason O.",
-      "gamesPlayed": 12,
-      "wins": 10,
+      "gamesPlayed": 14,
+      "wins": 11,
       "losses": 1,
-      "ties": 1,
-      "points": 21
+      "ties": 2,
+      "points": 24
     },
     {
       "position": 2,
       "teamId": 8160252,
       "teamName": "7. Kim M. and Travis B.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 8,
-      "losses": 1,
+      "losses": 2,
       "ties": 2,
       "points": 18
     },
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8190694,
       "teamName": "10. Lauren V. and Hector T.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 2,
       "losses": 6,
-      "ties": 3,
-      "points": 7
+      "ties": 4,
+      "points": 8
     },
     {
       "position": 8,
