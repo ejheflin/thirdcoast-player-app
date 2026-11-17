@@ -185,7 +185,7 @@
           "teamCount": 10,
           "wins": 7,
           "losses": 2,
-          "ties": 3
+          "ties": 4
         }
       ]
     },
@@ -257,11 +257,11 @@
           "endDate": 1796014800000,
           "level": "B",
           "move": "same",
-          "position": 8,
+          "position": 7,
           "teamCount": 10,
-          "wins": 3,
-          "losses": 7,
-          "ties": 1
+          "wins": 4,
+          "losses": 8,
+          "ties": 2
         }
       ]
     },
@@ -467,7 +467,7 @@
           "move": "same",
           "position": 6,
           "teamCount": 10,
-          "wins": 3,
+          "wins": 4,
           "losses": 3,
           "ties": 4
         }
@@ -655,7 +655,7 @@
           "position": 9,
           "teamCount": 10,
           "wins": 0,
-          "losses": 9,
+          "losses": 10,
           "ties": 1
         }
       ]
@@ -673,7 +673,7 @@
           "endDate": 1796014800000,
           "level": "B",
           "move": null,
-          "position": 7,
+          "position": 8,
           "teamCount": 10,
           "wins": 2,
           "losses": 6,

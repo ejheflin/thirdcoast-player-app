@@ -4,21 +4,21 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8173157,
+      "teamName": "5. Emily R. and Dreco S.",
+      "gamesPlayed": 14,
+      "wins": 7,
+      "losses": 3,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 2,
       "teamId": 8173044,
       "teamName": "7. Kaegan W. and Jon N.",
       "gamesPlayed": 10,
       "wins": 6,
       "losses": 0,
-      "ties": 4,
-      "points": 16
-    },
-    {
-      "position": 2,
-      "teamId": 8173157,
-      "teamName": "5. Emily R. and Dreco S.",
-      "gamesPlayed": 13,
-      "wins": 6,
-      "losses": 3,
       "ties": 4,
       "points": 16
     },
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8159552,
       "teamName": "8. Helen L. and George C.",
-      "gamesPlayed": 11,
+      "gamesPlayed": 12,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "ties": 4,
       "points": 6
     }

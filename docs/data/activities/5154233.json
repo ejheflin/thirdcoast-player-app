@@ -848,6 +848,24 @@
       ]
     },
     {
+      "activityId": 14205749,
+      "date": "2026-11-02",
+      "teams": [
+        {
+          "teamId": 8159362,
+          "teamName": "5. Joann L. and Jacob W.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8170440,
+          "teamName": "8. Jenny S. and Nate G.",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
       "activityId": 14205751,
       "date": "2026-11-09",
       "teams": [
@@ -1022,6 +1040,42 @@
         {
           "teamId": 8190694,
           "teamName": "10. Lauren V. and Hector T.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14205762,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8159362,
+          "teamName": "5. Joann L. and Jacob W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8182699,
+          "teamName": "9. Vanessa M. and Miguel M.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14205764,
+      "date": "2026-11-16",
+      "teams": [
+        {
+          "teamId": 8148569,
+          "teamName": "2. Holli D. and Dan L.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8159362,
+          "teamName": "5. Joann L. and Jacob W.",
           "result": "draw",
           "score": 1
         }
