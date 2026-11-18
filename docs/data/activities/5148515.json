@@ -1494,6 +1494,114 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14095506,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8150563,
+          "teamName": "7. The Thurmanators (David Z.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8159435,
+          "teamName": "10. 50/50 (Oscar G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14095507,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8142399,
+          "teamName": "1. Beach Please (Annie L.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8138261,
+          "teamName": "2. Bump, Set, Dammit! (Michael G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095508,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8142399,
+          "teamName": "1. Beach Please (Annie L.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8150563,
+          "teamName": "7. The Thurmanators (David Z.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095509,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8159435,
+          "teamName": "10. 50/50 (Oscar G.)",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8169638,
+          "teamName": "12. Bump Buddies (Mitch L.)",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14095511,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8137762,
+          "teamName": "4. Notorious DIG (Connor D.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8171848,
+          "teamName": "9. Get diggy wit it (Rudy G.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14095515,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8147602,
+          "teamName": "8. Unprotected Sets (Catalina P.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8171848,
+          "teamName": "9. Get diggy wit it (Rudy G.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

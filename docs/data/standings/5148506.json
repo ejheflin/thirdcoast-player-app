@@ -16,46 +16,46 @@
       "position": 2,
       "teamId": 8148916,
       "teamName": "8. Team Jacob (Mark J.)",
-      "gamesPlayed": 14,
-      "wins": 6,
+      "gamesPlayed": 16,
+      "wins": 8,
       "losses": 3,
       "ties": 5,
-      "points": 17
+      "points": 21
     },
     {
       "position": 3,
       "teamId": 8163533,
       "teamName": "3. Hustle Gang (Calvin D.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 7,
       "losses": 5,
-      "ties": 2,
-      "points": 16
+      "ties": 3,
+      "points": 17
     },
     {
       "position": 4,
-      "teamId": 8159639,
-      "teamName": "5. Vacacioners (Phil M.)",
-      "gamesPlayed": 14,
+      "teamId": 8150721,
+      "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+      "gamesPlayed": 15,
+      "wins": 6,
+      "losses": 7,
+      "ties": 2,
+      "points": 14
+    },
+    {
+      "position": 5,
+      "teamId": 8163520,
+      "teamName": "6. Bombaclat! (Aatir A.)",
+      "gamesPlayed": 15,
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "ties": 5,
       "points": 13
     },
     {
-      "position": 5,
-      "teamId": 8150721,
-      "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
-      "gamesPlayed": 14,
-      "wins": 6,
-      "losses": 7,
-      "ties": 1,
-      "points": 13
-    },
-    {
       "position": 6,
-      "teamId": 8163520,
-      "teamName": "6. Bombaclat! (Aatir A.)",
+      "teamId": 8159639,
+      "teamName": "5. Vacacioners (Phil M.)",
       "gamesPlayed": 14,
       "wins": 4,
       "losses": 5,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8142715,
       "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 2,
-      "losses": 8,
+      "losses": 9,
       "ties": 4,
       "points": 8
     }

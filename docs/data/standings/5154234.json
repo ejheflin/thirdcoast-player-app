@@ -4,6 +4,16 @@
   "rows": [
     {
       "position": 1,
+      "teamId": 8173044,
+      "teamName": "7. Kaegan W. and Jon N.",
+      "gamesPlayed": 11,
+      "wins": 7,
+      "losses": 0,
+      "ties": 4,
+      "points": 18
+    },
+    {
+      "position": 2,
       "teamId": 8173157,
       "teamName": "5. Emily R. and Dreco S.",
       "gamesPlayed": 14,
@@ -11,16 +21,6 @@
       "losses": 3,
       "ties": 4,
       "points": 18
-    },
-    {
-      "position": 2,
-      "teamId": 8173044,
-      "teamName": "7. Kaegan W. and Jon N.",
-      "gamesPlayed": 10,
-      "wins": 6,
-      "losses": 0,
-      "ties": 4,
-      "points": 16
     },
     {
       "position": 3,
@@ -36,9 +36,9 @@
       "position": 4,
       "teamId": 8148910,
       "teamName": "6. Caroline J. and Mark J.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 14,
       "wins": 4,
-      "losses": 4,
+      "losses": 6,
       "ties": 4,
       "points": 12
     },
@@ -66,11 +66,11 @@
       "position": 7,
       "teamId": 8156793,
       "teamName": "4. Liz C. and Josman R.",
-      "gamesPlayed": 11,
-      "wins": 2,
+      "gamesPlayed": 12,
+      "wins": 3,
       "losses": 5,
       "ties": 4,
-      "points": 8
+      "points": 10
     },
     {
       "position": 8,

@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8154126,
       "teamName": "7. Bongos (Joseph M.)",
-      "gamesPlayed": 14,
-      "wins": 10,
+      "gamesPlayed": 16,
+      "wins": 12,
       "losses": 0,
       "ties": 4,
-      "points": 24
+      "points": 28
     },
     {
       "position": 2,
@@ -26,19 +26,19 @@
       "position": 3,
       "teamId": 8159128,
       "teamName": "6. Twin Peaks (Dan F.)",
-      "gamesPlayed": 14,
-      "wins": 9,
+      "gamesPlayed": 15,
+      "wins": 10,
       "losses": 2,
       "ties": 3,
-      "points": 21
+      "points": 23
     },
     {
       "position": 4,
       "teamId": 8159110,
       "teamName": "5. Watermelon (Lauren K.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 5,
-      "losses": 5,
+      "losses": 7,
       "ties": 4,
       "points": 14
     },
@@ -46,21 +46,21 @@
       "position": 5,
       "teamId": 8148853,
       "teamName": "1. Beach Bunnies (Jimmy R.)",
-      "gamesPlayed": 14,
-      "wins": 2,
-      "losses": 6,
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 7,
       "ties": 6,
-      "points": 10
+      "points": 12
     },
     {
       "position": 6,
       "teamId": 8160228,
       "teamName": "3. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 14,
-      "wins": 2,
-      "losses": 8,
+      "gamesPlayed": 16,
+      "wins": 3,
+      "losses": 9,
       "ties": 4,
-      "points": 8
+      "points": 10
     },
     {
       "position": 7,
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 1,
-      "losses": 10,
+      "losses": 11,
       "ties": 3,
       "points": 15
     }

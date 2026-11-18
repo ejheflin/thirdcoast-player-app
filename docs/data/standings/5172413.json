@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8185977,
+      "teamName": "9. Gabby T. and Mikah M.",
+      "gamesPlayed": 13,
+      "wins": 7,
+      "losses": 3,
+      "ties": 3,
+      "points": 17
+    },
+    {
+      "position": 4,
       "teamId": 8178846,
       "teamName": "7. Mili V. and Tiffany S.",
       "gamesPlayed": 14,
@@ -33,7 +43,7 @@
       "points": 17
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8178840,
       "teamName": "10. Julia V. and Beth B.",
       "gamesPlayed": 12,
@@ -43,24 +53,14 @@
       "points": 17
     },
     {
-      "position": 5,
+      "position": 6,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 6,
-      "losses": 2,
+      "losses": 3,
       "ties": 4,
       "points": 16
-    },
-    {
-      "position": 6,
-      "teamId": 8185977,
-      "teamName": "9. Gabby T. and Mikah M.",
-      "gamesPlayed": 11,
-      "wins": 5,
-      "losses": 3,
-      "ties": 3,
-      "points": 13
     },
     {
       "position": 7,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8179958,
       "teamName": "3. Denise H. and Kim S.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 3,
       "points": 5
     },

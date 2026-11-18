@@ -483,8 +483,8 @@
           "move": "up",
           "position": 5,
           "teamCount": 8,
-          "wins": 2,
-          "losses": 6,
+          "wins": 3,
+          "losses": 7,
           "ties": 6
         }
       ]
@@ -831,7 +831,7 @@
           "move": "same",
           "position": 1,
           "teamCount": 8,
-          "wins": 10,
+          "wins": 12,
           "losses": 0,
           "ties": 4
         }
@@ -1069,7 +1069,7 @@
           "position": 4,
           "teamCount": 8,
           "wins": 5,
-          "losses": 5,
+          "losses": 7,
           "ties": 4
         }
       ]
@@ -1305,7 +1305,7 @@
           "move": "same",
           "position": 3,
           "teamCount": 8,
-          "wins": 9,
+          "wins": 10,
           "losses": 2,
           "ties": 3
         }
@@ -1542,8 +1542,8 @@
           "move": "same",
           "position": 6,
           "teamCount": 8,
-          "wins": 2,
-          "losses": 8,
+          "wins": 3,
+          "losses": 9,
           "ties": 4
         }
       ]
@@ -1724,7 +1724,7 @@
           "position": 8,
           "teamCount": 8,
           "wins": 1,
-          "losses": 10,
+          "losses": 11,
           "ties": 3
         }
       ]

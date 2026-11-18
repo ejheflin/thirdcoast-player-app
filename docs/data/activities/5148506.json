@@ -1008,6 +1008,60 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14077504,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8163520,
+          "teamName": "6. Bombaclat! (Aatir A.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148916,
+          "teamName": "8. Team Jacob (Mark J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077506,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8142715,
+          "teamName": "4. Toodles (Michael L.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8148916,
+          "teamName": "8. Team Jacob (Mark J.)",
+          "result": "win",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "activityId": 14077508,
+      "date": "2026-11-17",
+      "teams": [
+        {
+          "teamId": 8150721,
+          "teamName": "1. Carolina Beach Bumpers (Ashton M.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8163533,
+          "teamName": "3. Hustle Gang (Calvin D.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
