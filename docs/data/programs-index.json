@@ -6,10 +6,22 @@
     "endDate": 1796014800000
   },
   {
+    "programId": 5235336,
+    "programName": "Monday Coed 2s B Mini League",
+    "state": "LIVE",
+    "endDate": 1800248400000
+  },
+  {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
     "state": "LIVE",
     "endDate": 1796014800000
+  },
+  {
+    "programId": 5235338,
+    "programName": "Monday Coed 2s BB Mini League",
+    "state": "LIVE",
+    "endDate": 1800248400000
   },
   {
     "programId": 5154231,
@@ -18,28 +30,40 @@
     "endDate": 1796014800000
   },
   {
+    "programId": 5235340,
+    "programName": "Monday Coed 3s B Mini League",
+    "state": "LIVE",
+    "endDate": 1800248400000
+  },
+  {
+    "programId": 5235344,
+    "programName": "Monday Womens 2s Mini League",
+    "state": "LIVE",
+    "endDate": 1800248400000
+  },
+  {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
     "state": "LIVE",
     "endDate": 1796014800000
   },
   {
-    "programId": 5143219,
-    "programName": "Thursday Coed 2s A",
+    "programId": 5235124,
+    "programName": "Thursday Coed 2s A Mini League",
     "state": "LIVE",
-    "endDate": 1794459600000
+    "endDate": 1800507600000
   },
   {
-    "programId": 5143224,
-    "programName": "Thursday Coed 2s AA",
+    "programId": 5235137,
+    "programName": "Thursday Coed 2s AA Mini League",
     "state": "LIVE",
-    "endDate": 1794459600000
+    "endDate": 1800507600000
   },
   {
-    "programId": 5143200,
-    "programName": "Thursday Coed 4s B",
+    "programId": 5235146,
+    "programName": "Thursday Coed 4s B Mini League",
     "state": "LIVE",
-    "endDate": 1794459600000
+    "endDate": 1800507600000
   },
   {
     "programId": 5148506,

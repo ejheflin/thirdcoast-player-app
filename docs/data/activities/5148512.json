@@ -272,6 +272,24 @@
       ]
     },
     {
+      "activityId": 14094981,
+      "date": "2026-09-29",
+      "teams": [
+        {
+          "teamId": 8160228,
+          "teamName": "3. 3 OGs and Bae (Johnny W.)",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8165690,
+          "teamName": "8. Net Ninjas (Ali F.)",
+          "result": "win",
+          "score": 12
+        }
+      ]
+    },
+    {
       "activityId": 14094988,
       "date": "2026-10-06",
       "teams": [

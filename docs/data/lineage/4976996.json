@@ -3,12 +3,12 @@
   "teams": {
     "7903162": {
       "seasons": 6,
-      "move": "same",
+      "move": null,
       "from": {
-        "programId": 4873012,
-        "teamId": 7758741,
-        "programName": "Thursday Coed 4s B",
-        "teamName": "3. Blake’s Beaches (Collin W.)",
+        "programId": 4872925,
+        "teamId": 7762219,
+        "programName": "Monday Coed 3s B",
+        "teamName": "1. Blakes Beaches (Collin W.)",
         "level": "B"
       },
       "history": [
@@ -69,18 +69,18 @@
           "ties": 4
         },
         {
-          "programId": 4873012,
-          "teamId": 7758741,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "3. Blake’s Beaches (Collin W.)",
-          "endDate": 1776916800000,
+          "programId": 4872925,
+          "teamId": 7762219,
+          "programName": "Monday Coed 3s B",
+          "teamName": "1. Blakes Beaches (Collin W.)",
+          "endDate": 1776657600000,
           "level": "B",
-          "move": null,
-          "position": 6,
-          "teamCount": 10,
-          "wins": 5,
-          "losses": 6,
-          "ties": 5
+          "move": "same",
+          "position": 5,
+          "teamCount": 8,
+          "wins": 7,
+          "losses": 5,
+          "ties": 3
         },
         {
           "programId": 4976996,
@@ -89,7 +89,7 @@
           "teamName": "2. Blake’s Beaches (Collin W.)",
           "endDate": 1782964800000,
           "level": "B",
-          "move": "same",
+          "move": null,
           "position": 4,
           "teamCount": 10,
           "wins": 9,
@@ -99,13 +99,13 @@
       ]
     },
     "7907830": {
-      "seasons": 7,
+      "seasons": 6,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7760455,
+        "programId": 4752513,
+        "teamId": 7587823,
         "programName": "Thursday Coed 4s B",
-        "teamName": "4. FlyBallers ShotCallers (Albert F.)",
+        "teamName": "8. FlyBallers ShotCallers (Albert F.)",
         "level": "B"
       },
       "history": [
@@ -180,20 +180,6 @@
           "ties": 6
         },
         {
-          "programId": 4873012,
-          "teamId": 7760455,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "4. FlyBallers ShotCallers (Albert F.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 8,
-          "teamCount": 10,
-          "wins": 3,
-          "losses": 8,
-          "ties": 5
-        },
-        {
           "programId": 4976996,
           "teamId": 7907830,
           "programName": "Thursday Coed 4s B",
@@ -210,13 +196,13 @@
       ]
     },
     "7909535": {
-      "seasons": 5,
+      "seasons": 4,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7758353,
+        "programId": 4752513,
+        "teamId": 7582979,
         "programName": "Thursday Coed 4s B",
-        "teamName": "7. I’d Hit That (Jason O.)",
+        "teamName": "1. Charlie's Angels (Jason O.)",
         "level": "B"
       },
       "history": [
@@ -263,20 +249,6 @@
           "ties": 6
         },
         {
-          "programId": 4873012,
-          "teamId": 7758353,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "7. I’d Hit That (Jason O.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 5,
-          "teamCount": 10,
-          "wins": 6,
-          "losses": 3,
-          "ties": 7
-        },
-        {
           "programId": 4976996,
           "teamId": 7909535,
           "programName": "Thursday Coed 4s B",
@@ -296,10 +268,10 @@
       "seasons": 12,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7759496,
+        "programId": 4752513,
+        "teamId": 7588008,
         "programName": "Thursday Coed 4s B",
-        "teamName": "5. HIT FACED (Clark P.)",
+        "teamName": "7. Sandy Shorts (Clark P.)",
         "level": "B"
       },
       "history": [
@@ -344,6 +316,20 @@
           "wins": 3,
           "losses": 8,
           "ties": 5
+        },
+        {
+          "programId": 4139364,
+          "teamId": 6696591,
+          "programName": "Thursday Coed 4s B",
+          "teamName": "3. Bumping Uglies (Clark P.)",
+          "endDate": 1715227200000,
+          "level": "B",
+          "move": "same",
+          "position": 8,
+          "teamCount": 10,
+          "wins": 3,
+          "losses": 9,
+          "ties": 4
         },
         {
           "programId": 4237992,
@@ -444,20 +430,6 @@
           "ties": 6
         },
         {
-          "programId": 4873012,
-          "teamId": 7759496,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "5. HIT FACED (Clark P.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 9,
-          "teamCount": 10,
-          "wins": 3,
-          "losses": 10,
-          "ties": 3
-        },
-        {
           "programId": 4976996,
           "teamId": 7912116,
           "programName": "Thursday Coed 4s B",
@@ -474,7 +446,7 @@
       ]
     },
     "7913915": {
-      "seasons": 11,
+      "seasons": 12,
       "move": "same",
       "from": {
         "programId": 4752513,
@@ -525,6 +497,20 @@
           "wins": 8,
           "losses": 1,
           "ties": 7
+        },
+        {
+          "programId": 4139364,
+          "teamId": 6721894,
+          "programName": "Thursday Coed 4s B",
+          "teamName": "2. Ay mi madre (Daniel D.)",
+          "endDate": 1715227200000,
+          "level": "B",
+          "move": "same",
+          "position": 1,
+          "teamCount": 10,
+          "wins": 10,
+          "losses": 0,
+          "ties": 6
         },
         {
           "programId": 4237992,
@@ -644,10 +630,10 @@
       "seasons": 12,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7760303,
+        "programId": 4752513,
+        "teamId": 7593491,
         "programName": "Thursday Coed 4s B",
-        "teamName": "8. Patty 4 the People (Doug B.)",
+        "teamName": "10. Patty 4 the People (Doug B.)",
         "level": "B"
       },
       "history": [
@@ -692,6 +678,20 @@
           "wins": 9,
           "losses": 5,
           "ties": 2
+        },
+        {
+          "programId": 4139364,
+          "teamId": 6689367,
+          "programName": "Thursday Coed 4s B",
+          "teamName": "5. Just The Tip (Doug B.)",
+          "endDate": 1715227200000,
+          "level": "B",
+          "move": "same",
+          "position": 6,
+          "teamCount": 10,
+          "wins": 4,
+          "losses": 4,
+          "ties": 8
         },
         {
           "programId": 4237992,
@@ -792,20 +792,6 @@
           "ties": 3
         },
         {
-          "programId": 4873012,
-          "teamId": 7760303,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "8. Patty 4 the People (Doug B.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 1,
-          "teamCount": 10,
-          "wins": 10,
-          "losses": 0,
-          "ties": 6
-        },
-        {
           "programId": 4976996,
           "teamId": 7914593,
           "programName": "Thursday Coed 4s B",
@@ -822,13 +808,13 @@
       ]
     },
     "7916502": {
-      "seasons": 8,
+      "seasons": 7,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7765202,
+        "programId": 4752513,
+        "teamId": 7588884,
         "programName": "Thursday Coed 4s B",
-        "teamName": "9. Nothing But Tape!! (Joe R.)",
+        "teamName": "6. Nothing But Tape! (Joe R.)",
         "level": "B"
       },
       "history": [
@@ -917,20 +903,6 @@
           "ties": 3
         },
         {
-          "programId": 4873012,
-          "teamId": 7765202,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "9. Nothing But Tape!! (Joe R.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 2,
-          "teamCount": 10,
-          "wins": 9,
-          "losses": 2,
-          "ties": 5
-        },
-        {
           "programId": 4976996,
           "teamId": 7916502,
           "programName": "Thursday Coed 4s B",
@@ -950,10 +922,10 @@
       "seasons": 11,
       "move": "same",
       "from": {
-        "programId": 4873012,
-        "teamId": 7780070,
+        "programId": 4752513,
+        "teamId": 7585459,
         "programName": "Thursday Coed 4s B",
-        "teamName": "10. Sandy Patch Kids (Curtis J.)",
+        "teamName": "5. Sandy Patch Kids (Curtis J.)",
         "level": "B"
       },
       "history": [
@@ -984,6 +956,20 @@
           "wins": 7,
           "losses": 6,
           "ties": 3
+        },
+        {
+          "programId": 4139364,
+          "teamId": 6726777,
+          "programName": "Thursday Coed 4s B",
+          "teamName": "9. Trust Me It Was In! (Curtis J.)",
+          "endDate": 1715227200000,
+          "level": "B",
+          "move": "same",
+          "position": 3,
+          "teamCount": 10,
+          "wins": 6,
+          "losses": 3,
+          "ties": 7
         },
         {
           "programId": 4237992,
@@ -1084,20 +1070,6 @@
           "ties": 4
         },
         {
-          "programId": 4873012,
-          "teamId": 7780070,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "10. Sandy Patch Kids (Curtis J.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 4,
-          "teamCount": 10,
-          "wins": 6,
-          "losses": 2,
-          "ties": 8
-        },
-        {
           "programId": 4976996,
           "teamId": 7920065,
           "programName": "Thursday Coed 4s B",
@@ -1114,58 +1086,10 @@
       ]
     },
     "7928883": {
-      "seasons": 4,
-      "move": "same",
-      "from": {
-        "programId": 4873012,
-        "teamId": 7758591,
-        "programName": "Thursday Coed 4s B",
-        "teamName": "6. Hits Don’t Lie (Shayan E.)",
-        "level": "B"
-      },
+      "seasons": 1,
+      "move": null,
+      "from": null,
       "history": [
-        {
-          "programId": 4661451,
-          "teamId": 7480928,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "12. Hits don’t lie (Shayan E.)",
-          "endDate": 1759377600000,
-          "level": "B",
-          "move": null,
-          "position": 9,
-          "teamCount": 12,
-          "wins": 4,
-          "losses": 8,
-          "ties": 2
-        },
-        {
-          "programId": 4752513,
-          "teamId": 7578315,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "2. Hits Dont Lie (Shayan E.)",
-          "endDate": 1766034000000,
-          "level": "B",
-          "move": "same",
-          "position": 5,
-          "teamCount": 12,
-          "wins": 6,
-          "losses": 3,
-          "ties": 6
-        },
-        {
-          "programId": 4873012,
-          "teamId": 7758591,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "6. Hits Don’t Lie (Shayan E.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 3,
-          "teamCount": 10,
-          "wins": 5,
-          "losses": 0,
-          "ties": 11
-        },
         {
           "programId": 4976996,
           "teamId": 7928883,
@@ -1173,7 +1097,7 @@
           "teamName": "9. Hits Don’t Lie (Shayan E.)",
           "endDate": 1782964800000,
           "level": "B",
-          "move": "same",
+          "move": null,
           "position": 9,
           "teamCount": 10,
           "wins": 2,

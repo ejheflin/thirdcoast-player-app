@@ -794,13 +794,13 @@
       ]
     },
     "7911899": {
-      "seasons": 4,
+      "seasons": 3,
       "move": null,
       "from": {
-        "programId": 4873012,
-        "teamId": 7758591,
+        "programId": 4752513,
+        "teamId": 7578315,
         "programName": "Thursday Coed 4s B",
-        "teamName": "6. Hits Don’t Lie (Shayan E.)",
+        "teamName": "2. Hits Dont Lie (Shayan E.)",
         "level": "B"
       },
       "history": [
@@ -831,20 +831,6 @@
           "wins": 6,
           "losses": 3,
           "ties": 6
-        },
-        {
-          "programId": 4873012,
-          "teamId": 7758591,
-          "programName": "Thursday Coed 4s B",
-          "teamName": "6. Hits Don’t Lie (Shayan E.)",
-          "endDate": 1776916800000,
-          "level": "B",
-          "move": "same",
-          "position": 3,
-          "teamCount": 10,
-          "wins": 5,
-          "losses": 0,
-          "ties": 11
         },
         {
           "programId": 4967494,

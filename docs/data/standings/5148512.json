@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8160228,
       "teamName": "3. 3 OGs and Bae (Johnny W.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 4,
       "points": 8
     },
@@ -76,11 +76,11 @@
       "position": 8,
       "teamId": 8165690,
       "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 13,
-      "wins": 0,
+      "gamesPlayed": 14,
+      "wins": 1,
       "losses": 10,
       "ties": 3,
-      "points": 3
+      "points": 15
     }
   ]
 }
