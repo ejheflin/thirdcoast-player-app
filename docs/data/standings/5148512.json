@@ -64,23 +64,23 @@
     },
     {
       "position": 7,
-      "teamId": 8137254,
-      "teamName": "4. Milk (Sean M.)",
-      "gamesPlayed": 15,
-      "wins": 1,
-      "losses": 9,
-      "ties": 5,
-      "points": 7
+      "teamId": 8165690,
+      "teamName": "8. Net Ninjas (Ali F.)",
+      "gamesPlayed": 16,
+      "wins": 2,
+      "losses": 11,
+      "ties": 3,
+      "points": 17
     },
     {
       "position": 8,
-      "teamId": 8165690,
-      "teamName": "8. Net Ninjas (Ali F.)",
-      "gamesPlayed": 15,
+      "teamId": 8137254,
+      "teamName": "4. Milk (Sean M.)",
+      "gamesPlayed": 16,
       "wins": 1,
-      "losses": 11,
-      "ties": 3,
-      "points": 15
+      "losses": 10,
+      "ties": 5,
+      "points": 7
     }
   ]
 }
