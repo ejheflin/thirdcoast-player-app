@@ -44,6 +44,26 @@
     },
     {
       "position": 5,
+      "teamId": 8245343,
+      "teamName": "12. Zach P. and Luke S.",
+      "gamesPlayed": 3,
+      "wins": 1,
+      "losses": 0,
+      "ties": 2,
+      "points": 4
+    },
+    {
+      "position": 6,
+      "teamId": 8241711,
+      "teamName": "1. Dane R. and Carson S.",
+      "gamesPlayed": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "points": 3
+    },
+    {
+      "position": 7,
       "teamId": 8241030,
       "teamName": "10. Jason O. and Dom W.",
       "gamesPlayed": 4,
@@ -53,7 +73,7 @@
       "points": 3
     },
     {
-      "position": 6,
+      "position": 8,
       "teamId": 8241620,
       "teamName": "9. Gordon P. and Harley G.",
       "gamesPlayed": 3,
@@ -63,7 +83,7 @@
       "points": 2
     },
     {
-      "position": 7,
+      "position": 9,
       "teamId": 8240909,
       "teamName": "3. Eric W. and Brandon W.",
       "gamesPlayed": 3,
@@ -71,26 +91,6 @@
       "losses": 2,
       "ties": 0,
       "points": 2
-    },
-    {
-      "position": 8,
-      "teamId": 8245343,
-      "teamName": "12. Zach P. and Luke S.",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 0,
-      "ties": 2,
-      "points": 2
-    },
-    {
-      "position": 9,
-      "teamId": 8241711,
-      "teamName": "1. Dane R. and Carson S.",
-      "gamesPlayed": 2,
-      "wins": 0,
-      "losses": 1,
-      "ties": 1,
-      "points": 1
     },
     {
       "position": 10,
@@ -106,9 +106,9 @@
       "position": 11,
       "teamId": 8245277,
       "teamName": "11. Nate G. and Zach B.",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 1,
       "points": 1
     },

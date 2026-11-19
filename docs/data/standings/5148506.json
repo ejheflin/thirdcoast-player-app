@@ -46,11 +46,11 @@
       "position": 5,
       "teamId": 8163520,
       "teamName": "6. Bombaclat! (Aatir A.)",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 4,
       "losses": 6,
-      "ties": 5,
-      "points": 13
+      "ties": 6,
+      "points": 14
     },
     {
       "position": 6,
@@ -66,21 +66,21 @@
       "position": 7,
       "teamId": 8150950,
       "teamName": "2. Not Good at Volleyball Puns (Daniel A.)",
-      "gamesPlayed": 14,
+      "gamesPlayed": 16,
       "wins": 3,
       "losses": 8,
-      "ties": 3,
-      "points": 9
+      "ties": 5,
+      "points": 11
     },
     {
       "position": 8,
       "teamId": 8142715,
       "teamName": "4. Toodles (Michael L.)",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 2,
       "losses": 9,
-      "ties": 4,
-      "points": 8
+      "ties": 5,
+      "points": 9
     }
   ]
 }

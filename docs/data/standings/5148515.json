@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8148907,
+      "teamName": "11. What Court Are We On (Bear S.)",
+      "gamesPlayed": 14,
+      "wins": 6,
+      "losses": 2,
+      "ties": 6,
+      "points": 18
+    },
+    {
+      "position": 4,
       "teamId": 8142399,
       "teamName": "1. Beach Please (Annie L.)",
       "gamesPlayed": 16,
@@ -31,16 +41,6 @@
       "losses": 3,
       "ties": 9,
       "points": 17
-    },
-    {
-      "position": 4,
-      "teamId": 8148907,
-      "teamName": "11. What Court Are We On (Bear S.)",
-      "gamesPlayed": 13,
-      "wins": 5,
-      "losses": 2,
-      "ties": 6,
-      "points": 16
     },
     {
       "position": 5,
@@ -54,6 +54,16 @@
     },
     {
       "position": 6,
+      "teamId": 8137762,
+      "teamName": "4. Notorious DIG (Connor D.)",
+      "gamesPlayed": 14,
+      "wins": 5,
+      "losses": 3,
+      "ties": 6,
+      "points": 16
+    },
+    {
+      "position": 7,
       "teamId": 8155575,
       "teamName": "6. Save a Horse, Dig a Volleyball (Sarah F.)",
       "gamesPlayed": 14,
@@ -61,16 +71,6 @@
       "losses": 5,
       "ties": 3,
       "points": 15
-    },
-    {
-      "position": 7,
-      "teamId": 8137762,
-      "teamName": "4. Notorious DIG (Connor D.)",
-      "gamesPlayed": 13,
-      "wins": 4,
-      "losses": 3,
-      "ties": 6,
-      "points": 14
     },
     {
       "position": 8,
@@ -106,9 +106,9 @@
       "position": 11,
       "teamId": 8137775,
       "teamName": "5. Sets Pistols (Christina Z.)",
-      "gamesPlayed": 13,
+      "gamesPlayed": 15,
       "wins": 1,
-      "losses": 10,
+      "losses": 12,
       "ties": 2,
       "points": 4
     },
