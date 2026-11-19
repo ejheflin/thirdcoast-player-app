@@ -144,6 +144,150 @@
           "score": 1
         }
       ]
+    },
+    {
+      "activityId": 14503541,
+      "date": "2026-11-11",
+      "teams": [
+        {
+          "teamId": 8240542,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8245277,
+          "teamName": "11. Nate G. and Zach B.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14503544,
+      "date": "2026-11-11",
+      "teams": [
+        {
+          "teamId": 8243650,
+          "teamName": "6. Rus A. and Ryan S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8245343,
+          "teamName": "12. Zach P. and Luke S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14503546,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8243650,
+          "teamName": "6. Rus A. and Ryan S.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8245448,
+          "teamName": "8. Gary C. and Chris H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14503548,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8240542,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8241620,
+          "teamName": "9. Gordon P. and Harley G.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14503551,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8240542,
+          "teamName": "4. Michael G. and Daniel A.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8245448,
+          "teamName": "8. Gary C. and Chris H.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "activityId": 14503553,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8243715,
+          "teamName": "2. Dreco S. and Harrison S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8241030,
+          "teamName": "10. Jason O. and Dom W.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14503555,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8243715,
+          "teamName": "2. Dreco S. and Harrison S.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8245343,
+          "teamName": "12. Zach P. and Luke S.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14503556,
+      "date": "2026-11-18",
+      "teams": [
+        {
+          "teamId": 8240909,
+          "teamName": "3. Eric W. and Brandon W.",
+          "result": "win",
+          "score": 2
+        },
+        {
+          "teamId": 8241030,
+          "teamName": "10. Jason O. and Dom W.",
+          "result": "loss",
+          "score": 0
+        }
+      ]
     }
   ]
 }
