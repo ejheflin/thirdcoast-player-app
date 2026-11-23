@@ -24,6 +24,16 @@
     },
     {
       "position": 3,
+      "teamId": 8152686,
+      "teamName": "2. Sydney Z. and Manny A.",
+      "gamesPlayed": 13,
+      "wins": 3,
+      "losses": 2,
+      "ties": 8,
+      "points": 14
+    },
+    {
+      "position": 4,
       "teamId": 8153805,
       "teamName": "1. Sarah U. and Logan C.",
       "gamesPlayed": 14,
@@ -33,23 +43,13 @@
       "points": 14
     },
     {
-      "position": 4,
+      "position": 5,
       "teamId": 8148910,
       "teamName": "6. Caroline J. and Mark J.",
       "gamesPlayed": 14,
       "wins": 4,
       "losses": 6,
       "ties": 4,
-      "points": 12
-    },
-    {
-      "position": 5,
-      "teamId": 8152686,
-      "teamName": "2. Sydney Z. and Manny A.",
-      "gamesPlayed": 12,
-      "wins": 2,
-      "losses": 2,
-      "ties": 8,
       "points": 12
     },
     {
@@ -76,9 +76,9 @@
       "position": 8,
       "teamId": 8159552,
       "teamName": "8. Helen L. and George C.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 1,
-      "losses": 7,
+      "losses": 8,
       "ties": 4,
       "points": 6
     }

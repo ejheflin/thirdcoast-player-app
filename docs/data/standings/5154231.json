@@ -67,8 +67,8 @@
       "teamId": 8190678,
       "teamName": "10. Free Agents (Jason T.)",
       "gamesPlayed": 14,
-      "wins": 3,
-      "losses": 6,
+      "wins": 4,
+      "losses": 5,
       "ties": 5,
       "points": 13
     },
@@ -84,16 +84,6 @@
     },
     {
       "position": 9,
-      "teamId": 8181763,
-      "teamName": "1. Gold Diggers (Gabriela C.)",
-      "gamesPlayed": 13,
-      "wins": 2,
-      "losses": 11,
-      "ties": 0,
-      "points": 10
-    },
-    {
-      "position": 10,
       "teamId": 8173279,
       "teamName": "7. Sandy Cheeks (Mica R.)",
       "gamesPlayed": 14,
@@ -101,6 +91,16 @@
       "losses": 12,
       "ties": 0,
       "points": 4
+    },
+    {
+      "position": 10,
+      "teamId": 8181763,
+      "teamName": "1. Gold Diggers (Gabriela C.)",
+      "gamesPlayed": 13,
+      "wins": 1,
+      "losses": 12,
+      "ties": 0,
+      "points": 2
     }
   ]
 }

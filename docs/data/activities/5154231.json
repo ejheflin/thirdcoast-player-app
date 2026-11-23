@@ -1160,13 +1160,13 @@
         {
           "teamId": 8181763,
           "teamName": "1. Gold Diggers (Gabriela C.)",
-          "result": "win",
-          "score": 8
+          "result": "loss",
+          "score": 0
         },
         {
           "teamId": 8190678,
           "teamName": "10. Free Agents (Jason T.)",
-          "result": "loss",
+          "result": "win",
           "score": 2
         }
       ]

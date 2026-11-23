@@ -74,6 +74,12 @@
   {
     "programId": 5154234,
     "programName": "Monday Coed 2s BB",
+    "teamId": 8152686,
+    "teamName": "2. Sydney Z. and Manny A."
+  },
+  {
+    "programId": 5154234,
+    "programName": "Monday Coed 2s BB",
     "teamId": 8153805,
     "teamName": "1. Sarah U. and Logan C."
   },
@@ -82,12 +88,6 @@
     "programName": "Monday Coed 2s BB",
     "teamId": 8148910,
     "teamName": "6. Caroline J. and Mark J."
-  },
-  {
-    "programId": 5154234,
-    "programName": "Monday Coed 2s BB",
-    "teamId": 8152686,
-    "teamName": "2. Sydney Z. and Manny A."
   },
   {
     "programId": 5154234,
@@ -158,14 +158,14 @@
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8181763,
-    "teamName": "1. Gold Diggers (Gabriela C.)"
+    "teamId": 8173279,
+    "teamName": "7. Sandy Cheeks (Mica R.)"
   },
   {
     "programId": 5154231,
     "programName": "Monday Coed 3s B",
-    "teamId": 8173279,
-    "teamName": "7. Sandy Cheeks (Mica R.)"
+    "teamId": 8181763,
+    "teamName": "1. Gold Diggers (Gabriela C.)"
   },
   {
     "programId": 5172413,
