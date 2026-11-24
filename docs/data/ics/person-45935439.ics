@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14205775-45935439@thirdcoast
-DTSTAMP:20261124T000000Z
-DTSTART:20261124T023000Z
-DTEND:20261124T033000Z
-SUMMARY:Monday Coed 2s B — vs Vanessa M. and Miguel M.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 1 · Monday Coed 2s B\nteam.html?team=8182699&program=515
- 4233
-END:VEVENT
-BEGIN:VEVENT
-UID:14205779-45935439@thirdcoast
-DTSTAMP:20261124T000000Z
-DTSTART:20261124T033000Z
-DTEND:20261124T043000Z
-SUMMARY:Monday Coed 2s B — vs Holli D. and Dan L.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 2 · Monday Coed 2s B\nteam.html?team=8148569&program=515
- 4233
-END:VEVENT
-BEGIN:VEVENT
 UID:14503560-45935439@thirdcoast
 DTSTAMP:20261203T000000Z
 DTSTART:20261203T003000Z
 DTEND:20261203T013000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Gary C. and Chris H.
+SUMMARY:vs Gary C. and Chris H.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  5448&program=5221493
@@ -42,7 +22,7 @@ UID:14503561-45935439@thirdcoast
 DTSTAMP:20261203T000000Z
 DTSTART:20261203T013000Z
 DTEND:20261203T023000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Nate G. and Zach B.
+SUMMARY:vs Nate G. and Zach B.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  5277&program=5221493
@@ -52,7 +32,7 @@ UID:14503570-45935439@thirdcoast
 DTSTAMP:20261210T000000Z
 DTSTART:20261210T003000Z
 DTEND:20261210T013000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Zach P. and Luke S.
+SUMMARY:vs Zach P. and Luke S.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  5343&program=5221493
@@ -62,7 +42,7 @@ UID:14503574-45935439@thirdcoast
 DTSTAMP:20261210T000000Z
 DTSTART:20261210T013000Z
 DTEND:20261210T023000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Riley W. and Jacob W.
+SUMMARY:vs Riley W. and Jacob W.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 7 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  3033&program=5221493

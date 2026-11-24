@@ -8,31 +8,11 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT3H
 X-PUBLISHED-TTL:PT3H
 BEGIN:VEVENT
-UID:14205696-25371946@thirdcoast
-DTSTAMP:20261124T000000Z
-DTSTART:20261124T023000Z
-DTEND:20261124T033000Z
-SUMMARY:Monday Coed 2s BB — vs Kaegan W. and Jon N.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 6 · Monday Coed 2s BB\nteam.html?team=8173044&program=51
- 54234
-END:VEVENT
-BEGIN:VEVENT
-UID:14205698-25371946@thirdcoast
-DTSTAMP:20261124T000000Z
-DTSTART:20261124T033000Z
-DTEND:20261124T043000Z
-SUMMARY:Monday Coed 2s BB — vs Sarah U. and Logan C.
-LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
-DESCRIPTION:Court 6 · Monday Coed 2s BB\nteam.html?team=8153805&program=51
- 54234
-END:VEVENT
-BEGIN:VEVENT
 UID:14503566-25371946@thirdcoast
 DTSTAMP:20261203T000000Z
 DTSTART:20261203T023000Z
 DTEND:20261203T033000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Michael G. and Daniel A.
+SUMMARY:vs Michael G. and Daniel A.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  0542&program=5221493
@@ -42,7 +22,7 @@ UID:14503568-25371946@thirdcoast
 DTSTAMP:20261203T000000Z
 DTSTART:20261203T033000Z
 DTEND:20261203T043000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Eric W. and Brandon W.
+SUMMARY:vs Eric W. and Brandon W.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 7 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  0909&program=5221493
@@ -52,7 +32,7 @@ UID:14503578-25371946@thirdcoast
 DTSTAMP:20261210T000000Z
 DTSTART:20261210T023000Z
 DTEND:20261210T033000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Dane R. and Carson S.
+SUMMARY:vs Dane R. and Carson S.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 1 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  1711&program=5221493
@@ -62,7 +42,7 @@ UID:14503579-25371946@thirdcoast
 DTSTAMP:20261210T000000Z
 DTSTART:20261210T033000Z
 DTEND:20261210T043000Z
-SUMMARY:Wednesday Mens 2s AA Mini League — vs Blake C. and Leo Y.
+SUMMARY:vs Blake C. and Leo Y.
 LOCATION:Third Coast Volleyball\, 5652 Forney Dr\, Houston\, TX 77036
 DESCRIPTION:Court 6 · Wednesday Mens 2s AA Mini League\nteam.html?team=824
  5676&program=5221493

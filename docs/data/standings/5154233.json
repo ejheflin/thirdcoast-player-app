@@ -6,11 +6,11 @@
       "position": 1,
       "teamId": 8148465,
       "teamName": "1. Olivia E. and Jason O.",
-      "gamesPlayed": 14,
-      "wins": 11,
+      "gamesPlayed": 16,
+      "wins": 12,
       "losses": 1,
-      "ties": 2,
-      "points": 24
+      "ties": 3,
+      "points": 27
     },
     {
       "position": 2,
@@ -26,11 +26,11 @@
       "position": 3,
       "teamId": 8148569,
       "teamName": "2. Holli D. and Dan L.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 7,
       "losses": 2,
-      "ties": 4,
-      "points": 18
+      "ties": 5,
+      "points": 19
     },
     {
       "position": 4,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8182699,
       "teamName": "9. Vanessa M. and Miguel M.",
-      "gamesPlayed": 12,
+      "gamesPlayed": 13,
       "wins": 0,
-      "losses": 11,
+      "losses": 12,
       "ties": 1,
       "points": 1
     },
