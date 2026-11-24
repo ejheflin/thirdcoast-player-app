@@ -1260,6 +1260,42 @@
           "score": 2
         }
       ]
+    },
+    {
+      "activityId": 14212062,
+      "date": "2026-11-23",
+      "teams": [
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8179782,
+          "teamName": "8. Cat H. and Deanna V.",
+          "result": "draw",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "activityId": 14212064,
+      "date": "2026-11-23",
+      "teams": [
+        {
+          "teamId": 8186968,
+          "teamName": "2. Annie J. and Anna C.",
+          "result": "loss",
+          "score": 0
+        },
+        {
+          "teamId": 8178867,
+          "teamName": "4. Fran R. and Kat H.",
+          "result": "win",
+          "score": 2
+        }
+      ]
     }
   ]
 }

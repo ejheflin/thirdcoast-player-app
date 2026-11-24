@@ -56,9 +56,9 @@
       "position": 6,
       "teamId": 8153555,
       "teamName": "2. Big Dig Energy (Chad S.)",
-      "gamesPlayed": 15,
+      "gamesPlayed": 16,
       "wins": 4,
-      "losses": 4,
+      "losses": 5,
       "ties": 7,
       "points": 15
     },
@@ -74,22 +74,22 @@
     },
     {
       "position": 8,
+      "teamId": 8164233,
+      "teamName": "10. Carpe Digem (Eric H.)",
+      "gamesPlayed": 16,
+      "wins": 4,
+      "losses": 9,
+      "ties": 3,
+      "points": 11
+    },
+    {
+      "position": 9,
       "teamId": 8148116,
       "teamName": "5. Shank You Very Much (Jaimie M.)",
       "gamesPlayed": 16,
       "wins": 4,
       "losses": 11,
       "ties": 1,
-      "points": 9
-    },
-    {
-      "position": 9,
-      "teamId": 8164233,
-      "teamName": "10. Carpe Digem (Eric H.)",
-      "gamesPlayed": 15,
-      "wins": 3,
-      "losses": 9,
-      "ties": 3,
       "points": 9
     },
     {

@@ -20,6 +20,12 @@
   {
     "programId": 5154233,
     "programName": "Monday Coed 2s B",
+    "teamId": 8148865,
+    "teamName": "4. Jodie N. and Joel G."
+  },
+  {
+    "programId": 5154233,
+    "programName": "Monday Coed 2s B",
     "teamId": 8170440,
     "teamName": "8. Jenny S. and Nate G."
   },
@@ -28,12 +34,6 @@
     "programName": "Monday Coed 2s B",
     "teamId": 8171251,
     "teamName": "6. Ellie B. and Matt G."
-  },
-  {
-    "programId": 5154233,
-    "programName": "Monday Coed 2s B",
-    "teamId": 8148865,
-    "teamName": "4. Jodie N. and Joel G."
   },
   {
     "programId": 5154233,
@@ -176,6 +176,12 @@
   {
     "programId": 5172413,
     "programName": "Monday Womens 2s Pop Up",
+    "teamId": 8178867,
+    "teamName": "4. Fran R. and Kat H."
+  },
+  {
+    "programId": 5172413,
+    "programName": "Monday Womens 2s Pop Up",
     "teamId": 8178846,
     "teamName": "7. Mili V. and Tiffany S."
   },
@@ -184,12 +190,6 @@
     "programName": "Monday Womens 2s Pop Up",
     "teamId": 8178840,
     "teamName": "10. Julia V. and Beth B."
-  },
-  {
-    "programId": 5172413,
-    "programName": "Monday Womens 2s Pop Up",
-    "teamId": 8178867,
-    "teamName": "4. Fran R. and Kat H."
   },
   {
     "programId": 5172413,
@@ -320,14 +320,14 @@
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8148116,
-    "teamName": "5. Shank You Very Much (Jaimie M.)"
+    "teamId": 8164233,
+    "teamName": "10. Carpe Digem (Eric H.)"
   },
   {
     "programId": 5148510,
     "programName": "Tuesday Coed 4s B",
-    "teamId": 8164233,
-    "teamName": "10. Carpe Digem (Eric H.)"
+    "teamId": 8148116,
+    "teamName": "5. Shank You Very Much (Jaimie M.)"
   },
   {
     "programId": 5148510,

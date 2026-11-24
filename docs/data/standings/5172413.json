@@ -14,6 +14,16 @@
     },
     {
       "position": 2,
+      "teamId": 8178867,
+      "teamName": "4. Fran R. and Kat H.",
+      "gamesPlayed": 16,
+      "wins": 8,
+      "losses": 3,
+      "ties": 5,
+      "points": 19
+    },
+    {
+      "position": 3,
       "teamId": 8178846,
       "teamName": "7. Mili V. and Tiffany S.",
       "gamesPlayed": 16,
@@ -23,7 +33,7 @@
       "points": 20
     },
     {
-      "position": 3,
+      "position": 4,
       "teamId": 8178840,
       "teamName": "10. Julia V. and Beth B.",
       "gamesPlayed": 14,
@@ -31,16 +41,6 @@
       "losses": 2,
       "ties": 6,
       "points": 18
-    },
-    {
-      "position": 4,
-      "teamId": 8178867,
-      "teamName": "4. Fran R. and Kat H.",
-      "gamesPlayed": 14,
-      "wins": 7,
-      "losses": 3,
-      "ties": 4,
-      "points": 16
     },
     {
       "position": 5,
@@ -56,11 +56,11 @@
       "position": 6,
       "teamId": 8179782,
       "teamName": "8. Cat H. and Deanna V.",
-      "gamesPlayed": 13,
+      "gamesPlayed": 14,
       "wins": 6,
       "losses": 3,
-      "ties": 4,
-      "points": 16
+      "ties": 5,
+      "points": 17
     },
     {
       "position": 7,
@@ -86,9 +86,9 @@
       "position": 9,
       "teamId": 8186968,
       "teamName": "2. Annie J. and Anna C.",
-      "gamesPlayed": 14,
+      "gamesPlayed": 15,
       "wins": 2,
-      "losses": 11,
+      "losses": 12,
       "ties": 1,
       "points": 5
     },
