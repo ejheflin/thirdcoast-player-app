@@ -1386,6 +1386,24 @@
           "score": 0
         }
       ]
+    },
+    {
+      "activityId": 14205858,
+      "date": "2026-11-23",
+      "teams": [
+        {
+          "teamId": 8160698,
+          "teamName": "6. Settin Pretty (Elizabeth A.)",
+          "result": "draw",
+          "score": 1
+        },
+        {
+          "teamId": 8190678,
+          "teamName": "10. Free Agents (Jason T.)",
+          "result": "draw",
+          "score": 1
+        }
+      ]
     }
   ]
 }
